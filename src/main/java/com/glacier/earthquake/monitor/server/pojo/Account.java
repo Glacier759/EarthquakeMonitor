@@ -1,6 +1,6 @@
 package com.glacier.earthquake.monitor.server.pojo;
 
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * Created by glacier on 15-5-1.

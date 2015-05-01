@@ -1,7 +1,9 @@
 package com.glacier.earthquake.monitor.server.util;
 
 import com.glacier.earthquake.monitor.server.pojo.Account;
-import com.glacier.earthquake.monitor.server.pojo.Filter;
+import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
+import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
+import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -53,10 +55,38 @@ public class Data2Object {
         return null;
     }
 
-    public static List<String> filterRules() {
+    public static List<FilterDisaster> filterRulesDisaster() {
         try {
             init();
-            List<String> filterRules = mapper.getFilterRules();
+            List<FilterDisaster> filterRules = mapper.getFilterRulesDisaster();
+            session.commit();
+            return filterRules;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return null;
+    }
+
+    public static List<FilterPublicSentiment> filterRulesPubSentiment() {
+        try {
+            init();
+            List<FilterPublicSentiment> filterRules = mapper.getFilterRulesPubSentiment();
+            session.commit();
+            return filterRules;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return null;
+    }
+
+    public static List<FilterWhiteList> filterRulesWhiteList() {
+        try {
+            init();
+            List<FilterWhiteList> filterRules = mapper.getFilterRulesWhiteList();
             session.commit();
             return filterRules;
         }catch (Exception e) {

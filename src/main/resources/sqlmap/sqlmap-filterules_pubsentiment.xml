@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.glacier.earthquake.monitor.server.util.MysqlOperation">
+
+    <resultMap id="filter_pubsentiment" type="FilterPublicSentiment">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="matcher" property="matcher"/>
+        <result column="unexist" property="unexist"/>
+        <result column="create_date" property="createDate"/>
+    </resultMap>
+
+    <select id="getFilterRulesPubSentiment" resultMap="filter_pubsentiment">
+        SELECT * FROM filter_rules_pubsentiment;
+    </select>
+
+    <update id="setFilterRulesPubSentiment" parameterType="FilterPublicSentiment">
+        UPDATE filter_rules_pubsentiment SET name = #{name}, matcher = #{matcher}, unexist = #{unexist} WHERE id = #{id};
+    </update>
+
+    <delete id="delFilterRulesPubSentiment" parameterType="FilterPublicSentiment">
+        DELETE FROM filter_rules_pubsentiment WHERE id = #{id};
+    </delete>
+
+    <insert id="addFilterRulesPubSentiment" parameterType="FilterPublicSentiment">
+        INSERT INTO filter_rules_pubsentiment(name, matcher, unexist) VALUES(#{name}, #{matcher}, #{unexist});
+    </insert>
+
+</mapper>
