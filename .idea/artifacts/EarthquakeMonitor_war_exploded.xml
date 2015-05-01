@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="EarthquakeMonitor:war exploded">
+    <output-path>$PROJECT_DIR$/target/EarthquakeMonitor</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="EarthquakeMonitor" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.1.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.7.2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.1.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.1.2" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/EarthquakeMonitor/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="EarthquakeMonitor/web/Web" />
+    </root>
+  </artifact>
+</component>
