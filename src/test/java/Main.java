@@ -2,9 +2,12 @@
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
 import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
+import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
 
+import java.net.URI;
+import java.net.URL;
 import java.util.List;
 
 /**
@@ -13,23 +16,14 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        List<FilterDisaster> filterDisasters = Data2Object.filterRulesDisaster();
 
-        FilterDisaster disaster = new FilterDisaster();
-        disaster.setFilterRule("这是一条过滤规则");
-        System.out.println(disaster);
-        Object2Data.addFilterRulesDisaster(disaster);
+        User user = Data2Object.getUserInfoByEmail("glacier@xiyoulinux.org");
+        System.out.println(user);
+        user = Data2Object.getUserInfoByMobile("13289212979");
+        System.out.println(user);
+        user = Data2Object.getUserInfoByUID(1);
+        System.out.println(user);
 
-        for ( FilterDisaster filterDisaster : filterDisasters ) {
-            System.out.println(filterDisaster);
-            if ( filterDisaster.getId() == 1 ) {
-                filterDisaster.setFilterRule("过滤规则被修改ulead");
-                Object2Data.setFilterRulesDisaster(filterDisaster);
-            }
-            if ( filterDisaster.getId() > 2 ) {
-                Object2Data.delFilterRulesDisaster(filterDisaster);
-            }
-        }
     }
 
 }

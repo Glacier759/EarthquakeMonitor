@@ -1,9 +1,6 @@
 package com.glacier.earthquake.monitor.server.util;
 
-import com.glacier.earthquake.monitor.server.pojo.Account;
-import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
-import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
-import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
+import com.glacier.earthquake.monitor.server.pojo.*;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -97,4 +94,45 @@ public class Data2Object {
         return null;
     }
 
+    public static User getUserInfoByEmail(String email) {
+        try {
+            init();
+            User user = mapper.getUserInfoByEmail(email);
+            session.commit();
+            return user;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return null;
+    }
+
+    public static User getUserInfoByMobile(String mobile) {
+        try {
+            init();
+            User user = mapper.getUserInfoByMobile(mobile);
+            session.commit();
+            return user;
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return null;
+    }
+
+    public static User getUserInfoByUID(int uid) {
+        try {
+            init();
+            User user = mapper.getUserInfoByUID(uid);
+            session.commit();
+            return user;
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return null;
+    }
 }

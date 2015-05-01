@@ -1,9 +1,6 @@
 package com.glacier.earthquake.monitor.server.util;
 
-import com.glacier.earthquake.monitor.server.pojo.Account;
-import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
-import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
-import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
+import com.glacier.earthquake.monitor.server.pojo.*;
 
 import java.util.List;
 
@@ -39,5 +36,11 @@ public interface MysqlOperation {
     public void delFilterRulesDisaster(FilterDisaster filterDisaster);
 
     public void addFilterRulesDisaster(FilterDisaster filterDisaster);
+
+    public User getUserInfoByEmail(String email);
+
+    public User getUserInfoByMobile(String mobile);
+
+    public User getUserInfoByUID(int uid);
 
 }
