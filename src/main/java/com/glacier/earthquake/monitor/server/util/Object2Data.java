@@ -1,9 +1,6 @@
 package com.glacier.earthquake.monitor.server.util;
 
-import com.glacier.earthquake.monitor.server.pojo.Account;
-import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
-import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
-import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
+import com.glacier.earthquake.monitor.server.pojo.*;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -144,6 +141,42 @@ public class Object2Data {
         try {
             init();
             mapper.addFilterRulesDisaster(filterRulesDisaster);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+    }
+
+    public static void modifyUserInfo(User user) {
+        try {
+            init();
+            mapper.modifyUserInfo(user);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+    }
+
+    public static void addUser(User user) {
+        try {
+            init();
+            mapper.addUser(user);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+    }
+
+    public static void delUser(User user) {
+        try {
+            init();
+            mapper.delUser(user);
             session.commit();
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

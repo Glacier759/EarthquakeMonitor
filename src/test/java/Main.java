@@ -1,4 +1,5 @@
 
+import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
 import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
@@ -17,13 +18,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        User user = Data2Object.getUserInfoByEmail("glacier@xiyoulinux.org");
+        User user = UserMonitor.checkPassword("glacier@xiyoulinux.org", "private info");
         System.out.println(user);
-        user = Data2Object.getUserInfoByMobile("13289212979");
+        UserMonitor userMonitor = new UserMonitor(user);
+        user.setMobile("13289212979");
         System.out.println(user);
-        user = Data2Object.getUserInfoByUID(1);
-        System.out.println(user);
-
+        userMonitor.modifyUserInfo(user);
+        User addUser = new User("戴着眼镜的马甲", "spider@xiyoulinux.org", "133333333333", "password_lalala");
+        userMonitor.addUser(addUser);
+        System.out.println(userMonitor.isExistUser(addUser));
+        userMonitor.delUser(addUser);
+        System.out.println(userMonitor.isExistUser(addUser));
     }
 
 }

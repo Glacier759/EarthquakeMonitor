@@ -135,4 +135,33 @@ public class Data2Object {
         }
         return null;
     }
+
+    public static User checkPassword(User user) {
+        try {
+            init();
+            user = mapper.checkPassword(user);
+            session.commit();
+            return user;
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return null;
+    }
+
+    public static boolean isExistUser(User user) {
+        try {
+            init();
+            user = mapper.isExistUser(user);
+            if (user != null) {
+                return true;
+            }
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return false;
+    }
 }

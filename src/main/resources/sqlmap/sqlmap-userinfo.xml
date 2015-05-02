@@ -24,8 +24,27 @@
         SELECT * FROM user_info WHERE uid = #{uid};
     </select>
 
-    <select id="checkPassword" parameterType="User" resultMap="User">
+    <select id="checkPassword" parameterType="User" resultMap="userinfo">
         SELECT * FROM user_info WHERE (email = #{email} OR mobile = #{mobile}) AND password = #{password};
+    </select>
+    
+    <update id="modifyUserInfo" parameterType="User">
+        UPDATE user_info SET nickname = #{nickname}, email = #{email}, mobile = #{mobile},
+                             password = #{password}, privilege = #{privilege}, create_date = now()
+                             WHERE uid = #{uid};
+    </update>
+
+    <insert id="addUser" parameterType="User">
+        INSERT INTO user_info( nickname, email, mobile, password, privilege )
+                    VALUES( #{nickname}, #{email}, #{mobile}, #{password}, #{privilege} );
+    </insert>
+
+    <delete id="delUser" parameterType="User">
+        DELETE FROM user_info WHERE (uid = #{uid} OR email = #{email} OR mobile = #{mobile});
+    </delete>
+
+    <select id="isExistUser" parameterType="User" resultMap="userinfo">
+        SELECT * FROM user_info WHERE (email = #{email} OR mobile = #{mobile});
     </select>
 
 </mapper>

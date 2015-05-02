@@ -6,9 +6,6 @@ import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-import java.net.URL;
 import java.util.List;
 
 import java.util.regex.Matcher;

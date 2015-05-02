@@ -10,6 +10,18 @@ public class User {
     private String nickname, email, mobile;
     private int uid, privilege;
     private Date createDate;
+    private String password;
+
+    public User() {
+
+    }
+
+    public User(String nickname, String email, String mobile, String password) {
+        this.nickname = nickname;
+        this.email = email;
+        this.mobile = mobile;
+        this.password = password;
+    }
 
     public String getNickname() {
         return nickname;
@@ -57,6 +69,14 @@ public class User {
 
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override

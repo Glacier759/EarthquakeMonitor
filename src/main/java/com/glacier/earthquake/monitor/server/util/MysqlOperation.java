@@ -43,4 +43,14 @@ public interface MysqlOperation {
 
     public User getUserInfoByUID(int uid);
 
+    public User checkPassword(User user);
+
+    public void modifyUserInfo(User user);
+
+    public void addUser(User user);
+
+    public void delUser(User user);
+
+    public User isExistUser(User user);
+
 }
