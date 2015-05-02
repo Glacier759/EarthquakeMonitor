@@ -55,4 +55,14 @@ public interface MysqlOperation {
 
     public List<SpiderInfo> getSpiderInfoList();
 
+    public List<SpiderInfo> getSpiderInfos_Type(int type);
+
+    public List<SpiderInfo> getSpiderInfos_TypeAndStatus(SpiderInfo spiderInfo);
+
+    public void approvedThrough(SpiderInfo spiderInfo);
+
+    public void insertSpiderInfo(SpiderInfo spiderInfo);
+
+    public void deleteSpiderInfo(SpiderInfo spiderInfo);
+
 }

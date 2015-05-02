@@ -185,4 +185,40 @@ public class Object2Data {
         }
     }
 
+    public static void approvedThrough(SpiderInfo spiderInfo) {
+        try {
+            init();
+            mapper.approvedThrough(spiderInfo);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+    }
+
+    public static void insertSpiderInfo(SpiderInfo spiderInfo) {
+        try {
+            init();
+            mapper.insertSpiderInfo(spiderInfo);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+    }
+
+    public static void deleteSpiderInfo(SpiderInfo spiderInfo) {
+        try {
+            init();
+            mapper.deleteSpiderInfo(spiderInfo);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+    }
+
 }

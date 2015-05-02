@@ -29,14 +29,5 @@
         UPDATE spider_information SET status = '1' WHERE id = #{id};
     </update>
 
-    <insert id="insertSpiderInfo" parameterType="SpiderInfo">
-        INSERT INTO spider_information( url, title, source, type, rule_id, status )
-                                VALUES( #{url}, #{title}, #{source}, #{type}, #{rule_id}, #{status} );
-    </insert>
-
-    <delete id="deleteSpiderInfo" parameterType="SpiderInfo">
-        DELETE FROM spider_information WHERE id = #{id};
-    </delete>
-
 
 </mapper>

@@ -10,7 +10,10 @@ public class SpiderInfo {
     public static final int FILTER_DISASTER = 0;
     public static final int FILTER_PUBSENTIMENT = 1;
 
-    private int id, rule_id, type;
+    public static final int INFO_APPROVED = 1;
+    public static final int INFO_NOTAPPROVED = 0;
+
+    private int id, rule_id, type, status;
     private String url, title, source;
     private Date create_date;
 
@@ -68,5 +71,27 @@ public class SpiderInfo {
 
     public void setCreate_date(Date create_date) {
         this.create_date = create_date;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "SpiderInfo{" +
+                "id=" + id +
+                ", rule_id=" + rule_id +
+                ", type=" + type +
+                ", status=" + status +
+                ", url='" + url + '\'' +
+                ", title='" + title + '\'' +
+                ", source='" + source + '\'' +
+                ", create_date=" + create_date +
+                '}';
     }
 }
