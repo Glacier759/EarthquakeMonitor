@@ -3063,3 +3063,6 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException:
 2015-05-02 21:04:01 [INFO] - [匹配成功] - 获得一条新数据 ID: M_xq9pB1zgj {com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.Crawler.parseWeibo(Crawler.java:136)}
 2015-05-02 21:04:01 [INFO] - [匹配成功] - 获得一条新数据 ID: M_xpyYib77G {com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.Crawler.parseWeibo(Crawler.java:136)}
 2015-05-02 21:04:01 [INFO] - [匹配成功] - 获得一条新数据 ID: M_xopDStb3w {com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.Crawler.parseWeibo(Crawler.java:136)}
+2015-05-02 21:19:33 [INFO] - [Login] '1498781360@qq.com' 正在登陆... {com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.Login.login(Login.java:52)}
+2015-05-02 21:19:36 [INFO] - [login] '1498781360@qq.com' 登陆成功! {com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.Login.login(Login.java:104)}
+2015-05-02 21:19:36 [INFO] - [微博搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.WeiboCrawler.searchDocument(WeiboCrawler.java:60)}

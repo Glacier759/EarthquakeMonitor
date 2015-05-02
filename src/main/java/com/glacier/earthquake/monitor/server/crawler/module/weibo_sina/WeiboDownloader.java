@@ -26,7 +26,7 @@ public class WeiboDownloader extends Downloader {
     public static Document reLogin() {
         try {
             //更换账号登陆并设置WeiboDownloader浏览器
-            setClient(Crawler.login.login(Data2Object.account("weibo")));
+            setClient(WeiboCrawler.login.login(Data2Object.account("weibo")));
             return document(last_url, HTTP_GET);
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

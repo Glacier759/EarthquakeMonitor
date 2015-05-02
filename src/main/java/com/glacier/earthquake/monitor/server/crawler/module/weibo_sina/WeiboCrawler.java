@@ -1,9 +1,7 @@
 package com.glacier.earthquake.monitor.server.crawler.module.weibo_sina;
 
 import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
-import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
-import com.glacier.earthquake.monitor.server.configure.user.SpiderInfoMonitor;
-import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
+import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
@@ -21,11 +19,12 @@ import java.util.List;
 /**
  * Created by glacier on 15-5-2.
  */
-public class Crawler {
+public class WeiboCrawler extends Crawler {
 
-    public static Logger logger = Logger.getLogger(Crawler.class.getName());
+    public static Logger logger = Logger.getLogger(WeiboCrawler.class.getName());
     public static Login login = new Login();
 
+    @Override
     public void start() {
 
         //登陆模块
@@ -40,7 +39,7 @@ public class Crawler {
             String filterRule = disaster.getFilterRule();
             String searchKey = filterRule.replace('*', ' ');
             //使用该key在微博搜索中使用
-            Document document = searchDocument(searchKey);
+            Document document = search(searchKey);
             //判断抓取的地址是否在白名单中，在的就不管了continue
             if (JudgeFilter.isMeetWhiteList(document.baseUri())) {
                 continue;
@@ -48,7 +47,7 @@ public class Crawler {
             //以此取出微博正文内容再次确认是否满足过滤规则
             //满足条件的将直接存储在数据库中
             logger.info("[Filter] - 当前过滤规则为 " + filterRule);
-            parseWeibo(document, filterRule.split("\\*"), disaster.getId(), SpiderInfo.FILTER_DISASTER);
+            parse(document, filterRule.split("\\*"), disaster.getId(), SpiderInfo.FILTER_DISASTER);
         }
     }
 
@@ -57,7 +56,7 @@ public class Crawler {
      * @param key 需要检索的关键字
      * @return 经过微博搜索该关键字得到的document文档树
      * */
-    private Document searchDocument(String key) {
+    private Document search(String key) {
         try {
             logger.info("[微博搜索] - 搜索关键字为 " + key);
             key = key.replace(" ", "%20");
@@ -71,7 +70,7 @@ public class Crawler {
         return null;
     }
 
-    private void parseWeibo(Document document, String[] keywords, int ruleID, int type) {
+    private void parse(Document document, String[] keywords, int ruleID, int type) {
         try {
             logger.info("[解析] 正在获取搜索结果微博...");
             Element maxPageEle = document.select("input[type=hidden]").first();

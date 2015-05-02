@@ -6,6 +6,8 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.params.CookiePolicy;
+import org.apache.http.conn.ssl.AllowAllHostnameVerifier;
+import org.apache.http.conn.ssl.SSLSocketFactory;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.CoreConnectionPNames;
 import org.apache.http.params.CoreProtocolPNames;
@@ -36,6 +38,7 @@ public class Downloader {
      * */
     public static void setClient(DefaultHttpClient client) {
         httpClient = client;
+
     }
 
     /**
@@ -112,7 +115,9 @@ public class Downloader {
                 buffer.append(temp);
             }
         }catch (Exception e) {
-            e.printStackTrace();
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
         }
         return StringUtils.full2half(buffer.toString());
     }
