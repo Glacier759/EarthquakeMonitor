@@ -9,6 +9,7 @@
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment" alias="FilterPublicSentiment" />
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.FilterWhiteList" alias="FilterWhiteList" />
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.User" alias="User" />
+        <typeAlias type="com.glacier.earthquake.monitor.server.pojo.SpiderInfo" alias="SpiderInfo" />
     </typeAliases>
 
     <environments default="development">
@@ -29,6 +30,7 @@
         <mapper resource="sqlmap/sqlmap-filterules_pubsentiment.xml" />
         <mapper resource="sqlmap/sqlmap-filterules_whitelist.xml" />
         <mapper resource="sqlmap/sqlmap-userinfo.xml" />
+        <mapper resource="sqlmap/sqlmap-crawler.xml" />
     </mappers>
 
 </configuration>

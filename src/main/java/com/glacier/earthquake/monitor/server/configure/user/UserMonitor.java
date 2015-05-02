@@ -88,4 +88,20 @@ public class UserMonitor {
         return Data2Object.isExistUser(existUser);
     }
 
+    public static User getUserInfoByMobile(String mobile) {
+        return Data2Object.getUserInfoByMobile(mobile);
+    }
+
+    public static User getUserInfoByEmail(String email) {
+        return Data2Object.getUserInfoByEmail(email);
+    }
+
+    public static User getUserInfoByUID(int uid) {
+        return Data2Object.getUserInfoByUID(uid);
+    }
+
+    public FilterRuleMonitor getFilterRuleMonitor() {
+        return new FilterRuleMonitor(this.user);
+    }
+
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.glacier.earthquake.monitor.server.util.MysqlOperation">
+    <resultMap id="spider_info" type="SpiderInfo">
+        <result column="id" property="id" />
+        <result column="url" property="url" />
+        <result column="title" property="title" />
+        <result column="source" property="source" />
+        <result column="type" property="type" />
+        <result column="rule_id" property="rule_id" />
+        <result column="create_date" property="create_date" />
+    </resultMap>
+
+    <select id="getSpiderInfoList" resultMap="spider_info">
+        SELECT * FROM spider_information;
+    </select>
+
+</mapper>

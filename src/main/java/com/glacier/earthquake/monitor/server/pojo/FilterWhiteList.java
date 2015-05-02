@@ -34,4 +34,13 @@ public class FilterWhiteList {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    @Override
+    public String toString() {
+        return "FilterWhiteList{" +
+                "url='" + url + '\'' +
+                ", id=" + id +
+                ", date=" + date +
+                '}';
+    }
 }

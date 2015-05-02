@@ -1,4 +1,5 @@
 
+import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
@@ -17,18 +18,22 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-
         User user = UserMonitor.checkPassword("glacier@xiyoulinux.org", "private info");
-        System.out.println(user);
         UserMonitor userMonitor = new UserMonitor(user);
-        user.setMobile("13289212979");
-        System.out.println(user);
-        userMonitor.modifyUserInfo(user);
-        User addUser = new User("戴着眼镜的马甲", "spider@xiyoulinux.org", "133333333333", "password_lalala");
-        userMonitor.addUser(addUser);
-        System.out.println(userMonitor.isExistUser(addUser));
-        userMonitor.delUser(addUser);
-        System.out.println(userMonitor.isExistUser(addUser));
+        System.out.println("login success.");
+        FilterRuleMonitor filterRuleMonitor = userMonitor.getFilterRuleMonitor();
+        System.out.println("Filter Disaster.");
+        for ( FilterDisaster filterDisaster : filterRuleMonitor.getRuleDisasterList() ) {
+            System.out.println(filterDisaster);
+        }
+        System.out.println("Filter White List");
+        for ( FilterWhiteList filterWhiteList : filterRuleMonitor.getRuleWhiteLists() ) {
+            System.out.println(filterWhiteList);
+        }
+        System.out.println("Filter Public Sentiment.");
+        for ( FilterPublicSentiment publicSentiment : filterRuleMonitor.getRulePubSentimentList() ) {
+            System.out.println(publicSentiment);
+        }
     }
 
 }

@@ -164,4 +164,18 @@ public class Data2Object {
         }
         return false;
     }
+
+    public static List<SpiderInfo> getSpiderInfoList() {
+        try {
+            init();
+            List<SpiderInfo> spiderInfos = mapper.getSpiderInfoList();
+            session.commit();
+            return spiderInfos;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return null;
+    }
 }

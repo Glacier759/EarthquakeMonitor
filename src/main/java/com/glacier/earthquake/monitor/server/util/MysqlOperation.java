@@ -53,4 +53,6 @@ public interface MysqlOperation {
 
     public User isExistUser(User user);
 
+    public List<SpiderInfo> getSpiderInfoList();
+
 }
