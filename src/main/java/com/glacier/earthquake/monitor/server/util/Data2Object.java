@@ -23,7 +23,7 @@ public class Data2Object {
     private static SqlSession session;
     private static MysqlOperation mapper;
 
-    private static void init() {
+    static {
         try {
             reader = Resources.getResourceAsReader("mybatis.xml");
             sessionFactory = new SqlSessionFactoryBuilder().build(reader);
@@ -38,7 +38,6 @@ public class Data2Object {
 
     public static Account account(String type) {
         try {
-            init();
             Account accounts = mapper.getAccount(type);
             session.commit();
             mapper.updateAccount(accounts);
@@ -54,7 +53,6 @@ public class Data2Object {
 
     public static List<FilterDisaster> filterRulesDisaster() {
         try {
-            init();
             List<FilterDisaster> filterRules = mapper.getFilterRulesDisaster();
             session.commit();
             return filterRules;
@@ -68,7 +66,6 @@ public class Data2Object {
 
     public static List<FilterPublicSentiment> filterRulesPubSentiment() {
         try {
-            init();
             List<FilterPublicSentiment> filterRules = mapper.getFilterRulesPubSentiment();
             session.commit();
             return filterRules;
@@ -82,7 +79,6 @@ public class Data2Object {
 
     public static List<FilterWhiteList> filterRulesWhiteList() {
         try {
-            init();
             List<FilterWhiteList> filterRules = mapper.getFilterRulesWhiteList();
             session.commit();
             return filterRules;
@@ -96,7 +92,6 @@ public class Data2Object {
 
     public static User getUserInfoByEmail(String email) {
         try {
-            init();
             User user = mapper.getUserInfoByEmail(email);
             session.commit();
             return user;
@@ -110,7 +105,6 @@ public class Data2Object {
 
     public static User getUserInfoByMobile(String mobile) {
         try {
-            init();
             User user = mapper.getUserInfoByMobile(mobile);
             session.commit();
             return user;
@@ -124,7 +118,6 @@ public class Data2Object {
 
     public static User getUserInfoByUID(int uid) {
         try {
-            init();
             User user = mapper.getUserInfoByUID(uid);
             session.commit();
             return user;
@@ -138,7 +131,6 @@ public class Data2Object {
 
     public static User checkPassword(User user) {
         try {
-            init();
             user = mapper.checkPassword(user);
             session.commit();
             return user;
@@ -152,7 +144,6 @@ public class Data2Object {
 
     public static boolean isExistUser(User user) {
         try {
-            init();
             user = mapper.isExistUser(user);
             if (user != null) {
                 return true;
@@ -167,7 +158,6 @@ public class Data2Object {
 
     public static List<SpiderInfo> getSpiderInfoList() {
         try {
-            init();
             List<SpiderInfo> spiderInfos = mapper.getSpiderInfoList();
             session.commit();
             return spiderInfos;
@@ -181,8 +171,7 @@ public class Data2Object {
 
     public static List<SpiderInfo> getSpiderInfos_Type(int type) {
         try {
-            init();
-            List<SpiderInfo> spiderInfos = mapper.getSpiderInfoList();
+            List<SpiderInfo> spiderInfos = mapper.getSpiderInfos_Type(type);
             session.commit();
             return spiderInfos;
         }catch (Exception e) {
@@ -195,7 +184,6 @@ public class Data2Object {
 
     public static List<SpiderInfo> getSpiderInfos_TypeAndStatus(SpiderInfo spiderInfo) {
         try {
-            init();
             List<SpiderInfo> spiderInfos = mapper.getSpiderInfoList();
             session.commit();
         }catch (Exception e) {
@@ -205,7 +193,5 @@ public class Data2Object {
         }
         return null;
     }
-
-    
 
 }

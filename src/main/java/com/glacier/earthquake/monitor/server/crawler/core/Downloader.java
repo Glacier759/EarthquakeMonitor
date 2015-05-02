@@ -28,6 +28,8 @@ public class Downloader {
     public static final int HTTP_GET = 0;
     public static final int HTTP_POST = 1;
 
+    public static String last_url = null;
+
     /**
      * 设置Downloader模块所需的HttpClient
      * @param client 经过登陆操作返回的HttpClient
@@ -42,9 +44,9 @@ public class Downloader {
      * @param method 访问该地址需要使用的HTTP请求方法
      * @return 返回获取得到的Document文档树
      * */
-    public Document doucment(String url, int method) {
+    public static Document document(String url, int method) {
         try {
-
+            last_url = url;
             HttpResponse response = null;
             if ( method == HTTP_GET ) {
                 HttpGet httpGet = new HttpGet(url);
@@ -82,6 +84,8 @@ public class Downloader {
             Document document = Jsoup.parse(getContent(entity, "UTF-8"));
             document.setBaseUri(url);   //设置document的来源地址
 
+            document = document_method(document);
+
             return document;
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -111,6 +115,10 @@ public class Downloader {
             e.printStackTrace();
         }
         return StringUtils.full2half(buffer.toString());
+    }
+
+    public static Document document_method(Document document) {
+        return document;
     }
 
 }

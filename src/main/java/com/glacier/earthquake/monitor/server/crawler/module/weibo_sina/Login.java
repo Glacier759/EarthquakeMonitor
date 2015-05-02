@@ -1,4 +1,4 @@
-package com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.login;
+package com.glacier.earthquake.monitor.server.crawler.module.weibo_sina;
 
 import com.glacier.earthquake.monitor.server.pojo.Account;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
@@ -63,7 +63,12 @@ public class Login {
             //构造传输参数集合
             List<NameValuePair> nvps = new ArrayList<NameValuePair>();
             nvps.add(new BasicNameValuePair("mobile", username));
-            nvps.add(new BasicNameValuePair("password_" + loginVK.substring(0, 4), password));
+            try {
+                nvps.add(new BasicNameValuePair("password_" + loginVK.substring(0, 4), password));
+            }catch (Exception e) {
+                logger.error("[Exception] - loginVK: " + loginVK);
+                logger.error("[Exception] - HTML:\n" + document.toString());
+            }
             nvps.add(new BasicNameValuePair("remember", "on"));
             nvps.add(new BasicNameValuePair("backURL", loginBackURL));
             nvps.add(new BasicNameValuePair("backTitle", loginBackTitle));

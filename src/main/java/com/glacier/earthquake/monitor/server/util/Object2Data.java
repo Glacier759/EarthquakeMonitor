@@ -22,7 +22,7 @@ public class Object2Data {
     private static SqlSession session;
     private static MysqlOperation mapper;
 
-    private static void init() {
+    static {
         try {
             reader = Resources.getResourceAsReader("mybatis.xml");
             sessionFactory = new SqlSessionFactoryBuilder().build(reader);
@@ -37,7 +37,6 @@ public class Object2Data {
 
     public static void setFilterWhiteList(FilterWhiteList filterWhiteList) {
         try {
-            init();
             mapper.setFilterRulesWhite(filterWhiteList);
             session.commit();
         }catch (Exception e) {
@@ -49,7 +48,6 @@ public class Object2Data {
 
     public static void delFilterWhiteList(FilterWhiteList filterWhiteList) {
         try {
-            init();
             mapper.delFilterRulesWhite(filterWhiteList);
             session.commit();
         }catch (Exception e) {
@@ -67,7 +65,6 @@ public class Object2Data {
 
     public static void addFilterRulesWhite(FilterWhiteList filterWhiteList) {
         try {
-            init();
             mapper.addFilterRulesWhite(filterWhiteList);
             session.commit();
         }catch (Exception e) {
@@ -79,7 +76,6 @@ public class Object2Data {
 
     public static void setFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment) {
         try {
-            init();
             mapper.setFilterRulesPubSentiment(filterRulesPubSentiment);
             session.commit();
         }catch (Exception e) {
@@ -91,7 +87,6 @@ public class Object2Data {
 
     public static void delFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment) {
         try {
-            init();
             mapper.delFilterRulesPubSentiment(filterRulesPubSentiment);
             session.commit();
         }catch (Exception e) {
@@ -103,7 +98,6 @@ public class Object2Data {
 
     public static void addFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment) {
         try {
-            init();
             mapper.addFilterRulesPubSentiment(filterRulesPubSentiment);
             session.commit();
         }catch (Exception e) {
@@ -115,7 +109,6 @@ public class Object2Data {
 
     public static void setFilterRulesDisaster(FilterDisaster filterRulesDisaster) {
         try {
-            init();
             mapper.setFilterRulesDisaster(filterRulesDisaster);
             session.commit();
         }catch (Exception e) {
@@ -127,7 +120,6 @@ public class Object2Data {
 
     public static void delFilterRulesDisaster(FilterDisaster filterRulesDisaster) {
         try {
-            init();
             mapper.delFilterRulesDisaster(filterRulesDisaster);
             session.commit();
         }catch (Exception e) {
@@ -139,7 +131,6 @@ public class Object2Data {
 
     public static void addFilterRulesDisaster(FilterDisaster filterRulesDisaster) {
         try {
-            init();
             mapper.addFilterRulesDisaster(filterRulesDisaster);
             session.commit();
         }catch (Exception e) {
@@ -151,7 +142,6 @@ public class Object2Data {
 
     public static void modifyUserInfo(User user) {
         try {
-            init();
             mapper.modifyUserInfo(user);
             session.commit();
         }catch (Exception e) {
@@ -163,7 +153,6 @@ public class Object2Data {
 
     public static void addUser(User user) {
         try {
-            init();
             mapper.addUser(user);
             session.commit();
         }catch (Exception e) {
@@ -175,7 +164,6 @@ public class Object2Data {
 
     public static void delUser(User user) {
         try {
-            init();
             mapper.delUser(user);
             session.commit();
         }catch (Exception e) {
@@ -187,7 +175,6 @@ public class Object2Data {
 
     public static void approvedThrough(SpiderInfo spiderInfo) {
         try {
-            init();
             mapper.approvedThrough(spiderInfo);
             session.commit();
         }catch (Exception e) {
@@ -199,7 +186,6 @@ public class Object2Data {
 
     public static void insertSpiderInfo(SpiderInfo spiderInfo) {
         try {
-            init();
             mapper.insertSpiderInfo(spiderInfo);
             session.commit();
         }catch (Exception e) {
@@ -211,7 +197,6 @@ public class Object2Data {
 
     public static void deleteSpiderInfo(SpiderInfo spiderInfo) {
         try {
-            init();
             mapper.deleteSpiderInfo(spiderInfo);
             session.commit();
         }catch (Exception e) {

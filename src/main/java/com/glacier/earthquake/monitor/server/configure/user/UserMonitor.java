@@ -104,4 +104,8 @@ public class UserMonitor {
         return new FilterRuleMonitor(this.user);
     }
 
+    public SpiderInfoMonitor getSpiderInfoMonitor() {
+        return new SpiderInfoMonitor(this.user);
+    }
+
 }

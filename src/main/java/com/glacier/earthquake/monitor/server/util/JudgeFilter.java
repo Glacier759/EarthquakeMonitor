@@ -6,6 +6,7 @@ import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 
+import java.net.URL;
 import java.util.List;
 
 import java.util.regex.Matcher;
@@ -18,22 +19,22 @@ public class JudgeFilter {
 
     public static Logger logger = Logger.getLogger(JudgeFilter.class.getName());
 
-    public static boolean isMeetDisaster(Document document) {
+    public static int isMeetDisaster(Document document) {
 
         List<FilterDisaster> filterDisasters = Data2Object.filterRulesDisaster();
         for ( FilterDisaster filterDisaster : filterDisasters ) {
             String filterRule = filterDisaster.getFilterRule();
-            String[] ruleArray = filterRule.split("*");
+            String[] ruleArray = filterRule.split("\\*");
             boolean ans = true;
             for ( String rule : ruleArray ) {
                 ans = ans && document.text().contains(rule);
             }
-            if ( ans ) {    return ans; }
+            if ( ans ) {    return filterDisaster.getId(); }
         }
-        return false;
+        return 0;
     }
 
-    public static boolean isMeetPublicSentiment(Document document) {
+    public static int isMeetPublicSentiment(Document document) {
 
         List<FilterPublicSentiment> filterPublicSentiments = Data2Object.filterRulesPubSentiment();
         for ( FilterPublicSentiment filterPublicSentiment : filterPublicSentiments ) {
@@ -45,10 +46,10 @@ public class JudgeFilter {
                 for ( String unexist : unexistArray ) {
                     ans = ans && (!document.text().contains(unexist));
                 }
-                if ( ans ) {    return ans; }
+                if ( ans ) {    return filterPublicSentiment.getId(); }
             }
         }
-        return false;
+        return 0;
 
     }
 
