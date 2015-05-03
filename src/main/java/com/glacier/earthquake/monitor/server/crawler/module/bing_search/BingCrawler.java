@@ -102,7 +102,7 @@ public class BingCrawler extends Crawler {
                                 spiderInfo.setType(type);
                                 spiderInfo.setTitle(document_post.title());
                                 spiderInfo.setUrl(document_post.baseUri());
-                                spiderInfo.setSource(document_post.toString());
+                                spiderInfo.setSource(document_post.select("p").text());
                                 //设置好属性后插入数据库
                                 SpiderInfoManager.insertSpiderInfo(spiderInfo);
                                 logger.info("[匹配成功] - 获得一条新数据");

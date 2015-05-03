@@ -9890,3 +9890,158 @@ Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x92\x9D\xC2\
 2015-05-03 21:06:59 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MzA4NzEzMzcwMA==&mid=208054614&idx=1&sn=434b39673f66974c25449e9a196f7054&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
 2015-05-03 21:06:59 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
 2015-05-03 21:06:59 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:17 [INFO] - [微信搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.search(WeixinCrawler.java:58)}
+2015-05-03 21:27:18 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.start(WeixinCrawler.java:51)}
+2015-05-03 21:27:18 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:72)}
+2015-05-03 21:27:18 [INFO] - [解析] - 本页获得搜索结果 0 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:81)}
+2015-05-03 21:27:18 [INFO] - [微信搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.search(WeixinCrawler.java:58)}
+2015-05-03 21:27:18 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.start(WeixinCrawler.java:51)}
+2015-05-03 21:27:18 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:72)}
+2015-05-03 21:27:18 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:81)}
+2015-05-03 21:27:18 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MzA3NzA1NjgzNQ==&mid=200022318&idx=1&sn=7fe2b6641b0f6cb00464a99358749af0&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:18 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:18 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MjM5MDA4OTYyMQ==&mid=200023661&idx=4&sn=204e4d22c56ebc0ff90560a0598b4130&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:18 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:18 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:18 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:18 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MzA5NzMxNzYwMA==&mid=200016644&idx=1&sn=b56d4c8b4f7104e8e38f32fbb374a6b0&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:18 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:18 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:19 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:19 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MjM5NjYwNzU0MA==&mid=200223328&idx=2&sn=9c08eaa595ed4ee20a1811c94b7ba246&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:19 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:19 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:19 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:19 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MzA3NzA1NjgzNQ==&mid=200023970&idx=1&sn=02ea6285e026ef511b1c1296857d3a38&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:19 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:19 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:19 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:19 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MzA5MjMyNDYyOA==&mid=205060371&idx=2&sn=e3f434d2f5f5575022d81265db7f0c99&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:19 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:19 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:19 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:19 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MjM5NjYxOTUyMg==&mid=200147220&idx=1&sn=fa21abb4dd822e7de2a7e171f70d583f&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:19 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:19 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:19 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:19 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDI1MDc4MQ==&appmsgid=10000042&itemidx=1&sign=1d07ca39d6f00ac5f935f2d7bfb24a01&3rd=MzA3MDU4NTYzMw==&scene=6#wechat_redirect {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:19 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:19 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:20 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:20 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MzAwMzEzMjM5MA==&mid=201435105&idx=2&sn=3b15c232d37024a69cd6ee77db8fe561&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:20 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:20 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:20 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:20 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MzA4NjI2MzkyMg==&mid=200221426&idx=1&sn=327aeeec0e7a4e7a0a0a82a73f1606a7&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:20 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:20 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:20 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:20 [INFO] - [翻页] - 获取到下一页: http://weixin.sogou.com/weixin?query=新疆+地震+今晚&type=2&ie=utf-8&page=2 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.next(WeixinCrawler.java:135)}
+2015-05-03 21:27:20 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:81)}
+2015-05-03 21:27:20 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MTE2MjQwNTA2MQ==&mid=200164470&idx=1&sn=0b6539595d730110d2d6982e5ae7e183&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:20 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:20 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:20 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MjM5MzgwMzEwMw==&mid=201390719&idx=1&sn=0d449fa81582cf85aa3e0a88bc1d0d5f&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:20 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:20 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:21 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:21 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MjM5NTA0MTgwNQ==&mid=205392737&idx=1&sn=67e48c704afab2960e602255f7bdddbc&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:21 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:21 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:21 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:108)}
+2015-05-03 21:27:21 [INFO] - [解析] - 得到一条搜索结果链接 http://mp.weixin.qq.com/s?__biz=MzA4MTQwNzEyMA==&mid=229440656&idx=1&sn=00eb0671982415d30689996e86a5a7e1&3rd=MzA3MDU4NTYzMw==&scene=6#rd {com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler.parse(WeixinCrawler.java:85)}
+2015-05-03 21:27:21 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 21:27:21 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 21:27:31 [INFO] - [论坛搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:27:32 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:27:32 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:72)}
+2015-05-03 21:27:32 [INFO] - [论坛搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:27:33 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:27:33 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:72)}
+2015-05-03 21:37:12 [INFO] - [论坛搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:37:13 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:37:13 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:72)}
+2015-05-03 21:37:13 [INFO] - [论坛搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:37:14 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:37:14 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:72)}
+2015-05-03 21:37:29 [INFO] - [论坛搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:37:30 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:37:30 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:72)}
+2015-05-03 21:37:30 [INFO] - [论坛搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:37:31 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:37:31 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:72)}
+2015-05-03 21:38:35 [INFO] - [论坛搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:38:36 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:38:36 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:72)}
+2015-05-03 21:38:36 [INFO] - [解析] - 本页获得搜索结果 13 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:36 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=2 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:37 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:37 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=3 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:37 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:37 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=4 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:37 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:37 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=5 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:37 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:37 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=6 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:38 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:38 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=7 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:38 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:38 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=8 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:38 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:38 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=9 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:38 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:38 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=10 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:39 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:39 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=11 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:39 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:39 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=12 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:39 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:39 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=13 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:39 [INFO] - [解析] - 本页获得搜索结果 23 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:39 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=14 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:39 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:39 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=15 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:40 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:40 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=16 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:40 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:40 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=17 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:40 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:40 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=18 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:40 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:40 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=19 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:40 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:40 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=20 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:41 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:41 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=21 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:41 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:41 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=22 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:41 [INFO] - [解析] - 本页获得搜索结果 23 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:41 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=23 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:41 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:41 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=24 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:41 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:41 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=25 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:42 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:42 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=26 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:38:42 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:81)}
+2015-05-03 21:38:42 [INFO] - [翻页] - 获取到下一页: http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=27 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.next(BBSCrawler.java:139)}
+2015-05-03 21:40:36 [INFO] - [论坛搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:40:36 [INFO] - [论坛搜索] - 搜索地址为 http://www.sogou.com/web?query=任立翔+逗比&nteration=196648&ie=utf-8&page=1 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:61)}
+2015-05-03 21:40:37 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:40:37 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:73)}
+2015-05-03 21:40:37 [INFO] - [解析] - 本页获得搜索结果 13 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:82)}
+2015-05-03 21:40:37 [INFO] - [论坛搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:40:37 [INFO] - [论坛搜索] - 搜索地址为 http://www.sogou.com/web?query=新疆+地震+今晚&nteration=196648&ie=utf-8&page=1 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:61)}
+2015-05-03 21:40:37 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:40:37 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:73)}
+2015-05-03 21:40:37 [INFO] - [解析] - 本页获得搜索结果 13 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:82)}
+2015-05-03 21:42:13 [INFO] - [论坛搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:42:13 [INFO] - [论坛搜索] - 搜索地址为 http://www.sogou.com/web?query=任立翔+逗比&interation=196648&ie=utf-8&page=1 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:61)}
+2015-05-03 21:42:14 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:42:14 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:73)}
+2015-05-03 21:42:14 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:82)}
+2015-05-03 21:42:14 [INFO] - [论坛搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:58)}
+2015-05-03 21:42:14 [INFO] - [论坛搜索] - 搜索地址为 http://www.sogou.com/web?query=新疆+地震+今晚&interation=196648&ie=utf-8&page=1 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.search(BBSCrawler.java:61)}
+2015-05-03 21:42:15 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.start(BBSCrawler.java:51)}
+2015-05-03 21:42:15 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:73)}
+2015-05-03 21:42:15 [INFO] - [解析] - 本页获得搜索结果 11 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler.parse(BBSCrawler.java:82)}
