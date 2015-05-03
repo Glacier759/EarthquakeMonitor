@@ -1,5 +1,6 @@
 package com.glacier.earthquake.monitor.server.util;
 
+
 /**
  * Created by glacier on 15-5-1.
  */
@@ -54,6 +55,13 @@ public class StringUtils {
             }
         }
         return new String(chars);
+    }
+
+    /**
+     * 忽略大小写情况判断两个字符串是否一致
+     * */
+    public static final boolean startsWithIgnoreCase(String str1, String str2) {
+        return org.apache.commons.lang3.StringUtils.startsWithIgnoreCase(str1, str2);
     }
 
 }

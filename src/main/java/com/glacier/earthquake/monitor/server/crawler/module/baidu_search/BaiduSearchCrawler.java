@@ -1,5 +1,6 @@
 package com.glacier.earthquake.monitor.server.crawler.module.baidu_search;
 
+import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
 import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
@@ -10,6 +11,7 @@ import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.ByteArrayOutputStream;
@@ -30,7 +32,7 @@ public class BaiduSearchCrawler extends Crawler {
 
         //获取一个可以抓取HTTPS协议的浏览器
         DefaultHttpClient defaultHttpClient = MyHttpConnectionManager.getHttpsClient();
-        //设置BaiduSearchDownloader
+        //设置BaiduSearchDownloader的浏览器
         BaiduSearchDownloader.setClient(defaultHttpClient);
 
         //获取得到所有的过滤规则
@@ -70,12 +72,86 @@ public class BaiduSearchCrawler extends Crawler {
     private void parse(Document document, String[] keywords, int ruleID, int type) {
         try {
             logger.info("[解析] - 正在获取搜索结果...");
-            Elements elements = document.select("div[tpl]").select("div[id]");
-            System.out.println(elements.size());
+
+            int count = 0;
+            do {
+                count ++;
+                logger.info("[解析] - 正在获取第 " + count + "页");
+                //由于存在换页情况，url发生变化，在此处增加白名单过滤
+                if ( JudgeFilter.isMeetWhiteList(document.baseUri()) ) {
+                    continue;
+                }
+
+                //遍历所有的搜索结果
+                Elements elements = document.select("div[tpl]");
+                logger.info("[解析] - 本页获得搜索结果 " + elements.size() + " 条(粗略结果)");
+                for (Element element : elements) {
+                    try {
+                        //带有id属性的搜索结果为正确的
+                        if (element.attr("id").length() > 0) {
+                            //提取标签中蕴含的搜索结果的地址
+                            String resultLink = element.select("h3").select("a[href]").attr("abs:href");
+                            String locationURL = BaiduSearchDownloader.trueLink(resultLink);
+                            if ( locationURL != null ) {
+                                resultLink = locationURL;
+                            }
+                            logger.info("[解析] - 得到一条搜索结果链接 " + resultLink);
+
+                            //由于搜索引擎的数据来源很多，所以再次对搜索结果进行白名单过滤
+                            if (JudgeFilter.isMeetWhiteList(resultLink)) {
+                                continue;
+                            }
+
+                            //获得搜索结果链接对应的文档树
+                            Document document_result = BaiduSearchDownloader.document(resultLink, Downloader.HTTP_GET);
+                            logger.info("[判断] - 正在对搜索结果进行正确新判断");
+                            //进行过滤条件判断
+                            boolean ans = true;
+                            for (String keyword : keywords) {
+                                ans = ans && document_result.text().contains(keyword);
+                            }
+                            //如果ans为true则表示当前网页符合过滤条件
+                            if (ans) {
+                                SpiderInfo spiderInfo = new SpiderInfo();
+                                spiderInfo.setType(type);
+                                spiderInfo.setUrl(document_result.baseUri());
+                                spiderInfo.setTitle(document_result.title());
+                                spiderInfo.setSource(document_result.select("p").text());
+                                System.out.println(spiderInfo.getSource());
+                                spiderInfo.setRule_id(ruleID);
+                                //设置好属性后插入数据库
+                                SpiderInfoManager.insertSpiderInfo(spiderInfo);
+                                logger.info("[匹配成功] - 获得一条新数据");
+                            }
+                        }
+                    }catch (Exception e) {
+                        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                        e.printStackTrace(new PrintStream(baos));
+                        logger.error(baos.toString());
+                    }
+                }
+            }while ((document = next(document)) != null);
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
         }
+    }
+
+    private Document next(Document document) {
+        try {
+            if ( document.select("a[class=n]").text().contains("下一页") ) {
+                String nextPage = document.baseUri();
+                Integer page = Integer.parseInt(nextPage.substring(nextPage.lastIndexOf("&pn=") + 4)) + 10;
+                nextPage = nextPage.substring( 0, nextPage.lastIndexOf("&pn=")+4 ) + page;
+                logger.info("[翻页] - 获取到下一页: " + nextPage);
+                return BaiduSearchDownloader.document(nextPage, Downloader.HTTP_GET);
+            }
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+        return null;
     }
 }

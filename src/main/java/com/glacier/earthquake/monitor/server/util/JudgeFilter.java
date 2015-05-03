@@ -50,13 +50,12 @@ public class JudgeFilter {
             }
         }
         return 0;
-
     }
 
     public static boolean isMeetWhiteList(String url) {
         List<FilterWhiteList> filterWhiteLists = Data2Object.filterRulesWhiteList();
         for (FilterWhiteList filterWhiteList : filterWhiteLists) {
-            if ( filterWhiteList.getUrl().equals(url) ) {
+            if ( filterWhiteList.getUrl().equals(url) || url.contains(filterWhiteList.getUrl()) ) {
                 return true;
             }
         }

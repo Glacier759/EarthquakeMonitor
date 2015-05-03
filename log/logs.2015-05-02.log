@@ -1,0 +1,143 @@
+2015-05-02 22:55:21 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:50)}
+2015-05-02 22:55:21 [ERROR] - java.lang.NullPointerException
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:65)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:53)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:35)
+	at Main.main(Main.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:93)}
+2015-05-02 22:57:31 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:54)}
+2015-05-02 22:57:32 [ERROR] - javax.net.ssl.SSLException: hostname in certificate didn't match: <www.baidu.com/180.97.33.107> != <*.baidu.com> OR <*.baidu.com>
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:228)
+	at org.apache.http.conn.ssl.BrowserCompatHostnameVerifier.verify(BrowserCompatHostnameVerifier.java:54)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:149)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:130)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:397)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:495)
+	at org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor.connectSocket(SchemeSocketFactoryAdaptor.java:62)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:65)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:57)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:39)
+	at Main.main(Main.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:93)}
+2015-05-02 23:01:50 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:54)}
+2015-05-02 23:01:51 [ERROR] - javax.net.ssl.SSLException: hostname in certificate didn't match: <www.baidu.com/180.97.33.108> != <*.baidu.com> OR <*.baidu.com>
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:228)
+	at org.apache.http.conn.ssl.BrowserCompatHostnameVerifier.verify(BrowserCompatHostnameVerifier.java:54)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:149)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:130)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:397)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:495)
+	at org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor.connectSocket(SchemeSocketFactoryAdaptor.java:62)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:68)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:57)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:39)
+	at Main.main(Main.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:96)}
+2015-05-02 23:12:26 [ERROR] - java.security.NoSuchAlgorithmException: sds SSLContext not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at javax.net.ssl.SSLContext.getInstance(SSLContext.java:156)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:53)
+	at Main.main(Main.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:84)}
+2015-05-02 23:17:54 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:91)}
+2015-05-02 23:17:55 [ERROR] - javax.net.ssl.SSLException: hostname in certificate didn't match: <www.baidu.com/180.97.33.108> != <*.baidu.com> OR <*.baidu.com>
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:228)
+	at org.apache.http.conn.ssl.BrowserCompatHostnameVerifier.verify(BrowserCompatHostnameVerifier.java:54)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:149)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:130)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:397)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:495)
+	at org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor.connectSocket(SchemeSocketFactoryAdaptor.java:62)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:68)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:94)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:72)
+	at Main.main(Main.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:96)}
+2015-05-02 23:17:55 [ERROR] - java.lang.NullPointerException
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:74)
+	at Main.main(Main.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:85)}
+2015-05-02 23:31:32 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:70)}
+2015-05-02 23:31:34 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:63)}
+2015-05-02 23:31:34 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:84)}
+2015-05-02 23:31:34 [INFO] - [百度搜索] - 搜索关键字为 新疆 发生 地震 晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:70)}
+2015-05-02 23:31:35 [INFO] - [Filter] - 当前过滤规则为 新疆*发生*地震*晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:63)}
+2015-05-02 23:31:35 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:84)}
+2015-05-02 23:33:42 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:59)}
+2015-05-02 23:33:44 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:52)}
+2015-05-02 23:33:44 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:73)}
+2015-05-02 23:33:44 [INFO] - [百度搜索] - 搜索关键字为 新疆 发生 地震 晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:59)}
+2015-05-02 23:33:44 [INFO] - [Filter] - 当前过滤规则为 新疆*发生*地震*晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:52)}
+2015-05-02 23:33:44 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:73)}
+2015-05-02 23:35:11 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:59)}
+2015-05-02 23:35:12 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:52)}
+2015-05-02 23:35:12 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:73)}
+2015-05-02 23:35:12 [INFO] - [百度搜索] - 搜索关键字为 新疆 发生 地震 晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:59)}
+2015-05-02 23:35:13 [INFO] - [Filter] - 当前过滤规则为 新疆*发生*地震*晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:52)}
+2015-05-02 23:35:13 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:73)}
+2015-05-02 23:36:07 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:59)}
+2015-05-02 23:36:12 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:52)}
+2015-05-02 23:36:12 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:73)}
+2015-05-02 23:36:12 [INFO] - [百度搜索] - 搜索关键字为 新疆 发生 地震 晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:59)}
+2015-05-02 23:36:20 [INFO] - [Filter] - 当前过滤规则为 新疆*发生*地震*晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:52)}
+2015-05-02 23:36:20 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:73)}
+2015-05-02 23:51:30 [INFO] - [百度搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:59)}
+2015-05-02 23:51:31 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:52)}
+2015-05-02 23:51:31 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:73)}
+2015-05-02 23:51:31 [INFO] - [百度搜索] - 搜索关键字为 新疆 发生 地震 晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.search(BaiduSearchCrawler.java:59)}
+2015-05-02 23:51:32 [INFO] - [Filter] - 当前过滤规则为 新疆*发生*地震*晚上 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:52)}
+2015-05-02 23:51:32 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:73)}
