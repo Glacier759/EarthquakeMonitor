@@ -3,6 +3,7 @@ package com.glacier.earthquake.monitor.server.crawler.module.bbs_search;
 import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
 import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
+import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
@@ -91,6 +92,8 @@ public class BBSCrawler extends Crawler {
                             }
                             //获得搜索结果对应的文档树
                             Document document_post = downloader.document(resultLink, Downloader.HTTP_GET);
+                            Scheduler.insertRecord(Scheduler.SIGN_URL, resultLink, Scheduler.SERVICE_BBS_SEARCH);
+
                             //进行过滤条件判断
                             boolean ans = true;
                             for (String keyword : keywords) {

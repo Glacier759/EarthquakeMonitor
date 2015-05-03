@@ -3,6 +3,7 @@ package com.glacier.earthquake.monitor.server.crawler.module.weibo_sina;
 import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
 import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
+import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
@@ -117,6 +118,8 @@ public class WeiboCrawler extends Crawler {
                         Element weiboText = weiboDiv.select("span[class=ctt]").first();
                         if (weiboText == null)
                             continue;
+
+                        Scheduler.insertRecord(Scheduler.SIGN_ID, weiboDiv.attr("id"), Scheduler.SERVICE_WEIBO_SEARCH);
 
                         //进行过滤条件判断
                         boolean ans = true;

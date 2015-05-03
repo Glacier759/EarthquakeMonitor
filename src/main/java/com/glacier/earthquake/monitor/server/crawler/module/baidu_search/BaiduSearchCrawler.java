@@ -3,6 +3,7 @@ package com.glacier.earthquake.monitor.server.crawler.module.baidu_search;
 import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
 import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
+import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
@@ -106,6 +107,8 @@ public class BaiduSearchCrawler extends Crawler {
 
                                 //获得搜索结果链接对应的文档树
                                 Document document_result = downloader.document(resultLink, Downloader.HTTP_GET);
+                                Scheduler.insertRecord(Scheduler.SIGN_URL, resultLink, Scheduler.SERVICE_BAIDU_SEARCH);
+
                                 logger.info("[判断] - 正在对搜索结果进行正确新判断");
                                 //进行过滤条件判断
                                 boolean ans = true;
