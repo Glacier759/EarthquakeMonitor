@@ -9,6 +9,7 @@ import com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSe
 import com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler;
 import com.glacier.earthquake.monitor.server.crawler.module.tieba_search.TiebaCrawler;
 import com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.WeiboCrawler;
+import com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler;
 import com.glacier.earthquake.monitor.server.pojo.*;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
@@ -29,7 +30,7 @@ public class Main {
     public static void main(String[] args) {
 
         List<Crawler> crawlers = new ArrayList<Crawler>();
-        crawlers.add(new BingCrawler());
+        crawlers.add(new WeixinCrawler());
         for ( Crawler crawler : crawlers ) {
             crawler.start();
         }

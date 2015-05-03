@@ -3,7 +3,6 @@ package com.glacier.earthquake.monitor.server.crawler.module.tieba_search;
 import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
 import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
-import com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchDownloader;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
@@ -25,14 +24,15 @@ import java.util.List;
 public class TiebaCrawler extends Crawler {
 
     public static Logger logger = Logger.getLogger(TiebaCrawler.class.getName());
+    public static TiebaDownloader downloader = new TiebaDownloader();
 
     @Override
     public void start() {
         //获取一个可以抓取HTTPS协议的浏览器
         DefaultHttpClient defaultHttpClient = MyHttpConnectionManager.getHttpsClient();
         //设置TitebaDownloader的浏览器
-        TiebaDownloader.setClient(defaultHttpClient);
-        TiebaDownloader.setEncode("UTF-8");
+        downloader.setClient(defaultHttpClient);
+        downloader.setEncode("UTF-8");
 
         //获取得到所有的过滤规则
         List<FilterDisaster> disasters = Data2Object.filterRulesDisaster();
@@ -59,7 +59,7 @@ public class TiebaCrawler extends Crawler {
             logger.info("[贴吧搜索] - 搜索关键字为 " + searchKey);
             searchKey = searchKey.replace(" ", "%20");
             searchKey = "http://tieba.baidu.com/f/search/res?ie=utf-8&qw=" + searchKey + "&pn=1";
-            return TiebaDownloader.document(searchKey, Downloader.HTTP_GET);
+            return downloader.document(searchKey, Downloader.HTTP_GET);
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
@@ -90,7 +90,7 @@ public class TiebaCrawler extends Crawler {
                                 continue;
                             }
                             //获得搜索结果对应的文档树
-                            Document document_post = TiebaDownloader.document(postLink, Downloader.HTTP_GET);
+                            Document document_post = downloader.document(postLink, Downloader.HTTP_GET);
                             //进行过滤条件判断
                             boolean ans = true;
                             for (String keyword : keywords) {
@@ -134,7 +134,7 @@ public class TiebaCrawler extends Crawler {
                 Integer page = Integer.parseInt(nextPage.substring(nextPage.lastIndexOf("&pn=") + 4)) + 1;
                 nextPage = nextPage.substring( 0, nextPage.lastIndexOf("&pn=")+4 ) + page;
                 logger.info("[翻页] - 获取到下一页: " + nextPage);
-                return TiebaDownloader.document(nextPage, Downloader.HTTP_GET);
+                return downloader.document(nextPage, Downloader.HTTP_GET);
             }
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

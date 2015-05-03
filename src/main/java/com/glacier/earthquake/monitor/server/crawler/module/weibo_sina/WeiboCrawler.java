@@ -23,13 +23,14 @@ public class WeiboCrawler extends Crawler {
 
     public static Logger logger = Logger.getLogger(WeiboCrawler.class.getName());
     public static Login login = new Login();
+    public static WeiboDownloader downloader = new WeiboDownloader();
 
     @Override
     public void start() {
 
         //登陆模块
         //使用微博账号进行登陆. 并将登陆后维护的HttpClient设置给WeiboDownloader
-        WeiboDownloader.setClient(login.login(Data2Object.account("weibo")));
+        downloader.setClient(login.login(Data2Object.account("weibo")));
 
         //获取得到所有的过滤规则
         List<FilterDisaster> disasters = Data2Object.filterRulesDisaster();
@@ -61,7 +62,7 @@ public class WeiboCrawler extends Crawler {
             logger.info("[微博搜索] - 搜索关键字为 " + key);
             key = key.replace(" ", "%20");
             String search = "http://weibo.cn/search/mblog?hideSearchFrame=&keyword=" + key + "&page=1";
-            return WeiboDownloader.document(search, Downloader.HTTP_GET);
+            return downloader.document(search, Downloader.HTTP_GET);
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
@@ -96,7 +97,7 @@ public class WeiboCrawler extends Crawler {
                     while ( weiboDivs.size() == 0 && times < 3 ) {
                         logger.info("[解析] 当前页面微博数为0, 更换账号重访问中...");
                         //调用reLogin方法重登陆并获得上次访问地址的Document
-                        document = WeiboDownloader.reLogin();
+                        document = downloader.reLogin();
                         times ++;
                         try {
                             weiboDivs = document.select("div[class=c]").select("div[id]");
@@ -164,7 +165,7 @@ public class WeiboCrawler extends Crawler {
                 return null;
             }
             if ( nextEle.text().equals("下页") ) {
-                return WeiboDownloader.document(nextEle.attr("abs:href"), Downloader.HTTP_GET);
+                return downloader.document(nextEle.attr("abs:href"), Downloader.HTTP_GET);
             }
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

@@ -15,7 +15,7 @@ public class WeiboDownloader extends Downloader {
 
     public static Logger logger = Logger.getLogger(WeiboDownloader.class.getName());
 
-    public static Document document_method(Document document) {
+    public Document document_method(Document document) {
         if ( document.title().equals("微博广场") ) {
             logger.warn("[重登陆] - 访问频繁导致出现重定向，正在重新登录...");
             document = reLogin();
@@ -23,7 +23,7 @@ public class WeiboDownloader extends Downloader {
         return document;
     }
 
-    public static Document reLogin() {
+    public Document reLogin() {
         try {
             //更换账号登陆并设置WeiboDownloader浏览器
             setClient(WeiboCrawler.login.login(Data2Object.account("weibo")));

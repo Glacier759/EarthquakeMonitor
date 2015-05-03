@@ -3,8 +3,6 @@ package com.glacier.earthquake.monitor.server.crawler.module.bing_search;
 import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
 import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
-import com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchDownloader;
-import com.glacier.earthquake.monitor.server.crawler.module.tieba_search.TiebaDownloader;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
@@ -26,13 +24,14 @@ import java.util.List;
 public class BingCrawler extends Crawler {
 
     public static Logger logger = Logger.getLogger(BingCrawler.class.getName());
+    public static BingDownloader downloader = new BingDownloader();
 
     @Override
     public void start() {
         //获取一个可以抓取HTTPS协议的浏览器
         DefaultHttpClient defaultHttpClient = MyHttpConnectionManager.getHttpsClient();
         //设置BaiduSearchDownloader的浏览器
-        BingDownloader.setClient(defaultHttpClient);
+        downloader.setClient(defaultHttpClient);
 
         //获取得到所有的过滤规则
         List<FilterDisaster> disasters = Data2Object.filterRulesDisaster();
@@ -59,7 +58,7 @@ public class BingCrawler extends Crawler {
             logger.info("[必应搜索] - 搜索关键字为 " + searchKey);
             searchKey = searchKey.replace(" ", "+");
             searchKey = "https://cn.bing.com/search?q=" + searchKey + "&first=1";
-            return BingDownloader.document(searchKey, Downloader.HTTP_GET);
+            return downloader.document(searchKey, Downloader.HTTP_GET);
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
@@ -90,7 +89,7 @@ public class BingCrawler extends Crawler {
                                 continue;
                             }
                             //获得搜索结果对应的文档树
-                            Document document_post = BingDownloader.document(resultLink, Downloader.HTTP_GET);
+                            Document document_post = downloader.document(resultLink, Downloader.HTTP_GET);
                             //进行过滤条件判断
                             boolean ans = true;
                             for (String keyword : keywords) {
@@ -134,7 +133,7 @@ public class BingCrawler extends Crawler {
                 Integer page = Integer.parseInt(nextPage.substring(nextPage.lastIndexOf("&first=") + 7)) + 10;
                 nextPage = nextPage.substring( 0, nextPage.lastIndexOf("&first=")+7 ) + page;
                 logger.info("[翻页] - 获取到下一页: " + nextPage);
-                return BingDownloader.document(nextPage, Downloader.HTTP_GET);
+                return downloader.document(nextPage, Downloader.HTTP_GET);
             }
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

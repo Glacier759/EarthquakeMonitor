@@ -2,8 +2,11 @@ package com.glacier.earthquake.monitor.server.crawler.core;
 
 import com.glacier.earthquake.monitor.server.util.StringUtils;
 import org.apache.http.Header;
+import org.apache.http.HeaderElement;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
+import org.apache.http.client.entity.DeflateDecompressingEntity;
+import org.apache.http.client.entity.GzipDecompressingEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.params.CookiePolicy;
@@ -12,6 +15,7 @@ import org.apache.http.conn.ssl.SSLSocketFactory;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.CoreConnectionPNames;
 import org.apache.http.params.CoreProtocolPNames;
+import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -27,8 +31,11 @@ import java.util.regex.Pattern;
 public class Downloader {
 
     private static Logger logger = Logger.getLogger(Downloader.class.getName());
-    private static String encode = "utf-8";
-    public static DefaultHttpClient httpClient;
+    private String encode = "utf-8";
+    public DefaultHttpClient httpClient;
+    public HttpGet httpGet;
+    public HttpPost httpPost;
+    public HttpResponse response;
     public static final int HTTP_GET = 0;
     public static final int HTTP_POST = 1;
 
@@ -38,12 +45,12 @@ public class Downloader {
      * 设置Downloader模块所需的HttpClient
      * @param client 经过登陆操作返回的HttpClient
      * */
-    public static void setClient(DefaultHttpClient client) {
+    public void setClient(DefaultHttpClient client) {
         httpClient = client;
 
     }
 
-    public static void setEncode(String e) {
+    public void setEncode(String e) {
         encode = e;
     }
 
@@ -53,43 +60,37 @@ public class Downloader {
      * @param method 访问该地址需要使用的HTTP请求方法
      * @return 返回获取得到的Document文档树
      * */
-    public static Document document(String url, int method) {
+    public Document document(String url, int method) {
         try {
             last_url = url;
-            HttpResponse response = null;
+            response = null;
             if ( method == HTTP_GET ) {
-                HttpGet httpGet = new HttpGet(url);
-
-                httpGet.setHeader("Connection", "keep-alive");
-                httpGet.setHeader("Cache-Control", "max-age=0");
-                httpGet.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
-                httpGet.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36");
-
-                httpGet.getParams().setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, 60000);
-                httpGet.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT, 60000);
-                httpGet.getParams().setParameter(CoreProtocolPNames.WAIT_FOR_CONTINUE, 60000);
-                httpGet.getParams().setBooleanParameter("http.tcp.nodelay", true);
-                httpGet.getParams().setParameter("http.connection.stalecheck", false);
-                httpGet.getParams().setParameter("http.protocol.cookie-policy", CookiePolicy.BROWSER_COMPATIBILITY);
+                httpGet = new HttpGet(url);
+                setHttpGet();
                 response = httpClient.execute(httpGet);
             }
             else if ( method == HTTP_POST ) {
                 HttpPost httpPost = new HttpPost(url);
-
-                httpPost.setHeader("Connection", "keep-alive");
-                httpPost.setHeader("Cache-Control", "max-age=0");
-                httpPost.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
-                httpPost.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36");
-
-                httpPost.getParams().setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, 60000);
-                httpPost.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT, 60000);
-                httpPost.getParams().setParameter(CoreProtocolPNames.WAIT_FOR_CONTINUE, 60000);
-                httpPost.getParams().setBooleanParameter("http.tcp.nodelay", true);
-                httpPost.getParams().setParameter("http.connection.stalecheck", false);
-                httpPost.getParams().setParameter("http.protocol.cookie-policy", CookiePolicy.BROWSER_COMPATIBILITY);
+                setHttpPost();
                 response = httpClient.execute(httpPost);
             }
+            for ( Header header : response.getAllHeaders() ) {
+                if ( header.getName().equalsIgnoreCase("Set-Cookie") ) {
+                    String cookie = header.getValue().split(";")[0];
+                    httpGet.setHeader("Cookie", cookie);
+                }
+            }
             HttpEntity entity = response.getEntity();
+
+            if ( entity != null ) {
+                if ( entity.getContentEncoding() != null ) {
+                    if ( "gzip".equalsIgnoreCase(entity.getContentEncoding().getValue()) ) {
+                        entity = new GzipDecompressingEntity(entity);
+                    } else if ( "deflate".equalsIgnoreCase(entity.getContentEncoding().getValue()) ) {
+                        entity = new DeflateDecompressingEntity(entity);
+                    }
+                }
+            }
 
             //默认采用UTF-8编码
             Document document = Jsoup.parse(getContent(entity, encode));
@@ -106,38 +107,16 @@ public class Downloader {
         return null;
     }
 
-    public static HttpResponse response(String url, int method) {
+    public HttpResponse response(String url, int method) {
         try {
             HttpResponse response = null;
             if (method == HTTP_GET) {
                 HttpGet httpGet = new HttpGet(url);
-
-                httpGet.setHeader("Connection", "keep-alive");
-                httpGet.setHeader("Cache-Control", "max-age=0");
-                httpGet.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
-                httpGet.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36");
-
-                httpGet.getParams().setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, 60000);
-                httpGet.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT, 60000);
-                httpGet.getParams().setParameter(CoreProtocolPNames.WAIT_FOR_CONTINUE, 60000);
-                httpGet.getParams().setBooleanParameter("http.tcp.nodelay", true);
-                httpGet.getParams().setParameter("http.connection.stalecheck", false);
-                httpGet.getParams().setParameter("http.protocol.cookie-policy", CookiePolicy.BROWSER_COMPATIBILITY);
+                setHttpGet();
                 response = httpClient.execute(httpGet);
             } else if (method == HTTP_POST) {
                 HttpPost httpPost = new HttpPost(url);
-
-                httpPost.setHeader("Connection", "keep-alive");
-                httpPost.setHeader("Cache-Control", "max-age=0");
-                httpPost.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
-                httpPost.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36");
-
-                httpPost.getParams().setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, 60000);
-                httpPost.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT, 60000);
-                httpPost.getParams().setParameter(CoreProtocolPNames.WAIT_FOR_CONTINUE, 60000);
-                httpPost.getParams().setBooleanParameter("http.tcp.nodelay", true);
-                httpPost.getParams().setParameter("http.connection.stalecheck", false);
-                httpPost.getParams().setParameter("http.protocol.cookie-policy", CookiePolicy.BROWSER_COMPATIBILITY);
+                setHttpPost();
                 response = httpClient.execute(httpPost);
             }
             return response;
@@ -155,11 +134,11 @@ public class Downloader {
      * @param encode 需要指定的最终文字编码
      * @return 返回按照指定编码转码后的页面源码, 已进行全角转半角处理
      * */
-    private static String getContent(HttpEntity entity, String encode) {
+    private String getContent(HttpEntity entity, String encode) {
         BufferedReader reader = null;
         StringBuffer buffer = null;
         try {
-            reader = new BufferedReader(new InputStreamReader(entity.getContent(), encode));
+            reader = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(EntityUtils.toByteArray(entity)), encode));
             buffer = new StringBuffer();
             String temp = null;
             while( (temp = reader.readLine()) != null ) {
@@ -180,7 +159,7 @@ public class Downloader {
      * @param encode 需要指定的最终文字编码
      * @return 返回按照指定编码转码后的页面源码, 已进行全角转半角处理
      * */
-    private static String getContent(InputStream source, String encode) {
+    private String getContent(InputStream source, String encode) {
         BufferedReader reader = null;
         StringBuffer buffer = null;
         try {
@@ -199,8 +178,37 @@ public class Downloader {
         return StringUtils.full2half(buffer.toString());
     }
 
-    public static Document document_method(Document document) {
+    public Document document_method(Document document) {
         return document;
+    }
+
+    public void setHttpGet() {
+        httpGet.setHeader("Connection", "keep-alive");
+        httpGet.setHeader("Cache-Control", "max-age=0");
+        httpGet.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
+        //httpGet.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36");
+        httpGet.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36");
+
+        httpGet.getParams().setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, 60000);
+        httpGet.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT, 60000);
+        httpGet.getParams().setParameter(CoreProtocolPNames.WAIT_FOR_CONTINUE, 60000);
+        httpGet.getParams().setBooleanParameter("http.tcp.nodelay", true);
+        httpGet.getParams().setParameter("http.connection.stalecheck", false);
+        httpGet.getParams().setParameter("http.protocol.cookie-policy", CookiePolicy.BROWSER_COMPATIBILITY);
+    }
+
+    public void setHttpPost() {
+        httpPost.setHeader("Connection", "keep-alive");
+        httpPost.setHeader("Cache-Control", "max-age=0");
+        httpPost.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
+        httpPost.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36");
+
+        httpPost.getParams().setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, 60000);
+        httpPost.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT, 60000);
+        httpPost.getParams().setParameter(CoreProtocolPNames.WAIT_FOR_CONTINUE, 60000);
+        httpPost.getParams().setBooleanParameter("http.tcp.nodelay", true);
+        httpPost.getParams().setParameter("http.connection.stalecheck", false);
+        httpPost.getParams().setParameter("http.protocol.cookie-policy", CookiePolicy.BROWSER_COMPATIBILITY);
     }
 
 }

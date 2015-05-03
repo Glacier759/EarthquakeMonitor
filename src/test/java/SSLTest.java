@@ -171,7 +171,8 @@ public class SSLTest {
     public static void main(String[] args) {
         //System.out.println(sendHttpsRequestByPost("http://www.baidu.com/s?wd=%E7%BD%91%E7%BB%9C%20%E7%88%AC%E8%99%AB&pn=0"));
         DefaultHttpClient defaultHttpClient = MyHttpConnectionManager.getHttpsClient();
-        BaiduSearchDownloader.setClient(defaultHttpClient);
-        System.out.println(BaiduSearchDownloader.document("https://www.baidu.com/s?wd=%E7%BD%91%E7%BB%9C%20%E7%88%AC%E8%99%AB&pn=0", Downloader.HTTP_GET));
+        BaiduSearchDownloader downloader = new BaiduSearchDownloader();
+        downloader.setClient(defaultHttpClient);
+        System.out.println(downloader.document("https://www.baidu.com/s?wd=%E7%BD%91%E7%BB%9C%20%E7%88%AC%E8%99%AB&pn=0", Downloader.HTTP_GET));
     }
 }
