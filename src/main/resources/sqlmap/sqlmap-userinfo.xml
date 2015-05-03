@@ -10,6 +10,10 @@
         <result column="mobile" property="mobile"/>
         <result column="privilege" property="privilege"/>
         <result column="create_date" property="createDate"/>
+        <result column="realname" property="realname"/>
+        <result column="workplace" property="workplace"/>
+        <result column="position" property="position"/>
+        <result column="qqnumber" property="qqnumber"/>
     </resultMap>
 
     <select id="getUserInfoByEmail" parameterType="String" resultMap="userinfo">
@@ -30,13 +34,16 @@
     
     <update id="modifyUserInfo" parameterType="User">
         UPDATE user_info SET nickname = #{nickname}, email = #{email}, mobile = #{mobile},
-                             password = #{password}, privilege = #{privilege}, create_date = now()
+                             password = #{password}, privilege = #{privilege}, create_date = now(),
+                             realname = #{realname}, workplace = #{workplace},
+                             position = #{position}, qqnumber = #{qqnumber}
                              WHERE uid = #{uid};
     </update>
 
     <insert id="addUser" parameterType="User">
-        INSERT INTO user_info( nickname, email, mobile, password, privilege )
-                    VALUES( #{nickname}, #{email}, #{mobile}, #{password}, #{privilege} );
+        INSERT INTO user_info( nickname, email, mobile, password, privilege, realname, workplace, position, qqnumber )
+                    VALUES( #{nickname}, #{email}, #{mobile}, #{password}, #{privilege},
+                            #{realname}, #{workplace}, #{position}, #{qqnumber});
     </insert>
 
     <delete id="delUser" parameterType="User">

@@ -11,6 +11,7 @@ public class User {
     private int uid, privilege;
     private Date createDate;
     private String password;
+    private String realname, wokplace, position, qqnumber;
 
     public User() {
 
@@ -79,6 +80,38 @@ public class User {
         this.password = password;
     }
 
+    public String getRealname() {
+        return realname;
+    }
+
+    public void setRealname(String realname) {
+        this.realname = realname;
+    }
+
+    public String getWokplace() {
+        return wokplace;
+    }
+
+    public void setWokplace(String wokplace) {
+        this.wokplace = wokplace;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public String getQqnumber() {
+        return qqnumber;
+    }
+
+    public void setQqnumber(String qqnumber) {
+        this.qqnumber = qqnumber;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -88,6 +121,11 @@ public class User {
                 ", uid=" + uid +
                 ", privilege=" + privilege +
                 ", createDate=" + createDate +
+                ", password='" + password + '\'' +
+                ", realname='" + realname + '\'' +
+                ", wokplace='" + wokplace + '\'' +
+                ", position='" + position + '\'' +
+                ", qqnumber='" + qqnumber + '\'' +
                 '}';
     }
 }

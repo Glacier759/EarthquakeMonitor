@@ -27,6 +27,7 @@ import java.util.regex.Pattern;
 public class Downloader {
 
     private static Logger logger = Logger.getLogger(Downloader.class.getName());
+    private static String encode = "utf-8";
     public static DefaultHttpClient httpClient;
     public static final int HTTP_GET = 0;
     public static final int HTTP_POST = 1;
@@ -40,6 +41,10 @@ public class Downloader {
     public static void setClient(DefaultHttpClient client) {
         httpClient = client;
 
+    }
+
+    public static void setEncode(String e) {
+        encode = e;
     }
 
     /**
@@ -87,31 +92,7 @@ public class Downloader {
             HttpEntity entity = response.getEntity();
 
             //默认采用UTF-8编码
-            Document document = Jsoup.parse(getContent(entity, "UTF-8"));
-            String baseStr = document.select("meta[content]").toString();
-            String encode = null;
-            try {
-                if ( baseStr.contains("charset=") ) {
-                    encode = baseStr.substring(baseStr.indexOf("charset=") + 8);
-                    encode = encode.substring(0, encode.indexOf('"'));
-                }
-            }catch (Exception e) {
-                ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                e.printStackTrace(new PrintStream(baos));
-                logger.error(baos.toString());
-            }
-
-            //如果匹配到网页meta标签中声明本网页并非utf-8编码，则采用当前网页编码形式重新编码
-            if ( encode != null && !StringUtils.startsWithIgnoreCase(encode, "utf-8")
-                                && !StringUtils.startsWithIgnoreCase(encode, "utf8" )) {
-                try {
-                    document = Jsoup.parse(getContent(response(url, HTTP_GET).getEntity(), encode));
-                }catch (Exception e) {
-                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                    e.printStackTrace(new PrintStream(baos));
-                    logger.error(baos.toString());
-                }
-            }
+            Document document = Jsoup.parse(getContent(entity, encode));
             document.setBaseUri(url);   //设置document的来源地址
 
             document = document_method(document);
