@@ -2966,3 +2966,303 @@ Caused by: java.net.ConnectException: 拒绝连接
 2015-05-03 17:24:50 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/2287985542?pid=31893777720&cid=0#31893777720 {com.glacier.earthquake.monitor.server.crawler.module.tieba_search.TiebaCrawler.parse(TiebaCrawler.java:86)}
 2015-05-03 17:24:51 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.tieba_search.TiebaCrawler.parse(TiebaCrawler.java:109)}
 2015-05-03 17:24:51 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/2287832065?pid=31892655499&cid=0#31892655499 {com.glacier.earthquake.monitor.server.crawler.module.tieba_search.TiebaCrawler.parse(TiebaCrawler.java:86)}
+2015-05-03 18:17:49 [INFO] - [必应搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:17:50 [ERROR] - javax.net.ssl.SSLException: hostname in certificate didn't match: <cn.bing.com/202.89.233.101> != <bing.com> OR <bing.com> OR <www.bing.com> OR <*.platform.bing.com> OR <*.bing.com> OR <ieonline.microsoft.com> OR <*.windowssearch.com> OR <cn.ieonline.microsoft.com> OR <*.origin.bing.com> OR <*.mm.bing.net> OR <*.api.bing.com> OR <ecn.dev.virtualearth.net> OR <*.cn.bing.net> OR <*.cn.bing.com> OR <*.ssl.bing.com> OR <*.appex.bing.com> OR <*.platform.cn.bing.com> OR <ssl-api.bing.com> OR <ssl-api.bing.net> OR <*.api.bing.net> OR <www.bingsandbox.com> OR <*.bingapis.com> OR <bingsandbox.com> OR <*.working-bingapis-int.com> OR <*.staging-bingapis-int.com> OR <*.working-bingapis-int.net> OR <*.staging-bingapis-int.net>
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:228)
+	at org.apache.http.conn.ssl.BrowserCompatHostnameVerifier.verify(BrowserCompatHostnameVerifier.java:54)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:149)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:130)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:397)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:495)
+	at org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor.connectSocket(SchemeSocketFactoryAdaptor.java:62)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:74)
+	at com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:62)
+	at com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:45)
+	at Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:104)}
+2015-05-03 18:18:08 [INFO] - [必应搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:18:09 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:18:09 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:18:09 [INFO] - [必应搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:18:10 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:18:10 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:20:47 [INFO] - [必应搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:20:48 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:20:48 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:20:48 [INFO] - [解析] - 本页获得搜索结果 0 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:20:48 [INFO] - [必应搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:20:49 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:20:49 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:20:49 [INFO] - [解析] - 本页获得搜索结果 9 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:22:15 [INFO] - [必应搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:22:16 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:22:16 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:22:16 [INFO] - [解析] - 本页获得搜索结果 0 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:22:16 [INFO] - [必应搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:22:18 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:22:18 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:22:18 [INFO] - [解析] - 本页获得搜索结果 9 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2015-01/11/content_1202799.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://guba.eastmoney.com/news,000877,118280395.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://www.kaixin001.com/repaste/1172580_1562154142.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://guba.n8n8.cn/000877/4321208/ {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.tianya.cn/post-worldlook-1018844-1.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2014-02/11/content_1071473.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://www.xinjiangnet.com.cn/xj/corps/201402/t20140212_3730295.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://link.v1.cn/2014-03-03/10106603.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:22:18 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/1693688025 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:20 [INFO] - [必应搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:23:22 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:23:22 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:23:22 [INFO] - [解析] - 本页获得搜索结果 0 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:23:22 [INFO] - [必应搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:23:22 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:23:22 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:23:22 [INFO] - [解析] - 本页获得搜索结果 9 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:23:22 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2015-01/11/content_1202799.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:23 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:23 [INFO] - [解析] - 得到一条搜索结果链接 http://guba.eastmoney.com/news,000877,118280395.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:23 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:23 [INFO] - [解析] - 得到一条搜索结果链接 http://www.kaixin001.com/repaste/1172580_1562154142.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:24 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:24 [INFO] - [解析] - 得到一条搜索结果链接 http://guba.n8n8.cn/000877/4321208/ {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:25 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:25 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.tianya.cn/post-worldlook-1018844-1.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:26 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:26 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2014-02/11/content_1071473.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:26 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:26 [INFO] - [解析] - 得到一条搜索结果链接 http://www.xinjiangnet.com.cn/xj/corps/201402/t20140212_3730295.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:26 [INFO] - [解析] - 得到一条搜索结果链接 http://link.v1.cn/2014-03-03/10106603.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:27 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:27 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/1693688025 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:53 [INFO] - [必应搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:23:54 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:23:54 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:23:54 [INFO] - [解析] - 本页获得搜索结果 0 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:23:54 [INFO] - [必应搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:23:55 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:23:55 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:23:55 [INFO] - [解析] - 本页获得搜索结果 9 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:23:55 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2015-01/11/content_1202799.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:55 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:55 [INFO] - [解析] - 得到一条搜索结果链接 http://guba.eastmoney.com/news,000877,118280395.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:55 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:55 [INFO] - [解析] - 得到一条搜索结果链接 http://www.kaixin001.com/repaste/1172580_1562154142.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:56 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:56 [INFO] - [解析] - 得到一条搜索结果链接 http://guba.n8n8.cn/000877/4321208/ {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:57 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:57 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.tianya.cn/post-worldlook-1018844-1.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:58 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:58 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2014-02/11/content_1071473.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:58 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:58 [INFO] - [解析] - 得到一条搜索结果链接 http://www.xinjiangnet.com.cn/xj/corps/201402/t20140212_3730295.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:58 [INFO] - [解析] - 得到一条搜索结果链接 http://link.v1.cn/2014-03-03/10106603.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:23:58 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:23:58 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/1693688025 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:52 [INFO] - [必应搜索] - 搜索关键字为 任立翔 逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:25:54 [INFO] - [Filter] - 当前过滤规则为 任立翔*逗比 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:25:54 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:25:54 [INFO] - [解析] - 本页获得搜索结果 0 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:25:54 [INFO] - [必应搜索] - 搜索关键字为 新疆 地震 今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.search(BingCrawler.java:59)}
+2015-05-03 18:25:54 [INFO] - [Filter] - 当前过滤规则为 新疆*地震*今晚 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.start(BingCrawler.java:52)}
+2015-05-03 18:25:54 [INFO] - [解析] - 正在获取搜索结果... {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:73)}
+2015-05-03 18:25:54 [INFO] - [解析] - 本页获得搜索结果 9 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:25:54 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2015-01/11/content_1202799.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:55 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:25:55 [INFO] - [解析] - 得到一条搜索结果链接 http://guba.eastmoney.com/news,000877,118280395.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:55 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:25:55 [INFO] - [解析] - 得到一条搜索结果链接 http://www.kaixin001.com/repaste/1172580_1562154142.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:55 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:25:55 [INFO] - [解析] - 得到一条搜索结果链接 http://guba.n8n8.cn/000877/4321208/ {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:57 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:25:57 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.tianya.cn/post-worldlook-1018844-1.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:57 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:25:57 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2014-02/11/content_1071473.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:57 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:25:57 [INFO] - [解析] - 得到一条搜索结果链接 http://www.xinjiangnet.com.cn/xj/corps/201402/t20140212_3730295.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:58 [INFO] - [解析] - 得到一条搜索结果链接 http://link.v1.cn/2014-03-03/10106603.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:58 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:25:58 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/1693688025 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:25:59 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=11 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:25:59 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:25:59 [INFO] - [解析] - 得到一条搜索结果链接 http://www.yangshitianqi.com/xinjiang/yejian.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:00 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:00 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2015-01/11/content_1202799.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:00 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:00 [INFO] - [解析] - 得到一条搜索结果链接 http://news.jwb.com.cn/art/2015/1/21/art_247_5300199.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:00 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:00 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.tianya.cn/pic-worldlook-1018844.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:01 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:01 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.jwb.com.cn/jwb/html/2014-02/11/content_1071473.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:01 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:01 [INFO] - [解析] - 得到一条搜索结果链接 http://link.v1.cn/2014-03-03/10106603.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:01 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:01 [INFO] - [解析] - 得到一条搜索结果链接 http://www.xinjiangnet.com.cn/xj/corps/201402/t20140212_3730294.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:01 [INFO] - [解析] - 得到一条搜索结果链接 http://news.jwb.com.cn/art/2013/8/4/art_189_3336881.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:02 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:02 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/1693688025 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:02 [INFO] - [解析] - 得到一条搜索结果链接 http://news.hexun.com/2012-03-02/138902309.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:02 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=21 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:03 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:03 [INFO] - [解析] - 得到一条搜索结果链接 http://www.yangshitianqi.com/xinjiang/yejian.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:03 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:03 [INFO] - [解析] - 得到一条搜索结果链接 http://news.jwb.com.cn/art/2015/1/21/art_247_5300199.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:04 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:04 [INFO] - [解析] - 得到一条搜索结果链接 http://www.xinjiangnet.com.cn/xj/corps/201402/t20140212_3730294.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:04 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs1.people.com.cn/postDetail.do?id=113441796 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:05 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:05 [INFO] - [解析] - 得到一条搜索结果链接 http://news.jwb.com.cn/art/2013/8/4/art_189_3336881.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:05 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:05 [INFO] - [解析] - 得到一条搜索结果链接 http://kuaixun.stcn.com/content/2012-03/02/content_4924361.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:06 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:06 [INFO] - [解析] - 得到一条搜索结果链接 http://news.hexun.com/2012-02-20/138456822.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:06 [INFO] - [解析] - 得到一条搜索结果链接 http://news.eastday.com/c/20120221/u1a6375294.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:06 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cnstock.com/index/gdxw/201203/1879552.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:06 [INFO] - [解析] - 得到一条搜索结果链接 http://xj.people.com.cn/n/2014/1123/c188514-22985241.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:07 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=31 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:07 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:07 [INFO] - [解析] - 得到一条搜索结果链接 http://xj.people.com.cn/n/2014/1123/c188514-22985241.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:07 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/1695176003 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:08 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:08 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cea.gov.cn/publish/dizhenj/984/100060/20130409172441458811820/index.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:09 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:09 [INFO] - [解析] - 得到一条搜索结果链接 http://djbox.dj129.com/index/5LuK5pma5ZOq6YeM5Zyw6ZyH5LqG.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:09 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:09 [INFO] - [解析] - 得到一条搜索结果链接 http://epaper.xkb.com.cn/view/912256 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:09 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:09 [INFO] - [解析] - 得到一条搜索结果链接 http://www.shulife.com/htmlpic/2234.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:10 [INFO] - [解析] - 得到一条搜索结果链接 http://www.wenzhousx.com/keji/ziran/45832.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:10 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:10 [INFO] - [解析] - 得到一条搜索结果链接 http://www.people.com.cn/GB/shenghuo/76/123/20030104/901374.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:11 [INFO] - [解析] - 得到一条搜索结果链接 http://sports.163.com/15/0201/13/AHCEIF2M00052UUC.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:11 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.xjts.cn/thread-997570-1-1.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:12 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=41 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:12 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:12 [INFO] - [解析] - 得到一条搜索结果链接 http://roll.sohu.com/20130408/n371948442.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:13 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.xjts.cn/thread-997570-1-1.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:13 [INFO] - [解析] - 得到一条搜索结果链接 http://roll.sohu.com/20140213/n394930038.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:14 [INFO] - [解析] - 得到一条搜索结果链接 http://www.kooaoo.com/news/12477.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:15 [INFO] - [解析] - 得到一条搜索结果链接 http://domestic.kankanews.com/focus/2012-06-30/1269672_3.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:16 [INFO] - [解析] - 得到一条搜索结果链接 http://www.ceic.ac.cn/ {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:16 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.local.163.com/bbs/localjs/257839357.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:16 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.tiexue.net/post_7300440_1.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:17 [INFO] - [解析] - 得到一条搜索结果链接 http://sports.dzwww.com/rdjj/201502/t20150201_10031125.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:17 [INFO] - [解析] - 得到一条搜索结果链接 http://www.jxnews.com.cn/jxrb/system/2003/02/25/000359511.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:17 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=51 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:18 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:18 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cnr.cn/gundong/201303/t20130312_512136470.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:19 [INFO] - [解析] - 得到一条搜索结果链接 http://news.ycwb.com/2012-06/01/content_3824299.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:19 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:19 [INFO] - [解析] - 得到一条搜索结果链接 http://news.sohu.com/20120630/n346947917.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:19 [INFO] - [解析] - 得到一条搜索结果链接 http://tv.cntv.cn/video/C10420/8f5e4037697f4f68911e4c16ebe22063 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:20 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:20 [INFO] - [解析] - 得到一条搜索结果链接 http://domestic.kankanews.com/focus/2012-06-30/1269672_4.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:20 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cnstock.com/index/cj/201203/1879574.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:20 [INFO] - [解析] - 得到一条搜索结果链接 http://tv.cntv.cn/video/C12259/be1a9ee4536e3dde7196fef20a4e5c44 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:20 [INFO] - [解析] - 得到一条搜索结果链接 http://link.v1.cn/2013-10-16/792253.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:20 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 18:26:20 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 18:26:23 [INFO] - [解析] - 得到一条搜索结果链接 http://news.sina.com.cn/c/2012-02-21/054023964377.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:23 [INFO] - [解析] - 得到一条搜索结果链接 http://www.wasu.cn/Play/show/id/778181 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:24 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:24 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=61 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:26 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:26 [INFO] - [解析] - 得到一条搜索结果链接 http://zqb.cyol.com/html/2012-07/02/nw.D110000zgqnb_20120702_3-06.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:26 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:26 [INFO] - [解析] - 得到一条搜索结果链接 http://www.tianqi.com/news/1638.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:26 [INFO] - [解析] - 得到一条搜索结果链接 http://www.wccdaily.com.cn/epaper/hxdsb/html/2008-10/07/content_7409.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:27 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:27 [INFO] - [解析] - 得到一条搜索结果链接 http://wenda.haosou.com/q/1393945707065168 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:27 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:27 [INFO] - [解析] - 得到一条搜索结果链接 http://www.eol.cn/xin_li_2076/20080512/t20080512_296157.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:27 [INFO] - [解析] - 得到一条搜索结果链接 http://tr.asthis.net/nws_show/6958.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:28 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:28 [INFO] - [解析] - 得到一条搜索结果链接 http://tv.people.com.cn/GB/150716/156859/157038/16208390.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:28 [INFO] - [解析] - 得到一条搜索结果链接 http://lady.163.com/13/0503/11/8TUSOOHJ00264M4F.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:29 [INFO] - [解析] - 得到一条搜索结果链接 http://money.163.com/13/0420/17/8SU023JV00254TI5.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:29 [INFO] - [解析] - 得到一条搜索结果链接 http://www.022net.com/2014/2-14/492554242365310.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:29 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=71 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:30 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:30 [INFO] - [解析] - 得到一条搜索结果链接 http://jiangsu.sina.com.cn/suzhou/focus/2014-02-12/17598858.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:31 [INFO] - [解析] - 得到一条搜索结果链接 http://ent.163.com/13/0503/09/8TUKU0BK00031GVS.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:31 [INFO] - [解析] - 得到一条搜索结果链接 http://www.wasu.cn/Play/show/id/2101125 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:31 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 18:26:31 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 18:26:31 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:31 [INFO] - [解析] - 得到一条搜索结果链接 http://kuaixun.stcn.com/content/2012-03/03/content_4926176.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:32 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:32 [INFO] - [解析] - 得到一条搜索结果链接 http://www.dqdaily.com/dqw/xwzx/gn/2013-10/07/content_1689922.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:32 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:32 [INFO] - [解析] - 得到一条搜索结果链接 http://ent.163.com/13/0503/08/8TUFGVI400032DGD.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:32 [INFO] - [解析] - 得到一条搜索结果链接 http://hnvideo.0554news.com/system/2013/03/12/010255335.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:32 [INFO] - [解析] - 得到一条搜索结果链接 http://news.sohu.com/20120630/n346953643.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:33 [INFO] - [解析] - 得到一条搜索结果链接 http://phone.ts.cn/content/content_10780617.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:33 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:33 [INFO] - [解析] - 得到一条搜索结果链接 http://mil.eastday.com/eastday/mil/node3039/node3173/node3176/userobject1ai752177.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:33 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=81 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:34 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:34 [INFO] - [解析] - 得到一条搜索结果链接 http://news.sjzcity.com/2009/11138.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:34 [INFO] - [解析] - 得到一条搜索结果链接 http://www.chnrailway.com/html/20140213/346786.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:34 [WARN] - Invalid cookie header: "Set-Cookie: safedog-flow-item=E2A6D20690F939218E096995A631B5C0; expires=Wen, 9-Jun-2151 13:37:38 GMT; domain=chnrailway.com; path=/". Unable to parse expires attribute: Wen, 9-Jun-2151 13:37:38 GMT {org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:134)}
+2015-05-03 18:26:34 [INFO] - [解析] - 得到一条搜索结果链接 http://lady.163.com/13/0503/08/8TUFGVVE00264M4F.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:34 [INFO] - [解析] - 得到一条搜索结果链接 http://youth.sciencenet.cn/blog-2024-587346.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:35 [INFO] - [解析] - 得到一条搜索结果链接 http://hi.people.com.cn/n/2014/0214/c231187-20567309-11.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:35 [INFO] - [解析] - 得到一条搜索结果链接 http://www.ts.cn/GB/channel3/17/200312/02/52041.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:36 [INFO] - [解析] - 得到一条搜索结果链接 http://www.radiotj.com/gnwyw/system/2014/02/14/000460378.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:36 [INFO] - [解析] - 得到一条搜索结果链接 http://www.dfdaily.com/html/8757/2012/7/3/818226.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:36 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:36 [INFO] - [解析] - 得到一条搜索结果链接 http://cloudbbs.org/forum.php?mod=viewthread&tid=20971 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:37 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:37 [INFO] - [解析] - 得到一条搜索结果链接 http://service.bbs.163.com/bbs/tyro/257838835.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:37 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=91 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:38 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:38 [INFO] - [解析] - 得到一条搜索结果链接 http://service.bbs.163.com/bbs/tyro/257838835.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:38 [INFO] - [解析] - 得到一条搜索结果链接 http://wenda.tianya.cn/question/2e1ec2bde1d30cea {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:38 [INFO] - [解析] - 得到一条搜索结果链接 http://www.bjnews.com.cn/news/2014/02/12/304707.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:38 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:38 [INFO] - [解析] - 得到一条搜索结果链接 http://www.fjsen.com/wap/2012-07/03/content_8735250.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:38 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:38 [INFO] - [解析] - 得到一条搜索结果链接 http://xuexi.12371.cn/2014/03/26/VIDE1395822032700671.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:39 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:39 [INFO] - [解析] - 得到一条搜索结果链接 http://www.hljnews.cn/gn_gj/2012-07/03/content_1363627.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:39 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:39 [INFO] - [解析] - 得到一条搜索结果链接 http://wannianli.tianqi.com/news/1638.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:40 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs1.people.com.cn/postDetail.do?id=120184119 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:40 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-05-03 18:26:40 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-05-03 18:26:40 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:40 [INFO] - [解析] - 得到一条搜索结果链接 http://www.douban.com/group/topic/30782627/ {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:41 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:41 [INFO] - [解析] - 得到一条搜索结果链接 http://w.xinjiangnet.com.cn/top/pic/201304/t20130425_3220481.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:41 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=101 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:42 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:42 [INFO] - [解析] - 得到一条搜索结果链接 http://www.xjxnw.gov.cn/zx/qxfw/qxzx/04/1018278.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:42 [INFO] - [解析] - 得到一条搜索结果链接 http://xj.huatu.com/2015/0403/1200229_2.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:43 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cutv.com/v2/2013-4-29/F15fgffhigilmglkgmjn1p.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:43 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:43 [INFO] - [解析] - 得到一条搜索结果链接 http://xj.cnr.cn/jjxj/shxw/200805/t20080523_504801904.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:43 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cctv.com/news/china/20031202/101695.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:44 [INFO] - [解析] - 得到一条搜索结果链接 http://www.xjbs.com.cn/news/2014-12/03/cms1721391article.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:44 [INFO] - [解析] - 得到一条搜索结果链接 http://www.022net.com/2012/7-3/492240132847168.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:44 [INFO] - [解析] - 得到一条搜索结果链接 http://news.xinhuanet.com/gongyi/2014-02/14/c_126133371_5.htm {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:52 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:52 [INFO] - [解析] - 得到一条搜索结果链接 http://tr.asthis.net/nws_show/9048.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:53 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:109)}
+2015-05-03 18:26:53 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.xj163.cn/thread-503631-1-1.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:26:57 [INFO] - [翻页] - 获取到下一页: https://cn.bing.com/search?q=新疆+地震+今晚&first=111 {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.next(BingCrawler.java:136)}
+2015-05-03 18:26:57 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:82)}
+2015-05-03 18:26:57 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.xj163.cn/thread-503631-1-1.html {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
+2015-05-03 18:27:09 [INFO] - [解析] - 得到一条搜索结果链接 http://www.ahradio.com.cn/news/system/2013/03/13/002654401.shtml {com.glacier.earthquake.monitor.server.crawler.module.bing_search.BingCrawler.parse(BingCrawler.java:86)}
