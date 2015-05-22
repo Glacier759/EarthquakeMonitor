@@ -1,12 +1,4 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%
-    if ( session.getAttribute("login") == null || session.getAttribute("login").equals("false") ) {
-        response.sendRedirect(request.getContextPath() + "/nogrant.jsp");
-    }
-    if ( request.getParameter("groupID") == null ) {
-        response.sendRedirect(request.getContextPath() + "/select.jsp");
-    }
-%>
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -43,13 +35,6 @@
 <div id="content">
     <div id="submit">
         <form id="submitF" action="<%=request.getContextPath()%>/UploadServlet" method="post" enctype="multipart/form-data">
-            <%
-                String groupID = request.getParameter("groupID");
-                if ( groupID == null ) {
-                    response.sendRedirect(request.getContextPath() + "/select.jsp");
-                }
-                session.setAttribute("groupID", new Integer(groupID));
-            %>
             <label for="file">文件名:</label>
             <input class="submit" type="file" name="file" id="file" />
             <br />
