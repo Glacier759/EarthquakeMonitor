@@ -1,0 +1,12 @@
+.footer{
+    text-align: center;
+    min-width: 1000px;
+    height: 100px;
+    background-color:#2EAFBB;
+    line-height: 100px;
+}
+.footer h4{
+    margin:0 auto;
+    width: 400px;
+    color: #fff;
+}

@@ -15,7 +15,15 @@ import com.glacier.earthquake.monitor.server.pojo.*;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.params.HttpParams;
+import org.apache.http.util.EntityUtils;
 import org.jsoup.nodes.Document;
 
 import java.net.URI;
@@ -30,18 +38,27 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Crawler> crawlers = new ArrayList<Crawler>();
-        crawlers.add(new BBSCrawler());
-        for ( Crawler crawler : crawlers ) {
-            crawler.start();
+        try {
+            List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+            nvps.add(new BasicNameValuePair("TextBox1", "04121110"));
+            nvps.add(new BasicNameValuePair("TextBox2", "glacierlx1994"));
+            nvps.add(new BasicNameValuePair("__VIEWSTATE", "dDw1MjQ2ODMxNzY7Oz799QJ05KLrvCwm73IGbcfJPI91Aw=="));
+
+            HttpPost httpPost = new HttpPost("http://222.24.19.202/default_ysdx.aspx");
+            httpPost.setEntity(new UrlEncodedFormEntity(nvps, "UTF-8"));
+            DefaultHttpClient defaultHttpClient = MyHttpConnectionManager.getNewHttpClient();
+            HttpResponse response = defaultHttpClient.execute(httpPost);
+            System.out.println(EntityUtils.toString(response.getEntity()));
+
+
+            HttpGet httpGet = new HttpGet("http://222.24.19.202/xs_main.aspx?xh=04121110");
+            response = defaultHttpClient.execute(httpGet);
+            System.out.println(EntityUtils.toString(response.getEntity()));
+
+        }catch (Exception e) {
+            e.printStackTrace();
         }
-//        String url = "http://www.baidu.com/link?url=PSHs6jPu3YNiqbZkVYSHEP8QuouimFH2MW48VoVVKtWQimFWdawH1HNNSZU0f_X0";
-//        DefaultHttpClient defaultHttpClient = MyHttpConnectionManager.getNewHttpClient();
-//        BaiduSearchDownloader.setClient(defaultHttpClient);
-//        MyHttpConnectionManager.setHandleRedirect(defaultHttpClient, false);
-//
-//        Document document = BaiduSearchDownloader.document(url, Downloader.HTTP_GET);
-//        System.out.println(document);
+
     }
 
 }

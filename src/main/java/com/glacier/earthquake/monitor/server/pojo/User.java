@@ -11,7 +11,7 @@ public class User {
     private int uid, privilege;
     private Date createDate;
     private String password;
-    private String realname, wokplace, position, qqnumber;
+    private String realname, workplace, position, qqnumber;
 
     public User() {
 
@@ -88,12 +88,12 @@ public class User {
         this.realname = realname;
     }
 
-    public String getWokplace() {
-        return wokplace;
+    public String getWorkplace() {
+        return workplace;
     }
 
-    public void setWokplace(String wokplace) {
-        this.wokplace = wokplace;
+    public void setWorkplace(String workplace) {
+        this.workplace = workplace;
     }
 
     public String getPosition() {
@@ -123,7 +123,7 @@ public class User {
                 ", createDate=" + createDate +
                 ", password='" + password + '\'' +
                 ", realname='" + realname + '\'' +
-                ", wokplace='" + wokplace + '\'' +
+                ", workplace='" + workplace + '\'' +
                 ", position='" + position + '\'' +
                 ", qqnumber='" + qqnumber + '\'' +
                 '}';

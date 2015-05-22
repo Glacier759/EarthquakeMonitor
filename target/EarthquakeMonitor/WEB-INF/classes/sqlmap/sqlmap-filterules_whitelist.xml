@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.glacier.earthquake.monitor.server.util.MysqlOperation">
+
+    <resultMap id="filter_whitelist" type="FilterWhiteList">
+        <id column="id" property="id"/>
+        <result column="url" property="url"/>
+        <result column="create_date" property="date"/>
+    </resultMap>
+
+    <select id="getFilterRulesWhiteList" resultMap="filter_whitelist">
+        SELECT * FROM filter_rules_whitelist;
+    </select>
+
+    <update id="setFilterRulesWhite" parameterType="FilterWhiteList">
+        UPDATE filter_rules_whitelist SET url = #{url}, create_date = now() WHERE id = #{id};
+    </update>
+
+    <delete id="delFilterRulesWhite" parameterType="FilterWhiteList">
+        DELETE FROM filter_rules_whitelist WHERE id = #{id};
+    </delete>
+
+    <insert id="addFilterRulesWhite" parameterType="FilterWhiteList">
+        INSERT INTO filter_rules_whitelist(url) VALUES(#{url});
+    </insert>
+
+</mapper>

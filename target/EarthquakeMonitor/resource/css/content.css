@@ -1,0 +1,455 @@
+#content{
+
+    min-height:380px;
+    margin: 0 auto;
+    width: 980px;
+    height: auto;
+    font: 16px "Microsoft YaHei","微软雅黑","SimSun","宋体","Arial Narrow",HELVETICA;
+}
+#content-1{
+    margin-top: 20px;
+    height: 280px;
+    background-color: #ffffff;
+}
+#content-2{
+    height: 460px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+#sectionL{
+    width: 665px;
+    height: 270px;
+    float: left;
+    margin: 20px;
+}
+#sectionL header{
+    color:#43B49E;
+    border-bottom: 1px solid #CCCCCC;
+}
+#asideR{
+
+    float: right;
+    height: 270px;
+    width: 260px;
+    border-left: 1px solid #E6E6E6;
+}
+.content-1-footer{
+    text-align: right;
+    margin-right: 5px;
+}
+#login{
+
+    padding: 5px;
+    margin: 20px auto;
+    width: 254px;
+}
+p{
+    text-indent: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+
+}
+
+.user  {
+
+    margin: 20px auto;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    width: 230px;
+    height: 42px;
+}
+.input_text {
+    padding-left: 5px;
+    border: none;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+input, button, textarea, select {
+    resize: none;
+}
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+.logoPass,.logo{
+    margin-left: 15px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/icon_input.png") no-repeat scroll -16px 0px transparent;
+}
+.logoPass{
+    background-position: 0px 0px;
+}
+.login{
+    padding-right: 15px;
+    width: 250px;
+    margin:0 auto;
+    text-align: center;
+}
+.input_login{
+    border: #CCCCCC;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    background-color:#2EAFBB;
+    font-weight: bold;
+    color: #fff;
+    margin-left:68px;
+    margin-top: 15px;
+}
+.check{
+    margin-right: 13px;
+}
+.asideL-2{
+    width: 280px;
+    height: 460px;
+    background-color: #ffffff;
+    float: left;
+    border-right: 1px solid #E6E6E6;
+}
+.mid-2{
+    width: 440px;
+    height: 460px;
+    background-color:#ffffff;
+    float: left;
+}
+.asideR-2{
+    width: 260px;
+    height:460px;
+    background-color: #ffffff;
+    border-left: 1px solid #E6E6E6;
+    float: right;
+}
+.content-2-header{
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 280px;
+    margin-right: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    color:#43B49E;
+
+}
+.content-2-header-r{
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 260px;
+    margin-right: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    color:#43B49E;
+}
+.about{
+    text-indent: 2em;
+    width: 228px;
+    margin: 0 auto;
+    margin-top: 10px;
+font-size: 14px;
+
+}
+.myMassage{
+    font-weight: bold;
+    color:#43B49E ;
+    padding-right: 10px;
+}
+.uList{
+    display: block;
+    font-weight: bold;
+    color:#43B49E ;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.uList li{
+    display: block;
+    font-weight: bold;
+    color: #758592;
+    padding-left: 40px;
+    font-size: 14px;
+}
+.introduce{
+    text-indent: 2em;
+    width: 380px;
+    margin: 0 auto;
+}
+.welcome{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    color: #55d8ff;
+    text-align: center;
+   margin-left:72px;
+    width: 240px;
+    height: 80px;
+}
+
+/*欢迎页面样式*/
+.asideL-w-1{
+    width:980px;
+    height:412px;
+    margin: 0 auto;
+    text-align: center;
+    line-height:30px;
+    color: #ffc991;
+    background: url("../img/nogrant-bg.jpg")no-repeat scroll 0px 0px transparent;
+    background-size:100% 100%;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.7;
+    -moz-opacity:0.7;
+    opacity: 0.7;
+    z-index: 0;
+}
+.asideL-w-1  div{
+    font-weight: bold;
+    font-size: 26px;
+    color: #fff;
+    padding-top: 100px;
+    opacity: 0.6;
+}
+.quick{
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+    color: #ffffff;
+    background-color: #3398a3;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #e6e673;
+    border-left: 1px solid #e6e673;
+    border-right: 1px solid #e6e673;
+}
+
+#nav ul li {
+
+    position: relative;
+}
+#nav ul li a {
+    color: #fff;
+    display:block;
+}
+#nav ul li ul {
+    display: none;
+    z-index: 9;
+}
+#nav ul li ul li{
+    display: block;
+}
+#nav ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+#nav ul li:hover ul li a {
+    margin-left: -10px;
+    display:block;
+    background: #2EAFCF;
+    color:#ffffff;
+  width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: none;
+    font-size: 14px;
+}
+#nav ul li:hover ul li a:hover {
+    background: #2bebff;
+    color:#fff;
+}
+
+/*student-find*/
+.find{
+    margin-left: -10px;
+    display:block;
+    background: #2EAFCF;
+    color:#ffffff;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: none;
+    font-size: 14px;
+}
+.datalist {
+    border:1px solid #40a39f;   /* 表格边框 */
+    border-collapse:collapse;   /* 边框重叠 */
+    background-color:#eaf5ff;   /* 表格背景色 */
+    font-size:14px;
+    width: 940px;
+    height: auto;
+    margin: 20px auto;
+}
+.datalist caption{
+    padding-bottom:5px;
+    font:bold 1.4em;
+    text-align:left;
+}
+.datalist th{
+    border:1px solid #259275;   /* 行名称边框 */
+    background-color: #3dcaff;   /* 行名称背景色 */
+    color:#FFFFFF;              /* 行名称颜色 */
+    font-weight:bold;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:12px;
+    padding-right:12px;
+    text-align:center;
+}
+.datalist td {
+    border:1px solid #88a1ff;  /* 单元格边框 */
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.datalist tr.altrow{
+    background-color:#c7e5ff;   /* 隔行变色 */
+}
+.table{
+    width: 940px;
+    height: auto;
+    margin: 20px auto;
+}
+caption{
+    margin: 0 auto;
+    line-height: 40px;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*实验小组注册*/
+#zhuce{
+    width: 600px;
+    margin: 20px auto;
+    height: auto;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+ text-align: center;
+}
+.zhuce{
+    padding-top:30px ;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.zhuceList{
+    width: 600px;
+    margin: 20px auto;
+
+}
+.zhuceList-li{
+    width: 100px;
+}
+.zhuceList-li-input{
+    padding-left: 12px;
+    width:300px;
+    border: 1px solid #758592;
+    height: 40px;
+}
+.zhuceList-liMember{
+    width: 100px;
+    margin-left: -320px;
+}
+.zhuceList-memberName{
+    border: 1px solid #758592;
+    width: 400px;
+    margin-left: 106px;
+    border-collapse:collapse;
+}
+.zhuceList-memberName caption{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    margin-left:2px;
+}
+.zhuceList-memberName th ,td{
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: normal;
+    border: 1px solid #758592;
+}
+.zhuceList-memberName td input{
+   width: 120px;
+    height: 20px;
+    border: none;
+    text-align: left;
+}
+.input_zhuce{
+    border: #CCCCCC;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    background-color:#2EAFBB;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+}
+
+/*成绩查询*/
+.select{
+    margin-top:30px ;
+    font-size: 20px;
+    text-align: center;
+}
+.select p{
+    margin-top:30px ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/*提交作业*/
+#submit{
+    width: 600px;
+    background-color: #ffffff;
+    height: 400px;
+    margin: 30px auto;
+    line-height: 80px;
+    text-align: center;
+    padding: 50px;
+}
+.submit{
+    color: #2EAFBB;
+    padding-left: 10px;
+
+}
+
+/*考试*/
+.question{
+    width: 945px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 120px;
+}
+.question ul li{
+    width: 800px;
+    height: 60px;
+    line-height: 30px;
+   display: block;
+}
+.jianda input{
+    padding-right: 20px;
+    text-align: center;
+    height: auto;
+    line-height: 30px;
+    min-height: 60px;
+    width: 700px;
+}
+.center{
+    margin-left: 305px;
+}
