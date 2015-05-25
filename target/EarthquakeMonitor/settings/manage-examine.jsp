@@ -7,10 +7,92 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title></title>
-</head>
-<body>
-
-</body>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Earthquake Eye</title>
+        <link href="<%=request.getContextPath()%>/resource/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<%=request.getContextPath()%>/resource/css/animate.css">
+        <link href="<%=request.getContextPath()%>/resource/css/style.min.css" rel="stylesheet">
+        <link href="<%=request.getContextPath()%>/resource/fonts/google_api.css?family=Montserrat|Varela+Round"
+              rel="stylesheet">
+        <script src="<%=request.getContextPath()%>/resource/js/pace.js"></script>
+        <link href="<%=request.getContextPath()%>/resource/css/pace-theme-flash.min.css" rel="stylesheet">
+        <script src="<%=request.getContextPath()%>/resource/js/jquery-2.1.1.min.js"></script>
+        <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <%if (session.getAttribute("login") == null || session.getAttribute("login").equals("false")) {%>
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li><a href="<%=request.getContextPath()%>/index.jsp">主页</a></li>
+                    <li><a href="#" class="unlogin">系统</a></li>
+                    <li><a href="#" class="unlogin">设置</a></li>
+                    <li><a href="#" class="unlogin">用户管理</a></li>
+                    <li><a href="#" class="unlogin">关于</a></li>
+                </ul>
+            </nav>
+        </div>
+        <%} else {%>
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li><a href="<%=request.getContextPath()%>/index.jsp">主页</a></li>
+                    <li><a href="#" id="system">系统</a></li>
+                    <li><a href="<%=request.getContextPath()%>/setting.jsp">设置</a></li>
+                    <li><a href="<%=request.getContextPath()%>/manager.jsp">用户管理</a></li>
+                    <li><a href="<%=request.getContextPath()%>/about.jsp">关于</a></li>
+                </ul>
+            </nav>
+        </div>
+        <%}%>
+        <div class="button-container" id="menu">
+            <span class="top" id="span-top" key="menu"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+        <div id="header-div">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    <h4>系统设置<span class="caret"></span></h4></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-disaster.jsp">灾情获取匹配式管理</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-public.jsp">舆情监测匹配式管理</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-whitelist.jsp">白名单管理</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-warning.jsp">报警设置</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-examine.jsp">审核管理</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
+        <script>
+            $(function () {
+                $(".unlogin").click(function () {
+                    document.getElementById("menu").click();
+                    document.getElementById("login").click();
+                });
+            });
+        </script>
+    </body>
 </html>
