@@ -18,38 +18,7 @@
         <link href="<%=request.getContextPath()%>/resource/css/pace-theme-flash.min.css" rel="stylesheet">
     </head>
     <body>
-        <div class="button-container" id="menu">
-            <span class="top" id="span-top" key="menu"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-        </div>
-        <%
-            if ( session.getAttribute("login") == null || session.getAttribute("login").equals("false") ) {
-        %>
-        <div class="overlay" id="overlay">
-            <nav class="overlay-menu">
-                <ul>
-                    <li><a href="<%=request.getContextPath()%>/index.jsp">主页</a></li>
-                    <li><a href="#" class="unlogin">系统</a></li>
-                    <li><a href="#" class="unlogin">设置</a></li>
-                    <li><a href="#" class="unlogin">用户管理</a></li>
-                    <li><a href="#" class="unlogin">关于</a></li>
-                </ul>
-            </nav>
-        </div>
-        <%} else {%>
-        <div class="overlay" id="overlay">
-            <nav class="overlay-menu">
-                <ul>
-                    <li><a href="<%=request.getContextPath()%>/index.jsp">主页</a></li>
-                    <li><a href="#" id="system">系统</a></li>
-                    <li><a href="<%=request.getContextPath()%>/setting.jsp">设置</a></li>
-                    <li><a href="<%=request.getContextPath()%>/manager.jsp">用户管理</a></li>
-                    <li><a href="<%=request.getContextPath()%>/about.jsp">关于</a></li>
-                </ul>
-            </nav>
-        </div>
-        <%}%>
+        <%@include file="header.jsp"%>
         <div class="overlay" id="overlay-form">
             <nav class="overlay-menu">
                 <form action="<%=request.getContextPath()%>/LoginServlet" method="post">
@@ -75,22 +44,7 @@
                 </form>
             </nav>
         </div>
-        <div class="modal fade" id="confirm" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4>系统</h4>
-                    </div>
-                    <div class="modal-body">这里可以对这个功能点做以说明。比如说启动是什么作用，停止是什么作用，退出又是什么作用。</div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-success">启动</button>
-                        <button type="button" class="btn btn-danger">停止</button>
-                        <button type="button" class="btn btn-warning">退出</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <%@include file="system.jsp"%>
         <header class="container-fluid intro-lg bkg">
             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                 <h3 id="supra" class="animated fadeInUp">地震灾情获取与舆情监控</h3>
@@ -107,19 +61,6 @@
         <script src="<%=request.getContextPath()%>/resource/js/jquery-2.1.1.min.js"></script>
         <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
-        <script>
-            $(function() {
-               $(".unlogin").click(function(){
-                   document.getElementById("menu").click();
-                   document.getElementById("login").click();
-               });
-            });
-            $(function() {
-               $("#system").click(function() {
-                  document.getElementById("menu").click();
-                   $("#confirm").modal("toggle");
-               });
-            });
-        </script>
+        <%@include file="footer.jsp"%>
     </body>
 </html>

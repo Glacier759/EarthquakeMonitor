@@ -21,36 +21,8 @@
         <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <%if (session.getAttribute("login") == null || session.getAttribute("login").equals("false")) {%>
-        <div class="overlay" id="overlay">
-            <nav class="overlay-menu">
-                <ul>
-                    <li><a href="<%=request.getContextPath()%>/index.jsp">主页</a></li>
-                    <li><a href="#" class="unlogin">系统</a></li>
-                    <li><a href="#" class="unlogin">设置</a></li>
-                    <li><a href="#" class="unlogin">用户管理</a></li>
-                    <li><a href="#" class="unlogin">关于</a></li>
-                </ul>
-            </nav>
-        </div>
-        <%} else {%>
-        <div class="overlay" id="overlay">
-            <nav class="overlay-menu">
-                <ul>
-                    <li><a href="<%=request.getContextPath()%>/index.jsp">主页</a></li>
-                    <li><a href="#" id="system">系统</a></li>
-                    <li><a href="<%=request.getContextPath()%>/setting.jsp">设置</a></li>
-                    <li><a href="<%=request.getContextPath()%>/manager.jsp">用户管理</a></li>
-                    <li><a href="<%=request.getContextPath()%>/about.jsp">关于</a></li>
-                </ul>
-            </nav>
-        </div>
-        <%}%>
-        <div class="button-container" id="menu">
-            <span class="top" id="span-top" key="menu"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-        </div>
+        <%@include file="../header.jsp"%>
+        <%@include file="../system.jsp"%>
         <div id="header-div">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -65,7 +37,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    <h4>系统设置<span class="caret"></span></h4></a>
+                                    <h4>管理设置<span class="caret"></span></h4></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="<%=request.getContextPath()%>/settings/manage-disaster.jsp">灾情获取匹配式管理</a></li>
                                     <li class="divider"></li>
@@ -86,13 +58,6 @@
             </nav>
         </div>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
-        <script>
-            $(function () {
-                $(".unlogin").click(function () {
-                    document.getElementById("menu").click();
-                    document.getElementById("login").click();
-                });
-            });
-        </script>
+        <%@include file="../footer.jsp"%>
     </body>
 </html>
