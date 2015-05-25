@@ -1,4 +1,11 @@
-<%@ page contentType="text/html; charset=UTF-8" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: glacier
+  Date: 15-5-25
+  Time: 下午4:02
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -11,8 +18,8 @@
         <link href="<%=request.getContextPath()%>/resource/css/pace-theme-flash.min.css" rel="stylesheet">
     </head>
     <body>
-        <div class="button-container" id="toggle">
-            <span class="top" id="span-top" key="toggle"></span>
+        <div class="button-container" id="menu">
+            <span class="top" id="span-top" key="menu"></span>
             <span class="middle"></span>
             <span class="bottom"></span>
         </div>
@@ -35,10 +42,10 @@
             <nav class="overlay-menu">
                 <ul>
                     <li><a href="<%=request.getContextPath()%>/index.jsp">主页</a></li>
-                    <li><a href="#">系统</a></li>
-                    <li><a href="#">设置</a></li>
-                    <li><a href="#">用户管理</a></li>
-                    <li><a href="#">关于</a></li>
+                    <li><a href="#" id="system">系统</a></li>
+                    <li><a href="<%=request.getContextPath()%>/setting.jsp">设置</a></li>
+                    <li><a href="<%=request.getContextPath()%>/manager.jsp">用户管理</a></li>
+                    <li><a href="<%=request.getContextPath()%>/about.jsp">关于</a></li>
                 </ul>
             </nav>
         </div>
@@ -68,23 +75,49 @@
                 </form>
             </nav>
         </div>
+        <div class="modal fade" id="confirm" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4>系统</h4>
+                    </div>
+                    <div class="modal-body">这里可以对这个功能点做以说明。比如说启动是什么作用，停止是什么作用，退出又是什么作用。</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">启动</button>
+                        <button type="button" class="btn btn-danger">停止</button>
+                        <button type="button" class="btn btn-warning">退出</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <header class="container-fluid intro-lg bkg">
             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-                <h3 id="supra" class="animated fadeInUp">地震灾情获取与舆情监控系统</h3>
+                <h3 id="supra" class="animated fadeInUp">地震灾情获取与舆情监控</h3>
                 <h1 id="title" class="animated fadeInUp">Earthquake Eye</h1>
                 <h3 id="sub" class="animated bounceIn">一个<span class="hidden-xs">多维度</span><span class="hidden-xs hidden-sm hidden-md">的地震信息监测报警系统</span></h3>
                 <div class="divider divider-intro animated bounceIn"></div>
-                <a id="login" href="#" class="btn btn-custom animated fadeInUp">Sign in</a>
+                <%if ( session.getAttribute("login") == null || session.getAttribute("login").equals("false") ) {%>
+                <a id="login" href="#" class="btn btn-custom animated fadeInUp">SIGN IN</a>
+                <%} else {%>
+                <a id="lookup" href="#" class="btn btn-custom animated fadeInUp">LOOK UP</a>
+                <%}%>
             </div>
         </header>
-        <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
         <script src="<%=request.getContextPath()%>/resource/js/jquery-2.1.1.min.js"></script>
+        <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <script>
             $(function() {
                $(".unlogin").click(function(){
-                   document.getElementById("toggle").click();
+                   document.getElementById("menu").click();
                    document.getElementById("login").click();
+               });
+            });
+            $(function() {
+               $("#system").click(function() {
+                  document.getElementById("menu").click();
+                   $("#confirm").modal("toggle");
                });
             });
         </script>

@@ -23,7 +23,7 @@ public class LoginServlet extends HttpServlet {
         if ( loginUser != null && loginUser.getPassword().equals(password) ) {
             request.getSession().setAttribute("login_user", loginUser);
             request.getSession().setAttribute("login", "true");
-            RequestDispatcher requestDispatcher = request.getRequestDispatcher("welcome.jsp");
+            RequestDispatcher requestDispatcher = request.getRequestDispatcher("index.jsp");
             requestDispatcher.forward(request, response);
         }
         else {
