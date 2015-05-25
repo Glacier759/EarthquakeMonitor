@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet {
         String password = request.getParameter("password");
 
         User loginUser = Data2Object.getUserInfoByMobile(mobile);
-        if ( loginUser.getPassword().equals(password) ) {
+        if ( loginUser != null && loginUser.getPassword().equals(password) ) {
             request.getSession().setAttribute("login_user", loginUser);
             request.getSession().setAttribute("login", "true");
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("welcome.jsp");
