@@ -100,7 +100,7 @@
                 <%if ( session.getAttribute("login") == null || session.getAttribute("login").equals("false") ) {%>
                 <a id="login" href="#" class="btn btn-custom animated fadeInUp">SIGN IN</a>
                 <%} else {%>
-                <a id="lookup" href="#" class="btn btn-custom animated fadeInUp">LOOK UP</a>
+                <a id="lookup" href="<%=request.getContextPath()%>/setting.jsp" class="btn btn-custom animated fadeInUp">LOOK UP</a>
                 <%}%>
             </div>
         </header>
