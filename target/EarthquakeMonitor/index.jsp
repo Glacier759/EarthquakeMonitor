@@ -16,6 +16,21 @@
             <span class="middle"></span>
             <span class="bottom"></span>
         </div>
+        <%
+            if ( session.getAttribute("login") == null || session.getAttribute("login").equals("false") ) {
+        %>
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li><a href="<%=request.getContextPath()%>/index.jsp">主页</a></li>
+                    <li><a href="#" class="unlogin">系统</a></li>
+                    <li><a href="#" class="unlogin">设置</a></li>
+                    <li><a href="#" class="unlogin">用户管理</a></li>
+                    <li><a href="#" class="unlogin">关于</a></li>
+                </ul>
+            </nav>
+        </div>
+        <%} else {%>
         <div class="overlay" id="overlay">
             <nav class="overlay-menu">
                 <ul>
@@ -27,6 +42,7 @@
                 </ul>
             </nav>
         </div>
+        <%}%>
         <div class="overlay" id="overlay-form">
             <nav class="overlay-menu">
                 <form action="<%=request.getContextPath()%>/LoginServlet" method="post">
@@ -64,5 +80,13 @@
         <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
         <script src="<%=request.getContextPath()%>/resource/js/jquery-2.1.1.min.js"></script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
+        <script>
+            $(function() {
+               $(".unlogin").click(function(){
+                   document.getElementById("toggle").click();
+                   document.getElementById("login").click();
+               });
+            });
+        </script>
     </body>
 </html>

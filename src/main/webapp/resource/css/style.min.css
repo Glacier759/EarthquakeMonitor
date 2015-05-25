@@ -777,6 +777,7 @@ footer span {
 
 .icon-class {
     color: white;
+    width: 80px;
 }
 
 @media (min-width: 768px) {
