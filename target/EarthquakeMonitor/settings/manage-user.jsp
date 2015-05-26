@@ -34,8 +34,8 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#" onclick="no()"><h4>用户管理</h4></a></li>
-                            <li><a href="#"><h4>修改资料</h4></a></li>
+                            <li><a href="#"><h4>用户管理</h4></a></li>
+                            <li><a href="<%=request.getContextPath()%>/manager.jsp"><h4>修改资料</h4></a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->

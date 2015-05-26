@@ -5,20 +5,22 @@
 <%
     if ( session.getAttribute("login") == null || session.getAttribute("login").equals("false") ) {
         Cookie[] cookies = request.getCookies();
-        for ( Cookie cookie : cookies ) {
-            if ( cookie.getName().equals("username") ) {
-                String username = cookie.getValue();
-                session.setAttribute("login", "true");
-                if ( UserUtils.isMobile(username) ) {
-                    session.setAttribute("login_user", UserMonitor.getUserInfoByMobile(username));
-                } else if ( UserUtils.isEmail(username) ) {
-                    session.setAttribute("login_user", UserMonitor.getUserInfoByEmail(username));
-                }
-                int status = ((User)session.getAttribute("login_user")).getPrivilege();
-                if ( status == 1 ) {
-                    session.setAttribute("privilege", "admin");
-                } else if ( status == 0 ) {
-                    session.setAttribute("privilege", "user");
+        if (cookies != null) {
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("username")) {
+                    String username = cookie.getValue();
+                    session.setAttribute("login", "true");
+                    if (UserUtils.isMobile(username)) {
+                        session.setAttribute("login_user", UserMonitor.getUserInfoByMobile(username));
+                    } else if (UserUtils.isEmail(username)) {
+                        session.setAttribute("login_user", UserMonitor.getUserInfoByEmail(username));
+                    }
+                    int status = ((User) session.getAttribute("login_user")).getPrivilege();
+                    if (status == 1) {
+                        session.setAttribute("privilege", "admin");
+                    } else if (status == 0) {
+                        session.setAttribute("privilege", "user");
+                    }
                 }
             }
         }

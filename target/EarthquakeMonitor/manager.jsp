@@ -5,6 +5,7 @@
   Time: 下午4:06
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page import="com.glacier.earthquake.monitor.server.pojo.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
@@ -42,6 +43,7 @@
                 </div><!-- /.container-fluid -->
             </nav>
         </div>
+        <%User user = (User)session.getAttribute("login_user");%>
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
@@ -55,7 +57,7 @@
                             <div class="col-lg-8">
                                 <div class="input-group">
                                     <span class="input-group-addon">昵称</span>
-                                    <input type="text" class="form-control" placeholder="戴着眼镜的狗" name="nickname" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getNickname()%>" name="nickname" value="" />
                                 </div>
                             </div>
                             <div class="col-lg-2"></div>
@@ -66,7 +68,7 @@
                             <div class="col-lg-6">
                                 <div class="input-group">
                                     <span class="input-group-addon">邮箱</span>
-                                    <input type="text" class="form-control" placeholder="OurHom.759@gmail.com" name="email" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getEmail()%>" name="email" value="" />
                                 </div>
                             </div>
                             <div class="col-lg-4"></div>
@@ -77,7 +79,7 @@
                             <div class="col-lg-6">
                                 <div class="input-group">
                                     <span class="input-group-addon">手机</span>
-                                    <input type="text" class="form-control" placeholder="13289212979" name="mobile" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getMobile()%>" name="mobile" value="" />
                                 </div>
                             </div>
                             <div class="col-lg-4"></div>
@@ -88,14 +90,14 @@
                             <div class="col-lg-3">
                                 <div class="input-group">
                                     <span class="input-group-addon">姓名</span>
-                                    <input type="text" class="form-control" placeholder="李雷雷光" name="realname" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getRealname()%>" name="realname" value="" />
                                 </div>
                             </div>
                             <div class="col-lg-1"></div>
                             <div class="col-lg-4">
                                 <div class="input-group">
                                     <span class="input-group-addon">QQ</span>
-                                    <input type="text" class="form-control" placeholder="1324567891" name="qqnumber" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getQqnumber()%>" name="qqnumber" value="" />
                                 </div>
                             </div>
                             <div class="col-lg-4"></div>
@@ -106,13 +108,13 @@
                             <div class="col-lg-5">
                                 <div class="input-group">
                                     <span class="input-group-addon">工作单位</span>
-                                    <input type="text" class="form-control" placeholder="国居民委员会" name="workplace" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getWorkplace()%>" name="workplace" value="" />
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="input-group">
                                     <span class="input-group-addon">职位</span>
-                                    <input type="text" class="form-control" placeholder="副书记" name="position" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getPosition()%>" name="position" value="" />
                                 </div>
                             </div>
                             <div class="col-lg-4"></div>
