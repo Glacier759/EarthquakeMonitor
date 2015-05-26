@@ -1,4 +1,3 @@
-<%@ page import="com.glacier.earthquake.monitor.server.pojo.User" %>
 <%--
   Created by IntelliJ IDEA.
   User: glacier

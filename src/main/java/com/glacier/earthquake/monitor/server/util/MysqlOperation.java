@@ -33,7 +33,7 @@ public interface MysqlOperation {
 
     public void setFilterRulesDisaster(FilterDisaster filterDisaster);
 
-    public void delFilterRulesDisaster(FilterDisaster filterDisaster);
+    public void delFilterRulesDisaster(Integer id);
 
     public void addFilterRulesDisaster(FilterDisaster filterDisaster);
 

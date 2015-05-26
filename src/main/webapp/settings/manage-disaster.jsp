@@ -63,11 +63,24 @@
                 <div class="alert alert-info alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4>从文件导入<a class="anchorjs-link" href="#从文件导入"><span class="anchorjs-icon"></span></a></h4>
-                    <form action="<%=request.getContextPath()%>/UploadServlet" method="post" enctype="multipart/form-data">
-                        <label class="control-label">上传文件:</label>
-                        <input type="file"  name="file">
-                        <br />
-                        <button type="submit" id="subbut" class="btn btn-info" style="">上传</button>
+                    <form id="form-upload" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <label class="control-label">上传文件:</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-10">
+                                <input type="file" name="file">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10"></div>
+                            <div class="col-lg-2">
+                                <button type="submit" id="subbut" class="btn btn-info" style="">上传</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -77,7 +90,7 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <form>
+                <form id="form-addfilter" method="get">
                     <div class="panel panel-info">
                         <div class="panel-heading">增加灾情获取匹配式</div>
                         <div class="panel-body">
@@ -86,7 +99,7 @@
                                     <div class="col-lg-12">
                                         <div class="input-group">
                                             <span class="input-group-addon">匹配规则</span>
-                                            <input type="text" class="form-control" placeholder="乌恰*地震*人死亡" name="filter" />
+                                            <input type="text" class="form-control" placeholder="乌恰*地震*人死亡" name="filter" value="" />
                                         </div>
                                     </div>
                                     <br /><br />
@@ -105,6 +118,12 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-lg-10"></div>
+                                <div class="col-lg-2">
+                                    <button type="submit" class="btn btn-info">提交</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </form>
@@ -119,9 +138,9 @@
                     <table class="table table-striped table-bordered table-hover" id="filters-table">
                         <thead>
                             <tr>
-                                <th class="text-center">Type</th>
-                                <th class="text-center">Address</th>
-                                <th class="text-center">Pid/Program_Name</th>
+                                <th class="text-center">Create Time</th>
+                                <th class="text-center">Rule</th>
+                                <th class="text-center">Setting</th>
                             </tr>
                         </thead>
                         <tbody id="filters-tbody"></tbody>
@@ -151,36 +170,79 @@
                     }
                 });
             });
+            function del(val)
+            {
+                $.ajax({
+                    type: "get",
+                    url: "<%=request.getContextPath()%>/SettingServlet?type=delete",
+                    data: "filter_id="+val,
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        if ( msg == "permission denied" ) {
+                            alert("您没有权限进行此操作");
+                        } else {
+                            var filterChild=document.getElementById(val);
+                            document.getElementById("filters-tbody").removeChild(filterChild);
+                        }
+                    }
+                });
+            }
         </script>
         <script>
             createTable();
             function createTable() {
                 $.ajax({
-                    url: "http://127.0.0.1:8080/get_port/",
+                    url: "<%=request.getContextPath()%>/SettingServlet?type=disaster",
                     type: "GET",
                     dataType: "json",
                     success: function(data) {
                         var objson = eval(data);
                         for ( var i = 0; i < objson.length; i ++ ) {
                             var row = document.createElement("tr");
+                            row.setAttribute("id", objson[i].id);
                             row.setAttribute("class", "text-info");
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");
-                            col1.appendChild(document.createTextNode(objson[i].type));
+                            col1.appendChild(document.createTextNode(objson[i].create_time));
                             row.appendChild(col1);
                             var col2 = document.createElement("th");
                             col2.setAttribute("class", "text-center");
-                            col2.appendChild(document.createTextNode(objson[i].address));
+                            col2.appendChild(document.createTextNode(objson[i].rule));
                             row.appendChild(col2);
                             var col3 = document.createElement("th");
                             col3.setAttribute("class", "text-center");
-                            col3.appendChild(document.createTextNode(objson[i].pid_program_name));
+                            var button = document.createElement("button");
+                            button.setAttribute("class", "btn btn-danger");
+                            button.setAttribute("value", objson[i].id);
+                            button.setAttribute("name", "filter");
+                            button.setAttribute("onClick", "del(this.value)");
+                            button.innerHTML = "删除";
+                            col3.appendChild(button);
                             row.appendChild(col3);
-                            document.getElementById("netport-tbody").appendChild(row);
+                            document.getElementById("filters-tbody").appendChild(row);
                         }
                     }
                 });
             }
+        </script>
+        <script>
+            $("#form-addfilter").submit(function() {
+                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?type=addfilter";
+                var ajax_type = $(this).attr('method');
+                var ajax_data = $(this).serialize();
+                $.ajax({
+                    type: ajax_type,
+                    url: ajax_url,
+                    data: ajax_data,
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        if ( msg == "permission denied" ) {
+                            alert("您没有权限进行此操作");
+                        } else {
+                            location.reload();
+                        }
+                    }
+                });
+                return false;   //阻止表单的默认提交事件
+            });
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <%@include file="../footer.jsp"%>

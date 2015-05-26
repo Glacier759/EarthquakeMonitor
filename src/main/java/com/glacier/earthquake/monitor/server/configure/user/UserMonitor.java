@@ -4,6 +4,8 @@ import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * Created by glacier on 15-5-2.
  */
@@ -16,6 +18,10 @@ public class UserMonitor {
      * 为每个当前登录用户实例化一个UserMonitor类，user表示当前登录用户的信息
      * */
     private User user;
+
+    public static UserMonitor getUserMonitor(HttpServletRequest request) {
+        return new UserMonitor((User)request.getSession().getAttribute("login_user"));
+    }
 
     public UserMonitor(User user) {
         this.user = user;
@@ -81,6 +87,13 @@ public class UserMonitor {
         return false;
     }
 
+    public boolean isAdministor() {
+        if ( user.getPrivilege() == USER_ADMINISTATOR ) {
+            return true;
+        }
+        return false;
+    }
+
     /**
      * 判断用户是否存在
      * */
@@ -98,6 +111,10 @@ public class UserMonitor {
 
     public static User getUserInfoByUID(int uid) {
         return Data2Object.getUserInfoByUID(uid);
+    }
+
+    public static void registUser(User user) {
+        Object2Data.addUser(user);
     }
 
     public FilterRuleMonitor getFilterRuleMonitor() {

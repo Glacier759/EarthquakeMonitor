@@ -40,9 +40,9 @@ public class FilterRuleMonitor {
         return false;
     }
 
-    public boolean delRuleDisaster(FilterDisaster filterDisaster) {
+    public boolean delRuleDisaster(Integer id) {
         if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
-            Object2Data.delFilterRulesDisaster(filterDisaster);
+            Object2Data.delFilterRulesDisaster(id);
             return true;
         }
         return false;

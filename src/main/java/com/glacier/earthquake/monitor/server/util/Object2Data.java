@@ -153,10 +153,10 @@ public class Object2Data {
         }
     }
 
-    public static void delFilterRulesDisaster(FilterDisaster filterRulesDisaster) {
+    public static void delFilterRulesDisaster(Integer id) {
         init();
         try {
-            mapper.delFilterRulesDisaster(filterRulesDisaster);
+            mapper.delFilterRulesDisaster(id);
             session.commit();
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

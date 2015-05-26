@@ -1,9 +1,11 @@
 package com.glacier.earthquake.monitor.browser.servlet;
 
 import com.glacier.earthquake.monitor.browser.util.UserUtils;
+import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
+import com.glacier.earthquake.monitor.server.util.StringUtils;
 import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
@@ -27,14 +29,13 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        System.out.println("choice = " + choice + "\tusername = " + username + "\tpassword = " + password);
         if ( choice.equals("login") ) {
             User user = null;
             if ( UserUtils.isEmail(username) ) {
-                user = Data2Object.getUserInfoByEmail(username);
+                user = UserMonitor.getUserInfoByEmail(username);
             }
             else if ( UserUtils.isMobile(username) ) {
-                user = Data2Object.getUserInfoByMobile(username);
+                user = UserMonitor.getUserInfoByMobile(username);
             }
             if ( user != null && user.getPassword().equals(password) ) {
                 request.getSession().setAttribute("login_user", user);
@@ -56,8 +57,8 @@ public class LoginServlet extends HttpServlet {
                 return;
             }
             User user = null;
-            User user_mail = Data2Object.getUserInfoByEmail(username);
-            User user_mobile = Data2Object.getUserInfoByMobile(username);
+            User user_mail = UserMonitor.getUserInfoByEmail(username);
+            User user_mobile = UserMonitor.getUserInfoByMobile(username);
             if ( user_mail != null ) {  user = user_mail; }
             else if ( user_mobile != null ) {   user = user_mobile; }
             if ( user != null ) {
@@ -78,7 +79,7 @@ public class LoginServlet extends HttpServlet {
                     return;
                 }
                 user.setPassword(password);
-                Object2Data.addUser(user);
+                UserMonitor.registUser(user);
                 response.getWriter().print("register success");
                 logger.info("[注册] - " + username + " 注册成功");
             }

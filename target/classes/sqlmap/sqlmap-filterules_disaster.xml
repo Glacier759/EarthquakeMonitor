@@ -15,7 +15,7 @@
     <update id="setFilterRulesDisaster" parameterType="FilterDisaster">
         UPDATE filter_rules_disaster SET rule = #{filterRule} WHERE id = #{id};
     </update>
-    <delete id="delFilterRulesDisaster" parameterType="FilterDisaster">
+    <delete id="delFilterRulesDisaster" parameterType="Integer">
         DELETE FROM filter_rules_disaster WHERE id = #{id};
     </delete>
     <insert id="addFilterRulesDisaster" parameterType="FilterDisaster">

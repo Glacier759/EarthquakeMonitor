@@ -25,11 +25,15 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.HttpParams;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.jsoup.nodes.Document;
 
 import java.net.URI;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -40,8 +44,19 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            System.out.println(UserUtils.isEmail("OurHom.759@gmail"));
-            System.out.println(UserUtils.isMobile("14489212979"));
+            JSONObject jsonObject = new JSONObject();
+            JSONArray jsonArray = new JSONArray();
+            List<FilterDisaster> filters = Data2Object.filterRulesDisaster();
+            SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            for ( int index = 0; index < filters.size(); index ++ ) {
+                FilterDisaster filter = filters.get(index);
+                Date date = filter.getCreateDate();
+                String rule = filter.getFilterRule();
+                jsonObject.put("create-time", format.format(date));
+                jsonObject.put("rule", rule);
+                jsonArray.put(jsonObject);
+            }
+            System.out.println(jsonArray);
 
         }catch (Exception e) {
             e.printStackTrace();

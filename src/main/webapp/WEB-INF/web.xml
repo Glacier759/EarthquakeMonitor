@@ -16,6 +16,10 @@
         <servlet-name>UploadServlet</servlet-name>
         <servlet-class>com.glacier.earthquake.monitor.browser.servlet.UploadServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SettingServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.browser.servlet.SettingServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -28,5 +32,9 @@
     <servlet-mapping>
         <servlet-name>UploadServlet</servlet-name>
         <url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SettingServlet</servlet-name>
+        <url-pattern>/SettingServlet</url-pattern>
     </servlet-mapping>
 </web-app>
