@@ -1,4 +1,5 @@
 
+import com.glacier.earthquake.monitor.browser.util.UserUtils;
 import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.SpiderInfoMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
@@ -39,21 +40,8 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            List<NameValuePair> nvps = new ArrayList<NameValuePair>();
-            nvps.add(new BasicNameValuePair("TextBox1", "04121110"));
-            nvps.add(new BasicNameValuePair("TextBox2", "glacierlx1994"));
-            nvps.add(new BasicNameValuePair("__VIEWSTATE", "dDw1MjQ2ODMxNzY7Oz799QJ05KLrvCwm73IGbcfJPI91Aw=="));
-
-            HttpPost httpPost = new HttpPost("http://222.24.19.202/default_ysdx.aspx");
-            httpPost.setEntity(new UrlEncodedFormEntity(nvps, "UTF-8"));
-            DefaultHttpClient defaultHttpClient = MyHttpConnectionManager.getNewHttpClient();
-            HttpResponse response = defaultHttpClient.execute(httpPost);
-            System.out.println(EntityUtils.toString(response.getEntity()));
-
-
-            HttpGet httpGet = new HttpGet("http://222.24.19.202/xs_main.aspx?xh=04121110");
-            response = defaultHttpClient.execute(httpGet);
-            System.out.println(EntityUtils.toString(response.getEntity()));
+            System.out.println(UserUtils.isEmail("OurHom.759@gmail"));
+            System.out.println(UserUtils.isMobile("14489212979"));
 
         }catch (Exception e) {
             e.printStackTrace();

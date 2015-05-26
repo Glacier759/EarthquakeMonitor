@@ -1,7 +1,9 @@
 package com.glacier.earthquake.monitor.browser.servlet;
 
+import com.glacier.earthquake.monitor.browser.util.UserUtils;
 import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
+import com.glacier.earthquake.monitor.server.util.Object2Data;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,19 +18,69 @@ import java.io.IOException;
  */
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String mobile = request.getParameter("username");
+        response.setContentType("text/html;charset=utf-8");
+        String choice = request.getParameter("choice");     //判断是登陆还是注册
+        String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        User loginUser = Data2Object.getUserInfoByMobile(mobile);
-        if ( loginUser != null && loginUser.getPassword().equals(password) ) {
-            request.getSession().setAttribute("login_user", loginUser);
-            request.getSession().setAttribute("login", "true");
-            RequestDispatcher requestDispatcher = request.getRequestDispatcher("index.jsp");
-            requestDispatcher.forward(request, response);
+        System.out.println("choice = " + choice + "\tusername = " + username + "\tpassword = " + password);
+        if ( choice.equals("login") ) {
+            User user = new User();
+            if ( UserUtils.isMobile(username) ) {
+                user.setMobile(username);
+            }
+            else if ( UserUtils.isEmail(username) ) {
+                user.setEmail(username);
+            }
+            user.setPassword(password);
+            System.out.println("user = " + user);
+            user = Data2Object.checkPassword(user);
+            if ( user != null ) {
+                request.getSession().setAttribute("login_user", user);
+                request.getSession().setAttribute("login", "true");
+                response.getWriter().print("登录成功");
+                System.out.println("登录成功");
+            }
+            else {
+                request.getSession().setAttribute("login", false);
+                response.getWriter().print("登录失败");
+                System.out.println("登录失败");
+            }
         }
-        else {
-            RequestDispatcher requestDispatcher = request.getRequestDispatcher("loginfaild.jsp");
-            requestDispatcher.forward(request, response);
+        else if ( choice.equals("register") ) {
+            String repassword = request.getParameter("repassword");
+            if ( !password.equals(repassword) ) {
+                response.getWriter().print("两次密码不一致");
+                System.out.println("两次密码不一致");
+                return;
+            }
+            User user = null;
+            User user_mail = Data2Object.getUserInfoByEmail(username);
+            User user_mobile = Data2Object.getUserInfoByMobile(username);
+            if ( user_mail != null ) {  user = user_mail; }
+            else if ( user_mobile != null ) {   user = user_mobile; }
+            if ( user != null ) {
+                response.getWriter().print("已经存在该用户");
+                System.out.println("已经存在该用户");
+            }
+            else {
+                user = new User();
+                if (UserUtils.isEmail(username)) {
+                    user.setEmail(username);
+                }
+                else if ( UserUtils.isMobile(username) ) {
+                    user.setMobile(username);
+                }
+                else {
+                    response.getWriter().print("输入的信息既不是邮箱也不是手机号");
+                    System.out.println("输入的信息既不是邮箱也不是手机号");
+                    return;
+                }
+                user.setPassword(password);
+                Object2Data.addUser(user);
+                response.getWriter().print("注册成功");
+                System.out.println("注册成功");
+            }
         }
     }
 

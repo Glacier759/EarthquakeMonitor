@@ -1,3 +1,4 @@
+<%@ page import="com.glacier.earthquake.monitor.server.pojo.User" %>
 <%--
   Created by IntelliJ IDEA.
   User: glacier
@@ -20,15 +21,25 @@
         <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
     </head>
     <body>
+        <%
+            User user = (User)session.getAttribute("login_user");
+            if ( user != null ) {
+                %>
+            <h1><%=user.getEmail()%></h1>
+            <h1><%=user.getMobile()%></h1>
+        <%
+            }
+        %>
         <%@include file="header.jsp"%>
         <div class="overlay" id="overlay-form">
             <nav class="overlay-menu">
-                <form action="<%=request.getContextPath()%>/LoginServlet" method="post">
+                <form method="post" id="form-login" class="form-submit">
                     <ul>
                         <li>
                             <div class="input-group">
                                 <span class="glyphicon glyphicon-user icon-class" aria-hidden="true">  </span>
-                                <input type="text" id="username" name="username" placeholder="用户名/手机号/邮箱" class="input-class" value="" required="required" />
+                                <input type="text" id="username" name="username" placeholder="手机号/邮箱" class="input-class" value="" required="required" />
+                                <input type="hidden" name="choice" value="login" />
                             </div>
                         </li>
                         <br />
@@ -40,7 +51,7 @@
                         </li>
                         <br />
                         <li>
-                            <button class="btn btn-submit animated fadeInUp" type="submit" value="login">登录</button>
+                            <button class="btn btn-submit animated fadeInUp" type="submit" name="choice" value="login">登录</button>
                         </li>
                     </ul>
                 </form>
@@ -48,12 +59,12 @@
         </div>
         <div class="overlay" id="overlay-form-register">
             <nav class="overlay-menu">
-                <form action="<%=request.getContextPath()%>/RegisterServlet" method="post">
+                <form method="post" id="form-register" class="form-submit">
                     <ul>
                         <li>
                             <div class="input-group">
                                 <span class="glyphicon glyphicon-user icon-class" aria-hidden="true">  </span>
-                                <input type="text" id="username-register" name="username" placeholder="用户名/手机号/邮箱" class="input-class" value="" required="required" />
+                                <input type="text" id="username-register" name="username" placeholder="手机号/邮箱" class="input-class" value="" required="required" />
                             </div>
                         </li>
                         <br />
@@ -61,6 +72,7 @@
                             <div class="input-group">
                                 <span class="glyphicon glyphicon-lock icon-class" aria-hidden="true" >  </span>
                                 <input type="password" id="password-register" name="password" placeholder="登录密码" class="input-class" value="" required="required" />
+                                <input type="hidden" name="choice" value="register" />
                             </div>
                         </li>
                         <li>
@@ -71,7 +83,7 @@
                         </li>
                         <br />
                         <li>
-                            <button class="btn btn-submit animated fadeInUp" type="submit" value="register">注册</button>
+                            <button class="btn btn-submit animated fadeInUp" type="submit">注册</button>
                         </li>
                     </ul>
                 </form>
@@ -89,11 +101,28 @@
                 &nbsp;
                 <button type="button" id="register" class="btn btn-custom animated fadeInUp"  data-toggle="tooltip" data-placement="top" title="注册">SIGN UP</button>
                 <%} else {%>
+                <h1><%=session.getAttribute("login")%></h1>
                 <a id="lookup" href="<%=request.getContextPath()%>/setting.jsp" class="btn btn-custom animated fadeInUp">LOOK UP</a>
                 <%}%>
             </div>
         </header>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
+        <script>
+            $(".form-submit").submit(function() {
+                var ajax_url = "<%=request.getContextPath()%>/LoginServlet";
+                var ajax_type = $(this).attr('method');
+                var ajax_data = $(this).serialize();
+                $.ajax({
+                    type: ajax_type,
+                    url: ajax_url,
+                    data: ajax_data,
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        alert(msg);
+                    }
+                });
+                return false;   //阻止表单的默认提交事件
+            });
+        </script>
         <script>
             $(function () {
                 $('[data-toggle="tooltip"]').tooltip()
