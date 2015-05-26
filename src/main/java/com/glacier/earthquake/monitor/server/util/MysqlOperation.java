@@ -65,4 +65,6 @@ public interface MysqlOperation {
 
     public void deleteSpiderInfo(SpiderInfo spiderInfo);
 
+    public List<User> getUserList();
+
 }

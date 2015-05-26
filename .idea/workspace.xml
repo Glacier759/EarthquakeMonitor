@@ -27,28 +27,28 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.407408">
-              <caret line="129" column="15" selection-start-line="103" selection-start-column="12" selection-end-line="129" selection-end-column="15" />
+            <state vertical-scroll-proportion="-14.555555">
+              <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/LoginServlet.java">
+      <file leaf-file-name="manager.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/manager.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+            <state vertical-scroll-proportion="-12.0">
+              <caret line="57" column="30" selection-start-line="48" selection-start-column="24" selection-end-line="57" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage-disaster.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-disaster.jsp">
+      <file leaf-file-name="manage-user.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.333333">
-              <caret line="80" column="82" selection-start-line="80" selection-start-column="82" selection-end-line="80" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.32994923">
+              <caret line="118" column="78" selection-start-line="118" selection-start-column="78" selection-end-line="118" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -58,27 +58,40 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <caret line="100" column="73" selection-start-line="100" selection-start-column="73" selection-end-line="100" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/UploadServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7444609">
-              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilterRuleMonitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/FilterRuleMonitor.java">
+      <file leaf-file-name="UserMonitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/UserMonitor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding>
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data2Object.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Data2Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="256" column="28" selection-start-line="256" selection-start-column="28" selection-end-line="256" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/setting.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="67" column="40" selection-start-line="58" selection-start-column="12" selection-end-line="67" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -90,8 +103,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -103,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/tieba_search/TiebaDownloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bing_search/BingDownloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/baidu_search/BaiduSearchDownloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Downloader.java" />
@@ -128,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/system.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/manager.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/about.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-public.jsp" />
@@ -138,22 +149,24 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resource/js/menu.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/util/UserUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resource/css/style.min.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-userinfo.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Data2Object.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-filterules_disaster.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/MysqlOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Object2Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/UserMonitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/FilterRuleMonitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-disaster.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/manager.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-disaster.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-userinfo.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/MysqlOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Data2Object.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/UserMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-user.jsp" />
       </list>
     </option>
   </component>
@@ -1018,12 +1031,12 @@
       <workItem from="1432526964113" duration="33729000" />
       <workItem from="1432569027278" duration="5113000" />
       <workItem from="1432609952588" duration="1629000" />
-      <workItem from="1432622198305" duration="25713000" />
+      <workItem from="1432622198305" duration="32557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162395000" />
+    <option name="totallyTimeSpent" value="169239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="27" width="1922" height="1054" extended-state="6" />
@@ -1038,10 +1051,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23152174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29565218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18055555" sideWeight="0.48519737" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21100427" sideWeight="0.48519737" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25644916" sideWeight="0.51480263" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1108,13 +1121,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bbs_search/BBSDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bbs_search/BBSCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1276,13 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/manager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.111111">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/about.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.0">
@@ -1322,14 +1321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/setting.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1351,23 +1342,6 @@
         <state vertical-scroll-proportion="-3.548387">
           <caret line="310" column="33" selection-start-line="310" selection-start-column="33" selection-end-line="310" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-userinfo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.451613">
-          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
-          <folding>
-            <marker date="1432630965355" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
-            <marker date="1432630965355" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
-            <marker date="1432630965355" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
-            <marker date="1432630965355" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
-            <marker date="1432630965355" expanded="true" signature="-1:-1" placeholder="UPDATE user_..." />
-            <marker date="1432630965355" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1432630965355" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1432630965355" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1394,7 +1368,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1403,14 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Data2Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42560554">
-          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1444,33 +1410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/MysqlOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.407408">
-          <caret line="129" column="15" selection-start-line="103" selection-start-column="12" selection-end-line="129" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/UserMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32898173">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Object2Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1487,34 +1426,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/UploadServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016248154">
           <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/setting.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="67" column="40" selection-start-line="58" selection-start-column="12" selection-end-line="67" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="57" column="30" selection-start-line="48" selection-start-column="24" selection-end-line="57" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-disaster.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.333333">
-          <caret line="80" column="82" selection-start-line="80" selection-start-column="82" selection-end-line="80" selection-end-column="82" />
+        <state vertical-scroll-proportion="-16.666666">
+          <caret line="226" column="17" selection-start-line="190" selection-start-column="8" selection-end-line="226" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/UploadServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-userinfo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7444609">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="27" />
+          <folding>
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="UPDATE user_..." />
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
+            <marker date="1432658293571" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_info..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/MysqlOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Data2Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="256" column="28" selection-start-line="256" selection-start-column="28" selection-end-line="256" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.555555">
+          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/UserMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="73" selection-start-line="100" selection-start-column="73" selection-end-line="100" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32994923">
+          <caret line="118" column="78" selection-start-line="118" selection-start-column="78" selection-end-line="118" selection-end-column="78" />
           <folding />
         </state>
       </provider>

@@ -83,6 +83,27 @@ public class SettingServlet extends HttpServlet {
                     }
                 }
             }
+            else if ( type.equals("user") ) {
+                JSONArray jsonArray = new JSONArray();
+                List<User> userList = UserMonitor.getUserMonitor(request).getUserList();
+                if ( userList != null ) {
+                    for (int index = 0; index < userList.size(); index++) {
+                        User user = userList.get(index);
+                        JSONObject jsonObject = new JSONObject();
+                        jsonObject.put("uid", user.getUid());
+                        jsonObject.put("nickname", user.getNickname());
+                        jsonObject.put("email", user.getEmail());
+                        jsonObject.put("mobile", user.getMobile());
+                        jsonObject.put("position", user.getPosition());
+                        jsonObject.put("qqnumber", user.getQqnumber());
+                        jsonObject.put("realname", user.getRealname());
+                        jsonObject.put("workplace", user.getWorkplace());
+                        jsonObject.put("privilege", user.getPrivilege());
+                        jsonArray.put(jsonObject);
+                    }
+                }
+                response.getWriter().print(jsonArray.toString());
+            }
         }
     }
 }

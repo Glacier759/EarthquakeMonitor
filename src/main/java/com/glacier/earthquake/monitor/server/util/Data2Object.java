@@ -238,6 +238,23 @@ public class Data2Object {
         try {
             List<SpiderInfo> spiderInfos = mapper.getSpiderInfoList();
             session.commit();
+            return spiderInfos;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
+    public static List<User> getUserList() {
+        init();
+        try {
+            List<User> userList = mapper.getUserList();
+            session.commit();
+            return userList;
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));

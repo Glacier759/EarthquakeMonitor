@@ -1,3 +1,4 @@
+<%@ page import="com.glacier.earthquake.monitor.server.pojo.User" %>
 <%--
   Created by IntelliJ IDEA.
   User: glacier
@@ -36,9 +37,9 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    <h4>管理设置<span class="caret"></span></h4></a>
+                                    <h4>灾情获取匹配式管理<span class="caret"></span></h4></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="<%=request.getContextPath()%>/settings/manage-disaster.jsp">灾情获取匹配式管理</a></li>
+                                    <li><a href="#">灾情获取匹配式管理</a></li>
                                     <li class="divider"></li>
                                     <li><a href="<%=request.getContextPath()%>/settings/manage-public.jsp">舆情监测匹配式管理</a></li>
                                     <li class="divider"></li>
@@ -244,6 +245,10 @@
                 return false;   //阻止表单的默认提交事件
             });
             function uploadFile() {
+                <%
+                    User user = (User)session.getAttribute("login_user");
+                    if ( user.getPrivilege() == 1 ) {
+                %>
                 var fileObj = document.getElementById("file").files[0]; // 获取文件对象
                 var FileController = "<%=request.getContextPath()%>/UploadServlet";                    // 接收上传文件的后台地址
 
@@ -256,6 +261,13 @@
                     alert("上传完成!");
                 };
                 xhr.send(form);
+                <%
+                    } else {
+                %>
+                alert()
+                <%
+                    }
+                %>
             }
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>

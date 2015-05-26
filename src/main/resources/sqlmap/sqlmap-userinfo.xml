@@ -53,4 +53,8 @@
         SELECT * FROM user_info WHERE (email = #{email} OR mobile = #{mobile});
     </select>
 
+    <select id="getUserList" resultMap="User">
+        SELECT * FROM user_info;
+    </select>
+
 </mapper>

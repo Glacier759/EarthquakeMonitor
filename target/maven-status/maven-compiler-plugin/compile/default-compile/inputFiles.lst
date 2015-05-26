@@ -3,6 +3,7 @@
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/pojo/FilterWhiteList.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/Login.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/pojo/Account.java
+/home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Downloader.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/browser/servlet/UploadServlet.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/configure/user/FilterRuleMonitor.java

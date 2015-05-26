@@ -5,6 +5,7 @@ import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * Created by glacier on 15-5-2.
@@ -92,6 +93,13 @@ public class UserMonitor {
             return true;
         }
         return false;
+    }
+
+    public List<User> getUserList() {
+        if ( user.getPrivilege() == USER_ADMINISTATOR ) {
+            return Data2Object.getUserList();
+        }
+        return null;
     }
 
     /**
