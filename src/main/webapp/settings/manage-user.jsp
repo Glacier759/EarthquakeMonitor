@@ -116,8 +116,6 @@
                             button1.setAttribute("onClick", "del(this.value)");
                             button1.innerHTML = "删除";
 
-                            var blankplace = document.createElement("&nbsp;");
-
                             var button2 = document.createElement("button");
                             button2.setAttribute("class", "btn btn-success");
                             button2.setAttribute("value", objson[i].uid);
@@ -126,7 +124,6 @@
                             button2.innerHTML = "管理员";
 
                             col4.appendChild(button1);
-                            col4.appendChild(blankplace);
                             col4.appendChild(button2);
                             row.appendChild(col4);
                             document.getElementById("filters-tbody").appendChild(row);

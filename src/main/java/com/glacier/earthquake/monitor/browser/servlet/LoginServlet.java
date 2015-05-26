@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -38,8 +39,16 @@ public class LoginServlet extends HttpServlet {
                 user = UserMonitor.getUserInfoByMobile(username);
             }
             if ( user != null && user.getPassword().equals(password) ) {
+                String privilege = null;
+                if ( user.getPrivilege() == 1 ) {   privilege = "admin";    }
+                else if ( user.getPrivilege() == 0 ){   privilege = "user"; }
                 request.getSession().setAttribute("login_user", user);
                 request.getSession().setAttribute("login", "true");
+                request.getSession().setAttribute("privilege", privilege);
+
+                Cookie cookie_user = new Cookie("username", username);
+                cookie_user.setMaxAge(60*60*24*3);
+                response.addCookie(cookie_user);
                 response.getWriter().print("login success");
                 logger.info("[登陆] - " + username + " 登录成功");
             }
