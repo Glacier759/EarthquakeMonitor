@@ -63,7 +63,7 @@
                 <div class="alert alert-info alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4>从文件导入<a class="anchorjs-link" href="#从文件导入"><span class="anchorjs-icon"></span></a></h4>
-                    <form id="form-upload" method="post" enctype="multipart/form-data">
+                    <%--<form id="form-upload" method="post" enctype="multipart/form-data">--%>
                         <div class="row">
                             <div class="col-lg-5">
                                 <label class="control-label">上传文件:</label>
@@ -72,16 +72,16 @@
                         <div class="row">
                             <div class="col-lg-2"></div>
                             <div class="col-lg-10">
-                                <input type="file" name="file">
+                                <input type="file" name="file" id="file" />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-10"></div>
                             <div class="col-lg-2">
-                                <button type="submit" id="subbut" class="btn btn-info" style="">上传</button>
+                                <button class="btn btn-info" onclick="uploadFile()">上传</button>
                             </div>
                         </div>
-                    </form>
+                    <%--</form>--%>
                 </div>
             </div>
             <div class="col-md-3"></div>
@@ -243,6 +243,20 @@
                 });
                 return false;   //阻止表单的默认提交事件
             });
+            function uploadFile() {
+                var fileObj = document.getElementById("file").files[0]; // 获取文件对象
+                var FileController = "<%=request.getContextPath()%>/UploadServlet";                    // 接收上传文件的后台地址
+
+                var form = new FormData();
+                form.append("file", fileObj);                           // 文件对象
+
+                var xhr = new XMLHttpRequest();
+                xhr.open("post", FileController, true);
+                xhr.onload = function () {
+                    alert("上传完成!");
+                };
+                xhr.send(form);
+            }
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <%@include file="../footer.jsp"%>

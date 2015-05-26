@@ -45,7 +45,6 @@ public class SettingServlet extends HttpServlet {
                     for (int index = 0; index < filters.size(); index++) {
                         FilterDisaster filter = filters.get(index);
                         JSONObject jsonObject = new JSONObject();
-                        System.out.println(filter);
                         jsonObject.put("create_time", format.format(filter.getCreateDate()));
                         jsonObject.put("rule", filter.getFilterRule());
                         jsonObject.put("id", filter.getId());
@@ -71,6 +70,9 @@ public class SettingServlet extends HttpServlet {
                 else {
                     for ( String f : filters ) {
                         try {
+                            if ( f.length() < 1 ) {
+                                continue;
+                            }
                             FilterDisaster filterDisaster = new FilterDisaster();
                             filterDisaster.setFilterRule(f);
                             UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRuleDisaster(filterDisaster);

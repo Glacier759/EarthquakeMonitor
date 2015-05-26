@@ -1,5 +1,6 @@
 package com.glacier.earthquake.monitor.browser.servlet;
 
+import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -21,7 +22,12 @@ import java.util.Iterator;
  */
 public class UploadServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("index.jsp");
+
+        response.setContentType("text/html;charset=utf-8");
+        if ( !UserMonitor.getUserMonitor(request).isAdministor() ) {
+            response.getWriter().print("permission denied");
+            return;
+        }
 
         //判断提交过来的表单是否为文件上传菜单
         boolean isMultipart = ServletFileUpload.isMultipartContent(request);
@@ -63,7 +69,6 @@ public class UploadServlet extends HttpServlet {
                 e.printStackTrace();
             }
         }
-        requestDispatcher.forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
