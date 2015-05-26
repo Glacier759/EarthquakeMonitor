@@ -55,7 +55,6 @@ a {
     margin-top: 30px;
     -webkit-transition: .35s;
     transition: .35s;
-    text-transform: uppercase
 }
 
 .btn-submit {
@@ -65,7 +64,6 @@ a {
     margin-top: 30px;
     -webkit-transition: .35s;
     transition: .35s;
-    text-transform: uppercase;
 }
 
 .btn-submit:hover {
@@ -474,7 +472,6 @@ grid a {
 .grid figure figcaption {
     padding: 2em;
     color: #FFF;
-    text-transform: uppercase;
     text-align: center;
     font-size: 1em;
     -webkit-backface-visibility: hidden;
@@ -629,7 +626,6 @@ figure.grid-item:hover p.icon-links a:first-child {
 
 .resume-left {
     text-align: center;
-    text-transform: uppercase
 }
 
 .resume-right {
@@ -772,7 +768,6 @@ footer span {
     margin-top: 30px;
     -webkit-transition: .35s;
     transition: .35s;
-    text-transform: uppercase;
 }
 
 .icon-class {

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.glacier.earthquake.monitor.server.util.MysqlOperation">
-    <resultMap id="userinfo" type="User">
+    <resultMap id="User" type="User">
         <id column="uid" property="uid"/>
         <result column="nickname" property="nickname"/>
         <result column="email" property="email"/>
@@ -15,19 +15,19 @@
         <result column="qqnumber" property="qqnumber"/>
     </resultMap>
 
-    <select id="getUserInfoByEmail" parameterType="String" resultMap="userinfo">
+    <select id="getUserInfoByEmail" parameterType="String" resultMap="User">
         SELECT * FROM user_info WHERE email = #{email};
     </select>
 
-    <select id="getUserInfoByMobile" parameterType="String" resultMap="userinfo">
+    <select id="getUserInfoByMobile" parameterType="String" resultMap="User">
         SELECT * FROM user_info WHERE mobile = #{mobile};
     </select>
 
-    <select id="getUserInfoByUID" parameterType="int" resultMap="userinfo">
+    <select id="getUserInfoByUID" parameterType="int" resultMap="User">
         SELECT * FROM user_info WHERE uid = #{uid};
     </select>
 
-    <select id="checkPassword" parameterType="User" resultMap="userinfo">
+    <select id="checkPassword" parameterType="User" resultMap="User">
         SELECT * FROM user_info WHERE (email = #{email} OR mobile = #{mobile}) AND password = #{password};
     </select>
     
@@ -49,7 +49,7 @@
         DELETE FROM user_info WHERE (uid = #{uid} OR email = #{email} OR mobile = #{mobile});
     </delete>
 
-    <select id="isExistUser" parameterType="User" resultMap="userinfo">
+    <select id="isExistUser" parameterType="User" resultMap="User">
         SELECT * FROM user_info WHERE (email = #{email} OR mobile = #{mobile});
     </select>
 

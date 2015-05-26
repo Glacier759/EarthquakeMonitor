@@ -21,15 +21,6 @@
         <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <%
-            User user = (User)session.getAttribute("login_user");
-            if ( user != null ) {
-                %>
-            <h1><%=user.getEmail()%></h1>
-            <h1><%=user.getMobile()%></h1>
-        <%
-            }
-        %>
         <%@include file="header.jsp"%>
         <div class="overlay" id="overlay-form">
             <nav class="overlay-menu">
@@ -91,18 +82,21 @@
         </div>
         <%@include file="system.jsp"%>
         <header class="container-fluid intro-lg bkg">
+            <%if ( session.getAttribute("login") != null && session.getAttribute("login").equals("true") ) {%>
+            <a id="logout" href="#" class="btn btn-custom animated fadeInUp" data-toggle="tooltip" data-placement="bottom" title="退出" style="position:absolute;top:0px;right:30px">LOGOUT</a>
+            <%}%>
             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                 <h3 id="supra" class="animated fadeInUp">地震灾情获取与舆情监控</h3>
                 <h1 id="title" class="animated fadeInUp">Earthquake Eye</h1>
                 <h3 id="sub" class="animated bounceIn">一个<span class="hidden-xs">多维度</span><span class="hidden-xs hidden-sm hidden-md">的地震信息监测报警系统</span></h3>
                 <div class="divider divider-intro animated bounceIn"></div>
+                <%%>
                 <%if ( session.getAttribute("login") == null || session.getAttribute("login").equals("false") ) {%>
                 <button type="button" id="login" class="btn btn-custom animated fadeInUp"  data-toggle="tooltip" data-placement="top" title="登录">SIGN IN</button>
                 &nbsp;
                 <button type="button" id="register" class="btn btn-custom animated fadeInUp"  data-toggle="tooltip" data-placement="top" title="注册">SIGN UP</button>
-                <%} else {%>
-                <h1><%=session.getAttribute("login")%></h1>
-                <a id="lookup" href="<%=request.getContextPath()%>/setting.jsp" class="btn btn-custom animated fadeInUp">LOOK UP</a>
+                <%} else if ( session.getAttribute("login") != null ) {%>
+                <a id="lookup" href="<%=request.getContextPath()%>/setting.jsp" class="btn btn-custom animated fadeInUp" data-toggle="tooltip" data-placement="bottom" title="查看">LOOK UP</a>
                 <%}%>
             </div>
         </header>
@@ -117,7 +111,31 @@
                     url: ajax_url,
                     data: ajax_data,
                     success: function(msg) {    //msg是后台调用action时，你传过来的参数
-                        alert(msg);
+                        if ( msg == "login success" ) {
+                            location.reload();
+                        } else if ( msg == "login failed" ) {
+                            alert("登录失败");
+                        } else if ( msg == "password not equal" ) {
+                            alert("两次密码不一致");
+                        } else if ( msg == "user is existed" ) {
+                            alert("该用户已被注册");
+                        } else if ( msg == "input error" ) {
+                            alert("请输入【邮箱】或【手机号】");
+                        } else if ( msg == "register success" ) {
+                            document.getElementById("menu").click();
+                            document.getElementById("login").click();
+                        }
+                    }
+                });
+                return false;   //阻止表单的默认提交事件
+            });
+            $("#logout").click(function() {
+                $.ajax({
+                    type: "post",
+                    url: "<%=request.getContextPath()%>/LogoutServlet",
+                    data: "logout",
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        location.reload();
                     }
                 });
                 return false;   //阻止表单的默认提交事件

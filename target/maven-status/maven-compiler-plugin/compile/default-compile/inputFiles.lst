@@ -12,6 +12,7 @@
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/pojo/User.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/tieba_search/TiebaCrawler.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bing_search/BingDownloader.java
+/home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/browser/util/UserUtils.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/pojo/FilterDisaster.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/util/Data2Object.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Scheduler.java

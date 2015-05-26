@@ -27,6 +27,15 @@ public class Data2Object {
         try {
             reader = Resources.getResourceAsReader("mybatis.xml");
             sessionFactory = new SqlSessionFactoryBuilder().build(reader);
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+    }
+
+    private static void init() {
+        try {
             session = sessionFactory.openSession();
             mapper = session.getMapper(MysqlOperation.class);
         } catch (Exception e) {
@@ -36,7 +45,13 @@ public class Data2Object {
         }
     }
 
+    private static void destory() {
+        session.close();
+        mapper = null;
+    }
+
     public static Account account(String type) {
+        init();
         try {
             Account accounts = mapper.getAccount(type);
             session.commit();
@@ -47,11 +62,14 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static List<FilterDisaster> filterRulesDisaster() {
+        init();
         try {
             List<FilterDisaster> filterRules = mapper.getFilterRulesDisaster();
             session.commit();
@@ -60,11 +78,14 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static List<FilterPublicSentiment> filterRulesPubSentiment() {
+        init();
         try {
             List<FilterPublicSentiment> filterRules = mapper.getFilterRulesPubSentiment();
             session.commit();
@@ -73,11 +94,14 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static List<FilterWhiteList> filterRulesWhiteList() {
+        init();
         try {
             List<FilterWhiteList> filterRules = mapper.getFilterRulesWhiteList();
             session.commit();
@@ -86,37 +110,50 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static User getUserInfoByEmail(String email) {
+        init();
         try {
             User user = mapper.getUserInfoByEmail(email);
+            System.out.println("mapper = " + user);
             session.commit();
+            System.out.println("mapper = " + user);
             return user;
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static User getUserInfoByMobile(String mobile) {
+        init();
         try {
             User user = mapper.getUserInfoByMobile(mobile);
+            System.out.println("mapper = " + user);
             session.commit();
+            System.out.println("mapper = " + user);
             return user;
         } catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static User getUserInfoByUID(int uid) {
+        init();
         try {
             User user = mapper.getUserInfoByUID(uid);
             session.commit();
@@ -125,11 +162,14 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static User checkPassword(User user) {
+        init();
         try {
             user = mapper.checkPassword(user);
             session.commit();
@@ -138,11 +178,14 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static boolean isExistUser(User user) {
+        init();
         try {
             user = mapper.isExistUser(user);
             if (user != null) {
@@ -152,11 +195,14 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return false;
     }
 
     public static List<SpiderInfo> getSpiderInfoList() {
+        init();
         try {
             List<SpiderInfo> spiderInfos = mapper.getSpiderInfoList();
             session.commit();
@@ -165,11 +211,14 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static List<SpiderInfo> getSpiderInfos_Type(int type) {
+        init();
         try {
             List<SpiderInfo> spiderInfos = mapper.getSpiderInfos_Type(type);
             session.commit();
@@ -178,11 +227,14 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }
 
     public static List<SpiderInfo> getSpiderInfos_TypeAndStatus(SpiderInfo spiderInfo) {
+        init();
         try {
             List<SpiderInfo> spiderInfos = mapper.getSpiderInfoList();
             session.commit();
@@ -190,6 +242,8 @@ public class Data2Object {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
         return null;
     }

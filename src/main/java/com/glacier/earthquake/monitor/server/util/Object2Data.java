@@ -26,6 +26,15 @@ public class Object2Data {
         try {
             reader = Resources.getResourceAsReader("mybatis.xml");
             sessionFactory = new SqlSessionFactoryBuilder().build(reader);
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }
+    }
+
+    private static void init() {
+        try {
             session = sessionFactory.openSession();
             mapper = session.getMapper(MysqlOperation.class);
         } catch (Exception e) {
@@ -35,7 +44,13 @@ public class Object2Data {
         }
     }
 
+    private static void destory() {
+        session.close();
+        mapper = null;
+    }
+
     public static void setFilterWhiteList(FilterWhiteList filterWhiteList) {
+        init();
         try {
             mapper.setFilterRulesWhite(filterWhiteList);
             session.commit();
@@ -43,10 +58,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void delFilterWhiteList(FilterWhiteList filterWhiteList) {
+        init();
         try {
             mapper.delFilterRulesWhite(filterWhiteList);
             session.commit();
@@ -54,6 +72,8 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
@@ -64,6 +84,7 @@ public class Object2Data {
     }
 
     public static void addFilterRulesWhite(FilterWhiteList filterWhiteList) {
+        init();
         try {
             mapper.addFilterRulesWhite(filterWhiteList);
             session.commit();
@@ -71,10 +92,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void setFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment) {
+        init();
         try {
             mapper.setFilterRulesPubSentiment(filterRulesPubSentiment);
             session.commit();
@@ -82,10 +106,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void delFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment) {
+        init();
         try {
             mapper.delFilterRulesPubSentiment(filterRulesPubSentiment);
             session.commit();
@@ -93,10 +120,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void addFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment) {
+        init();
         try {
             mapper.addFilterRulesPubSentiment(filterRulesPubSentiment);
             session.commit();
@@ -104,10 +134,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void setFilterRulesDisaster(FilterDisaster filterRulesDisaster) {
+        init();
         try {
             mapper.setFilterRulesDisaster(filterRulesDisaster);
             session.commit();
@@ -115,10 +148,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void delFilterRulesDisaster(FilterDisaster filterRulesDisaster) {
+        init();
         try {
             mapper.delFilterRulesDisaster(filterRulesDisaster);
             session.commit();
@@ -126,10 +162,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void addFilterRulesDisaster(FilterDisaster filterRulesDisaster) {
+        init();
         try {
             mapper.addFilterRulesDisaster(filterRulesDisaster);
             session.commit();
@@ -137,10 +176,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void modifyUserInfo(User user) {
+        init();
         try {
             mapper.modifyUserInfo(user);
             session.commit();
@@ -148,10 +190,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void addUser(User user) {
+        init();
         try {
             mapper.addUser(user);
             session.commit();
@@ -159,10 +204,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void delUser(User user) {
+        init();
         try {
             mapper.delUser(user);
             session.commit();
@@ -170,10 +218,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void approvedThrough(SpiderInfo spiderInfo) {
+        init();
         try {
             mapper.approvedThrough(spiderInfo);
             session.commit();
@@ -181,10 +232,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void insertSpiderInfo(SpiderInfo spiderInfo) {
+        init();
         try {
             mapper.insertSpiderInfo(spiderInfo);
             session.commit();
@@ -192,10 +246,13 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
     public static void deleteSpiderInfo(SpiderInfo spiderInfo) {
+        init();
         try {
             mapper.deleteSpiderInfo(spiderInfo);
             session.commit();
@@ -203,6 +260,8 @@ public class Object2Data {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            destory();
         }
     }
 
