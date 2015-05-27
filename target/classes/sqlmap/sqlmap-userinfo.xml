@@ -57,4 +57,8 @@
         SELECT * FROM user_info;
     </select>
 
+    <update id="changePassword" parameterType="User">
+        UPDATE user_info SET password = #{password} WHERE uid = #{uid};
+    </update>
+
 </mapper>

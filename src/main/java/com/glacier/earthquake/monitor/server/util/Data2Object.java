@@ -120,9 +120,7 @@ public class Data2Object {
         init();
         try {
             User user = mapper.getUserInfoByEmail(email);
-            System.out.println("mapper = " + user);
             session.commit();
-            System.out.println("mapper = " + user);
             return user;
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -138,9 +136,7 @@ public class Data2Object {
         init();
         try {
             User user = mapper.getUserInfoByMobile(mobile);
-            System.out.println("mapper = " + user);
             session.commit();
-            System.out.println("mapper = " + user);
             return user;
         } catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

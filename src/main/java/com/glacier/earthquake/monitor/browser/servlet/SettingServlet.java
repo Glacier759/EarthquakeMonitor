@@ -1,5 +1,6 @@
 package com.glacier.earthquake.monitor.browser.servlet;
 
+import com.glacier.earthquake.monitor.browser.util.UserUtils;
 import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
@@ -12,6 +13,7 @@ import org.json.JSONObject;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -103,6 +105,71 @@ public class SettingServlet extends HttpServlet {
                     }
                 }
                 response.getWriter().print(jsonArray.toString());
+            }
+            else if ( type.equals("userinfo") ) {
+                User user = (User)request.getSession().getAttribute("login_user");
+                User new_user = new User();
+
+                String email = request.getParameter("email");
+                if ( user.getEmail() == null || user.getEmail().length() == 0 || user.getEmail().equals(email) ) {
+                    if (UserUtils.isEmail(email)) {
+                        new_user.setEmail(request.getParameter("email"));
+                    } else {
+                        response.getWriter().print("email format error");
+                        return;
+                    }
+                } else {
+                    new_user.setEmail(user.getEmail());
+                    response.getWriter().print("email binding");
+                    return;
+                }
+
+                String mobile = request.getParameter("mobile");
+                if ( user.getMobile() == null || user.getEmail().length() == 0 || user.getMobile().equals(mobile) ) {
+                    if ( UserUtils.isMobile(mobile) ) {
+                        new_user.setMobile(mobile);
+                    } else {
+                        response.getWriter().print("mobile format error");
+                        return;
+                    }
+                } else {
+                    new_user.setMobile(user.getMobile());
+                    response.getWriter().print("mobile binding");
+                    return;
+                }
+                new_user.setNickname(request.getParameter("nickname"));
+                new_user.setRealname(request.getParameter("realname"));
+                new_user.setQqnumber(request.getParameter("qqnumber"));
+                new_user.setPosition(request.getParameter("position"));
+                new_user.setWorkplace(request.getParameter("workplace"));
+                new_user.setUid(user.getUid());
+                new_user.setPassword(user.getPassword());
+                new_user.setPrivilege(user.getPrivilege());
+                UserMonitor.getUserMonitor(user).modifyUserInfo(new_user);
+                logger.info("[修改资料] - " + new_user.toString());
+                request.getSession().setAttribute("login_user", new_user);
+                response.getWriter().print("success");
+            }
+            else if ( type.equals("password") ) {
+                User user = (User)request.getSession().getAttribute("login_user");
+
+                String password = request.getParameter("password");
+                if ( !user.getPassword().equals(password) ) {
+                    response.getWriter().print("wrong password");
+                }
+                else {
+                    String new_password = request.getParameter("new-password");
+                    String re_password = request.getParameter("re-password");
+                    if ( !new_password.equals(re_password) ) {
+                        response.getWriter().print("password not equal");
+                    } else {
+                        User new_user = new User();
+                        new_user.setPassword(new_password);
+                        new_user.setUid(user.getUid());
+                        UserMonitor.getUserMonitor(user).changePassword(new_user);
+                        response.getWriter().print("success");
+                    }
+                }
             }
         }
     }

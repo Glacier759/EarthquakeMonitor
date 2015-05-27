@@ -67,4 +67,6 @@ public interface MysqlOperation {
 
     public List<User> getUserList();
 
+    public void changePassword(User user);
+
 }

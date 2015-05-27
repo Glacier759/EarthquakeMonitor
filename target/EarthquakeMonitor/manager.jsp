@@ -17,6 +17,8 @@
         <link href="<%=request.getContextPath()%>/resource/fonts/google_api.css?family=Montserrat|Varela+Round" rel="stylesheet">
         <script src="<%=request.getContextPath()%>/resource/js/pace.js"></script>
         <link href="<%=request.getContextPath()%>/resource/css/pace-theme-flash.min.css" rel="stylesheet">
+        <script src="<%=request.getContextPath()%>/resource/js/jquery-2.1.1.min.js"></script>
+        <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
     </head>
     <body>
         <%@include file="header.jsp"%>
@@ -57,7 +59,7 @@
                             <div class="col-lg-8">
                                 <div class="input-group">
                                     <span class="input-group-addon">昵称</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getNickname()%>" name="nickname" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getNickname()%>" name="nickname" value="<%=user.getNickname()%>" />
                                 </div>
                             </div>
                             <div class="col-lg-2"></div>
@@ -68,7 +70,7 @@
                             <div class="col-lg-6">
                                 <div class="input-group">
                                     <span class="input-group-addon">邮箱</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getEmail()%>" name="email" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getEmail()%>" name="email" value="<%=user.getEmail()%>" />
                                 </div>
                             </div>
                             <div class="col-lg-4"></div>
@@ -79,7 +81,7 @@
                             <div class="col-lg-6">
                                 <div class="input-group">
                                     <span class="input-group-addon">手机</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getMobile()%>" name="mobile" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getMobile()%>" name="mobile" value="<%=user.getMobile()%>" />
                                 </div>
                             </div>
                             <div class="col-lg-4"></div>
@@ -90,14 +92,14 @@
                             <div class="col-lg-3">
                                 <div class="input-group">
                                     <span class="input-group-addon">姓名</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getRealname()%>" name="realname" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getRealname()%>" name="realname" value="<%=user.getRealname()%>" />
                                 </div>
                             </div>
                             <div class="col-lg-1"></div>
                             <div class="col-lg-4">
                                 <div class="input-group">
                                     <span class="input-group-addon">QQ</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getQqnumber()%>" name="qqnumber" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getQqnumber()%>" name="qqnumber" value="<%=user.getQqnumber()%>" />
                                 </div>
                             </div>
                             <div class="col-lg-4"></div>
@@ -108,13 +110,13 @@
                             <div class="col-lg-5">
                                 <div class="input-group">
                                     <span class="input-group-addon">工作单位</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getWorkplace()%>" name="workplace" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getWorkplace()%>" name="workplace" value="<%=user.getWorkplace()%>" />
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="input-group">
                                     <span class="input-group-addon">职位</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getPosition()%>" name="position" value="" />
+                                    <input type="text" class="form-control" placeholder="<%=user.getPosition()%>" name="position" value="<%=user.getPosition()%>" />
                                 </div>
                             </div>
                             <div class="col-lg-4"></div>
@@ -123,7 +125,7 @@
                         <div class="row">
                             <div class="col-lg-9"></div>
                             <div class="col-lg-2">
-                                <button class="btn btn-info" onclick="uploadFile()">更新资料</button>
+                                <button class="btn btn-info" type="submit">更新资料</button>
                             </div>
                         </div>
                     </form>
@@ -175,7 +177,7 @@
                         <div class="row">
                             <div class="col-lg-9"></div>
                             <div class="col-lg-2">
-                                <button class="btn btn-danger" onclick="uploadFile()">修改密码</button>
+                                <button class="btn btn-danger" type="submit">修改密码</button>
                             </div>
                         </div>
                     </form>
@@ -184,12 +186,56 @@
             <div class="col-md-3"></div>
         </div>
         <script>
+            $("#form-userinfo").submit(function() {
+                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?type=userinfo";
+                var ajax_type = $(this).attr('method');
+                var ajax_data = $(this).serialize();
+                $.ajax({
+                    type: ajax_type,
+                    url: ajax_url,
+                    data: ajax_data,
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        if ( msg == "email format error" ) {
+                            alert("邮箱格式有误");
+                        } else if ( msg == "mobile format error" ) {
+                            alert("手机号码格式有误");
+                        } else if ( msg == "email binding" ) {
+                            alert("您已绑定邮箱,无法修改. (如需帮助请咨询管理员)");
+                        } else if ( msg == "mobile binding" ) {
+                            alert("您已绑定手机号,无法修改. (如需帮助请咨询管理员)");
+                        } else if ( msg == "success" ) {
+                            alert("资料修改成功");
+                            location.reload();
+                        }
+                    }
+                });
+                return false;   //阻止表单的默认提交事件
+            });
+            $("#form-password").submit(function() {
+                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?type=password";
+                var ajax_type = $(this).attr('method');
+                var ajax_data = $(this).serialize();
+                $.ajax({
+                    type: ajax_type,
+                    url: ajax_url,
+                    data: ajax_data,
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        if ( msg == "wrong password" ) {
+                            alert("原始密码有误");
+                        } else if ( msg == "password not equal" ) {
+                            alert("两次密码不一致");
+                        } else if ( msg == "success" ) {
+                            alert("密码修改成功");
+                            location.reload();
+                        }
+                    }
+                });
+                return false;   //阻止表单的默认提交事件
+            });
             function no() {
                 alert("您没有权限进行此操作");
             }
         </script>
-        <script src="<%=request.getContextPath()%>/resource/js/jquery-2.1.1.min.js"></script>
-        <script src="<%=request.getContextPath()%>/resource/js/bootstrap.min.js"></script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <%@include file="footer.jsp"%>
     </body>

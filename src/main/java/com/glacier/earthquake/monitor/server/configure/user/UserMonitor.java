@@ -24,6 +24,10 @@ public class UserMonitor {
         return new UserMonitor((User)request.getSession().getAttribute("login_user"));
     }
 
+    public static UserMonitor getUserMonitor(User user) {
+        return new UserMonitor(user);
+    }
+
     public UserMonitor(User user) {
         this.user = user;
     }
@@ -93,6 +97,10 @@ public class UserMonitor {
             return true;
         }
         return false;
+    }
+
+    public void changePassword(User user) {
+        Object2Data.changePassword(user);
     }
 
     public List<User> getUserList() {
