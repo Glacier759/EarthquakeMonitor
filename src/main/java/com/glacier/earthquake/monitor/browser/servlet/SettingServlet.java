@@ -205,6 +205,10 @@ public class SettingServlet extends HttpServlet {
                 String email = request.getParameter("email");
                 if ( user.getEmail() == null || user.getEmail().length() == 0 || user.getEmail().equals(email) ) {
                     if (UserUtils.isEmail(email)) {
+                        if ( UserMonitor.getUserInfoByEmail(email) != null ) {
+                            response.getWriter().print("email had");
+                            return;
+                        }
                         new_user.setEmail(request.getParameter("email"));
                     } else {
                         response.getWriter().print("email format error");
@@ -219,6 +223,10 @@ public class SettingServlet extends HttpServlet {
                 String mobile = request.getParameter("mobile");
                 if ( user.getMobile() == null || user.getEmail().length() == 0 || user.getMobile().equals(mobile) ) {
                     if ( UserUtils.isMobile(mobile) ) {
+                        if ( UserMonitor.getUserInfoByMobile(mobile) != null ) {
+                            response.getWriter().print("mobile had");
+                            return;
+                        }
                         new_user.setMobile(mobile);
                     } else {
                         response.getWriter().print("mobile format error");

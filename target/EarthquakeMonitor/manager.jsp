@@ -206,6 +206,10 @@
                         } else if ( msg == "success" ) {
                             alert("资料修改成功");
                             location.reload();
+                        } else if ( msg == "mobile had" ) {
+                            alert("该手机号已被绑定, 请更换手机号");
+                        } else if ( msg == "email had" ) {
+                            alert("该邮箱已被绑定, 请更换邮箱");
                         }
                     }
                 });
