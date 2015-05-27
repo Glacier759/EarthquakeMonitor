@@ -36,7 +36,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    <h4>管理设置<span class="caret"></span></h4></a>
+                                    <h4>审核管理<span class="caret"></span></h4></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="<%=request.getContextPath()%>/settings/manage-disaster.jsp">灾情获取匹配式管理</a></li>
                                     <li class="divider"></li>
@@ -46,7 +46,7 @@
                                     <li class="divider"></li>
                                     <li><a href="<%=request.getContextPath()%>/settings/manage-warning.jsp">报警设置</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="<%=request.getContextPath()%>/settings/manage-examine.jsp">审核管理</a></li>
+                                    <li><a href="#">审核管理</a></li>
                                 </ul>
                             </li>
                         </ul>

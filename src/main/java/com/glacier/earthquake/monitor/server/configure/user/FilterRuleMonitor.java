@@ -68,9 +68,9 @@ public class FilterRuleMonitor {
         return false;
     }
 
-    public boolean delRulePubSentiment(FilterPublicSentiment filterPublicSentiment) {
+    public boolean delRulePubSentiment(Integer id) {
         if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
-            Object2Data.delFilterRulesPubSentiment(filterPublicSentiment);
+            Object2Data.delFilterRulesPubSentiment(id);
             return true;
         }
         return false;
@@ -96,9 +96,9 @@ public class FilterRuleMonitor {
         return false;
     }
 
-    public boolean delRuleWhiteList(FilterWhiteList filterWhiteList) {
+    public boolean delRuleWhiteList(Integer id) {
         if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
-            Object2Data.delFilterWhiteList(filterWhiteList);
+            Object2Data.delFilterWhiteList(id);
             return true;
         }
         return false;

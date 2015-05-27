@@ -21,13 +21,13 @@ public interface MysqlOperation {
 
     public void setFilterRulesWhite(FilterWhiteList filterRulesWhite);
 
-    public void delFilterRulesWhite(FilterWhiteList filterWhiteList);
+    public void delFilterRulesWhite(Integer id);
 
     public void addFilterRulesWhite(FilterWhiteList filterWhiteList);
 
     public void setFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment);
 
-    public void delFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment);
+    public void delFilterRulesPubSentiment(Integer id);
 
     public void addFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment);
 

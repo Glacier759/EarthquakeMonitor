@@ -187,7 +187,7 @@
         </div>
         <script>
             $("#form-userinfo").submit(function() {
-                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?type=userinfo";
+                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?operate=userinfo";
                 var ajax_type = $(this).attr('method');
                 var ajax_data = $(this).serialize();
                 $.ajax({
@@ -212,7 +212,7 @@
                 return false;   //阻止表单的默认提交事件
             });
             $("#form-password").submit(function() {
-                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?type=password";
+                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?operate=password";
                 var ajax_type = $(this).attr('method');
                 var ajax_data = $(this).serialize();
                 $.ajax({

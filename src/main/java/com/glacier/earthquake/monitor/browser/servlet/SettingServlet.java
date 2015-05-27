@@ -4,6 +4,7 @@ import com.glacier.earthquake.monitor.browser.util.UserUtils;
 import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
+import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
 import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
@@ -36,56 +37,112 @@ public class SettingServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String operate = request.getParameter("operate");
         String type = request.getParameter("type");
         response.setContentType("text/html;charset=utf-8");
-        if ( type != null ) {
-            if ( type.equals("disaster") ) {
+        if ( operate != null ) {
+            if ( operate.equals("table") ) {
                 JSONArray jsonArray = new JSONArray();
-                List<FilterDisaster> filters = UserMonitor.getUserMonitor(request).getFilterRuleMonitor().getRuleDisasterList();
                 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-                if ( filters != null ) {
-                    for (int index = 0; index < filters.size(); index++) {
-                        FilterDisaster filter = filters.get(index);
-                        JSONObject jsonObject = new JSONObject();
-                        jsonObject.put("create_time", format.format(filter.getCreateDate()));
-                        jsonObject.put("rule", filter.getFilterRule());
-                        jsonObject.put("id", filter.getId());
-                        jsonArray.put(jsonObject);
+                if ( type != null && type.equals("disaster") ) {
+                    List<FilterDisaster> filters = UserMonitor.getUserMonitor(request).getFilterRuleMonitor().getRuleDisasterList();
+                    if (filters != null) {
+                        for (int index = 0; index < filters.size(); index++) {
+                            FilterDisaster filter = filters.get(index);
+                            JSONObject jsonObject = new JSONObject();
+                            jsonObject.put("create_time", format.format(filter.getCreateDate()));
+                            jsonObject.put("rule", filter.getFilterRule());
+                            jsonObject.put("id", filter.getId());
+                            jsonArray.put(jsonObject);
+                        }
+                    }
+                } else if ( type != null && type.equals("public") ) {
+                    List<FilterPublicSentiment> filters = UserMonitor.getUserMonitor(request).getFilterRuleMonitor().getRulePubSentimentList();
+                    if ( filters != null ) {
+                        for ( int index = 0; index < filters.size(); index ++ ) {
+                            FilterPublicSentiment filter = filters.get(index);
+                            JSONObject jsonObject = new JSONObject();
+                            jsonObject.put("create_time", format.format(filter.getCreateDate()));
+                            jsonObject.put("name", filter.getName());
+                            jsonObject.put("matcher", filter.getMatcher());
+                            jsonObject.put("unexist", filter.getUnexist());
+                            jsonObject.put("id", filter.getId());
+                            jsonArray.put(jsonObject);
+                        }
                     }
                 }
                 response.getWriter().print(jsonArray.toString());
             }
-            else if ( type.equals("delete") ) {
+            else if ( operate.equals("delete") ) {
                 String filter_id = request.getParameter("filter_id");
-                if (UserMonitor.getUserMonitor(request).getFilterRuleMonitor().delRuleDisaster(Integer.parseInt(filter_id))) {
-                    logger.info("[删除规则] - 删除规则ID: " + filter_id);
-                } else {
-                    logger.info("[删除失败] - 删除规则ID: " + filter_id);
-                    response.getWriter().print("permission denied");
+                if ( type != null && type.equals("disaster") ) {
+                    if (UserMonitor.getUserMonitor(request).getFilterRuleMonitor().delRuleDisaster(Integer.parseInt(filter_id))) {
+                        logger.info("[删除规则] - 删除disaster规则ID: " + filter_id);
+                    } else {
+                        logger.info("[删除失败] - 删除disaster规则ID: " + filter_id);
+                        response.getWriter().print("permission denied");
+                    }
+                } else if ( type != null && type.equals("public") ) {
+                    if (UserMonitor.getUserMonitor(request).getFilterRuleMonitor().delRulePubSentiment(Integer.parseInt(filter_id))) {
+                        logger.info("[删除规则] - 删除public规则ID: " + filter_id);
+                    } else {
+                        logger.info("[删除失败] - 删除public规则ID: " + filter_id);
+                        response.getWriter().print("permission denied");
+                    }
                 }
             }
-            else if ( type.equals("addfilter") ) {
-                String filters[] = request.getParameterValues("filter");
+            else if ( operate.equals("addfilter") ) {
                 if ( !UserMonitor.getUserMonitor(request).isAdministor() ) {
                     response.getWriter().print("permission denied");
                 }
                 else {
-                    for ( String f : filters ) {
-                        try {
-                            if ( f.length() < 1 ) {
-                                continue;
+                    if ( type != null && type.equals("disaster") ) {
+                        String filters[] = request.getParameterValues("filter");
+                        if ( filters != null ) {
+                            for (String f : filters) {
+                                try {
+                                    if (f.length() < 1) {
+                                        logger.error("[插入规则] - 插入规则失败: " + f + " [FilterDisaster]");
+                                        continue;
+                                    }
+                                    FilterDisaster filterDisaster = new FilterDisaster();
+                                    filterDisaster.setFilterRule(f);
+                                    UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRuleDisaster(filterDisaster);
+                                    logger.info("[插入规则] - 插入规则成功: " + f + "[FilterDisaster]");
+                                } catch (Exception e) {
+                                    logger.error("[插入规则] - 插入规则失败: " + f + " [FilterDisaster]");
+                                }
                             }
-                            FilterDisaster filterDisaster = new FilterDisaster();
-                            filterDisaster.setFilterRule(f);
-                            UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRuleDisaster(filterDisaster);
-                            logger.info("[插入规则] - 插入规则成功: " + f + "[FilterDisaster]");
-                        }catch (Exception e) {
-                            logger.error("[插入规则] - 插入规则失败: " + f + " [FilterDisaster]");
+                        }
+                    } else if ( type != null && type.equals("public") ) {
+                        String[] filter_names = request.getParameterValues("filter-name");
+                        String[] filter_matchers = request.getParameterValues("filter-matcher");
+                        String[] filter_unexists = request.getParameterValues("filter-unexist");
+                        if ( filter_names != null && filter_matchers != null && filter_unexists != null ) {
+                            for (int index = 0; index < filter_names.length; index++) {
+                                String filter_name = filter_names[index];
+                                String filter_matcher = filter_matchers[index];
+                                String filter_unexist = filter_unexists[index];
+                                try {
+                                    if (filter_name.length() < 1 || filter_matcher.length() < 1 || filter_unexist.length() < 1) {
+                                        logger.error("[插入规则] - 插入规则失败: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterDisaster]");
+                                        continue;
+                                    }
+                                    FilterPublicSentiment filterPublicSentiment = new FilterPublicSentiment();
+                                    filterPublicSentiment.setName(filter_name);
+                                    filterPublicSentiment.setMatcher(filter_matcher);
+                                    filterPublicSentiment.setUnexist(filter_unexist);
+                                    UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRulePubSentiment(filterPublicSentiment);
+                                    logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterDisaster]");
+                                } catch (Exception e) {
+                                    logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterDisaster]");
+                                }
+                            }
                         }
                     }
                 }
             }
-            else if ( type.equals("user") ) {
+            else if ( operate.equals("user") ) {
                 JSONArray jsonArray = new JSONArray();
                 List<User> userList = UserMonitor.getUserMonitor(request).getUserList();
                 if ( userList != null ) {
@@ -106,7 +163,7 @@ public class SettingServlet extends HttpServlet {
                 }
                 response.getWriter().print(jsonArray.toString());
             }
-            else if ( type.equals("userinfo") ) {
+            else if ( operate.equals("userinfo") ) {
                 User user = (User)request.getSession().getAttribute("login_user");
                 User new_user = new User();
 
@@ -150,7 +207,7 @@ public class SettingServlet extends HttpServlet {
                 request.getSession().setAttribute("login_user", new_user);
                 response.getWriter().print("success");
             }
-            else if ( type.equals("password") ) {
+            else if ( operate.equals("password") ) {
                 User user = (User)request.getSession().getAttribute("login_user");
 
                 String password = request.getParameter("password");

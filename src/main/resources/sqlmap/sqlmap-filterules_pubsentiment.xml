@@ -19,7 +19,7 @@
         UPDATE filter_rules_pubsentiment SET name = #{name}, matcher = #{matcher}, unexist = #{unexist} WHERE id = #{id};
     </update>
 
-    <delete id="delFilterRulesPubSentiment" parameterType="FilterPublicSentiment">
+    <delete id="delFilterRulesPubSentiment" parameterType="Integer">
         DELETE FROM filter_rules_pubsentiment WHERE id = #{id};
     </delete>
 

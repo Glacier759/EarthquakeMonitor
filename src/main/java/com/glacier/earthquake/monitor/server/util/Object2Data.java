@@ -63,10 +63,10 @@ public class Object2Data {
         }
     }
 
-    public static void delFilterWhiteList(FilterWhiteList filterWhiteList) {
+    public static void delFilterWhiteList(Integer id) {
         init();
         try {
-            mapper.delFilterRulesWhite(filterWhiteList);
+            mapper.delFilterRulesWhite(id);
             session.commit();
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -111,10 +111,10 @@ public class Object2Data {
         }
     }
 
-    public static void delFilterRulesPubSentiment(FilterPublicSentiment filterRulesPubSentiment) {
+    public static void delFilterRulesPubSentiment(Integer id) {
         init();
         try {
-            mapper.delFilterRulesPubSentiment(filterRulesPubSentiment);
+            mapper.delFilterRulesPubSentiment(id);
             session.commit();
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

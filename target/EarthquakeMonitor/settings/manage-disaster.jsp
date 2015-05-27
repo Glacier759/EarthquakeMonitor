@@ -175,7 +175,7 @@
             {
                 $.ajax({
                     type: "get",
-                    url: "<%=request.getContextPath()%>/SettingServlet?type=delete",
+                    url: "<%=request.getContextPath()%>/SettingServlet?operate=delete&type=disaster",
                     data: "filter_id="+val,
                     success: function(msg) {    //msg是后台调用action时，你传过来的参数
                         if ( msg == "permission denied" ) {
@@ -192,7 +192,7 @@
             createTable();
             function createTable() {
                 $.ajax({
-                    url: "<%=request.getContextPath()%>/SettingServlet?type=disaster",
+                    url: "<%=request.getContextPath()%>/SettingServlet?operate=table&type=disaster",
                     type: "GET",
                     dataType: "json",
                     success: function(data) {
@@ -227,7 +227,7 @@
         </script>
         <script>
             $("#form-addfilter").submit(function() {
-                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?type=addfilter";
+                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?operate=addfilter&type=disaster";
                 var ajax_type = $(this).attr('method');
                 var ajax_data = $(this).serialize();
                 $.ajax({
@@ -247,7 +247,7 @@
             function uploadFile() {
                 <%
                     User user = (User)session.getAttribute("login_user");
-                    if ( user.getPrivilege() == 1 ) {
+                    if ( user.getPrivilege() >= 1 ) {
                 %>
                 var fileObj = document.getElementById("file").files[0]; // 获取文件对象
                 var FileController = "<%=request.getContextPath()%>/UploadServlet";                    // 接收上传文件的后台地址
@@ -261,13 +261,9 @@
                     alert("上传完成!");
                 };
                 xhr.send(form);
-                <%
-                    } else {
-                %>
-                alert()
-                <%
-                    }
-                %>
+                <%} else {%>
+                alert("您没有权限进行此操作");
+                <%}%>
             }
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>

@@ -17,7 +17,7 @@
         UPDATE filter_rules_whitelist SET url = #{url}, create_date = now() WHERE id = #{id};
     </update>
 
-    <delete id="delFilterRulesWhite" parameterType="FilterWhiteList">
+    <delete id="delFilterRulesWhite" parameterType="Integer">
         DELETE FROM filter_rules_whitelist WHERE id = #{id};
     </delete>
 
