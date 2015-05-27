@@ -241,6 +241,9 @@ public class SettingServlet extends HttpServlet {
                 logger.info("[修改资料] - " + new_user.toString());
                 request.getSession().setAttribute("login_user", new_user);
                 response.getWriter().print("success");
+                if ( UserMonitor.getUserMonitor(request).hasFullInfo() ) {
+                    request.getSession().setAttribute("userinfo", "y");
+                }
             }
             else if ( operate.equals("password") ) {
                 User user = (User)request.getSession().getAttribute("login_user");

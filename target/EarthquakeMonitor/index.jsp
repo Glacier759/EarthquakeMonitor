@@ -123,6 +123,9 @@
                         } else if ( msg == "register success" ) {
                             document.getElementById("menu").click();
                             document.getElementById("login").click();
+                        } else if ( msg == "userinfo is not full" ) {
+                            alert("用户信息不完整, 请完善信息后使用该系统");
+                            location.href = "<%=request.getContextPath()%>/manager.jsp";
                         }
                     }
                 });

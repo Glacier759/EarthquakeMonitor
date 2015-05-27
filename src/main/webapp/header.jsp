@@ -15,11 +15,16 @@
                     } else if (UserUtils.isEmail(username)) {
                         session.setAttribute("login_user", UserMonitor.getUserInfoByEmail(username));
                     }
-                    int status = ((User) session.getAttribute("login_user")).getPrivilege();
-                    if (status == 1) {
+                    User this_user = (User) (session.getAttribute("login_user"));
+                    if (this_user.getPrivilege() == 1) {
                         session.setAttribute("privilege", "admin");
-                    } else if (status == 0) {
+                    } else if (this_user.getPrivilege() == 0) {
                         session.setAttribute("privilege", "user");
+                    }
+                    if ( UserMonitor.getUserMonitor(this_user).hasFullInfo() ) {
+                        session.setAttribute("userinfo", "y");
+                    } else {
+                        session.setAttribute("userinfo", "n");
                     }
                 }
             }

@@ -132,6 +132,15 @@ public class UserMonitor {
         return Data2Object.isExistUser(existUser);
     }
 
+    public boolean hasFullInfo() {
+        if ( user.getEmail() != null && user.getMobile() != null && user.getNickname() != null
+                && user.getRealname() !=null && user.getPosition() != null && user.getWorkplace() != null
+                && user.getQqnumber() != null ) {
+            return true;
+        }
+        return false;
+    }
+
     public static User getUserInfoByMobile(String mobile) {
         return Data2Object.getUserInfoByMobile(mobile);
     }

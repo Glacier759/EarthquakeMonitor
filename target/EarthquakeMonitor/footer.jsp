@@ -56,4 +56,11 @@
             });
         });
     });
+    <%if(session.getAttribute("userinfo").equals("n") && !request.getServletPath().equals("/manager.jsp")) {%>
+    userinfo();
+    <%}%>
+    function userinfo() {
+        alert("用户信息不完整, 请完善信息后使用该系统");
+        location.href = "<%=request.getContextPath()%>/manager.jsp";
+    }
 </script>

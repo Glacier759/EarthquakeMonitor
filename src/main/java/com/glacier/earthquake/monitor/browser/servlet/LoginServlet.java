@@ -40,18 +40,28 @@ public class LoginServlet extends HttpServlet {
             }
             if ( user != null && user.getPassword().equals(password) ) {
                 String privilege = null;
-                if ( user.getPrivilege() == 1 ) {   privilege = "admin";    }
-                else if ( user.getPrivilege() == 0 ){   privilege = "user"; }
-                else if ( user.getPrivilege() == 2 ) {  privilege = "root"; }
+                if (user.getPrivilege() == 1) {
+                    privilege = "admin";
+                } else if (user.getPrivilege() == 0) {
+                    privilege = "user";
+                } else if (user.getPrivilege() == 2) {
+                    privilege = "root";
+                }
                 request.getSession().setAttribute("login_user", user);
                 request.getSession().setAttribute("login", "true");
                 request.getSession().setAttribute("privilege", privilege);
 
                 Cookie cookie_user = new Cookie("username", username);
-                cookie_user.setMaxAge(60*60*24*3);
+                cookie_user.setMaxAge(60 * 60 * 24 * 3);
                 response.addCookie(cookie_user);
-                response.getWriter().print("login success");
-                logger.info("[登陆] - " + username + " 登录成功");
+                if ( UserMonitor.getUserMonitor(request).hasFullInfo() ) {
+                    response.getWriter().print("login success");
+                    logger.info("[登陆] - " + username + " 登录成功");
+                } else {
+                    request.getSession().setAttribute("userinfo", "n");
+                    response.getWriter().print("userinfo is not full");
+                    logger.info("[登陆] - " + username + " 登录成功 待完善个人信息");
+                }
             }
             else {
                 request.getSession().setAttribute("login", "false");
