@@ -250,7 +250,7 @@
                     if ( user.getPrivilege() >= 1 ) {
                 %>
                 var fileObj = document.getElementById("file").files[0]; // 获取文件对象
-                var FileController = "<%=request.getContextPath()%>/UploadServlet";                    // 接收上传文件的后台地址
+                var FileController = "<%=request.getContextPath()%>/UploadServlet?type=disaster";                // 接收上传文件的后台地址
 
                 var form = new FormData();
                 form.append("file", fileObj);                           // 文件对象
@@ -259,6 +259,7 @@
                 xhr.open("post", FileController, true);
                 xhr.onload = function () {
                     alert("上传完成!");
+                    location.reload();
                 };
                 xhr.send(form);
                 <%} else {%>

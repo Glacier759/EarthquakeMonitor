@@ -5,6 +5,7 @@ import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
+import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
 import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
@@ -70,6 +71,18 @@ public class SettingServlet extends HttpServlet {
                             jsonArray.put(jsonObject);
                         }
                     }
+                } else if ( type != null && type.equals("whitelist") ) {
+                    List<FilterWhiteList> filters = UserMonitor.getUserMonitor(request).getFilterRuleMonitor().getRuleWhiteLists();
+                    if ( filters != null ) {
+                        for ( int index = 0; index < filters.size(); index ++ ) {
+                            FilterWhiteList filter = filters.get(index);
+                            JSONObject jsonObject = new JSONObject();
+                            jsonObject.put("create_time", format.format(filter.getDate()));
+                            jsonObject.put("url", filter.getUrl());
+                            jsonObject.put("id", filter.getId());
+                            jsonArray.put(jsonObject);
+                        }
+                    }
                 }
                 response.getWriter().print(jsonArray.toString());
             }
@@ -87,6 +100,13 @@ public class SettingServlet extends HttpServlet {
                         logger.info("[删除规则] - 删除public规则ID: " + filter_id);
                     } else {
                         logger.info("[删除失败] - 删除public规则ID: " + filter_id);
+                        response.getWriter().print("permission denied");
+                    }
+                } else if ( type != null && type.equals("whitelist") ) {
+                    if (UserMonitor.getUserMonitor(request).getFilterRuleMonitor().delRuleWhiteList(Integer.parseInt(filter_id))) {
+                        logger.info("[删除规则] - 删除whitelist规则ID: " + filter_id);
+                    } else {
+                        logger.info("[删除失败] - 删除whitelist规则ID: " + filter_id);
                         response.getWriter().print("permission denied");
                     }
                 }
@@ -125,7 +145,7 @@ public class SettingServlet extends HttpServlet {
                                 String filter_unexist = filter_unexists[index];
                                 try {
                                     if (filter_name.length() < 1 || filter_matcher.length() < 1 || filter_unexist.length() < 1) {
-                                        logger.error("[插入规则] - 插入规则失败: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterDisaster]");
+                                        logger.error("[插入规则] - 插入规则失败: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
                                         continue;
                                     }
                                     FilterPublicSentiment filterPublicSentiment = new FilterPublicSentiment();
@@ -133,9 +153,27 @@ public class SettingServlet extends HttpServlet {
                                     filterPublicSentiment.setMatcher(filter_matcher);
                                     filterPublicSentiment.setUnexist(filter_unexist);
                                     UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRulePubSentiment(filterPublicSentiment);
-                                    logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterDisaster]");
+                                    logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
                                 } catch (Exception e) {
-                                    logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterDisaster]");
+                                    logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
+                                }
+                            }
+                        }
+                    } else if ( type != null && type.equals("whitelist") ) {
+                        String filters_whitelists[] = request.getParameterValues("whitelist");
+                        if ( filters_whitelists != null ) {
+                            for (String f : filters_whitelists) {
+                                try {
+                                    if (f.length() < 1) {
+                                        logger.error("[插入规则] - 插入规则失败: " + f + " [FilterWhiteList]");
+                                        continue;
+                                    }
+                                    FilterWhiteList filterWhiteList = new FilterWhiteList();
+                                    filterWhiteList.setUrl(f);
+                                    UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRuleWhiteList(filterWhiteList);
+                                    logger.info("[插入规则] - 插入规则成功: " + f + "[FilterWhiteList]");
+                                } catch (Exception e) {
+                                    logger.error("[插入规则] - 插入规则失败: " + f + " [FilterWhiteList]");
                                 }
                             }
                         }

@@ -117,7 +117,7 @@
                                         <div class="col-lg-1"></div>
                                         <div class="col-lg-10">
                                             <div class="input-group">
-                                                <span class="input-group-addon">正则</span>
+                                                <span class="input-group-addon">正则表达式</span>
                                                 <input type="text" class="form-control" placeholder="S*福建[^，。；？！]发生[^，。；？！]" name="filter-matcher" value="" />
                                             </div>
                                         </div>
@@ -280,7 +280,7 @@
                     if ( user.getPrivilege() >= 1 ) {
                 %>
                 var fileObj = document.getElementById("file").files[0]; // 获取文件对象
-                var FileController = "<%=request.getContextPath()%>/UploadServlet";                    // 接收上传文件的后台地址
+                var FileController = "<%=request.getContextPath()%>/UploadServlet?type=public";                // 接收上传文件的后台地址
 
                 var form = new FormData();
                 form.append("file", fileObj);                           // 文件对象
@@ -289,6 +289,7 @@
                 xhr.open("post", FileController, true);
                 xhr.onload = function () {
                     alert("上传完成!");
+                    location.reload();
                 };
                 xhr.send(form);
                 <%} else {%>

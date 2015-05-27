@@ -24,6 +24,8 @@ public class UploadServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("text/html;charset=utf-8");
+        String type = request.getParameter("type");
+
         if ( !UserMonitor.getUserMonitor(request).isAdministor() ) {
             response.getWriter().print("permission denied");
             return;
@@ -61,6 +63,14 @@ public class UploadServlet extends HttpServlet {
                         System.out.println(uploaderFile.getAbsolutePath());
                         item.write(uploaderFile);
                         System.out.println("文件写入完毕");
+
+                        if ( type != null && type.equals("disaster") ) {
+                            System.out.println("这是一个disaster文件");
+                        } else if ( type != null && type.equals("public") ) {
+                            System.out.println("这是一个public文件");
+                        } else if ( type != null && type.equals("whitelist") ) {
+                            System.out.println("这是一个whitelist文件");
+                        }
 
                         System.out.println("文件删除完毕 - " + uploaderFile.delete());
                     }
