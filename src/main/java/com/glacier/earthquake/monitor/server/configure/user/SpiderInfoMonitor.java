@@ -27,7 +27,7 @@ public class SpiderInfoMonitor {
     }
 
     public boolean approvedThrough(SpiderInfo spiderInfo) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.approvedThrough(spiderInfo);
             return true;
         }
@@ -35,7 +35,7 @@ public class SpiderInfoMonitor {
     }
 
     public boolean insertSpiderInfo(SpiderInfo spiderInfo) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.insertSpiderInfo(spiderInfo);
             return true;
         }
@@ -49,7 +49,7 @@ public class SpiderInfoMonitor {
     }
 
     public boolean deleteSpiderInfo(SpiderInfo spiderInfo) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.deleteSpiderInfo(spiderInfo);
             return true;
         }

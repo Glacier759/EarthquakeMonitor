@@ -34,7 +34,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <%if ( session.getAttribute("privilege").equals("admin") ) {%>
+                            <%if ( session.getAttribute("privilege").equals("admin") || session.getAttribute("privilege").equals("root") ) {%>
                             <li><a href="<%=request.getContextPath()%>/settings/manage-user.jsp"><h4>用户管理</h4></a></li>
                             <%} else {%>
                             <li><a href="#" onclick="no()"><h4>用户管理</h4></a></li>

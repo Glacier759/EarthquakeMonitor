@@ -12,6 +12,7 @@ import java.util.List;
  */
 public class UserMonitor {
 
+    public static final int USER_ROOT = 2;
     public static final int USER_ADMINISTATOR = 1;
     public static final int USER_ORDINARY = 0;
 
@@ -56,7 +57,7 @@ public class UserMonitor {
                 this.user = modifyUser;
                 return true;
             }
-        } else if ( user.getPrivilege() == USER_ADMINISTATOR ) {
+        } else if ( user.getPrivilege() >= USER_ADMINISTATOR ) {
             Object2Data.modifyUserInfo(modifyUser);
             if ( user.getUid() == modifyUser.getUid() ) {
                 this.user = modifyUser;
@@ -70,7 +71,7 @@ public class UserMonitor {
      * 添加用户，只有管理员有权限
      * */
     public boolean addUser( User addUser ) {
-        if ( user.getPrivilege() == USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= USER_ADMINISTATOR ) {
             if ( !isExistUser(addUser) ) {  //如果需要添加的用户不存在才能添加
                 Object2Data.addUser(addUser);
                 return true;
@@ -83,7 +84,7 @@ public class UserMonitor {
      * 删除用户，只有管理员有权限
      * */
     public boolean delUser( User delUser ) {
-        if ( user.getPrivilege() == USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= USER_ADMINISTATOR ) {
             if ( isExistUser(delUser) ) {   //需要删除的用户存在才能删除
                 Object2Data.delUser(delUser);
                 return true;
@@ -93,18 +94,31 @@ public class UserMonitor {
     }
 
     public boolean isAdministor() {
-        if ( user.getPrivilege() == USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= USER_ADMINISTATOR ) {
             return true;
         }
         return false;
     }
 
-    public void changePassword(User user) {
-        Object2Data.changePassword(user);
+    public boolean changePassword(User changeUser) {
+        if ( user.getPrivilege() == USER_ORDINARY ) {
+            if ( user.getUid() == changeUser.getUid() ) {
+                Object2Data.changePassword(changeUser);
+                this.user = changeUser;
+                return true;
+            }
+        } else if ( user.getPrivilege() >= USER_ADMINISTATOR ) {
+            Object2Data.changePassword(changeUser);
+            if ( user.getUid() == changeUser.getUid() ) {
+                this.user = changeUser;
+            }
+            return true;
+        }
+        return false;
     }
 
     public List<User> getUserList() {
-        if ( user.getPrivilege() == USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= USER_ADMINISTATOR ) {
             return Data2Object.getUserList();
         }
         return null;

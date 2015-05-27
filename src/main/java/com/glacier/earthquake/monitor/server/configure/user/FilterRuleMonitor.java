@@ -25,7 +25,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean addRuleDisaster(FilterDisaster filterDisaster) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.addFilterRulesDisaster(filterDisaster);
             return true;
         }
@@ -33,7 +33,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean setRuleDisaster(FilterDisaster filterDisaster) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.setFilterRulesDisaster(filterDisaster);
             return true;
         }
@@ -41,7 +41,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean delRuleDisaster(Integer id) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.delFilterRulesDisaster(id);
             return true;
         }
@@ -53,7 +53,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean addRulePubSentiment(FilterPublicSentiment filterPublicSentiment) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.addFilterRulesPubSentiment(filterPublicSentiment);
             return true;
         }
@@ -61,7 +61,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean setRulePubSentiment(FilterPublicSentiment filterPublicSentiment) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.setFilterRulesPubSentiment(filterPublicSentiment);
             return true;
         }
@@ -69,7 +69,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean delRulePubSentiment(FilterPublicSentiment filterPublicSentiment) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.delFilterRulesPubSentiment(filterPublicSentiment);
             return true;
         }
@@ -81,7 +81,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean addRuleWhiteList(FilterWhiteList filterWhiteList) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.addFilterRulesWhite(filterWhiteList);
             return true;
         }
@@ -89,7 +89,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean setRuleWhiteList(FilterWhiteList filterWhiteList) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.setFilterWhiteList(filterWhiteList);
             return true;
         }
@@ -97,7 +97,7 @@ public class FilterRuleMonitor {
     }
 
     public boolean delRuleWhiteList(FilterWhiteList filterWhiteList) {
-        if ( user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
             Object2Data.delFilterWhiteList(filterWhiteList);
             return true;
         }

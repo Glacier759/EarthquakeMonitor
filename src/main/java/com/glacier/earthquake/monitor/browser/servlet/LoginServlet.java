@@ -42,6 +42,7 @@ public class LoginServlet extends HttpServlet {
                 String privilege = null;
                 if ( user.getPrivilege() == 1 ) {   privilege = "admin";    }
                 else if ( user.getPrivilege() == 0 ){   privilege = "user"; }
+                else if ( user.getPrivilege() == 2 ) {  privilege = "root"; }
                 request.getSession().setAttribute("login_user", user);
                 request.getSession().setAttribute("login", "true");
                 request.getSession().setAttribute("privilege", privilege);
