@@ -104,4 +104,16 @@ public class FilterRuleMonitor {
         return false;
     }
 
+    public FilterDisaster getFilterDisasterByID(Integer id) {
+        return Data2Object.getFilterDisasterByID(id);
+    }
+
+    public FilterPublicSentiment getFilterPubSentimentByID(Integer id) {
+        return Data2Object.getFilterPubSentimentByID(id);
+    }
+
+    public FilterWhiteList getFilterWhiteListByID(Integer id) {
+        return Data2Object.getFilterWhiteListByID(id);
+    }
+
 }

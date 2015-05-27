@@ -213,10 +213,10 @@ public class Data2Object {
         return null;
     }
 
-    public static List<SpiderInfo> getSpiderInfos_Type(int type) {
+    public static List<SpiderInfo> getSpiderInfo_Type(int type) {
         init();
         try {
-            List<SpiderInfo> spiderInfos = mapper.getSpiderInfos_Type(type);
+            List<SpiderInfo> spiderInfos = mapper.getSpiderInfo_Type(type);
             session.commit();
             return spiderInfos;
         }catch (Exception e) {
@@ -229,10 +229,26 @@ public class Data2Object {
         return null;
     }
 
-    public static List<SpiderInfo> getSpiderInfos_TypeAndStatus(SpiderInfo spiderInfo) {
+    public static List<SpiderInfo> getSpiderInfo_Status(int status) {
         init();
         try {
-            List<SpiderInfo> spiderInfos = mapper.getSpiderInfoList();
+            List<SpiderInfo> spiderInfos = mapper.getSpiderInfo_Status(status);
+            session.commit();
+            return spiderInfos;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
+    public static List<SpiderInfo> getSpiderInfo_TypeAndStatus(SpiderInfo spiderInfo) {
+        init();
+        try {
+            List<SpiderInfo> spiderInfos = mapper.getSpiderInfo_TypeAndStatus(spiderInfo);
             session.commit();
             return spiderInfos;
         }catch (Exception e) {
@@ -251,6 +267,70 @@ public class Data2Object {
             List<User> userList = mapper.getUserList();
             session.commit();
             return userList;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
+    public static SpiderInfo getSpiderInfoByID(Integer id) {
+        init();
+        try {
+            SpiderInfo spiderInfo = mapper.getSpiderInfoByID(id);
+            session.commit();
+            return spiderInfo;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
+    public static FilterDisaster getFilterDisasterByID(Integer id) {
+        init();
+        try {
+            FilterDisaster filter = mapper.getFilterDisasterByID(id);
+            session.commit();
+            return filter;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
+    public static FilterPublicSentiment getFilterPubSentimentByID(Integer id) {
+        init();
+        try {
+            FilterPublicSentiment filter = mapper.getFilterPubSentimentByID(id);
+            session.commit();
+            return filter;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
+    public static FilterWhiteList getFilterWhiteListByID(Integer id) {
+        init();
+        try {
+            FilterWhiteList filter = mapper.getFilterWhiteListByID(id);
+            session.commit();
+            return filter;
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));

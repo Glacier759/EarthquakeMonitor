@@ -25,4 +25,8 @@
         INSERT INTO filter_rules_whitelist(url) VALUES(#{url});
     </insert>
 
+    <select id="getFilterWhiteListByID" parameterType="Integer" resultMap="filter_whitelist">
+        SELECT * FROM filter_rules_whitelist WHERE id = #{id};
+    </select>
+
 </mapper>

@@ -3,10 +3,7 @@ package com.glacier.earthquake.monitor.browser.servlet;
 import com.glacier.earthquake.monitor.browser.util.UserUtils;
 import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
-import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
-import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
-import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
-import com.glacier.earthquake.monitor.server.pojo.User;
+import com.glacier.earthquake.monitor.server.pojo.*;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
 import org.apache.log4j.Logger;
@@ -263,6 +260,72 @@ public class SettingServlet extends HttpServlet {
                         new_user.setUid(user.getUid());
                         UserMonitor.getUserMonitor(user).changePassword(new_user);
                         response.getWriter().print("success");
+                    }
+                }
+            } else if ( operate.equals("examine") ) {
+                JSONArray jsonArray = new JSONArray();
+                List<SpiderInfo> spiderInfos = UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().getSpiderInfo_Status(0);
+                if ( spiderInfos != null ) {
+                    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                    for ( SpiderInfo spiderInfo : spiderInfos ) {
+                        JSONObject jsonObject = new JSONObject();
+                        jsonObject.put("id", spiderInfo.getId());
+                        jsonObject.put("url", spiderInfo.getUrl());
+                        jsonObject.put("title", spiderInfo.getTitle());
+                        jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
+                        jsonArray.put(jsonObject);
+                    }
+                }
+                response.getWriter().print(jsonArray.toString());
+            } else if ( operate.equals("spiderinfo") ) {
+                String id = request.getParameter("id");
+                if ( id != null ) {
+                    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                    SpiderInfo spiderInfo = UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().getSpiderInfoByID(Integer.parseInt(id));
+                    System.out.println(spiderInfo);
+                    JSONObject jsonObject = new JSONObject();
+                    jsonObject.put("id", spiderInfo.getId());
+                    jsonObject.put("url", spiderInfo.getUrl());
+                    jsonObject.put("title", spiderInfo.getTitle());
+                    jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
+                    jsonObject.put("source", spiderInfo.getSource());
+                    jsonObject.put("status", spiderInfo.getStatus());
+
+                    if ( SpiderInfo.FILTER_DISASTER == spiderInfo.getType() ) {
+                        FilterDisaster filter = UserMonitor.getUserMonitor(request).getFilterRuleMonitor().getFilterDisasterByID(spiderInfo.getRule_id());
+                        jsonObject.put("type", "disaster");
+                        jsonObject.put("rule", filter.getFilterRule());
+                    } else if ( SpiderInfo.FILTER_PUBSENTIMENT == spiderInfo.getType() ) {
+                        FilterPublicSentiment filter = UserMonitor.getUserMonitor(request).getFilterRuleMonitor().getFilterPubSentimentByID(spiderInfo.getRule_id());
+                        jsonObject.put("type", "public");
+                        jsonObject.put("name", filter.getName());
+                        jsonObject.put("matcher", filter.getMatcher());
+                        jsonObject.put("unexist", filter.getUnexist());
+                    }
+                    response.getWriter().print(jsonObject.toString());
+                }
+            } else if ( operate.equals("examine-ok") ) {
+                String[] id_array = request.getParameterValues("check");
+                if ( id_array != null ) {
+                    int flag = 1;
+                    for ( String id : id_array ) {
+                        try {
+                            if (UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().approvedThrough(Integer.parseInt(id))) {
+                                flag *= 1;
+                                logger.info("[审核通过] - id: " + id);
+                            } else {
+                                flag *= 0;
+                                logger.error("[审核失败] - id: " + id);
+                            }
+                        }catch (Exception e) {
+                            flag *= 0;
+                            logger.error("[审核失败] - id: " + id);
+                        }
+                    }
+                    if ( flag == 1 ) {
+                        response.getWriter().print("success");
+                    } else {
+                        response.getWriter().print("wrong");
                     }
                 }
             }

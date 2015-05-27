@@ -18,17 +18,21 @@ public class SpiderInfoMonitor {
         this.user = user;
     }
 
-    public List<SpiderInfo> getSpiderInfos_Type(int type) {
-        return Data2Object.getSpiderInfos_Type(type);
+    public List<SpiderInfo> getSpiderInfo_Type(int type) {
+        return Data2Object.getSpiderInfo_Type(type);
     }
 
-    public List<SpiderInfo> getSpiderInfos_TypeAndStatus(SpiderInfo spiderInfo) {
-        return Data2Object.getSpiderInfos_TypeAndStatus(spiderInfo);
+    public List<SpiderInfo> getSpiderInfo_TypeAndStatus(SpiderInfo spiderInfo) {
+        return Data2Object.getSpiderInfo_TypeAndStatus(spiderInfo);
     }
 
-    public boolean approvedThrough(SpiderInfo spiderInfo) {
+    public List<SpiderInfo> getSpiderInfo_Status(int status) {
+        return Data2Object.getSpiderInfo_Status(status);
+    }
+
+    public boolean approvedThrough(Integer id) {
         if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
-            Object2Data.approvedThrough(spiderInfo);
+            Object2Data.approvedThrough(id);
             return true;
         }
         return false;
@@ -54,6 +58,10 @@ public class SpiderInfoMonitor {
             return true;
         }
         return false;
+    }
+
+    public SpiderInfo getSpiderInfoByID(Integer id) {
+        return Data2Object.getSpiderInfoByID(id);
     }
 
 }

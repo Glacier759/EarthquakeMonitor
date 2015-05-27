@@ -56,6 +56,193 @@
                 <!-- /.container-fluid -->
             </nav>
         </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="alert alert-success alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4>信息审核<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h4>
+                    <br />
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8" align="center">
+                            <p>您可以对以下信息进行审核, 普通用户可以查看审核通过的信息</p>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div id="filters-div">
+                    <form id="examine-ok" method="post">
+                        <div class="row">
+                            <table class="table table-striped table-bordered table-hover" id="filters-table">
+                                <thead>
+                                <tr>
+                                    <th class="text-center">Choice</th>
+                                    <th class="text-center">Title</th>
+                                    <th class="text-center">URL</th>
+                                    <th class="text-center">Crawl Date</th>
+                                    <th class="text-center">Setting</th>
+                                </tr>
+                                </thead>
+                                <tbody id="filters-tbody"></tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10"></div>
+                            <div class="col-lg-2">
+                                <button class="btn btn-info" type="submit">审核通过</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="modal fade" id="show-div" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4>详细信息</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="alert alert-info alert-dismissible" role="alert">
+                                    <h3 align="center">源文件信息<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h3>
+                                    <br />
+                                    <div class="row">
+                                        <div class="col-lg-2"></div>
+                                        <div class="col-lg-8" align="center">
+                                            <p id="filter-source"></p>
+                                        </div>
+                                        <div class="col-lg-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <button type="button" class="btn btn-info" id="filter-type"></button>
+                            </div>
+                            <div id="filter-rule-div" class="col-lg-9" align="right">
+                                <button id="filter-rule" type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="">规则</button>
+                                <button id="filter-patten" type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="">正则</button>
+                                <button id="filter-unexist" type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="">不含关键字</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            createTable();
+            function createTable() {
+                $.ajax({
+                    url: "<%=request.getContextPath()%>/SettingServlet?operate=examine",
+                    type: "GET",
+                    dataType: "json",
+                    success: function(data) {
+                        var objson = eval(data);
+                        for ( var i = 0; i < objson.length; i ++ ) {
+                            var row = document.createElement("tr");
+                            row.setAttribute("id", objson[i].id);
+                            row.setAttribute("class", "text-info");
+                            var col0 = document.createElement("th");
+                            col0.setAttribute("class", "text-center");
+                            var select = document.createElement("input");
+                            select.setAttribute("type", "checkbox");
+                            select.setAttribute("name", "check");
+                            select.setAttribute("value", objson[i].id);
+                            col0.appendChild(select);
+                            row.appendChild(col0);
+
+                            var col1 = document.createElement("th");
+                            col1.setAttribute("class", "text-center");
+                            col1.appendChild(document.createTextNode(objson[i].title));
+                            row.appendChild(col1);
+                            var col2 = document.createElement("th");
+                            col2.setAttribute("class", "text-center");
+                            col2.appendChild(document.createTextNode(objson[i].url));
+                            row.appendChild(col2);
+                            var col3 = document.createElement("th");
+                            col3.setAttribute("class", "text-center");
+                            col3.appendChild(document.createTextNode(objson[i].crawldate));
+                            row.appendChild(col3);
+
+                            var col4 = document.createElement("th");
+                            col4.setAttribute("class", "text-center");
+                            var button1 = document.createElement("button");
+                            button1.setAttribute("class", "btn btn-success");
+                            button1.setAttribute("type", "button");
+                            button1.setAttribute("value", objson[i].id);
+                            button1.setAttribute("onclick", "show(this.value)");
+                            button1.innerHTML = "查看";
+                            col4.appendChild(button1);
+                            row.appendChild(col4);
+                            document.getElementById("filters-tbody").appendChild(row);
+                        }
+                    }
+                });
+            }
+        </script>
+        <script>
+            function show(value) {
+                $.ajax({
+                    type: "get",
+                    url: "<%=request.getContextPath()%>/SettingServlet?operate=spiderinfo",
+                    data: "id="+value,
+                    dataType: "json",
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        var objson = eval(msg);
+                        $("#filter-source").html(objson.source);
+                        if ( objson.type == "disaster" ) {
+                            $("#filter-type").html("信息类型: 灾情获取");
+                            $("#filter-patten").remove();
+                            $("#filter-unexist").remove();
+                            $("#filter-rule").attr("title", objson.rule);
+                        } else if ( objson.type == "public" ) {
+                            $("#filter-type").html("信息类型: 舆情监测");
+                            $("#filter-rule").attr("title", objson.name);
+                            $("#filter-patten").attr("title", objson.matcher);
+                            $("#filter-unexist").attr("title", objson.unexist);
+                        }
+                        $(function () {
+                            $('[data-toggle="tooltip"]').tooltip();
+                        });
+                        $("#show-div").modal("toggle");
+                    }
+                });
+                $("#examine-ok").submit(function() {
+                    var ajax_url = "<%=request.getContextPath()%>/SettingServlet?operate=examine-ok";
+                    var ajax_type = $(this).attr('method');
+                    var ajax_data = $(this).serialize();
+                    $.ajax({
+                        type: ajax_type,
+                        url: ajax_url,
+                        data: ajax_data,
+                        success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                            if ( msg == "wrong" ) {
+                                alert("审核出现异常");
+                            } else if ( msg == "success" ) {
+                                alert("操作成功");
+                            }
+                            location.reload();
+                        }
+                    });
+                    return false;   //阻止表单的默认提交事件
+                });
+            }
+        </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <%@include file="../footer.jsp"%>
     </body>

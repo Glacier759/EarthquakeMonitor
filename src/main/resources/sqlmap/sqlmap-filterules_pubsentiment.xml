@@ -27,4 +27,8 @@
         INSERT INTO filter_rules_pubsentiment(name, matcher, unexist) VALUES(#{name}, #{matcher}, #{unexist});
     </insert>
 
+    <select id="getFilterPubSentimentByID" parameterType="Integer" resultMap="filter_pubsentiment">
+        SELECT * FROM filter_rules_pubsentiment WHERE id = #{id};
+    </select>
+
 </mapper>

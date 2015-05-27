@@ -55,11 +55,13 @@ public interface MysqlOperation {
 
     public List<SpiderInfo> getSpiderInfoList();
 
-    public List<SpiderInfo> getSpiderInfos_Type(int type);
+    public List<SpiderInfo> getSpiderInfo_Type(int type);
 
-    public List<SpiderInfo> getSpiderInfos_TypeAndStatus(SpiderInfo spiderInfo);
+    public List<SpiderInfo> getSpiderInfo_Status(int status);
 
-    public void approvedThrough(SpiderInfo spiderInfo);
+    public List<SpiderInfo> getSpiderInfo_TypeAndStatus(SpiderInfo spiderInfo);
+
+    public void approvedThrough(Integer id);
 
     public void insertSpiderInfo(SpiderInfo spiderInfo);
 
@@ -68,5 +70,13 @@ public interface MysqlOperation {
     public List<User> getUserList();
 
     public void changePassword(User user);
+
+    public SpiderInfo getSpiderInfoByID(Integer id);
+
+    public FilterDisaster getFilterDisasterByID(Integer id);
+
+    public FilterPublicSentiment getFilterPubSentimentByID(Integer id);
+
+    public FilterWhiteList getFilterWhiteListByID(Integer id);
 
 }

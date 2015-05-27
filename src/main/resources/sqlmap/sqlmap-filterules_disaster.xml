@@ -22,4 +22,8 @@
         INSERT INTO filter_rules_disaster(rule) VALUES(#{filterRule});
     </insert>
 
+    <select id="getFilterDisasterByID" parameterType="Integer" resultMap="filter_disaster">
+        SELECT * FROM filter_rules_disaster WHERE id = #{id};
+    </select>
+
 </mapper>
