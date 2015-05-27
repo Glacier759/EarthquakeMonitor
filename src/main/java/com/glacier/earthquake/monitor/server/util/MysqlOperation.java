@@ -79,4 +79,8 @@ public interface MysqlOperation {
 
     public FilterWhiteList getFilterWhiteListByID(Integer id);
 
+    public void insertSystemStatus(Integer status);
+
+    public SystemStatus getSystemStatus();
+
 }

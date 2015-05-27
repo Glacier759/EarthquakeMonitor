@@ -1,5 +1,6 @@
 package com.glacier.earthquake.monitor.server.configure.user;
 
+import com.glacier.earthquake.monitor.server.pojo.SystemStatus;
 import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
@@ -153,6 +154,14 @@ public class UserMonitor {
 
     public SpiderInfoMonitor getSpiderInfoMonitor() {
         return new SpiderInfoMonitor(this.user);
+    }
+
+    public static SystemStatus getSystemStatus() {
+        return Data2Object.getSystemStatus();
+    }
+
+    public static void insertSystemStatus(Integer status) {
+        Object2Data.insertSystemStatus(status);
     }
 
 }

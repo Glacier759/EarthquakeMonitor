@@ -27,7 +27,7 @@ CREATE TABLE `filter_rules_disaster` (
   `rule` varchar(50) NOT NULL,
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `filter_rules_disaster` (
 
 LOCK TABLES `filter_rules_disaster` WRITE;
 /*!40000 ALTER TABLE `filter_rules_disaster` DISABLE KEYS */;
-INSERT INTO `filter_rules_disaster` VALUES (1,'任立翔*逗比','2015-05-02 12:28:09'),(2,'新疆*地震*今晚','2015-05-02 12:28:09');
+INSERT INTO `filter_rules_disaster` VALUES (2,'新疆*地震*今晚','2015-05-02 12:28:09'),(3,'乌恰*地震*死亡','2015-05-26 14:33:54'),(4,'新疆*地震','2015-05-26 14:33:54');
 /*!40000 ALTER TABLE `filter_rules_disaster` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -54,7 +54,7 @@ CREATE TABLE `filter_rules_pubsentiment` (
   `unexist` varchar(100) NOT NULL,
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -63,7 +63,7 @@ CREATE TABLE `filter_rules_pubsentiment` (
 
 LOCK TABLES `filter_rules_pubsentiment` WRITE;
 /*!40000 ALTER TABLE `filter_rules_pubsentiment` DISABLE KEYS */;
-INSERT INTO `filter_rules_pubsentiment` VALUES (1,'福州*发生地震','S*福建[^，。；？！]发生[^，。；？！]','汶川 新西兰 玉树','2015-05-01 10:59:42'),(2,'我是斯巴达','S*厦门[^，。；？！]发生[^，。；？！]','汶川 新西兰 玉树','2015-05-01 10:59:59'),(4,'戴着眼镜的狗','匹配就是我','米有鼻子','2015-05-01 11:56:10'),(5,'戴着眼镜的狗','匹配就是我','米有鼻子','2015-05-01 11:56:47');
+INSERT INTO `filter_rules_pubsentiment` VALUES (1,'福州*发生地震','S*福建[^，。；？！]发生[^，。；？！]','汶川 新西兰 玉树','2015-05-01 10:59:42'),(2,'我是斯巴达','S*厦门[^，。；？！]发生[^，。；？！]','汶川 新西兰 玉树','2015-05-01 10:59:59'),(4,'戴着眼镜的狗','匹配就是我','米有鼻子','2015-05-01 11:56:10'),(6,'这是一条测试','卧槽我不会写正则','你猜 逗比','2015-05-27 07:18:28'),(7,'来两发试试','正则什么鬼','这个是第一个','2015-05-27 07:19:36'),(8,'这个是第二个','啊哈哈哈哈哈 大水冲了龙王庙','武大郎','2015-05-27 07:19:36');
 /*!40000 ALTER TABLE `filter_rules_pubsentiment` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -79,7 +79,7 @@ CREATE TABLE `filter_rules_whitelist` (
   `url` varchar(200) NOT NULL,
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -88,7 +88,7 @@ CREATE TABLE `filter_rules_whitelist` (
 
 LOCK TABLES `filter_rules_whitelist` WRITE;
 /*!40000 ALTER TABLE `filter_rules_whitelist` DISABLE KEYS */;
-INSERT INTO `filter_rules_whitelist` VALUES (3,'www.glacierlx.com','2015-05-01 11:42:05');
+INSERT INTO `filter_rules_whitelist` VALUES (3,'www.glacierlx.com','2015-05-01 11:42:05'),(5,'blog.glacierlx.com','2015-05-27 07:43:17');
 /*!40000 ALTER TABLE `filter_rules_whitelist` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -136,7 +136,7 @@ CREATE TABLE `spider_information` (
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `status` int(1) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -145,7 +145,33 @@ CREATE TABLE `spider_information` (
 
 LOCK TABLES `spider_information` WRITE;
 /*!40000 ALTER TABLE `spider_information` DISABLE KEYS */;
+INSERT INTO `spider_information` VALUES (1,'http://spider.glacierlx.com','智障儿童的自我逆袭','这里啥都减肥华盛顿和副驾驶的fks的交锋上的金佛ijsdlkfjksdljflk上的副教授的减肥了开始的积分卡lsd就',0,2,'2015-05-27 08:15:33',0),(2,'http://blog.glacierlx.com','这是我的博客','我在这热等着你回来啊等着你回来看那桃花开急急急  在线等！！！',1,1,'2015-05-27 11:34:09',0),(3,'http://www.baidu.com','这是我的ceshi','我asasdasdasdasdasdasd！',1,6,'2015-05-27 12:00:03',0);
 /*!40000 ALTER TABLE `spider_information` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `system_status`
+--
+
+DROP TABLE IF EXISTS `system_status`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `system_status` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `status` int(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `system_status`
+--
+
+LOCK TABLES `system_status` WRITE;
+/*!40000 ALTER TABLE `system_status` DISABLE KEYS */;
+INSERT INTO `system_status` VALUES (1,'2015-05-27 12:39:15',0),(2,'2015-05-27 12:39:17',1),(3,'2015-05-27 12:39:19',0),(4,'2015-05-27 12:39:20',1),(5,'2015-05-27 12:57:22',0),(6,'2015-05-27 13:19:51',1),(7,'2015-05-27 13:20:02',0),(8,'2015-05-27 13:20:16',1);
+/*!40000 ALTER TABLE `system_status` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -157,18 +183,18 @@ DROP TABLE IF EXISTS `user_info`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `user_info` (
   `uid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `nickname` varchar(20),
-  `email` varchar(50),
-  `mobile` varchar(20),
-  `password` char(32)NOT NULL,
+  `nickname` varchar(20) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `mobile` varchar(20) DEFAULT NULL,
+  `password` char(32) NOT NULL,
   `privilege` int(1) DEFAULT '0',
-  `create_date` timestamp DEFAULT CURRENT_TIMESTAMP,
-  `realname` varchar(10),
-  `workplace` varchar(200),
-  `position` varchar(100),
-  `qqnumber` varchar(15),
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `realname` varchar(10) DEFAULT NULL,
+  `workplace` varchar(200) DEFAULT NULL,
+  `position` varchar(100) DEFAULT NULL,
+  `qqnumber` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`uid`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -177,7 +203,7 @@ CREATE TABLE `user_info` (
 
 LOCK TABLES `user_info` WRITE;
 /*!40000 ALTER TABLE `user_info` DISABLE KEYS */;
-INSERT INTO `user_info` VALUES (1,'戴着眼镜的狗','glacier@xiyoulinux.org','13289212979','private info',1,'2015-05-02 04:42:48','','','','');
+INSERT INTO `user_info` VALUES (1,'戴着眼镜的狗','glacier@xiyoulinux.org','13289212979','q',1,'2015-05-27 05:38:52','热力学','中华人民共和国','搬砖的','32124442s'),(2,NULL,'421186071@qq.com',NULL,'111',0,'2015-05-26 07:31:27',NULL,NULL,NULL,NULL),(16,NULL,'OurHom.759@gmail.com',NULL,'q',0,'2015-05-26 09:43:00',NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `user_info` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -190,4 +216,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-05-26 14:53:20
+-- Dump completed on 2015-05-27 21:21:16

@@ -328,6 +328,29 @@ public class SettingServlet extends HttpServlet {
                         response.getWriter().print("wrong");
                     }
                 }
+            } else if ( operate.equals("system") ) {
+                SystemStatus status = UserMonitor.getSystemStatus();
+                if ( status.getStatus() == SystemStatus.SYSTEM_START ) {
+                    response.getWriter().print("starting");
+                } else if ( status.getStatus() == SystemStatus.SYSTEM_STOP ) {
+                    response.getWriter().print("stoping");
+                }
+            } else if ( operate.equals("system-stop") ) {
+                if ( UserMonitor.getUserMonitor(request).isAdministor() ) {
+                    UserMonitor.insertSystemStatus(0);
+                    logger.info("[关闭系统]");
+                    response.getWriter().print("success");
+                } else {
+                    response.getWriter().print("permission denied");
+                }
+            } else if ( operate.equals("system-start") ) {
+                if ( UserMonitor.getUserMonitor(request).isAdministor() ) {
+                    UserMonitor.insertSystemStatus(1);
+                    logger.info("[开启系统]");
+                    response.getWriter().print("success");
+                } else {
+                    response.getWriter().print("permission denied");
+                }
             }
         }
     }

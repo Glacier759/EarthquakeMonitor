@@ -279,4 +279,18 @@ public class Object2Data {
         }
     }
 
+    public static void insertSystemStatus(Integer status) {
+        init();
+        try {
+            mapper.insertSystemStatus(status);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+    }
+
 }
