@@ -223,7 +223,7 @@ public class SettingServlet extends HttpServlet {
                 }
 
                 String mobile = request.getParameter("mobile");
-                if ( user.getMobile() == null || user.getEmail().length() == 0 || user.getMobile().equals(mobile) ) {
+                if ( user.getMobile() == null || user.getMobile().length() == 0 || user.getMobile().equals(mobile) ) {
                     if ( UserUtils.isMobile(mobile) ) {
                         if ( UserMonitor.getUserInfoByMobile(mobile) != null && !user.getMobile().equals(mobile)) {
                             response.getWriter().print("mobile had");
@@ -244,6 +244,14 @@ public class SettingServlet extends HttpServlet {
                 new_user.setQqnumber(request.getParameter("qqnumber"));
                 new_user.setPosition(request.getParameter("position"));
                 new_user.setWorkplace(request.getParameter("workplace"));
+
+                if ( new_user.getEmail().equals("null") || new_user.getNickname().equals("null") || new_user.getMobile().equals("null")
+                        || new_user.getQqnumber().equals("null") || new_user.getPosition().equals("null") || new_user.getRealname().equals("null")
+                        || new_user.getWorkplace().equals("null") ) {
+                    response.getWriter().print("userinfo not full");
+                    return;
+                }
+
                 new_user.setUid(user.getUid());
                 new_user.setPassword(user.getPassword());
                 new_user.setPrivilege(user.getPrivilege());
