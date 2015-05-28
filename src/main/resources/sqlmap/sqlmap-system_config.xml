@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.glacier.earthquake.monitor.server.util.MysqlOperation">
+    <resultMap id="SystemConfig" type="SystemConfig">
+        <result column="id" property="id" />
+        <result column="type" property="type" />
+        <result column="create_date" property="createDate" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <select id="getConfigStatusByType" parameterType="Integer" resultMap="SystemConfig">
+        SELECT * FROM system_config WHERE type = #{type};
+    </select>
+
+    <update id="setConfigStatusByType" parameterType="SystemConfig">
+        UPDATE system_config SET status = #{status} WHERE type = #{type};
+    </update>
+
+</mapper>

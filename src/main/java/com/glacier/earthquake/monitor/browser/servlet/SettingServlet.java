@@ -9,6 +9,7 @@ import com.glacier.earthquake.monitor.server.util.Object2Data;
 import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,6 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -205,7 +207,7 @@ public class SettingServlet extends HttpServlet {
                 String email = request.getParameter("email");
                 if ( user.getEmail() == null || user.getEmail().length() == 0 || user.getEmail().equals(email) ) {
                     if (UserUtils.isEmail(email)) {
-                        if ( UserMonitor.getUserInfoByEmail(email) != null ) {
+                        if ( UserMonitor.getUserInfoByEmail(email) != null && !user.getEmail().equals(email) ) {
                             response.getWriter().print("email had");
                             return;
                         }
@@ -223,7 +225,7 @@ public class SettingServlet extends HttpServlet {
                 String mobile = request.getParameter("mobile");
                 if ( user.getMobile() == null || user.getEmail().length() == 0 || user.getMobile().equals(mobile) ) {
                     if ( UserUtils.isMobile(mobile) ) {
-                        if ( UserMonitor.getUserInfoByMobile(mobile) != null ) {
+                        if ( UserMonitor.getUserInfoByMobile(mobile) != null && !user.getMobile().equals(mobile)) {
                             response.getWriter().print("mobile had");
                             return;
                         }
@@ -275,16 +277,18 @@ public class SettingServlet extends HttpServlet {
                 }
             } else if ( operate.equals("examine") ) {
                 JSONArray jsonArray = new JSONArray();
-                List<SpiderInfo> spiderInfos = UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().getSpiderInfo_Status(0);
-                if ( spiderInfos != null ) {
-                    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-                    for ( SpiderInfo spiderInfo : spiderInfos ) {
-                        JSONObject jsonObject = new JSONObject();
-                        jsonObject.put("id", spiderInfo.getId());
-                        jsonObject.put("url", spiderInfo.getUrl());
-                        jsonObject.put("title", spiderInfo.getTitle());
-                        jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
-                        jsonArray.put(jsonObject);
+                if ( UserMonitor.getUserMonitor(request).isAdministor() ) {
+                    List<SpiderInfo> spiderInfos = UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().getSpiderInfo_Status(0);
+                    if (spiderInfos != null) {
+                        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                        for (SpiderInfo spiderInfo : spiderInfos) {
+                            JSONObject jsonObject = new JSONObject();
+                            jsonObject.put("id", spiderInfo.getId());
+                            jsonObject.put("url", spiderInfo.getUrl());
+                            jsonObject.put("title", spiderInfo.getTitle());
+                            jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
+                            jsonArray.put(jsonObject);
+                        }
                     }
                 }
                 response.getWriter().print(jsonArray.toString());
@@ -293,7 +297,6 @@ public class SettingServlet extends HttpServlet {
                 if ( id != null ) {
                     SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                     SpiderInfo spiderInfo = UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().getSpiderInfoByID(Integer.parseInt(id));
-                    System.out.println(spiderInfo);
                     JSONObject jsonObject = new JSONObject();
                     jsonObject.put("id", spiderInfo.getId());
                     jsonObject.put("url", spiderInfo.getUrl());
@@ -316,6 +319,9 @@ public class SettingServlet extends HttpServlet {
                     response.getWriter().print(jsonObject.toString());
                 }
             } else if ( operate.equals("examine-ok") ) {
+                if ( !UserMonitor.getUserMonitor(request).isAdministor() ) {
+                    response.getWriter().print("permission denied");
+                }
                 String[] id_array = request.getParameterValues("check");
                 if ( id_array != null ) {
                     int flag = 1;
@@ -340,16 +346,15 @@ public class SettingServlet extends HttpServlet {
                     }
                 }
             } else if ( operate.equals("system") ) {
-                SystemStatus status = UserMonitor.getSystemStatus();
-                if ( status.getStatus() == SystemStatus.SYSTEM_START ) {
+                int status = UserMonitor.getConfigStatusByType(SystemConfig.CONFIG_TYPE_SYSTEM);
+                if ( status == SystemConfig.SYSTEM_START ) {
                     response.getWriter().print("starting");
-                } else if ( status.getStatus() == SystemStatus.SYSTEM_STOP ) {
+                } else if ( status == SystemConfig.SYSTEM_STOP ) {
                     response.getWriter().print("stoping");
                 }
             } else if ( operate.equals("system-stop") ) {
-                System.out.println(request);
                 if ( UserMonitor.getUserMonitor(request).isAdministor() ) {
-                    UserMonitor.insertSystemStatus(0);
+                    UserMonitor.setConfigStatusByType(SystemConfig.CONFIG_TYPE_SYSTEM, SystemConfig.SYSTEM_STOP);
                     logger.info("[关闭系统]");
                     response.getWriter().print("success");
                 } else {
@@ -357,11 +362,67 @@ public class SettingServlet extends HttpServlet {
                 }
             } else if ( operate.equals("system-start") ) {
                 if ( UserMonitor.getUserMonitor(request).isAdministor() ) {
-                    UserMonitor.insertSystemStatus(1);
+                    UserMonitor.setConfigStatusByType(SystemConfig.CONFIG_TYPE_SYSTEM, SystemConfig.SYSTEM_START);
                     logger.info("[开启系统]");
                     response.getWriter().print("success");
                 } else {
                     response.getWriter().print("permission denied");
+                }
+            } else if ( operate.equals("showdata") ) {
+                JSONArray jsonArray = new JSONArray();
+
+                //0表示未通过审核 1表示已通过审核;
+                List<SpiderInfo> spiderInfos_0 = UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().getSpiderInfo_Status(0);
+                List<SpiderInfo> spiderInfos_1 = UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().getSpiderInfo_Status(1);
+
+                List<SpiderInfo> spiderInfos = new LinkedList<SpiderInfo>();
+                //如果审核模块关闭或者当前用户是管理员的话  可以查看未通过审核的信息
+                if ( spiderInfos_0 != null && (UserMonitor.getConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE) == SystemConfig.EXAMINE_STOP
+                                                || UserMonitor.getUserMonitor(request).isAdministor()) ) {
+                    spiderInfos.addAll(spiderInfos_0);
+                }
+                if ( spiderInfos_1 != null ) {
+                    spiderInfos.addAll(spiderInfos_1);
+                }
+
+                SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                for ( SpiderInfo spiderInfo : spiderInfos ) {
+                    JSONObject jsonObject = new JSONObject();
+                    jsonObject.put("id", spiderInfo.getId());
+                    jsonObject.put("url", spiderInfo.getUrl());
+                    jsonObject.put("title", spiderInfo.getTitle());
+                    jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
+                    jsonArray.put(jsonObject);
+                }
+                response.getWriter().print(jsonArray.toString());
+            } else if ( operate.equals("switch") ) {
+                String value = request.getParameter("value");
+                if ( value != null ) {
+                    if ( UserMonitor.getUserMonitor(request).isAdministor() ) {     //判断权限
+                        if ( UserMonitor.getConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE) == SystemConfig.EXAMINE_START ) {  //判断当前状态
+                            if ( value.equals("0") ) {  //判断用户操作 0表示用户想要关闭系统
+                                UserMonitor.setConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE, SystemConfig.EXAMINE_STOP);
+                                logger.info("[审核模块] - 审核模块已被关闭");
+                                response.getWriter().print("examine stop");
+                            }
+                            else {
+                                logger.info("[审核模块] - 非法操作");
+                                response.getWriter().print("wrong start");
+                            }
+                        } else if ( UserMonitor.getConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE) == SystemConfig.EXAMINE_STOP ) {
+                            if ( value.equals("1") ) {
+                                UserMonitor.setConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE, SystemConfig.EXAMINE_START);
+                                logger.info("[审核模块] - 审核模块已被开启");
+                                response.getWriter().print("examine start");
+                            } else {
+                                logger.info("[审核模块] - 非法操作");
+                                response.getWriter().print("wrong stop");
+                            }
+                        }
+                    } else {
+                        response.getWriter().print("permission denied");
+                        logger.info("[审核模块] - 没有权限");
+                    }
                 }
             }
         }

@@ -341,12 +341,12 @@ public class Data2Object {
         return null;
     }
 
-    public static SystemStatus getSystemStatus() {
+    public static SystemConfig getConfigStatusByType(Integer type) {
         init();
         try {
-            SystemStatus status = mapper.getSystemStatus();
+            SystemConfig config = mapper.getConfigStatusByType(type);
             session.commit();
-            return status;
+            return config;
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));

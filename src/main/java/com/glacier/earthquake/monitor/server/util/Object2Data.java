@@ -279,10 +279,10 @@ public class Object2Data {
         }
     }
 
-    public static void insertSystemStatus(Integer status) {
+    public static void setConfigStatusByType(SystemConfig config) {
         init();
         try {
-            mapper.insertSystemStatus(status);
+            mapper.setConfigStatusByType(config);
             session.commit();
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

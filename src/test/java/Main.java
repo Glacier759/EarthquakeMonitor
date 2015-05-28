@@ -44,20 +44,8 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            JSONObject jsonObject = new JSONObject();
-            JSONArray jsonArray = new JSONArray();
-            List<FilterDisaster> filters = Data2Object.filterRulesDisaster();
-            SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-            for ( int index = 0; index < filters.size(); index ++ ) {
-                FilterDisaster filter = filters.get(index);
-                Date date = filter.getCreateDate();
-                String rule = filter.getFilterRule();
-                jsonObject.put("create-time", format.format(date));
-                jsonObject.put("rule", rule);
-                jsonArray.put(jsonObject);
-            }
-            System.out.println(jsonArray);
-
+            System.out.println(SystemConfig.CONFIG_TYPE_EXAMINE);
+            UserMonitor.getConfigStatusByType(0);
         }catch (Exception e) {
             e.printStackTrace();
         }

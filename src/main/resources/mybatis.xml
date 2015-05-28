@@ -10,7 +10,7 @@
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.FilterWhiteList" alias="FilterWhiteList" />
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.User" alias="User" />
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.SpiderInfo" alias="SpiderInfo" />
-        <typeAlias type="com.glacier.earthquake.monitor.server.pojo.SystemStatus" alias="SystemStatus" />
+        <typeAlias type="com.glacier.earthquake.monitor.server.pojo.SystemConfig" alias="SystemConfig" />
     </typeAliases>
 
     <environments default="development">
@@ -32,7 +32,7 @@
         <mapper resource="sqlmap/sqlmap-filterules_whitelist.xml" />
         <mapper resource="sqlmap/sqlmap-userinfo.xml" />
         <mapper resource="sqlmap/sqlmap-crawler.xml" />
-        <mapper resource="sqlmap/sqlmap-system_status.xml" />
+        <mapper resource="sqlmap/sqlmap-system_config.xml" />
     </mappers>
 
 </configuration>

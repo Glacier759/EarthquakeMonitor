@@ -11,9 +11,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <title>Earthquake Eye</title>
         <link href="<%=request.getContextPath()%>/resource/css/bootstrap.min.css" rel="stylesheet">
-        <link href="<%=request.getContextPath()%>/resource/css/animate.css">
         <link href="<%=request.getContextPath()%>/resource/css/style.min.css" rel="stylesheet">
-        <link href="<%=request.getContextPath()%>/resource/fonts/google_api.css?family=Montserrat|Varela+Round" rel="stylesheet">
         <script src="<%=request.getContextPath()%>/resource/js/pace.js"></script>
         <link href="<%=request.getContextPath()%>/resource/css/pace-theme-flash.min.css" rel="stylesheet">
         <script src="<%=request.getContextPath()%>/resource/js/jquery-2.1.1.min.js"></script>
@@ -34,9 +32,9 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    <h4>审核管理<span class="caret"></span></h4></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h4>审核管理<span class="caret"></span></h4></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="<%=request.getContextPath()%>/settings/manage-disaster.jsp">灾情获取匹配式管理</a></li>
                                     <li class="divider"></li>
@@ -56,6 +54,11 @@
                 <!-- /.container-fluid -->
             </nav>
         </div>
+        <div class="row" align="center">
+            <button id="examine-start" type="button" onclick="fun(1)" class="btn btn-info">开启审核</button>
+            <button id="examine-stop" type="button" onclick="fun(0)" class="btn btn-warning">关闭审核</button>
+        </div>
+        <br />
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
@@ -200,17 +203,17 @@
                 $.ajax({
                     type: "get",
                     url: "<%=request.getContextPath()%>/SettingServlet?operate=spiderinfo",
-                    data: "id="+value,
+                    data: "id=" + value,
                     dataType: "json",
-                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                    success: function (msg) {    //msg是后台调用action时，你传过来的参数
                         var objson = eval(msg);
                         $("#filter-source").html(objson.source);
-                        if ( objson.type == "disaster" ) {
+                        if (objson.type == "disaster") {
                             $("#filter-type").html("信息类型: 灾情获取");
                             $("#filter-patten").remove();
                             $("#filter-unexist").remove();
                             $("#filter-rule").attr("title", objson.rule);
-                        } else if ( objson.type == "public" ) {
+                        } else if (objson.type == "public") {
                             $("#filter-type").html("信息类型: 舆情监测");
                             $("#filter-rule").attr("title", objson.name);
                             $("#filter-patten").attr("title", objson.matcher);
@@ -222,7 +225,30 @@
                         $("#show-div").modal("toggle");
                     }
                 });
-                $("#examine-ok").submit(function() {
+            }
+
+            function fun(value) {
+                $.ajax({
+                    type: "get",
+                    url: "<%=request.getContextPath()%>/SettingServlet?operate=switch",
+                    data: "value=" + value,
+                    success: function (msg) {    //msg是后台调用action时，你传过来的参数
+                        if (msg == "examine start") {
+                            alert("审核模块已被开启 普通用户只能浏览通过审核的内容");
+                        } else if (msg == "examine stop") {
+                            alert("审核模块已经关闭 普通用户可以浏览所有获取到的数据");
+                        } else if (msg == "permission denied") {
+                            alert("您没有权限进行此操作");
+                        } else if (msg == "wrong stop") {
+                            alert("审核模块已经处于关闭状态");
+                        } else if (msg == "wrong start") {
+                            alert("审核模块已经处于开启状态");
+                        }
+                    }
+                });
+            }
+
+            $("#examine-ok").submit(function() {
                     var ajax_url = "<%=request.getContextPath()%>/SettingServlet?operate=examine-ok";
                     var ajax_type = $(this).attr('method');
                     var ajax_data = $(this).serialize();
@@ -233,15 +259,17 @@
                         success: function(msg) {    //msg是后台调用action时，你传过来的参数
                             if ( msg == "wrong" ) {
                                 alert("审核出现异常");
+                                location.reload();
                             } else if ( msg == "success" ) {
                                 alert("操作成功");
+                                location.reload();
+                            } else if ( msg == "permission denied" ) {
+                                alert("您没有权限进行此操作");
                             }
-                            location.reload();
                         }
                     });
                     return false;   //阻止表单的默认提交事件
-                });
-            }
+            });
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <%@include file="../footer.jsp"%>
