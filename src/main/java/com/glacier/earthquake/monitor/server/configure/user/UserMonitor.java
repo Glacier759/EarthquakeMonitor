@@ -4,6 +4,7 @@ import com.glacier.earthquake.monitor.server.pojo.SystemStatus;
 import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
+import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -12,6 +13,8 @@ import java.util.List;
  * Created by glacier on 15-5-2.
  */
 public class UserMonitor {
+
+    public static Logger logger = Logger.getLogger(UserMonitor.class.getName());
 
     public static final int USER_ROOT = 2;
     public static final int USER_ADMINISTATOR = 1;
@@ -142,10 +145,14 @@ public class UserMonitor {
     }
 
     public static User getUserInfoByMobile(String mobile) {
+        logger.info("[info] - mobile " + mobile);
+        mobile = mobile.replace("\"", "");
         return Data2Object.getUserInfoByMobile(mobile);
     }
 
     public static User getUserInfoByEmail(String email) {
+        logger.info("[info] - email " + email);
+        email = email.replace("\"", "");
         return Data2Object.getUserInfoByEmail(email);
     }
 

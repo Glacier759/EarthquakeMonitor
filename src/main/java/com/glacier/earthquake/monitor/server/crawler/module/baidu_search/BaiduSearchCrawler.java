@@ -164,4 +164,8 @@ public class BaiduSearchCrawler extends Crawler {
         }
         return null;
     }
+
+    public String toString() {
+        return "BaiduSearchCrawler";
+    }
 }

@@ -347,6 +347,7 @@ public class SettingServlet extends HttpServlet {
                     response.getWriter().print("stoping");
                 }
             } else if ( operate.equals("system-stop") ) {
+                System.out.println(request);
                 if ( UserMonitor.getUserMonitor(request).isAdministor() ) {
                     UserMonitor.insertSystemStatus(0);
                     logger.info("[关闭系统]");

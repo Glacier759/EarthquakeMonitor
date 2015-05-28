@@ -146,4 +146,8 @@ public class BingCrawler extends Crawler {
         return null;
     }
 
+    public String toString() {
+        return "BingCrawler";
+    }
+
 }

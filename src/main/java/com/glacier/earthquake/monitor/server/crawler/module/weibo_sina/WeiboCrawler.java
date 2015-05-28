@@ -178,4 +178,8 @@ public class WeiboCrawler extends Crawler {
         return null;
     }
 
+    public String toString() {
+        return "WeiboCrawler";
+    }
+
 }

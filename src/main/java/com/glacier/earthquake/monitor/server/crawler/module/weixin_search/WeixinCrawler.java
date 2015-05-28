@@ -146,4 +146,8 @@ public class WeixinCrawler extends Crawler {
         return null;
     }
 
+    public String toString() {
+        return "WeixinCrawler";
+    }
+
 }

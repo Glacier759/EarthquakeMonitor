@@ -20,7 +20,7 @@ public class TaskManager implements ServletContextListener {
         //task - 所要安排的任务。
         //delay - 执行任务前的延迟时间，单位是毫秒。
         //period - 执行各后续任务之间的时间间隔，单位是毫秒。
-        timer.schedule(new TaskCrawler(), 10000, 10000);
+        timer.schedule(new TaskCrawler(), 1000*60*10, 1000*60*10);
 
     }
 

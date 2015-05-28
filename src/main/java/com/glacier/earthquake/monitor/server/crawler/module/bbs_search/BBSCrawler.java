@@ -147,4 +147,8 @@ public class BBSCrawler extends Crawler {
         }
         return null;
     }
+
+    public String toString() {
+        return "BBSCrawler";
+    }
 }

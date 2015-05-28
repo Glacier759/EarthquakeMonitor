@@ -146,4 +146,8 @@ public class TiebaCrawler extends Crawler {
         }
         return null;
     }
+
+    public String toString() {
+        return "TiebaCrawler";
+    }
 }
