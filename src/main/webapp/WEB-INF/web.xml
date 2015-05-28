@@ -3,7 +3,13 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <listener>
+        <listener-class>com.glacier.earthquake.monitor.server.configure.crawler.TaskManager</listener-class>
+    </listener>
+
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>com.glacier.earthquake.monitor.browser.servlet.LoginServlet</servlet-class>
@@ -37,4 +43,5 @@
         <servlet-name>SettingServlet</servlet-name>
         <url-pattern>/SettingServlet</url-pattern>
     </servlet-mapping>
+
 </web-app>
