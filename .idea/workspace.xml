@@ -37,8 +37,8 @@
       <file leaf-file-name="TaskCrawler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/crawler/TaskCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39285713">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.78571427">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
       <file leaf-file-name="manage-examine.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-6.3333335">
               <caret line="266" column="52" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
               <folding />
             </state>
@@ -1143,12 +1143,12 @@
       <workItem from="1432660846758" duration="3980000" />
       <workItem from="1432702245827" duration="31622000" />
       <workItem from="1432781418198" duration="25339000" />
-      <workItem from="1432815639372" duration="1090000" />
+      <workItem from="1432815639372" duration="1950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232394000" />
+    <option name="totallyTimeSpent" value="233254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
@@ -1588,14 +1588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="266" column="52" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/manager.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.0">
@@ -1612,10 +1604,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3333335">
+          <caret line="266" column="52" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/crawler/TaskCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39285713">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.78571427">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
