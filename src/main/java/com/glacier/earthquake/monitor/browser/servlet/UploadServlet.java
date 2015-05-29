@@ -72,7 +72,7 @@ public class UploadServlet extends HttpServlet {
                             System.out.println("这是一个whitelist文件");
                         }
 
-                        System.out.println("文件删除完毕 - " + uploaderFile.delete());
+                        //System.out.println("文件删除完毕 - " + uploaderFile.delete());
                     }
                 }
             } catch (Exception e) {

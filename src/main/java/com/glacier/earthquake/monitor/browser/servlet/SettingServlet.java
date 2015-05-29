@@ -40,6 +40,7 @@ public class SettingServlet extends HttpServlet {
         String operate = request.getParameter("operate");
         String type = request.getParameter("type");
         response.setContentType("text/html;charset=utf-8");
+        request.setCharacterEncoding("utf-8");
         if ( operate != null ) {
             if ( operate.equals("table") ) {
                 JSONArray jsonArray = new JSONArray();
@@ -119,6 +120,7 @@ public class SettingServlet extends HttpServlet {
                         String filters[] = request.getParameterValues("filter");
                         if ( filters != null ) {
                             for (String f : filters) {
+                                f = new String(f.getBytes("iso-8859-1"),"UTF-8");
                                 try {
                                     if (f.length() < 1) {
                                         logger.error("[插入规则] - 插入规则失败: " + f + " [FilterDisaster]");
@@ -139,9 +141,9 @@ public class SettingServlet extends HttpServlet {
                         String[] filter_unexists = request.getParameterValues("filter-unexist");
                         if ( filter_names != null && filter_matchers != null && filter_unexists != null ) {
                             for (int index = 0; index < filter_names.length; index++) {
-                                String filter_name = filter_names[index];
-                                String filter_matcher = filter_matchers[index];
-                                String filter_unexist = filter_unexists[index];
+                                String filter_name = new String(filter_names[index].getBytes("iso-8859-1"),"UTF-8");
+                                String filter_matcher = new String(filter_matchers[index].getBytes("iso-8859-1"),"UTF-8");
+                                String filter_unexist = new String(filter_unexists[index].getBytes("iso-8859-1"),"UTF-8");
                                 try {
                                     if (filter_name.length() < 1 || filter_matcher.length() < 1 || filter_unexist.length() < 1) {
                                         logger.error("[插入规则] - 插入规则失败: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
@@ -162,6 +164,7 @@ public class SettingServlet extends HttpServlet {
                         String filters_whitelists[] = request.getParameterValues("whitelist");
                         if ( filters_whitelists != null ) {
                             for (String f : filters_whitelists) {
+                                f = new String(f.getBytes("iso-8859-1"),"UTF-8");
                                 try {
                                     if (f.length() < 1) {
                                         logger.error("[插入规则] - 插入规则失败: " + f + " [FilterWhiteList]");
@@ -205,39 +208,67 @@ public class SettingServlet extends HttpServlet {
                 User new_user = new User();
 
                 String email = request.getParameter("email");
-                if ( user.getEmail() == null || user.getEmail().length() == 0 || user.getEmail().equals(email) ) {
-                    if (UserUtils.isEmail(email)) {
-                        if ( UserMonitor.getUserInfoByEmail(email) != null && !user.getEmail().equals(email) ) {
+                //如果用户没有设置过邮箱
+                if ( user.getEmail() == null || user.getEmail().length() == 0) {
+                    //首先判断用户传入的是不是邮箱格式
+                    if ( UserUtils.isEmail(email) ) {
+                        //如果是邮箱 先判断邮箱是否已经被占用
+                        if ( UserMonitor.getUserInfoByEmail(email) != null ) {
                             response.getWriter().print("email had");
                             return;
+                        } else {
+                            //没有被占用的时候才能进行邮箱设置
+                            new_user.setEmail(email);
                         }
-                        new_user.setEmail(request.getParameter("email"));
-                    } else {
+                    }
+                    //如果不是邮箱格式就告知返回
+                    else {
                         response.getWriter().print("email format error");
                         return;
                     }
-                } else {
-                    new_user.setEmail(user.getEmail());
-                    response.getWriter().print("email binding");
-                    return;
+                }
+                //如果用户设置过邮箱并且和本次传递进来的参数一致
+                else {
+                    if ( user.getEmail().equals(email) ) {
+                        new_user.setEmail(email);
+                    }
+                    else {
+                        //说明用户已经绑定过邮箱
+                        response.getWriter().print("email binding");
+                        return;
+                    }
                 }
 
                 String mobile = request.getParameter("mobile");
-                if ( user.getMobile() == null || user.getMobile().length() == 0 || user.getMobile().equals(mobile) ) {
+                System.out.println("UserMobile = " + user.getMobile());
+                if ( user.getMobile() == null || user.getMobile().length() == 0) {
+                    //首先判断用户传入的是不是手机格式
                     if ( UserUtils.isMobile(mobile) ) {
-                        if ( UserMonitor.getUserInfoByMobile(mobile) != null && !user.getMobile().equals(mobile)) {
+                        //如果是手机 先判断手机是否已经被占用
+                        if ( UserMonitor.getUserInfoByMobile(mobile) != null ) {
                             response.getWriter().print("mobile had");
                             return;
+                        } else {
+                            //没有被占用的时候才能进行手机设置
+                            new_user.setMobile(mobile);
                         }
-                        new_user.setMobile(mobile);
-                    } else {
+                    }
+                    //如果不是手机格式就告知返回
+                    else {
                         response.getWriter().print("mobile format error");
                         return;
                     }
-                } else {
-                    new_user.setMobile(user.getMobile());
-                    response.getWriter().print("mobile binding");
-                    return;
+                }
+                //如果用户设置过手机并且和本次传递进来的参数一致
+                else {
+                    if ( user.getMobile().equals(mobile) ) {
+                        new_user.setMobile(mobile);
+                    }
+                    else {
+                        //说明用户已经绑定过手机
+                        response.getWriter().print("mobile binding");
+                        return;
+                    }
                 }
                 new_user.setNickname(request.getParameter("nickname"));
                 new_user.setRealname(request.getParameter("realname"));
