@@ -341,7 +341,7 @@ public class SettingServlet extends HttpServlet {
                     jsonObject.put("url", spiderInfo.getUrl());
                     jsonObject.put("title", spiderInfo.getTitle());
                     jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
-                    jsonObject.put("source", spiderInfo.getSource());
+                    //jsonObject.put("source", spiderInfo.getSource());
                     jsonObject.put("status", spiderInfo.getStatus());
 
                     if ( SpiderInfo.FILTER_DISASTER == spiderInfo.getType() ) {

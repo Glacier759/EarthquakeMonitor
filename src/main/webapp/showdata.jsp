@@ -101,7 +101,7 @@
             <div class="col-md-2"></div>
         </div>
         <div class="modal fade" id="show-div" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
@@ -117,11 +117,12 @@
                                     <br/>
 
                                     <div class="row">
-                                        <div class="col-lg-2"></div>
-                                        <div class="col-lg-8" align="center">
-                                            <p id="filter-source"></p>
+                                        <%--<div class="col-lg-2"></div>--%>
+                                        <div class="col-lg-12" align="center">
+                                            <%--<p id="filter-source"></p>--%>
+                                            <iframe width="100%" height="100%" src="" id="filter-iframe"></iframe>
                                         </div>
-                                        <div class="col-lg-2"></div>
+                                        <%--<div class="col-lg-2"></div>--%>
                                     </div>
                                 </div>
                             </div>
@@ -200,7 +201,8 @@
                     dataType: "json",
                     success: function (msg) {    //msg是后台调用action时，你传过来的参数
                         var objson = eval(msg);
-                        $("#filter-source").html(objson.source);
+                        //$("#filter-source").html(objson.source);
+                        $("#filter-iframe").attr("src", objson.url);
                         if (objson.type == "disaster") {
                             $("#filter-type").html("信息类型: 灾情获取");
                             $("#filter-patten").remove();
