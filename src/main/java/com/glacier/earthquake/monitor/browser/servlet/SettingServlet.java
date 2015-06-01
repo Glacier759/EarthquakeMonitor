@@ -482,6 +482,11 @@ public class SettingServlet extends HttpServlet {
                             response.getWriter().print("success");
                         } else if ( !UserMonitor.getUserMonitor(request).isAdministor() ) {
                             response.getWriter().print("permission denied");
+                        } else if ( del_user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+                            response.getWriter().print("permission denied");
+                        }
+                        else {
+                            response.getWriter().print("wrong");
                         }
                     }
                 }

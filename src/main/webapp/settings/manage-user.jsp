@@ -148,6 +148,8 @@
                             alert("您没有权限进行此操作");
                         } else if ( msg == "not allow" ) {
                             alert("root用户无法删除")
+                        } else if ( msg == "wrong" ) {
+                            alert("错误的操作");
                         } else if ( msg == "success" ) {
                             alert("删除成功")
                             location.reload();
