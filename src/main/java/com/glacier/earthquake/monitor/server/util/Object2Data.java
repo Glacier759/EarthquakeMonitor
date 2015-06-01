@@ -307,4 +307,31 @@ public class Object2Data {
         }
     }
 
+    public static void insertProxy(SpiderProxy proxy) {
+        init();
+        try {
+            mapper.insertProxy(proxy);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+    }
+
+    public static void updateProxy(SpiderProxy proxy) {
+        init();
+        try {
+            mapper.updateProxy(proxy);
+            session.commit();
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        } finally {
+            destory();
+        }
+    }
 }

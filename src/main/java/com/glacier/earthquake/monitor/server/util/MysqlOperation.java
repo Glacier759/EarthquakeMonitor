@@ -87,4 +87,10 @@ public interface MysqlOperation {
 
     public SpiderFilter getRecordBySignValue(String sign_value);
 
+    public void insertProxy(SpiderProxy proxy);
+
+    public SpiderProxy getProxy();
+
+    public void updateProxy(SpiderProxy proxy);
+
 }

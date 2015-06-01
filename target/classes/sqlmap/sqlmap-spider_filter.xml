@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.glacier.earthquake.monitor.server.util.MysqlOperation">
+    <resultMap id="SpiderFilter" type="SpiderFilter">
+        <result column="id" property="id" />
+        <result column="sign" property="sign" />
+        <result column="sign_value" property="sign_value" />
+        <result column="origin" property="origin" />
+        <result column="create_date" property="create_date" />
+    </resultMap>
+
+    <insert id="insertRecord" parameterType="SpiderFilter">
+        INSERT INTO spider_filter(sign, sign_value, origin) VALUES(#{sign}, md5(#{sign_value}), #{origin});
+    </insert>
+
+    <select id="getRecordBySignValue" parameterType="String" resultMap="SpiderFilter">
+        SELECT * FROM spider_filter WHERE sign_value = #{md5(sign_value)};
+    </select>
+
+</mapper>

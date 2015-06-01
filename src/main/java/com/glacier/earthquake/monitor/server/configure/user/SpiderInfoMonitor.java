@@ -1,6 +1,7 @@
 package com.glacier.earthquake.monitor.server.configure.user;
 
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
+import com.glacier.earthquake.monitor.server.pojo.SpiderProxy;
 import com.glacier.earthquake.monitor.server.pojo.User;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
@@ -62,6 +63,12 @@ public class SpiderInfoMonitor {
 
     public SpiderInfo getSpiderInfoByID(Integer id) {
         return Data2Object.getSpiderInfoByID(id);
+    }
+
+    public static SpiderProxy getSpiderProxy() {
+        SpiderProxy proxy = Data2Object.getProxy();
+        Object2Data.updateProxy(proxy);
+        return proxy;
     }
 
 }

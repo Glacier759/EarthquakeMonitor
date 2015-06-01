@@ -373,4 +373,20 @@ public class Data2Object {
         return null;
     }
 
+    public static SpiderProxy getProxy() {
+        init();
+        try {
+            SpiderProxy proxy = mapper.getProxy();
+            session.commit();
+            return proxy;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
 }

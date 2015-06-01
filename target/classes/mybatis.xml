@@ -11,6 +11,8 @@
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.User" alias="User" />
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.SpiderInfo" alias="SpiderInfo" />
         <typeAlias type="com.glacier.earthquake.monitor.server.pojo.SystemConfig" alias="SystemConfig" />
+        <typeAlias type="com.glacier.earthquake.monitor.server.pojo.SpiderFilter" alias="SpiderFilter" />
+        <typeAlias type="com.glacier.earthquake.monitor.server.pojo.SpiderProxy" alias="SpiderProxy" />
     </typeAliases>
 
     <environments default="development">
@@ -33,6 +35,8 @@
         <mapper resource="sqlmap/sqlmap-userinfo.xml" />
         <mapper resource="sqlmap/sqlmap-crawler.xml" />
         <mapper resource="sqlmap/sqlmap-system_config.xml" />
+        <mapper resource="sqlmap/sqlmap-spider_filter.xml" />
+        <mapper resource="sqlmap/sqlmap-spider_proxy.xml" />
     </mappers>
 
 </configuration>
