@@ -9,12 +9,19 @@ public class SystemConfig {
 
     public static final int CONFIG_TYPE_SYSTEM = 0;
     public static final int CONFIG_TYPE_EXAMINE = 1;
+    public static final int CONFIG_TYPE_BAIDU_SEARCH = 2;
+    public static final int CONFIG_TYPE_BBS_SEARCH = 3;
+    public static final int CONFIG_TYPE_TIEBA_SEARCH = 4;
+    public static final int CONFIG_TYPE_SINA_WEIBO = 5;
+    public static final int CONFIG_TYPE_WEIXIN_SEARCH = 6;
+    public static final int CONFIG_TYPE_BING_SEARCH = 7;
 
     public static final int SYSTEM_STOP = 0;
     public static final int SYSTEM_START = 1;
 
     public static final int EXAMINE_STOP = 0;
     public static final int EXAMINE_START = 1;
+
 
     private int id, type, status;
     private Date createDate;
