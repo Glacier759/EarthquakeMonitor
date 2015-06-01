@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.glacier.earthquake.monitor.server.util.MysqlOperation">
+    <resultMap id="SpiderProxy" type="SpiderProxy">
+        <result column="id" property="id" />
+        <result column="proxy_ip" property="proxy_ip" />
+        <result column="proxy_port" property="proxy_port" />
+        <result column="proxy_username" property="proxy_username" />
+        <result column="proxy_password" property="proxy_password" />
+        <result column="create_date" property="create_date" />
+        <result column="status" property="status" />
+        <result column="remark" property="remark" />
+        <result column="last_using" property="last_using" />
+    </resultMap>
+
+    <insert id="insertProxy" parameterType="SpiderProxy">
+        INSERT INTO spider_proxy(proxy_ip, proxy_port, proxy_username, proxy_password, status, remark)
+                VALUES(#{proxy_ip}, #{proxy_port}, #{proxy_username}, #{proxy_password}, #{status}, #{remark});
+    </insert>
+
+    <select id="getProxy" resultMap="SpiderProxy">
+        SELECT * FROM spider_proxy ORDER BY last_using LIMIT 1;
+    </select>
+
+    <update id="updateProxy" parameterType="SpiderProxy">
+        UPDATE spider_proxy SET last_using = now() WHERE id = #{id};
+    </update>
+
+</mapper>

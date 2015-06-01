@@ -42,11 +42,4 @@ public class GetProxy {
         }
     }
 
-    public static void main(String[] args) {
-        GetProxy getProxy = new GetProxy();
-        SpiderProxy proxy = Data2Object.getProxy();
-        System.out.println(proxy);
-        Object2Data.updateProxy(proxy);
-    }
-
 }

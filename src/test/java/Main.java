@@ -43,12 +43,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        try {
-            System.out.println(SystemConfig.CONFIG_TYPE_EXAMINE);
-            UserMonitor.getConfigStatusByType(0);
-        }catch (Exception e) {
-            e.printStackTrace();
-        }
+        Crawler crawler = new BaiduSearchCrawler();
+        crawler.start();
 
     }
 

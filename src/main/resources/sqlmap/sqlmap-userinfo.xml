@@ -61,4 +61,8 @@
         UPDATE user_info SET password = #{password} WHERE uid = #{uid};
     </update>
 
+    <update id="setManage" parameterType="User">
+        UPDATE user_info SET privilege = 1 WHERE uid = #{uid};
+    </update>
+
 </mapper>

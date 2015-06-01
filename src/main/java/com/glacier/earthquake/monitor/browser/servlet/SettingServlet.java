@@ -311,6 +311,7 @@ public class SettingServlet extends HttpServlet {
                         new_user.setPassword(new_password);
                         new_user.setUid(user.getUid());
                         UserMonitor.getUserMonitor(user).changePassword(new_user);
+                        request.getSession().setAttribute("login_user", UserMonitor.getUserInfoByUID(user.getUid()));
                         response.getWriter().print("success");
                     }
                 }
@@ -461,6 +462,52 @@ public class SettingServlet extends HttpServlet {
                     } else {
                         response.getWriter().print("permission denied");
                         logger.info("[审核模块] - 没有权限");
+                    }
+                }
+            } else if ( operate.equals("deluser") ) {
+                String uid = request.getParameter("uid");
+                if ( uid != null ) {
+                    User del_user = UserMonitor.getUserInfoByUID(Integer.parseInt(uid));
+                    if ( del_user != null ) {
+                        //root用户不允许删除
+                        if ( del_user.getPrivilege() == UserMonitor.USER_ROOT ) {
+                            response.getWriter().print("not allow");
+                            //如果登录用户是root 那么非root用户都可以删除
+                        } else if ( del_user.getPrivilege() <= UserMonitor.USER_ADMINISTATOR && UserMonitor.getUserMonitor(request).isROOT() ) {
+                            UserMonitor.getUserMonitor(request).delUser(del_user);
+                            response.getWriter().print("success");
+                            //如果登录用户是普通管理员 并且 待删用户为普通用户 则可以删除
+                        } else if ( UserMonitor.getUserMonitor(request).isAdministor() && del_user.getPrivilege() < UserMonitor.USER_ADMINISTATOR ) {
+                            UserMonitor.getUserMonitor(request).delUser(del_user);
+                            response.getWriter().print("success");
+                        } else if ( !UserMonitor.getUserMonitor(request).isAdministor() ) {
+                            response.getWriter().print("permission denied");
+                        }
+                    }
+                }
+            } else if ( operate.equals("manage") ) {
+                String uid = request.getParameter("uid");
+                if ( uid != null ) {
+                    User manage_user = UserMonitor.getUserInfoByUID(Integer.parseInt(uid));
+                    if ( manage_user != null ) {
+                        if ( UserMonitor.getUserMonitor(request).isROOT() ) {
+                            if ( manage_user.getPrivilege() == UserMonitor.USER_ORDINARY ) {
+                                if ( UserMonitor.getUserMonitor(request).setManage(manage_user) ) {
+                                    response.getWriter().print("success");
+                                } else {
+                                    response.getWriter().print("permission denied");
+                                }
+                            }
+                            else if ( manage_user.getPrivilege() == UserMonitor.USER_ADMINISTATOR ) {
+                                response.getWriter().print("is admin");
+                            }
+                            else if ( manage_user.getPrivilege() == UserMonitor.USER_ROOT ) {
+                                response.getWriter().print("not allow");
+                            }
+                        }
+                        else {
+                            response.getWriter().print("permission denied");
+                        }
                     }
                 }
             }

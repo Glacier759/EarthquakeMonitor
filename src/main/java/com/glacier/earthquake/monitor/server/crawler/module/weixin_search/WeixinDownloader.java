@@ -1,7 +1,11 @@
 package com.glacier.earthquake.monitor.server.crawler.module.weixin_search;
 
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
+import com.glacier.earthquake.monitor.server.pojo.SpiderProxy;
+import org.apache.http.HttpHost;
+import org.apache.http.auth.AuthScope;
 import org.apache.http.client.params.CookiePolicy;
+import org.apache.http.conn.params.ConnRouteParams;
 import org.apache.http.params.CoreConnectionPNames;
 import org.apache.http.params.CoreProtocolPNames;
 
@@ -25,6 +29,13 @@ public class WeixinDownloader extends Downloader {
         httpGet.getParams().setBooleanParameter("http.tcp.nodelay", true);
         httpGet.getParams().setParameter("http.connection.stalecheck", false);
         httpGet.getParams().setParameter("http.protocol.cookie-policy", CookiePolicy.BROWSER_COMPATIBILITY);
+    }
+
+    public void setProxy(SpiderProxy proxy) {
+        System.out.println(proxy);
+
+        //httpClient.getCredentialsProvider().setCredentials(new AuthScope(proxy.getProxy_ip(), proxy.getProxy_port()), null);
+        httpClient.getParams().setParameter(ConnRouteParams.DEFAULT_PROXY, new HttpHost(proxy.getProxy_ip(), proxy.getProxy_port()));
     }
 
 }

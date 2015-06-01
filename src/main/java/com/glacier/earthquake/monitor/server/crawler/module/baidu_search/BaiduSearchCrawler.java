@@ -130,7 +130,6 @@ public class BaiduSearchCrawler extends Crawler {
                                     //改为iframe后不需要保存原文信息
                                     //spiderInfo.setSource(document_result.select("p").text());
                                     spiderInfo.setOrigin(SystemConfig.CONFIG_TYPE_BAIDU_SEARCH);
-                                    System.out.println(spiderInfo.getSource());
                                     spiderInfo.setRule_id(ruleID);
                                     //设置好属性后插入数据库
                                     SpiderInfoManager.insertSpiderInfo(spiderInfo);

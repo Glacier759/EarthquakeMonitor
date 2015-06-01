@@ -1,6 +1,7 @@
 package com.glacier.earthquake.monitor.server.crawler.module.weixin_search;
 
 import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
+import com.glacier.earthquake.monitor.server.configure.user.SpiderInfoMonitor;
 import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
 import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
@@ -35,6 +36,7 @@ public class WeixinCrawler extends Crawler {
         //设置BaiduSearchDownloader的浏览器
         downloader.setClient(defaultHttpClient);
 
+        //downloader.setProxy(SpiderInfoMonitor.getSpiderProxy());
         //获取得到所有的过滤规则
         List<FilterDisaster> disasters = Data2Object.filterRulesDisaster();
         //遍历过滤规则
@@ -44,6 +46,9 @@ public class WeixinCrawler extends Crawler {
             String searchKey = filterRule.replace('*', ' ');
             //使用该key在搜索引擎中搜索
             Document document = search(searchKey);
+            System.out.println(document);
+            document = downloader.document("http://weixin.sogou.com//weixin?query=新疆%20今晚%20地震&type=2&ie=utf-8&page=1&repp=1", Downloader.HTTP_GET);
+            System.out.println(document);
             //判断抓取的地址是否在白名单中, 在的话就不管了continue
             if (JudgeFilter.isMeetWhiteList(document.baseUri())) {
                 continue;
@@ -58,8 +63,8 @@ public class WeixinCrawler extends Crawler {
     private Document search(String searchKey) {
         try {
             logger.info("[微信搜索] - 搜索关键字为 " + searchKey);
-            searchKey = searchKey.replace(" ", "+");
-            searchKey = "http://weixin.sogou.com/weixin?query=" + searchKey + "&type=2&ie=utf-8&page=1";
+            searchKey = searchKey.replace(" ", " ");
+            searchKey = "http://weixin.sogou.com/weixin?query=" + searchKey + "&type=2&ie=utf-8&repp=1&page=1";
             return downloader.document(searchKey, Downloader.HTTP_GET);
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

@@ -334,4 +334,18 @@ public class Object2Data {
             destory();
         }
     }
+
+    public static void setManage(User user) {
+        init();
+        try {
+            mapper.setManage(user);
+            session.commit();
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        } finally {
+            destory();
+        }
+    }
 }

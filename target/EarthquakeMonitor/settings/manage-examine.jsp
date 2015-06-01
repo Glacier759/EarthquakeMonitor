@@ -84,14 +84,14 @@
                 <div id="filters-div">
                     <form id="examine-ok" method="post">
                         <div class="row">
-                            <table class="table table-striped table-bordered table-hover" id="filters-table">
+                            <table class="table table-striped table-bordered table-hover" id="filters-table" style="table-layout: fixed;">
                                 <thead>
                                 <tr>
-                                    <th class="text-center">Choice</th>
-                                    <th class="text-center">Title</th>
+                                    <th class="text-center" width="30px"></th>
+                                    <th class="text-center" width="250px">Title</th>
                                     <th class="text-center">URL</th>
-                                    <th class="text-center">Crawl Date</th>
-                                    <th class="text-center">Setting</th>
+                                    <th class="text-center" width="180px">Crawl Date</th>
+                                    <th class="text-center" width="80px">Setting</th>
                                 </tr>
                                 </thead>
                                 <tbody id="filters-tbody"></tbody>
@@ -109,24 +109,28 @@
             <div class="col-md-2"></div>
         </div>
         <div class="modal fade" id="show-div" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                                class="sr-only">Close</span></button>
                         <h4>详细信息</h4>
                     </div>
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="alert alert-info alert-dismissible" role="alert">
-                                    <h3 align="center">源文件信息<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h3>
-                                    <br />
+                                    <h3 align="center">源文件信息<a class="anchorjs-link" href="#"><span
+                                            class="anchorjs-icon"></span></a></h3>
+                                    <br/>
+
                                     <div class="row">
-                                        <div class="col-lg-2"></div>
-                                        <div class="col-lg-8" align="center">
-                                            <p id="filter-source"></p>
+                                        <%--<div class="col-lg-2"></div>--%>
+                                        <div class="col-lg-12" align="center">
+                                            <%--<p id="filter-source"></p>--%>
+                                            <iframe width="100%" height="100%" src="" id="filter-iframe"></iframe>
                                         </div>
-                                        <div class="col-lg-2"></div>
+                                        <%--<div class="col-lg-2"></div>--%>
                                     </div>
                                 </div>
                             </div>
@@ -138,9 +142,15 @@
                                 <button type="button" class="btn btn-info" id="filter-type"></button>
                             </div>
                             <div id="filter-rule-div" class="col-lg-9" align="right">
-                                <button id="filter-rule" type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="">规则</button>
-                                <button id="filter-patten" type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="">正则</button>
-                                <button id="filter-unexist" type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="">不含关键字</button>
+                                <button id="filter-rule" type="button" class="btn btn-warning" data-toggle="tooltip"
+                                        data-placement="bottom" title="">规则
+                                </button>
+                                <button id="filter-patten" type="button" class="btn btn-warning" data-toggle="tooltip"
+                                        data-placement="bottom" title="">正则
+                                </button>
+                                <button id="filter-unexist" type="button" class="btn btn-warning" data-toggle="tooltip"
+                                        data-placement="bottom" title="">不含关键字
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -175,6 +185,7 @@
                             row.appendChild(col1);
                             var col2 = document.createElement("th");
                             col2.setAttribute("class", "text-center");
+                            col2.setAttribute("style", "overflow-x:hidden;");
                             col2.appendChild(document.createTextNode(objson[i].url));
                             row.appendChild(col2);
                             var col3 = document.createElement("th");
@@ -207,7 +218,8 @@
                     dataType: "json",
                     success: function (msg) {    //msg是后台调用action时，你传过来的参数
                         var objson = eval(msg);
-                        $("#filter-source").html(objson.source);
+                        //$("#filter-source").html(objson.source);
+                        $("#filter-iframe").attr("src", objson.url);
                         if (objson.type == "disaster") {
                             $("#filter-type").html("信息类型: 灾情获取");
                             $("#filter-patten").remove();
@@ -226,7 +238,6 @@
                     }
                 });
             }
-
             function fun(value) {
                 $.ajax({
                     type: "get",

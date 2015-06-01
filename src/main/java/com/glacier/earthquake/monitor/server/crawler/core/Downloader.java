@@ -62,6 +62,7 @@ public class Downloader {
      * */
     public Document document(String url, int method) {
         try {
+            url = url.replace(" ", "%20");
             last_url = url;
             response = null;
             if ( method == HTTP_GET ) {
@@ -96,6 +97,11 @@ public class Downloader {
             Document document = Jsoup.parse(getContent(entity, encode));
             document.setBaseUri(url);   //设置document的来源地址
 
+            if ( document.html().contains("GBK") ) {
+                setEncode("GBK");
+                return document(url, HTTP_GET);
+            }
+
             document = document_method(document);
 
             return document;
@@ -103,6 +109,8 @@ public class Downloader {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+
         }
         return null;
     }

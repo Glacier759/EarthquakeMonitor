@@ -84,13 +84,13 @@
             <div class="col-md-8">
                 <div id="filters-div">
                     <div class="row">
-                        <table class="table table-striped table-bordered table-hover" id="filters-table">
+                        <table class="table table-striped table-bordered table-hover" id="filters-table" style="table-layout: fixed;">
                             <thead>
                             <tr>
-                                <th class="text-center">Title</th>
+                                <th class="text-center" width="300px">Title</th>
                                 <th class="text-center">URL</th>
-                                <th class="text-center">Crawl Date</th>
-                                <th class="text-center">Setting</th>
+                                <th class="text-center" width="200px">Crawl Date</th>
+                                <th class="text-center" width="80px">Setting</th>
                             </tr>
                             </thead>
                             <tbody id="filters-tbody"></tbody>
@@ -169,6 +169,7 @@
                             row.appendChild(col1);
                             var col2 = document.createElement("th");
                             col2.setAttribute("class", "text-center");
+                            col2.setAttribute("style", "overflow-x:hidden;");
                             col2.appendChild(document.createTextNode(objson[i].url));
                             row.appendChild(col2);
                             var col3 = document.createElement("th");

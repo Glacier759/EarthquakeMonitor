@@ -11,6 +11,7 @@
         <result column="rule_id" property="rule_id" />
         <result column="create_date" property="create_date" />
         <result column="status" property="status" />
+        <result column="origin" property="origin" />
     </resultMap>
 
     <select id="getSpiderInfoList" resultMap="spider_info">

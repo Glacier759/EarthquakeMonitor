@@ -36,12 +36,12 @@ public class TaskManager implements ServletContextListener {
         //task - 所要安排的任务。
         //delay - 执行任务前的延迟时间，单位是毫秒。
         //period - 执行各后续任务之间的时间间隔，单位是毫秒。
-        timer_baidu_search.schedule(new TaskBaiduSearch(), MINUTE * 5, HOUR * 2);
-        timer_bing_search.schedule(new TaskBingSearch(), MINUTE * 30, HOUR * 2);
-        timer_bbs_search.schedule(new TaskBBSearch(), HOUR, HOUR * 3);
-        timer_tieba_search.schedule(new TaskTiebaSearch(), MINUTE * 45, HOUR * 3);
-        timer_weibo_search.schedule(new TaskWeiboSearch(), MINUTE * 70, HOUR * 3);
-        timer_weixin_search.schedule(new TaskWeixinSearch(), HOUR * 2, HOUR * 3);
+//        timer_baidu_search.schedule(new TaskBaiduSearch(), MINUTE * 5, HOUR * 2);
+//        timer_bing_search.schedule(new TaskBingSearch(), MINUTE * 30, HOUR * 2);
+//        timer_bbs_search.schedule(new TaskBBSearch(), HOUR, HOUR * 3);
+//        timer_tieba_search.schedule(new TaskTiebaSearch(), MINUTE * 45, HOUR * 3);
+//        timer_weibo_search.schedule(new TaskWeiboSearch(), MINUTE * 70, HOUR * 3);
+//        timer_weixin_search.schedule(new TaskWeixinSearch(), HOUR * 2, HOUR * 12);
     }
 
     /**

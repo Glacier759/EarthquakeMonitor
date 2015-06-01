@@ -93,4 +93,6 @@ public interface MysqlOperation {
 
     public void updateProxy(SpiderProxy proxy);
 
+    public void setManage(User user);
+
 }

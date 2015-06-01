@@ -47,145 +47,156 @@
         </div>
         <%User user = (User)session.getAttribute("login_user");%>
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <div class="alert alert-info alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4>个人资料<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h4>
                     <form id="form-userinfo" method="post">
                         <br />
                         <div class="row">
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-8">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
                                 <div class="input-group">
                                     <span class="input-group-addon">昵称</span>
                                     <input type="text" class="form-control" placeholder="<%=user.getNickname()%>" name="nickname" value="<%=user.getNickname()%>" />
                                 </div>
                             </div>
-                            <div class="col-lg-2"></div>
+                            <div class="col-md-2"></div>
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-6">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-6">
                                 <div class="input-group">
                                     <span class="input-group-addon">邮箱</span>
                                     <input type="text" class="form-control" placeholder="<%=user.getEmail()%>" name="email" value="<%=user.getEmail()%>" />
                                 </div>
                             </div>
-                            <div class="col-lg-4"></div>
+                            <div class="col-md-4"></div>
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-6">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-6">
                                 <div class="input-group">
                                     <span class="input-group-addon">手机</span>
                                     <input type="text" class="form-control" placeholder="<%=user.getMobile()%>" name="mobile" value="<%=user.getMobile()%>" />
                                 </div>
                             </div>
-                            <div class="col-lg-4"></div>
+                            <div class="col-md-4"></div>
                         </div>
                         <br /><br />
                         <div class="row">
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-3">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-3">
                                 <div class="input-group">
                                     <span class="input-group-addon">姓名</span>
                                     <input type="text" class="form-control" placeholder="<%=user.getRealname()%>" name="realname" value="<%=user.getRealname()%>" />
                                 </div>
                             </div>
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-4">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-4">
                                 <div class="input-group">
                                     <span class="input-group-addon">QQ</span>
                                     <input type="text" class="form-control" placeholder="<%=user.getQqnumber()%>" name="qqnumber" value="<%=user.getQqnumber()%>" />
                                 </div>
                             </div>
-                            <div class="col-lg-4"></div>
+                            <div class="col-md-4"></div>
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-5">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-5">
                                 <div class="input-group">
                                     <span class="input-group-addon">工作单位</span>
                                     <input type="text" class="form-control" placeholder="<%=user.getWorkplace()%>" name="workplace" value="<%=user.getWorkplace()%>" />
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-md-3">
                                 <div class="input-group">
                                     <span class="input-group-addon">职位</span>
                                     <input type="text" class="form-control" placeholder="<%=user.getPosition()%>" name="position" value="<%=user.getPosition()%>" />
                                 </div>
                             </div>
-                            <div class="col-lg-4"></div>
+                            <div class="col-md-4"></div>
                         </div>
                         <br /><br />
                         <div class="row">
-                            <div class="col-lg-9"></div>
-                            <div class="col-lg-2">
+                            <div class="col-md-12" align="right">
                                 <button class="btn btn-info" type="submit">更新资料</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-2"></div>
         </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <div class="alert alert-danger alert-dismissible" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4>修改密码<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h4>
-                    <form id="form-password" method="post">
-                        <br />
-                        <div class="row">
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon">初始密码</span>
-                                    <input type="password" class="form-control" name="password" value="" />
+        <br />
+        <div class="row" align="center">
+            <button type="button" class="btn btn-warning btn-lg" onclick="show()">修改密码</button>
+        </div>
+
+        <div class="modal fade" id="show-div" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <form id="form-password" method="post">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4>修改密码</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">初始密码</span>
+                                        <input type="password" class="form-control" name="password" value="" />
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4"></div>
+                            <br /><br />
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">新的密码</span>
+                                        <input type="password" class="form-control" name="new-password" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"></div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">重复密码</span>
+                                        <input type="password" class="form-control" name="re-password" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"></div>
+                            </div>
+                            <br /><br />
                         </div>
-                        <br /><br />
-                        <div class="row">
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon">新的密码</span>
-                                    <input type="password" class="form-control" name="new-password" value="" />
+                        <div class="modal-footer">
+                            <div class="row">
+                                <div class="col-lg-12" align="right">
+                                    <button class="btn btn-danger" type="submit">修改密码</button>
                                 </div>
                             </div>
-                            <div class="col-lg-4"></div>
                         </div>
-                        <br />
-                        <div class="row">
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon">重复密码</span>
-                                    <input type="password" class="form-control" name="re-password" value="" />
-                                </div>
-                            </div>
-                            <div class="col-lg-4"></div>
-                        </div>
-                        <br /><br />
-                        <div class="row">
-                            <div class="col-lg-9"></div>
-                            <div class="col-lg-2">
-                                <button class="btn btn-danger" type="submit">修改密码</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
-            <div class="col-md-3"></div>
         </div>
         <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+            function show() {
+                $("#show-div").modal("toggle");
+            }
             $("#form-userinfo").submit(function() {
                 var ajax_url = "<%=request.getContextPath()%>/SettingServlet?operate=userinfo";
                 var ajax_type = $(this).attr('method');

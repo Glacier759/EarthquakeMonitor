@@ -59,38 +59,34 @@
         </div>
         <br /><br />
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <div class="alert alert-info alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4>从文件导入<a class="anchorjs-link" href="#从文件导入"><span class="anchorjs-icon"></span></a></h4>
-                    <%--<form id="form-upload" method="post" enctype="multipart/form-data">--%>
                     <div class="row">
-                        <div class="col-lg-5">
-                            <label class="control-label">上传文件:</label>
+                        <div>
+                            <label class="control-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上传文件:</label>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-10">
+                        <div class="col-lg-12" align="center">
                             <input type="file" name="file" id="file" />
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-10"></div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-12" align="right">
                             <button class="btn btn-info" onclick="uploadFile()">上传</button>
                         </div>
                     </div>
-                    <%--</form>--%>
                 </div>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-2"></div>
         </div>
         <br /><br />
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <form id="form-addfilter" method="get">
                     <div class="panel panel-info">
                         <div class="panel-heading">增加白名单过滤条目</div>
@@ -120,8 +116,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-10"></div>
-                                <div class="col-lg-2">
+                                <div class="col-lg-12" align="right">
                                     <button type="submit" class="btn btn-info">提交</button>
                                 </div>
                             </div>
@@ -129,7 +124,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-2"></div>
         </div>
         <br /><br />
         <div class="row">

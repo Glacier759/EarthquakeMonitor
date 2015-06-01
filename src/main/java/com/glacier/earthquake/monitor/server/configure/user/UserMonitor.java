@@ -97,8 +97,27 @@ public class UserMonitor {
         return false;
     }
 
+    public boolean setManage( User manage_user ) {
+        if ( user.getPrivilege() != USER_ROOT ) {
+            return false;
+        }
+        if ( manage_user.getPrivilege() != USER_ORDINARY ) {
+            return false;
+        }
+        else {
+            Object2Data.setManage(manage_user);
+        }return true;
+    }
+
     public boolean isAdministor() {
         if ( user.getPrivilege() >= USER_ADMINISTATOR ) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isROOT() {
+        if ( user.getPrivilege() == USER_ROOT ) {
             return true;
         }
         return false;

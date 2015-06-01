@@ -92,7 +92,7 @@
                         var objson = eval(data);
                         for ( var i = 0; i < objson.length; i ++ ) {
                             var row = document.createElement("tr");
-                            row.setAttribute("id", objson[i].id);
+                            row.setAttribute("id", objson[i].uid);
                             row.setAttribute("class", "text-info");
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");
@@ -120,10 +120,12 @@
                             button2.setAttribute("class", "btn btn-success");
                             button2.setAttribute("value", objson[i].uid);
                             button2.setAttribute("name", "admin");
-                            button2.setAttribute("onClick", "del(this.value)");
+                            button2.setAttribute("onClick", "manage(this.value)");
                             button2.innerHTML = "管理员";
 
+                            var text = document.createTextNode(" ");
                             col4.appendChild(button1);
+                            col4.appendChild(text);
                             col4.appendChild(button2);
                             row.appendChild(col4);
                             document.getElementById("filters-tbody").appendChild(row);
@@ -135,6 +137,41 @@
         <script>
             function no() {
                 alert("您没有权限进行此操作");
+            }
+            function del(uid) {
+                $.ajax({
+                    type: "get",
+                    url: "<%=request.getContextPath()%>/SettingServlet?operate=deluser",
+                    data: "uid="+uid,
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        if ( msg == "permission denied" ) {
+                            alert("您没有权限进行此操作");
+                        } else if ( msg == "not allow" ) {
+                            alert("root用户无法删除")
+                        } else if ( msg == "success" ) {
+                            alert("删除成功")
+                            location.reload();
+                        }
+                    }
+                });
+            }
+            function manage(uid) {
+                $.ajax({
+                    type: "get",
+                    url: "<%=request.getContextPath()%>/SettingServlet?operate=manage",
+                    data: "uid="+uid,
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        if ( msg == "permission denied" ) {
+                            alert("您没有权限进行此操作");
+                        } else if ( msg == "not allow" ) {
+                            alert("无法对root用户进行此操作");
+                        } else if ( msg == "is admin" ) {
+                            alert("告用户已经是管理员 无法再次设置");
+                        } else if ( msg == "success" ) {
+                            alert("设置成功");
+                        }
+                    }
+                });
             }
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
