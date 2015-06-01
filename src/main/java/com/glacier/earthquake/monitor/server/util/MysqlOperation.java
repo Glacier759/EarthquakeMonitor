@@ -83,4 +83,8 @@ public interface MysqlOperation {
 
     public SystemConfig getConfigStatusByType(Integer type);
 
+    public void insertRecord(SpiderFilter filter);
+
+    public SpiderFilter getRecordBySignValue(String sign_value);
+
 }

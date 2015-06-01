@@ -357,4 +357,20 @@ public class Data2Object {
         return null;
     }
 
+    public static SpiderFilter getRecordBySignValue(String sign_value) {
+        init();
+        try {
+            SpiderFilter filter = mapper.getRecordBySignValue(sign_value);
+            session.commit();
+            return filter;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
 }

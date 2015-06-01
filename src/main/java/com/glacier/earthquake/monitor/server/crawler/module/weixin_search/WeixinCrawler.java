@@ -6,6 +6,7 @@ import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
 import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
+import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.JudgeFilter;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
@@ -89,6 +90,12 @@ public class WeixinCrawler extends Crawler {
                             if (JudgeFilter.isMeetWhiteList(resultLink)) {
                                 continue;
                             }
+
+                            if ( Scheduler.getRecordBySignVale(resultLink) != null ) {
+                                logger.info("[去重] - " + resultLink + " 已经抓取过");
+                                continue;
+                            }
+
                             //获得搜索结果对应的文档树
                             Document document_post = downloader.document(resultLink, Downloader.HTTP_GET);
                             Scheduler.insertRecord(Scheduler.SIGN_URL, resultLink, Scheduler.SERVICE_WEIXIN_SERACH);
@@ -105,7 +112,9 @@ public class WeixinCrawler extends Crawler {
                                 spiderInfo.setType(type);
                                 spiderInfo.setTitle(document_post.title());
                                 spiderInfo.setUrl(document_post.baseUri());
-                                spiderInfo.setSource(document_post.select("div[id=page-content]").text());
+                                //改为iframe后不需要保存原文信息
+                                //spiderInfo.setSource(document_post.select("div[id=page-content]").text());
+                                spiderInfo.setOrigin(SystemConfig.CONFIG_TYPE_WEIXIN_SEARCH);
                                 //设置好属性后插入数据库
                                 SpiderInfoManager.insertSpiderInfo(spiderInfo);
                                 logger.info("[匹配成功] - 获得一条新数据");

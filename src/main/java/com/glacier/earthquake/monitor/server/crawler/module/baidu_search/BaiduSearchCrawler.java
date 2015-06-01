@@ -6,6 +6,7 @@ import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
 import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
+import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.JudgeFilter;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
@@ -105,6 +106,11 @@ public class BaiduSearchCrawler extends Crawler {
                                     continue;
                                 }
 
+                                if ( Scheduler.getRecordBySignVale(resultLink) != null ) {
+                                    logger.info("[去重] - " + resultLink + " 已经抓取过");
+                                    continue;
+                                }
+
                                 //获得搜索结果链接对应的文档树
                                 Document document_result = downloader.document(resultLink, Downloader.HTTP_GET);
                                 Scheduler.insertRecord(Scheduler.SIGN_URL, resultLink, Scheduler.SERVICE_BAIDU_SEARCH);
@@ -121,7 +127,9 @@ public class BaiduSearchCrawler extends Crawler {
                                     spiderInfo.setType(type);
                                     spiderInfo.setUrl(document_result.baseUri());
                                     spiderInfo.setTitle(document_result.title());
-                                    spiderInfo.setSource(document_result.select("p").text());
+                                    //改为iframe后不需要保存原文信息
+                                    //spiderInfo.setSource(document_result.select("p").text());
+                                    spiderInfo.setOrigin(SystemConfig.CONFIG_TYPE_BAIDU_SEARCH);
                                     System.out.println(spiderInfo.getSource());
                                     spiderInfo.setRule_id(ruleID);
                                     //设置好属性后插入数据库

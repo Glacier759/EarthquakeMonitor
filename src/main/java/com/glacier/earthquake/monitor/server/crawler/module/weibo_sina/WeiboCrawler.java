@@ -6,6 +6,7 @@ import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
 import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
+import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.JudgeFilter;
 import org.apache.log4j.Logger;
@@ -119,6 +120,11 @@ public class WeiboCrawler extends Crawler {
                         if (weiboText == null)
                             continue;
 
+                        if ( Scheduler.getRecordBySignVale(weiboDiv.attr("id")) != null ) {
+                            logger.info("[去重] - " + weiboDiv.attr("id") + " 已经抓取过");
+                            continue;
+                        }
+
                         Scheduler.insertRecord(Scheduler.SIGN_ID, weiboDiv.attr("id"), Scheduler.SERVICE_WEIBO_SEARCH);
 
                         //进行过滤条件判断
@@ -131,9 +137,10 @@ public class WeiboCrawler extends Crawler {
                             SpiderInfo spiderInfo = new SpiderInfo();
                             spiderInfo.setUrl(document.baseUri());
                             spiderInfo.setRule_id(ruleID);
-                            spiderInfo.setSource(weiboDiv.toString());
                             spiderInfo.setTitle(weiboText.text());
                             spiderInfo.setType(type);
+                            spiderInfo.setSource(weiboText.text());
+                            spiderInfo.setOrigin(SystemConfig.CONFIG_TYPE_SINA_WEIBO);
                             //设置好属性后插入数据库
                             SpiderInfoManager.insertSpiderInfo(spiderInfo);
                             logger.info("[匹配成功] - 获得一条新数据 ID: " + weiboDiv.attr("id"));

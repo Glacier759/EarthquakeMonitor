@@ -293,4 +293,18 @@ public class Object2Data {
         }
     }
 
+    public static void insertRecord(SpiderFilter filter) {
+        init();
+        try {
+            mapper.insertRecord(filter);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+    }
+
 }
