@@ -79,10 +79,17 @@
         </div>
         <br/><br/>
 
+
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <div id="filters-div">
+                    <div class="row">
+                        <button type="button" class="btn btn-info" onclick="showAll()">全部</button>
+                        <button type="button" class="btn btn-warning" onclick="showDis()">灾情获取</button>
+                        <button type="button" class="btn btn-success" onclick="showPub()">舆情监控</button>
+                    </div>
+                    <br />
                     <div class="row">
                         <table class="table table-striped table-bordered table-hover" id="filters-table" style="table-layout: fixed;">
                             <thead>
@@ -162,6 +169,7 @@
                             var row = document.createElement("tr");
                             row.setAttribute("id", objson[i].id);
                             row.setAttribute("class", "text-info");
+                            row.setAttribute("status", objson[i].type);
 
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");
@@ -221,6 +229,17 @@
                         $("#show-div").modal("toggle");
                     }
                 });
+            }
+            function showAll() {
+                $("tr[status]").attr("style", "display:");
+            }
+            function showDis() {
+                $("tr[status='0']").attr("style", "display:");
+                $("tr[status='1']").attr("style", "display:none");
+            }
+            function showPub() {
+                $("tr[status='1']").attr("style", "display:");
+                $("tr[status='0']").attr("style", "display:none");
             }
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
