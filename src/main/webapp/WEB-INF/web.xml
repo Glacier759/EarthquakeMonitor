@@ -44,4 +44,8 @@
         <url-pattern>/SettingServlet</url-pattern>
     </servlet-mapping>
 
+    <welcome-file-list>
+        <welcome-file>index_v2.jsp</welcome-file>
+    </welcome-file-list>
+
 </web-app>

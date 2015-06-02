@@ -127,18 +127,18 @@ public class BaiduSearchCrawler extends Crawler {
                                     ans = ans && document_result.text().contains(keyword);
                                 }
 
-//                                Pattern pattern = Pattern.compile(base);
-//                                Matcher matcher = pattern.matcher(document_result.toString());
-//                                if ( matcher.find() ) {
-//                                    logger.info("[正则匹配] - 正则匹配成功 " + document_result.baseUri());
-//                                } else {
-//                                    logger.info("[正则匹配] - 正则匹配失败 " + document_result.baseUri());
-//                                    ans = false;
-//                                }
+                                Pattern pattern = Pattern.compile(base);
+                                Matcher matcher = pattern.matcher(document_result.toString());
+                                if ( matcher.find() ) {
+                                    logger.info("[正则匹配] - 正则匹配成功 " + document_result.baseUri());
+                                } else {
+                                    logger.info("[正则匹配] - 正则匹配失败 " + document_result.baseUri());
+                                    ans = false;
+                                }
 
                                 //如果ans为true则表示当前网页符合过滤条件
                                 if (ans) {
-                                    FileUtils.writeStringToFile(new File("Data", System.currentTimeMillis() + ".xml"), document_result.toString());
+                                    //FileUtils.writeStringToFile(new File("Data", System.currentTimeMillis() + ".xml"), document_result.toString());
                                     SpiderInfo spiderInfo = new SpiderInfo();
                                     spiderInfo.setType(type);
                                     spiderInfo.setUrl(document_result.baseUri());

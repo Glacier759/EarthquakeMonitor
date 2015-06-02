@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head id="ctl00_Head1"> 
+  <link href="/Css/detail_1.1.css" rel="stylesheet" type="text/css" /> 
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="favicon.ico" />
+  <meta name="keywords" content="公共产品 基础设施 西部农村 公平与效益 商场现代化 MARKET MODERNIZATION" />
+  <meta name="description" content="本文给出公共产品的相关理论后,明确了西部农村基础设施的三种分类,讨论了目前西部农村这三种基础设施建设中的不足与问题,以及政府在提供基础设施方面所存在的问题.本文从公共产品的一些性质出发,对于基础设施这种特殊的公共产品建设提出一些看法,以及对于如何更好的投资与建设这类公共产品提出了一些建议与政策." /> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/jquery-1.7.1.min.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/jquery-ui-1.8.12.custom.min.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/wf.researcherlogin-1.6.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/json2.min.js"></script> 
+  <script language="javascript" type="text/javascript" src="/Script/detail-3.6.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/RelatedResearcher-1.1.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/recommendArticle-1.0.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/wf.goTop-1.0.0.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/fixedTop-1.0.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/userSuggestion-1.1.js"></script> 
+  <link rel="stylesheet" href="http://www.wanfangdata.com.cn/share/Css/researchercard/researchercard_2.css" /> 
+  <link type="text/css" rel="stylesheet" href="http://www.wanfangdata.com.cn/share/CSS/wf.researcherFollow_1.css" /> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/wf.researcherFollow-1.1.js"></script> 
+  <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/wf.researcherCard-1.4.js"></script>
+  <title>	从公共产品理论视角探析西部农村基础设施建设</title>
+ </head>
+ <body> 
+  <link type="text/css" rel="stylesheet" href="http://www.wanfangdata.com.cn/share/Css/publiclogin_1.1.css" /> 
+  <link rel="Stylesheet" href="http://www.wanfangdata.com.cn/share/Css/jquery-ui-1.8.12/jquery-ui-1.8.12.custom.css" /> 
+  <form name="aspnetForm" method="post" action="Periodical.aspx?ID=Periodical_scxdh200803138" id="aspnetForm">
+   <div>
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTczNDQ2MTc2MGRkRLRHkY3m6wV6ypfmPExRAuQq+jU=" />
+   </div> 
+   <!-- header开始 --> 
+   <a id="header"></a> 
+   <div id="top_header"> 
+    <link href="http://www.wanfangdata.com.cn/share/Css/Share_14.css" rel="stylesheet" type="text/css" />
+    <div id="resource">
+     <a href="http://www.wanfangdata.com.cn/" class="index_font">
+      <t>
+       <b>首页</b>
+      </t></a>
+     <a href="http://social.wanfangdata.com.cn/" target="_blank">学术圈</a>
+     <a href="http://trend.wanfangdata.com.cn/" target="_blank">
+      <t>
+       知识脉络
+      </t></a>
+     <a href="http://contribute.wanfangdata.com.cn/" target="_blank">
+      <t>
+       投稿
+      </t></a>
+     <a href="http://c.wanfangdata.com.cn/Rankings/PeriodicalRankings.aspx" target="_blank">
+      <t>
+       论文排行
+      </t></a> 
+     <a href="http://check.wanfangdata.com.cn/Default.aspx" target="_blank">
+      <t>
+       相似性检测
+      </t></a>
+     <a href="javascript:;" id="headermorelink">
+      <t>
+       更多
+      </t><small>▼</small></a>
+    </div> 
+    <ul id="morelinklist" style="display:none;"> 
+     <li class="current"><a href="http://subject.wanfangdata.com.cn/xstjbg/2010/Index.html" target="_blank">
+       <t>
+        学术统计分析
+       </t></a><br /> <a href="http://pa.wanfangdata.com.cn/" target="_blank">
+       <t>
+        专利分析(试用)
+       </t></a><br /> <a href="http://dl.wanfangdata.com.cn" target="_blank">
+       <t>
+        电力行业
+       </t></a><br /> <a href="http://yj.wanfangdata.com.cn" target="_blank">
+       <t>
+        冶金行业
+       </t></a><br /> <a href="http://c.g.wanfangdata.com.cn/customsite/default.aspx?id=cb" target="_blank">
+       <t>
+        船舶行业
+       </t></a><br /> <a href="http://www.wanfangdata.com.cn/Help/CitationNotice" target="_blank">
+       <t>
+        引用通知
+       </t></a><br /> <a href="http://www.wanfangdata.com.cn/OnlineMall/Mid" target="_blank">移动阅读</a></li> 
+     <li><a href="http://librarian.wanfangdata.com.cn/Default.aspx" target="_blank">
+       <t>
+        查新/跨库检索
+       </t></a><br /> <a href="http://librarian.wanfangdata.com.cn/ScientificLiterature/Default.aspx" target="_blank">
+       <t>
+        科技文献分析
+       </t></a><br /> <a href="http://editors.wanfangdata.com.cn/" target="_blank">
+       <t>
+        编审平台
+       </t></a><br /> <a href="http://www.wanfangdata.com.cn/ResourceDescription/DOI" target="_blank">
+       <t>
+        万方中文DOI
+       </t></a><br /> <a href="http://stats.editors.wanfangdata.com.cn/" target="_blank">
+       <t>
+        期刊统计分析与评价
+       </t></a><br /> <a href="http://oa.wanfangdata.com.cn" target="_blank">
+       <t>
+        OA论文托管
+       </t></a><br /> <a href="http://publish.wanfangdata.com.cn/" target="_blank">
+       <t>
+        优先出版
+       </t></a><br /> <a href="http://publish.wanfangdata.com.cn/Regular" target="_blank">
+       <t>
+        同步出版
+       </t></a> </li> 
+    </ul>
+    <script>        $(function() {            $("#headermorelink").click(function(e) {                if ($("#morelinklist").is(":hidden")) {                    $("#morelinklist").show();                    return;                }                $("#morelinklist").hide();            })            $(document).click(function(event) {                if (event.target && (event.target.id == "headermorelink" || $(event.target).parent().attr("id") == "headermorelink"))                    return;                $("#morelinklist").hide();            })        })    </script> 
+    <div id="userservice">
+     <link href="http://www.wanfangdata.com.cn/share/Css/Share_14.css" rel="stylesheet" type="text/css" />
+     <div id="accountIdContainer"></div>
+     <script type="text/javascript">    $.cachedScript = function (url, callback) {        try {            var options = {                dataType: "script",                cache: true,                url: url,                success: callback            }            $.ajax(options);        } catch (ex) { console.log('动态加载Script失败:' + ex) }    }    function getCookie(name) {        var cookieArray = document.cookie.split("; ");        var val = null;        $(cookieArray).each(function () {            var arr = this.split("=");            if ($.trim(arr[0]) == name) { val = decodeURIComponent(arr[1]); }        });        return val;    }    function GetAuthContext() {        var context = getCookie('WFKS.Auth');        return eval('(' + context + ')');    }    function GetDisplayName(context, accountType, key) {        for (var i = 0; i < context.Data.length; i++) {            if (context.Data[i].Key == (accountType + "." + key + ".DisplayName"))                return decodeURIComponent(context.Data[i].Value);        }        return key;    }    function getNotificationInfo(accountIdContainer) {        var href = 'http://social.wanfangdata.com.cn/Blog/Comment.aspx';        var cls = 'mailimg';        try {            $.getJSON('http://social.wanfangdata.com.cn/Services/NotificationService.ashx?callback=?', null,                function (json) {                    if (json != null && json.length > 0) {                        var url = "";                        switch (json[0].Type) {                            case "Comment": url = "Comment.aspx"; break;                            case "Forward": url = "Forward.aspx"; break;                            case "Chat": url = "ChatHistory.aspx"; break;                            default: url = "Fans.aspx"; break;                        }                        href = 'http://social.wanfangdata.com.cn/Blog/' + url;                        cls = 'mailinfor';                    }                    accountIdContainer.prepend('<a id="notification" class=' + cls + ' href=' + href + '></a>|')                });        } catch (ex) {        }    }    function GetAccountIdObj(accountIdStr) {        var accountId = { AccountType: '', Key: '' },        index = accountIdStr.indexOf(".");        if (index === -1) {            accountId.AccountType = accountIdStr;        } else {            accountId.AccountType = accountIdStr.substring(0, index);            accountId.Key = accountIdStr.substring(index + 1);        }        return accountId;    }    function refreshloginStatus() {        var accountIdContainer = $('#accountIdContainer').html('');        var register = '<a href="http://login.wanfangdata.com.cn/Register/index"><t>注册</t></a>| ';        var charge = '<a href="http://tran.wanfangdata.com.cn/Charge.aspx"><t>充值</t></a>| ';        var guide = '<a href="http://www.wanfangdata.com.cn/NewGuide" target="_blank"><t>帮助</t></a>|<a href="http://www.sojump.com/jq/4550749.aspx" target="_blank" style="color:red">满意度调查</a>|';        var home = '<a style="color:#5471AC;text-decoration:none;" target="_blank" href="http://www.wanfang.com.cn"><t>公司首页</t><img align="absmiddle" src="http://www.wanfangdata.com.cn/share/Images/blog_link.gif" style="margin-left:2px;"></a>';        var loginurl = 'http://login.wanfangdata.com.cn/Login.aspx';        var location = document.location.href.toLocaleLowerCase();        if (location.indexOf('http://login.wanfangdata.com.cn/'.toLocaleLowerCase()) == -1 || location.indexOf('returnurl') == -1) {            loginurl += '?ReturnUrl=' + encodeURIComponent(document.location.href);        }        var login = '<a id="login" href="' + loginurl + '"><t>登录</t></a>| '        var authContext = GetAuthContext();        if (authContext == null || authContext.Context.AccountIds.length == 0) {            accountIdContainer.append(login).append(register).append(charge).append(guide).append(home);            return;        }        var showNotify = false,	    showOrder = false,        personId = null,        magazineId = null,        researcherId = null,        groups = [],        orderUrl='';        $(authContext.Context.AccountIds).each(function () {            var _this = GetAccountIdObj(this);            if (_this.AccountType == "Person") {                personId = _this.Key;            }            if (_this.AccountType == "Researcher" || _this.AccountType == "VerifiedUser") {                researcherId = _this.Key;                showNotify = true;            }            if (_this.AccountType == "MagazineInstitution") {                magazineId = _this.Key;                showNotify = true;            }            if (_this.AccountType == "Group") {                var displayName = GetDisplayName(authContext.Context, _this.AccountType, _this.Key);                groups.push({ Key: _this.Key, Name: displayName });            }            if (_this.AccountType == "IsticTimeLimit" || _this.AccountType == "IsticBalanceLimit") {                showOrder = true;                orderUrl='http://istic.wanfangdata.com.cn/Order';            }        });        //以下按显示顺序添加        if (showNotify) {            getNotificationInfo(accountIdContainer);        }        if (personId != null) {            var space = '';            if (personId == magazineId) {                var displayName = GetDisplayName(authContext.Context, 'MagazineInstitution', magazineId)                space = '(<a id="MagazinespaceLink" href="http://social.wanfangdata.com.cn/Blog/Blog.aspx?Id=' + encodeURIComponent(displayName) + '">机构空间</a>)';            } else if (personId == researcherId) {                space = '(<a id="personspace" href="http://social.wanfangdata.com.cn/Home.aspx?Id=' + encodeURIComponent(personId) + '">个人空间</a>)';                //显示弹出框                $.cachedScript('http://www.wanfangdata.com.cn/share/Script/correlateScholarPopup-1.1.js', function () {                    if ($.isFunction(showCorrelateScholar)) { showCorrelateScholar(personId, 'http://social.wanfangdata.com.cn/'); }                });            }            accountIdContainer.append('<a href="http://www.wanfangdata.com.cn/UserService" target="_self" id="personAccountKey">' + personId + '</a>' + space+'|');        }        if (groups.length == 1) {            accountIdContainer.append('<a href="http://g.wanfangdata.com.cn/Organization?userId=' + groups[0].Key + '" id="groupAccountKey">' + groups[0].Name + '服务站</a> ');	    if (showOrder) {            accountIdContainer.append('(<a href="'+orderUrl+'" target="_blank">查询订单</a>)| ');            }else{            accountIdContainer.append('| ');            }        }        if (groups.length > 1) {            var clickCount = 0;            var options = $('<select id="groupAccountList"></select>').click(function () {                if (clickCount++ > 0) {                    document.location = 'http://g.wanfangdata.com.cn/Organization?userId=' + options.val();                }            }).focus(function () {                clickCount = 0;            });            $.each(groups, function () {                options.append($('<option value=' + this.Key + '>' + this.Name + '</option>'));            });            accountIdContainer.append(options);	    if (showOrder) {            accountIdContainer.append('(<a href="'+orderUrl+'" target="_blank">查询订单</a>)| ');            }else{            accountIdContainer.append('| ');            }        }        accountIdContainer.append(login).append('<a href="http://login.wanfangdata.com.cn/Logout.aspx" target="_self"><t>退出</t></a>| ');        if (personId != null) {            accountIdContainer.append(charge)        }        accountIdContainer.append(guide).append(home);    }    try {        refreshloginStatus();    } catch (ex) { }</script>
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+   <div id="topHeader"> 
+    <div id="logo_nav"> 
+     <div class="logo_div"> 
+      <a href="http://www.wanfangdata.com.cn/" class="wflogo" title="万方数据知识服务平台"></a> 
+     </div> 
+     <div> 
+      <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/TopSearch-2.9.1.js"></script>
+      <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/jquery.watermark-3.1.3.min.js"></script>
+      <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/wanfang.cookie-1.0.js"></script>
+      <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/export.select-1.0.js"></script>
+      <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/jquery-ui-1.8.12.custom.min.js"></script>
+      <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/wanfang.autocomplete-1.2.js"></script>
+      <link href="http://www.wanfangdata.com.cn/share/Css/jquery-ui-1.8.12/jquery-ui-1.8.12.custom.css" rel="stylesheet" type="text/css" />
+      <div id="top_search"> 
+       <ul class="menu"> 
+        <li id="li_Paper" class="tab4"> <a href="http://www.wanfangdata.com.cn/">
+          <t>
+           学术论文
+          </t></a> </li> 
+        <li id="li_WF_QK" class="button2"> <a href="http://c.wanfangdata.com.cn/Periodical.aspx">
+          <t>
+           期刊
+          </t></a> </li> 
+        <li id="li_WF_XW" class="tab2"> <a href="http://c.wanfangdata.com.cn/Thesis.aspx">
+          <t>
+           学位
+          </t></a> </li> 
+        <li id="li_WF_HY" class="tab2"> <a href="http://c.wanfangdata.com.cn/Conference.aspx">
+          <t>
+           会议
+          </t></a> </li> 
+        <li id="li_NSTL" class="tab4"> <a href="http://www.wanfangdata.com.cn/ResourceBrowse/NSTL">
+          <t>
+           外文文献
+          </t></a> </li> 
+        <li id="li_Scholar" class="tab2"> <a href="http://www.wanfangdata.com.cn/ResourceBrowse/Scholar">
+          <t>
+           学者
+          </t></a> </li> 
+        <li id="li_Patent" class="tab2"> <a href="http://c.wanfangdata.com.cn/PatentIndex.aspx">
+          <t>
+           专利
+          </t></a> </li> 
+        <li id="li_Standard" class="tab2"> <a href="http://c.wanfangdata.com.cn/Standard.aspx">
+          <t>
+           标准
+          </t></a> </li> 
+        <li id="li_Cstad" class="tab2"> <a href="http://c.wanfangdata.com.cn/Cstad.aspx">
+          <t>
+           成果
+          </t></a> </li> 
+        <li id="li_Book" class="tab2"> <a href="http://c.wanfangdata.com.cn/Book.aspx">
+          <t>
+           图书
+          </t></a> </li> 
+        <li id="li_LocalChronicleItem" class="tab3"> <a href="http://c.wanfangdata.com.cn/LocalChronicle.aspx">
+          <t>
+           地方志
+          </t></a> </li> 
+        <li id="li_Claw" class="tab2"> <a href="http://c.wanfangdata.com.cn/Claw.aspx">
+          <t>
+           法规
+          </t></a> </li> 
+        <li id="li_Cecdb" class="tab2"> <a href="http://c.wanfangdata.com.cn/Institution.aspx">
+          <t>
+           机构
+          </t></a> </li> 
+        <li id="li_Expert" class="tab2"> <a href="http://www.wanfangdata.com.cn/ResourceBrowse/Expert">
+          <t>
+           专家
+          </t></a> </li> 
+        <li id="li_NSTR" class="tab4"> <a href="http://c.wanfangdata.com.cn/NSTR.aspx">
+          <t>
+           科技报告
+          </t></a> </li> 
+       </ul> 
+       <div class="export_li" id="export_div">
+        <a href="http://s.wanfangdata.com.cn/Export/Export.aspx" target="exportWin" id="exportWin" style="display:none"></a>
+       </div> 
+       <div class="clear"></div> 
+       <div class="searchbox1"> 
+        <input id="queryBox" value="" name="queryBox" type="search" results="s" />
+       </div> 
+       <t>
+        <input id="searchButton" type="button" value="检 索" class="top_btn" />
+       </t> 
+       <t>
+        <input id="searchMagazine" type="button" value="检索刊名" class="km_btn" style="display:none" />
+       </t> 
+       <span><a id="LibrarianSearch" href="http://librarian.wanfangdata.com.cn/" target="_blank">
+         <t>
+          高级检索
+         </t></a><br /></span>
+      </div> 
+      <script>    var currentDatabase = 'WF_QK';    var SDomain = 'http://s.wanfangdata.com.cn/';    var lastSearchTip = "在30,877,125篇论文中检索";    var CommunityDomain = 'http://social.wanfangdata.com.cn/';    var LibrarianDomain = "http://librarian.wanfangdata.com.cn/";    var IsticDomain = 'http://istic.wanfangdata.com.cn/';    var wfCookieName = 'WFKS.Auth';    $(function() {        $.watermark.options.useNative = false; //不用placeholder        TwoButton(currentDatabase);        $("#queryBox").watermark(lastSearchTip);        $("#queryBox").keypress(function(e) {            if (e.which == 13)                return search(e,"d.top", "_blank");        });        $("#searchButton, #searchMagazine").click(function(event) {        search(event, "d.top", "_blank");        });        try {            autocomplete('http://trend.wanfangdata.com.cn/AutoComplete');            $("#queryBox").on("autocompleteselect", function (event, ui) {                $("#queryBox").val(ui.item.value);                search(event, "d.top", "_blank");            });        } catch (ex) { }        exportInit();    })     </script> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="clear-float"></div> 
+   <!--header结束--> 
+   <div class="content_div"> 
+    <p class="nav_page"> <span> <a href="http://www.wanfangdata.com.cn/"> 
+       <t>
+        首页
+       </t> </a>&nbsp;&gt;&nbsp; <a href="http://c.wanfangdata.com.cn/Periodical.aspx"> 
+       <t>
+        期刊首页
+       </t> </a>&nbsp;&gt;&nbsp; <a href="http://c.wanfangdata.com.cn/Periodical-scxdh.aspx">商场现代化</a> &nbsp;&gt;&nbsp;<a href="http://c.wanfangdata.com.cn/periodical/scxdh/2008-3.aspx">2008年3期</a> &nbsp;&gt;&nbsp;从公共产品理论视角探析西部农村基础设施建设 </span> </p> 
+    <div id="detail_rightcontent"> 
+     <div id="relotr"> 
+     </div> 
+     <div id="relatedResearchers"> 
+     </div> 
+     <div class="detail_right" id="relatedword"></div> 
+     <script type="text/javascript">    var curIndex=0;    //时间间隔 单位毫秒    var timeInterval=3000;    var arrimg = new Array();    var arrlink = new Array();    arrimg[0] = "http://ad.wanfangdata.com.cn/Images/160x35.gif";    arrimg[1] = "http://ad.wanfangdata.com.cn/Images/smsj.jpg";    arrlink[0]="http://www.rlzygl.com/zgh/";    arrlink[1]="http://www.dgworld.com.cn/";    var timer = setInterval(changeImg,timeInterval);function changeImg(){    var ad_img = document.getElementById("ad_img");    var ad_link = document.getElementById("ad_link");    if (curIndex == arrimg.length - 1)     {        curIndex=0;    }    else    {        curIndex+=1;    }    ad_img.src = arrimg[curIndex];    ad_link.href = arrlink[curIndex];}function timerstop() {    clearInterval(timer);}function timercontinue() {    timer = setInterval(changeImg,timeInterval);}</script>
+     <ul class="image_div"> 
+      <!--<li><a href="http://www.rlzygl.com/zgh/" target="_blank">        <img src="http://ad.wanfangdata.com.cn/Images/160x35.gif" alt="《人力资源管理》杂志" /></a>    </li>-->
+      <li><a id="ad_link" href="http://www.rlzygl.com/zgh/" target="_blank"><img alt="" id="ad_img" src="http://ad.wanfangdata.com.cn/Images/160x35.gif" border="0" onmouseover="timerstop();" onmouseout="timercontinue();" /></a></li> 
+     </ul> 
+    </div> 
+    <div id="detail_leftcontent"> 
+     <div class="detail_div"> 
+      <div class="downpadding"> 
+       <div class="btn_list"> 
+        <h1 id="title0"> 从公共产品理论视角探析西部农村基础设施建设 </h1> 
+       </div> 
+       <a href="javascript:"></a> 
+       <div id="container_recom" style="display: none" class="cont_recom11"> 
+       </div> 
+      </div> 
+      <div class="clear"> 
+      </div> 
+      <div class="downpadding"> 
+       <div class="btn_list"> 
+        <p> <a href="http://f.wanfangdata.com.cn/view/从公共产品理论视角探析西部农村基础设施建设.aspx?ID=Periodical_scxdh200803138" class="seeft"> 
+          <t>
+           查看全文
+          </t> </a><a href="http://f.wanfangdata.com.cn/download/Periodical_scxdh200803138.aspx" class="downloadft"> 
+          <t>
+           下载全文
+          </t> </a> </p> 
+        <a href="http://s.wanfangdata.com.cn/Export/Export.aspx" id="Periodical_scxdh200803138" target="exportWin" class="export exportLink" onclick="return exportClick(this,'.wanfangdata.com.cn');">
+         <t>
+          导出
+         </t></a> 
+        <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/wanfang.cookie-1.0.js"></script>
+        <script language="javascript" type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/citenotice-1.1.js"></script>
+        <script>    var wfCookieName = 'WFKS.Auth';</script>
+        <a href="http://www.wanfangdata.com.cn/UserService?tab=citenotice" target="_blank" class="citenotice" id="cite_Periodical_scxdh200803138" onclick="return citeClick(this, 'http://login.wanfangdata.com.cn/login.aspx?ReturnUrl=http%3a%2f%2fd.wanfangdata.com.cn%2fPeriodical.aspx%3fID%3dPeriodical_scxdh200803138&amp;needLoginAccountType=Person','http://citenotice.wanfangdata.com.cn/CiteNoticeAdd.aspx?jsoncallback=?');" title="想第一时间知道自己论文被引用的次数吗?想随时知道牛人的论文又被谁引用了吗?用我们的新功能吧!(目前限于中文期刊和学位论文)">
+         <t>
+          添加到引用通知
+         </t></a> 
+        <link href="http://www.wanfangdata.com.cn/share/Css/shareto_1.css" rel="stylesheet" type="text/css" />
+        <div class="shareto_toolbox"> 
+         <a class="shareto_button_compact">分享到</a> 
+         <span class="shareto_separator">|</span> 
+         <a class="shareto_button_tsina"></a> 
+         <a class="shareto_button_tqq"></a> 
+         <input type="hidden" value="http://www.wanfangdata.com.cn/share/Images/sharewflogo.gif" id="sharelogo" /> 
+         <input type="hidden" value="推荐阅读:从公共产品理论视角探析西部农村基础设施建设" id="sharetoInfo" /> 
+         <script type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/shareto_button-1.1.min.js"></script> 
+         <script type="text/javascript" src="http://www.wanfangdata.com.cn/share/Script/shareto_button_menu-1.0.js"></script>
+        </div> 
+       </div> 
+       <div id="downloadpdf"> 
+        <a href="http://www.wanfangdata.com.cn/CustomerService/ReaderDownload"> 
+         <t>
+          下载PDF阅读器
+         </t> </a> 
+       </div> 
+      </div> 
+      <dl id="doi_dl" class="abstract_dl"> 
+       <dt>
+        doi:
+       </dt> 
+       <dd>
+        <a href="http://dx.chinadoi.cn/10.3969%2fj.issn.1006-3102.2008.03.138" target="_blank">10.3969/j.issn.1006-3102.2008.03.138</a>
+       </dd> 
+      </dl> 
+      <dl class="abstract_dl"> 
+       <dt>
+        <strong> 
+         <t>
+          摘要:
+         </t> </strong>
+       </dt> 
+       <dd>
+         本文给出公共产品的相关理论后,明确了西部农村基础设施的三种分类,讨论了目前西部农村这三种基础设施建设中的不足与问题,以及政府在提供基础设施方面所存在的问题.本文从公共产品的一些性质出发,对于基础设施这种特殊的公共产品建设提出一些看法,以及对于如何更好的投资与建设这类公共产品提出了一些建议与政策.
+       </dd> 
+      </dl> 
+      <table border="0" cellspacing="0" cellpadding="0" id="perildical_dl"> 
+       <tbody>
+        <tr> 
+         <th scope="row"> 
+          <t>
+           作者
+          </t> : </th> 
+         <td class="author_td"> <a namecard="true" href="http://social.wanfangdata.com.cn/Locate.ashx?ArticleId=scxdh200803138&amp;Name=%e5%bc%a0%e9%b8%bf"> <img src="Images/head_pic.gif" align="absmiddle" />张鸿</a><sup></sup> &nbsp;&nbsp; <a namecard="true" href="http://social.wanfangdata.com.cn/Locate.ashx?ArticleId=scxdh200803138&amp;Name=%e5%bc%a0%e6%9d%83"> <img src="Images/head_pic.gif" align="absmiddle" />张权</a><sup></sup> &nbsp;&nbsp; <a namecard="true" href="http://social.wanfangdata.com.cn/Locate.ashx?ArticleId=scxdh200803138&amp;Name=%e9%9f%a9%e9%bb%9b%e5%a8%9c"> <img src="Images/head_pic.gif" align="absmiddle" />韩黛娜</a><sup></sup> </td> 
+        </tr> 
+        <tr> 
+         <th scope="row">Author: </th> 
+         <td class="author_td"> </td> 
+        </tr> 
+        <tr> 
+         <th scope="row"> 
+          <t>
+           作者单位
+          </t> : </th> 
+         <td> 西安邮电学院产业经济研究所 </td> 
+        </tr> 
+        <tr> 
+         <th> 
+          <t>
+           刊 名:
+          </t> </th> 
+         <td> <a href="http://c.wanfangdata.com.cn/Periodical-scxdh.aspx">商场现代化</a> &nbsp;<span class="green-border" visible="False"> </span> </td> 
+        </tr> 
+        <tr> 
+         <th> 
+          <t>
+           Journal:
+          </t> </th> 
+         <td> <a href="http://c.wanfangdata.com.cn/Periodical-scxdh.aspx">MARKET MODERNIZATION</a> </td> 
+        </tr> 
+        <tr> 
+         <th scope="row"> 
+          <t>
+           年,卷(期)
+          </t> : </th> 
+         <td> <a href="http://c.wanfangdata.com.cn/periodical/scxdh/2008-3.aspx">2008,&nbsp;(3)</a> </td> 
+        </tr> 
+        <tr> 
+         <th scope="row"> 
+          <t>
+           分类号
+          </t> : </th> 
+         <td> F3 </td> 
+        </tr> 
+        <tr> 
+         <th> 
+          <t>
+           关键词:
+          </t> </th> 
+         <td> <a href="http://s.wanfangdata.com.cn/Paper.aspx?f=detail&amp;q=%e5%85%b3%e9%94%ae%e8%af%8d%3a%22%e5%85%ac%e5%85%b1%e4%ba%a7%e5%93%81%22+DBID%3aWF_QK"> 公共产品</a> <a href="http://trend.wanfangdata.com.cn/vein?wd=%e5%85%ac%e5%85%b1%e4%ba%a7%e5%93%81" title="公共产品的知识脉络"> <img src="Images/zsml.jpg" alt="知识脉络" /></a> &nbsp;&nbsp; <a href="http://s.wanfangdata.com.cn/Paper.aspx?f=detail&amp;q=%e5%85%b3%e9%94%ae%e8%af%8d%3a%22%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%22+DBID%3aWF_QK"> 基础设施</a> <a href="http://trend.wanfangdata.com.cn/vein?wd=%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd" title="基础设施的知识脉络"> <img src="Images/zsml.jpg" alt="知识脉络" /></a> &nbsp;&nbsp; <a href="http://s.wanfangdata.com.cn/Paper.aspx?f=detail&amp;q=%e5%85%b3%e9%94%ae%e8%af%8d%3a%22%e8%a5%bf%e9%83%a8%e5%86%9c%e6%9d%91%22+DBID%3aWF_QK"> 西部农村</a> <a href="http://trend.wanfangdata.com.cn/vein?wd=%e8%a5%bf%e9%83%a8%e5%86%9c%e6%9d%91" title="西部农村的知识脉络"> <img src="Images/zsml.jpg" alt="知识脉络" /></a> &nbsp;&nbsp; <a href="http://s.wanfangdata.com.cn/Paper.aspx?f=detail&amp;q=%e5%85%b3%e9%94%ae%e8%af%8d%3a%22%e5%85%ac%e5%b9%b3%e4%b8%8e%e6%95%88%e7%9b%8a%22+DBID%3aWF_QK"> 公平与效益</a> <a href="http://trend.wanfangdata.com.cn/vein?wd=%e5%85%ac%e5%b9%b3%e4%b8%8e%e6%95%88%e7%9b%8a" title="公平与效益的知识脉络"> <img src="Images/zsml.jpg" alt="知识脉络" /></a> &nbsp;&nbsp; </td> 
+        </tr> 
+        <tr> 
+         <th scope="row"> 
+          <t>
+           机标分类号
+          </t> : </th> 
+         <td> TP3 TN9 </td> 
+        </tr> 
+        <tr id="wfpublishdate" style="display: none;" scope="row"> 
+         <th> 
+          <t>
+           在线出版日期
+          </t> : </th> 
+         <td> 2008年5月26日 </td> 
+        </tr> 
+        <tr> 
+         <th scope="row"> 
+          <t>
+           基金项目
+          </t> : </th> 
+         <td> 国家自然科学基金,信息产业部软科学研究计划项目 </td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <div id="articleinfo" style="display: none"> 
+       <p class="title_li"> 从公共产品理论视角探析西部农村基础设施建设 </p> 
+       <p class="graycolor"> [
+        <t>
+         期刊论文
+        </t>]&nbsp;&nbsp;商场现代化 --2008,&nbsp;(3) </p> 
+       <p class="graycolor"> 张鸿 &nbsp;&nbsp; 张权 &nbsp;&nbsp; 韩黛娜 </p> 
+       <p class="abstracts">本文给出公共产品的相关理论后,明确了西部农村基础设施的三种分类,讨论了目前西部农村这三种基础设施建设中的不足与问题,以及政府在提供基础设施方面所存在的问题.本文从公共产品的一些性质出发,对于基础设施这种特殊...</p> 
+      </div> 
+      <a id="goref" href="Reference.aspx?id=Periodical_scxdh200803138&amp;title=%e4%bb%8e%e5%85%ac%e5%85%b1%e4%ba%a7%e5%93%81%e7%90%86%e8%ae%ba%e8%a7%86%e8%a7%92%e6%8e%a2%e6%9e%90%e8%a5%bf%e9%83%a8%e5%86%9c%e6%9d%91%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e5%bb%ba%e8%ae%be">参考文献和引证文献</a> 
+      <div class="Cited1" id="reflist"> 
+       <div class="td-blue" id="reflisttitle"> 
+        <span>
+         <t>
+          参考文献
+         </t></span> 
+       </div> 
+      </div> 
+      <div class="Cited1" id="citelist"> 
+       <div class="td-blue" id="citelisttitle"> 
+        <span>
+         <t>
+          引证文献
+         </t></span> 
+       </div> 
+      </div> 
+      <div class="Cited1" id="rcrs"> 
+       <div class="td-blue" id="rcrstitle"> 
+        <span>
+         <t>
+          本文读者也读过
+         </t></span> 
+       </div> 
+      </div> 
+      <div class="Cited1" id="relblog"> 
+       <div class="td-blue" id="relblogtitle"> 
+        <span>
+         <t>
+          相关博文
+         </t></span> 
+       </div> 
+      </div> 
+      <div class="Cited1" id="datatangwords"> 
+       <div class="td-blue" id="datatangtitle">
+        <span>
+         <t>
+          相关数据
+         </t></span>
+       </div> 
+      </div> 
+      <script>        try {            GetRelated('DataTangRelatedData.aspx', { word: '公共产品 基础设施 西部农村 公平与效益' }, ['#datatangwords'], function (isLoadSuc) {                $('#datatangtitle').remove();            });        } catch (ex) { $('#datatangwords').remove(); }    </script> 
+      <div class="Cited1" id="hudongwords"> 
+       <div class="td-blue" id="hudongwordstitle">
+        <span>
+         <t>
+          互动百科相关词
+         </t></span>
+       </div>
+      </div>
+      <script>try{    GetRelated('HuDongRelatedWord.aspx', { Word: '公共产品;基础设施;西部农村;公平与效益' }, ['#hudongwords'], function (isLoadSuc) {        $('#hudongwordstitle').remove();    });} catch (ex) { $('#hudongwordstitle').remove(); }</script> 
+      <div class="Cited1" id="comments"> 
+       <iframe id="commentIframe" src="http://social.wanfangdata.com.cn/Comment/Comment.aspx?receiverid=Article.Periodical_scxdh200803138&amp;proxy=http%3a%2f%2fd.wanfangdata.com.cn%2f" width="100%" height="100%" scrolling="no" frameborder="0" marginwidth="0" marginheight="0"></iframe> 
+      </div> 
+      <script language="javascript" type="text/javascript">            function loadRel() {            var id = 'Periodical_scxdh200803138';            GetRelated('CorrelatedResources.aspx', { ID: id, Keywords: "%5b%22%e5%85%ac%e5%85%b1%e4%ba%a7%e5%93%81%22%2c%22%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%22%2c%22%e8%a5%bf%e9%83%a8%e5%86%9c%e6%9d%91%22%2c%22%e5%85%ac%e5%b9%b3%e4%b8%8e%e6%95%88%e7%9b%8a%22%5d" }, ['#crlrs', '#relblog'], function (isLoadSuc) {                $('#relatitle').remove();                $('#relblogtitle').remove();                hidemore('moreRelatedBlogButton', 'ismoreRelatedBlog');            });            GetRelated('RecommandedResources.aspx', { ID: id }, ['#rcrs'], function (isLoadSuc) {                $('#rcrstitle').remove();            });            var goref = $('#goref');            goref.hide();            GetRelated(goref.attr("href"), {}, ['#reflist', '#citelist'], function(isLoadSuc) {                $('#reflisttitle').remove();                $('#citelisttitle').remove();                hidemore('moreCiteArea', 'ismoreCite');                hidemore('moreRefArea', 'ismoreRef');            });            showRelatedResearchers('relatedResearchers', 'http://social.wanfangdata.com.cn/', ["公共产品","基础设施"], true);            showRecommendReading('container_recom', id, 'http://social.wanfangdata.com.cn/');            showRecommendedList($('#goref'), id, 'http://social.wanfangdata.com.cn/');        }        $(document).ready(function() {            loadRel();            shrinkList($("#perildical_dl"));            if ("10.3969/j.issn.1006-3102.2008.03.138" == "")                $("#doi_dl").hide();            if("2008年5月26日".length > 0)            {                $("#wfpublishdate").show();            }        });    </script> 
+     </div> 
+    </div> 
+    <div class="clear-float"></div> 
+   </div> 
+   <div style="display: none" id="loading" class="loading"> 
+    <img src="Images/ajax-loader.gif" alt="loading" />加载中,请稍候 
+   </div> 
+   <script language="javascript" type="text/javascript">                authCookieName = "WFKS.Auth";                $.researcherLogin.setDefaults({                    cookieName: authCookieName,                    loginDomain: 'http://login.wanfangdata.com.cn/', communityDomain: 'http://social.wanfangdata.com.cn/'                });                $(document).ready(function () {                    if ('False' == 'False') {                        $.ajax({                            url: 'RelatedWord.aspx',                            type: 'POST',                            data: { seed: '%e6%9c%ac%e6%96%87%e7%bb%99%e5%87%ba%e5%85%ac%e5%85%b1%e4%ba%a7%e5%93%81%e7%9a%84%e7%9b%b8%e5%85%b3%e7%90%86%e8%ae%ba%e5%90%8e%2c%e6%98%8e%e7%a1%ae%e4%ba%86%e8%a5%bf%e9%83%a8%e5%86%9c%e6%9d%91%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e7%9a%84%e4%b8%89%e7%a7%8d%e5%88%86%e7%b1%bb%2c%e8%ae%a8%e8%ae%ba%e4%ba%86%e7%9b%ae%e5%89%8d%e8%a5%bf%e9%83%a8%e5%86%9c%e6%9d%91%e8%bf%99%e4%b8%89%e7%a7%8d%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e5%bb%ba%e8%ae%be%e4%b8%ad%e7%9a%84%e4%b8%8d%e8%b6%b3%e4%b8%8e%e9%97%ae%e9%a2%98%2c%e4%bb%a5%e5%8f%8a%e6%94%bf%e5%ba%9c%e5%9c%a8%e6%8f%90%e4%be%9b%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e6%96%b9%e9%9d%a2%e6%89%80%e5%ad%98%e5%9c%a8%e7%9a%84%e9%97%ae%e9%a2%98.%e6%9c%ac%e6%96%87%e4%bb%8e%e5%85%ac%e5%85%b1%e4%ba%a7%e5%93%81%e7%9a%84%e4%b8%80%e4%ba%9b%e6%80%a7%e8%b4%a8%e5%87%ba%e5%8f%91%2c%e5%af%b9%e4%ba%8e%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e8%bf%99%e7%a7%8d%e7%89%b9%e6%ae%8a%e7%9a%84%e5%85%ac%e5%85%b1%e4%ba%a7%e5%93%81%e5%bb%ba%e8%ae%be%e6%8f%90%e5%87%ba%e4%b8%80%e4%ba%9b%e7%9c%8b%e6%b3%95%2c%e4%bb%a5%e5%8f%8a%e5%af%b9%e4%ba%8e%e5%a6%82%e4%bd%95%e6%9b%b4%e5%a5%bd%e7%9a%84%e6%8a%95%e8%b5%84%e4%b8%8e%e5%bb%ba%e8%ae%be%e8%bf%99%e7%b1%bb%e5%85%ac%e5%85%b1%e4%ba%a7%e5%93%81%e6%8f%90%e5%87%ba%e4%ba%86%e4%b8%80%e4%ba%9b%e5%bb%ba%e8%ae%ae%e4%b8%8e%e6%94%bf%e7%ad%96.', pagename: "" },                            success: function (data) {                                $('#relatedword').html(data);                            },                            error: function (stat) {                                if (window.console != undefined) {                                    console.log(stat);                                }                            }                        });                    } else {                        $('#relatedword').remove();                    }                });            </script> 
+   <link href="http://www.wanfangdata.com.cn/share/Css/Share_14.css" rel="stylesheet" type="text/css" />
+   <div class="WfBottom"> 
+    <div class="Wfbotmain"> 
+     <ul class="Wfbotli">
+      <span class="WfbotliSpan"><b>客户服务</b></span> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/UserSuggestion/Edit" target="_blank">用户建议</a></li> 
+      <li><span class="color99">.</span>邮箱<a href="mailto:service@wanfangdata.com.cn">service@wanfangdata.com.cn</a></li> 
+      <li><span class="color99">.</span>客服电话 4000-115-888</li> 
+      <li>&nbsp;&nbsp;8:00-11:30,13:00-17:00(工作日)</li> 
+     </ul> 
+     <ul class="Wfbotli">
+      <span class="WfbotliSpan"><b>关注我们</b></span> 
+      <li><span class="color99">.</span><a href="http://weibo.com/wanfangdata" target="_blank">新浪微博</a></li> 
+      <li><span class="color99">.</span><a href="http://wiki.wanfangdata.com.cn" target="_blank">平台百科</a></li> 
+      <li><span class="color99">.</span><a target="_blank" href="http://wiki.wanfangdata.com.cn/index.php?title=业务合作">业务合作</a></li> 
+      <li><span class="color99">.</span><a target="_blank" href="http://yantao.wanfangdata.com.cn">数图新服务应用研讨班</a></li> 
+     </ul> 
+     <ul class="Wfbotli">
+      <span class="WfbotliSpan"><b>广告服务</b></span> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/CustomerService/AD#form">广告形式</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/CustomerService/AD#price">价格体系</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/CustomerService/AD#apply">广告申请</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/CustomerService/AD#guarantee">服务保障</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/CustomerService/AD#contact">联系方式</a></li> 
+     </ul> 
+     <ul class="Wfbotli">
+      <span class="WfbotliSpan"><b>网上商城</b></span> 
+      <li><span class="color99">.</span><a href="http://tran.wanfangdata.com.cn/PurchaseCard/Default.aspx" target="_blank">充值卡</a></li> 
+     </ul> 
+     <ul class="Wfbotli">
+      <span class="WfbotliSpan"><b>使用帮助</b></span> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/NewGuide?helpitem=registerhelp">注册和登录</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/NewGuide?helpitem=searchepaper">检索文献</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/NewGuide?helpitem=pay">如何支付</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/NewGuide?helpitem=recharging">如何充值</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com.cn/NewGuide?helpitem=downloadpaper">下载和查看</a></li> 
+     </ul> 
+     <ul>
+      <span class="WfbotliSpan"><b>语种</b></span> 
+      <li><span class="color99">.</span><a href="#" id="zh-CN" name="multiLanguageSwitch">简体中文</a></li> 
+      <li><span class="color99">.</span><a href="#" id="zh-TW" name="multiLanguageSwitch">繁體中文</a></li> 
+      <li><span class="color99">.</span><a href="http://www.wanfangdata.com">English</a></li> 
+     </ul> 
+     <script>        		$(function() {        		$("a[name='multiLanguageSwitch']").click(function() {            			var cookieValue = "PreferredCulture=" + escape(this.id);              			cookieValue += ";expires=" + new Date(9999,11,31).toGMTString();                 			cookieValue += ";path=/;domain=.wanfangdata.com.cn";            			cookieValue += ";true";            			document.cookie = cookieValue;                        			window.location.href = document.location.protocol + "//" + document.location.host + document.location.pathname + document.location.search;        		});    		})	</script> 
+     <p class="clearLeft"></p>
+     <div id="foot_text"> 
+      <p> <a href="http://www.wanfangdata.com.cn/CustomerService/Announce">
+        <t>
+         知识产权声明
+        </t></a>| <a href="http://www.wanfangdata.com.cn/CustomerService/Services">
+        <t>
+         服务承诺
+        </t></a>| <a href="http://www.wanfangdata.com.cn/AboutUs/ContactUs">
+        <t>
+         联系我们
+        </t></a>| <a href="http://wanfangdata.zhiye.com" target="_blank">
+        <t>
+         人才招聘
+        </t></a>| <a href="http://www.wanfangdata.com.cn/CustomerService/Services">
+        <t>
+         客户服务
+        </t></a>| <a href="http://www.wanfangdata.com.cn/AboutUs/index">
+        <t>
+         关于我们
+        </t></a> </p>
+      <p> 
+       <t>
+        <a href="http://ad.wanfangdata.com.cn/images/hlwcb.jpg" target="_blank">互联网出版许可证:新出网证(京)字042号</a>
+       </t>&nbsp;&nbsp;<a href="http://ad.wanfangdata.com.cn/images/zhengshu_2.jpg" target="_blank">互联网药品信息服务资格证书号:(京)-经营性-2011-0017</a>&nbsp;&nbsp;
+       <t>
+        <a href="http://ad.wanfangdata.com.cn/images/stjmxkz2.jpg" target="_blank">信息网络传播视听节目许可证 许可证号:0108284</a>
+       </t> <br />
+       <t>
+        <a href="http://ad.wanfangdata.com.cn/images/icp.jpg" target="_blank">京ICP证:010071</a>
+       </t>&nbsp;&nbsp;
+       <t>
+        北京市公安局海淀分局备案编号
+       </t>:110108901585 <br />
+       <t>
+        万方数据知识服务平台--国家科技支撑计划资助项目(编号:2006BAH03B01)&copy;北京万方数据股份有限公司&nbsp;&nbsp;万方数据电子出版社
+       </t> <span></span></p>
+     </div> 
+    </div>
+   </div>
+   <script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff5e6bd27352a71a202024e821056162b' type='text/javascript'%3E%3C/script%3E"));</script> 
+  </form> 
+  <script language="javascript" type="text/javascript">        goTopInit("http://www.wanfangdata.com.cn/share/");        insertUserSuggestion("http://www.wanfangdata.com.cn/");    </script>
+ </body>
+</html>

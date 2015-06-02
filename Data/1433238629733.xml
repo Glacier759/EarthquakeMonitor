@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta content="all" name="robots" />
+  <meta name="author" content="吉林大学商学院(bosj.cn)" />
+  <title>吉林大学商学院</title>
+  <style type="text/css">@import"css/exterior_style.css";@import"css/exterior_department.css";</style>
+  <script type="text/javascript" src="js/mootools.js"></script>
+  <script type="text/javascript" src="js/dropdownmenu.js"></script>
+ </head>
+ <body>
+  <div id="whole">
+   <!-- Head -->
+   <div id="head">
+    <a href="index.php">
+     <div id="head_logo"></div></a>
+    <!-- Head_Menu --> 
+    <div id="head_menu"> 
+     <ul id="dropdownMenu"> 
+      <li><b><a href="#">学院介绍</a></b> 
+       <ul class="sort" style="display:none;"> 
+        <li><a href="intro.php?tid=11">学院简介</a> </li> 
+        <li><a href="intro.php?tid=12">历史沿革</a> </li> 
+        <li><a href="intro.php?tid=13">学院领导</a> </li> 
+        <li><a href="intro.php?tid=14">机构设置</a> </li> 
+        <li><a href="intro.php?tid=15">专业设置</a> </li> 
+       </ul> </li> 
+      <li><b><a href="#">党政工作</a></b> 
+       <ul class="sort" style="display:none;"> 
+        <li><a href="department.php?fid=18">党委工作</a> </li> 
+        <li><a href="department.php?fid=19">行政工作</a> </li> 
+       </ul> </li> 
+      <li><b><a href="department.php?fid=25">学生工作</a></b> </li> 
+      <li><b><a href="#">科研与外事</a></b> 
+       <ul class="sort" style="display:none;"> 
+        <li><a href="department.php?fid=28">外事交流</a> </li> 
+        <li><a href="department.php?fid=20">科学研究</a> </li> 
+       </ul> </li> 
+      <li><b><a href="department.php?fid=37">实验中心</a></b> </li> 
+      <li><b><a href="#">师资与管理队伍</a></b> 
+       <ul class="sort" style="display:none;"> 
+        <li><a href="teacher_list.php?fid=8">会计系</a> </li> 
+        <li><a href="teacher_list.php?fid=15">战略与运营管理系</a> </li> 
+        <li><a href="teacher_list.php?fid=6">财务管理系</a> </li> 
+        <li><a href="teacher_list.php?fid=10">市场营销系</a> </li> 
+        <li><a href="teacher_list.php?fid=9">人力资源管理系</a> </li> 
+        <li><a href="teacher_list.php?fid=7">管理科学与工程系</a> </li> 
+        <li><a href="teacher_list.php?fid=14">应用金融系</a> </li> 
+        <li><a href="teacher_list.php?fid=11">数量经济系</a> </li> 
+        <li><a href="teacher_list.php?fid=39">兼职教授</a> </li> 
+        <li><a href="#">管理团队</a> 
+         <ul> 
+          <li><a href="teacher_list.php?fid=36">院领导</a></li> 
+          <li><a href="teacher_list.php?fid=19">院务办公室</a></li> 
+          <li><a href="teacher_list.php?fid=18">党委办公室</a></li> 
+          <li><a href="teacher_list.php?fid=22">研究生办公室</a></li> 
+          <li><a href="teacher_list.php?fid=21">本科生教务办公室</a></li> 
+          <li><a href="teacher_list.php?fid=25">学生工作办公室</a></li> 
+          <li><a href="teacher_list.php?fid=24">继续教育中心</a></li> 
+          <li><a href="teacher_list.php?fid=44">专业学位教育招生办公室</a></li> 
+          <li><a href="teacher_list.php?fid=46">专业学位教育教学办公室</a></li> 
+          <li><a href="teacher_list.php?fid=45">专业学位教育学位办公室</a></li> 
+          <li><a href="teacher_list.php?fid=1">EMBA教育中心</a></li> 
+          <li><a href="teacher_list.php?fid=38">EDP教育中心</a></li> 
+          <li><a href="teacher_list.php?fid=37">实验中心</a></li> 
+          <li><a href="teacher_list.php?fid=27">图书资料中心</a></li> 
+          <li><a href="teacher_list.php?fid=41">校友工作办公室</a></li> 
+         </ul> </li> 
+       </ul> </li> 
+      <li><b><a href="#">办公指南</a></b> 
+       <ul class="sort" style="display:none;"> 
+        <li><a href="department.php?fid=19">行政办公室</a> </li> 
+        <li><a href="department.php?fid=18">党委办公室</a> </li> 
+        <li><a href="department.php?fid=28">外事交流办公室</a> </li> 
+        <li><a href="department.php?fid=20">科研办公室</a> </li> 
+        <li><a href="department.php?fid=21">本科生教务办公室</a> </li> 
+        <li><a href="department.php?fid=22">研究生办公室</a> </li> 
+        <li><a href="department.php?fid=25">学生工作办公室</a> </li> 
+        <li><a href="department.php?fid=24">继续教育中心</a> </li> 
+        <li><a href="department.php?fid=44">专业学位教育招生办公室</a> </li> 
+        <li><a href="department.php?fid=46">专业学位教育教学办公室</a> </li> 
+        <li><a href="department.php?fid=45">专业学位教育学位办公室</a> </li> 
+        <li><a href="http://biz.jlu.edu.cn/emba/">EMBA教育中心</a> </li> 
+        <li><a href="department.php?fid=38">EDP教育中心</a> </li> 
+        <li><a href="department.php?fid=37">实验中心</a> </li> 
+        <li><a href="department.php?fid=27">图书资料中心</a> </li> 
+        <li><a href="department.php?fid=26">工会</a> </li> 
+        <li><a href="http://biz.jlu.edu.cn/bsoj/sf_index.php">校友工作</a> </li> 
+        <li><a href="department.php?fid=51">院庆工作办公室</a> </li> 
+       </ul> </li> 
+     </ul> 
+    </div>
+    <!-- End Head_Menu -->
+   </div>
+   <!-- End Head -->
+   <!-- Navigation -->
+   <div id="navigation_box">
+    <div id="navigation_bg">
+     <div id="navigation">
+      <!-- Navigation Word --> 
+      <div id="navigation_list"> 
+       <ul> 
+        <li><a href="department.php?fid=21" target="_blank">本科教育</a></li> 
+        <li><a href="department.php?fid=22" target="_blank">研究生教育</a></li> 
+        <li><a href="department.php?fid=24" target="_blank">继续教育</a></li> 
+        <li><a href="http://biz.jlu.edu.cn/newmba/index.php" target="_blank">专业学位教育MBA/MPM/MPAcc</a></li> 
+        <li><a href="department.php?fid=51" target="_blank">院庆专栏</a></li> 
+        <li><a href="http://biz.jlu.edu.cn/emba/" target="_blank">EMBA项目</a></li> 
+        <li><a href="http://biz.jlu.edu.cn/bsoj/sf_index.php" target="_blank">校友之家</a></li> 
+        <li><a href="department.php?fid=52" target="_blank">群众路线教育实践活动</a></li> 
+        <li><a href="VideoList.php" target="_blank">商苑视窗</a></li> 
+       </ul> 
+      </div>
+      <!-- End Navigation Word -->
+     </div>
+    </div>
+   </div>
+   <!-- End Navigation -->
+   <!-- Content -->
+   <div id="content">
+    <div id="place">
+     <a href="index.php">首页</a>&gt;&gt;
+     <a href="department.php?fid=44">专业学位教育招生办公室</a>&gt;&gt;
+     <a href="department_list.php?sid=143">中心动态</a>&gt;&gt;商学院在“第二届中国商学院领袖年会”上喜获殊荣
+    </div>
+    <div id="department">
+     <div id="department_left"> 
+      <span><a href="department_list.php?sid=141">&gt;&gt;&nbsp;招生信息</a></span> 
+      <span><a href="department_list.php?sid=142">&gt;&gt;&nbsp;中心通知</a></span> 
+      <span><a href="department_list.php?sid=143">&gt;&gt;&nbsp;中心动态</a></span> 
+      <span><a href="department_list.php?sid=148">&gt;&gt;&nbsp;项目概况</a></span> 
+      <span><a href="department_list.php?sid=155">&gt;&gt;&nbsp;它山之石</a></span> 
+      <span><a href="department_list.php?sid=208">&gt;&gt;&nbsp;国际交流</a></span> 
+      <span><a href="department_list.php?sid=209">&gt;&gt;&nbsp;服务指南</a></span> 
+      <span><a href="department_list.php?sid=210">&gt;&gt;&nbsp;下载专区</a></span> 
+      <span><a href="department_list.php?sid=211">&gt;&gt;&nbsp;公告栏</a></span> 
+      <span><a href="department_list.php?sid=218">&gt;&gt;&nbsp;通知公告</a></span> 
+      <span><a href="department_list.php?sid=275">&gt;&gt;&nbsp;招生动态</a></span> 
+      <span><a href="teacher_list.php?fid=">&gt;&gt;&nbsp;本部门教师介绍</a></span> 
+      <span class="m"> 
+       <div id="spanbg">
+        <b>快速链接</b>
+       </div> </span>
+      <div id="spanbox"> 
+       <table> 
+       </table>
+      </div>
+     </div>
+     <div id="department_right">
+      <div id="department_right_title">
+       <div id="department_right_titlebg">
+        <span>中心动态</span>
+        <a href="#">更多&gt;&gt;</a>
+       </div>
+      </div>
+      <div id="view">
+       <div id="view_content">
+        <div id="view_title">
+         商学院在“第二届中国商学院领袖年会”上喜获殊荣
+        </div>
+        <div id="view_info">
+         发布时间:2012-12-03 11:12:575 作者/出处:科研 阅读次数 [767] 
+        </div> 
+        <p></p>
+        <p style="LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast" lang="EN-US">2012</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">年
+          <!--?xml:namespace prefix = st1 ns = "urn:schemas-microsoft-com:office:smarttags" /-->
+          <st1:chsdate year="2012" month="12" day="1" islunardate="False" isrocdate="False" w:st="on">
+           <span lang="EN-US">12</span>月
+           <span lang="EN-US">1</span>日
+          </st1:chsdate>在北京师范大学举办的“第二届中国商学院领袖年会暨<span lang="EN-US">2012</span>年度精英盛典”上,商学院喜获<span lang="EN-US">8</span>个奖项,载誉而归。<span lang="EN-US">
+           <!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /-->
+           <o:p></o:p></span></span></p>
+        <p style="LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">第二届中国商学院领袖年会暨<span lang="EN-US">2012</span>年度精英盛典是由中国<span lang="EN-US">MBA/EMBA</span>同学会主办,<span lang="EN-US">EFMD</span>(欧洲管理发展基金会)特别支持,北京师范大学经济与工商管理学院承办,中国地质大学人文经管学院、北京科技大学东凌经济管理学院联合承办,中外商学院代表、各界精英积极参与的中国商学院界年度盛会。年会邀请了国内外商学院院长,<span lang="EN-US">MBA</span>、<span lang="EN-US">EMBA</span>、<span lang="EN-US">EDP</span>中心主任,以及知名教授、企业家代表参会,到会嘉宾名单:<span lang="EN-US">
+           <o:p></o:p></span></span></p>
+        <p style="LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">国家教育部国际交流司副司长<a name="OLE_LINK24">陈盈晖</a>同志,<a name="OLE_LINK8"></a><a name="OLE_LINK7"><span style="mso-bookmark: OLE_LINK8">北京师范大学党委副书记王炳林教授,中国工程院院士李京文教授,</span></a><span lang="EN-US">EFMD</span>全球总裁、全球商学院联合会主席<span lang="EN-US">EricCornuel</span>教授,<span lang="EN-US">EFMD</span>副总裁<span lang="EN-US">Helke Carvalho Hernandes</span>女士,<span lang="EN-US">EFMD</span>高极顾问、<span lang="EN-US">GMAC</span>高极顾问、<span lang="EN-US">AACSB</span>委员、前香港中文大学管理学院院长罗文钰教授,亚太商学院联会创办者、<span lang="EN-US">AACSB</span>前董事、韩国科学技术院商学院前院长<span lang="EN-US">Sung Joo Park</span>教授,台湾國立政治大學商學院院长唐揆教授,历峰奢侈品集团亚太首席执行官李国法先生,巴黎高商国际发展部亚太区主管柏薇薇女士,<span lang="EN-US">EFMD</span>企业部负责人葛姗姗女士,<span lang="EN-US">EFMD</span>亚太总监李翀先生,北京化工大学副校长丁巨元教授,中国传媒大学校长助理吴延熊教授,法国昂热商学院副校长沈伟教授,北京师范大学经济与管理学院院长赖德胜教授,中国地质大学(北京)人文经管学院院长安海忠教授,北京科技大学东凌经济管理学院院长王文彬教授,哈尔滨工业大学管理学院院长于渤教授,北京邮电大学经济管理学院院长吕廷杰教授,中国传媒大学<span lang="EN-US">MBA</span>学院书记薛永斌教授,北京交通大学经济管理学院院长刘延平教授,北京信息科技大学经济管理学院院长葛新权教授,北京林业大学经济管理学院院长陈建成教授,南京林业大学管理学院院长温作民教授,西北农林科技大学院长霍学喜教授,河南财经政法大学<span lang="EN-US">MBA</span>学院书记王颢教授,新疆大学经济与管理学院院长杨建君教授,西安邮电大学经济与管理学院院长张鸿教授,河南大学工商管理学院院长张明正教授,北京师范大学经济管理学院副院长赵春明教授,北京师范大学经济管理学院副院长高明华教授,北京科技大学东凌经管学院副院长魏钧教授,浙江大学管理学院副院长卫龙宝教授,北京航空航天大学经济管理学院副院长方卫国教授,中国矿业大学管理学院副院长刘海滨教授,北京林业大学经济管理学院副院长张元教授,西安邮电大学经济与管理学院副院长张利教授,北京工商大学管理学院副院长张翔教授,西北农林科技大学副院长温晓林教授、对外经济贸易大学副院长范黎波教授,对外经济贸易大学助理院长王智慧教授,北京师范大学经管学院院长助理狄承锋教授,中国科学技术大学管理学院院长助理吴林教授,北京大学经济学院王大树教授,北京师范大学<span lang="EN-US">MBA</span>中心张平淡主任,浙江大学管理学院陈超主任,北京交通大学经济管理学院吕海军主任,新疆大学经济与管理学院马新智主任,西安理工大学经济与管理学院邓朝晖主任,上海外国语大学潘聪主任,吉林大学商学院王世强主任,北京邮电大学杨学成主任,北京理工大学管理与经济学院孙利沿主任,西北农林科技大学王军智教授,北方工业大学赵继新主任,北京化工大学运营管理与战略决策研究中心副主任、资源环境研究所所长沈凤武教授,北京工商大学刘文纲主任,中国对外翻译出版公司总经理、党委书记林国夫先生,中国教育在线总编陈志文先生,第一财经电视副总监李经衡先生,第一财经电视论坛部主任傅娆女士,香港卫视总经理助理陈超先生,包商银行董事长助理郭凯军先生,实地资本集团董事长邵东亚博士,国家大剧院发展部部长戴凯先生,国家大剧院发展部筹资主管王林群先生,中国<span lang="EN-US">MBA</span>网总裁马宏儒女士,中国<span lang="EN-US">MBA</span>教育网总裁甄诚先生,<span lang="EN-US">MBA</span>环球网总裁李岱臻先生等。<span lang="EN-US">
+           <o:p></o:p></span></span></p>
+        <p style="LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">年会颁发的最具创新力商学院奖项,旨在表彰<span lang="EN-US">2012</span>年度工作中具有创新精神、创新能力突出、创新业绩卓越的商学院。通过设立此奖项,表彰在“理念创新、教学创新、管理创新、培养模式创新、竞争力创新”等各个维度不断进取,构建持续创新体系,为商学院教育本土化发展做出突出贡献的商学院。以此推动更多的中国商学院注重创新理念,营造创新氛围,培养创新人才,结合现有院系乃至学校资源,拓展自己独特商学特色优势。商学院学子通过学习与就业中的亲身感受,是对商学院教育成果最有发言权的人群之一,此奖项重视在校在读和已毕业商学院学子对学院的认可程度,以及院校本身和其毕业生在社会各个领域的影响力。奖项也为更多关注商学院的备考人群,在其选择商学院、报考商学院的过程中提供一个重要的参考因素。<span lang="EN-US">
+           <o:p></o:p></span></span></p>
+        <p style="LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">年会颁发的商学院精英管理明星企业此奖项旨在表彰业绩突出、管理科学、贡献卓越、服务社会的商学院学子创立或管理的企业。评选范围包括<span lang="EN-US">MBA</span>、<span lang="EN-US">EMBA</span>、<span lang="EN-US">EDP</span>等接受过商学院教育的人群所管理的企业,包括民营企业、国有企业、央企、合资企业、外资企业等。纵观中国企业经营管理之路,无论是踏踏实实、一步一个脚印走来的创业企业家,还是运筹帷幄,不断创造商业奇迹的智慧管理者,绝大部分已毕业和未毕业的中国商学院学子发挥着重要作用。通过设立本奖项,把中国商学院管理教育与管理实践结合的成功案例展示给全社会。我院高级经理人<span lang="EN-US">MBA</span>班王世杰创办的企业—吉林泰安的士有限责任公司获此殊荣。<span lang="EN-US">
+           <o:p></o:p></span></span></p>
+        <p style="LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">我院<span lang="EN-US">MBA</span>学生周义文、孙凤彪、刘婧、倪雪微、孙凌晨获得了<span lang="EN-US">2012</span>年商学院学子精英的称号。此奖项旨在表彰<span lang="EN-US">2012</span>年度品学兼优、表现突出的优秀商学院<span lang="EN-US">MBA</span>学子,评选范围为在读或已毕业的<span lang="EN-US">MBA</span>学子。<span lang="EN-US">MBA</span>群体人才济济,众多学子成绩优异、品行敦厚、积极向上,在集体中发挥着榜样作用。通过中国商学院优秀<span lang="EN-US">MBA</span>学子奖项的设立,表彰其敬惜学业、德才兼备,以及服务校友、热爱公益、积极参与各项活动等方面的优秀表现,引领商学院<span lang="EN-US">MBA</span>学子健康风尚。</span></p>
+        <p style="LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast"><span lang="EN-US">
+           <o:p>
+            <img style="TEXT-ALIGN: center; MARGIN: 4px auto; WIDTH: 500px; DISPLAY: block; HEIGHT: 375px" src="http://biz.jlu.edu.cn/libs/SinaEditor/uploadfile/201212041354579633.JPG" />
+           </o:p></span></span></p>
+        <p style="LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">本届年会得到国家教育部、全国<span lang="EN-US">MBA</span>教育指导委员会的指导和支持,国家教育部国际交流司副司长陈盈晖同志出席会议,全国<span lang="EN-US">MBA</span>教育指导委员会秘书长仝允桓教授为大会发来贺信。中央电视台、第一财经、香港卫视等在现场进行了采访并将进行新闻报道,中国教育在线、新浪商学院、搜狐教育等多家网络媒体也对大会进行了全面报道。中国商学院领袖年会旨在提升整个商学院群体在全社会的品牌价值,已成为中国商学院界最有影响力的活动之一。<span lang="EN-US">
+           <o:p></o:p></span></span></p>
+        <p style="LINE-HEIGHT: 22pt; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast" lang="EN-US">
+          <o:p>
+           &nbsp;
+          </o:p></span></p>
+        <p style="LINE-HEIGHT: 22pt; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast" lang="EN-US">
+          <o:p>
+           &nbsp;
+          </o:p></span></p>
+        <p style="LINE-HEIGHT: 22pt; mso-line-height-rule: exactly" class="MsoNormal"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast" lang="EN-US">
+          <o:p>
+           &nbsp;
+          </o:p></span></p>
+        <p style="TEXT-ALIGN: right; LINE-HEIGHT: 22pt; mso-line-height-rule: exactly" class="MsoNormal" align="right"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">商学院专业学位招生办<span lang="EN-US">
+           <o:p></o:p></span></span></p>
+        <p style="TEXT-ALIGN: right; LINE-HEIGHT: 22pt; WORD-BREAK: break-all; mso-line-height-rule: exactly" class="MsoNormal" align="right"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast" lang="EN-US">2012-12-3<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+          <o:p></o:p></span></p>
+        <p></p> 
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- End Content -->
+   <!-- Foot -->
+   <div id="foot">
+    <div id="foot_left">
+     <ul>
+      <li><a href="index.php">返回首页&nbsp;&nbsp;&nbsp;</a>/</li>
+      <li><a href="announce.php?id=43">学院动态&nbsp;&nbsp;&nbsp;</a>/</li>
+      <li><a href="announce.php?id=44">招生信息&nbsp;&nbsp;&nbsp;</a>/</li>
+      <li><a href="schoolfellow.php">校友之家&nbsp;&nbsp;&nbsp;</a>/</li>
+      <li><a href="mail.html">院务信箱&nbsp;&nbsp;&nbsp;</a>/</li>
+      <li><a href="officelogin.php">内部办公</a></li>
+     </ul>
+    </div>
+    <div id="foot_right">
+     <p>版权所有&copy;吉林大学商学院<a href="http://www.miibeian.gov.cn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;吉ICP备06003538号&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;技术支持:<a href="http://www.jouhu.com">优狐科技</a></p>
+     <p>地址:中国吉林省长春市前进大街2699号吉林大学商学院&nbsp;&nbsp;&nbsp;邮编130012</p>
+     <p>电话:0431-85166347&nbsp;&nbsp;传真:0431-85166347</p>
+     <p>&nbsp;</p>
+    </div>
+   </div>
+   <!-- End Foot -->
+  </div>
+ </body>
+</html>

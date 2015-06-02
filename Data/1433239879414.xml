@@ -1,0 +1,871 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <title>2014(第十届)中国商业模式峰会</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <meta http-equiv="Content-Language" content="zh-CN" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+  <meta content="all" name="robots" />
+  <base target="_blank" />
+  <meta name="author" content="NetEase" />
+  <meta name="Copyright" content="Netease" />
+  <meta name="keywords" content="2014(第十届)中国商业模式峰会,网易财经" />
+  <meta name="description" content=" " />
+  <link href="http://img1.cache.netease.com/finance/css07/style.css" rel="stylesheet" type="text/css" />
+  <link href="http://img1.cache.netease.com/subject/images/subject091020/subject091020.css" rel="stylesheet" type="text/css" />
+  <link href="http://money.163.com/special/0025jt/10style.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body class="narrow money">
+  <a name="top"></a>
+  <!-- 门户导航 -->
+  <div class="bgForWide">
+   <div class="NTES_nav_ NTES_bg_"> 
+    <span class="NTES_logo"><a href="http://money.163.com/"><img alt="财经专题" src="http://img1.cache.netease.com/subject/images/newlogo100628/money.gif" /></a></span> 
+    <span class="nav_link"><a href="http://www.163.com/">网易首页</a>-<a href="http://news.163.com/">新闻</a>-<a href="http://sports.163.com/">体育</a>-<a href="http://ent.163.com/">娱乐</a>-<a href="http://money.163.com/">财经</a>-<a href="http://auto.163.com/">汽车</a>-<a href="http://tech.163.com/">科技</a>-<a href="http://digi.163.com/">数码</a>-<a href="http://mobile.163.com/">手机</a>-<a href="http://lady.163.com/">女人</a>-<a href="http://house.163.com/">房产</a>-<a href="http://game.163.com/">游戏</a>-<a href="http://book.163.com/">读书</a>-<a href="http://bbs.163.com/">论坛</a>-<a href="http://v.163.com/">视频</a>-<a href="http://blog.163.com/">博客</a>-<a href="http://t.163.com/">微博</a></span> 
+    <div class="top_search"> 
+     <form target="_blank" id="formtop" name="nisearch_top" method="get" action="http://news.yodao.com/search">
+      <input type="hidden" value="money.163" name="keyfrom" />
+      <input type="hidden" value="user163" name="suser" />
+      <input type="hidden" value="gbk" name="ue" />
+      <label><span class="hidden">搜索</span><input type="text" class="textBox" value="请输入关键词" onfocus="this.value=''" id="searchInput_top" name="q" /></label> 
+      <noscript>
+       <select name="site" class="left"> <option value="网易" selected="selected">新闻</option> <option value="">网页</option> </select>
+      </noscript> 
+      <div id="divSelect" class="left"> 
+      </div>
+      <input type="submit" class="btn" value="搜索" name="Submit" />
+      <input type="hidden" value="page" id="in" name="in" />
+     </form>
+     <a href="http://www.163.com/rss"><img width="26" height="14" border="0" alt="Rss" class="rss" src="http://img1.cache.netease.com/cnews/img07/rss.gif" /></a>
+    </div>
+   </div>
+   <script type="text/javascript">//<![CDATA[        (function NTES_Nav(){            function $_G(id){                return document.getElementById(id);            }            function clickselect(e){                e = e || window.event;                e.cancelBubble = true;                var name = this.innerHTML;                var txt = document.createTextNode(name);                selected.removeChild(selected.firstChild);                selected.appendChild(txt);                select_main.style.display = "none";                var title = this.getAttribute("title");                $_G("siteName").value = title;                if (title == "网易") {				document.nisearch_top.action = "http://news.yodao.com/search";				}				else {document.nisearch_top.action = "http://www.yodao.com/search";				}            }            function a_mouseover () {                this.className = "active";            }            function a_mouseout () {                this.className = "";            }            $_G("divSelect").innerHTML = '<input id="siteName" type="hidden" value="网易" name="site" /><div id="select_area" class="select_box"><span id="selected" class="search_site">新闻</span><div id="select_main" class="select_list"><a title="网易">新闻</a><a title="">网页</a></div></div>';            var select_area = $_G("select_area"), selected = $_G("selected"), select_main = $_G("select_main"), select_list = select_main.getElementsByTagName("a"), len = select_list.length;            select_area.onclick = select_main.onmouseover = function(){                select_main.style.display = "block";            }            select_main.onmouseout = function(){                select_main.style.display = "none";            }                        for (var i = 0; i < len; i++) {                select_list[i].onclick = clickselect;                select_list[i].onmouseover = a_mouseover;                select_list[i].onmouseout = a_mouseout;           }        })();//]]></script>
+  </div>
+  <!-- Banner -->
+  <!--!(ThePillsS)-->
+  <div class="banner" style="background:none;"> 
+   <img src="http://img5.cache.netease.com/stock/2014/12/5/201412051646128c3f0.jpg" alt="2014(第十届)中国商业模式峰会" />
+   <span class="moreSpecial"><a href="http://money.163.com/special/">更多财经专题</a></span>
+  </div>
+  <!--!(ThePillsE)-->
+  <!-- 专题导航 -->
+  <div class="navContent nav">
+   <table width="960" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+     <tr>
+      <td class="top_nav cWhite"><a href="http://money.163.com/" target="_self">网易财经</a>|<a href="#jb" target="_self">会议嘉宾</a>|<a href="#yc" target="_self">会议议程</a>|<a href="#yc" target="_self">评选标准</a>|<a href="#yc" target="_self">入围企业</a>|<a href="#tj" target="_self">现场图集</a></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <table width="960" border="0" cellspacing="10" cellpadding="0" class="bg_white"> 
+   <tbody>
+    <tr> 
+     <td> 
+      <table width="940" border="0" cellspacing="0" cellpadding="0" class="bg_white"> 
+       <tbody>
+        <tr> 
+         <!--左栏--> 
+         <td width="300" valign="top" class="colLeft"> 
+          <!--左侧模块开始-----------------------> 
+          <!--单头图-----------------------> 
+          <div class="focusPic bg02 clearfix"> 
+           <div class="cGray"> 
+            <div class="pic"> 
+             <a href="#"><img src="http://img1.cache.netease.com/stock/2014/12/5/20141205164544fe978.jpg" alt="" width="300" height="225" class="imgB1" /></a> 
+             <h3><a href="#">2014(第十届)中国商业模式峰会</a></h3> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="blank10"></div> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="titleBar titL"><h2 class="icon">官方指定合作媒体</h2> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <div class="blank6"></div> 
+          <table width="100%" border="0" cellspacing="10" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td><img src="http://img4.cache.netease.com/stock/2010/5/5/2010050519261629bc8.jpg" width="149" height="55" alt="网易财经" /></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <!--左侧模块结束-----------------------> </td> 
+         <td width="25" class="soildLineH"></td> 
+         <!--中栏--> 
+         <td width="370" valign="top"> 
+          <!--中栏模块开始-----------------------> 
+          <!--灰框导读-----------------------> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="10" style="background:#f8f8f8;">
+           <tbody>
+            <tr>
+             <td class="imgBg01 cGray" style="line-height:21px;"><p>导读:在这样一个被新工业时代、移动互联时代裹挟着往前赶甚至来不及回头的商业环境下,变化来得尖锐又激烈,与过去的自我交锋,与过往的成功挥手,与过时的思想诀别。一切都应该有新的面孔,新常态正在召唤新生态, 新生态源于商业模式的颠覆与重生。<br /> </p></td>
+            </tr>
+           </tbody>
+          </table> 
+          <!--中栏-头一头二摘要-----------------------> 
+          <div class="blank15"></div> 
+          <!--无分隔虚线-----------------------> 
+          <!--中栏-头一头二摘要-----------------------> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td> 
+              <!--!(ThePillsS)--> 
+              <!--!(ThePillsE)--> <h1 class="bigSize">2014(第十届)中国商业模式峰会</h1> <span class="cDGray">这一届最佳商业模式峰会主题聚焦于“变化与进化”。回顾这奔腾的十年,我们从2005年第一次聚焦国内优秀商业模式,定位于“启蒙:正本与探索”,认识并学着构建商业模式,一步步创新、优化、升级,商业模式的每一次革新都在助推着公司迈上新的竞争台阶。</span> <a href="http://money.163.com/14/1223/15/AE5LIMLL002554M0.html" class="cDRed">[详细]</a> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <div class="blank15"></div> 
+          <!--有分隔虚线,每5条分隔-----------------------> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="titleBar titM"><h2 class="icon f14px">最新报道</h2> <span class="more"></span></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td> 
+              <div class="blank10"></div> 
+              <ul class="f14px"> 
+               <!--!(ThePillsS)--> 
+               <!--!(ThePillsE)--> 
+               <li><a href="http://money.163.com/14/1224/18/AE8GJAQ2002554M0.html">赵辉:创新的商业模式需要技术和产品支撑</a> <span class="cDGray f12px">(12-24)</span></li> 
+               <!--!(ThePillsE)--> 
+               <li><a href="http://money.163.com/14/1224/18/AE8GFRHU002554M0.html">陈磊:口碑是生存之道</a> <span class="cDGray f12px">(12-24)</span></li> 
+               <!--!(ThePillsE)--> 
+               <li><a href="http://money.163.com/14/1224/18/AE8GAGLI002554M0.html">邵玉鹏:用互联网技术来帮助传统商业</a> <span class="cDGray f12px">(12-24)</span></li> 
+               <!--!(ThePillsE)--> 
+               <li><a href="http://money.163.com/14/1224/17/AE8G56FT002554M0.html">高扬:成本优势是核心资源</a> <span class="cDGray f12px">(12-24)</span></li> 
+               <!--!(ThePillsE)--> 
+               <li><a href="http://money.163.com/14/1224/17/AE8FPPUM002554M0.html">刘昕:认可是创业人的原动力</a> <span class="cDGray f12px">(12-24)</span></li> 
+              </ul> 
+              <div class="dotLineW"></div>
+              <div class="blank3"></div> 
+              <ul class="f14px"> 
+              </ul> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <div class="blank15"></div> 
+          <!--中栏模块结束-----------------------> </td> 
+         <td width="15"></td> 
+         <td width="228" valign="top" class="colRight"> 
+          <!--右侧模块开始-----------------------> 
+          <!--事件背景-------------------------> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="titleBar titR"><h3 class="icon">会议信息</h3></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="100%" border="0" cellspacing="10" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td height="344" style="line-height:180%">
+              <dl> 
+               <img src="http://img4.cache.netease.com/stock/2014/12/10/20141210185951cc18f.jpg" width="200" height="110" /> 
+               <div class="blank6"></div> 
+               <p>时间:2014年12月18日 </p>
+               <dl> 
+                <dd> 
+                 <p>地点:中国 北京千禧大酒店</p> 
+                </dd>
+                <dd> 
+                 <p>主办单位:商界传媒</p> 
+                 <p>承办单位:《商界》《商界评论》</p> 
+                </dd> 
+               </dl> 
+               <dt>
+                &nbsp;
+               </dt> 
+               <dd> 
+                <p>&nbsp;</p> 
+               </dd>
+              </dl> <p>&nbsp;</p> 
+              <dl> 
+               <dd> 
+                <p>&nbsp;</p> 
+               </dd>
+               <dd> 
+               </dd>
+               <dt>
+                &nbsp;
+               </dt> 
+              </dl> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <!--右侧模块结束-----------------------> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <!--现场图片-------------------------> <a name="jb"></a>
+      <table width="960" border="0" cellspacing="0" cellpadding="0" class="bor"> 
+       <tbody>
+        <tr> 
+         <td class="titleBar tit960"><h2 class="icon f14px">会议嘉宾</h2><span class="more"><a href="#top" target="_self">返回顶部</a></span></td> 
+        </tr>
+       </tbody>
+      </table> 
+      <table width="960" border="0" cellspacing="10" cellpadding="0" class="aWhiteBg"> 
+       <tbody>
+        <tr> 
+         <td width="160" style="vertical-align:top;"> 
+          <div style="width:160px;height: 210px;border:1px solid #ddd;"> 
+           <div style="margin:5px;width:150px;height:200px;overflow:hidden;">
+            <table width="150" height="200" border="0" cellpadding="0" cellspacing="0">
+             <tbody>
+              <tr>
+               <td style="width:150px;height:200px;vertical-align:middle;text-align:center;"> <a href="http://money.163.com/photoview/4UKN0025/17037.html#p=ACNBTM0H4UKN0025" title="樊  纲,国民经济研究所所长"><img src="http://img4.cache.netease.com/photo/0025/2014-12-05/t_ACNBTM0H4UKN0025.jpg" alt="樊  纲,国民经济研究所所长" style="text-align:center;vertical-align:middle;" /></a></td>
+              </tr>
+             </tbody>
+            </table> 
+           </div> 
+          </div><a href="http://money.163.com/photoview/4UKN0025/17037.html#p=ACNBTM0H4UKN0025" title="樊  纲,国民经济研究所所长">樊 纲,国民经济研究所所长</a></td> 
+         <td width="15"></td> 
+         <td width="160" style="vertical-align:top;"> 
+          <div style="width:160px;height: 210px;border:1px solid #ddd;"> 
+           <div style="margin:5px;width:150px;height:200px;overflow:hidden;">
+            <table width="150" height="200" border="0" cellpadding="0" cellspacing="0">
+             <tbody>
+              <tr>
+               <td style="width:150px;height:200px;vertical-align:middle;text-align:center;"> <a href="http://money.163.com/photoview/4UKN0025/17037.html#p=ACNBTM3T4UKN0025" title="季 琦,华住酒店集团董事长"><img src="http://img3.cache.netease.com/photo/0025/2014-12-05/t_ACNBTM3T4UKN0025.jpg" alt="季 琦,华住酒店集团董事长" style="text-align:center;vertical-align:middle;" /></a></td>
+              </tr>
+             </tbody>
+            </table> 
+           </div> 
+          </div><a href="http://money.163.com/photoview/4UKN0025/17037.html#p=ACNBTM3T4UKN0025" title="季 琦,华住酒店集团董事长">季 琦,华住酒店集团董事长</a></td> 
+         <td width="15"></td> 
+         <td width="160" style="vertical-align:top;"> 
+          <div style="width:160px;height: 210px;border:1px solid #ddd;"> 
+           <div style="margin:5px;width:150px;height:200px;overflow:hidden;">
+            <table width="150" height="200" border="0" cellpadding="0" cellspacing="0">
+             <tbody>
+              <tr>
+               <td style="width:150px;height:200px;vertical-align:middle;text-align:center;"> <a href="http://money.163.com/photoview/4UKN0025/17037.html#p=ACNBTMAA4UKN0025" title="滕斌圣,长江商学院副院长"><img src="http://img3.cache.netease.com/photo/0025/2014-12-05/t_ACNBTMAA4UKN0025.jpg" alt="滕斌圣,长江商学院副院长" style="text-align:center;vertical-align:middle;" /></a></td>
+              </tr>
+             </tbody>
+            </table> 
+           </div> 
+          </div><a href="http://money.163.com/photoview/4UKN0025/17037.html#p=ACNBTMAA4UKN0025" title="滕斌圣,长江商学院副院长">滕斌圣,长江商学院副院长</a></td> 
+         <td width="15"></td> 
+         <td width="160" style="vertical-align:top;"> 
+          <div style="width:160px;height: 210px;border:1px solid #ddd;"> 
+           <div style="margin:5px;width:150px;height:200px;overflow:hidden;">
+            <table width="150" height="200" border="0" cellpadding="0" cellspacing="0">
+             <tbody>
+              <tr>
+               <td style="width:150px;height:200px;vertical-align:middle;text-align:center;"> <a href="http://money.163.com/photoview/4UKN0025/17037.html#p=ACNBTMBG4UKN0025" title="沈南鹏,红杉资本中国基金合伙人"><img src="http://img4.cache.netease.com/photo/0025/2014-12-05/t_ACNBTMBG4UKN0025.jpg" alt="沈南鹏,红杉资本中国基金合伙人" style="text-align:center;vertical-align:middle;" /></a></td>
+              </tr>
+             </tbody>
+            </table> 
+           </div> 
+          </div><a href="http://money.163.com/photoview/4UKN0025/17037.html#p=ACNBTMBG4UKN0025" title="沈南鹏,红杉资本中国基金合伙人">沈南鹏,红杉资本中国基金合伙人</a></td> 
+         <td width="15"></td> 
+        </tr>
+       </tbody>
+      </table> </td>
+    </tr>
+   </tbody>
+  </table> 
+  <!--现场图片-------------------------> 
+  <a name="yc"></a> 
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bor"> 
+   <tbody>
+    <tr> 
+     <td class="titleBar tit960"><h2 class="icon f14px">会议议程</h2> <span class="more"><a href="#top" target="_self">返回顶部</a></span></td> 
+    </tr>
+   </tbody>
+  </table>
+  <table border="0" cellspacing="0" cellpadding="0" width="940" class="data"> 
+   <tbody> 
+    <tr> 
+     <td width="176"><p><strong>12月18日 星期四 </strong></p></td> 
+     <td width="473"><p align="left"></p></td> 
+     <td width="290"><p align="left"></p></td> 
+    </tr> 
+    <tr> 
+     <td><p>13:30</p></td> 
+     <td><p>年度报告:<strong>商业模式的中国式升级</strong></p> <p align="left"></p></td> 
+     <td><p><strong>演讲嘉宾:</strong></p> <p>滕斌圣,长江商学院副院长 </p></td> 
+    </tr> 
+    <tr> 
+     <td><p>14:00</p></td> 
+     <td><p>主题演讲:<strong>新技术引爆变革时代 </strong></p> </td> 
+     <td><p><strong>演讲嘉宾:</strong></p> <p>沈南鹏,红杉资本合伙人 </p></td> 
+    </tr> 
+    <tr>
+     <td><p>14:30</p></td> 
+     <td><p>2014年度最佳商业模式颁奖典礼</p> </td> 
+     <td><p align="left"></p></td> 
+    </tr> 
+    <tr> 
+     <td><p>14:45</p></td> 
+     <td><p>2014年度新锐商业模式颁奖典礼</p> <p align="left"></p></td> 
+     <td><p align="left"></p></td> 
+    </tr> 
+    <tr> 
+     <td><p>15:00</p></td> 
+     <td colspan="2"><p>CEO模式自述:画出你的商业模式(附商业模式画布)</p> <p align="left"></p></td> 
+    </tr> 
+    <tr> 
+     <td><p>16:00</p></td> 
+     <td><p>圆桌对话:变革时代的商业新起点</p> <p align="left"></p></td> 
+     <td><p align="left"><br /> </p> </td> 
+    </tr> 
+    <tr> 
+     <td><p>17:00</p></td> 
+     <td><p>峰会结束</p> </td> 
+     <td><p align="left"><br /> </p> </td> 
+    </tr>
+   </tbody>
+  </table>   
+  <p><a name="yc"></a> </p> 
+  <p>&nbsp;</p> 
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bor"> 
+   <tbody>
+    <tr> 
+     <td class="titleBar tit960"><h2 class="icon f14px">评选标准</h2> <span class="more"><a href="#top" target="_self">返回顶部</a></span></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <p><img src="http://img4.cache.netease.com/stock/2014/12/11/201412111350487e9b2.png" width="908" height="911" />    </p> 
+  <p><img src="http://img1.cache.netease.com/stock/2014/12/11/201412111616139f385.png" width="816" height="402" /> </p> 
+  <p><a name="yc"></a> </p> 
+  <p>&nbsp;</p> 
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bor"> 
+   <tbody>
+    <tr> 
+     <td class="titleBar tit960"><h2 class="icon f14px">入围企业</h2> <span class="more"><a href="#top" target="_self">返回顶部</a></span></td> 
+    </tr>
+   </tbody>
+  </table>
+  <table border="0" cellspacing="0" cellpadding="0" width="940" class="data"> 
+   <tbody> 
+    <tr> 
+     <td colspan="9"><p><strong>2014最佳商业模式</strong></p> <p align="left"> </p><p align="left"></p></td> 
+    </tr> 
+    <tr> 
+     <td width="83"><p>K11</p> </td> 
+     <td width="94">德邦</td> 
+     <td width="115">红星美凯龙</td> 
+     <td width="111">慧聪网</td> 
+     <td width="107">京东</td> 
+     <td width="120">海尔日日顺</td> 
+     <td width="105">家登精密工业</td> 
+     <td width="96">宜家</td> 
+     <td width="108">步步高商业</td> 
+    </tr> 
+    <tr> 
+     <td>秒银科技</td> 
+     <td>1919</td> 
+     <td>大地影院</td> 
+     <td>美团网</td> 
+     <td>瀚华金控</td> 
+     <td>众泰汽车</td> 
+     <td>瀚亚资本</td> 
+     <td>雅旌净水</td> 
+     <td>&nbsp;</td> 
+    </tr> 
+    <tr>
+     <td colspan="9"><p><strong>2014新锐商业模式</strong></p> <p align="left"></p></td> 
+    </tr> 
+    <tr> 
+     <td><p>u+青年公寓</p> <p align="left"> </p><p align="left"></p></td> 
+     <td>丁香园</td> 
+     <td>房多多</td> 
+     <td>口袋购物</td> 
+     <td>猎聘网</td> 
+     <td>买多网</td> 
+     <td>美乐乐</td> 
+     <td>陌陌</td> 
+     <td>全峰快递</td> 
+    </tr> 
+    <tr> 
+     <td><p>满意通达</p> <p align="left"></p></td> 
+     <td>百田游戏</td> 
+     <td>美丽说</td> 
+     <td>趣分期</td> 
+     <td>微妮</td> 
+     <td>月王</td> 
+     <td>伟鹏集团</td> 
+     <td>汇通达</td> 
+     <td>&nbsp;</td> 
+    </tr>
+   </tbody>
+  </table>   
+  <p> 
+   <!--图片02-------------------------> <a name="tj"></a></p> 
+  <p>&nbsp; </p> 
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bor"> 
+   <tbody>
+    <tr> 
+     <td class="titleBar tit960"><h2 class="icon f14px">现场图集</h2><span class="more"><a href="#top" target="_self">返回顶部</a></span></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <!--!(ThePillsS)--> 
+  <div style="width:960px;margin:auto;">
+   <link href="http://img1.cache.netease.com/cnews/img/gallery11/nph_gallery_2.11.css" rel="stylesheet" type="text/css" />
+   <style type="text/css">#gallery17038 .nph_photo_view{ height:600px; }#gallery17038 .nph_stream, #gallery17038 .nph_search{ height:800px;}*html .nph_photo_view .infoPreviewBottom { bottom :0!important; }</style>
+   <div class="nph_gallery nph_skin_white" id="gallery17038">
+    <div class="nph_bg">
+     <div class="nph_cnt clearfix">
+      <div class="nph_extra">
+       <a href="http://money.163.com/special/00251KLQ/photos.html" class="cBlue">更多高清图集</a>
+      </div>
+      <div class="nph_set_info">
+       <div id="setInfo17038">
+        <div class="nph_set_title">
+         <h2><a href="http://money.163.com/photoview/4UKN0025/17038.html">商业模式峰会现场图</a></h2>
+         <span class="nph_set_cur hidden" id="photoType17038">(<span id="photoIndex17038" class="nph_c_lh"></span>/4)</span>
+         <span class="nph_set_size" id="streamType17038">(共<span class="nph_c_lh">4</span>张)</span>
+        </div>
+        <p></p>
+       </div>
+       <div id="searchTheme17038" class="hidden">
+        <a href="" class="nph_btn_return" id="viewPhoto17038">&lt; 返回</a>
+        <h3 class="hidden">找到<span></span>相关图片<span class="nph_search_count">(共<span class="nph_c_lh"></span>张)</span></h3>
+        <h3 class="hidden">未找到<span></span>相关图片</h3>
+       </div>
+      </div>
+     </div>
+     <span class="nph_hr_solid"></span>
+     <div id="modePhoto17038" class="nph_photo">
+      <div class="nph_photo_view">
+       <div class="nph_cnt" id="photoView17038">
+        <i></i>
+        <img src="http://img1.cache.netease.com/cnews/img/gallery11/bg06.png" id="photo17038" />
+       </div>
+       <div class="nph_photo_prev">
+        <a href="#" hidefocus="true" class="nph_btn_pphoto" id="photoPrev17038" target="_self"></a>
+       </div>
+       <div class="nph_photo_next">
+        <a href="#" hidefocus="true" class="nph_btn_nphoto" id="photoNext17038" target="_self"></a>
+       </div>
+       <div class="nph_photo_loading" id="photoLoading17038"></div>
+      </div>
+      <div class="nph_cnt">
+       <div class="nph_photo_ctrl">
+        <ul></ul>
+       </div>
+       <div class="nph_photo_desc" id="photoDesc17038"></div>
+      </div>
+      <span class="nph_hr_solid"></span>
+      <div class="nph_cnt clearfix">
+       <div class="nph_photo_thumb" id="scrl17038">
+        <div class="clearfix">
+         <div class="nph_scrl">
+          <div class="nph_scrl_thumb">
+           <div class="nph_scrl_main">
+            <ul class="nph_list_thumb" id="thumb17038"></ul>
+           </div>
+           <div class="nph_scrl_bar clearfix">
+            <span class="nph_scrl_lt"></span>
+            <span class="nph_scrl_rt"></span>
+            <div class="nph_scrl_bd">
+             <div class="nph_scrl_ct">
+              <a href="" hidefocus="true" class="nph_btn_scrl" id="bar17038"><b class="nph_btn_lt"></b><b class="nph_btn_rt"></b><span class="nph_btn_bd"><span><b class="nph_btn_ct"></b></span></span></a>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <span class="nph_scrl_prev"><a href="" hidefocus="true" class="nph_btn_pscrl" id="scrlPrev17038"></a></span>
+         <span class="nph_scrl_next"><a href="" hidefocus="true" class="nph_btn_nscrl" id="scrlNext17038"></a></span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <textarea class="hidden" id="photoList17038">&lt;li&gt;&lt;a href=&quot;#p=AE5N38LV4UKN0025&quot; hidefocus=&quot;true&quot;&gt;&lt;img src=&quot;http://img3.cache.netease.com/photo/0025/2014-12-23/s_AE5N38LV4UKN0025.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;h2&gt;&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;i title=&quot;img&quot;&gt;http://img3.cache.netease.com/photo/0025/2014-12-23/AE5N38LV4UKN0025.jpg&lt;/i&gt;&lt;i title=&quot;timg&quot;&gt;http://img3.cache.netease.com/photo/0025/2014-12-23/t_AE5N38LV4UKN0025.jpg&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#p=AE5N399C4UKN0025&quot; hidefocus=&quot;true&quot;&gt;&lt;img src=&quot;http://img3.cache.netease.com/photo/0025/2014-12-23/s_AE5N399C4UKN0025.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;h2&gt;&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;i title=&quot;img&quot;&gt;http://img4.cache.netease.com/photo/0025/2014-12-23/AE5N399C4UKN0025.jpg&lt;/i&gt;&lt;i title=&quot;timg&quot;&gt;http://img3.cache.netease.com/photo/0025/2014-12-23/t_AE5N399C4UKN0025.jpg&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#p=AE5N3A5N4UKN0025&quot; hidefocus=&quot;true&quot;&gt;&lt;img src=&quot;http://img4.cache.netease.com/photo/0025/2014-12-23/s_AE5N3A5N4UKN0025.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;h2&gt;&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;i title=&quot;img&quot;&gt;http://img4.cache.netease.com/photo/0025/2014-12-23/AE5N3A5N4UKN0025.jpg&lt;/i&gt;&lt;i title=&quot;timg&quot;&gt;http://img3.cache.netease.com/photo/0025/2014-12-23/t_AE5N3A5N4UKN0025.jpg&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#p=AE5N3AJ24UKN0025&quot; hidefocus=&quot;true&quot;&gt;&lt;img src=&quot;http://img4.cache.netease.com/photo/0025/2014-12-23/s_AE5N3AJ24UKN0025.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;h2&gt;&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;i title=&quot;img&quot;&gt;http://img4.cache.netease.com/photo/0025/2014-12-23/AE5N3AJ24UKN0025.jpg&lt;/i&gt;&lt;i title=&quot;timg&quot;&gt;http://img4.cache.netease.com/photo/0025/2014-12-23/t_AE5N3AJ24UKN0025.jpg&lt;/i&gt;&lt;/li&gt;</textarea>
+     <div id="galleryTpl17038" class="hidden"></div>
+    </div>
+   </div>
+   <script type="text/javascript" language="javascript" src="http://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js" charset="gb2312"></script>
+   <script type="text/javascript" language="javascript" src="http://img1.cache.netease.com/cnews/js/ntes_jslib_ui_0.x.js" charset="gb2312"></script>
+   <script type="text/javascript" language="javascript" src="http://img1.cache.netease.com/cnews/img/gallery11/ntes_ui_scroll.js" charset="gb2312"></script>
+   <script type="text/javascript" language="javascript" src="http://img1.cache.netease.com/cnews/img/gallery11/nph_gallery_2.21.js" charset="gb2312"></script>
+   <script type="text/javascript">	NTES.ready(function ($) { new nph.Gallery({ sn: "17038" }); });	</script>
+   <img src="http://img2.cache.netease.com/nocache/statistic/mod003.gif" width="0" height="0" border="0" />
+   <style type="text/css">.nph_skin_white{ border: none;}.nph_photo_desc h2 {min-height:0;_height:0;overflow:hidden}</style>
+  </div>
+  <!--!(ThePillsE)--> 
+  <a name="sl"></a>
+  <!--文字实录------------------------->
+  <style>.bg01{ background:#FFF}.cDGray,.cDGray:visited,.cDGray a{color:#999999;}.memoir {overflow: auto;height:400px;}.memoir p { margin-bottom:5px; text-indent:2em}</style>
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bor"> 
+   <tbody>
+    <tr> 
+     <td class="titleBar tit960"><h2 class="icon f14px">文字实录</h2> <span class="more"><a href="#top" target="_self">返回顶部</a></span></td> 
+    </tr>
+   </tbody>
+  </table>
+  <table width="960" cellspacing="10" cellpadding="0" class="bg_white"> 
+   <tbody>
+    <tr> 
+     <td>
+      <div class="memoir">
+       <p>张鸿:尊敬的各位来宾,女士们,先生们:大家下午好!欢迎各位来到2014最佳商业模式中国峰会的现场,我是中央电视台财经频道的评论员张鸿,很荣幸为大家主持今天下午的论坛。说到荣幸,大家看上面有一个“十”字,这个峰会已经举办了十届,我很荣幸陪伴着这个峰会走过了这十年,这十年的过程当中,我作为一个经济的观察者,通过这样一个平台能够深切的感受到中国的企业,在整个的科技发展和宏观经济的变化当中所经受的一些挣扎和探索,我们知道这十年可能是中国商业模式、商业创新最多的十年。</p>
+       <p>大家可能很难想象,比如刚才我来到这个会场,是通过手机叫的出租车,然后我下车的时候根本就不用掏钱,我直接就支付了,十年前当我们第一次举办这个峰会的时候,我猜没有人能够想到我们今天可以这样打车。当然了,我们可能很多人也不能想到,我们今天可以这样买东西,这样卖东西,这样看电视,我作为一个电视台的人,其实一直对我们电视台的未来生存感到非常大的忧虑。</p>
+       <p>除了科技还有经济的变化,比如金融危机,比如我们现在经济在极度的下行当中,我们上行压力非常之大,这两天石油的价格也跌得非常厉害,这十年我们的创新就伴随着,就在这样一个困难、困境当中,其实一直有一些企业在探索着新的创新模式。</p>
+       <p>我们可以看到的是,我们这十年的关键词,比如说我们曾经有过主题词叫任性,有钱就任性,我们当时出这个主题词的时候是没钱时候的任性,我们有过复苏,有过新生态,今天我们的主题词是什么?是变化和进化,这也是一个非常动态的这样的创新的过程。在今天的峰会中我们会评出年度最佳商业模式,年度新锐的商业模式,还有我们还会听到长江商学院滕斌圣副院长的主题演讲,有商业模式专家 清华大学经济管理学院金融系副主任 朱武祥 教授的演讲。 同时,我们将会用商业模式画布自述的方式,让部分获奖企业代表展示自己的商业模式逻辑,与大家分享商业模式智慧。</p>
+       <p>感谢论坛的组织机构,为我们提供了这次交流的机会。本届峰会,由商界传媒主办,《商界评论》杂志、《商界》杂志承办,联合承办方是长江商学院、达晨创投、优势资本。特约门户网络——新浪网,指定门户网络——网易财经频道,特约户外合作媒体凤凰都市传媒。看商界、商界招商网、PPTV、新浪财经、金融界将视频直播本次峰会。网易财经频道、东方财富网将图文直播本届峰会。在现场我们也可以看到新浪有微博墙,大家可以发微博,把精彩的观点在现场和大家分享,关键词是什么呢?是商业模式中国峰会,我们可以进行场上场下台上台下的互动。今天来到现场的除了主办方邀请的嘉宾,还有中国品牌管理研究中心、智雍商学院邀请的嘉宾,欢迎各位的到来。</p>
+       <p>下面我们迅速进入今天的峰会议程,首先,由本届商业模式峰会的主办方商界传媒集团致辞。有请论坛主席、商界传媒集团董事长刘旗辉先生!有请。</p>
+       <p>刘旗辉:大家下午好。我自己认为,这可能是最佳商业模式今后能够举办多少次我不说,但是今天在这里我想说的是,可能我是最后一次代表我们集团做这样的致辞,为什么这样说呢?既然说是商业模式,我想先讲一个小插曲。从今年开始,我正式辞去了总裁和总编辑的职务,让我们小周总正式担任重任,周忠华站起来给大家示意一下,这个不是说着玩的,今年开始我们集团的财务也交给周总管起来,张鸿问我我做什么呢?三个商机,第一个商机是当好董事长,第二个商机做点自己喜欢的事,发点微信、微博,还有打打高尔夫,第三个商机就是陪陪家人,张鸿说这是人生的最高境界,我想办20年《商界》杂志,又办《家人》杂志,为我们所有的,说中国有点大了,所有的拥有财富的人,在创业的人,在致富的道路上我们应该有自己的价值观和人生观。所以今天在这里加一个小插曲,本来我们《商界》杂志走过20年,我是想在20周年的庆典上宣布这个事,我也希望媒体不要把这个事披露出去,本来是我们内部的事,媒体把这种事搞得太大了,只有坏处,一点好处没有,在今天这里很多都是朋友,把这个内部的消息正式披露给大家。</p>
+       <p>当然我今后还是会活跃在各个“名利场”上,说实话我这个人比较低调,但是我从事的工作全都是“名利场”上的工作,要去致辞,我跟他们讲致辞、座谈,还要拉关系,大家交朋友,全是抛头露面的事,其实我不是,至少一半不是很喜欢,但是出于工作的原因没有办法。今天我是刚下飞机直接飞到这里来,跟大家做一个交流。</p>
+       <p>首先,欢迎大家参加今天的最佳商业模式的中国峰会,这个峰会我们已经做了十年了,最早我记得提出这个概念的时候,那时候国内基本上没有一个媒体,没有一家企业,甚至咨询机构提出这个概念,当然现在很多人都已经在研究和关注商业模式,我倒不是说我们起了什么很好的带头作用,但是至少我认为我们应该说很早,十年前就关注了这一块,应该说对我们来讲的话,还是一个比较艰巨而重要的工作。</p>
+       <p>从今年5月以来,大家听的最多的一个词就是“经济新常态”,我的理解是这样的,如果过去几十年持续高速增长的旧常态,那么目前经济发展下滑,就是新常态,最关键的就是下滑可能持续相当一段时间。昨天我参加了我们政协常委会,在会上大家都有一个笑话,现在改不动的事就叫“在路上”,改不了,甚至于充满了艰巨的一些现象,当然不仅仅是经济现象,就叫“新常态”,或者我们再发言当中昨天讨论很多新问题,大家说下一个事就是“新常态”,再说下去就是“在路上”,为什么我们中国人老是在路上,一辈子都在路上,后来还是一个广电集团的领导说,其实在路上也没错,比如说去旅游、自驾游,在路上很舒坦还是可以的,但是你如果走的很艰巨,都在长征路上,那个在路上就有点痛苦。所以我想不管我们探讨什么样的经济现象,什么样的商业模式,大家抱着一种“在路上”,对所有的东西都是“新常态”的心态,我想对于我们目前的问题来说就会有一个良好的心态。</p>
+       <p>那么我们如何应对未来几年甚至更长的时间中国经济的新常态呢?我认为主要有以下三个着力点:第一,以进化应对变化,主动创新。这个问题我不是专家,一会儿滕院长来讲,但是我想主动创新这个东西说起来很容易,但是能够真正做到不容易,我经常在想,我们中国人的文化背景和我们所属的现实文化,确实与我们的创新精神,真的是一种巨大的束缚,你想做我们这个行业,我们在遇到很多问题的时候都要想到,想什么?这句话说出去人家怎么想?事做了以后又应该是什么样的后果?所以对我们自身来讲,主动创新的意识,我认为真的需要有待极大的提高和探索。</p>
+       <p>另外一个,在商业模式的实践中,进行人的重启,充分释放人的价值。这一点我自己感悟很深,我认为其实我们有时候在进行很多工作的时候,我们更多的应该去关注人的需要,其实有的时候发展规律、经济规律,同志们,我认为所有的规律都是人性的规律,但是我们不一定有时候去主动意识到这些问题。我认为现在经常在谈中国文化、当前什么什么样的文化,我认为当前很多人关注的是什么文化?权文化、钱文化,很少有人关注关于人的文化。所谓的权文化,就是我们大家很清楚的关注的什么内容我就不多讲了,所谓的钱文化,实际上现在找一个好的词来说就是经济财富大量的书籍、报刊关注这个问题。但是我们有很少很少的文化在关注我们自身,我们人自身的文化,这一点,我认为我个人认为这是东西方文化很大的根本性的差距,或者说差异。所以我们现在我认为,怎样进行人的重启,充分释放人的价值,这一点可能是我们今天在座企业家们应该关注的东西。</p>
+       <p>第三,打破企业边界,重构商业模式。十年前,商业模式还是一个相对封闭于企业内部的课题,只强调单个企业创新资源,然后创造价值。而今天,商业模式的内涵和外延,不再限于企业内部,任何一个企业在进行商业模式设计的时候,都必须打破企业边界,将目光投注于企业外部的利益相关者。所有企业的商业路径的重新设计,随时不断优化组织结构与合作的关系,我认为没有最成功的商业模式,只有最契合时代的商业模式,所以我们才会在过去的十年间用大量的时间和精力去研究当年中国企业商业模式的变化和探索,对其中的佼佼者褒奖和致敬。当然在进化中,我们必须坚守,坚守善意的模式,坚守为用户创造价值的初衷,坚持和谐共赢的商业道德,因为不管世界和时代怎么变,那些商业价值观永远不会变。</p>
+       <p>最后预祝本年度最佳商业模式和新锐商业模式的企业能够在变化中坚守,在进化中发展,也希望接下来即将上场的各位分享嘉宾能够拨动现场企业家心中的那根进化之弦。还有一句,真心感谢各位“在路上”的企业家,世界依然年轻,我们不能变老,谢谢大家。</p>
+       <p>张鸿:谢谢刘总的致辞,刘总开始了新的人生之路,也希望刘总在人生的新常态下,一直在路上走得好。接下来还有一个重要的嘉宾因为身体的原因不能来到现场,他就是全球著名的战略定位专家,杰克&middot;特劳特先生。特劳特被摩根士丹利推崇为高于迈克尔&middot;波特的战略家,被誉为&quot;定位之父&quot;。由于不能亲来现场,他本人录制了一段视频,为论坛十年送来祝贺。下面,我们一起来看特劳特先生发来视频。</p>
+       <p>播放视频</p>
+       <p>张鸿:讲一个好故事是做媒体最高的要求,也是最高的追求,我相信不光对《商界》,还对今天分享的企业家们来说也有好的故事跟我们分享,我们这几年一直谈一个词“互联网思维”,互联网思维到底是什么?可能还很难有一个精准的定义,我个人感觉可能就是改变了人和人的距离和交流方式,改变了几乎所有的互动方式。在这种特质下,商业中管理、市场、用户、战略都要重新解读,所有有人说未来的企业没有一个不是互联网公司,都得是互联网公司,接下来我们有请长江商学院副院长滕斌圣教授,他的主题演讲的题目是:互联网思维下的模式创新。有请。</p>
+       <p>滕斌圣:尊敬的各位来宾,大家下午好。大家知道这几天说的很流行的一个词就是有钱就任性,后半局是什么呢?没钱就认命,不管你是任性也好认命也好,商业模式,尤其在现在的大环境之下,如何来应对,还是一个绕不开的话题,大家知道最近讨论非常热烈的一个话题就是格力董明珠董总和小米的雷军有一个隔空的论战,因为他们是在一个论坛的不同天上场,所以是隔空的,但是非常的激烈,以及在我们长江商学院的微信群里也分成了激烈的两派,大家对这个问题是各抒己见,各自的立场完全对立。支持互联网的这一派认为像小米的打法的确是做风口的猪,利用哪怕有限的风力也飞到了最高,但是校友里面也有大量是做传统企业的,做制造业,有一些还真的有自己很好的技术,这些企业家基本上站在董总这边,认为小米的这种做法只是博一时的眼球,但是很难长足。所以他们认为董总这样的,虽然话说的有一点刺激性,但是还是真性情的变化,这些掌握核心科技的公司在中国未来是真正的佼佼者。</p>
+       <p>所以大家看到对互联网的问题众说纷纭,大家因为本来的资源不一样,我们讲路径是依赖的,你未来怎么走,很大程度上依赖你过去是怎么一路走来的,这样来看的话,每个人的判断不一样,是完全正确的。但是呢,我今天想表达的一个观点就是不管你是不是在和互联网高度结合的行业,你必须要知道风在往哪一边刮,你不一定做风口的猪,但是至少要知道猪是怎么飞起来的。但是有一些企业家认命,所谓的认命不是一个贬义词,他其实是说知道了趋势,而怎么去结合。大家知道几个月前曾经也有一个小小的论战,当然没有这么激烈,杨元庆和我们的校友粱信军之间他们两个人参加同一个论坛,先是联想的杨元庆发言,他说有些做手机的企业,唯一的能力就是营销能力,自己并没有什么技术,所以我们不认为这是一种长期能够把手机做好的做法,是一种不点名的,大家认为是在说小米。接下来发言的就是粱信军,他没有直接回应,他说已经全面向互联网投降,这句话的意思是不管是钢铁行业,不管是医药、保险,还是其他的行业,总之在我这个集团里认为互联网就是大趋势,我就全面的膜拜。</p>
+       <p>所以互联网是很多企业都绕不开的话题,我们把这个叫做摩尔定律,每18个月和电脑有关的功能会增加一倍,所以我们是在一个剧烈的加速当中,这个加速就使得互联网从1991年被使用,当时就是电子邮件的东西,我1991年到美国留学,才知道世界上有这么一个东西。而到今天才已经20多年,已经有了一个天翻地覆的变化,所以我们系生活在这样一个大变革时代。</p>
+       <p>所以华尔街日报提出一个观点,这三个技术结合在一起正在革命性的改变我们的生活,移动互联网、大数据、智能制造,他们是结合在一起的,在没有互联网的时代,你要有真正意义上的大数据是非常难的,因为很多发生了的事情没有被记录下来等于没有发生。互联网给我们带来什么变化呢?只要你用到了互联网,为而你不是顶级的专家,就没有能力把这个删掉,也有个别人可以,比如美国前中央情报局局长,他几年前因为婚外情辞职了,他和那一位是用到了电子邮箱沟通,他知道一般的方法都有纪录,所以他们是共用一个邮箱互相留草稿的方式,这个不是教大家怎么规避,但是这个方法非常简易可行,这样被删掉就像被烧掉一样,没有留任何的记录,就算有管理员侵入他的邮箱看到的就是当前那一条。所以我想说的互联网时代,所有的这些数据,全部变成来源,这样的话,就使我们每个人某种意义都是透明的。</p>
+       <p>你在网上看内容的时候,旁边往往已经有非常针对性强的广告了,因为这是根据你过去的浏览历史来制定的这些广告内容,我刚刚从以色列回来,我们请了一些高科技公司跟我们做介绍,有些同学想投资以色列企业,有一家我觉得就比我们现在看到的更前沿,它不是说根据你过去的浏览历史把这些广告给你准备好,而是不管你看什么内容,它时时的进行分析,旁边时时出现广告。比方说你在看一个某一个歌手的什么新闻,你在看的时候,也许你过去没有看过他的新闻,你看到在看他立刻进行分析关于歌手的广告,比如他什么地方有演唱会,直接订票服务。所以这样的话,是时时的,而且有无穷的商机,为媒体解决了很大得如何做广告的问题。等等。所以我想说的就是,以前要积累,现在把眼前你在看的内容,也作为数据来进行分析,给到你要的东西。所以呢,它的结果就是在很多的行业年生产率有50%的提高,就是靠着大数据和互联网,尤其移动互联网。大家知道在工业革命之前人类没有什么进步,从原始社会到工业革命,每年年生产率提高0.2%,工业革命以后呢?每年2%的生产率提高,所是翻了十倍,工业革命带来十倍效率的提高,如果在这个基础上再有50%的提高,当然可能还不能核工业革命相提并论,但是也很可观。所以我跟一个IBM的高层聊,他们帮助大数据帮助纽约警察局把犯罪率降下来了,警察这么一个传统的行业怎么也可以有到大数据呢?说起来很简单,就是把上百年的犯罪历史整理以后,进行分析,几乎每天都有新的一个分析完的犯罪预测表,不同的区域不同的颜色,红色的部分表示最有可能发生犯罪的区域,每天的警力安排就和当天的概率匹配,虽然说这是一个概率,不是说一定会有案件发生,但是天天进行这样的对接,一年下来犯罪率果然是下降了。所以呢,很多行业,尤其传统行业,总有一个直觉,就觉得我们和互联网离得还很远,但是如果你想到,连警察局都在用互联网,在用大数据的时候,你应该会感觉到离你不是那么远。</p>
+       <p>所以未来,当然我们做到的结果就是互联网和物联网这两个的高度结合,有些人批评中国的企业,说中国的物联网无非就是在网上卖一些便宜、廉价、山寨、劣质的东西,而国外都已经进入所谓的4.0的阶段,所谓4.0就是和物联网高度的结合。当然我对这个话题也觉得要分开看,淘宝、天猫上固然卖的是一些比较低价的东西,但是你也很难说就是因为这样的一种做法,把整个的中国制造业往低端去推,往廉价、劣质的方向去推,我觉得这个问题还是要辩证的来看,就好象去年包括今年也一样,对于互联网金融也有一个类似的讨论,当年银行的看法就是是因为你们宝宝类的产品,把全社会融资的成本给推高了,因为原来这些钱都是以0.385%的利息存在我们的活期里,现在有了余额宝这样的产品,大家把这个钱从活期拿出来存到你这儿,你有这么大的规模,你可以买银行之间的拆借产品,有5%6%的利息,也就是说你无形当中让从零点几的利息付出十倍的利息,你不是在推高社会的融资成本吗?大家听得出来,这是逻辑完全倒置了,社会的融资成本是宝宝类的产品能够推高的吗?难道不是因为政策的原因有一个存贷差,全世界最高的2.5%的存贷差所造成的。世界上大部分国家,大家知道是1到1.5的存贷差,所以当你银行有这样一个几乎固定的暴利来源的话,别人稍微用一种商业模式创新的方法来动一下你的奶酪你就受不了了,觉得人家在推高你的融资成本。其实无非这就是一个团购的概念,宝宝类做的概念就是团购,本来你零售的方法存到那里,就零点几,现在整合到一起就是十倍的利息,一家餐厅生意不好,就说是团购引起的,你如果生意好的话,本来不会用团购的,你如果整个的商业模式,整个的不是基于政策利好的话,你的竞争力是很差的。</p>
+       <p>所以我觉得当很多事情和互联网有关的话,那些既得利益者就有很强的防御心态,觉得是动了他的奶酪,但是其实它是一条鲶鱼,是突破了很多原有的边界,打破了原有的结构,带来了巨大的阵痛,但这些阵痛有可能使得中国的经济往一个更平衡的角度去发展,比方说我刚才讲到了淘宝天猫的方式让一些传统的行业,比如批发这种行业,几乎难以为继,但是你怎么不说原来你这个结构上获得了根本就不应该有的暴利呢?大家知道比方说以服装为例,出厂价到零售价翻十倍是很正常的,你凭什么要翻十倍呢?很多零售的企业如果我不翻十倍的话根本覆盖不了租金的成本,也许是这样,同样的一模一样中国制造的服装在中国卖的价格肯定比在国外贵很多,这不就是我们原来的结构非常不合理需要一个改变的产物呢,所以当另外一种方式以颠覆式的打法进来撼动这种模式当然会有阵痛。但是我相信前途还是光明的,至少可以看到消费者得到了实惠,而厂家也没有因此被毁灭,因为他们的生产的能力也因此更好的发挥出来。所以我觉得应该还是比较乐观的看待,而不是只是看到一些副作用,副作用一定是有的。</p>
+       <p>所谓的第三次工业革命也是李克强总理非常重视的观点,也就是说以3D打印的个性化生产可以比较高效,甚至低价的完成,为什么这是对我们来讲特别有颠覆性呢?因为很多中国制造业企业都是依靠大规模生产带来的规模优势来存活,我们经常去一些企业,他会说这条流水线是全亚洲甚至全世界规模最大的一支线,我们依靠的就是这样一种规模优势。但如果说越来越多的产品都是靠这样的3D打印或者智能制造,小批量生产的话,那么我们二三十年积累的成本优势可能会荡然无存,也就是说我们的方法会变得无关。就好象GE把全世界最先进的一款净水器放到中国来生产,随着中国劳动力成本每年以10%以上的速度增加的话,这块已经没有多大的优势,而如果反映速度是更重要的,如果说有很多的产品可以用智能制造的方法来做,而且是比较小批量的,放在美国来生产成本反而更低,对于我们传统制造业带来巨大的挑战,如果我们用长尾理论解释的话,原来中国很多的行业做的都是长尾这条曲线的左上部,也就是说几个型号很大很大的量,而尾巴部分呢,是有很多很多型号,但是总量可能还不到20%,所以按照的传统的二八理论,中国企业一定是做80%标准化的产品,这当然是每错的,但是大家知道在互联网和智能制造两股力量的冲击之下,这条曲线和原来有了本质的变化,它变得更平了,什么意思呢?越来越多原来买标准化产品的人,现在开始做定制化的需求了。所以我的学生许志华,他是匹克的老板,他说他们以前做全中国最先进的定制鞋的品牌,在这个平台上可以基本上自己做一个组合,设计出一双几乎独一无二的鞋,当然不可能完全独一无二,因为是在他的选项里面去选组合到一起,价格300到500,匹克运动鞋标准鞋不打折的价格,定制化的鞋也是这么一个价格,大家看到越来越多的人以后会去做这样的选择,原来互联网只是让长尾的销售变得更简单,比如销售图书,那些不畅销的书只能在网上,现在加上智能制造,生产也变得更便宜,结果可想而知,如果是传统的制造型企业你不去做一些应对显然不行。</p>
+       <p>我有一个学生在山东做帽子,他们是出口美国的运动帽,原来订单一个是10万顶帽子,他们怎么做呢?大批量生产,三个车间,三部曲,一个车间一道工序,现在金融危机以后订单量下降很多,总量还能够维持,也就是说一个订单变成一万顶帽子,本来一年份两个订单,现在一年份八个订单,所以你的这个流程来讲,把三个车间进行改造,按照丰田精益生产的方式来做,也就是说变成三个独立的车间,这边布料进去,那边帽子出来,也就是说在小批量的生产方式下,这种方法成本是最低的,所以你看一个传统企业也必须要应对长尾曲线的改变。所以我觉得这是一个趋势性的。</p>
+       <p>另外一个很明显的趋势,也是对中国企业带来特别大冲击的,就是行业边界的模糊,原来我们都明确的知道自己属于哪一个行业,但是在很多高科技行业,其实这个边界非常模糊,你看把手机行业当手机做的就是诺基亚的命运,把消费电子当成消费电子的命运就是刚刚破产的索尼,比较成功的苹果、谷歌都是制造化,这些领域打通来做,打通意味着你对未来的发展趋势就可以有一个更准确的把握,我们以前讲船大难掉头,现在讲船大了以后你站得更高看得更远,你会比别人更有前瞻性。比方说苹果,大家知道原来的策略从最小的屏入手,这个屏越来越大,原来是IPOD,是一个听音乐的,后来做IPHONE,做IPAD,又是手机,也可以看电视,也可以下载电商,本来是这么一个计划。但是等他走到这里的时候,也看到了这些互相融合的企业和趋势,改变了策略,未来是做什么呢?做手表,这个屏不是做大屏,而反过来做一个很小的屏,为什么呢?这是可穿戴设备的趋势,也就是说未来可穿戴设备是你和外面社会连接的唯一社会,你手机都不用了,这个可穿戴设备本身就是一个手机,按照他们的一些前沿的做法,你站在这儿手一滑,银幕就是你的手臂,手臂就变成你的银幕了,你在上面按你的手臂就可以了,所以没有必要往大了做,这对中国企业又是一个特别大的挑战。</p>
+       <p>所以总结一下就是说,互联网使得交易成本变得极低,有一个时髦的讲法,零边际成本,就是说成本是有的,不是完全没有,但是到一定的点,就像小米卖手机一样,前面是亏的,但是到了临界点以后才开始盈利,所以边际成本前面有成本,但是卖到一定量以后后面的成本就是零了,因为是在互联网这个虚拟社会进行的,这个对很多靠信息不对称挣钱的企业又是一个灭顶之灾。这是我讲的第二条。</p>
+       <p>第一条更加决定性,因为90后、00后的生活重心就是在网上,为什么这是决定性的呢?因为如果这样的话,不管你在别的地方做得有多好,你都很难抓住主流是什么,也就是说你做的可能可以维持,但是但他是相对边缘的,结果就像李嘉诚先生一样,做了一辈子无数正确的决策,但是被一家才15年历史的企业给超过,马云的身价已经超过李嘉诚先生,而阿里巴巴1999年是成立的企业,所以我的意思是很多企业是互联网没有办法替代的,这是没错的,但是如果说别人做一件事是你效率的十倍、八倍的时候,你可能要想一想,我应该怎么办?去年有两部电影很不错,一个票房不错,一个影评不错,影评高的电影叫《归来》,两亿票房,影评非常差的电影叫《小时代》,七个亿的票房,上亿的年轻人看过郭敬明的《小时代》这本书,他们自称是《小时代》的护法,这样的话这个电影再差他们也会看,一个文革的电影拍得最好,90后00后他们会去欣赏吗?他们情感上没有连接的,就像我自己强迫自己去看《小时代》,但是看了一会儿看不了,就走了,我不得不承认是有代沟的,很不幸的一点,也说明了跟年轻人相关的企业,都用85后、90后干活,很大部门的负责人都是85后,很多人都是25岁,你如果把70后的人放在这个位置上,他根本不知道年轻人的需求。马云十年前的话现在反过来看还是很有道理的,当公司内部一些人主张网络游戏挣快钱的时候,他说我们未来的客户现在还是小孩子,还在玩游戏,我们在前面等他,等这一帮人成为消费主力的时候,自然就会有“双11”这样的事情发生,所以很多时候等待这个浪潮来是用钱的,浪潮来了,依然是做鸵鸟,把头埋在沙子里,是非常危险的。</p>
+       <p>但是中国一流企业家,有的正在做的,比方说华为前一阵子做了很多的广告,在平面媒体做广告,放的是光脚院士的照片,再结合任正非的讲话,意思就是不要整天提互联网,不要整天提互联网思维,也不要提颠覆性创新,委员容易把脑子搞乱,我们一是家高科技公司,我们就要实实在在把技术做好,因为技术为王。后来就有一篇文章说,在技术面前,所有的商业模式都是纸老虎,但是大家知道历史上有一些所谓的纸老虎,最后被发现原来是真老虎,原来认为已经是日落西山马上要崩溃的,当它寻找到新的模式的时候,反而变成极具革命性。所以我们这次在以色列上课有一位创新的创新课内容就是叫做在盒子里思考问题,他说不要只想着跳出盒子去创新,他说有些大的风流的创新就是在盒子内产生的,他用到的例子有一些战争的例子,大家知道跳高的例子,跳高很长一段时间是人是跨越式这样跳过去的,80年代的时候有一个人是背跃式跳过去的,这个人是一个美国人,他坚持用剪刀式,跳着跳着每一次把屁股抬高,后来教练说你几乎都横在上面了,大家可以想想剪刀式的跳法,最后过杆的时候人是平的,既然是平的,你干吗不倒过来,就这样在盒子里思考问题,最后反而达到了创新。</p>
+       <p>那互联网思维,我前面讲到,的确就有很多人在有不同的意见,认为这个都已经讲烂了,都已经是一种忽悠。但是我的看法是,当你把这一套东西放到一起来看,你不能说这里面就好象别人创造了一套拳法,你不能说这个姿势动作在别的地方看到过就模仿过来,你可以看这一套打法和传统企业的做法还是有本质区别的。比方说我举个开放式产品创新,互联网以前有媒体能做开放式创新的公司我想不起来,我所知道的第一个成功的开放式产品创新就是电脑的操作系统linux,先是搞了一个很粗糙的东西放到网上,大家有时间也可以参与进来,很多软件工程师把它延展了一下,这个活体非常大,所以这样做事情,你没有互联网怎么做?他们9条思维,20条法则和互联网思维有关,我跟他们开玩笑,首先违反了第二,搞了那么多条,一点不简约,但是作为一个起点是可以的,这些不同的思维放到不同的流程上来看,可以看到的确是分布在不同的位置上,最高的可能是平台思维,就是说怎么样把自己打造成一个平台,当然我们的校友周鸿祎说,再平台战略是最难的,这里看你怎么理解平台思维,不是说只有阿里巴巴、腾讯这种才叫平台思维,有些公司可以做小平台,比如大家知道原来IPO非常红火的时候金融街有一家专门做上市资料复印的公司,这是绕不开的,你如果上市资料不在他那儿复印觉得什么地方做错了。深圳有家公司叫雅昌,也是很多年前的一家获奖企业,一家印刷公司,怎么把自己做成一个平台?他真的把自己做成一个艺术品的平台公司,发布艺术品指数,这也是一个平台,平台也不是要席卷所有的利益相关者。</p>
+       <p>最后总结一下,它是一个生态圈的打造,它的匹配性高于一切,你如果要入手做互联网的话,我经常被问到的一个问题就是,我们的竞争对手已经做了五六年了,它是个淘品牌,但是现在规模已经超过了我们,我们做到几个亿就上不去了,我们应该是不是也应该赶紧在天猫上京东上开个店,基于这样一个模型,我的回答一般是说,首先你现在介入去做电商、天猫已经赶不上了,为什么呢?别人是抓住了这个浪潮,做了弄潮儿,你现在再赶紧进去叫做刻舟求剑,形势已经发生变化了,你已经没有办法赶超了。但是我的第二菊花还是你应该尽可能考虑一下有没有一种合适的让你去触网的可能,你看整个互联网的发展,分成四个阶段,但是每一个阶段都是活体,都在不断发展,最初是传播,都跟传播有关,微信还是不断推陈出新。第二个阶段,电商,O2O,是目前比较领先的。第三个环节就是业务的互联网化,这个方面最领先的叫做C2B,个性化的需求怎么满足。最后就是整个企业的互联网化。昨天晚上我在我学院内部的一个论坛上,我做演讲,我们一个校友做的韩都衣舍,这次双11销量第一,把第二名的优衣库远远抛在后面,它的第三层级就是做C2B,不是让客户设计服装我们来做,客户是没有这个能力的,他所谓的C2B是每年要设计两万多种服装让你选,乔布斯说的,消费者并不知道他要的是什么,但是你让他选,他能够选,整个企业按照互联网来打破,把整个企业作为细胞,整个企业分成260几个小组,每个小组对自己的经营完完全全负责,每个小组的经费是根据你上一轮,上个月的销量的75%来给你,上个月销量100万,下个月就是75万的经费来运作,你如果是在几个层面一起考虑问题的话,那你的胜算比简单一种方法高得多,我觉得这就是未来的趋势。</p>
+       <p>谢谢大家。</p>
+       <p>张鸿:谢谢滕教授的演讲,每次听滕教授的演讲都很有收获,比如以前我认为邮箱里的草稿箱是没有用的,今天才知道原来是有用处的。商业模式峰会已经办了十年。这十年商业模式的概念从无到有,商业模式的创新层出不穷。接下来,有请清华大学经济管理学院 金融系副主任、商业模式研究工作室主任 朱武祥 教授,他的主题演讲的题目是:商业模式十年的变化与进化。</p>
+       <p>掌声欢迎!</p>
+       <p>朱武祥:非常荣幸,我们自己研究商业模式八年了,在这八年中我们考察了很多模式,目前的成果就是第一形成了非常简单的定义,什么叫商业模式?它的战略有什么不一样?在很多评选里面跟战略是没有区别的,如果有区别的话战略独门成一门学科。第二我们也发展了一套设计商业模式的框架,你只有定义了才能去设计它。</p>
+       <p>我们从这两对赌博开始,我们知道赌博是违法的,但是两对企业家公然赌博,小米从2011年到2014年,在年初的时候,我们看这两位打赌的说,小米是316亿,格力1850亿,我不知道以后到底谁的胜算更大?我也看不出来,如果把小米指定是一个手机,通过互联网技术手段实现手机销售的话,那可能那时候不太敢去判断,因为一个企业如果做单一产品的话,总是会受到围追堵截。前年预计700亿,格力是589亿。这个时候我们说谁的胜算大?我看一下,这几年来发生变化,除了手机以外,雷军和消极科技投了哪些东西?投了移动互联网、投了智能技术设备、在线教育、新媒体、视频、美的。我们看一下格力2012年到现在的投资,空调技术的改造,格力是一个代表着先进生产力,小米代表着先进生产方式,可能技术是最先进的,但是他们的资源组合方式是不一样的。我认为到了年末的判断,跟年初就会很不一样了。</p>
+       <p>我想简要在半个小时以内跟各位交流一下商业模式的演变,首先从产业组织判断商业组织变化,每个企业你要找准定位,定位完了才能变革模式,怎么说呢?所有的企业都面临四个瓶颈,一个是成长空间的瓶颈,一个是资源能力的瓶颈,还有大企业会面临资源效率下降的瓶颈,管理难以上升、成本上升,很庞大的研究院,四五千人,你现在有很多工厂,很多固定设备,又研发、制造、营销全方面投入成本,随着我们未来得发展,这个模式的成本是提高的,所以面临着经营效率的瓶颈。还有一个盈利瓶颈。我们可以比较一下,你看看格力和小米,谁更有可能出现这些瓶颈?</p>
+       <p>好了,解决瓶颈,调整产品定位,丰富的产品组合,衍生、延伸,为企业不断寻找新的空间。第二,改变营销策略,加强研发,提高品质和品牌,或者并购类似的企业,还有优化流程,用现代科技、智能化、扁平化。定位不是模式,定位不是战略问题,我做了哪个产业,这个是定位,定位以后怎么组织资源有效实现,这是属于模式问题,我们把它叫做战术。所以模式选择对于你突破瓶颈有重大影响,格力如果继续加强研发,没有问题,你自身靠强大自己的内在能力,这是非常常规的做法,常规做法情况下,叫做关注强化内部的资源能力、研发能力、指导能力,这个时候会遇到克里斯教授提出的“领先者的困境”,为什么行业优秀企业的管理非常好,研发投入很大,居然失败了,就是这个现象。所以他的建议是,你不能放弃,必须要阻击,在传统模式下,你强化内部的资源能力和竞争优势会带来高成本。还有一个问题,常规做法你的股票市值会出现规模的递减,会导致你的投资价值增长幅度或者规模有下降。诺基亚的董事长也说我们也一直很努力,但是败给苹果了,怎么败的,包括摩托罗拉、施乐,都难逃落败命运。</p>
+       <p>我们讲竞争优势,说大企业很多优秀企业有很多优势条件,不构成竞争优势,你所有优势加在一块,如果不能形成低成本,不能形成高效率的话,一样是叫高成本,你取得优势花太大的代价,一旦面临对方有新的打法,所以我们把成本包括优势分为有效优势和有效成本。</p>
+       <p>刚才滕教授说了,解决问题的话,第一是要靠原理,一种企业,一个是从定义出发,从客户价值定义,我先讨论乔布斯的手机,手机应该干什么?手机能给客户提供什么?把这个定义搞清楚了,再来找方式实现,这就是诺基亚说的我们一直很努力,但是失败了,就是对手机定义上是朝这个定义努力的,而乔布斯换了一个定义,定义跟你不一样,而这个定义更加满足客户价值。第二种企业家比较厉害,特斯拉,从原理出发,特别是跨界原理,比如我用航空动力学做汽车,一定是跨界。原来说火车跑得快,全靠车头带,要想速度提升一倍,就要改变源头,一个是从原理出发,一个从源头出发,所以人类追求更高更快更强,人类在商业领域也是不断用新原理,新原理支持新模式,你有本事把你资源边界从地球换到银河系、太阳系,把这个约束解除了,我们空间约束才能解除,不是演变的格局。</p>
+       <p>第二个,商业环境变化与产业组织的新模式,产业链的变化,我们传统的产能过剩,这是需要产业整合、并购;第二个随着制造的模块化、智能化,还有创新外部化、分散化,而且独立化。这些变化对我们产业组织来讲有什么影响呢?前三个因为就是互联网对营销的影响,第一是改变了营销渠道,第二是大数据,通过互联网来精准预测精准推送,第三是交互。还有两大变化,第一种是产业主的变化,经过互联网改造以后,通过优化流程,简化效率,把上下游串联到一起,是碎片化企业加制造商,未来在产业链的不同环节,会有不同的变化,从细分产业专业化来讲,电商、服务,到一些专业平台,意味着每个制造商你可能是太阳系九大行星,你可能是宇宙就是三千个银河系,互联网做交易平台,聚合交易平台,这个行业在不同行业陆续出现,还有众多的专业化碎片,你想做的是平台企业,做聚合商,还是专业化的碎片,所以不同企业有不同的小聚合和大聚合。</p>
+       <p>再一个变化,瓦解工业化时期企业内部资源和分工模式,像我们讲的格力是非常常规的,研发制造一体完成,随着互联网,创新外部化、分散化、独立化,会给企业内部产生影响,有一些方式经济功能下降,所以这样就会出现新的内部组织和模式,客户的分拆,包括流程,同时会出现内部管理的焦虑,比如研究院我不需要八千人,我八人就可以了,研究部不是研究组织,利用我们的渠道,前三个还是保持原来的产业架构,这两类产业组织在发生变化,企业组织在发生改造,产品的变化是中间会出现很多专业平台。</p>
+       <p>所以大企业,要想做得很灵活,必须要打开边界,打碎某些关节,提升你的资源能力交易层次,扩大范围。小米一上来就是网格概念,扩大范围,同时化整为碎,比如海尔,把销售环节、研发环节打成碎片,不再用原来的组织方式了,聚合业务自主体,让每个环节在你这个平台上是一个玩家,你是一个组织者。</p>
+       <p>这个时候变革商业模式需要新的理念,新的原理,也需要新的技术,萨默斯作为经济学家,说当今最成功的人,他们最特别的不是掌握了多少知识点,而在于他们思考问题的方式,在于他们能把很多东西结合在一起的方式,在于他们能够发现人们从前看不到的模式。他首先从这个思维方式来讲,第一,改变定义,就是我这个定义不行,什么叫银行?银行是存储的,存贷的,重新定义,发现空间有了大的变化,原来空间狭小是因为你定义太小,格力只做空调,他技术再领先,也只是一家制造商。第一就是所谓定义不一样。第二是看待事物原理不一样,你原来的原理解决不了问题,我换新的原理。</p>
+       <p>什么叫做思维方式改变?首先什么是企业?一个企业,比如在座的企业家,把你的产品抽象掉,用什么样一句话可以概括你基本相同的特色?有的企业只是品类不一样,实际上企业是资源能力掌控者的合约集,我们把商业模式定义为利益相关者之间的交易结构,是交易问题,你有资源我也有,我们两个交易,后面再产生价值,所以企业是资源的聚合体。有四个类型,第一是归国家的,第二是归法人的,第三是归员工的,能力是掌握在个人手里的,还有一个对外部专业的掌控,所以做企业要有四类资源,当然外部这个边际很大,放在地球也是,放在月球也是,放在太阳系、银河系也是,所有的企业都是资源,都看你的边际,今天没有时间讨论,我们依靠什么原理把这些资源放在一块。</p>
+       <p>第二无非就是怎么聚合,这个我就不多说了。控制企业的方式,第一是投资控股,这是硬实力,第二是通过无形资产控制,专利、技术、诀窍这是软实力,第三是通过交易方式,我自己投资研发未必厉害,未必可以按需解决问题,但是外面的可以解决,我去进行交易,所以两个模式一对比,新的交易方式聚在一起,就会大大降低成本。</p>
+       <p>举个例子,像大企业,三个环节当中,我们知道制造环节就是柔性化、制度化、模块化,两边都是围绕着管理,两边的人很难管,从工艺研发到销售研发。海尔拥有什么关键资源能力?有制造能力,有品牌,有渠道,有研发平台,还有资金,还有适合消费者个性化需求的创意设计。</p>
+       <p>刚才讲格力和小米,我还是比较倾向于小米,技术很重要,但是技术怎么来?怎么低成本获取?怎么有效获取?怎么获得靠谱的技术,我想将来格力获取的成本很高,所以原理不一样。这是我的一个体会,由于时间关系我就不多说了,谢谢各位。</p>
+       <p>张鸿:谢谢朱教授的分享,两位教授都讲了一个案例,就是跳高的姿势,我觉得这是一个特别好的隐喻,因为每个企业都在跳高,跳到一定高度的时候这个方式就到了极限,但是如果你换一个姿势空间就打开了,在2014年到底哪些企业向我们展示了最好的跳高姿势呢?接下来就进入我们今天活动最核心的环节,我们将颁发2014年度最佳商业模式奖,请看大屏幕。</p>
+       <p>恭喜以上这些企业荣获2014年度最佳商业模式,有请企业代表上台领奖。有请1919酒类直供董事长&nbsp;杨凌江;大地院线市场总监邹晓武;美团网副总裁吴茂林;红星美凯龙总裁助李艳红;日日顺RRS.COMCEO胡兴民,有请商界传媒集团董事长刘旗辉先生,长江商学院副院长 滕斌圣 教授上台,为获奖企业颁奖。掌声欢迎!再次祝贺获奖企业,谢谢两位颁奖嘉宾。</p>
+       <p>接下来,我们将揭晓第二轮次的 &quot;年度最佳商业模式&quot;获奖企业。请看大屏幕。</p>
+       <p>祝贺以上获奖企业获得2014年度最佳商业模式。有请以下企业代表上台领奖,有请秒银科技CEO马昭德;雅旌智能科技董事长伍卫星;全时365便利店执行总监张云根;慧聪网CMO李 韬;步步高云猴CEO&nbsp;杨军;家登精密工业董事长邱铭乾。有请商界传媒集团执行总裁周忠华先生,清华大学清华大学经济管理学院副主任朱武祥教授上台,为获奖企业颁奖。再次祝贺获奖企业,请各位嘉宾回座。</p>
+       <p>在2012年最佳商业模式峰会上,比利时的伊夫&middot;皮尼厄教授曾给我们上过一次精彩的课,用画布带领大家分析和设计自己的商业模式。今天我们继续用这种直观的,非常有条理性的方式,来给大家分析一下年度最佳商业模式。接下来有请北大光华管理学院工商管理博士后穆胜先生,与获奖企业代表一起,&quot;画出你的商业模式&quot;,有请穆胜先生来主持,掌声欢迎。</p>
+       <p>穆胜:各位朋友大家好,我是来自北京大学光滑管理学院的穆胜,非常高兴见天和大家一块见证这个峰会,刚才滕老师和朱老师把我们对商业模式的理解进行了一次迭代,我认为这里面的一个主题词是互联网思维,互联网思维我们很恐惧也很期盼,其实我们不用恐惧,我们可以用很简单的方式把互联网思维说得很清楚,就是用互联网技术,提高交易效率和生产效率的一种模式。</p>
+       <p>董明珠跟雷军打赌有意思吗?我觉得一点意思没有,董明珠说的是什么?一类系统整合者,做什么事呢?做的是一个产品,或者概念设计。第二是什么呢?是专业技术。第三个是像富士康一样的。雷军是什么企业?相当于PC时代的IBM。</p>
+       <p>待会儿我就会给大家主持商业模式画布,我会从一个第三方的角度为大家点评,下面有请家台湾登精密工业董事长邱铭乾先生。</p>
+       <p>邱铭乾:大家好,我来自台湾,我主要做半导体芯片的,在座各位手上的芯片我也有参与,因为在台湾现在最大的制造业是(),是一个很大的电子芯片商,做到16万亿,需要很创新的能力来解决一些问题,所以我们公司最主要是在提供所谓的技术服务创新,各位有听过制造业服务化,很多人过去认为制造业是一个环节是一个过程。我的公司总部在台湾,我创业16年,在台湾算是中小企业板。</p>
+       <p>我们聚焦在半导体、关键性材料、技术的创新,都要注意,半导体领导厂商,我的服务模式是B2B,教授一再谈格力的问题,格力会有一个很大的问题是找到符合商业的新技术来源,而且这个新技术来源是客户他愿意付出高额的价值来购买的一个创新逻辑,如果这个创新逻辑没有被真正的践行到,刚才朱老师说的风险就会产生,公司花费巨大的研发成本以后竟然没有办法精准抓到客户的商业逻辑。雷军的小米事实上只是利用互联网精确的搜集到大多数客户的需求和想法,因为他有资料库的原因去分析,所有在这里面什么是驱动客户购买的原点,我这个B2B模式最重要的点也是,第一个我们客户是全球半导体领袖厂商,比如像台湾的(),它今天要成为世界领导者,必须有很好的创新研发能力,必须遵循摩尔定律,必须是第一个生产出来16万亿,要打败三星,它能取得高通的订单,所以它能击败所有的竞争者,获取经营代工里面最大的利润。所以这是这家公司最大的需求。我是看到这一点,提供所谓的创新制造服务,在他的公司有很多很多的路径,去找到解决问题的方法,如果让它实践化,实践化是需要有一个提供创新服务的厂商来帮他实现,我正在做这样一个角色。</p>
+       <p>这是我们的服务模式,看起来比较传统,但是这个地方有一个很重要的概念,降低成本、降低风险、生产需求,我如何整合台湾外部的资源跟内部的资源,我在公司我们没有管理部,我们叫做内部客户服务处,我们没有研发处,我们叫做客户技术服务处,我们没有工厂,我们工厂叫客户服务供应处,我们去整合改造公司内部的结构,以服务的概念来实现。所以我觉得这个里面最重要的事情就是中间这个红心,驱动你的员工,驱动你的每一个人,去聆听客户的声音,客户来自于哪里?来自大公司里面握有关键决策权的那些人,他知道什么样的创新,什么样的技术服务,是他现在公司内部没有办法提供的,从外部的资源协助他寻找,因为这个样子,我们公司虽然才200多人,我们有250项专利,我们是全球在台湾唯一一家代表代表参加未来经营规格的制定者,这其中最最重要的原因是如何去精准掌握到B2B具有研发权力、研发能力这些人的需求,我训练出我的员工如何回应这样的需求。所以我们去开发客户的需求很简单,就是让你的工程师放下工程师的性格,去进行请缨,共同创造,互相帮助,彼此请缨,这样可以出一个新的想法。</p>
+       <p>这个是我们商业模式的画布,我想给大家做一个参考,谢谢大家。</p>
+       <p>穆胜:感谢邱先生给我们带来的精彩演讲。我觉得邱先生的企业是把你们的知识找到了很合适的位置,把你们的价值上浮,把你们的地位上浮,然后把你们的生产下沉,所以董明珠和雷军的位置不一样,我们可以看到在未来的商业模式中,这是B2C的方式,他们是高度的频繁的交互,挖掘他们想要的产品,倒逼研发,很多企业转型不成功不是因为他看不到商业模式,是因为他是个胖子,跑不过去。</p>
+       <p>下面有请我们的日日顺RRS,我们请上日日顺RRS.com&nbsp; CEO胡兴民先生。</p>
+       <p>胡兴民:各位好,刚才两位教授滕教授和朱教授在讲的过程中都提到一个词,海尔,所以我今天从海尔内部介绍一下他们的转型战略。</p>
+       <p>我想从源头开始,为什么海尔要做这样一个尝试?是因为传统行业受到了一些挑战,接下来我介绍一下RRS平台公司,什么叫平台公司,平台公司大部分是所谓新的元素都在这里面,第三个讲讲SSR的平台的商业模式。</p>
+       <p>这是过去传统行业在网络时代受到的一个挑战,一个是传统的电商入侵,为什么叫传统电商呢?电商也分传统电商和新的电商,价格竞争、破坏渠道结构;第二句话是消费者行为的改变,消费者有了多渠道的购物G历,还有消费者变成了一个口碑社交群体。</p>
+       <p>透过这个资源整合怎么解决海尔遇到的挑战?这是传统的商业模式,这是透过互联网的商业模式,为了解决这个问题,我们希望经销商跟我们站在同一条战线上,一起来做客户营销,每天进到你店里面的客户40万,所以我们建立一个网格化的O2O模式,网格化的战略就是网上网下有一个授权,北京市东城区有一家授权,客户看到的旗舰店就是这家店,也就是说这些店的老板会觉得说海尔授权网上网下,海尔的店不是竞争,而是推动我,让我在网络世界也能够获得精彩。所以我们建立网格化的平台。</p>
+       <p>有了这个模式以后,海尔把网上网下的冲突问题解决以后,进一步开始最主要的扩展,做什么事情呢?就是说从原来海尔家电的销售模式加上配送安装,进一步的引进社会化家电,很多地方比如村里他是做不到的,所以要帮它完成,这个是社会化家电。进一步的的是居家,家装、家饰,就是跟家有关的,接下来想到一个事情,以家为核心,还有什么概念?就是我的社区生活。</p>
+       <p>我们的定位,目标就是80、90后的网络世代消费最群,价值就是创造幸福居家生活的平台。它到底是怎么运作的?各位看到家为核心,你从搬进一个毛坯房,我们通过一个家装公司在网上竞标,几十万消费者投票,加上供应材料商,创造出一个699套餐,从毛坯房到家居建材统一进来,这个方式颠覆了所有的行业老板,为什么?因为两头大,而且重视消费者。我们怎么做出来的?实际上我们通过整合消费者的需求,家装公司、设计师,包括了新加坡、台湾、国内的设计师,他们设计出来的样板房,还有包括物流公司,居家广场落地,还有品牌商,大概几十个厂家一起进来,透过网上网下的交互,在网上可以看到这些产品,在线下可以真正获得服务。交易通过线上线下,分配到网格,这个网格包括了厂商,再透过日日顺物流为基础的整个社会物流进行配送,来提供消费者需要的个性化的居家服务。</p>
+       <p>这是举个例子,这个产品一天卖了3万台,当时承诺三个小时到货,有一个消费者很有意思,他本来是想买LG的冰箱,因为他觉得海尔做不到三个小时到货,他是半夜12点订的货,但是我们送到了,这不完全是海尔日日顺物流的作用,像我们最近双十一做了一单,最快12分钟就送货到客户家了,这个线就有20台车子,车子上面就放了这一款冰箱,你一下单我们就给你送过去了。我们不是靠海尔一个力量,我们是靠各种力量,服务公司、物流公司、品牌商等等。</p>
+       <p>这个就是我们的商业模式画布,谢谢。</p>
+       <p>穆胜:回到日日顺RRS这个商业模式,我觉得有四点做得特别好,第一个价值定位非常好,瞄准了80、90后的群体,如果这个群体是消费未来的话,我们先把他们挖掘出来。第二个,利用海尔的无限延伸的网点,解决了传统电商没有解决的最后一公里的问题,京东为什么在零售商能够和天猫和淘宝抗衡,它其中一个关键点就是坚持自己做物流,这是很烧钱的,但是也是没有办法的事,现在阿里也开始和海尔合作了。第三点是什么呢?就是采取了同城多元化的策略,最开始做家电,最后做家居,变成家居整体解决方案的族群。第四点是海尔一大特色,就是外扩自己的商业边界,就是把你们布点以外的网民外拉,也是一个很好的模式,如果网民外拉,把他拉到网络当中,你的威力就更大,所以海尔、日日顺都是在这个时代趋势下做出正确的选择。再给胡先生一点掌声。</p>
+       <p>接下来有请第三位获奖的企业,1919酒类直供,请上杨凌江先生。</p>
+       <p>杨凌江:大家好,我们作为一家第一次登上这个舞台的企业非常感到荣幸和压力。</p>
+       <p>我们这家企业,其实我刚才想在这个之前打一个广告,30秒央视的广告片,但是没有来得及切换。</p>
+       <p>这个图是我们自己中心做的一个图,我发觉只有我们自己可以看懂,我觉得一个好的商业模式,必须满足一个生态化需要的东西,第一用户、消费者对我们的认可;第二是我们上游品牌拥有者、生产商对我们的认可。我们的商业模式说简单一点,就是介于消费者和厂家之间的一个平台,首先要满足消费者怎么满足呢?第一个是价格便宜,其实在座可能有我们的会员,因为“双11”在天猫的平台,酒类,所有电商搜索名连续18小时排名第一,虽然我们业绩是第二名,但是那天我们的订单是最多的,大概突破100万单。</p>
+       <p>第二个是双11之前茅台到国家发改委和行政局投诉我们倾销,说我卖的价格比他们低很多,认为这是一个倾销。其实19的核心就是除了我们刚才讲的便宜,我们现在的主力市场在四川,四川一瓶五粮液在580,很多地方今天在650,也就是说整个北京的五粮液的价格差不多贵了15个点,茅台我们卖不到900,今天我看大部分在980,现在我们青岛、北京的店也开了,我们去了以后我们的酒比普通的大卖场便宜30%,比我的竞争对手基本上便宜20%多,这是我们的价格优势。我们怎么做到这个价格优势呢?第一我们叫1919酒类直供,实际上我们中间是没有环节的,我们中间不可能再去找二级经销商,找终端去卖,我们每一瓶酒都是直接卖给消费者,不管是官网平台,还是天猫、京东,我们长期是处于第三名的,消费者买的时候中间肯定没有环节的,这是第一点。</p>
+       <p>还有一个环节,我们砍掉了仓储,大家说最后一公里,有了仓储就是最后十公里,因为仓储中心都在城郊,没有仓储中心我们把我们的店铺旗舰店、中心店等等就是我们的总仓,就是我们的配送仓,我们都在做同一件事情,在成都你随时给我们打电话,保证19分钟送到,19分钟送不到是免单的,成都每天的订单是多少呢?每天7000多,我们40多家门店,我们不要物流公司,我们砍掉仓储中心,我们还砍掉第三个物流公司,所有的价格是CRE管理,我们会员有13个等级,你的等级茅台是970,他是960,全部是数据定价,不需要员工定价,会员登记根据你到我们这儿购买频率和金额来进行设计的,所以我们不需要员工讲价,员工只做什么呢?用条码一扫,送货,接待客户,接待客户也很简单,你要查什么酒马上查给你,这只需要30%的时间,还有70%的时间做什么?就是送货,所以我们砍掉中间环节不是简单的一级经销商、二级经销商、中段,我们还砍掉了第三方物流,砍掉第三方物流的成本多大呢?一般包装费占了5%左右,也就是说我送一单定单5块钱包装,酒怕摔,要有一个泡沫,有纸盒、胶带、打包的人,找顺风送过去,最快三天,其他要五天,这个15%20%的费用一分钱不要,因为我们是店面送的,只需要5%的奖励,我们一个店里面费用大概60万左右,我们的零售一般1000万,也就是说我送线上订单的时候只需要千分之一的成本。为什么?因为每个片区都有,在成都都是坐在餐桌上,然后打个电话,然后点菜,可能菜都没有到,酒就到了,所以说我们大家认识我们就是价格低,任何一个商业模式一定是从价格开始的,消费者不可能说我要服务不要价格,肯定同时都要。</p>
+       <p>第三个是质量,我们可能是全中国目前唯一二维码管理的,我们每一瓶酒都有不同的二维码,你下了一个订单马上有一个二维码,可以知道哪个厂家来的,哪个库房,哪个人送的货,送到哪里去了,都可以查看,这个是绝对没有问题的。这是讲的消费者这一端。</p>
+       <p>我们想到说下面有什么门店,你怎么做?怎么开这个门店?我们做了海澜之家,你是投资方,我们来管你,我们把毛利给你,我们前九年开了41家点,我们也是40多亿,我们可以强调每天每个店是自动调拨,投资者可以每天都看报表。明年我们计划开500家店,北京市区有60家店,现在装修的有10家,我们装修时间不超过20天,大家除了看到茅台投诉我,或者郎酒说在1919酒类直供上买的酒我们不承担质量。实际上现在我们除了茅台和郎酒处于斗争状态之外,很多酒和我们合作非常好,但是我们不把这种当做商业模式,我们认为所有最好的合作一定是进行博弈的,没有博弈的合作是虚假的,我们要做价值模式,不是基于代理权和加价,所以我们是用两个模式合作,一个是我们的自产,同时是开放,你可以进来,我给你开一家店,还有一个方式你的店,委托我来代理,我们保证从上游到消费者,只要5%的空间,就可以让全产业链活起来。好,谢谢。</p>
+       <p>穆胜:感谢杨总带来这么优异的商业模式。1919酒类直供好的模式,第一,他们是有效的利用了线下的终端和线上的终端,包括第三方平台架设的销售的端点,包括自己的网站,通过线上和线下的关口把用户的欲望最大程度的拉到一块。第二方面是利用了这样一个数字化运营的供应链,让消费者得到最低的价格,看电影的时候吃那个</p>
+       <p>爆米,我吃之前就是喜欢摇一摇,他们是用什么方式摇一摇呢?是用数字的模式,所以可以达到19分钟送货的承诺,一方面把用户的欲望转化成订单,另一方面用数码化无缝连接的方式把运营成本压到最低,运营环节压到最少,有线上有线下,非常优秀的商业模式。再次掌声。</p>
+       <p>接下来我想邀请一位我的老朋友,全时365便利店,请上执行总裁张云根先生。</p>
+       <p>张云根:谢谢。感谢这次大会,把这么重要的奖项颁给我们全时便利。全时便利作为创业只有四年时间的公司,可以获得这样的殊荣很荣幸,这也是对我们过去四年的工作认可。穆博士说我跟他是朋友,他写了一本书,我打开扉页的时候很震惊,有一段话,叫做云网、微利、根本。我想这个就是我画布讲述的最终思路,我们这个画布比较复杂,也是按照组委会的要求做的,我用三个关键词讲一下,第一个关键词是担当,说实话这十年是经济发展黄金十年,也是中国零售的黄金十年,中国零售500强入围的数字是35个亿,比差不多比十年前多出了100倍,意味着这十年来中国的零售真的发展很快。作为全时便利,你说你有担当,担当国民经济安全这样的工作,是不是有点不自量力,我们想担当的不是要拯救中国的零售业,更重要的是想告诉大家,在中国零售业的发展过程中,有一个业态是被大家忽视的,就是便利店。在世界500强里面,便利店是凤毛麟角,作为全时,我们希望在互联网整个大环境之下,这项责任和使命由我们承担起来。在互联网到来的今天,我们感受到中国零售发生了很大的变化,面临的挑战也很多,大家说我们叫传统的零售,说实话,对我们压力也很大,尤其马云做了淘宝,颠覆了整个零售,实际上他在互联网上做整个的零售思路。</p>
+       <p>我想除了互联网带来给我们的冲击以外,真正影响零售的不仅仅是互联网大环境,其实更关键的原因在于我们自身,我们自身出现了几个问题,一个问题就是我们的厂商已经是大品牌了,我们前端零售的能力已经在大幅度下滑。便利店在终端零售的技能方面非常重视,全时要做的一件事还是在互联网的大环境下回归到零售的本源,就是专注于零售技术。这是第一个。</p>
+       <p>第二个是挑战,在便利店这个行业里面,大家知道分为两个,一个是轻资产,一个是重资产,顾名思义就是一个投资大一个投资小,但是并不是那么简单,给大家举个例子,你们可能知道在国内的便利店里面基本上一个投资达到20万到30万,外资便利店,投资规模多少?差不多100万,五倍的差距,是什么原因导致的?我想最主要的原因还是他们所经营的商品和他们想带给顾客的体验和感觉,在这大方面的投资比较大,我想跟大家分享的是全时中国国内里面唯一坚持做重资产定义的便利店。实际上在重资产背后,我们要建我们的中央厨房和物流体系,基本上我们的物流每家店在四个小时可以完成配送。重资产和轻资产到底有什么不同?五年前六年前在上海,科迪、好的大概有四千家左右,今天看看上海的便利店里面谁是老大?全家,全家只用了八年的时间把我们5000家店的规模搅的一团糟,在上海全家便利店是老大,我们知道全家便利店是日本企业,我们感觉到企业日本在进一步侵略我们。说实话这意味着全家是重资产便利店,我们的科迪、好的都是轻资产便利店,这就告诉我们重资产和轻资产的重大区别,就是在商品的经营上。</p>
+       <p>全时也是在做重资产,我们也感觉,如果我们承担着向国人最大的最好的便利店,如果我们定位在重资产便利店,很显然我们做不到,不是学别人的模式和别人做竞争,这是不科学的,所以我们想我们要做操纵资产便利店,我们单店的投资规模超过了150万,我们的便利店更具有复制性,尤其在餐饮方面,在今天北京最好的便利店是7—11,我们也觉得它很不错,你们想想你们去7—11都是被强奸去的,作为一个屌丝,我的收入很低,我没有办法每天去吃那么好的餐饮,没辙,所以7—11给我的感觉是安全、卫生,花11、12块钱就可以吃饱一顿午餐。所以我在想,其实说实在话,不是我们愿意去便利店,主要是没有办法,微薄收入,所以变成一种强奸式的选择。所以对客户来说,可以用很低的价钱得到一顿很好的午餐,全时做到了,我们的餐饮做得非常不错,欢迎大家到我们餐厅去尝试。</p>
+       <p>另外一个特别提到了金融服务,全时的投资方是一个国内比较知名的金融集团,背后是做金融,我们一直在思考,在中国这样的金融环境下最大的原因还是金融的理念是比较欠缺的,全时要做的金融是基于零售思维的金融,过去你可能存一点钱,每天享受一二十块的收益并不觉得什么,我们感觉便利店作为社区综合性的平台,大家每天都要去我们便利店购买我们的餐饮或者我们的日常生活用品,所以我们在想我们怎么样把我们的餐饮跟我们的金融结合起来,未来全时不仅仅是做零售,而是做金融产业下游的一个端口而已。这是我们的整合,也是刚才说的担当以外的一个词叫挑战。</p>
+       <p>最后一个词就是创新,全时并不是不重视互联网,我们也感觉到互联网对便利店,对未来的发展也是非常重要的,但是全时作为一个传统企业的时候,我们也看到今天互联网也变成了传统的互联网,我想原因是什么?我估计肯定是O2O的产生,包括高科技的产品出现以后,其实对我们的传统商业模式做了一些改变。全时实际上也在这个方面做出一些研究,最近我们上台了一个电子商务平台,在这个平台里面我们解决消费者到我们店里面消费的时候,一个是排队一个是零钱的问题。另外我们也在做这样一个平台,就是刚才穆博士说的,就是我们希望,通过我们的微店惠,就是我们全时的业务模式。这个平台我们在搭建过程中,这个平台未来的延伸是什么呢?我们不仅仅是把这个平台共享给全时,我们想贡献给所有的便利店业态,我们看到的1919的杨总在分析在北京建店,我觉得你不需要建店,你跟全时合作就可以了。</p>
+       <p>另外我们讲的就是关系,我一直在思考一个问题,在互联网领域里面,很多人把这个战略和战术的问题没有分得清楚,我觉得很多人要不然就是把互联网作为一种战术,作为自己的核心命脉,总是宣扬自己是传统企业,或者是把它作为一种营销的工具,我个人的认识是什么呢?在做20多年的商业,我有一个感触,就是我觉得用钱搞定的商业模式一定是客户是婊子,第二用服务搞定的一定是大爷,我觉得是这样,我觉得真正和客户建立关系还是要真爱,我们全时的真爱是什么?就是要解决消费者的核心问题,这才是最重要的。</p>
+       <p>最后一个我们希望我们互联网未来可以覆盖我们后端供应链,最近一直在研究零售技术,其实有一块领域这么多年没有人探索,就是后端供应链,未来全时有一个想法,就是正在做一个全时生态供应链这样的计划,我们未来要把这个平台应用到全时的基础之上,把我们后端的供应链所有的厂家,和终端的消费者可以对接起来,我们希望在原来B2C再延伸一下。我今天就是借着十分钟分享全时的商业模式,也希望大家能关心我们,再次感谢大会能把这个奖项颁发给我们,谢谢你们。</p>
+       <p>穆胜:全时便利的商业模式在三个问题,第一是强调和用户之间的交互,他们是通过他们终端的营销技术,挖掘出用户的诉求,而且他们通过重资产的模式,他们一日更换三次货物,根据用户的诉求调整自己的产品展示的上架。第二个,他们加入了一个存钱罐,什么意思呢?你在小区里面存钱,你可以免费到我这个地方吃上一个月两个月的早餐,很多大爷大妈会干的,什么意思?只要有流量,为什么有这个流量呢?因为终端,这个线下的流量比线上的流量有价值。第三点云端和线下,把线下发挥到极至,通过大数据挖掘用户订单,期待张总给我们变魔术。</p>
+       <p>接下来我们有请第五个获奖企业,雅旌智能科技董事长伍卫星。</p>
+       <p>伍卫星:我尽可能在十分钟内完成。我每投资一个项目,都把握一个原则,这个原则是什么呢?要把握好两个势,第一个是趋势,我的项目是不是符合这个发展趋势;第二个势,就是我个人的优势,我自己的能力,以及我自己的优势,适合不适合我做这个项目,所以这是我一贯把握的原则。</p>
+       <p>对于水行业来说,刚才各位老总在介绍的时候,实际上你们都是做一个大平台,我是在做一个细部市场,我现在介绍一下我的这个模式,我们的模式就是为客户换取滤芯,免费服务,流量资费的服务模式,让我们的用户在享受好水的同时,低门槛消费,物超所值,用户的持续消费才是我们的盈利的核心。我们都知道,人每天的饮水平均消费量是很大的,这个刚性需求是比手机消费量以及话费消费量还要大的一个市场。我们同时提升行业对健康的意识,快速发展,充值消费,给客户带来饮用水服务。</p>
+       <p>在画布上面,我讲解一下,第一个我客户的细分,首先我的价格,首先从价格上来说,我们的价格比桶装水要便宜,也就是说装了我的机器以后,比桶装水便宜30%以上。第二个我们解决了桶装水本身存在的问题,媒体都有报道,光饮水机的化石污染,以及在这个过程中带来的危害,大家有目共睹,用我们的净水器相对比较方便,我们不需要老要打电话叫水,还要存水,还要放水。第三点,我们这个机器,我生产机器,但是不卖,只是租赁的方式,这个里面有三个核心的东西,第一个我们在每一台机器上配置了芯片,我在公司的后台可以管理每一台机器,包括水质状况、出水量,以及耗材的使用寿命,我们都可以检测得到。同时,客户还可以通过手机下载我们的终端APP,在他的手机上也能监控到家里面的水质,办公室的水质,以及和我们的客服进行互动。这是第一种客户。</p>
+       <p>第二个目标客户是已经购买的安装了净水器的客户,这种客户的话,他们用了很多年以后,对原来的净水器有很多服务上的不满,我自己就是受害者之一,前几年我买了一台净水器,质量也非常一般,过了一个月,就不出水了,最后每一次来给我上门服务,每一次背着压力桶过来了,这个压力桶是有压力的,来了两三次以后,我说你这样也不是办法,所以我能不能把打气桶放在你这儿,没有水的时候你打一下气,这个对我们来说是很痛苦的。这是我们第二类客户。</p>
+       <p>第三类是对健康有需求的客户,这个是高端客户。</p>
+       <p>第二点,我们要在服务上满足高品质的生活和人们的健康意识,以及对家人和单位员工关爱的程度,这是我们第一个核心点。</p>
+       <p>第二个核心点,我是免费安装给消费者,安装的时候不需要花钱,按年收费,按流量计费这种模式,我在前期进行一个月的免费试用,我把机器放在你家里,你觉得满意,一个月以后你给我付费,你如果不满意,我把这个机器拆走,绝对不强买强卖,按照这个模式。</p>
+       <p>第三个是跟经销商的模式,我们在今年9月份,在《商界》上打了一个招商广告,效果非常好,成功招商了60几个,这个我觉得一方面是沾了《商界》的影响力,另一个我们商业模式适应了更多的投资者跟我们洽谈。我们对经销商也是实行一个简单的模式,你只需要交相应很少量的保证金,我公司持续给你发货,你安装完机器以后第一笔钱回到公司以后我再给你发货,经销商也能够通过我们的采购管理系统,能够查询到客户所装的机器状况,以及缴费状况,每个月能够按照比例分成多少,这个到月底自动分帐。所以的话,我觉得这是我们的三个核心点。</p>
+       <p>这种商业模式对我们来说,真正的价值是什么呢?第一个,虽然我把这些装出去了,但是资产的所有权还在我们公司,因此我们公司可以利用这一部分库存的资产去和银行进行合作,进行贷款。第二点,我的成本也相对比较低,因为每一年的成本,除了正常的人员开支以外,相关的经营费用以外,我的直接成本是每个月的安装。还有一点,今年安装的机器到了明年是一个叠加,现在生意越来越难做,只有通过这样的模式,我觉得传承的商业模式,才能够把我们的事业做得更好,谢谢大家。</p>
+       <p>穆胜:谢谢伍总。雅旌的商业模式应该是一个创新,给伍总提一个意见,既然现在所有的终端都变成数据的端口的话,能不能把数据搜集上来,什么时候用水,水量是多少,这个可以倒退他的生活习惯,我觉得这是互联网思维。</p>
+       <p>接下来有请第六位获奖企业,秒银科技,有请秒银科技的CEO马昭德先生。</p>
+       <p>马昭德:尊敬的各位领导,各位来宾,大家下午好。我是来自重庆秒银科技的创始人,在这里获得《商界》最佳商业模式非常高兴,我们公司到现在创办了七个月的时间,交易额将近有20个亿,一起来分享一下我们在移动互联网里面用移动互联网思维做广告,大家知道中国的企业都需要做广告,现在媒体广告变得越来越差,如何企业的广告有效,如何让消费者不烦广告,我们通过一段商业模式图一起分享一下。</p>
+       <p>我们首先是针对中小企业主,中小企业主有一个特性,他把钱都投入到生产上去了,投入到开发产品当中去了,没有钱做广告,传统媒体上打的广告效果好不好呢,不知道,我们用互联网的思维,开发了一个APP,一方面是用户发广告,一方面是客户发广告,最后用户看到以后才计费,计费以后用商品冲抵这块的消费,所以这样的话企业主就会最后支付的是他生产商品的成本,加上部分的服务佣金。我们定的是80、90后,他们有时间,爱占便宜,所以我们打出一个平台上,是一个广告财富再生平台,你看一条广告给你一毛钱,很多屌丝利用自己的碎片时间赚取这个钱,同时它又是一个屌丝的创业平台,我们通过分享,产生链接,就产生交易,一天可以赚一万块,所以现在80后90后的屌丝们来分享来推广,这是定位。再延伸的话进入到中大型企业,中大型企业有什么需求呢?中大型企业需要品牌的维护,我们同样是跟他做品牌的维护,做品牌的推广,但是我们坚决不做投放,同时呢,我们跟他做什么呢?做一个F2C的直投式的服务一体化,随着工业4.0,未来这种电商平台都会被淘汰,最后变成什么?变成厂家对消费者直接见面,这种情况下,我们跟他做F2C的服务,同时为我们前端的用户提供最便宜,货真价实的服务,所以这种情况下,最后收入来源是品牌付费和佣金,和大数据的分析服务,这是我的收入来源部分。</p>
+       <p>但是我跟客户什么关系了?我跟客户第一个是免费,所有的企业主在这里发布广告前期是免费的,不要钱的,所有用户在这个平台上来玩是不用给钱的,包括企业的粉丝们要想更多的增值服务,不好意思,你交会费。那么通路呢?更多是通过朋友圈的口碑分享,现在我们七个月时间,没有花一分钱,这是我们的通路。这些广告企业从哪里来?从广告的合作中心,他有大量的过渡资源,所以我们整合了它。我们做三件事情,第一件是平台的开发,第二是平台的推广,第三是平台的维护,保证这个平台持续稳定的为用户服务。</p>
+       <p>现在我们来看我们的资源是什么?最近有一个媒体采访我们,你这个东西核心的内容是什么?我说核心的内容就四个字,两个字是创新,另外两个字是整合,我们的创新用颠覆性思维,用传统固化游戏规则的思维,我们把广告费直接对消费者,传统的广告费是对代理商分走了,我们除了做广告,还做销售,直接进行交易。另外就是整合,我们整合了用户,整合了商户。从重要合作伙伴来看有哪些呢?当然有我们的广告公司,目前跟我们合作的广告公司具有一级广告企业的公司有54家,目前还有小型公司,总共有600多家广告公司跟我们合作。解决了广告的问题,还要解决支付问题,目前是微信支付、支付宝,明年还有苹果支付,除此之外还有什么呢?还有物流这个通道,未来F2C一定要跟物流进行匹配,它是未来的主流,我们的产值没有花钱,我们的用户没有花钱,我们现在几十万的商户没有花钱,我们公司的现金流还很好,低成本零成本的扩张。这就是我整个商业模式的构造。</p>
+       <p>这里跟大家分享一下2014年的收获,目前到今年的年底1000万,现在已经接近800多万的用户,还有一点点的时间,突破1000万是没有问题的。接下来就是广告交易额,截止到15号15亿了,到今年年底可以突破20个亿的交易额。广告合作伙伴,今年年底达到一千个广告公司跟我们合作。目前这个平台上,到今年年底实现30万的商家,到明年的时候在这个平台上实现300万个商家,实现一亿的用户,实现200亿的交易额。</p>
+       <p>我就分享到这里,非常感谢大家对我们秒银的关注和支持。</p>
+       <p>穆胜:这样的模式做的是什么事呢?就是把所有的用户信息导进来,他们是把用户分给精准投放广告的商户,然后点击付费的模式获取收益,他们做到了各方利益相关者明确的融合,融入到这么一个平台上,包括商户,可以卖广告,可以推出自己的产品,形成了一个合作共赢的生态,他们的模式也是非常精彩。</p>
+       <p>下面交给张鸿先生进行下面的主持。</p>
+       <p>张鸿:谢谢穆胜,谢谢各位企业家的分享,我刚才下了一个秒赚,我不是为了用它,我是为了看一下中央电视台的广告怎么被你们挖走了。我们接下来还要颁出新锐企业,我们也为未来打造一些更好的竞争者,接下来的这些企业很可能就是未来的优胜者,接下来我们进入年度新锐商业模式颁奖,请看大屏幕。</p>
+       <p>祝贺以上获奖企业获得2014年度新锐商业模式。有请以下企业代表上台领奖。薇妮vinistyle市场营销部部长陈磊;房多多合伙人&nbsp;潘娇绒;美乐乐家居网CEO高扬;YOU+国际青年社区CEO刘昕;</p>
+       <p>汇通达副总裁&nbsp;樊红。有请 商界传媒集团董事、《商界评论》杂志主编 周云成 先生,达晨创投合伙人 傅忠宏 先生上台,为获奖企业颁奖。</p>
+       <p>接下来,我们继续揭晓2014&quot;年度新锐商业模式&quot;的企业,请看大屏幕。</p>
+       <p>祝贺以上获奖企业获得2014年度新锐商业模式。有请以下企业代表上台领奖。猎聘网副总裁胡海峰;月王生物CEO&nbsp;赵辉;买多网CEO邵玉鹏;百田信息CEO吴立立;伟鹏环保CEO&nbsp;汪鹏;有请商界传媒集团运营副总经理文磊先生,中国科技产业投资管理有限公司 投资总监 夏东先生上台,为获奖企业颁奖。至此,新锐商业模式已经全部亮相,接下来让我们再次请出穆胜先生,有他主持商业模式画布环节,有请。</p>
+       <p>穆胜:接下来请出我非常喜欢的一个商业模式,首先邀请第一个YOU+国际青年社区CEO刘昕。</p>
+       <p>刘昕:非常感谢《商界》杂志给了我们这个奖项,我代表这么多年刊着《商界》杂志长大的年轻人,向刘总表示致敬。</p>
+       <p>其实今天所有的嘉宾都讲到了雷军雷总,雷军最有名的一句话就是把猪放在风口上,猪也能飞起来,YOU+今年做的就是就是那只猪,YOU+是我们在三年前打造的,最初创立这个企业初衷的时候,就像今天介绍里面也说到互联网思维,其实跟很多媒体在聊的时候,我们抓到了一个我们自己的痛点,就像刚才跟刘总讲的时候,我们所有的创始团队,在过去整个中国商业企业成长的20年当中,在商海打拼的过程中发现了一大批人漂,出现了北漂等等等等,为什么出现漂呢?我们从大学毕业22岁到42岁中间的过程中,整个在打拼的过程中,很多人是居无定所,同样我们自己也面临身上的痛点,每到一个城市都会遇到同样的痛点,找房子,租房子,找朋友,交朋友,甚至拓展自己的事业,拓展自己的业务。</p>
+       <p>其实在这个过程中,我们发现一个问题,很多年轻人到了陌生城市,都需要的是一个,不是房子,需要的是一个家,家叫做有爱的地方,这也是YOU+创始的初衷,挡风遮雨,让真正漂在都市的年轻人找到属于自己的家。在整个商业模式的讨论上,我们觉得只是发自己的一个初期,我们发现整个中国的租房市场出现了一个很大的真空,这个真空不适合85后90后的年轻人,大多数的房子都在两房三房,一房的很少;第二,很多房子,中国的房地产在20多年的发展过程中,把人和人隔开,你连对面住的是谁都不认识,现在年轻人的生活轨迹是什么样子呢?每天六点钟下班,开始约同学吃饭,在没有男女朋友之前,一个在朝阳的一个在海淀的,两个人见面两个小时,同事在一起白天工作,晚上在一起吃饭,最后的结果只能自己回家上QQ,叫一个外卖,最后睡觉,生活完全是在一个生存状态。而YOU+的打造,是真正让年轻人懂得什么叫生活,现在YOU+的模式是什么样子呢?每天大家下了班的时候会急急忙忙往家跑,跑回家之后把自己的行李一放,先玩足球,白天可以约着群里的小伙伴一起做饭,也可以到了七点半直接聚餐,晚上八点半准时看大片,一般到10:30左右,就要开始杀人,各种各样的游戏,一般到11点12点睡觉,几乎回到YOU+的人很少上网,我们把年轻人从网络的环境中带回了现实,我们做一个现实网QQ的平台。</p>
+       <p>在这个过程中,我们也慢慢通过三年多的时间发现,人的本性,这些年轻人的本性,还是要找到一个真实的世界,我们发现互联网有一个非常大的缺陷,就是实名制和虚拟性,很多人活在虚拟空间,随着虚拟空间扩大之后,很多人活的不现实,我们在YOU+所讲的模板,这个模板打造了这么几个关键点:</p>
+       <p>第一点,我做了一个非常安全,大家做社区,我做了一个家,也就是近期很多媒体包括合作上慕名而来到了YOU+,YOU+的好多管家都会被请出去,原因是大家是一个自己家的氛围,不能接受太多人过来骚扰。</p>
+       <p>第二个,我们在这个里面做了一个开放的平台,在YOU+所有住的每一个人与人之间都是认识的,我们有一个最低的考核参数,我们利用末位淘汰制来进行筛选。</p>
+       <p>第三点,我们打造另外一个极致就是平等,在YOU+没有这个总那个官什么的,大家都有一个词叫“家友”。我发现我打造了一个安全的环境,打造了一个开放的平台,打造了一个平等地位的时候,我们出现了一个在最初的时候没有想到的,建立了一个非常好的信任中心,而我觉得如此改革开放这么多年,真正让人彼此失去最多的就是信任,在YOU+我们可以做到路不拾遗,夜不闭户,家不会丢东西,家只会放在那里找不到,因为进来的都是家里人,用爱经营一个社区,用爱对待每一个“家友”,当我们把整个平台让漂的年轻人,在互联网冲击的情况下,让每个人找到心灵的港湾,让漂泊的年轻人找到一个家。同时我们在2015年的时候结合我们整个项目的推进,在北上广深开展了一个创业社区家,这是我们的联合创始人苏毅发现的,很多创始人也发现一个家的发现和氛围,所以我们在2015年的时候会在全国的北上广深这几个城市为创业者打造一个YOU+的创业社区,起到了和我们YOU+社区一个道理,就是抱团取暖,我们发现很多创业者,一个年轻人出来创业他的想法很好,缺的不仅仅是资金,不仅仅是伙伴,不仅仅是上下游的关系,缺的是什么?缺的是你对他的认可,而这个认可可能是真正要创业人的原动力,我们也希望在未来得几年内,在未来得YOU+发展中,让更多的创业者,有梦想的年轻人,让这些年轻人住到YOU+来,在YOU+大的环境下创业,在真正人生最有激情的这段时间里,发挥出最大的能量,我们做一个很好的温室的作用,让大家抱团取暖,这样的话让每个创业的项目都能出来。也希望在商业模式创新的时候,在未来十年二十年三十年的时候,还会有一大批在YOU+成长出来的创业者们拿这个奖。再次谢谢《商界》,谢谢大家。</p>
+       <p>穆胜:YOU+给我两个启示,第一个不忘初心,第二点物极必反,互联网往往有它的阴暗面和反面,线上的交互和社交让我们的生活更抽象化,这个时候如果我们有线下的交互,实名制的沟通,面对面的体验,这样一个东西除了互联网线上虚拟交互之外需要的。介绍完了我们YOU+社区的商业模式,我们再回到互联网,接下来有请第二位企业代表,美乐乐家居网CEO高扬。</p>
+       <p>高扬:很荣幸有这个机会跟大家一起交流一下。</p>
+       <p>首先美乐乐是通过互联网和线下的店,O2O,我们现在已经扩大到家居的产品,这个是要讲的重点,我们这个模式的特点是什么?四年前,是一个淘宝的小卖家,通过淘宝天猫同广东发货到全国,当时我们就整个服务和体验这个环节,互联网是很难做的,通过一个图片和文字介绍看到款式、材质,但是也几个问题,用户的体验,你的坐感、睡感、味道,这个图片和你收到的货物之间不一定是一个东西,所以我们在四年以前开始转型,一边继续做互联网,同时开始开店,所以我们第一家店在2011年4月份开业的,到现在为止的话已经有了超过350家店的规模,现在每天的流量大概有百万级,海内外有几百个合作品牌公司,这几年发展得非常迅速,这几年当中,整个家居行业不是太景气,整个大环境不是很好的状况。</p>
+       <p>我主要想跟大家分享的有两点,第一点很容易理解,就是我们O2O的模式,我们的店都开在比较偏的位置,在北京我们有12家店,所以租金是相当便宜的,按平米算的话是3:1,但是反过来每平米产生的销售额,因为我们是通过互联网,它覆盖的面积比较大,所以有一个三倍的销售额,所以租金这块占的比例里面是很小的,这是O2O做家居、渠道方面最大的优势,基本上说是15%20%这么一个差别,节省下来的成本通过讲价的方式返还给消费者,这个也是整个做电子商务很大的优势,要不完全是没有零售店,像我们这种必须要有零售店,成本是相当有优势的。这是我今天分享的第一个,为什么我们能够在大环境不好的情况下能够快速成长。</p>
+       <p>除了这个以外,除了渠道优势以外,更加重要的是成本优势,就是核心资源。它是一个资源不断整合和效率的提升。我们今年包括去年,我们有40%的产品是在海外生产的,是进口家居,像这种实用的雕刻类的产品,在中国已经没有太多的优势了,越南一个工人的成本是中国的三分之一,印尼大概是越南的一半,印尼的一个雕刻工七八块钱人民币,中国是接近一万块钱,我们通过供应链全球化的方式,大幅度降低了产品的生产这一块的成本。这也是我们不断整合全球供应链,在供应链全球化的背景下,有很多方式可以降低成本。</p>
+       <p>好,谢谢大家。</p>
+       <p>穆胜:感谢高扬的精彩讲述。</p>
+       <p>接下来我们有请买多网CEO邵玉鹏先生。</p>
+       <p>邵玉鹏:首先非常感谢《商界》杂志能够提供这么好的一个机会,我相信这个时候大家坐得有点累了,前面讲的商业模式比较新颖,我这次来的比较匆忙,没有带PPT,我用语言阐述一下我的商业模式,我是买多网,我想问在座的这么多,应该有企业家,也有做商业的,刚才听到了做酒的,还有做便利店的,还有日日顺,给我的感受是收益非常大,所以在这一刻大家能够听到这么好的智慧,我觉得用掌声送给前几位分享的嘉宾可以吗?买多网今天虽然做的是互联网,但是我从来没有认为我是在做互联网,我只是一直在用互联网的技术,怎么把我们传统的想法把它更好的落地,我想在传统的互联网上,大家都觉得好象互联网来了,就等于狼来了一样的,特别是双十一的时候对传统商业带来了很大的影响,但是这应该只是互联网刚开始初期发展的时候,在任何一个系统成长高速的时候带来的一点点负面和影响,我相信随着互联网慢慢的和谐,或者慢慢的进入一种健康发展的时候,应该是能够推动传统商业发展,而不是毁灭传统商业发展的工具,不是争夺传统商业,我觉得中国不管在80还是90,我个人认为,因为我本人是将近80后,我个人认为互联网再好,也只是提供了一种方便,给我们提供了一种便利,但是解决不了我们实质的问题,比如我们吃饭,比如我们睡觉,比如我们很多很多东西是不可以用互联网来解决的,互联网只是一种技术,所以我想今天通过我来跟大家分享买多网的商业模式,是用互联网这个技术帮助到传统商业。</p>
+       <p>我们怎么做的呢?我们做的个一是大分销的战略,这个大分销的战略是通过增值促销的方式完成的,我们这个模式从7月26号上线,到现在五个月的时间,我们在中国已经覆盖了200个县,有200多家实体店,覆盖了将近400个乡镇,我打的是三线四线城市,最后再反攻走到一线二线城市,我可能跟日日顺的模式有点相同,但是有大的区别,相同就是在每个乡镇都会有我们的配送中心,也就是我们要实现让我们的物流覆盖到乡镇到村,不依托于第三方物流,通过我们自己的物流体系,服务到每个村。这种做法非常简单,我们把厂家的会员,以最低的成本采购过来,以最低的成本供给地面的商业,说到这里我简单阐述一下,很多都在建自己的渠道,很多电商也做自己的渠道,做自己的服务,而买多网做的模式是通过买多网这个技术撬动每个地面的商业,我通过买多网这个技术可以撬动起来,我在每个县都有一个实体店,就是通过这个实体店撬动全县或者全区域的商业,买多网的出现不是争夺他们的生意,而是帮助他们把生意做得最好。</p>
+       <p>我们做了两项工作,一是帮所有现在有商品的,跟买多网做个链接,就可以给你做增值的促销,让你不增加任何成本和服务的前提下,我们可以帮你的促销做得更加有价值,让消费者得到更多,比如假如说一个超时打98折给消费者的话,消费者买了两块钱,你跟买多网链接以后,我可以把这两块钱变成十块钱,我还会送给增值服务给消费者,比两块钱放大多少倍以上。</p>
+       <p>第二,特别是接下来的便利店,我们会撬动地面所有的小超时,单一个体的小超时,我跟厂家直接合作给你供货,我不是降低了采购成本,还要给你增加销量,我给你供低价产品的同时,再附带零售价的正品,这些正品全部是厂家给的,比如我们现在跟霸王集团合作洗发水,比如我们跟金星啤酒集团合作啤酒,包括国内顶级的,包括庐州酒,我们至少合作了300个以上的一线品牌,全面做无缝连接。我讲这么多,我想跟大家分享买多网的商业模式区别于现在所有的互联网模式,我们更多是想通过买多网这个商业模式推动到传统行业健康发展,而不是因为互联网的到来,而把传统商业毁灭掉,或者把它挤得没有饭吃。第二,买多网从来不卖便宜,大家都是觉得卖便宜,我个人觉得,如果我们仅仅是卖便宜,最后扼杀的或者伤害的一定是今天的在座,我和你们一样的,我们一定要把商品回归到它的原价值,用它的价值和它的价格匹配,我认为只有这样,才能让中国的企业家把它的产品品质塑造得更好,让我们老百姓得到更好的品质和服务,我们一直在诋毁的是卖便宜,但是我们不排斥让不低价格还让消费者得到更多,这是一种变通方式也是增值促销的方式和模式,我希望在接下来有机会,大家可以去买多网了解一下,我们只有一个使命,希望买多网的存在,让中国的商业更加和谐健康发展,谢谢大家。</p>
+       <p>穆胜:感谢邵先生带来的精彩分享,我听你的好象有点像马云说的,我们想让天下的生意变得更便宜。买多网的模式利用了网上营销的平台,帮实体店做不了,不会再互联网时代营销的人,帮他们装饰了自己的眼睛、耳朵,在互联网时代变得耳聪目明。你们发现了一个模式,O2O是下一个风口。</p>
+       <p>下面我们有请第四位获奖企业代表,薇妮的陈磊先生。</p>
+       <p>陈磊:大家好,我是陈磊。</p>
+       <p>刚刚前面我们有很多的商业大腕儿,口才都非常好,所以基本上都是跳出了商业模式的画布,我这边可能会比较聚焦在商业模式画布这块跟大家分享,首先我们公司做的是化妆品行业,我觉得用化妆品这个词描述我们这个业务的话,我觉得不是特别全面,其实我们公司做的是单品牌化妆品连锁专卖店,这可能就是我们传统意义上的传统行业,其实我们对于专卖店这样的理解并不是专门卖化妆品的店,而是专业做化妆品的店,为什么一定是化妆品专卖店呢?因为在中国看到有很多的服装专卖店、快餐专卖店,但是对于化妆品单品牌专卖店的话,在中国比较少,目前还属于蓝海的情况。对于韩国来讲的话,其实韩国早在2000年左右的时候,化妆品专卖店的模式已经非常蓬勃了。就拿我来说,我经常跟别人举的一个例子,我有一个妹妹在韩国,她在韩国读书,90后,她当时高中毕业之后去韩国,一年以后我去韩国看她,她居然化妆了,而且浓妆艳抹,我当时有点不能接受,我说你才这么一点大,天天这么化妆,你妈妈知道吗?她当时就说,第一天到了韩国以后,我的宿管阿姨问了我一个问题,你为什么不化妆?我妹妹说因为我们中国人没有化妆的习惯,这个阿姨又问了你们中国人洗脸吗?她说当然洗脸,阿姨说为什么洗脸?她说在中国洗脸是必须的,这个阿姨说在韩国化妆是必须的。韩国给我三件事印象非常深,第一件事情就是空气非常好,第二个是韩国人的素质真的很高,第三点就是到了韩国之后,基本上成年的女性,哪怕上高中的女性,下到16岁上到60岁,基本上都是带妆出门,我基本上很少看到素颜出门的女性,她们觉得化妆是对别人的尊重。</p>
+       <p>在中国今年的上半年,我们统计的一个数据,目前中国化妆品的产能已经达到了全球第三,亚洲第二,排名仅落后于美国和日本,很多专家预言在未来五年后,中国很有可能会超过日本,排在亚洲第一世界第二,十年之后有可能排在全球第一。化妆品这个行业,为什么我们用专卖店去做呢?化妆品在中国来讲的话,早期主要以商场双轨、多品牌专营店,类似于屈臣氏这样的卖场,还包括超时货架,但是化妆品单品牌的方式比较少,我们理解的专卖店是专业做化妆品的店,我们也做过一些对比,在很多的商场专柜,营业员给顾客的感觉一般有一种距离感,对于我们创造的商业模式来讲的话,不管顾客进店有没有需求,我们的营业员一定会根据她皮肤的状况进行咨询,给到相关性的咨询建议,给她进行深度的彩护妆服务,通过我们数据后台的分析,给我们的留客率达到70%以上,单笔成交额300到350。也就是说,现在的话,无论是打牌专柜这块做化妆品专柜,他们只是用产品自然销售的方式跟顾客产生联系,在专卖店我们会给顾客量身订作,用体验的方式营销我们的产品,所以我们的产品绝对不是一瓶水和乳,顾客到店里的目的是让他自己变得更加漂亮,所以在我们看来水和乳和产品都是我们的服务。</p>
+       <p>我们的核心业务是单品牌化妆品专卖店联盟加盟,现在基本上做直营加连锁,截止到今年年底,我们专卖店数量会超过500家,现在基本上是遍布了全球各地,开在主流的渠道,重要的合作伙伴,包括上游的供应链,现在的产品生产和研发80%在韩国,在韩国做好产品之后运到中国来进行销售,现在全国有25个地级市的代理商,426个加盟商,在线下的渠道现在店铺主要是入驻到欧尚、大润发、万达、家乐福这样的超时。在商业画布,当时有这样一项说核心资源是什么,这个问题我们想了很久,我们公司做得相对比较传统,我们没有技术上的专利,也没有一些设备和其他的高大上的东西,所以我们后来想,我们通过这几年的发展,核心是什么?是人,这个人分两块,第一块通过这几年的发展,我们有一些我们公司的运营团队,包括营销和市场运营团队,第二块我们五年的时间,在线下累积了200万活跃的粉丝。</p>
+       <p>我们的价值主张,在我们商业模式这块,包括彩妆,虽然我们现在做传统的线下零售门店,但是我们会以O2O2O这样的三个O的方式去做,我们在线下有一个会员招募的活动,利用微信号进行粉丝维护,每个月每个季节都会推出相关的一些活动,影响到我们微信号里面的粉丝,我们是从线上领导到线下再带动线上一起做,明年公司也会有这样的动作,也会去迎合互联网销售这块,可能会在网上开通第三方销售平台,但是会建立一个系统,把我们的订单下发到经销商手上。</p>
+       <p>接下来讲到客户关系,目前我们首先有一个定义,就是说我们苏美公司虽然做连锁零售,但是我们有一个明确的认定,我们的客户不是经销商,我们的客户只是我们的消费者,我们的经销商和我们的总部一样,都是来自于服务消费者,所以我们维护我们的消费者,目前的话通过我们的自媒体、官网、微信、微博给消费者带来惊喜的体验,同时对经销商的管理我们有我们的学院,对他们进行培训,管理提升的培训,包括还有创业训练营计划,也是鼓励现在在全国超过2000名的店员,如果他们有任何想开店的想法和计划,公司会帮他们出资金帮助他们开店,我们也会维护我们的会员。</p>
+       <p>收入来源,这边我特别想解释一下,收入来源,我们做明年的销售规划,无论五个亿八个亿还是十个亿,我们不是像传统的零售企业,今年总量是多少,明年再提升30%达到多少,明年要开多少家店,每家店的销售额是多少,不是按照这种方式核算,我们的客户就是我们的消费者,所以在计算明年整体销售额的时候,我们的思维方式是会员本年度新增长会员的数量乘以会员的单次消费加上进店的次数,加上老会员消费的次数乘上老会员的单次消费加上返店的次数,通过这个核算我们的收入。我们现在的成本结构基本上还是营销费用、产品研发费用、管理费用以及税费等等。</p>
+       <p>以上就是给大家简单介绍了一下我这边商业模式的画布,我记得前两年当时也是参加了这样一个商业的颁奖,当时那个时候刚刚成长两三年,也没有打任何的广告,现场还有提问环节,主持人问到我你们这几年的发展没有打广告,也没有借助外部的资本,你们怎么一步一步生产下来?这个问题一下子问倒我,我也在反思,我们究竟怎么样生存下来的?我当时给出两个字,口碑,通过这两年的发展,不管公司的管理,还是对待消费者的态度,我们赢得经销商的口碑,经销商通过他们的服务也赢得了我们消费者的口碑,所以会是一个良性循环的生态链。谢谢。</p>
+       <p>穆胜:感谢陈磊带来的精彩分享。我们看到这样一个商业模式,其实还是现在的大趋势,就是线下的体验是你的商业模式,薇妮通过提供护理方案的模式,它和用户形成高度的黏性,在这个基础上还想到用线上的社区对用户进行深度的挖掘。接下来我们有请出今天最后一位新锐获奖企业,月王科技,有请月王科技CEO赵辉先生。</p>
+       <p>赵辉:非常感谢《商界》传媒对西藏的关心关注,也感谢对西藏生态健康产业发展的支持,我们也是海拔最高的企业。我们觉得创新的商业模式需要创新的技术,和创新的产品来支撑。在我们打造我们商业模式和刚才演讲的大企业、快企业比起来有点慢,我们花了三年多的时间做基础研究,花了三年时间在西藏的拉萨市做产业化的建设,我们的产品是去年下半年才陆陆续续走向市场。我们的商业模式,第一个方面,把青稞、虫草用发酵的方式,开发了一种健康的保健品,这些都是国内首创,获得了国家级的发明专利,也是国家级的火星计划项目。第二个方面,我们的企业名字也来源于目前现存最早的藏医药经典著作,我觉得这是我们的核心资源。</p>
+       <p>第二个方面,我们在商业模式主要强调几个方面,第一个方面,我们用藏文化服务我们的客户和我们的经销商在一起,和他们一起开拓市场,把他们的模式融入到我们模式里,把我们的模式和他们的模式进行有效的结合,同时走向市场,走向更多家庭里面。第二个方面,就是我们在商业模式里面,非常秉承着藏传佛教、藏文化,我们在整个商业模式里面非常讲究信任、信仰,讲究大家的价值观一致,有了这么一个基础以后,我们才进行合作。</p>
+       <p>第三个方面,我们利用创新的技术,创新的原料,创新的产品,做了很多基础的研究,这些基础的研究,我们通过获取数据,和我们的消费者进行非常好的互动,我们今年起动的青稞红活动,得到了国家的支持,我们想通过这个活动支持我们的品牌,让更多人享受到西藏好的产品,让合作伙伴赚到钱,让消费者用到更有价值的产品。非常感谢大家,邀请大家到西藏去玩,谢谢大家。</p>
+       <p>穆胜:感谢赵辉先生带来的精彩分享。赵辉先生刚才讲到了专业技术,在这样的一个定位下他们做了很不一样的事,就是他们做了终端产品,终端产品不是谁都可以做的,而他们具备这样的一种能力,具备了资源整合的能力,从而有做出健康产品的意识,也期待你们的产品出现了我们视野里。</p>
+       <p>张鸿先生由于要回台里主持,所以把下面这一段闭幕致辞交给了我,相信大家都会很激动,众多专家、企业家,还有参会的各界人士,都给了峰会以大力的支持。感谢他们对中国企业商业模式探索的贡献。本届峰会的主题是&quot;变化与进化&quot;。进化论里面的&quot;物竞天择,适者生存&quot;,同样适用于中国企业界。最强大的企业可能不是活得最好的企业,只有最适应时代特点的企业才是活得最好的。所以说,没有成功的企业,只有时代的企业。同样商业模式的进化,我们相信也是我们主动调整主动适应的结果。我们心怀期盼,期待商业模式进化出更加积极,更加踊跃,更加快捷,造就出不断领先的一流企业,继续出现在我们这么一个平台上中国商业模式的盛典上面。至此,2014年第十届最佳商业模式中国峰会圆满闭幕。感谢大家,祝大家来年的事业能够一路向前。朋友们,明年再见!</p>
+      </div> </td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <a name="bd"></a> 
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bor"> 
+   <tbody>
+    <tr> 
+     <td class="titleBar tit960"><h2 class="icon f14px">滚动报道</h2> <span class="more"><a href="#top" target="_self">返回顶部</a></span></td> 
+    </tr>
+   </tbody>
+  </table>
+  <table width="960" cellspacing="10" cellpadding="0" class="bg_white"> 
+   <tbody>
+    <tr> 
+     <td> 
+      <table width="96%" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="450"> 
+          <ul class="f14List" style="margin-top:10px;"> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/18/AE8GJAQ2002554M0.html">赵辉:创新的商业模式需要技术和产品支撑</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/18/AE8GAGLI002554M0.html">邵玉鹏:用互联网技术来帮助传统商业</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/17/AE8FPPUM002554M0.html">刘昕:认可是创业人的原动力</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/17/AE8EGASC002554M0.html">伍卫星:传承的商业模式才能把事业做得更好</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/11/AE7R0KO9002554M0.html">杨凌江:好的商业模式必须满足生态化的需要</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/11/AE7QLTS3002554M0.html">邱铭乾:驱动每一个人去聆听客户的声音</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/11/AE7Q4VSM002554M0.html">朱武祥:变革商业模式需要新理念 新原理 新技术</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/11/AE7PI7F5002554M0.html">刘旗辉:经济发展下滑是“经济新常态”</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1223/15/AE5LIMLL002554M0.html">第十届最佳商业模式圆满召开</a></span><span class="f12px gcGray" style="float:right">(12-23)</span></li> 
+          </ul> 
+          <div class="blank10"></div></td> 
+         <td width="40" class="dotLineH">&nbsp;</td> 
+         <td width="450" valign="top"> 
+          <ul class="f14List" style="margin-top:10px;"> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/18/AE8GFRHU002554M0.html">陈磊:口碑是生存之道</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/17/AE8G56FT002554M0.html">高扬:成本优势是核心资源</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/17/AE8FBVAL002554M0.html">马昭德:核心内容是创新和整合</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/16/AE8AFNCM002554M0.html">张云根:解决消费者核心问题才最重要</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/11/AE7QSC0B002554M0.html">胡兴民:提供给消费者个性化的居家服务</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/11/AE7QDRTF002554M0.html">穆胜:互联网思维就是用互联网技术来提高效率</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/11/AE7PTNLE002554M0.html">滕斌圣:要做整个企业的互联网化</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+           <li><span style="float:left"><a href="http://money.163.com/14/1224/11/AE7PBH5G002554M0.html">张鸿:在探索中创新的十年</a></span><span class="f12px gcGray" style="float:right">(12-24)</span></li> 
+          </ul> 
+          <div class="blank10"></div></td> 
+        </tr>
+       </tbody>
+      </table><h2 style="float:right;" class="cDRed"><a href="#">[点击查看全部新闻]</a></h2></td> 
+    </tr>
+   </tbody>
+  </table>
+  <div class="blank10 part960"></div>
+  <table border="0" align="center" cellpadding="0" cellspacing="0" class="nesting">
+   <tbody>
+    <tr>
+     <td>
+      <!-- Commment Begin --><script type="text/javascript" language="javascript">//<![CDATA[var isShowComments = false,tieChannel = "money",isStrict = true;//]]></script><style type="text/css">.tie-area{padding:0 15px}</style>
+      <!--tie begin-->
+      <link type="text/css" charset="utf-8" rel="stylesheet" href="http://img1.cache.netease.com/utf8/tie/tieanywhere2.3.2-min.css" />
+      <div id="tieArea" class="tie-area"> 
+       <div class="tie-show js-tie-show"> 
+        <div class="tie-titlebar"> 
+         <strong></strong>
+         <span class="tie-info"> <a href="#" class="js-actCount tie-actCount" target="_blank">0</a>人跟贴 <span class="info-line">|</span> <a href="#" class="js-joinCount tie-actCount" target="_blank">0</a>人参与 </span> 
+        </div> 
+        <div class="js-tie-data"> 
+        </div> 
+       </div> 
+       <div class="tie-post js-post-area" id="tiePostBox"> 
+        <div class="tie-titlebar tie-title-mend"> 
+         <strong>网友跟贴</strong> 
+         <span class="tie-info"><a href="#" class="js-bactCount tie-actCount" target="_blank">0</a>人跟贴 <span class="info-line">|</span> <a href="#" class="js-bjoinCount tie-actCount" target="_blank">0</a>人参与 <span class="info-line">|</span> <a href="http://m.163.com/newsapp/" target="_blank" class="tie-byMobile"><em class="tie-sprite"></em> 手机发跟贴</a> <span class="info-line">|</span> <a href="#" class="tie-reg js-reg" target="_blank">注册</a> </span> 
+        </div> 
+        <!-- <style type="text/css">    .tie-post .tie-post-area .post-area-photo{border-left-color:#cc1b1b;border-bottom-color:#cc1b1b;}    .tie-post .tie-post-area .post-area-input{ border-right-color:#cc1b1b;border-bottom-color:#cc1b1b;}    .tie-post .tie-hotword {border-left-color: #cc1b1b; border-right-color:#cc1b1b;}    #tieAds{ border:1px solid #cc1b1b;border-bottom-width:0;width:588px; overflow:hidden; }    .tie-post .tie-post-area .post-area-hover { border-color:#aad2ff;}</style><div style="text-align:center;" id="tieAds"><a href="http://taidu.163.com/" target="_blank"><img src="http://img1.126.net/channel1/gt_59038_1203.jpg" width="590" height="38"></a></div> --> 
+        <div class="tie-postform"> 
+         <div class="tie-hotword"> 
+          <p>跟贴热词: </p> 
+         </div> 
+         <form target="_blank" method="post" accept-charset="GBK" action="http://comment.house.163.com/reply/dopost.jsp" class="js-postForm"> 
+          <div class="tie-post-area"> 
+           <div class="post-area-photo js-ularea-photo"> 
+            <a href="javascript:;" target="_self" title="请登录" class="tie-sprite area-photo-nohover"> </a> 
+           </div> 
+           <div class="post-area-photo js-area-photo" style="display: none;"> 
+            <a href="http://tie.163.com/setting/avatar/?from=userPanel" title="请上传头像" class="tie-sprite area-photo-icon"> </a> 
+           </div> 
+           <div class="post-area-photo js-larea-photo" style="display: none;"> 
+            <a href="http://tie.163.com/setting/avatar/?from=userPanel"> <img width="65" height="65" /> </a> 
+           </div> 
+           <div class="post-area-input js-postinput"> 
+            <textarea rows="8" cols="80" class="tie-textarea js-postBox" name="body"></textarea> 
+            <div class="area-input-tips js-tie-tips">
+              文明上网,登录发贴
+            </div> 
+            <div class="area-input-leftline"> 
+            </div> 
+            <div class="area-input-topline"> 
+            </div> 
+            <input type="hidden" name="board" value="" /> 
+            <input type="hidden" name="username" /> 
+            <input type="hidden" name="threadid" value="" /> 
+            <input type="hidden" name="url" value="http://comment.house.163.com/bj_house_bbs/8IBKMI6B00073SD3.html" /> 
+            <input type="hidden" name="isTinyBlogSyn" value="-1" /> 
+           </div> 
+          </div> 
+         </form> 
+         <div class="tie-author js-tie-author"> 
+          <div class="js-unlogin"> 
+           <div class="js-loginInput"> 
+            <div class="author-name"> 
+             <em class="tie-sprite"></em> 
+             <input type="text" class="tie-textbox js-username" /> 
+             <div class="author-tips js-nametips">
+               账号
+             </div> 
+            </div> 
+            <div class="author-pwd"> 
+             <em class="tie-sprite"></em> 
+             <input type="password" class="tie-textbox js-password" /> 
+             <div class="author-tips js-pwdtips">
+               密码
+             </div> 
+            </div> 
+           </div> 
+           <div class="tie-author-login"> 
+            <label> <input type="checkbox" checked="checked" class="js-save" />自动登录</label> 
+            <!--label class="js-syn" style="display: none;">                            <input type="checkbox" checked="checked" /><em class="tie-sprite"></em></label--> 
+            <a href="javascript:void(0);" target="_self" class="tie-sprite post-btn js-loginPostBtn"> 登录并发表</a> 
+           </div> 
+          </div> 
+          <div class="js-login" style="display: none"> 
+           <div class="tie-author-logon"> 
+            <a rel="nofollow" target="_blank" class="js-tie-myhome" href="http://tie.163.com/reply/myaction.jsp"> <strong class="js-tie-username"></strong></a>&nbsp; 
+            <a rel="nofollow" class="js-tie-myposts" target="_blank" href="http://tie.163.com/reply/myaction.jsp">我的跟贴</a> | 
+            <a rel="nofollow" target="_blank" href="http://www.lofter.com/entry?act=act=qb163rk_20141031_06&amp;logined=true">我的LOFTER</a> | 
+            <a rel="nofollow" class="js-tie-logout" href="http://reg.163.com/Logout.jsp" target="_self">退出</a> 
+           </div> 
+           <div class="tie-author-login"> 
+            <!--label class="js-syn">                            <input type="checkbox" checked="checked"  /><em class="tie-sprite"></em></label--> 
+            <a href="javascript:void(0);" target="_self" class="tie-sprite post-btn js-postBtn"> 马上发表</a> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <p class="tie-reminder"> 网友评论仅供其表达个人看法,并不表明网易立场。</p> 
+       </div>
+      </div><script charset="utf-8" src="http://img1.cache.netease.com/utf8/loader/loader1.0.5.js" language="javascript" type="text/javascript"></script><script type="text/javascript">    if (typeof isForceShowComment != "undefined") {        isShowComments = isForceShowComment;    };    function tieInit() {        tie_load({                    urs: "http://img1.cache.netease.com/utf8/microblog/urs/urs1.0.3.js",                    tie: "http://img1.cache.netease.com/utf8/tie/tieanywhere2.7.0-min.js"                },                function() {                    var replyCount = 3,                            totalCount = 3,                            threadId = "SPEC0025ACUGGOH3",                            boardId = "money_bbs",                            host = tieChannel,                            tId = tId;                    NTES(".js-tielink").attr("href", "http://comment." + host + ".163.com/" + boardId + "/" + threadId + ".html")                    NTES(".js-tiecount").attr("innerHTML", totalCount);                    NTES(".js-joinCount").attr("innerHTML", TieAnywhere.formatNumber(totalCount.toString(), 3));                    NTES(".js-bjoinCount").attr("innerHTML", TieAnywhere.formatNumber(totalCount.toString(), 3));                    NTES(".js-actCount").attr("innerHTML", TieAnywhere.formatNumber(replyCount.toString(), 3));                    NTES(".js-bactCount").attr("innerHTML", TieAnywhere.formatNumber(replyCount.toString(), 3));                    new TieAnywhere.Tie({                        wraper: NTES("#tieArea"),                        threadId: threadId,                        boardId: boardId,                        host: host,                        isShowComment: isShowComments,                        isStrict: isStrict,                        tId: tId                    });                })    };    tie_ready(function() {        if (!window.NTES) {            tie_load({ lib: "http://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js" }, function() {                tieInit();            }, "GBK")        } else {            tieInit();        };    });</script><script type="text/javascript">if(!window.commentData) {	var commentData = {		joincount: 3,		count: 3,		diggCount: 0,		tcount: 0	};}</script>
+      <!--tie end-->
+      <!-- Comment End --></td>
+    </tr>
+   </tbody>
+  </table>
+  <div class="blank10 part960"></div>
+  <table border="0" align="center" cellpadding="0" cellspacing="0" style="border:1px solid #CCC;" class="sign cDGray"> 
+   <tbody>
+    <tr> 
+     <td width="131"><a href="http://money.163.com/special/"><img src="http://img1.cache.netease.com/subject/images/newlogo100628/money_logo.png" alt="" width="131" height="48" /></a></td> 
+     <td><p>编辑:东静 2014.11</p> </td> 
+     <td width="410" style="text-align:right; "> 
+      <!--!(ThePillsS)--> <script type="text/javascript" language="javascript" src="http://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js" charset="gb2312"></script>
+      <link href="http://img1.cache.netease.com/utf8/microblog/plugin/css/wb2.0.5.css" charset="utf-8" type="text/css" rel="stylesheet" /><script type="text/javascript" src="http://img1.cache.netease.com/utf8/microblog/plugin/js/wb2.2.3.js" charset="utf-8"></script><script type="text/javascript" src="http://img1.cache.netease.com/utf8/microblog/plugin/js/wbshare1.0.3.js" charset="utf-8"></script><style>.wb-article-sharewraper{display:none}</style><span><span style="float:left\9;margin-right:-50px\9;position:relative;*top:-2px;">分享到:</span><style type="text/css">.wb-article-newdialogLayer-table{background:none;}</style>
+       <div class="wb-article-sharewraper wb-article-sharewraper-sm wb-article-share" id="wb-article-sharewraper-sm" style="top:1px;top:-4px\9;float:left\9;margin-right:-6px;_margin-right:0;display:none;"></div><script language="javascript" type="text/javascript" charset="utf-8">    (function() {        var options = {            sourceUrl: "money.163.com",            source: encodeURIComponent("网易财经"),            title: encodeURIComponent(document.title),            link: encodeURIComponent(document.location.href + '#sns_163')        };        NTES.ready(        function() {            WbApp.initShareTipsSm(options,"wb-article-sharewraper-sm");        });    })();</script><style>.ntshare-wrap {display:inline-block;*display:inline;_margin-right:5px;}.ntshare-wrap a {display:inline-block;cursor:pointer;height:16px;width:16px;vertical-align:text-bottom;margin-left:13px;background:url(http://img6.cache.netease.com/img09/icon/share-icon.png) no-repeat;}.ntshare-wrap .ntshare-sina {background-position:0 -40px;}.ntshare-wrap .ntshare-renren {background-position:0 -80px;}.ntshare-wrap .ntshare-qzone {background-position:0 0;}</style>
+       <div class="ntshare-wrap"></div><script type="text/javascript" src="http://img4.cache.netease.com/cnews/js/NeteaseShare_v1.2.js"></script><script>(function(){    var _filterHtml = function(str){        var container = document.createElement('div'),            filteredStr;        container.innerHTML = str;        filteredStr = container.innerText || container.textContent;        container = null;        return filteredStr;    },_param = {        title: document.title,        appkey: '3369952587',        description: _filterHtml(''),        summary: _filterHtml(''),        placeholder: ''    },_domready = (function(a){function m(a){l=1;while(a=b.shift())a()}var b=[],c,d=!1,e=document,f=e.documentElement,g=f.doScroll,h="DOMContentLoaded",i="addEventListener",j="onreadystatechange",k="readyState",l=/^loade|c/.test(e[k]);return e[i]&&e[i](h,c=function(){e.removeEventListener(h,c,d),m()},d),g&&e.attachEvent(j,c=function(){/^c/.test(e[k])&&(e.detachEvent(j,c),m())}),a=g?function(c){self!=top?l?c():b.push(c):function(){try{f.doScroll("left")}catch(b){return setTimeout(function(){a(c)},50)}c()}()}:function(a){l?a():b.push(a)}})();        _domready(function() {        if(window._ntshare){            !_ntshare.fn.isInit && _ntshare.fn.init(_param);        }    });})();</script></span>
+      <!--!(ThePillsE)--> | <a href="http://money.163.com/" class="subject_home">财经首页</a> | <a href="#" target="_self" class="subject_top">回到顶部</a> </td> 
+    </tr>
+   </tbody>
+  </table>
+  <script type="text/javascript" language="javascript" src="http://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js" charset="gb2312"></script>
+  <script type="text/javascript" language="JavaScript">//<![CDATA[  		new NTES.ui.Slide($("#menu_bar19 li"), $("#focus_tab19 > div"), "on", "mouseover",5000);//]]>//<![CDATA[	            //点击复制            var EndPage = function(){            }            EndPage.copyUrl = function(){                var cbc = "";                cbc +=  document.URL;                window.clipboardData.setData("Text", cbc);                NTES("#IECopyUrl").innerHTML = "<span class=\"cDRed\">已复制</span>";            }		   //初始化             if (NTES.browser.msie) {                NTES("#IEHtml").innerHTML = "<span><a class=\"subject_copy\" id=\"IECopyUrl\" title=\"点击复制链接\" style=\"cursor:pointer; text-decoration:none;\">复制网址</a></span> | ";                NTES("#IECopyUrl").addEvent("click", function(e){                    EndPage.copyUrl();                    e.preventDefault();                });            }//]]></script>
+  <div class="foot tCenter"> 
+   <div class="text">
+    <a href="http://post.news.163.com/msg/zhubian_finance.jsp" rel="nofollow">主编信箱</a> 热线:010-82558742 
+    <a href="http://t.163.com/zt/feedback" rel="nofollow">意见反馈</a>
+   </div>
+   <a href="http://corp.163.com/" rel="nofollow">About NetEase</a> - 
+   <a href="http://gb.corp.163.com/gb/about/overview.html" rel="nofollow">公司简介</a> - 
+   <a href="http://gb.corp.163.com/gb/contactus.html" rel="nofollow">联系方法</a> - 
+   <a href="http://corp.163.com/gb/job/job.html" rel="nofollow">招聘信息</a> - 
+   <a href="http://gb.corp.163.com/gb/cs.html" rel="nofollow">客户服务</a> - 
+   <a href="http://gb.corp.163.com/gb/legal.html" rel="nofollow">相关法律</a> - 
+   <a href="http://emarketing.biz.163.com/" rel="nofollow">网络营销</a> - 
+   <a href="http://sitemap.163.com/" rel="nofollow">网站地图</a> - 
+   <a href="http://help.163.com/" rel="nofollow">帮助中心</a>
+   <br />网易公司版权所有
+   <br />
+   <span class="cRed">&copy;1997-2013</span>
+  </div>
+  <!-- START WRating v1.0 -->
+  <script type="text/javascript" src="http://img6.cache.netease.com/common/script/wrating.js"></script>
+  <script type="text/javascript">var vjAcc="860010-0507010000";var wrUrl="http://163.wrating.com/";vjTrack("");</script>
+  <noscript>
+   <img src="http://163.wrating.com/a.gif?a=&amp;c=860010-0507010000" width="1" height="1" />
+  </noscript>
+  <!-- END WRating v1.0 -->
+  <!-- START NetEase Devilfish 2006 -->
+  <script src="http://analytics.163.com/ntes.js" type="text/javascript"></script>
+  <script type="text/javascript">_ntes_nacc = "stock";     //站点ID。neteaseTracker();</script>
+  <!-- END NetEase Devilfish 2006 -->
+  <!-- big data statistics -->
+  <!-- big data analysis -->
+  <script src="http://img1.cache.netease.com/f2e/products/analysis/js/analysis.350ctAoOoFtN.12.js"></script>
+ </body>
+</html>

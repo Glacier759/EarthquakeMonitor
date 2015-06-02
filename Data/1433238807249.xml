@@ -1,0 +1,1285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="utf-8" />
+  <meta name="Description" content="人人网 校内是一个真实的社交网络,联络你和你周围的朋友。 加入人人网校内你可以:联络朋友,了解他们的最新动态;和朋友分享相片、音乐和电影;找到老同学,结识新朋友;用照片和日志记录生活,展示自我。" />
+  <meta name="Keywords" content="Xiaonei,Renren,校内,大学,同学,同事,白领,个人主页,博客,相册,群组,社区,交友,聊天,音乐,视频,校园,人人,人人网" />
+  <link rel="shortcut icon" type="image/x-icon" href="http://a.xnimg.cn/favicon-rr.ico?ver=3" />
+  <link rel="apple-touch-icon" href="http://a.xnimg.cn/wap/apple_icon_.png" />
+  <link href="http://s.xnimg.cn/n/core/global2-all-min.css?ver=$revxxx$" rel="stylesheet" />
+  <script>XN = {get_check:'',get_check_x:'cbe73828',env:{domain:'renren.com',shortSiteName:'人人',siteName:'人人网'}};photoSeedSrc= 'http://s.xnimg.cn/n/apps/photo/photoSeed.js?ver=$revxxx$';</script>
+  <script src="http://s.xnimg.cn/n/core/base-all2.js?ver=$revxxx$"></script> 
+  <script>		XN.namespace('user');		XN.$extend(XN.user, {			'isGuide':true,        	'stage':''		});	</script>
+  <script>	if (window.asyncHTMLManager) {		window.asyncHTMLManager.addEvent('load', function() {			load_jebe_ads(1, false, true);		});	} else {		load_jebe_ads(1);	}XN.getFileVersion([	'http://s.xnimg.cn/csspro/apps/profile.css?ver=$revxxx$',	'http://s.xnimg.cn/csspro/module/friendSelector.css?ver=$revxxx$',	'http://s.xnimg.cn/csspro/module/status-pop.css?ver=$revxxx$',	'http://s.xnimg.cn/csspro/module/school-selector.css?ver=$revxxx$',	'http://s.xnimg.cn/csspro/module/minieditor.css?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.app.recommendFriend.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.app.status.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.app.share.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.app.ilike.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.ui.pager.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.ui.multiFriendSelectorBox.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.app.addFriend.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.ui.multiFriendSelectorBox.forGuide.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/lib/mediaplayer.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.ui.schoolSelectors.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/album/ZeroClipboard.js?ver=$revxxx$',	'http://s.xnimg.cn/jspro/xn.ui.emoticons.js?ver=$revxxx$',	'http://s.xnimg.cn/n/apps/home/modules/drag-upload/drag-upload.js?ver=$revxxx$',	'http://a.xnimg.cn/swf/album/ZeroClipboard.swf?ver=$revxxx$',	'http://a.xnimg.cn/n/core/modules/flashUploader/flashUploader.js',	'http://s.xnimg.cn/n/core/modules/flashUploader/upload-pop-all-min.css?ver=$revxxx$',	'http://s.xnimg.cn/apps/wiki/css/wiki-card-all-min.css?ver=$revxxx$',	'http://s.xnimg.cn/apps/wiki/js/wiki_model.js?ver=$revxxx$',	'http://s.xnimg.cn/apps/wiki/js/wikicard-load.js?ver=$revxxx$']);XN.namespace( 'user' );XN.$extend(XN.user, {	'id':'',	'ruid':'',	'tinyPic':'',	'name':"",	'pageVersion':6});XN.event.addEvent(window, 'load', function(){	var r = parseInt(Math.random()*150);	if (r == 5 && window.UGC) UGC.Network.ping.performance.start("100000","sns.home.performance");});object.predefine('xn/namecard', 'http://s.xnimg.cn/modules/namecard/js/namecard.js?ver=$revxxx$');object.predefine('xn/showShareFriend', 'http://s.xnimg.cn/n/core/modules/show-share-friend/showShareFriendsModule.js?ver=$revxxx$');object.predefine('xn/mentionMain', 'http://s.xnimg.cn/n/core/modules/mention/index.js?ver=$revxxx$');object.predefine('xn/site-nav/switch-account', 'http://s.xnimg.cn/n/core/modules/site-nav/switch-account.js?ver=$revxxx$');object.predefine('xn/site-nav/drop-menu-profile xn/site-nav/drop-menu-app', 'http://s.xnimg.cn/n/core/modules/site-nav/drop-menu.js?ver=$revxxx$');object.predefine('xn/site-nav/search', 'http://s.xnimg.cn/n/core/modules/site-nav/search.js?ver=$revxxx$');object.predefine('xn/ilike', 'http://s.xnimg.cn/n/core/modules/ilike/index.js?ver=$revxxx$');object.predefine('xn/group/vote', 'http://s.xnimg.cn/n/core/feed/group/group-vote.js?ver=$revxxx$');object.predefine('xn/lib/switch', 'http://s.xnimg.cn/n/core/lib/switch.js?ver=$revxxx$');object.predefine('xn/lib/scrollFix', 'http://s.xnimg.cn/n/core/lib/scrollFix.js?ver=$revxxx$');object.predefine('xnapp/birthday', 'http://s.xnimg.cn/apps/home/compatible/birthday.js?ver=$revxxx$');object.predefine('xn/apps/toolsBox', 'http://s.xnimg.cn/jspro/modules/tools-box/tools-box.js?ver=$revxxx$');</script>
+  <title>网络管理中心-【热词推荐-人人网】</title>
+  <link href="http://s.xnimg.cn/a53072/n/core/global2-all-min.css" rel="stylesheet" />
+  <link href="http://s.xnimg.cn/a53638/n/apps/usergrowth/css/usergrowth.css" rel="stylesheet" />
+  <script src="http://s.xnimg.cn/a51159/n/core/base-all2.js" type="text/javascript"></script>
+  <script type="text/javascript" data-src="http://s.xnimg.cn/a41752/n/core/modules/site-nav/switch-account.js" data-module="xn/site-nav/switch-account"></script>
+  <script type="text/javascript">	XN.namespace('user');	XN			.$extend(					XN.user,					{						'id' : '',						'ruid' : '',						'tinyPic' : '',						'name' : "",						'pageVersion' : 6					});</script>
+ </head>
+ <body> 
+  <input type="hidden" id="userGuideType" value="" />
+  <div id="dropmenuHolder" class="dropmenu-holder dropmenu-holder-new rr"> 
+   <div id="moredownWeb" class="dropdown" style="position:absolute; top:-9999px; left:-9999px;"> 
+    <div class="menu-dropdown-border"> 
+     <div class="weblist"> 
+      <ul class="clearfix"> 
+       <li><a href="http://share.renren.com">分享</a></li> 
+       <li><a href="http://app.renren.com">应用程序</a></li> 
+       <li><a href="http://page.renren.com">公共主页</a></li> 
+       <li><a href="http://life.renren.com">人人生活</a></li> 
+       <li><a href="http://xiaozu.renren.com/">人人小组</a></li> 
+       <li><a href="http://name.renren.com">同名同姓</a></li> 
+       <li><a href="http://school.renren.com/allpages.html">校园百科</a></li> 
+       <li><a href="http://school.renren.com/daxue/">大学百科</a></li> 
+       <li><a href="http://life.renren.com/hot">人人热点</a></li> 
+       <li><a href="http://zhan.renren.com/">人人小站</a></li> 
+       <li><a href="http://j.renren.com/">人人逛街</a></li> 
+       <li><a href="http://xiaozhao.renren.com/">人人校招</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="topbar"></div> 
+  <div id="header"> 
+   <div id="navBar" class="site-nav rr"> 
+    <div class="navigation-wrapper"> 
+     <div class="navigation navigation-new clearfix"> 
+      <div id="logo2"> 
+       <h1> <a title="人人网 renren.com - 人人网校内是一个真实的社交网络,联系朋友,一起玩游戏" href="http://www.renren.com"><img width="159" height="35" src="http://s.xnimg.cn/imgpro/v6/logo.png" title="人人网 renren.com - 人人网校内是一个真实的社交网络,联系朋友,一起玩游戏" alt="人人网 renren.com - 人人网校内是一个真实的社交网络,联系朋友,一起玩游戏" /> </a> </h1> 
+      </div> 
+      <div class="nav-body clearfix"> 
+       <div class="nav-other"> 
+        <div class="menu"> 
+         <div class="menu-title"> 
+          <strong> <a id="reg_link" title="注册" stats="homenav_reg" href="http://wwv.renren.com/xn.do?ss=10113&amp;rt=27">注册</a> </strong> 
+         </div> 
+        </div> 
+        <div class="menu"> 
+         <div class="menu-title"> 
+          <strong> <a title="登录" stats="homenav_login" href="http://www.renren.com/">登录</a> </strong> 
+         </div> 
+        </div> 
+        <div class="menu"> 
+         <div class="menu-title"> 
+          <strong> <a title="帮助" stats="homenav_help" href="http://support.renren.com/helpcenter">帮助</a> </strong> 
+         </div> 
+        </div> 
+        <div class="menu"> 
+         <div class="menu-title"> 
+          <strong> <a title="给我们提建议" stats="homenav_suggest" href="http://support.renren.com/link/suggest">给我们提建议</a> </strong> 
+         </div> 
+        </div> 
+        <div class="menu last"> 
+         <div class="menu-title" stats="homenav_more" id="moreWeb">
+          <a href="#" onclick="this.blur();">更多</a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="reg-tip"> 
+   <div class="reg-tipin clearfix"> 
+    <span class="reg-now"> <a href="http://reg.renren.com"><img src="http://s.xnimg.cn/imgpro/app/5238/reg_free_bug.png" alt="" /></a></span> 
+    <h4></h4> 
+    <div class="barlogin"> 
+     <div id="loginerrfree"></div> 
+     <!--poploginForm --> 
+     <form method="post" id="poploginFormfree" class="share_login" action="http://www.renren.com/PLogin.do" "="" style="display: block !important; padding-top: 0px !important; padding-left: 25px;"> 
+      <table style="width: 337px !important;"> 
+       <tbody>
+        <tr> 
+         <td width="190" style="padding-bottom: 10px;"><input type="text" name="email" class="input-text" id="emailfree" value="" placeholder="账号/邮箱/手机号" style="background: url(http://s.xnimg.cn/imgpro/app/5238/face-icon.png) 0 0 no-repeat; background-color: #FFF; padding-left: 25px;" /></td> 
+         <td width="145"> <p class="autologin"> <label title="为了确保您的信息安全,请不要在网吧或者公共机房勾选此项!" for="popautoLogin"> <input type="checkbox" name="autoLogin" id="popautoLoginfree" value="true" />&nbsp;下次直接登录 </label> </p> </td> 
+        </tr> 
+        <tr> 
+         <td><input type="password" id="passwordfree" name="password" error="请输入密码" class="input-text" placeholder="请输入密码" style="background: url(http://s.xnimg.cn/imgpro/app/5238/lock-icon.png) 0 0 no-repeat; background-color: #FFF; padding-left: 25px;" /> </td> 
+         <td><p class="autologin" style="position: relative;"> <input type="hidden" name="origURL" value="http://share.renren.com/keywords" /> <input type="hidden" name="domain" value="renren.com" /> <input type="submit" id="poploginfree" class="input-submit" value="" style="background: url(http://s.xnimg.cn/imgpro/app/5238/log_btn.png) -4px 0 no-repeat; background-color: #F0F9FB; width: 80px; height: 35px; border: none; display: inline-block;" /> <a href="http://safe.renren.com/findPass.do" stats="home_findpassword" style="_position: absolute; white-space: nowrap; display: inline-block; _right: 0; _display: block; _width: 70px; _height: 20px; _line-height: 35px;">忘记密码?</a> </p></td> 
+        </tr> 
+       </tbody>
+      </table> 
+     </form> 
+     <!--loginForm end --> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="ug-container has-reg-bar"> 
+   <div class="ug-title clearfix"> 
+    <h1> <b>网络管理中心</b> </h1> 
+   </div> 
+   <div class="ug-wrapper clearfix"> 
+    <div class="ug-content"> 
+     <ul class="ug-content-ul"> 
+      <!-- 图文并排内容区 --> 
+      <li class="ug-c-pic clearfix"><a target="_blank" href="http://share.renren.com/share/1679851872/4495194298?from=0" class="ug-c-img"> <img src="http://i25.ku6.com//ftpbj/2010/12/23/8/1028097/5.jpg" alt="" /></a> 
+       <div class="ug-c-r"> 
+        <div class="ug-c-word"> 
+         <a target="_blank" href="http://share.renren.com/share/1679851872/4495194298?from=0"> 给力啊!深圳一事业单位平均年薪30万 </a> 
+        </div> 
+        <p class="ug-c-from"> 来自: <a target="_blank" href="http://reg.renren.com">曾庆刚</a> </p> 
+        <p class="ug-c-click">点击:46</p> 
+       </div></li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/220975019/8885237764?from=0"> 苏宁电器 2012校园招聘 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/220975019/8885237764?from=0"> 一、公司简介苏宁创立于1990年,以电器连锁为主要产业,同步带动地产、<font color="red">网络</font>商城、高星级酒店和连锁购物<font color="red">中心</font>等领域协同发展。目前旗下包含苏宁电器、苏宁置业、苏宁易购、苏宁银河、苏宁商业<font color="red">管理</font>公司、LAOX </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李东</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/221180068/14201078552?from=0"> 亲,来照个像吧! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/221180068/14201078552?from=0"> 关于2012年12月大学英语四六级考试数码照片采集通知 各院:根据教育部考试<font color="red">中心</font>编制的2010版《考务工作<font color="red">管理</font>办法》中的CET照片采集标准,为保证照片质量,我校请北京美天易拍<font color="red">网络</font>技术有限公司于 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">陆雪松</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/222091041/5166735554?from=0"> WIN7系统的笔记本电脑一根网线可以实现多个电脑上网~~WIN7的朋友们有福气了啊~~ </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/222091041/5166735554?from=0"> 首先打开<font color="red">网络</font>共享<font color="red">中心</font>,出现如下画面: 在左上角有“<font color="red">管理</font>无线<font color="red">网络</font>”这一项,点开后出现: 然后点击“添加”,出现: 接着点击“创建临时网络”,出现: 点击“下一步” 设置好网络名,安全密钥,点击“下一步 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王殿磊</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/228049325/3301440215?from=0"> 回望三峡移民(转自《瞭望》) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/228049325/3301440215?from=0"> 《瞭望》文章:编者按:施国庆是河海大学中国移民研究<font color="red">中心</font>主任、公共<font color="red">管理</font>学院院长、教授、博士生导师,中国社会学会移民社会学专业委员会主任,世界银行和亚洲开发银行移民和社会学顾问,国际移民<font color="red">网络</font>两个创始人之 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">苏禹</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/228879090/12792658148?from=0"> HIT大学英语自主学习中心 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/228879090/12792658148?from=0"> 大学英语自主学习<font color="red">中心</font>开发了基于Moodle(ModularObject-OrientedDynamicLearningEnvironment,模块化面向对象的动态学习环境)教学<font color="red">管理</font>系统大学英语自主 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">张强</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/229342731/3297905099?from=0"> 关于兰州大学在学生区进行上网认证、流量控制测试的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/229342731/3297905099?from=0"> 关于在学生区进行上网认证、流量控制测试的通知 校园网用户: 为进一步规范校园网<font color="red">管理</font>,自8月4日起,CERNET国家<font color="red">网络</font><font color="red">中心</font>严格执行按所缴费用分配带宽的政策。依据我校与国家网络中心签订的校园网接入 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李少鹏</a> </span> <span class="f-right">点击:3</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/229599885/4861690128?from=0"> 北京物资学院关于校园网无线网络试运行结束开始收费的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/229599885/4861690128?from=0"> 太SB了!!!!!!!!我校无线<font color="red">网络</font>建设并试运行几年来,运行良好。为了进一步的完善无线<font color="red">网络</font>、规范校园<font color="red">网络</font><font color="red">管理</font>,学校决定自2011/3/01日起结束试运行,届时校内所有无线<font color="red">网络</font>将按照登陆的用户账号计算 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">耿童♪Tony</a> </span> <span class="f-right">点击:3</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/229638072/5359464860?from=0"> 晒一晒经院的就业去向吧,转自人大经济论坛 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/229638072/5359464860?from=0"> 银行北京市分行神州风采投资<font color="red">管理</font>有限公司北京市委宣传部广州市机关信息<font color="red">网络</font><font color="red">中心</font>中国工商银... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">蒋鑫 Marc</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/229838686/4360102027?from=0"> 花旗银行实习 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/229838686/4360102027?from=0"> 一、全球<font color="red">网络</font>优势 1、离境前即预约海外开户;2、在国内和海外都有专属Citigold客户经理<font color="red">管理</font>账户事宜;3、免费花旗国际贵宾理财专线,随时连接花旗各国电话银行;4、全球认可的Citigold </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李婧◕‿◕</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/230063588/4348805859?from=0"> 12月15日北京农学院2011届毕业生校园双选会参会单位名称 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/230063588/4348805859?from=0"> 1、UCE(国际)品牌运营<font color="red">管理</font>机构 2、北京港源建筑装饰工程有限公司3、北京金志育教育科技发展<font color="red">中心</font>4、北京鹤来科技有限公司5、北京中视飞煌科技有限公司6、北京市亚龙科技发展有限公司7、北京骄星棋骏 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">逯海娟</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/231486250/14076924903?from=0"> 清华大学网络与信息安全实验室招收实习生与客座研究生 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/231486250/14076924903?from=0"> 清华大学<font color="red">网络</font>与信息安全实验室(NISL)是清华大学信息<font color="red">网络</font>工程研究<font color="red">中心</font>主要从事计算机<font color="red">网络</font>和信息安全相关的教学、科研和运行<font color="red">管理</font>工作的研究团队。实验室导师有段海新研究员(博导、硕导),诸葛建伟副研究员( </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">杨旭光</a> </span> <span class="f-right">点击:5</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/232285292/1507321336?from=0"> Windows7和MAC系统无线共享网络方式[原创] </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/232285292/1507321336?from=0"> 如果你的电脑有无线网卡,这个教程可以把你的电脑变成无线路由器。使你们一个宿舍都通过你无线上网。先是Windows7系统,打开<font color="red">网络</font>和共享<font color="red">中心</font> 选择左上角的<font color="red">管理</font>无线<font color="red">网络</font> </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">徐子闻</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/232296445/6188839016?from=0"> 潍坊市首场大型网络招聘会将于本月底启动 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/232296445/6188839016?from=0"> 潍坊新闻网4月26日讯 记者从市人力资源<font color="red">管理</font>服务<font color="red">中心</font>获悉,4月30日至5月31日,潍坊市人力资源<font color="red">管理</font>服务<font color="red">中心</font>将举办潍坊首场大型<font color="red">网络</font>招聘会,届时,企业和求职者都可登录潍坊人才网进行注册,审核过关之后, </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">董敏</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/232482220/6337911899?from=0"> 大力推进网费改革是否能带来清华学风和科研风气的改善? </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/232482220/6337911899?from=0"> 在这个大力推进XX改革的时代,学校各级领导协同校<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>的各位老师终于放下了茶杯和报纸,决定在清华范围内大力开展推进和深化<font color="red">网络</font>收费改革的工作,为改善清华学习和科研风气做出贡献。不得不说,这一轮 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王松</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/232874245/10410640936?from=0"> 重庆大学建设<font color="red">管理</font>与房地产学院 带薪实习 暖场视频 (<font color="red">网络</font><font color="red">中心</font>制作) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/232874245/10410640936?from=0"> ... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">贾满意</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/233131773/6040694920?from=0"> 2011届毕业生使用签约日报平台 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/233131773/6040694920?from=0"> 江苏省高校毕业生就业<font color="red">网络</font>联盟和江苏省毕业生就业<font color="red">管理</font>信息系统(网络版)的基础数据,建... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">白华龙</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/233284897/3348619841?from=0"> 【人民大学】校园卡应用紧急通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/233284897/3348619841?from=0"> 校园卡<font color="red">管理</font><font color="red">中心</font> 2010年9月20日From:htt... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">井湉</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/237871496/4499680267?from=0"> 关于华北水利水电学院校园网网速慢问题的解决 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/237871496/4499680267?from=0"> balabalabala,他们也管不了,让找学校<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>。 于是我就去学校<font color="red">网络</font>管... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李蓝蔚</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/237984019/7090722588?from=0"> 西北民大,关于毕业生办理校园卡离校手续的说明 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/237984019/7090722588?from=0"> 时,均需到<font color="red">网络</font>与信息<font color="red">管理</font><font color="red">中心</font>办理校园卡相关手续... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孙丽美</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/238659597/7233203929?from=0"> win7 快捷键 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/238659597/7233203929?from=0"> 笔记本电池监控、无线<font color="red">网络</font>链接情况、Mobile手机同步设置以及外接显示器<font color="red">管理</font>五个方面进... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">苏曼</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/238687154/9858234067?from=0"> 【请各位帮忙转发各自学校BBS!谢谢!】巴塞尔公约亚太地区协调<font color="red">中心</font>招聘<font color="red">网络</font><font color="red">管理</font>人员 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/238687154/9858234067?from=0"> 以下招聘信息请各位帮忙转发各自学校BBS,更欢迎各位推荐合适人选。不胜感激! http://ch.bcrc.cn/col/1256347194199/1320826875773.html联合国环境规划署巴塞尔公约亚太地区协调中心(BC... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">谭全银</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/239930060/6567238604?from=0"> 洗浴中心的内幕--请听一位桑拿部长的自述 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/239930060/6567238604?from=0"> 【转自<font color="red">网络</font>,原作者不详】 洗浴<font color="red">中心</font>的内幕--请听一位桑拿部长的自述 本 人在桑拿从事了多年的<font color="red">管理</font>工作,想写点自己看到的一些事,有点乱, </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">张栋Tony</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/240160298/4036751083?from=0"> 两台笔记本共享一个校园网 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/240160298/4036751083?from=0"> 首先寝室至少有2台带无线网卡的电脑一般距离只会有40m的然后点<font color="red">网络</font>图标,出现下面的页面 点打开<font color="red">网络</font>和共享<font color="red">中心</font> 再找到本地连接点击进入点属性,共享把允许其他<font color="red">网络</font>....打勾这个是锐捷共享的 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">欧阳天成</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/241033983/6527995969?from=0"> 史上最强洗浴中心内幕,你们懂的! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/241033983/6527995969?from=0"> 【转自<font color="red">网络</font>,原作者不详】 洗浴<font color="red">中心</font>的内幕--请听一位桑拿部长的自述 本 人在桑拿从事了多年的<font color="red">管理</font>工作,想写点自己看到的一些事,有点乱,但绝对是小弟在桑拿工作时的真实见闻与体会,一句话:小姐也是人,也 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">石麟</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/24149051/5520172080?from=0"> 【美国博士科普核安全:为什么我不担心日本核电站】有兴趣的看看吧,总比国内专家靠谱点~ </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/24149051/5520172080?from=0"> 日本核泄漏事故发生后,美国麻省理工学院科技政策与产业发展<font color="red">中心</font>的博士Josef Oehmen撰写了一篇题为“为什么我不担心日本的核电站”的文章,以相对通俗的话语解释了核安全问题,在<font color="red">网络</font>上流传甚广。不过 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">郑海平Eric</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/242279035/7424884078?from=0"> 制造业企业供应链及其物流系统化改造 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/242279035/7424884078?from=0"> 1 制造业企业供应链内涵 供应链是由生产企业、物流企业、客户等各种实体构成的复杂的<font color="red">网络</font>,<font color="red">网络</font>上同时流动着物流、工作流、资金流和信息流。这些实体包括一些<font color="red">管理</font>公司、制造企业、中转仓库、原材料和 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孙素敏</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/243420176/5535666066?from=301600417"> 【速报】【北京信息科技大学】关于提前放假及网络接入相关信息的公告 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/243420176/5535666066?from=301600417"> 由于本学期初我校公网带宽剧增,公网出口设备负载过大,系统响应变慢,至昨天早上已彻底宕机。<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>已启动了紧急备用方案,将公... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">毛小可</a> </span> <span class="f-right">点击:7</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/244658610/5984158254?from=0"> 【施耐德电气】2011暑期实习生、管培生招聘宣讲会时间及招募计划 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/244658610/5984158254?from=0"> 施耐德电气2011暑期实习生计划 全球能效<font color="red">管理</font>专家施耐德电气为100多个国家的能源及基础设施、工业、数据<font color="red">中心</font>及<font color="red">网络</font>、楼宇和住宅市场提供整体解决方案,其中在能源与基础设施、工业过程控制、楼宇自动化和 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孟鹤 职导哥</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/248146194/6188166969?from=0"> 吉大给力了--欢迎参与网关认证测试----希望以后能无线校园哈哈。。。。 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/248146194/6188166969?from=0"> http://login.jlu.edu.cn为了改进<font color="red">网络</font><font color="red">管理</font>方式并为无线认证作准备,<font color="red">网络</font><font color="red">中心</font>决定测试网关认证系统。首先测试北京城市热点公司的网关产品。目前测试在我校的教育网出口进行。测试期间,通过 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">姜南</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/248539413/14196371367?from=0"> 【求转发】辽宁大学校园N.E.T.招聘启事 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/248539413/14196371367?from=0"> 协助<font color="red">网络</font><font color="red">中心</font>开展<font color="red">网络</font><font color="red">管理</font>工作。 ... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">姜守政</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/248810039/5794145756?from=0"> 东北财经大学普及IPV6知识及使用. </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/248810039/5794145756?from=0"> 编者按:为了满足广大师生日益增长的物质文化需要,<font color="red">网络</font>信息<font color="red">管理</font><font color="red">中心</font>依据东财的发展规划积极寻求各种办法解决同学们反映强烈的网速问题。除了升级校园网<font color="red">网络</font>设备、拓展电信和网通的带宽(据说电信400M已经投入 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王钰青</a> </span> <span class="f-right">点击:3</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/248860494/15265997437?from=0"> 【山东】山东省环境信息与监控中心(济南)公开招聘编外工作人员简章 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/248860494/15265997437?from=0"> 根据工作需要,山东省环境信息与监控<font color="red">中心</font>2013年度公开招聘编外工作人员,现将有关事宜公告如下:一、招聘单位基本情况山东省环境信息与监控<font color="red">中心</font>是山东省环境保护厅直属事业单位,主要职责是厅机关环境信息<font color="red">网络</font> </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">苟金曼</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/248938088/13330723359?from=0"> 华中师范大学校园卡管理中心关于一卡通的离校手续的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/248938088/13330723359?from=0"> 来源:华中师大日期:2012-06-06发布单位:<font color="red">网络</font>与教育技术<font color="red">中心</font>浏览次数:1064 为顺利办理我校2012届毕业学生的一卡通销户手续,校园卡<font color="red">管理</font>中心特制订以下流程和注意事项: (一)本次办理 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王守峰</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/249219874/14152280076?from=0"> 关于开通“本科生自助打印系统”(试运行)的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/249219874/14152280076?from=0"> <font color="red">管理</font><font color="red">中心</font>、图书馆等部门同事的鼎力帮助下... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王鑫。</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/249450292/3878575573?from=0"> 搜索引擎安全管理系统 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/249450292/3878575573?from=0"> 搜索引擎安全<font color="red">管理</font>系统完成人:刘欣然;方滨兴;齐向东;李伍峰;石晓虹;刘正荣;杨臻;丁丽;张鸿;陈斌单位: 国家计算机<font color="red">网络</font>与信息安全<font color="red">管理</font><font color="red">中心</font>;北京三际无限<font color="red">网络</font>科技有限公司;国务院新闻办公室互联网新闻 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">吴勰 Makarov</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/249517529/9687062446?from=0"> “感动经管人物评选”大型活动 正式启动! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/249517529/9687062446?from=0"> 经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font> “感动经管人物评选”大型活动 正式启动! “感动经管人物评选”是由网络媒体中心、院团委、院社联 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">徐琳Eileen</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/249799463/7344463543?from=0"> 【施耐德电气】招聘多名实习生-质量部门,物流部门及项目助理 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/249799463/7344463543?from=0"> 公司简介:全球能效<font color="red">管理</font>专家施耐德电气(Schneider Electric)为100多个国家的能源及基础设施、工业、数据<font color="red">中心</font>及<font color="red">网络</font>、楼宇和住宅市场提供整体解决方案, 其中在能源与基础设施、工业过程 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">冯施乐</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/249805380/2254431739?from=0"> 华北电力大学(保定)网络管理协会 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/249805380/2254431739?from=0"> 华北电力大学(保定)<font color="red">网络</font><font color="red">管理</font>协会简介 华北电力大学(保定)<font color="red">网络</font><font color="red">管理</font>协会初步成立于2006年10月,是在学校领导和信息与<font color="red">网络</font><font color="red">中心</font>领导的大力支持下,在信息与<font color="red">网络</font><font color="red">中心</font>老师和协会前期成员的共同努力下成立的, </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">于龙</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/249840987/6105135950?from=0"> 【北信运动会直播】北京信息科技大学2011年全校运动会校园直播 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/249840987/6105135950?from=0"> 2011年4月20号进行的北京信息科技大学运动会将由<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>及学生信息科技协会(网协)联合提供全程直播。直播地址:mms://211.68.32.207/bistu 使用各种播放器打开 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王欢jiansa</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/249974883/7362771953?from=0"> 清华大学开源镜像站公开测试 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/249974883/7362771953?from=0"> 镜像站点,获得了清华大学<font color="red">网络</font><font color="red">中心</font>的鼎力支持,现有 ubuntu, fedora, d... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李骥扬yxnsu</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/251240278/11930441191?from=0"> 摆脱无线路由!手机 touch在win7下通过临时网络共享有线宽带网络上网&middot;&middot;! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/251240278/11930441191?from=0"> 删除电脑之前已经建立所有的临时<font color="red">网络</font>: 进入“<font color="red">网络</font>与共享<font color="red">中心</font>”——选择左边”<font color="red">管理</font>无线<font color="red">网络</font>“——选中无用的临时网络右键单击删除网络确定退出 无线网卡的IP设定: &amp;ld... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">汪洋</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/251492257/6664680146?from=0"> 【专访网络中心】网速坑爹有木有?建言献策不便有木有?谁在为航大网络工作?新的官方校园BBS和OB有何异同?【我们的网络谁负责】12为你送上独家报道 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/251492257/6664680146?from=0"> 我们的<font color="red">网络</font>谁负责? 最近一段时间内校园内部的<font color="red">网络</font>很不稳定,就此状况记者走访了学校<font color="red">网络</font><font color="red">中心</font>的负责人姚主任。 三次升级尚未结束 资金受限网况仍有不足 姚主任告诉我们,现在天津市所有的 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李文瀚</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/252094933/4126849993?from=0"> 关于农大“校园一卡通” </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/252094933/4126849993?from=0"> 楼A座<font color="red">网络</font>会议室举行,校园卡<font color="red">管理</font><font color="red">中心</font>主任李欢等就“校园一卡通”问题作了详细说明,并... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">曲文华Lilian</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/252408078/8320571915?from=0"> 关于宿舍网和退网费的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/252408078/8320571915?from=0"> 通知南京财经大学的同学们:根据学校信息化建设规划统一安排,本学期开始宿舍<font color="red">网络</font>由中国电信运维<font color="red">管理</font>。有上网需求的同学到学生宿舍中苑9号站“南京财经大学天翼专营店”咨询办理。原上网 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孟醒</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/252724839/6556352925?from=0"> 驻心 筑梦 让未来就此起航 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/252724839/6556352925?from=0"> 鲜艳的红裙,婀娜的舞姿,激情的音乐,热烈的欢呼。大活,今晚是个不眠夜。 5月18日晚8时,工程<font color="red">管理</font>专业毕业晚会在大学生活动<font color="red">中心</font>盛大举行。来自全国各地的工程<font color="red">管理</font>专业评估专家莅临现场,他们分别是 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">林东海</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/255008344/6695391495?from=0"> 转:上海理工大学2012就业实习系列招聘会 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/255008344/6695391495?from=0"> 活动时间:2011-5-27 13:30—15:30活动地点:军工路580号学生发展<font color="red">中心</font>4号门专场招聘厅 需求专业主要涉及热动、电子信息类、自动化、电气类、计算机类、仪器仪表类、<font color="red">网络</font>工程、<font color="red">管理</font>类 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">徐昕鹏</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/255489486/12213544561?from=0"> 学校发布网络交换机招标公告了 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/255489486/12213544561?from=0"> <font color="red">网络</font>交换机等设备采购招标公告 中国海洋大学招投标<font color="red">管理</font><font color="red">中心</font>现对<font color="red">网络</font>交换机等设备采购进行公开招标,欢迎合格的供应商前来报名投标,有关事宜公告如下: 一 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">许冠生</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/255498871/11979773532?from=0"> 校内视频公测 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/255498871/11979773532?from=0"> 地址复制到浏览器地址栏就可以了(IE)为了更好地为大家提供校内视频服务,信息与<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>开始对校内<font color="red">网络</font>视频服务的公开测试,欢迎大家试用。公开测试时间为2012年3月份。测试范围为校内校园网用户, </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">_张文斌❤ARS</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/255790636/8844091267?from=0"> 【9-28----10-14】哈尔滨工业大学招聘信息 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/255790636/8844091267?from=0"> 大连港口建设<font color="red">管理</font>有限公司新活动<font color="red">中心</font>4262011/9/28 9:00 金海控股有限责任公司新活动<font color="red">中心</font>2142011/9/28 9:00 艾默生<font color="red">网络</font>能源有限公司新活动中心 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">梁勋凤</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/255871623/13234976899?from=0"> 关于2012届毕业生校园卡停用时间及退款相关事宜的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/255871623/13234976899?from=0"> 提交部门:<font color="red">网络</font><font color="red">中心</font> 提交时间:2012-5-30 9:34:32各学院(<font color="red">中心</font>、所)及2012届毕业生: 为使2012届毕业生顺利离校,根据学校“校园一卡通”<font color="red">管理</font>办法,结合我校毕业生 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">董焱</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/257250661/6225587120?from=0"> 【欢迎分享】【2011年春“求知寻是”系列讲座第三场(总023期)】张维迎:反思经济学 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/257250661/6225587120?from=0"> 教授,北京大学<font color="red">网络</font>经济研究<font color="red">中心</font>主任,北京大学工商<font color="red">管理</font>... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">陈柳芳</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/257486609/8940485988?from=0"> 大紫龙,辽大又能免费上网啦! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/257486609/8940485988?from=0"> 有一个人通过无线路由器在辽大<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>,成功登陆个人账号。其他所有连接无线路由器... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孙权</a> </span> <span class="f-right">点击:4</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/258313157/15355173279?from=0"> 转发东北财经大学<font color="red">网络</font>信息<font color="red">管理</font><font color="red">中心</font> 《新学期<font color="red">网络</font>业务安排(2013)》 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/258313157/15355173279?from=0"> 为保证用户的利益,请使用默认密码(1234)的用户尽快修改个人密码。 一、网络交费(充值)业务 1、2月21日起正常办理 注意:2月23、24日(周六、日)售卡时间为上午8:00~11:15,下午13:00~16:3... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李妍</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/258886861/9190411448?from=0"> 苏宁电器集团校园招聘简章 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/258886861/9190411448?from=0"> 苏宁1200工程第十期招聘简章 一、企业简介苏宁创立于1990年,以电器连锁为主要产业,同步带动地产、<font color="red">网络</font>商城、高星级酒店和连锁购物<font color="red">中心</font>等领域协同发展。目前旗下包含苏宁电器、苏宁置业、苏宁易购、苏宁 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">冯新伟.ΘζΘ</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/260462498/12013389697?from=0"> 苏宁1200工程招聘金融学、经济学类、信管、工业工程、工商管理、市场营销、电子商务、财务管理等专业学生,请在近两天内将将简历发出,需要推荐请于辅导员联系。 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/260462498/12013389697?from=0"> 苏宁1200工程招聘简章 一、企业简介 苏宁创立于1990年,以电器连锁为主要产业,同步带动地产、<font color="red">网络</font>商城、高星级酒店和连锁购物<font color="red">中心</font>等领域协同发展。目前旗下包含苏宁电器、苏宁置业、苏宁易 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">刘璐~LL</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/260471400/11774562157?from=0"> (转)闪讯共享无线网络 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/260471400/11774562157?from=0"> 闪讯共享无线<font color="red">网络</font>(先把自己电脑的防火墙关闭)1:点击<font color="red">网络</font>图标 2:点击打开<font color="red">网络</font>共享<font color="red">中心</font> 3:点击打开<font color="red">管理</font>无线<font color="red">网络</font> 4:点击添加 5:这里选创建临时网络 6:连接名... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">✿张溪◕‿◕</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/262405315/5799067553?from=0"> 用笔记本把有线网路转为wifi网路,让你的wifi设备共享上网 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/262405315/5799067553?from=0"> 1.清除所有已经建立的临时<font color="red">网络</font>链接: 进入“<font color="red">网络</font>与共享<font color="red">中心</font>”——选择左边“<font color="red">管理</font>无线<font color="red">网络</font>”——选中“无用的临时网络”右键单击,删除网络,确定退出 ... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">唐子扬</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/262625962/9688944235?from=0"> 施强集团2012年校园招聘 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/262625962/9688944235?from=0"> 时间:11月18日13:00 地点:大学生活动<font color="red">中心</font>第一活动室 公司简介 施强集团下辖9家子公司,横跨医药、教育、出国服务、<font color="red">网络</font>科技、物业<font color="red">管理</font>等领域。集团母公司施强药业集团有限公司成立于2004年 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">吴佳莲</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/263151450/14775376667?from=0"> 北京住房公积金管理中心2012年下半年招聘工作人员公告 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/263151450/14775376667?from=0"> 中公网校事业单位课程可享3折优惠 北京事业单位<font color="red">网络</font>辅导课程 北京市事业单位公开招聘工作人员实施办法北京住房公积金<font color="red">管理</font><font color="red">中心</font>(以下简称管理中心)是根据《国务院关于修改&lt;住房公积金管理 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">趙辰</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/263192586/8814640168?from=0"> 招聘49:苏宁电器 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/263192586/8814640168?from=0"> 苏宁1200工程第十期招聘简章 一、企业简介 苏宁创立于1990年,以电器连锁为主要产业,同步带动地产、<font color="red">网络</font>商城、高星级酒店和连锁购物<font color="red">中心</font>等领域协同发展。目前旗下包含苏宁电器、苏宁置业、苏宁易购、 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">金婷婷</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/263221103/4140041860?from=0"> 他们的艺术 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/263221103/4140041860?from=0"> 上海大火,今天头七,二十万人上街悼念。从民间传来的影像、照片、话语十分感人。显然,官方也不敢威逼太甚,让这些信息和情绪得到了抒发的空间。至少暂时如此。 今天,公安部<font color="red">网络</font>信息<font color="red">管理</font><font color="red">中心</font>应该就像上海街道旁 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">杨昉</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/264343276/7085916737?from=0"> 首医啊,你特娘的先是想热死爹,现在又想憋死爹,你特么是闹哪样啊??? </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/264343276/7085916737?from=0"> zz:特么的信息与通讯<font color="red">中心</font>关于实施新的Internet访问办法的通知 为了完善<font color="red">网络</font>安全<font color="red">管理</font>,合理使用带宽,经学校同意将启用新的计费网关系统,同时实施新的Internet访问办法。一、基本原则1. </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">安红</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/264793110/9357143516?from=0"> 苏宁电器2012应届生招聘简章(仙林就有) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/264793110/9357143516?from=0"> 苏宁1200工程第十期招聘简章 一、企业简介苏宁创立于1990年,以电器连锁为主要产业,同步带动地产、<font color="red">网络</font>商城、高星级酒店和连锁购物<font color="red">中心</font>等领域协同发展。目前旗下包含苏宁电器、苏宁置业、苏宁易购 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">黄静</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/264811784/14245259104?from=0"> 【2012秋季招新】第二弹:上外职协各部门简介Part A----办公室、常规项目部和企业宣讲部 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/264811784/14245259104?from=0"> 上外职协<font color="red">管理</font>机构为理事会,由校毕业生就业指导<font color="red">中心</font>代表与职协会长、副会长组成。 下设六个执行部门:办公室、常规项目部、企业宣讲部、实习培训部、对外联络部、<font color="red">网络</font>宣传部。 【办公室】督导中枢,运筹帷幄 上 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">吴恺昵</a> </span> <span class="f-right">点击:7</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/265078549/5526253425?from=263467898"> 亲爱的人们,冷静一下,听我说:为什么我不担心日本核电站。——麻省理工博士( 文章源自凤凰网) 我认为我们有权也有必要知道现在发生的真实情况! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/265078549/5526253425?from=263467898"> 编者按:日本核泄漏事故发生后,美国麻省理工学院科技政策与产业发展<font color="red">中心</font>的博士Josef Oehmen撰写了一篇题为“为什么我不担心日本的核电站”的文章,以相对通俗的话语解释了核安全问题,在<font color="red">网络</font>上流传甚 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">段勇</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/268941931/3455788286?from=0"> 阿里巴巴就业能力特训营开营!大家快来报名参加简历大赛吧~ </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/268941931/3455788286?from=0"> 由浙江大学人力资源学会(嗯!也就是我~)和<font color="red">管理</font>学院职业发展<font color="red">中心</font>联合举办,阿里巴巴<font color="red">网络</font>有限公司大力赞助的“阿里巴巴就业能力特训营”现在开营啦!在特训营活动期间,您可以:1、参加“简历大赛”,只需投递您 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">凌楚定</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/269154385/14644562536?from=0"> 网信中心走访记录(内容包括与老师的聊天记录哦~) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/269154385/14644562536?from=0"> 一、时间:2012年11月7日星期三 下午3点 二、地点:大连理工大学<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font> 三、事件:关于23舍等宿舍断网、学生网速慢以及校园无线网等问题 四、走访人:大连理工大学权益部副 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">权益~~DUT</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/269375526/3964371502?from=0"> win7笔记本通过无线网卡共享上网(无线网卡做无线路由)!(分享) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/269375526/3964371502?from=0"> 面板 --&gt; <font color="red">网络</font>和Internet --&gt; <font color="red">网络</font>和共享<font color="red">中心</font>选择 <font color="red">管理</font>无... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">▁▂王_苑 ▂▁</a> </span> <span class="f-right">点击:4</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/270251213/3297636535?from=0"> 兰州大学网络中心要控制我们上网的流量了!受不了呀~~~ </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/270251213/3297636535?from=0"> CERNET国家<font color="red">网络</font><font color="red">中心</font>严格执行按所缴... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">卢菁昊</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/270580940/14046583566?from=0"> 【首师生活攻略】——上网篇 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/270580940/14046583566?from=0"> 上网,每个人都少不了~~今天,我们来说说有关校园网的东西(一)校园网简明使用指南数字校园建设<font color="red">中心</font><font color="red">网络</font>部(<font color="red">网络</font><font color="red">中心</font>)负责首都师范大学校园计算机<font color="red">网络</font>的规划、建设和校园网的日常运行、维护、<font color="red">管理</font>、、负责校园 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">首师-生活部</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/271841115/6320670698?from=0"> 【通知】关于本科学生宿舍网络限时管理的公告 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/271841115/6320670698?from=0"> 为进一步加强学风建设,优化学习生活环境,根据学校通知要求,自2011年5月8日起,现代教育技术<font color="red">中心</font>将对本科学生宿舍的<font color="red">网络</font>进行限时<font color="red">管理</font>,周日到周四,每天23:00至次日7:00中断教育网、电信ADSL </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王少飞</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/275902891/5410896949?from=0"> 同济校园网设备升级通知.... </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/275902891/5410896949?from=0"> [来 源] <font color="red">网络</font><font color="red">管理</font><font color="red">中心</font> [发表时间] 2011-3-8 [浏览次数] 270 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">曲葳</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/277541051/14515190331?from=0"> 北京市道路路网管理与应急处置中心招考工作人员公告 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/277541051/14515190331?from=0"> 北京事业单位<font color="red">网络</font>辅导课程 北京市事业单位公开招聘工作人员实施办法北京市道路路网<font color="red">管理</font>与应急处置<font color="red">中心</font>是北京市交通委路政局全额拨款事业单位,现根据工作需要,面向社会公开招考工作人员6名, </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">韩利娜</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/279822551/9389168399?from=0"> 首届“爱我校园”主题图片PS大赛正式启动 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/279822551/9389168399?from=0"> 经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font> 首届“爱我校园”主题图片PS大赛正式启动啦~\(≧▽≦)/~! 为丰富同学们的课余生活,为培养同学们热爱学校、美化校园的 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孟莹™</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/280436302/14837299855?from=0"> 第二届经济管理学院“歌颂校园——回眸流金岁月,展望美好明天”PPT设计大赛圆满举行 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/280436302/14837299855?from=0"> 第二届经济<font color="red">管理</font>学院“歌颂校园——回眸流金岁月,展望美好明天”PPT设计大赛圆满举行 2012年11月30日晚6时,由东北农业大学经济<font color="red">管理</font>学院<font color="red">网络</font>媒体<font color="red">中心</font>举办的以“歌颂校园——回眸流金岁月,. </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">曾令辉</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/280913471/6533001712?from=0"> 【洗浴中心的内幕!!!——一位桑拿部长的自述!】 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/280913471/6533001712?from=0"> 【转自<font color="red">网络</font>,原作者不详】 洗浴<font color="red">中心</font>的内幕--请听一位桑拿部长的自述 本 人在桑拿从事了多年的<font color="red">管理</font>工作,想写点自己看到的一些事,有点乱,但绝对是小弟在桑拿工作时的 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">陈小婷</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/282084440/6198164735?from=0"> 【招聘信息】施耐德电气2011暑期实习生、管培生招聘华北电力大学宣讲会即将开始! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/282084440/6198164735?from=0"> 华北电力大学宣讲会专场 时间:2011年5月9日 19:00—21:00 地点:国际交流<font color="red">中心</font>多功能厅 公司介绍:全球能效<font color="red">管理</font>专家施耐德电气为100多个国家的能源及基础设施、工业、 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">阴海强</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/282205977/9791609003?from=0"> 技术贴:如何在复旦校园里使用fduwireless.1X </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/282205977/9791609003?from=0"> <font color="red">中心</font>,在<font color="red">管理</font>无线<font color="red">网络</font>中新建一个网络,具... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">陈洺</a> </span> <span class="f-right">点击:20</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/282355718/8022315478?from=0"> 关于江西农业大学下学期学生宿舍区网络使用的公告 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/282355718/8022315478?from=0"> 学生宿舍区校园<font color="red">网络</font>用户: 你们好! 从2011年8月27日起,学生宿舍区<font color="red">网络</font>将由中国电信南昌分公司和我校信息<font color="red">中心</font>共同<font color="red">管理</font>维护,<font color="red">网络</font>使用上有些变化,现就有关事项通告如下: 一、上网 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">宋時維</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/282781431/14252766954?from=0"> 【2012秋季招新】第三弹:上外职协各部门简介Part B----实习培训部、对外联络部、网络运营部 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/282781431/14252766954?from=0"> 上外职协<font color="red">管理</font>机构为理事会,由校毕业生就业指导<font color="red">中心</font>代表与职协会长、副会长组成。 下设六个执行部门:办公室、常规项目部、企业宣讲部、实习培训部、对外联络部、<font color="red">网络</font>运营部。 【实习培训部】资源云集,职场历练 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">张译丹Jean</a> </span> <span class="f-right">点击:7</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/283324199/7390450136?from=0"> 关于学生寝室通宵网络的回复 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/283324199/7390450136?from=0"> 暑期留校各位本科同学: 近期学生楼栋<font color="red">管理</font>委员会关注到同学们关于暑假24小时提供<font color="red">网络</font>服务的呼声,今天上午经与<font color="red">网络</font><font color="red">中心</font>和生活园区<font color="red">管理</font>中心协调,现决定于今日开始临时调整本科生供网方案. 从 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">朱文博Bob</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/283668090/12789086013?from=0"> 关于公寓网络问题的相关解答 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/283668090/12789086013?from=0"> 今天上午公寓<font color="red">管理</font><font color="red">中心</font>就同学们反映强烈的<font color="red">网络</font>问题邀请公寓网络中心负责人进行了详细解答。公寓网络中心负责人表示,公寓网络是一个体系,而公寓网络中心承担的任务主要是看得见摸得着的设备及线路维修问题,很多 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">周睿</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/283899021/6704312438?from=0"> [实录]<font color="red">网络</font><font color="red">中心</font>负责人就校园网实施“限额使用”<font color="red">管理</font>政策答学生记者问||QQ传东西不用流量,咩哈哈~~~不过那个PT是怎么回事…… </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/283899021/6704312438?from=0"> 实录]<font color="red">网络</font><font color="red">中心</font>负责人就校园网实施“限额使用”<font color="red">管理</font>政策答学生记者问 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">张庆</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/284573975/8864142993?from=0"> 信息考试选择题~ </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/284573975/8864142993?from=0"> 高二信息技术第二章练习题班级 学号 姓名 1.负责我国互联网域名<font color="red">管理</font>工作的是:(D )A.中国电信B.中国联通C.中国教育和科研计算机网D.中国互联网信息<font color="red">中心</font>2.某单位共有24个办公室,每个办公室约 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">张赛男</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/285022112/14454025051?from=0"> 齐佳音教授的5个国院09级本科毕设题目 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/285022112/14454025051?from=0"> 大家好,我的导师齐佳音教授,博士生导师,现任北京邮电大学“社会化<font color="red">网络</font>信息<font color="red">管理</font>与服务”研究<font color="red">中心</font>主任,主要从事在线用户关系管理、非常规突发事件应急管理、互联网舆情分析的研究。今年她在国院09级本科毕设的 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">盛琪然</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/285146953/15400058089?from=0"> 关于管理学院建立“知行”传媒中心的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/285146953/15400058089?from=0"> 为了充实和丰富同学们的大学生活,展示同学们的青春风采。同时也为了增进与各学院间的沟通交流,扩大<font color="red">管理</font>学院影响力。经学院领导批准,特此成立<font color="red">管理</font>学院知行快讯传媒<font color="red">中心</font>。知行快讯传媒<font color="red">中心</font>是隶属于<font color="red">管理</font>学院团委 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">包敏楠</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/285612803/12475228047?from=0"> 【破解闪讯】Win7建Wi-Fi热点,共享给iPhone,iPad等设备使用【已测试成功】 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/285612803/12475228047?from=0"> 需要用到破解软件,布闪谬下载地址:http://u.115.com/file/aq2ufht9#1.打开<font color="red">网络</font>和共享<font color="red">中心</font> 2.选择&quot;<font color="red">管理</font>无线<font color="red">网络</font>&quot; 3.添加 4. </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王云飞</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/287134761/9541296206?from=0"> 优秀PPT作品制作方法分享会 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/287134761/9541296206?from=0"> “经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font>” “<font color="red">网络</font>应用类技术培训”之“优秀PPT作品制作方法分享会” ★反响热烈★ 经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font> 讯, </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李继尧Lebron</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/287766054/3493611533?from=0"> 河北工业大学校园网常用链接 最新版 [by Ray 整理] </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/287766054/3493611533?from=0"> 校园网 常用链接 河北工业大学校内<font color="red">网络</font>资源导航 http://apps.hebut.edu.cn/stu/daohang.htm 河北工业大学<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>http:// </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">朱虹灬Hope</a> </span> <span class="f-right">点击:4</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/293585121/13860290189?from=0"> 没有路由器也能上无线 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/293585121/13860290189?from=0"> 没有路由器也能上无线我可以了~1.打开“<font color="red">网络</font>和共享<font color="red">中心</font>” 2.“<font color="red">管理</font>无线<font color="red">网络</font>” 3.添加“创建临时网络”--“网络 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">刘健</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/295289600/12267174606?from=0"> 诚邀您参加2012 全国大学生管理决策模拟(商道)大赛 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/295289600/12267174606?from=0"> 全国大学生<font color="red">管理</font>决策模拟大赛由高等学校国家级实验教学示范<font color="red">中心</font>联席会主办,由上海交通大学承办<font color="red">网络</font>赛事,2009 年、2010 年和2011 年分别由内蒙古大学、哈尔滨工程大学和重庆工商大学承办总决赛, </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">夏艳燕</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/295301137/14527729630?from=0"> 中国人力资源精英会月度公益论坛 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/295301137/14527729630?from=0"> ■论坛概要中国人力资源精英会总部位于北京,是中国雇主品牌网(www.chinachr.com)、中企联合(北京)人力资源<font color="red">管理</font><font color="red">中心</font>成立的人力资源<font color="red">管理</font>从业者的合作交流平台,致力于打造覆盖全国的人力资源 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">姚远曦Utada</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/297414862/4439613963?from=0"> 12月22日招聘会通知,所到企业近60家! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/297414862/4439613963?from=0"> 时间:12月22日(周三)下午13:30~16:00 地点:活动<font color="red">中心</font>举办招聘会 企业如下 绫致时装(天津)有限公司 上海泛太物流有限公司 奥食卡企业<font color="red">管理</font>有限公司 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">蒋亚文</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/299143376/14176230726?from=0"> “学子网刊大学生<font color="red">网络</font>社区<font color="red">管理</font><font color="red">中心</font>”副部长换届通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/299143376/14176230726?from=0"> “学子网刊大学生<font color="red">网络</font>社区<font color="red">管理</font><font color="red">中心</font>”拟定于2012年9月10日——9月12日面向经济管理学院2011级全体同学进行副部长级换届改选工作。希望有意愿参加 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王春晓</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/301965031/2244043544?from=0"> 想回家工作的神木毕业大学生块来看啊(欢迎转载) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/301965031/2244043544?from=0"> 正文: 现神木恒生国际购物<font color="red">中心</font>开始招聘信息技术<font color="red">管理</font>职员,恒生国际购物<font color="red">中心</font>位居人民广场地下一层。釆 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">$黄超</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/306799724/8807724737?from=0"> 苏宁1200工程第十期招聘简章-南审管理学院 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/306799724/8807724737?from=0"> 一、企业简介苏宁创立于1990年,以电器连锁为主要产业,同步带动地产、<font color="red">网络</font>商城、高星级酒店和连锁购物<font color="red">中心</font>等领域协同发展。目前旗下包含苏宁电器、苏宁置业、苏宁易购、苏宁银河、苏宁商业<font color="red">管理</font>公司、LAOX </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">戴颖丹</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/306839170/2330223066?from=0"> 【线上SCDA职业发展周】之【知名公司】 施耐德 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/306839170/2330223066?from=0"> 【编者按】这是一片关于施耐德电气公司的详细介绍,希望能对同学们有帮助! 施耐德电气集团简介 全球能效<font color="red">管理</font>专家施耐德电气为100多个国家的能源及基础设施、工业、数据<font color="red">中心</font>及<font color="red">网络</font>、楼宇和住宅市场提供整体 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">欧阳御哲</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/309703946/8098269442?from=0"> 恭喜学子网刊●网络媒体中心主页成立 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/309703946/8098269442?from=0"> 各位同学大家好^^~东北农业大学,经济<font color="red">管理</font>学院,“学子网刊&middot;<font color="red">网络</font>媒体<font color="red">中心</font>”主页终于与您见面啦 学子网刊&middot;网络媒体中心是一个新生的学生组织,本着&amp; </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">刘学冶</a> </span> <span class="f-right">点击:5</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/311930442/14717383499?from=0"> 【网刊活动】关于开展以“初雪•随感”为主题的多项目活动比赛通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/311930442/14717383499?from=0"> “经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font>”现面向经济<font color="red">管理</font>学院内部全体同学开展本次以“初雪• 随感”为主题的多项目活动! 新学期的冬天已然 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">唐越</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/314576740/14058180797?from=0"> CHEP [集保运营部实习生!!!!] 想在上海外企实习的同学看过来,特别是在上海的同学! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/314576740/14058180797?from=0"> 集保CHEP是全球最大的托盘和物流周转箱共用租赁服务提供方,所属于布兰堡集团,总部位于美国的奥兰多。现拥有7700多名员工的专业团队, 每天<font color="red">管理</font>着3.2 亿个托盘和周转箱的运作,业务<font color="red">网络</font>覆盖全球 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">爱心社</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/315071249/4262245449?from=0"> 东南大学IPV6和BRAS使用完美版 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/315071249/4262245449?from=0"> 1.正确配置Bras。Bras配置手册可以<font color="red">网络</font>信息<font color="red">管理</font><font color="red">中心</font>http://nic.seu.edu.cn/下载。确定你的Bras能在图书馆使用后,创建一个新的连接,连接到Internet,帐号 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">杨建军</a> </span> <span class="f-right">点击:5</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/316710465/9795939244?from=0"> 侯树亭先生揭露最真实的创业历程,同学们大家有福啦O(∩_∩)O~~ </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/316710465/9795939244?from=0"> 创新创业学院每月演讲系列 讲题: 行业的创新与可持续发展主讲人:侯树亭职业传记: 侯树亭先生是中国塑协泡沫塑料EPS委员会会长、世界EPS<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>CEO及江苏清华EPS产业集团董事长; </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">南大SRTP</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/318361367/5526961503?from=0"> 麻省理工博士:为什么我不担心日本的核电站 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/318361367/5526961503?from=0"> 编者按:日本核泄漏事故发生后,美国麻省理工学院科技政策与产业发展<font color="red">中心</font>的博士Josef Oehmen撰写了一篇题为“为什么我不担心日本的核电站”的文章,以相对通俗的话语解释了核安全问题,在<font color="red">网络</font>上流传甚 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">林兆亨</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/322237133/7354364473?from=0"> 江西农业大学下学期校园网调整方案详情 这~这~这太尼玛坑爹了 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/322237133/7354364473?from=0"> 学生宿舍区校园<font color="red">网络</font>用户: 你们好! 从2011年8月27日起,学生宿舍区<font color="red">网络</font>将由中国电信南昌分公司和我校信息<font color="red">中心</font>共同<font color="red">管理</font>维护,<font color="red">网络</font>使用上有些变化,现就有关事项通告如下: 一、上网方式: </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">陈紫芸</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/331337817/8821512867?from=0"> 【上外职协招新第三弹】在这里,总有一个部门能让你展露才华,表现自我! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/331337817/8821512867?from=0"> 上外职协<font color="red">管理</font>机构为理事会,由校毕业生就业指导<font color="red">中心</font>代表与职协会长、副会长组成。下设六个执行部门:办公室、常规项目部、企业宣讲部、对外联络部、实习培训部、<font color="red">网络</font>运营部 招新时间:9月26日、27日中午 招 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">沈妮</a> </span> <span class="f-right">点击:4</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/333594930/7187662359?from=0"> 经济<font color="red">管理</font>学院2011-2012学年度“学子网刊&middot;<font color="red">网络</font>媒体<font color="red">中心</font>”首届纳新通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/333594930/7187662359?from=0"> 经济<font color="red">管理</font>学院2011-2012学年度“学子网刊&middot;<font color="red">网络</font>媒体<font color="red">中心</font>”首届纳... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">杨梓森❤</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/335125952/8708005756?from=0"> “经济<font color="red">管理</font>学院•<font color="red">网络</font>媒体<font color="red">中心</font>”招贤纳新 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/335125952/8708005756?from=0"> 09月15日18点,“经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font>”在研究生楼201教室,205教室举行新学年的纳新大会,二百余名大一新生积极响应,报名参加了此次大会。“经济<font color="red">管理</font>学院&middot;<font color="red">网络</font> </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">郝秋实</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/337884223/8818937687?from=0"> 关于校园网中断的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/337884223/8818937687?from=0"> <font color="red">网络</font>信息<font color="red">中心</font>定于9月28日早6点进行校园网新光缆系统的割接,为保证本次割接工程的顺利进行,请各楼宇负责<font color="red">管理</font>校园<font color="red">网络</font>设备间的人员早8点及时到岗,否则将导致无法及时恢复本楼网络。 割接期间,校园网范围内 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">高鑫</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/339521370/12840494585?from=0"> 用win7最方便的创建wifi无线网络的方法!今天终于找到了!留着! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/339521370/12840494585?from=0"> 1.删除电脑之前已经建立所有的临时<font color="red">网络</font>:进入“<font color="red">网络</font>与共享<font color="red">中心</font>”——选择左边”<font color="red">管理</font>无线<font color="red">网络</font>“——选中无用 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">高子娱</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/340069903/12042443322?from=0"> 无需路由器 寝室仍然可以共享上网! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/340069903/12042443322?from=0"> 无需【路由器】寝室照样【共享】上网这里介绍一种方法,希望对大家有所帮助。闲话少叙,马上开始!1、 先对进行购买网卡的电脑进行联网2、 上网之后打开【控制面板】的【<font color="red">网络</font>和共享<font color="red">中心</font>】 3、 点击 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">朱怡 ➎Monica</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/341605310/8459144098?from=0"> 关于燕山校区师生员工办理互联网服务业务的通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/341605310/8459144098?from=0"> 关于我校师生员工办理互联网服务业务的通知 新学期伊始,校<font color="red">网络</font>教育与<font color="red">管理</font><font color="red">中心</font>继续办理教职工宿舍、学生宿舍互联网接入和<font color="red">网络</font>资费代缴业务。 业务内容及费用情况如下: </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">邹静怡</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/344158585/8789232103?from=291057960"> 哈尔滨工业大学 校园招聘宣讲会信息 9月28日(1)(附企业简介) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/344158585/8789232103?from=291057960"> 金海控股有限责任公司新活动<font color="red">中心</font>2142011-9-28 9:00:00大连港口建设<font color="red">管理</font>有限公司新活动<font color="red">中心</font>4262011-9-28 9:00:00艾默生<font color="red">网络</font>能源有限公司新活动中心 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">戴婧彤</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/344210386/13808855945?from=0"> 经大神指点...关于天大内网问题 一个内网不只是自己的电脑可以用,别的电脑也可以用...物理地址不是问题... </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/344210386/13808855945?from=0"> 把电脑的物理地址修改成<font color="red">网络</font><font color="red">中心</font>留的那个物理地址,把ip地址,默认网关改成开网的那个。1.修改物理地址:右键计算机---<font color="red">管理</font>---设备<font color="red">管理</font>器---<font color="red">网络</font>适配器---real....---高级---网络 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">马星茹</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/347162981/13135129086?from=0"> 法学院新闻宣传中心成立并招聘学生干部的公告 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/347162981/13135129086?from=0"> 法学院各班团支部、各位同学: 为进一步加强我院各项学生活动的对外宣传力度,提升宣传工作水平,经院分团委研究决定成立法学院新闻宣传<font color="red">中心</font>,该<font color="red">中心</font>由院分团委直接领导,归属院分团委<font color="red">管理</font>。主要负责法学院宣传 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">曹宇</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/349053267/9513837461?from=0"> 【洗浴中心的内幕!!!——一位桑拿部长的自述!... 做这行什么样的人都能见到,而且是见他们最“阴暗”最不为人知的一面。有个大学教授是我们这的常客,每次来都带一个皮包。。。】 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/349053267/9513837461?from=0"> 【转自<font color="red">网络</font>,原作者不详】 洗浴<font color="red">中心</font>的内幕--请听一位桑拿部长的自述 本 人在桑拿从事了多年的<font color="red">管理</font>工作,想写点自己看到的一些事,有点乱,但绝对是小弟在桑拿工作时的真实见闻与 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">▎Rockin. 李好圆</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/352913394/9220054228?from=0"> 3.1网络的功能与构造练习 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/352913394/9220054228?from=0"> 1.负责<font color="red">网络</font>的资源<font color="red">管理</font>和通信工作,并响应<font color="red">网络</font>工作的请求,为<font color="red">网络</font>用户提供服务的设备是(A)。A.<font color="red">网络</font>服务器B.电脑公司C.工作站D.网页2.某学校校园网<font color="red">网络</font><font color="red">中心</font>到l号教学楼网络节点的距离大约为700米 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">贺许藤川</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/353025625/13863931075?from=0"> 没有路由器,用电脑虚拟一个~ </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/353025625/13863931075?from=0"> 这几天苦逼。。不太能碰网,趁着看韩剧的时候写篇日志消遣下时间。。。今天看到人人上发了一条状态说 没有路由器也能上无线我可以了~1.打开“<font color="red">网络</font>和共享<font color="red">中心</font>” </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">茆雯洁</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/354331970/8138900378?from=346387426"> 关于闪讯1.0.0050共享wifi </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/354331970/8138900378?from=346387426"> 不算自己原创,但亲测可用,向各位作者表示敬意! 二部曲之一:建立一个无线连接 1:点击<font color="red">网络</font>图标 2:点击打开<font color="red">网络</font>共享<font color="red">中心</font> </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">徐凌焱lear</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/356614206/12106037684?from=0"> 东北师大网络中心的ftp资源! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/356614206/12106037684?from=0"> 现在还有很多小同学不知道师大<font color="red">网络</font><font color="red">中心</font>的ftp资源!使用资源<font color="red">管理</font>器访问方法:1.打开“我的电脑”。2.在地址栏中输入“ftp://share.nenu.edu.cn”回车即可!望各位师大小盆友们转发! </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王思嘉</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/356795478/8634970078?from=0"> 哈工大近期招聘会 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/356795478/8634970078?from=0"> 中国科学院深圳先进技术研究院正心楼106教室详见2011-9-29 19:00:00深信服科技有限公司新活动<font color="red">中心</font>101详见2011-9-29 19:00:00百威英博全球<font color="red">管理</font>培训生招聘正心楼12教室 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孟杰</a> </span> <span class="f-right">点击:3</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/357125355/14589388566?from=0"> 《网络应用类技术培训之如何制作优秀FLASH作品》学生干部培训会 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/357125355/14589388566?from=0"> 经济<font color="red">管理</font>学院团委•传媒<font color="red">中心</font> 讯为了促进学院的学风建设,为了在学院范围内普及网上办公、网上学习---这种高效、便捷的交流<font color="red">管理</font>方式,帮助更多的同学们更好的掌握应用类办公软件和应用类<font color="red">网络</font>软件和 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">冯炽超</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/364089793/14237254255?from=0"> 中国航信上海分公司招聘需求 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/364089793/14237254255?from=0"> 中国航信公司简介 中国民航信息集团公司正式组建于2002年10月,属国资委<font color="red">管理</font>的中央企业。中国民航信息<font color="red">网络</font>股份有限公司是在2000年10月,由中国民航计算机信息<font color="red">中心</font>联合当时所有国内航空公司发起 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">薛加凡</a> </span> <span class="f-right">点击:3</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/366911672/10200234179?from=0"> 让闪讯共享出无线!!!! </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/366911672/10200234179?from=0"> 第一步1:点击<font color="red">网络</font>图标 2:点击打开<font color="red">网络</font>共享<font color="red">中心</font> 3:在左侧点击打卡<font color="red">管理</font>无线<font color="red">网络</font> 4:点击添加 5:这里选创建临时网络 6:连接名自己写一个(就是等下搜索到无线的名称) 7:安全类型选择wep(根据 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">艾夫华</a> </span> <span class="f-right">点击:36</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/367661494/7063035054?from=0"> 寝室内部不需要上网,联机打Dota的方法````(笔记本) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/367661494/7063035054?from=0"> 1.打开无线wifi。 是这样的话就是已经打开无线和有线了。2.点击上图最下面的 &lt;打开<font color="red">网络</font>和共享<font color="red">中心</font>&gt;进入下图的界面 3.点击上图左上角的 &lt;<font color="red">管理</font>无线 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">何晨航</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/369673163/12021773841?from=0"> 苏宁1200工程招聘简章 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/369673163/12021773841?from=0"> 苏宁1200工程招聘简章 一、企业简介苏宁创立于1990年,以电器连锁为主要产业,同步带动地产、<font color="red">网络</font>商城、高星级酒店和连锁购物<font color="red">中心</font>等领域协同发展。目前旗下包含苏宁电器、苏宁置业、苏宁易购、苏宁 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孙晓程amant</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/369673163/14503288264?from=0"> 亚马逊中国招聘 工商 物流 国贸的都需要 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/369673163/14503288264?from=0"> 亚马逊中国拥有业界公认世界一流的运营<font color="red">网络</font>,目前有13个运营<font color="red">中心</font>,分别位于北京(2个)、天津、苏州、广州、成都、武汉、沈阳、西安、厦门、昆山、哈尔滨、南宁,总运营面积超过50万平米。其主要负责厂商收货 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">孙晓程amant</a> </span> <span class="f-right">点击:5</span> </p> </li> 
+      <!-- 图文并排内容区 --> 
+      <li class="ug-c-pic clearfix"><a target="_blank" href="http://share.renren.com/share/372108404/13226816615?from=0" class="ug-c-img"> <img src="http://i2.tdimg.com/050/466/489/m15.jpg" alt="" /></a> 
+       <div class="ug-c-r"> 
+        <div class="ug-c-word"> 
+         <a target="_blank" href="http://share.renren.com/share/372108404/13226816615?from=0"> 吴永达讲师 </a> 
+        </div> 
+        <p class="ug-c-from"> 来自: <a target="_blank" href="http://reg.renren.com">曹鹏</a> </p> 
+        <p class="ug-c-click">点击:1</p> 
+       </div></li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/385458192/12629790372?from=0"> 【重大胜利】关于仙林校区学生宿舍接入校园网的情况通报 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/385458192/12629790372?from=0"> 关于仙林校区学生宿舍接入校园网的情况通报::为改善仙林校区学生宿舍<font color="red">网络</font>运行状况,经学校研究决定,仙林校区学生宿舍接入校:园网,带宽、资费及<font color="red">管理</font>模式与鼓楼校区学生宿舍相同,原电信<font color="red">网络</font>接口保留。<font color="red">网络</font>信息 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">吴晓媛</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/393542945/14114543904?from=0"> 【关于奋进及奋进各部门职能介绍】 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/393542945/14114543904?from=0"> 河海大学奋进网是一个立足商院、服务全校的资源共享及师生交流的平台。河海大学商学院奋进<font color="red">网络</font><font color="red">中心</font>是商学院党委旗下学生组织,主要由六大部门组成: 秘书处:奋进的贴心管家。美女如云,德才兼备,负责财务 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">杨燕</a> </span> <span class="f-right">点击:3</span> </p> </li> 
+      <!-- 图文并排内容区 --> 
+      <li class="ug-c-pic clearfix"><a target="_blank" href="http://share.renren.com/share/396429197/14961381861?from=0" class="ug-c-img"> <img src="http://g2.ykimg.com/0100401F4650CFF4856CE604C630EFF6789FB9-3B0D-4F27-E483-34A5E0E5ECF1" alt="" /></a> 
+       <div class="ug-c-r"> 
+        <div class="ug-c-word"> 
+         <a target="_blank" href="http://share.renren.com/share/396429197/14961381861?from=0"> 郑州航空工业<font color="red">管理</font>学院,大学生社团指导<font color="red">中心</font>,<font color="red">网络</font>部,第八届,中心内部联欢,视频 </a> 
+        </div> 
+        <p class="ug-c-from"> 来自: <a target="_blank" href="http://reg.renren.com">夏雅曦</a> </p> 
+        <p class="ug-c-click">点击:1</p> 
+       </div></li> 
+      <!-- 图文并排内容区 --> 
+      <li class="ug-c-pic clearfix"><a target="_blank" href="http://share.renren.com/share/398367215/15441063980?from=0" class="ug-c-img"> <img src="http://fmn.rrimg.com/fmn065/20130308/1930/main_hvcA_1cca000022f9118f.jpg" alt="" /></a> 
+       <div class="ug-c-r"> 
+        <div class="ug-c-word"> 
+         <a target="_blank" href="http://share.renren.com/share/398367215/15441063980?from=0"> 苏大应用无线网上网全解析 </a> 
+        </div> 
+        <p class="ug-c-from"> 来自: <a target="_blank" href="http://reg.renren.com">张凯</a> </p> 
+        <p class="ug-c-click">点击:6</p> 
+       </div></li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/411616904/14257248367?from=0"> 大学生医疗保险校医院门诊使用说明 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/411616904/14257248367?from=0"> 由于近期沈阳市大学生医疗保险<font color="red">网络</font>(沈阳市医保<font color="red">中心</font><font color="red">管理</font>)正在建设中,为辽宁大学医院门诊学生就诊带来不便,校医院特此表示歉意。校医院已从今年6月底开始实行,参加大学生医疗保险同学就诊时,药品(医保局规定 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">牟秀艳</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/414655413/9667258776?from=0"> 关于“网络媒体中心人人主页 四大板块”的征文通知 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/414655413/9667258776?from=0"> “经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font>”<font color="red">网络</font>运营部 关于“<font color="red">网络</font>媒体<font color="red">中心</font>人人主页 四大板块”的征文通知 “经济<font color="red">管理</font>学院&amp; </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">国贸</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/415751075/9614549114?from=0"> 首届 “让思绪再飞一会”策划大赛 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/415751075/9614549114?from=0"> “经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font>” 首届 “让思绪再飞一会”策划大赛 火热开赛啦~\(≧▽≦)/~由“经济<font color="red">管理</font>学院&middot;<font color="red">网络</font>媒体<font color="red">中心</font>”策划部主办的首届“让思绪再飞一会&amp;r... </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">营销系</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/418502679/13663162694?from=0"> 琢磨好几天终于找到个稳定共享笔记本wifi的方法 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/418502679/13663162694?from=0"> 1.删除电脑之前已经建立所有的临时<font color="red">网络</font>:进入“<font color="red">网络</font>与共享<font color="red">中心</font>”——选择左边”<font color="red">管理</font>无线<font color="red">网络</font>“——选中无用 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">李建澄</a> </span> <span class="f-right">点击:1</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/427244508/15357315796?from=0"> 全国最新各地招聘职位汇总(02.21) </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/427244508/15357315796?from=0"> 【成都】运营<font color="red">中心</font>业务操作 --------招商银行 【沈阳】<font color="red">网络</font>销售 --------沈阳万益汇鑫投资<font color="red">管理</font>有限公司 【深圳】融资经理 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">劳可樾</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/42801590/3089838886?from=0"> 转让实习一份 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/42801590/3089838886?from=0"> 本人现在克莱斯勒公司实习,因为9月份研究生开学没时间继续做下去了,经老板同意,故转让给有兴趣的朋友。公司:克莱斯勒(中国)汽车销售有限公司部门:经销商<font color="red">网络</font><font color="red">管理</font>与发展部地址:长宁区红宝石路500号东银 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">曹菁菁</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/445109684/14914714522?from=0"> 宿舍网络问题访谈录 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/445109684/14914714522?from=0"> 针对学院宿舍<font color="red">网络</font>异常的问题,学生会权益保障部10日与学院信息<font color="red">管理</font><font color="red">中心</font>的老师进行沟通。现将此次访谈的内容摘录如下:问:老师您好,近期很多同学向我们反应学院宿舍<font color="red">网络</font>速特别慢而且会莫名其妙的断网,这种现象 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">唐志才 AcSir丶</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/46767/14799453222?from=0"> 中国文化传媒网招聘行政、编辑 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/46767/14799453222?from=0"> 岗位及人数: 行政1人,<font color="red">网络</font>编辑4人 工作性质: 行政:于中国文化传媒网(文化部中国文化传媒集团<font color="red">网络</font><font color="red">中心</font>)处办公,负责文件写收发送、人力资源<font color="red">管理</font>、日常行政以及领导交办的其他业务。 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">成长</a> </span> <span class="f-right">点击:0</span> </p> </li> 
+      <!-- 图文并排内容区 --> 
+      <li class="ug-c-pic clearfix"><a target="_blank" href="http://share.renren.com/share/478110257/14951386198?from=0" class="ug-c-img"> <img src="http://i2.tdimg.com/159/448/169/p.jpg" alt="" /></a> 
+       <div class="ug-c-r"> 
+        <div class="ug-c-word"> 
+         <a target="_blank" href="http://share.renren.com/share/478110257/14951386198?from=0"> 华西公共卫生学院社团<font color="red">管理</font>与<font color="red">网络</font>舆情<font color="red">中心</font>部门介绍 </a> 
+        </div> 
+        <p class="ug-c-from"> 来自: <a target="_blank" href="http://reg.renren.com">袁悦</a> </p> 
+        <p class="ug-c-click">点击:13</p> 
+       </div></li> 
+      <!-- 图文并排内容区 --> 
+      <li class="ug-c-pic clearfix"><a target="_blank" href="http://share.renren.com/share/490144395/14952820603?from=0" class="ug-c-img"> <img src="http://g2.ykimg.com/0100641F4650CE26FD356005A7678063AFC871-DAE6-1CBC-EE28-0DC80D1E5549" alt="" /></a> 
+       <div class="ug-c-r"> 
+        <div class="ug-c-word"> 
+         <a target="_blank" href="http://share.renren.com/share/490144395/14952820603?from=0"> 河南大学工商<font color="red">管理</font>学院<font color="red">网络</font>新闻<font color="red">中心</font>微电影 </a> 
+        </div> 
+        <p class="ug-c-from"> 来自: <a target="_blank" href="http://reg.renren.com">崔艇</a> </p> 
+        <p class="ug-c-click">点击:54</p> 
+       </div></li> 
+      <!-- 图文并排内容区 --> 
+      <li class="ug-c-pic clearfix"><a target="_blank" href="http://share.renren.com/share/601018949/14939931851?from=0" class="ug-c-img"> <img src="http://g2.ykimg.com/0100641F4650CC038903C005C6D623B2607D46-ED90-6748-C7E2-F9EF0C2547F9" alt="" /></a> 
+       <div class="ug-c-r"> 
+        <div class="ug-c-word"> 
+         <a target="_blank" href="http://share.renren.com/share/601018949/14939931851?from=0"> 沈工大<font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>十周年庆典晚会暖场视频(1) </a> 
+        </div> 
+        <p class="ug-c-from"> 来自: <a target="_blank" href="http://reg.renren.com">沈阳工业大学网络管理中心</a> </p> 
+        <p class="ug-c-click">点击:533</p> 
+       </div></li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/601107605/14135293223?from=0"> 哈工程锐捷4.44 Win7开启无线网络共享以及Mac OS X下锐捷认证,仅供学习 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/601107605/14135293223?from=0"> <font color="red">网络</font><font color="red">管理</font><font color="red">中心</font>给旧版本的锐捷下了封杀令,也就说用上4.44版本以后就不能打开无线<font color="red">网络</font>共享了,好在天无绝人之路,这就放出破解之法。我只在Win7 32位和Mac OS X下试验成功,其他系统自行试验,仅 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">哈工程计算机科技协会</a> </span> <span class="f-right">点击:54</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/601108801/15089151872?from=0"> 艾默生网络能源有限公司——2013年东北地区校园招聘 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/601108801/15089151872?from=0"> 一、公司介绍 关于艾默生艾默生<font color="red">网络</font>能源是艾默生(纽约证券交易所股票代码:EMR)所属业务品牌,为数据<font color="red">中心</font>关键基础设施、通信<font color="red">网络</font>、医疗和工业设施提供保护和优化。艾默生<font color="red">网络</font>能源在交直流电源和可再生 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">王振宇BACKSILDE</a> </span> <span class="f-right">点击:2</span> </p> </li> 
+      <!-- 纯文字内容区 --> 
+      <li class="ug-c-txt clearfix"> 
+       <div class="ug-c-word"> 
+        <a target="_blank" href="http://share.renren.com/share/601321782/14554400664?from=0"> 世界500强香港实习免费推荐 </a> 
+        <br /> 
+        <a target="_blank" href="http://share.renren.com/share/601321782/14554400664?from=0"> 世界500强企业香港实习推荐计划是由中美交流<font color="red">中心</font>与香港知名企业合作,为全国优秀大学生提供的资源共享平台。该平台旨在锻炼其职场专业素质、公司化<font color="red">管理</font>能力、跨文化交流能力以及卓越的社交能力和领导才能,使 </a> 
+       </div> <p class="ug-c-from clearfix"> <span class="ug-c-txt-from f-left">来自: <a target="_blank" href="http://reg.renren.com">大学生赛事资讯</a> </span> <span class="f-right">点击:9</span> </p> </li> 
+      <!-- 图文并排内容区 --> 
+      <li class="ug-c-pic clearfix"><a target="_blank" href="http://share.renren.com/share/601470779/15423694440?from=0" class="ug-c-img"> <img src="http://fmn.rrimg.com/fmn065/20130305/1615/main_dgCq_48ed0000303b125c.jpg" alt="" /></a> 
+       <div class="ug-c-r"> 
+        <div class="ug-c-word"> 
+         <a target="_blank" href="http://share.renren.com/share/601470779/15423694440?from=0"> 关于2012-2013春季学期在校学生注册的通知 </a> 
+        </div> 
+        <p class="ug-c-from"> 来自: <a target="_blank" href="http://reg.renren.com">北航中法12级1224大班</a> </p> 
+        <p class="ug-c-click">点击:1</p> 
+       </div></li> 
+     </ul> 
+     <p class="ug-c-more"> <a target="_blank" href="http://reg.renren.com">更多热门内容&gt;&gt;</a> </p> 
+    </div> 
+    <!-- 侧边栏 --> 
+    <div class="ug-sidebar"> 
+     <!-- 侧边栏精选推荐 --> 
+     <div class="ug-sidebar-item" style="white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden"> 
+      <div class="ug-sidebar-title clearfix"> 
+       <h3 class="f-left">精选推荐</h3> 
+       <a target="_blank" href="/keywords" class="f-right">更多</a> 
+      </div> 
+      <ul class="ug-sidebar-c"> 
+       <li class="clearfix "><a target="_blank" href="/keywords/4198560" class="ug-sidebar-img f-left"> <img src="http://fmn.rrimg.com/fmn061/20140713/1450/original_r0ir_1e830000a607118c.jpg" alt="" /></a> 
+        <div class="ug-c-sidebar-i-c f-right"> 
+         <h3> <a target="_blank" href="/keywords/4198560">最美小苹果</a> </h3> 
+         <ul class="ug-sidebar-c-ul-in"> 
+          <li><a target="_blank" href="http://share.renren.com/share/361633592/17469580898?from=0">小苹果台湾最美双胞胎...</a></li> 
+          <li><a target="_blank" href="http://share.renren.com/share/420607708/17502385629?from=0">茉莉广场舞《中国歌最...</a></li> 
+         </ul> 
+        </div></li> 
+       <li class="clearfix "><a target="_blank" href="/keywords/4201660" class="ug-sidebar-img f-left"> <img src="http://fmn.rrimg.com/fmn057/20140808/0120/main_DwaT_4be0000018b3125d.jpg" alt="" /></a> 
+        <div class="ug-c-sidebar-i-c f-right"> 
+         <h3> <a target="_blank" href="/keywords/4201660">南京青奥会开幕式</a> </h3> 
+         <ul class="ug-sidebar-c-ul-in"> 
+          <li><a target="_blank" href="http://share.renren.com/share/337721076/17549718526?from=0">南京航空航天大学酒店...</a></li> 
+         </ul> 
+        </div></li> 
+       <li class="clearfix "><a target="_blank" href="/keywords/4198762" class="ug-sidebar-img f-left"> <img src="http://i3.tdimg.com/157/540/872/p.jpg" alt="" /></a> 
+        <div class="ug-c-sidebar-i-c f-right"> 
+         <h3> <a target="_blank" href="/keywords/4198762">千金保姆</a> </h3> 
+         <ul class="ug-sidebar-c-ul-in"> 
+          <li><a target="_blank" href="http://share.renren.com/share/370688786/14767115490?from=0">刘德华千金刘向惠首被...</a></li> 
+          <li><a target="_blank" href="http://share.renren.com/share/481348434/14765365746?from=0">视频:刘德华千金首曝...</a></li> 
+         </ul> 
+        </div></li> 
+      </ul> 
+     </div> 
+     <!-- 侧边栏热词推荐 --> 
+     <div class="ug-sidebar-item ug-sidebar-hot"> 
+      <div class="ug-sidebar-title clearfix"> 
+       <h3 class="f-left">更多热词推荐</h3> 
+       <a target="_blank" href="/keywords" class="f-right">更多</a> 
+      </div> 
+      <div class="ug-sidebar-c clearfix"> 
+       <a target="_blank" href="/keywords/4201780" class="ug-hot-words-small">青年奥林匹克运动会</a> 
+       <a target="_blank" href="/keywords/4203844" class="ug-hot-words-big">南京音乐节</a> 
+       <a target="_blank" href="/keywords/4203934" class="ug-hot-words">花样爷爷</a> 
+       <a target="_blank" href="/keywords/4198770" class="ug-hot-words">红星发展</a> 
+       <a target="_blank" href="/keywords/4199980" class="ug-hot-words-small">青奥会开幕式</a> 
+       <a target="_blank" href="/keywords/4203540" class="ug-hot-words">罗马教皇</a> 
+       <a target="_blank" href="/keywords/4201646" class="ug-hot-words-big">新加坡总统</a> 
+       <a target="_blank" href="/keywords/4200052" class="ug-hot-words">美国之音</a> 
+       <a target="_blank" href="/keywords/4202504" class="ug-hot-words">长治爆炸</a> 
+       <a target="_blank" href="/keywords/4203776" class="ug-hot-words-big">权志龙生日</a> 
+       <a target="_blank" href="/keywords/4199972" class="ug-hot-words">航天食品</a> 
+       <a target="_blank" href="/keywords/4203456" class="ug-hot-words-big">纽卡斯尔vs曼城</a> 
+       <a target="_blank" href="/keywords/4203952" class="ug-hot-words-big">假冒洗发水</a> 
+       <a target="_blank" href="/keywords/4202006" class="ug-hot-words-big">美国男篮vs巴西</a> 
+       <a target="_blank" href="/keywords/4201648" class="ug-hot-words-small">阿sa陈伟霆</a> 
+       <a target="_blank" href="/keywords/4201654" class="ug-hot-words-big">爸爸去哪儿第二季</a> 
+       <a target="_blank" href="/keywords/4203306" class="ug-hot-words">gopro相机</a> 
+       <a target="_blank" href="/keywords/4203606" class="ug-hot-words-big">青年奥运会开幕式</a> 
+       <a target="_blank" href="/keywords/4203310" class="ug-hot-words">美国男篮热身赛</a> 
+       <a target="_blank" href="/keywords/4203536" class="ug-hot-words-small">杜德伟演唱会</a> 
+       <a target="_blank" href="/keywords/4201984" class="ug-hot-words">国际奥委会主席</a> 
+       <a target="_blank" href="/keywords/4198852" class="ug-hot-words-small">青奥会主题曲</a> 
+       <a target="_blank" href="/keywords/4203304" class="ug-hot-words">福州公交</a> 
+       <a target="_blank" href="/keywords/4198772" class="ug-hot-words">中国面孔</a> 
+       <a target="_blank" href="/keywords/4203860" class="ug-hot-words-big">财神爷生日</a> 
+       <a target="_blank" href="/keywords/4198938" class="ug-hot-words">微软手机</a> 
+       <a target="_blank" href="/keywords/4203610" class="ug-hot-words-big">街球制霸赛</a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="footer"> 
+   <div class="site-footer" style="background:#fff;position:relative;"> 
+    <div class="main"> 
+     <ul class="link"> 
+      <li><a href="http://www.renren.com/siteinfo/about">关于</a></li> 
+      <li><a href="http://dev.renren.com">开放平台</a></li> 
+      <li><a href="http://wan.renren.com">人人游戏</a></li> 
+      <li><a href="http://page.renren.com/register/regGuide/">公共主页</a></li> 
+      <li><a href="http://mobile.renren.com/mobilelink.do?psf=40002">手机人人</a></li> 
+      <li><a href="http://www.nuomi.com">团购</a></li> 
+      <li><a href="http://www.jiexi.com">皆喜网</a></li> 
+      <li><a href="http://ads.renren.com">营销服务</a></li> 
+      <li><a href="http://job.renren-inc.com/">招聘</a></li> 
+      <li><a href="http://www.renren.com/siteinfo/link">友情链接</a></li> 
+      <li><a href="http://support.renren.com/helpcenter">客服帮助</a></li> 
+      <li><a href="http://www.renren.com/siteinfo/privacy">隐私</a></li> 
+     </ul> 
+     <span class="copyright"> 人人网<span title="revision$revxxx$; YZSJHL20-49.opi.com">&copy;</span>2015 </span> 
+    </div> 
+    <div class="haoes"> 
+     <span class="company-name">北京千橡网景科技发展有限公司:</span> 
+     <span>文网文[2009]169号</span>
+     <span class="dot">&middot;</span>
+     <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP证090254号</a>
+     <span class="dot">&middot;</span>
+     <span>京公网安备110000000009号</span>
+     <span class="dot">&middot;</span>
+     <span>甲测资字11002066</span>
+     <span class="dot">&middot;</span>
+     <span>文化部监督电子邮箱:wlwh@vip.sina.com</span>
+     <span class="dot">&middot;</span>
+     <a href="http://a.xnimg.cn/n/core/res/certificate.jpg" target="_blank">互联网药品信息服务资格证</a>
+     <br /> 
+     <p class="special-add"><span>文明办网文明上网举报电话:4000803580 举报邮箱:admin1@renren-inc.com</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bjjubao.org/" target="_blank"><img src="http://s.xnimg.cn/imgpro/civilization/c_1.jpg" width="25" height="24" />不良信息举报中心</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bj.cyberpolice.cn/index.jsp" target="_blank"><img src="http://s.xnimg.cn/imgpro/civilization/c_2.jpg" width="25" height="24" />网络110报警服务</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bjwhzf.gov.cn/accuse.do" target="_blank"><img src="http://s.xnimg.cn/imgpro/civilization/c_3.jpg" width="25" height="24" />北京文化市场举报热线</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://wan.renren.com/safe/jzjk.html" target="_blank">家长监护工程</a> </p>
+    </div> 
+   </div> 
+  </div>  
+  <div id="toolBackTo" class="back-to" style="display:none;"> 
+   <a stats="site_footer_back_to_top" class="backtotop" href="#top">返回顶部 <img stats="site_footer_back_to_top" src="http://a.xnimg.cn/imgpro/button/back-tip.png" class="back-tip" /> </a> 
+  </div>
+  <script src="http://s.xnimg.cn/jspro/beacon.js?ver=$revxxx$"></script>
+  <script>COMSCORE.beacon({ c1:2, c2:6934070, c3:"", c4:"", c5:"", c6:"", c15:"" });</script>
+  <noscript>
+   <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6934070&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" />
+  </noscript>
+ </body>
+</html>

@@ -1,0 +1,2256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>中国建设质量网</title>
+  <link href="../3wfocus.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+  <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <td><script language="JavaScript" type="text/JavaScript"><!--function getLeft(e){ var t=e.offsetTop; var l=e.offsetLeft; while(e=e.offsetParent){ t+=e.offsetTop; l+=e.offsetLeft; }l=l+150 return l;} function getTop(e){ var t=e.offsetTop; var l=e.offsetLeft; while(e=e.offsetParent){ t+=e.offsetTop; l+=e.offsetLeft; } return t;} function SetMenuPos(Dive,IMGe){	var t=IMGe.offsetTop; 	var l=IMGe.offsetLeft; 	while(IMGe=IMGe.offsetParent){ 	t+=IMGe.offsetTop; 	l+=IMGe.offsetLeft; 	}	Dive.style.left = l;	Dive.style.top = t + 32;}function HidLay(){			mu2div.style.visibility='hidden'	mu3div.style.visibility='hidden'	mu4div.style.visibility='hidden'	mu5div.style.visibility='hidden'	mu6div.style.visibility='hidden'	mu7div.style.visibility='hidden'	mu8div.style.visibility='hidden'	mu9div.style.visibility='hidden'				}function hide(){MM_showHideLayers('mu2div','','hide');MM_showHideLayers('mu3div','','hide');MM_showHideLayers('mu4div','','hide');MM_showHideLayers('mu5div','','hide');MM_showHideLayers('mu6div','','hide');MM_showHideLayers('mu7div','','hide');MM_showHideLayers('mu8div','','hide');MM_showHideLayers('mu9div','','hide');}function MM_swapImgRestore() { //v3.0  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;}function MM_preloadImages() { //v3.0  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}}function mOver(obj){obj.style.background="#184EB8"}function mOut(obj){obj.style.background="#1fa8d1"}//function microsoftMouseMove() {//      if (!(window.event.x >10 && window.event.y <210&& window.event.x <272 && window.event.y >131 )){//		MM_showHideLayers('mu2div','','hide');     }//if (!(window.event.x >10 && window.event.y >148 && window.event.x <272 && window.event.y<187 )){//		MM_showHideLayers('news','','hide');     }//if (!(window.event.x >10 && window.event.y >182 && window.event.x <272 && window.event.y<510)){//		MM_showHideLayers('probts','','hide');     }//if (!(window.event.x >10 && window.event.y >201 && window.event.x <272 && window.event.y<375)){//		MM_showHideLayers('prodts','','hide');     }//if (!(window.event.x >10 && window.event.y >221 && window.event.x <272 && window.event.y<300)){//		MM_showHideLayers('service','','hide');     }//if (!(window.event.x >10 && window.event.y >238 && window.event.x <272 && window.event.y<277)){//		MM_showHideLayers('success','','hide');     }// }function MM_findObj(n, d) { //v4.01  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);  if(!x && d.getElementById) x=d.getElementById(n); return x;}function MM_showHideLayers() { //v6.0  var i,p,v,obj,args=MM_showHideLayers.arguments;  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }    obj.visibility=v; }}//--></script>
+      <link href="../3wfocus.css" rel="stylesheet" type="text/css" />
+      <div id="mu2div" onmouseout="javascript:mu2div.style.visibility='hidden'" onmouseover="javascript:mu2div.style.visibility='visible'" style="Z-INDEX: 1;VISIBILITY: hidden; POSITION: absolute" class="pt13WhiteBold"> 
+       <table cellspacing="1" cellpadding="1" width="130" border="0" bgcolor="#1fa8d1" align="center"> 
+        <tbody>
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../News/index.aspx?ClassName=5Lia5YaF5paw6Ze7">业内新闻</a></td> 
+         </tr> 
+         <tr valign="center"> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../News/index.aspx?ClassName=5Y2P5Lya5paw6Ze7">协会新闻</a></td> 
+         </tr> 
+        </tbody>
+       </table>
+      </div>
+      <div id="mu3div" onmouseout="javascript:mu3div.style.visibility='hidden'" onmouseover="javascript:mu3div.style.visibility='visible'" style="Z-INDEX: 1;VISIBILITY: hidden; POSITION: absolute" class="pt13WhiteBold"> 
+       <table cellspacing="1" cellpadding="1" width="100" border="0" class="black" bgcolor="#1fa8d1" align="center"> 
+        <tbody>
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangLT/List.aspx?BoardType=%e8%b4%a8%e9%87%8f%e6%8a%80%e6%9c%af">质量技术</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangLT/List.aspx?BoardType=PPT%e8%ae%b2%e5%a0%82">PPT讲堂</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangLT/List.aspx?BoardType=%e8%a1%a8%e5%bd%b0%e6%8e%a8%e8%8d%90">表彰推荐</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangLT/List.aspx?BoardType=%e6%af%8f%e5%91%a8%e4%b8%80%e9%97%ae">每周一问</a></td> 
+         </tr> 
+        </tbody>
+       </table>
+      </div>
+      <div id="mu4div" onmouseout="javascript:mu4div.style.visibility='hidden'" onmouseover="javascript:mu4div.style.visibility='visible'" style="Z-INDEX: 1;VISIBILITY: hidden; POSITION: absolute" class="pt13WhiteBold"> 
+       <table cellspacing="1" cellpadding="1" width="90" border="0" class="black" bgcolor="#1fa8d1" align="center"> 
+        <tbody>
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangPX/index.aspx?ClassName=5Y2T6LaK57up5pWI5ZKo6K%2bi">卓越绩效咨询</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangPX/index.aspx?ClassName=5ZKo6K%2bi57G7">咨询类</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangPX/index.aspx?ClassName=5Z%2b56K6t57G7">培训类</a></td> 
+         </tr> 
+        </tbody>
+       </table>
+      </div>
+      <div id="mu5div" onmouseout="javascript:mu5div.style.visibility='hidden'" onmouseover="javascript:mu5div.style.visibility='visible'" style="Z-INDEX: 1;VISIBILITY: hidden; POSITION: absolute" class="pt13WhiteBold"> 
+       <table cellspacing="1" cellpadding="1" width="90" border="0" class="black" bgcolor="#1fa8d1" align="center"> 
+        <tbody>
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../Downloads/index.aspx?ClassName=5Y2P5Lya5paH5Lu2">协会文件</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../Downloads/index.aspx?ClassName=6LWE5paZ">资料</a></td> 
+         </tr> 
+        </tbody>
+       </table>
+      </div>
+      <div id="mu6div" onmouseout="javascript:mu6div.style.visibility='hidden'" onmouseover="javascript:mu6div.style.visibility='visible'" style="Z-INDEX: 1;VISIBILITY: hidden; POSITION: absolute" class="pt13WhiteBold"> 
+       <table cellspacing="1" cellpadding="1" width="90" border="0" class="black" bgcolor="#1fa8d1" align="center"> 
+        <tbody>
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangCY/index.aspx?ClassName=6YCa55%2bl5paH5Lu2">通知文件</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../ZhiLiangCY/index.aspx?ClassName=5YWJ6I2j5qac">光荣榜</a></td> 
+         </tr> 
+        </tbody>
+       </table>
+      </div>
+      <div id="mu7div" onmouseout="javascript:mu7div.style.visibility='hidden'" onmouseover="javascript:mu7div.style.visibility='visible'" style="Z-INDEX: 1;VISIBILITY: hidden; POSITION: absolute" class="pt13WhiteBold"> 
+       <table cellspacing="1" cellpadding="1" width="90" border="0" class="black" bgcolor="#1fa8d1" align="center"> 
+        <tbody>
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../Magazine/index.aspx?ClassName=5pS%2b5Zu%2b">放图</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../Magazine/index.aspx?ClassName=55uu5b2V">目录</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../Magazine/index.aspx?ClassName=566A5LuL">简介</a></td> 
+         </tr> 
+        </tbody>
+       </table>
+      </div>
+      <div id="mu8div" onmouseout="javascript:mu8div.style.visibility='hidden'" onmouseover="javascript:mu8div.style.visibility='visible'" style="Z-INDEX: 1;VISIBILITY: hidden; POSITION: absolute" class="pt13WhiteBold"> 
+       <table cellspacing="1" cellpadding="1" width="90" border="0" class="black" bgcolor="#1fa8d1" align="center"> 
+        <tbody>
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../LianXiWM/index.aspx?ClassName=5Lya5ZGY5Lit5b%2bD">会员中心</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../LianXiWM/index.aspx?ClassName=5Zyo57q%2f5Lqk5rWB">在线交流</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../FAQ/index.aspx">疑问留言</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../LianXiWM/index.aspx?ClassName=55u45YWz6ZO%2b5o6l">相关链接</a></td> 
+         </tr> 
+        </tbody>
+       </table>
+      </div>
+      <div id="mu9div" onmouseout="javascript:mu9div.style.visibility='hidden'" onmouseover="javascript:mu9div.style.visibility='visible'" style="Z-INDEX: 1;VISIBILITY: hidden; POSITION: absolute" class="pt13WhiteBold"> 
+       <table cellspacing="1" cellpadding="1" width="90" border="0" class="black" bgcolor="#1fa8d1" align="center"> 
+        <tbody>
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../QCHuoDongXZ/index.aspx?ClassName=566A5LuL">简介</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../QCHuoDongXZ/index.aspx?ClassName=5oiQ5p6c5qGI5L6L">成果案例</a></td> 
+         </tr> 
+         <tr> 
+          <td height="18" align="center" valign="middle" onmouseover="mOver(this)" onmouseout="mOut(this)"><a href="../QCHuoDongXZ/index.aspx?ClassName=55u45YWz5pWZ5p2Q">相关教材</a></td> 
+         </tr> 
+        </tbody>
+       </table>
+      </div>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td>
+          <table width="1000" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td><img src="../images/home_logo.jpg" width="364" height="95" /></td> 
+             <td>
+              <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+               <tbody>
+                <tr> 
+                 <td width="678" height="46" align="right" valign="top" background="../images/home_bg_favor.jpg">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                   <tbody>
+                    <tr> 
+                     <td align="right"><img src="../images/home_center.jpg" width="190" height="36" usemap="#Map" border="0" /></td> 
+                     <td width="105"><a href="../WenJuanDC/Index.aspx"><img src="../images/wjdc.jpg" width="102" height="28" border="0" align="absmiddle" /></a></td> 
+                     <td width="105"><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=600e132cf2b2f2bd28f3cf3d99578f7d298904f617ba79b7caeb5e1a5121ffa2"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="中建协质量分会会员群" title="中建协质量分会会员群" /></a></td>
+                     <td width="36"><img src="../images/home_right.jpg" width="36" height="36" /></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                </tr> 
+                <tr> 
+                 <td>
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+                   <tbody>
+                    <tr> 
+                     <td style="cursor:hand;" onmouseover="javascript:mu2div.style.left=getLeft(mu2);SetMenuPos(mu2div,mu2);MM_showHideLayers('mu2div','','show')" onmouseout="MM_swapImgRestore();javascript:HidLay()"><img name="mu2" src="../images/home_top_xwdt.jpg" width="126" height="49" border="0" /></td> 
+                     <td style="cursor:hand;" onmouseover="javascript:mu3div.style.left=getLeft(mu3);SetMenuPos(mu3div,mu3);MM_showHideLayers('mu3div','','show')" onmouseout="MM_swapImgRestore();javascript:HidLay()"><a href="../ZhiLiangLT/Index.aspx"><img name="mu3" src="../images/home_top_zllt.jpg" width="100" height="49" border="0" /></a></td> 
+                     <td style="cursor:hand;" onmouseover="javascript:mu9div.style.left=getLeft(mu9);SetMenuPos(mu9div,mu9);MM_showHideLayers('mu9div','','show')" onmouseout="MM_swapImgRestore();javascript:HidLay()"><img name="mu9" src="../images/home_top_qcxz.jpg" width="90" height="49" border="0" /></td> 
+                     <td style="cursor:hand;" onmouseover="javascript:mu7div.style.left=getLeft(mu7);SetMenuPos(mu7div,mu7);MM_showHideLayers('mu7div','','show')" onmouseout="MM_swapImgRestore();javascript:HidLay()"><img name="mu7" src="../images/home_top_bkzz.jpg" width="97" height="49" /></td> 
+                     <td style="cursor:hand;" onmouseover="javascript:mu5div.style.left=getLeft(mu5);SetMenuPos(mu5div,mu5);MM_showHideLayers('mu5div','','show')" onmouseout="MM_swapImgRestore();javascript:HidLay()"><img name="mu5" src="../images/home_top_xzzx.jpg" width="95" height="49" /></td> 
+                     <td style="cursor:hand;"><a href="../LianXiWM/201209051551012235.aspx"><img name="mu8" src="../images/home_top_lxwm.jpg" width="128" height="49" border="0" /></a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+        </tr> 
+        <tr> 
+         <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1000" height="199"> <param name="movie" value="../images/main.swf"></param> <param name="quality" value="high"></param> <param name="wmode" value="transparent"></param> <embed src="../images/main.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1000" height="199" /> </object></td> 
+        </tr> 
+       </tbody>
+      </table><map name="Map" id="Map"> <area shape="rect" coords="12,7,67,28" href="../home/index.aspx"></area> <area shape="rect" coords="92,7,167,28" href="#" onclick="javascript:window.external.addFavorite('http://www.ccqa.com.cn', '中国建设质量网');" rel="sidebar"></area></map></td> 
+    </tr> 
+    <tr> 
+     <td valign="top" class="pt12Black">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+       <tbody>
+        <tr> 
+         <td width="232" valign="top">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td>
+              <link href="../3wfocus.css" rel="stylesheet" type="text/css" />
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td height="34" valign="bottom" background="../images/left_PageMenuTop.jpg">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                   <tbody>
+                    <tr> 
+                     <td width="30">&nbsp;</td> 
+                     <td height="27" valign="middle" class="pt16WhiteBold">协会简介</td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                </tr> 
+                <tr> 
+                 <td height="35" valign="bottom" background="../images/left_PageMenu1.jpg">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="pt15BlueBold"> 
+                   <tbody>
+                    <tr> 
+                     <td width="35">&nbsp;</td> 
+                     <td height="29"><a href="20091026152603.aspx">整体概况</a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                </tr> 
+                <tr> 
+                 <td height="35" valign="bottom" background="../images/left_PageMenu2.jpg">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="pt15BlueBold"> 
+                   <tbody>
+                    <tr> 
+                     <td width="35">&nbsp;</td> 
+                     <td height="25"><a href="20091026153411.aspx%&gt;">领导机构人员</a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                </tr> 
+                <tr> 
+                 <td height="35" valign="bottom" background="../images/left_PageMenu3.jpg">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="pt15BlueBold"> 
+                   <tbody>
+                    <tr> 
+                     <td width="35">&nbsp;</td> 
+                     <td height="25"><a href="20091026153439.aspx">入会申请</a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                </tr> 
+                <tr> 
+                 <td height="35" valign="bottom" background="../images/left_PageMenu3.jpg">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="pt15BlueBold"> 
+                   <tbody>
+                    <tr> 
+                     <td width="35">&nbsp;</td> 
+                     <td height="25"><a href="20091026153504.aspx">工作内容</a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                </tr> 
+                <tr> 
+                 <td><img src="../images/left_PageMenuBottom.jpg" width="232" height="12" /></td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+            <tr> 
+             <td><img src="../images/Left_LianXiWoMen.jpg" width="232" height="84" /></td> 
+            </tr> 
+            <tr> 
+             <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td><img src="../images/Left_ZLTBFZ.jpg" width="232" height="36" /></td> 
+                </tr> 
+                <tr> 
+                 <td height="150" valign="top" background="../images/Left_TableBg.jpg">
+                  <link href="../3wfocus.css" rel="stylesheet" type="text/css" />
+                  <table width="102%" border="0" align="center" cellpadding="0" cellspacing="6" class="pt13"> 
+                   <tbody>
+                    <tr> 
+                     <td> 
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                       <tbody>
+                        <tr> 
+                         <td> 
+                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+                           <tbody>
+                            <tr> 
+                             <td width="10" align="left"><img src="../images/home_ZLPXGreenPoint.jpg" align="absmiddle" /></td> 
+                             <td height="22" align="left"> <a href="../News/show.aspx?Showid=ezUmVUJaU0xGOyZHfj0%2bRUZ%2bMCYsVQ%3d%3d" target="_blank"> 水泥砂浆楼地面裂缝的产生核预... </a> </td> 
+                            </tr> 
+                           </tbody>
+                          </table> </td> 
+                        </tr> 
+                        <tr> 
+                         <td align="left" background="../images/line.gif" style="background-repeat: repeat-x;                        line-height: 5px;"> &nbsp; </td> 
+                        </tr> 
+                        <tr> 
+                         <td> 
+                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+                           <tbody>
+                            <tr> 
+                             <td width="10" align="left"><img src="../images/home_ZLPXGreenPoint.jpg" align="absmiddle" /></td> 
+                             <td height="22" align="left"> <a href="../News/show.aspx?Showid=XkI0Rzw4QS40OyZGNz4xMlVfOnxCVQ%3d%3d" target="_blank"> 饰面砖铺贴空鼓及分格缝不匀问... </a> </td> 
+                            </tr> 
+                           </tbody>
+                          </table> </td> 
+                        </tr> 
+                        <tr> 
+                         <td align="left" background="../images/line.gif" style="background-repeat: repeat-x;                        line-height: 5px;"> &nbsp; </td> 
+                        </tr> 
+                        <tr> 
+                         <td> 
+                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+                           <tbody>
+                            <tr> 
+                             <td width="10" align="left"><img src="../images/home_ZLPXGreenPoint.jpg" align="absmiddle" /></td> 
+                             <td height="22" align="left"> <a href="../News/show.aspx?Showid=SU8he0VASz1eO30%2fSVMvOEd%2bTnwpLQ%3d%3d" target="_blank"> 浅谈道路工程质量通病及其预防措施 </a> </td> 
+                            </tr> 
+                           </tbody>
+                          </table> </td> 
+                        </tr> 
+                        <tr> 
+                         <td align="left" background="../images/line.gif" style="background-repeat: repeat-x;                        line-height: 5px;"> &nbsp; </td> 
+                        </tr> 
+                        <tr> 
+                         <td> 
+                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+                           <tbody>
+                            <tr> 
+                             <td width="10" align="left"><img src="../images/home_ZLPXGreenPoint.jpg" align="absmiddle" /></td> 
+                             <td height="22" align="left"> <a href="../News/show.aspx?Showid=IVJFOlkyTjZHNE9PVHxbXix8fiM1VQ%3d%3d" target="_blank"> 多层民用住宅主体结构施工质量... </a> </td> 
+                            </tr> 
+                           </tbody>
+                          </table> </td> 
+                        </tr> 
+                        <tr> 
+                         <td align="left" background="../images/line.gif" style="background-repeat: repeat-x;                        line-height: 5px;"> &nbsp; </td> 
+                        </tr> 
+                       </tbody>
+                      </table> </td> 
+                    </tr>
+                   </tbody>
+                  </table></td> 
+                </tr> 
+                <tr> 
+                 <td><img src="../images/Left_TableBottom.jpg" width="232" height="4" /></td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+            <tr> 
+             <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td><img src="../images/Left_QCHDXZ.jpg" width="232" height="33" /></td> 
+                </tr> 
+                <tr> 
+                 <td height="150" valign="top" background="../images/Left_TableBg.jpg">
+                  <link href="../3wfocus.css" rel="stylesheet" type="text/css" />
+                  <table width="102%" border="0" align="center" cellpadding="0" cellspacing="6" class="pt13"> 
+                   <tbody>
+                    <tr> 
+                     <td> </td> 
+                    </tr>
+                   </tbody>
+                  </table></td> 
+                </tr> 
+                <tr> 
+                 <td><img src="../images/Left_TableBottom.jpg" width="232" height="4" /></td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+         <td valign="top" bgcolor="#ffffff">
+          <table width="99%" border="0" align="right" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td width="6"><img src="../images/Page_TitleLeft.jpg" width="6" height="37" /></td> 
+                 <td valign="bottom" background="../images/Left_TitleBg.jpg">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="pt16GreenBold"> 
+                   <tbody>
+                    <tr> 
+                     <td width="300">&nbsp;</td> 
+                     <td height="25">常务理事和理事名录</td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                 <td width="5"><img src="../images/Left_TitleRight.jpg" width="5" height="37" /></td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+            <tr> 
+             <td height="20">&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td>
+              <table width="97%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+               <tbody>
+                <tr> 
+                 <td> <p style="MARGIN: 0cm 0cm 0pt; FONT-SIZE: 16px" class="MsoNormal">&nbsp;&nbsp;<strong>理事(截至<span lang="EN-US">2014</span>年底共300人):</strong></p>
+                  <table border="0" cellspacing="1" cellpadding="5">
+                   <tbody>
+                    <tr></tr>
+                   </tbody>
+                   <tbody>
+                    <tr>
+                     <td width="40"><strong>序号 </strong></td>
+                     <td width="80" nowrap=""><strong>姓 名 </strong></td>
+                     <td nowrap=""><strong>单位名称 </strong></td>
+                     <td><strong>职 务 </strong></td>
+                    </tr>
+                    <tr>
+                     <td align="right">1</td>
+                     <td>冯义</td>
+                     <td>北京市建筑业联合会</td>
+                     <td>副会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">2</td>
+                     <td>付敬华</td>
+                     <td>北京市建筑业联合会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">3</td>
+                     <td>张晋勋</td>
+                     <td>北京城建集团有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">4</td>
+                     <td>杨鸿良</td>
+                     <td>北京城建集团有限责任公司总承包部</td>
+                     <td>常务总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">5</td>
+                     <td>冯跃</td>
+                     <td>北京建工集团有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">6</td>
+                     <td>杨健康</td>
+                     <td>北京住总集团有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">7</td>
+                     <td>杨崇俭</td>
+                     <td>北京建工一建工程建设有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">8</td>
+                     <td>陈硕晖</td>
+                     <td>北京市第三建筑工程有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">9</td>
+                     <td>于印其</td>
+                     <td>天津市建筑业协会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">10</td>
+                     <td>郝宝林</td>
+                     <td>天津市建工工程总承包有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">11</td>
+                     <td>韩振勇</td>
+                     <td>天津城建集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">12</td>
+                     <td>王超华</td>
+                     <td>天津住宅集团建设工程总承包有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">13</td>
+                     <td>李锦春</td>
+                     <td>天津三建建筑工程有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">14</td>
+                     <td>沈勤</td>
+                     <td>天津天一建设集团有限公司</td>
+                     <td>总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">15</td>
+                     <td>杨克明</td>
+                     <td>河北省建筑业协会工程建设质量分会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">16</td>
+                     <td>高秋利</td>
+                     <td>河北建设集团有限公司</td>
+                     <td>副总裁兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">17</td>
+                     <td>安占法</td>
+                     <td>河北建工集团有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">18</td>
+                     <td>李波</td>
+                     <td>河北省第二建筑工程有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">19</td>
+                     <td>闫福林</td>
+                     <td>唐山建设集团有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">20</td>
+                     <td>宋玉山</td>
+                     <td>山西省建筑业协会</td>
+                     <td>工程部部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">21</td>
+                     <td>杜锐</td>
+                     <td>山西四建集团有限公司</td>
+                     <td>总经理党委副书记</td>
+                    </tr>
+                    <tr>
+                     <td align="right">22</td>
+                     <td>徐延凯</td>
+                     <td>山西省宏图建设工程有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">23</td>
+                     <td>王原明</td>
+                     <td>国基建设集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">24</td>
+                     <td>李智</td>
+                     <td>内蒙古自治区建筑业协会</td>
+                     <td>副会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">25</td>
+                     <td>王静波</td>
+                     <td>内蒙古兴泰建筑有限责任公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">26</td>
+                     <td>高钧</td>
+                     <td>赤峰恒广建筑工程有限责任公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">27</td>
+                     <td>高飞</td>
+                     <td>辽宁省建筑业协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">28</td>
+                     <td>吴晓东</td>
+                     <td>铁法煤业集团建设工程有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">29</td>
+                     <td>陈祥生</td>
+                     <td>辽宁三盟建筑安装有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">30</td>
+                     <td>张驰</td>
+                     <td>本溪钢铁(集团)建设有限责任公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">31</td>
+                     <td>马太禄</td>
+                     <td>辽宁鲲鹏建设集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">32</td>
+                     <td>贺军</td>
+                     <td>辽阳建设集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">33</td>
+                     <td>赵宝贵</td>
+                     <td>辽宁绥四建设工程集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">34</td>
+                     <td>解国风</td>
+                     <td>吉林省建筑业协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">35</td>
+                     <td>齐有江</td>
+                     <td>吉林市第一建筑工程股份有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">36</td>
+                     <td>孙彦波</td>
+                     <td>长春新星宇建筑安装有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">37</td>
+                     <td>韩一宝</td>
+                     <td>黑龙江省建筑业协会</td>
+                     <td>副会长兼秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">38</td>
+                     <td>李会义</td>
+                     <td>黑龙江省建设工程质量监督管理总站</td>
+                     <td>副站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">39</td>
+                     <td>王海云</td>
+                     <td>黑龙江省建设集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">40</td>
+                     <td>李英顺</td>
+                     <td>哈尔滨市第一建筑工程公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">41</td>
+                     <td>武士军</td>
+                     <td>黑龙江省建工集团有限责任公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">42</td>
+                     <td>于秉坤</td>
+                     <td>黑龙江农垦建工集团</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">43</td>
+                     <td>魏成明</td>
+                     <td>齐翔建工集团</td>
+                     <td>常务副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">44</td>
+                     <td>董经纬</td>
+                     <td>上海市工程建设质量管理协会</td>
+                     <td>副会长兼秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">45</td>
+                     <td>朱炳章</td>
+                     <td>上海市工程建设质量管理协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">46</td>
+                     <td>沈吉</td>
+                     <td>上海市工程建设质量管理协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">47</td>
+                     <td>沈军</td>
+                     <td>上海建工四建集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">48</td>
+                     <td>王庆政</td>
+                     <td>上海东康建筑工程有限公司</td>
+                     <td>董事</td>
+                    </tr>
+                    <tr>
+                     <td align="right">49</td>
+                     <td>龚剑</td>
+                     <td>上海建工集团股份有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">50</td>
+                     <td>虞学泽</td>
+                     <td>长业建设集团有限公司</td>
+                     <td>总裁</td>
+                    </tr>
+                    <tr>
+                     <td align="right">51</td>
+                     <td>王宇光</td>
+                     <td>上海森信建设工程有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">52</td>
+                     <td>陈和根</td>
+                     <td>上海仲盛建设工程有限公司</td>
+                     <td>经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">53</td>
+                     <td>邵小东</td>
+                     <td>浙江勤业建工集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">54</td>
+                     <td>郭强</td>
+                     <td>上海锦展园林设计工程有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">55</td>
+                     <td>蔡杰</td>
+                     <td>江苏省建筑行业协会工程建设质量管理</td>
+                     <td>副会长兼秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">56</td>
+                     <td>倪道仁</td>
+                     <td>中兴建设有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">57</td>
+                     <td>刘旭</td>
+                     <td>南通建工集团股份有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">58</td>
+                     <td>耿裕华</td>
+                     <td>南通四建集团有限公司</td>
+                     <td>名誉董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">59</td>
+                     <td>张赤宇</td>
+                     <td>南通四建集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">60</td>
+                     <td>徐宏均</td>
+                     <td>南通新华建筑集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">61</td>
+                     <td>戚森伟</td>
+                     <td>苏州第一建筑集团有限公司</td>
+                     <td>技术总监</td>
+                    </tr>
+                    <tr>
+                     <td align="right">62</td>
+                     <td>干兆和</td>
+                     <td>中亿丰建设集团股份有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">63</td>
+                     <td>瞿启忠</td>
+                     <td>通州建总集团有限公司</td>
+                     <td>常务副总兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">64</td>
+                     <td>祁敏</td>
+                     <td>华仁建设集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">65</td>
+                     <td>徐永海</td>
+                     <td>江苏邗建集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">66</td>
+                     <td>陶昌银</td>
+                     <td>南通华新建工集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">67</td>
+                     <td>王先华</td>
+                     <td>江苏省建工集团有限公司</td>
+                     <td>副总裁兼副总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">68</td>
+                     <td>熊新华</td>
+                     <td>江苏省第一建筑安装股份有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">69</td>
+                     <td>刘爱民</td>
+                     <td>中国能源建设集团江苏省电力建设第一工程公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">70</td>
+                     <td>徐叶松</td>
+                     <td>江苏苏兴建设工程有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">71</td>
+                     <td>姚光恒</td>
+                     <td>浙江省工程建设质量管理协会</td>
+                     <td>副会长兼秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">72</td>
+                     <td>陈思清</td>
+                     <td>浙江省建筑业行业协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">73</td>
+                     <td>李炳传</td>
+                     <td>浙江国泰建设集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">74</td>
+                     <td>罗永明</td>
+                     <td>标力建设集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">75</td>
+                     <td>邵凯平</td>
+                     <td>浙江省一建建设集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">76</td>
+                     <td>董利华</td>
+                     <td>浙江中成建工集团有限公司</td>
+                     <td>常务副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">77</td>
+                     <td>俞黎明</td>
+                     <td>中元建设集团股份有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">78</td>
+                     <td>王东晖</td>
+                     <td>绍兴市建筑业协会秘书长</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">79</td>
+                     <td>胡正华</td>
+                     <td>温州建设集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">80</td>
+                     <td>周伟</td>
+                     <td>浙江环宇建设集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">81</td>
+                     <td>王苗夫</td>
+                     <td>浙江展诚建设集团股份有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">82</td>
+                     <td>赵志伟</td>
+                     <td>新中大软件股份有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">83</td>
+                     <td>刘超</td>
+                     <td>安徽省建设工程质量安全监督总站</td>
+                     <td>站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">84</td>
+                     <td>常登荣</td>
+                     <td>合肥建工集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">85</td>
+                     <td>赵学军</td>
+                     <td>安徽华力建设集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">86</td>
+                     <td>戴良军</td>
+                     <td>安徽建工集团有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">87</td>
+                     <td>李传玉</td>
+                     <td>中国能源建设集团安徽省电力建设第一工程公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">88</td>
+                     <td>林华强</td>
+                     <td>福建省工程质量安全监督总站</td>
+                     <td>站长助理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">89</td>
+                     <td>张党生</td>
+                     <td>福建省泷澄建设集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">90</td>
+                     <td>黄荷山</td>
+                     <td>福建省闽南建筑工程有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">91</td>
+                     <td>郭定国</td>
+                     <td>福建省第五建筑工程公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">92</td>
+                     <td>王龙</td>
+                     <td>恒亿集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">93</td>
+                     <td>潘丽芳</td>
+                     <td>福州建工(集团)总公司</td>
+                     <td>企业技术负责人</td>
+                    </tr>
+                    <tr>
+                     <td align="right">94</td>
+                     <td>张常涛</td>
+                     <td>福建省第一建筑工程公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">95</td>
+                     <td>卢海东</td>
+                     <td>泉州市技术工程质量监督站</td>
+                     <td>站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">96</td>
+                     <td>吴平春</td>
+                     <td>中建海峡建设发展有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">97</td>
+                     <td>杨辉</td>
+                     <td>江西省建筑业协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">98</td>
+                     <td>赖小军</td>
+                     <td>南昌市第三建设工程有限责任公司</td>
+                     <td>董事长兼总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">99</td>
+                     <td>谌丰毅</td>
+                     <td>江西建工第二建筑有限责任公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">100</td>
+                     <td>李向阳</td>
+                     <td>江西省建工集团有限责任公司</td>
+                     <td>处长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">101</td>
+                     <td>嵇飙</td>
+                     <td>山东省建设工程质量监督总站</td>
+                     <td>副站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">102</td>
+                     <td>林滨</td>
+                     <td>山东省建筑业协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">103</td>
+                     <td>孔令祥</td>
+                     <td>山东平安建设集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">104</td>
+                     <td>孙涌</td>
+                     <td>莱西市建筑总公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">105</td>
+                     <td>曲学进</td>
+                     <td>青建集团股份公司</td>
+                     <td>副总裁</td>
+                    </tr>
+                    <tr>
+                     <td align="right">106</td>
+                     <td>李增启</td>
+                     <td>天元建设集团有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">107</td>
+                     <td>靳海洋</td>
+                     <td>山东德建集团有限公司</td>
+                     <td>董事长、总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">108</td>
+                     <td>张会亭</td>
+                     <td>山东起凤建工股份有限公司</td>
+                     <td>董事长、总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">109</td>
+                     <td>田茂军</td>
+                     <td>山东天齐置业集团股份有限公司</td>
+                     <td>董事长、总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">110</td>
+                     <td>魏传钰</td>
+                     <td>山东三箭置业集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">111</td>
+                     <td>李娟</td>
+                     <td>河南省建筑业协会</td>
+                     <td>副会长兼副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">112</td>
+                     <td>黄道元</td>
+                     <td>河南省第二建设集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">113</td>
+                     <td>谢继义</td>
+                     <td>河南省第一建筑工程集团有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">114</td>
+                     <td>谢海如</td>
+                     <td>安阳建工(集团)有限责任公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">115</td>
+                     <td>李涯</td>
+                     <td>河南国安建设集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">116</td>
+                     <td>谢勤娟</td>
+                     <td>河南六建建筑集团有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">117</td>
+                     <td>郝同社</td>
+                     <td>河南七建建筑集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">118</td>
+                     <td>段利民</td>
+                     <td>郑州市第一建筑工程集团有限公司</td>
+                     <td>董事长、总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">119</td>
+                     <td>段志华</td>
+                     <td>河南三建建设集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">120</td>
+                     <td>秦泰宏</td>
+                     <td>泰宏建设发展有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">121</td>
+                     <td>高兴文</td>
+                     <td>河南国基建设集团有限公司</td>
+                     <td>董事长、总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">122</td>
+                     <td>王建峰</td>
+                     <td>新蒲建设集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">123</td>
+                     <td>李献</td>
+                     <td>河南天工建设集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">124</td>
+                     <td>李勤山</td>
+                     <td>平煤神马建工集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">125</td>
+                     <td>叶兵</td>
+                     <td>湖北省建设工程质量安全监督总站</td>
+                     <td>站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">126</td>
+                     <td>李国祥</td>
+                     <td>长江航道局</td>
+                     <td>副局长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">127</td>
+                     <td>吴建军</td>
+                     <td>武汉建工(集团)有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">128</td>
+                     <td>熊铁</td>
+                     <td>湖南省建筑业协会</td>
+                     <td>部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">129</td>
+                     <td>田明革</td>
+                     <td>湖南省住房和城乡建设厅</td>
+                     <td>建管处副处长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">130</td>
+                     <td>秦跃丰</td>
+                     <td>湖南省第三工程有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">131</td>
+                     <td>陈浩</td>
+                     <td>湖南省建筑工程集团总公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">132</td>
+                     <td>唐湖北</td>
+                     <td>长沙市建设工程质量监督站</td>
+                     <td>站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">133</td>
+                     <td>盛希</td>
+                     <td>湖南路桥建设集团公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">134</td>
+                     <td>陈光乐</td>
+                     <td>湖南省第六工程有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">135</td>
+                     <td>梁剑明</td>
+                     <td>广东省建筑业协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">136</td>
+                     <td>刘付亚福</td>
+                     <td>广州市第三建筑工程有限公司</td>
+                     <td>董事长,总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">137</td>
+                     <td>梁剑锐</td>
+                     <td>广东梁亮建筑工程有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">138</td>
+                     <td>郑子先</td>
+                     <td>广东省建筑工程集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">139</td>
+                     <td>关而道</td>
+                     <td>广州市第一建筑工程有限公司</td>
+                     <td>副总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">140</td>
+                     <td>陈臻颖</td>
+                     <td>广州市第二建筑工程有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">141</td>
+                     <td>刘新玉</td>
+                     <td>中国华西企业有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">142</td>
+                     <td>黄俭</td>
+                     <td>广州粤建三和软件有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">143</td>
+                     <td>林伊宁</td>
+                     <td>广西工程建设质量管理协会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">144</td>
+                     <td>林昭</td>
+                     <td>广西建工集团第一建筑工程有限责任公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">145</td>
+                     <td>韦春娴</td>
+                     <td>广西建工集团第二建筑工程有限责任公司</td>
+                     <td>企业管理办公室副主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">146</td>
+                     <td>黄鼎龙</td>
+                     <td>广西建工集团第五建筑工程有限责任公司</td>
+                     <td>总经理、党委书记</td>
+                    </tr>
+                    <tr>
+                     <td align="right">147</td>
+                     <td>吴亚春</td>
+                     <td>海南省建筑业协会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">148</td>
+                     <td>邓刻智</td>
+                     <td>海南第四建设工程有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">149</td>
+                     <td>王禄勇</td>
+                     <td>海南第二建设工程有限公司</td>
+                     <td>工程部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">150</td>
+                     <td>祁仁俊</td>
+                     <td>重庆市建筑业协会</td>
+                     <td>专职副会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">151</td>
+                     <td>唐建华</td>
+                     <td>重庆建工集团股份有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">152</td>
+                     <td>刘从学</td>
+                     <td>中冶建工集团有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">153</td>
+                     <td>苏振华</td>
+                     <td>中国建筑第二工程局有限公司西南分公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">154</td>
+                     <td>陈德超</td>
+                     <td>重庆单轨交通工程有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">155</td>
+                     <td>陈怡宏</td>
+                     <td>重庆建工住宅建设有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">156</td>
+                     <td>庹万军</td>
+                     <td>北城致远集团有限公司</td>
+                     <td>副总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">157</td>
+                     <td>郭向东</td>
+                     <td>重庆一建建设集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">158</td>
+                     <td>赵常颖</td>
+                     <td>四川省建设工程质量安全与监理协会质量分会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">159</td>
+                     <td>张静</td>
+                     <td>成都建筑工程集团总公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">160</td>
+                     <td>黄良</td>
+                     <td>成都市第六建筑工程公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">161</td>
+                     <td>谢惠庆</td>
+                     <td>成都市第四建筑工程公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">162</td>
+                     <td>孙前元</td>
+                     <td>中国华西企业股份有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">163</td>
+                     <td>罗醒民</td>
+                     <td>贵州省建筑业协会</td>
+                     <td>副会长兼秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">164</td>
+                     <td>傅亚松</td>
+                     <td>贵州建工集团第一建筑工程有限责任公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">165</td>
+                     <td>胡光全</td>
+                     <td>中铁二局第一工程有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">166</td>
+                     <td>吴明燕</td>
+                     <td>云南省建筑协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">167</td>
+                     <td>沈家文</td>
+                     <td>云南建工集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">168</td>
+                     <td>焦伦杰</td>
+                     <td>云南建工第五建设有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">169</td>
+                     <td>角述宾</td>
+                     <td>云南路桥股份有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">170</td>
+                     <td>向书兰</td>
+                     <td>陕西省建筑业协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">171</td>
+                     <td>刘建民</td>
+                     <td>陕西航天建筑工程有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">172</td>
+                     <td>曾永祥</td>
+                     <td>宝鸡市第二建筑工程有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">173</td>
+                     <td>赵胜民</td>
+                     <td>陕西建工第十一建设集团有限公司</td>
+                     <td>董事长兼党委书记</td>
+                    </tr>
+                    <tr>
+                     <td align="right">174</td>
+                     <td>吴昊</td>
+                     <td>陕西华新建工集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">175</td>
+                     <td>黄明炽</td>
+                     <td>甘肃省工程质量施工安全管理协会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">176</td>
+                     <td>曹景凯</td>
+                     <td>甘肃第六建设集团股份有限公司</td>
+                     <td>董事长、总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">177</td>
+                     <td>高禧</td>
+                     <td>甘肃再就业建设工程(集团)有限公司</td>
+                     <td>董事长、总裁</td>
+                    </tr>
+                    <tr>
+                     <td align="right">178</td>
+                     <td>胡军</td>
+                     <td>青海省建设工程质量监督总站</td>
+                     <td>站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">179</td>
+                     <td>杜照国</td>
+                     <td>青海一建建筑工程有限责任公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">180</td>
+                     <td>李仲仁</td>
+                     <td>青海省建筑建材科学研究院</td>
+                     <td>书记兼院长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">181</td>
+                     <td>耿一波</td>
+                     <td>宁夏自治区质量安全监督总站</td>
+                     <td>站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">182</td>
+                     <td>唐功元</td>
+                     <td>宁夏建工集团有限公司</td>
+                     <td>副总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">183</td>
+                     <td>李玉田</td>
+                     <td>宁夏煤碳基本建设公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">184</td>
+                     <td>陈洁</td>
+                     <td>新疆维吾尔自治区建筑业协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">185</td>
+                     <td>周燕</td>
+                     <td>永升建设集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">186</td>
+                     <td>吴遥庆</td>
+                     <td>中建新疆建工(集团)有限公司</td>
+                     <td>副总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">187</td>
+                     <td>崔浩</td>
+                     <td>青岛市建筑工程质量监督站</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">188</td>
+                     <td>王力键</td>
+                     <td>深圳建筑业协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">189</td>
+                     <td>叶林</td>
+                     <td>大连市建筑行业协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">190</td>
+                     <td>应国平</td>
+                     <td>厦门市建设工程质量安全管理协会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">191</td>
+                     <td>彭坚伟</td>
+                     <td>宁波市建筑业协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">192</td>
+                     <td>郝元</td>
+                     <td>太原市建筑业协会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">193</td>
+                     <td>周明辉</td>
+                     <td>沈阳市建筑业协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">194</td>
+                     <td>张兰萍</td>
+                     <td>南京建筑业协会</td>
+                     <td>副主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">195</td>
+                     <td>王士彪</td>
+                     <td>济南市建筑业协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">196</td>
+                     <td>唐昌海</td>
+                     <td>武汉建筑业协会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">197</td>
+                     <td>王德山</td>
+                     <td>广州市建筑业联合会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">198</td>
+                     <td>李淮南</td>
+                     <td>西安建筑业协会</td>
+                     <td>会长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">199</td>
+                     <td>毛志兵</td>
+                     <td>中国建筑股份有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">200</td>
+                     <td>马剑忠</td>
+                     <td>中国建筑工程总公司项目管理部</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">201</td>
+                     <td>杨龙</td>
+                     <td>中国建筑工程总公司项目管理部</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">202</td>
+                     <td>吴月华</td>
+                     <td>中国建筑一局(集团)有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">203</td>
+                     <td>朱文汇</td>
+                     <td>中国建筑第二工程局有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">204</td>
+                     <td>方胜利</td>
+                     <td>中国建筑第三工程局有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">205</td>
+                     <td>马荣全</td>
+                     <td>中国建筑第八工程局有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">206</td>
+                     <td>冉志伟</td>
+                     <td>中国建筑第四工程局有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">207</td>
+                     <td>谭立新</td>
+                     <td>中国建筑第五工程局有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">208</td>
+                     <td>王存贵</td>
+                     <td>中国建筑第六工程局有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">209</td>
+                     <td>焦安亮</td>
+                     <td>中国建筑第七工程局有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">210</td>
+                     <td>刘辉</td>
+                     <td>中国中铁股份有限公司</td>
+                     <td>副总裁兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">211</td>
+                     <td>李凤超</td>
+                     <td>中国中铁股份有限公司</td>
+                     <td>安全总监兼安质部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">212</td>
+                     <td>樊家临</td>
+                     <td>中铁一局集团有限公司</td>
+                     <td>安全总监</td>
+                    </tr>
+                    <tr>
+                     <td align="right">213</td>
+                     <td>夏宏</td>
+                     <td>中铁一局集团有限公司</td>
+                     <td>安全质量监督部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">214</td>
+                     <td>常乃超</td>
+                     <td>中铁三局集团有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">215</td>
+                     <td>王传霖</td>
+                     <td>中铁四局集团有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">216</td>
+                     <td>赵剑发</td>
+                     <td>中铁六局集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">217</td>
+                     <td>李俊</td>
+                     <td>中铁八局集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">218</td>
+                     <td>韩顺学</td>
+                     <td>中铁九局集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">219</td>
+                     <td>王爱平</td>
+                     <td>中铁十局集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">220</td>
+                     <td>刘德海</td>
+                     <td>中铁电气化局集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">221</td>
+                     <td>谢季军</td>
+                     <td>中铁港航局集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">222</td>
+                     <td>张卫红</td>
+                     <td>中国中铁航空建设集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">223</td>
+                     <td>胡永生</td>
+                     <td>中铁大桥局股份有限公司</td>
+                     <td>安全总监</td>
+                    </tr>
+                    <tr>
+                     <td align="right">224</td>
+                     <td>夏阳</td>
+                     <td>中铁四局集团钢构有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">225</td>
+                     <td>夏国斌</td>
+                     <td>中国铁建股份有限公司</td>
+                     <td>副总裁</td>
+                    </tr>
+                    <tr>
+                     <td align="right">226</td>
+                     <td>王峰</td>
+                     <td>中国铁建股份有限公司</td>
+                     <td>安全总监兼安质部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">227</td>
+                     <td>张丕界</td>
+                     <td>中铁十一局集团有限公司</td>
+                     <td>副总经理、总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">228</td>
+                     <td>郑修杰</td>
+                     <td>中铁十四局集团有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">229</td>
+                     <td>马栋</td>
+                     <td>中铁十六局集团有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">230</td>
+                     <td>梁爱国</td>
+                     <td>中铁十九局集团有限公司</td>
+                     <td>副总工兼安质部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">231</td>
+                     <td>王爱国</td>
+                     <td>中铁二十二局集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">232</td>
+                     <td>贾洪</td>
+                     <td>中铁建设集团有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">233</td>
+                     <td>陈云</td>
+                     <td>中国交通建设股份有限公司</td>
+                     <td>副总裁</td>
+                    </tr>
+                    <tr>
+                     <td align="right">234</td>
+                     <td>曹信红</td>
+                     <td>中国交通建设股份有限公司</td>
+                     <td>安质部副部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">235</td>
+                     <td>李一勇</td>
+                     <td>中交第一航务工程局有限公司</td>
+                     <td>副总经理兼总工</td>
+                    </tr>
+                    <tr>
+                     <td align="right">236</td>
+                     <td>张鸿</td>
+                     <td>中交第二航务工程局有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">237</td>
+                     <td>张雪鑫</td>
+                     <td>中交第三航务工程局有限公司</td>
+                     <td>副经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">238</td>
+                     <td>胡金雄</td>
+                     <td>中交第三航务工程局有限公司宁波分公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">239</td>
+                     <td>吕卫清</td>
+                     <td>中交第四航务工程局有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">240</td>
+                     <td>刘元泉</td>
+                     <td>中交第一公路工程局有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">241</td>
+                     <td>刘建明</td>
+                     <td>中交第二公路工程局有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">242</td>
+                     <td>宗敦峰</td>
+                     <td>中国水利水电建设股份有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">243</td>
+                     <td>李福生</td>
+                     <td>中国水利水电建设股份有限公司</td>
+                     <td>工程科技部部长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">244</td>
+                     <td>刘风秋</td>
+                     <td>中国水电建设集团国际工程有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">245</td>
+                     <td>张汉龙</td>
+                     <td>中国水利水电第八工程局有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">246</td>
+                     <td>沈德才</td>
+                     <td>中水电海外投资有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">247</td>
+                     <td>曾倩彬</td>
+                     <td>中国水利水电第七工程局有限公司</td>
+                     <td>副总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">248</td>
+                     <td>范富国</td>
+                     <td>中国水电建设集团铁路建设有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">249</td>
+                     <td>郑久存</td>
+                     <td>中国水电建设集团路桥工程有限公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">250</td>
+                     <td>张淑玲</td>
+                     <td>中国市政工程协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">251</td>
+                     <td>陆国杰</td>
+                     <td>中国勘察设计协会质量管理工作委员会</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">252</td>
+                     <td>段谦</td>
+                     <td>中国铁道工程建设协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">253</td>
+                     <td>孟贤杰</td>
+                     <td>中国石油工程建设协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">254</td>
+                     <td>王桃义</td>
+                     <td>中国石油工程建设公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">255</td>
+                     <td>王放初</td>
+                     <td>中国有色金属建设协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">256</td>
+                     <td>刘昭义</td>
+                     <td>中国有色金属工业第七冶金建设公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">257</td>
+                     <td>石玉成</td>
+                     <td>中国电力建设企业协会</td>
+                     <td>副主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">258</td>
+                     <td>闻捷</td>
+                     <td>中国能源建设集团江苏省电力建设第三工程公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">259</td>
+                     <td>郭启蛟</td>
+                     <td>中国冶金建设协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">260</td>
+                     <td>曹杨</td>
+                     <td>中国二十冶集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">261</td>
+                     <td>李永康</td>
+                     <td>冶金工业工程质量监督总站</td>
+                     <td>站长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">262</td>
+                     <td>刘培年</td>
+                     <td>中国煤炭建设协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">263</td>
+                     <td>王厚良</td>
+                     <td>中煤矿山建设集团有限公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">264</td>
+                     <td>董红元</td>
+                     <td>中国水利工程协会</td>
+                     <td>考核评价部主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">265</td>
+                     <td>霍伟锋</td>
+                     <td>北京海策工程咨询有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">266</td>
+                     <td>郝爱国</td>
+                     <td>中国水运建设行业协会</td>
+                     <td>业务主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">267</td>
+                     <td>刘鹏</td>
+                     <td>中国公路建设行业协会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">268</td>
+                     <td>范学东</td>
+                     <td>中国化工施工企业协会</td>
+                     <td>主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">269</td>
+                     <td>程志</td>
+                     <td>中国化学工程第三建设有限公司</td>
+                     <td>副总经理兼技术开发部主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">270</td>
+                     <td>聂述刚</td>
+                     <td>中国化学工程第六建设有限公司</td>
+                     <td>副总工兼工程部主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">271</td>
+                     <td>王建军</td>
+                     <td>中国建筑业协会石化建设分会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">272</td>
+                     <td>吴忠宪</td>
+                     <td>中石化第十建设有限公司</td>
+                     <td>副经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">273</td>
+                     <td>王树华</td>
+                     <td>中石化南京工程有限公司</td>
+                     <td>副总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">274</td>
+                     <td>郝雁玲</td>
+                     <td>中国林业工程建设协会</td>
+                     <td>司长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">275</td>
+                     <td>余斌</td>
+                     <td>中国建筑业协会航天工程建设分会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">276</td>
+                     <td>袁有志</td>
+                     <td>中国航天建设集团有限公司</td>
+                     <td>总质量师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">277</td>
+                     <td>王霓</td>
+                     <td>中国建筑科学研究院建筑工程检测中心</td>
+                     <td>常务副主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">278</td>
+                     <td>苏敬斌</td>
+                     <td>中国人民解放军工程建设协会工程施工委员会</td>
+                     <td>主任委员</td>
+                    </tr>
+                    <tr>
+                     <td align="right">279</td>
+                     <td>邴光利</td>
+                     <td>解放军63926部队</td>
+                     <td>总队长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">280</td>
+                     <td>徐建辉</td>
+                     <td>中国航空港建设第十工程总队</td>
+                     <td>总队长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">281</td>
+                     <td>周江平</td>
+                     <td>海军东海舰队工程指挥部</td>
+                     <td>主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">282</td>
+                     <td>申月红</td>
+                     <td>《工程质量》编辑部</td>
+                     <td>主编</td>
+                    </tr>
+                    <tr>
+                     <td align="right">283</td>
+                     <td>方东平</td>
+                     <td>清华大学</td>
+                     <td>系主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">284</td>
+                     <td>尤建新</td>
+                     <td>同济大学经济与管理学院</td>
+                     <td>教授</td>
+                    </tr>
+                    <tr>
+                     <td align="right">285</td>
+                     <td>姜军</td>
+                     <td>北京建筑大学</td>
+                     <td>经管学院院长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">286</td>
+                     <td>王有为</td>
+                     <td>中国建筑科学研究院</td>
+                     <td>顾问总工、原副院长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">287</td>
+                     <td>孙大明</td>
+                     <td>中国建筑科学研究院上海分院</td>
+                     <td>副院长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">288</td>
+                     <td>李铁良</td>
+                     <td>中国新兴建设开发总公司</td>
+                     <td>总工程师</td>
+                    </tr>
+                    <tr>
+                     <td align="right">289</td>
+                     <td>肖星</td>
+                     <td>中国建筑业协会建造师分会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">290</td>
+                     <td>陈立军</td>
+                     <td>中国建筑业协会工程项目管理委员会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">291</td>
+                     <td>李菲</td>
+                     <td>中国建筑业协会工程建设质量管理分会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">292</td>
+                     <td>李秋丹</td>
+                     <td>中国建筑业协会工程建设质量管理分会</td>
+                     <td>副秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">293</td>
+                     <td>田浩</td>
+                     <td>中国建筑业协会工程建设质量管理分会</td>
+                     <td>技术顾问</td>
+                    </tr>
+                    <tr>
+                     <td align="right">294</td>
+                     <td>李洪奇</td>
+                     <td>中国建筑业协会工程建设质量管理分会</td>
+                     <td>专家委主任</td>
+                    </tr>
+                    <tr>
+                     <td align="right">295</td>
+                     <td>李云贵</td>
+                     <td>中国建筑业协会工程建设质量管理分会</td>
+                     <td>技术顾问</td>
+                    </tr>
+                    <tr>
+                     <td align="right">296</td>
+                     <td>何关培</td>
+                     <td>中国建筑业协会工程建设质量管理分会</td>
+                     <td>技术顾问</td>
+                    </tr>
+                    <tr>
+                     <td align="right">297</td>
+                     <td>谭树东</td>
+                     <td>赤峰鑫盛隆建筑工程有限责任公司</td>
+                     <td>总经理</td>
+                    </tr>
+                    <tr>
+                     <td align="right">298</td>
+                     <td>边灿才</td>
+                     <td>中程建工集团有限公司</td>
+                     <td>董事长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">299</td>
+                     <td>蔡强</td>
+                     <td>青岛建筑业协会</td>
+                     <td>秘书长</td>
+                    </tr>
+                    <tr>
+                     <td align="right">300</td>
+                     <td>郑义</td>
+                     <td>贵州建工集团第六建筑工程有限责任公司</td>
+                     <td>董事长</td>
+                    </tr>
+                   </tbody>
+                   <tbody></tbody>
+                  </table><p>&nbsp;</p> </td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+    <tr> 
+     <td>
+      <link href="../3wfocus.css" rel="stylesheet" type="text/css" />
+      <table width="99%" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td>
+          <table width="100%" border="0" align="center" cellpadding="5" cellspacing="5" class="pt12BottomBlue"> 
+           <tbody>
+            <tr> 
+             <td>
+              <hr size="5px;" noshade="NOSHADE" color="#6cc0d1" /></td> 
+            </tr> 
+            <tr> 
+             <td align="center">copy right 2005-2008&nbsp;&nbsp;&nbsp;&nbsp;本站版权归中国建筑业协会工程建设质量管理分会 &nbsp;&nbsp;&nbsp;&nbsp;沪ICP备09082058号</td> 
+            </tr> 
+            <tr> 
+             <td align="center">地址:北京中关村南大街48号九龙商务中心A座8层。<br /> 电话:(010)62132291、62133705(兼传真)<br /> E-mail:<a href="mailto:zjxzlfh@163.com">zjxzlfh@163.com</a><br /> QQ:763213152、1405068315</td> 
+            </tr> 
+            <tr> 
+             <td align="center">最佳浏览分辨率:1024*768&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本站浏览总人数:26639<script src="http://s17.cnzz.com/stat.php?id=4947730&amp;web_id=4947730&amp;show=pic" language="JavaScript"></script></td> 
+            </tr>
+           </tbody>
+          </table></td> 
+        </tr>
+       </tbody>
+      </table></td> 
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

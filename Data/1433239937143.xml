@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>西南大学育才学院_互动百科</title> 
+  <link href="images/favicon.ico" rel="shortcut icon" /> 
+  <meta content="互动" name="description" /> 
+  <meta content="互动" name="keywords" /> 
+  <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" name="viewport" /> 
+  <link rel="stylesheet" href="http://www.huimg.cn/wap/css/main130220.css" /> 
+  <script type="text/javascript" language="javascript"> document.domain="baike.com"; </script> 
+ </head> 
+ <body> 
+  <header class="header"> 
+   <ul class="fl"> 
+    <li> <a class="icoPre pr" onclick="javascript:window.history.go(-1);" href="javascript:void(0);">后退 <i class="pa"></i> </a> </li> 
+    <li> <a class="icoHome pr" target="_self" href="http://ipad.3g.baike.com">首页 <i class="pa"></i> </a> </li> 
+   </ul> 
+   <h1 class="fl">互动百科</h1> 
+   <form class="fr pr"> 
+    <input class="fl" autocomplete="on" type="text" /> 
+    <button class="fr pr">搜索 <i class="pa"></i> </button> 
+    <div style="display:none" class="subMenu pa"> 
+     <i class="subMenuUp"></i> 
+     <div class="subMenuBox"> 
+      <div class="subMenuTop"></div> 
+      <div class="subMenuIn"> 
+       <ul class="subMenuSerh"> 
+        <li>test</li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </form> 
+  </header> 
+  <article class="main"> 
+   <header class="top clearfix"> 
+    <h1 id="docTitle">西南大学育才学院</h1> 
+    <div class="stars">
+     <span id="docSocre" style="width:40%"></span> 
+     <input value="1分,一般" id="score10" type="hidden" /> 
+     <input value="2分,一般" id="score20" type="hidden" /> 
+     <input value="3分,不错" id="score30" type="hidden" /> 
+     <input value="4分,不错" id="score40" type="hidden" /> 
+     <input value="5分,丰富" id="score50" type="hidden" /> 
+     <input value="6分,丰富" id="score60" type="hidden" /> 
+     <input value="7分,专业" id="score70" type="hidden" /> 
+     <input value="8分,专业" id="score80" type="hidden" /> 
+     <input value="9分,权威" id="score90" type="hidden" /> 
+     <input value="10分,权威" id="score100" type="hidden" /> 
+    </div> 
+    <div class="picBtu"> 
+     <span class="pr">目录 
+      <div style="display:none;z-index:1000;" class="subMenu directory pa" id="docDirDiv" name="bars"> 
+       <i class="subMenuUp"></i> 
+       <div class="subMenuBox"> 
+        <div class="subMenuTop">
+         目录列表
+        </div> 
+        <div class="subMenuIn"> 
+         <ul class="subMenuSerh"> 
+          <li> <a name="a_fun_1" href="#1">1 基本信息</a> </li> 
+          <li> <a name="a_fun_3" href="#3">2 学院概况</a> </li> 
+          <li> <a name="a_fun_5" href="#5">3 董事会</a> </li> 
+          <li> <a name="a_fun_7" href="#7">4 现任领导</a> </li> 
+          <li> <a name="a_fun_9" href="#9">5 机构分布</a> </li> 
+          <li> <a name="a_fun_11" href="#11">6 院系设置</a> </li> 
+          <li> <a name="a_fun_13" href="#13">7 师资力量</a> </li> 
+          <li> <a name="a_fun_15" href="#15">8 所获荣誉</a> </li> 
+          <li> <a name="a_fun_17" href="#17">9 招生章程</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> </span> 
+     <span> <a style="color:#000000;" href="#navAnchor">相关词条</a> </span> 
+     <span class="pr">分享 
+      <div style="display:none;z-index:2000;" class="subMenu ishare ishare2 pa" name="bars"> 
+       <i class="subMenuUp"></i> 
+       <div class="subMenuBox"> 
+        <div class="subMenuTop"></div> 
+        <ul class="subMenuShare"> 
+         <li id="sinaWeiboShare"><em></em>分享到新浪微博</li> 
+         <li id="tencentWeiboShare"><em></em>分享到腾讯微博</li> 
+         <li id="qqZoneShare"><em></em>分享到QQ空间</li> 
+        </ul> 
+       </div> 
+      </div> </span> 
+     <span id="correctionSpan">纠错</span> 
+    </div> 
+   </header> 
+   <section class="information"> 
+    <div class="summary" id="summary"> 
+     <h2>摘要</h2>
+     <p>西南大学育才学院成立于2000年5月,由西南大学与重庆利昂实业有限公司联合创办。2003年3月,经教育部批准为全日制本科层次的独立学院。2007年5月,在中国大学评价课题组编著的《2007中国民办高校评价研究报告》中,育才学院位居全国318所独立学院中排行榜第7位。</p> 
+    </div> 
+   </section> 
+   <section id="content">
+    <div class="img img_r" id="changeTheId-wrap-img-0" style="WIDTH: 240px">
+     <a title="点击查看原图" href="http://tupian.baike.com/ipad/a2_06_73_01300000131286120997736645942_jpg.html" target="_self"><img id="changeTheId-img-0" title="西南大学育才学院" alt="西南大学育才学院" src="http://a2.att.hudong.com/06/73/01300000131286120997736645942_s.jpg" /></a>
+     <strong>西南大学育才学院</strong>
+    </div>
+    <p>&nbsp;</p> 
+    <h2 class="h2_line" id="1">西南大学育才学院 基本信息</h2> 
+    <a name="1" href="javascript:void(0);" style="color:black;"></a>
+    <p>全称:西南大学育才学院<br /></p>
+    <p>英文名:SouthWest University YuCai College。<br /></p>
+    <p>院长信箱:ycyuanzhang@163.com。<br /></p>
+    <p>校址:重庆市合川区草街镇西南大学育才学院。<br /></p> 
+    <h2 class="h2_line" id="3">西南大学育才学院 学院概况</h2> 
+    <a name="3" href="javascript:void(0);" style="color:black;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 西南大学育才学院于2000年5月由西南大学与重庆利昂实业有限公司联合创办。2003年3月,经教育部批准为全日制本科层次的独立学院。2010年6月成为重庆市第一所获得学士学位授予权的独立学院。学院先后荣获“全国先进社会组织”“全国先进独立学院”“中国民办高等教育优秀院校”“重庆市民办教育先进集体”“重庆市先进社会组织”“重庆市先进基层党组织”“全国大学生社会实践工作先进集体”等称号。学院实行董事会领导下的院长负责制,
+    <a class="innerlink" title="李学春" href="http://www.baike.com/ipadwiki/%E6%9D%8E%E5%AD%A6%E6%98%A5" target="_self">李学春</a>教授任董事长,张卫平教授任执行董事兼执行院长,全国高等学校教学名师、原西南师范大学副校长
+    <a class="innerlink" title="何向东" href="http://www.baike.com/ipadwiki/%E4%BD%95%E5%90%91%E4%B8%9C" target="_self">何向东</a>教授任院长,学院党组织直属中共重庆市委教育工委,
+    <a class="innerlink" title="程明亮" href="http://www.baike.com/ipadwiki/%E7%A8%8B%E6%98%8E%E4%BA%AE" target="_self">程明亮</a>教授任党委书记。 
+    <div style="WIDTH: 351px; HEIGHT: 241px" class="img img_r">
+     <a title="西南大学育才学院" href="http://tupian.baike.com/ipad/a3_12_45_01300534550877135469454482576_jpg.html" target="_self"><img title="西南大学育才学院" alt="西南大学育才学院" src="http://a3.att.hudong.com/12/45/01300534550877135469454482576_s.jpg" jquery1354694486468="41" /></a>
+    </div>
+    <br />&nbsp;&nbsp;&nbsp;&nbsp; 学院青山环绕,满目苍翠,森林覆盖率达70%以上,占地面积2048亩,建筑面积43万平方米。学院的教学楼、学生公寓、图书馆、运动场散落在青山绿荫之间。一幢幢教学楼红蓝相间,绿树掩映,错落有致。行知楼、文渊楼、博文楼、慧思楼、格致楼、丰美楼、八音楼……别具一格的楼名,透着书香,透着雅致,透着高等学府特有的品位,是治学读书之胜地。&nbsp;
+    <br />&nbsp;&nbsp; &nbsp;&nbsp; 学院现有在校学生18200余人,其中有52个少数民族近6000民族学生。现有教师1024人,具有硕士、博士学位的教师占56.3%,具有副高级及以上职务的教师占39.2%。有享受国务院政府特殊津贴专家10人,全国高等学校教学名师、全国模范教师、重庆市学科带头人、重庆市优秀教师数人。学院还聘请了潘际銮院士任学术委员会名誉主任,杨福家院士、陶西平教授、李延保教授等知名学者为特聘教授。&nbsp;
+    <br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;学院下设文学与新闻传播学院、法学院、工商学院、外国语学院、管理学院、理工学院、美术学院、音乐学院、
+    <a class="innerlink" title="天籁影视" href="http://www.baike.com/ipadwiki/%E5%A4%A9%E7%B1%81%E5%BD%B1%E8%A7%86" target="_self">天籁影视</a>艺术学院、国际学院等10个二级学院和1个基础课教学部(思想政治理论课教学部)。开设33个本科专业。建有教师技能实训中心、经济与管理实验教学实践中心、艺术设计实训中心、影视节目制作中心、金工实验实训中心等91个实验实训室(中心)和85个校外实习实训基地。现有教学科研仪器设备总值8211万元,图书馆藏有各类纸质图书150万册,电子图书101万册,报刊杂志1400多种。&nbsp;
+    <br />&nbsp;&nbsp; &nbsp; &nbsp;学院设有党政办公室、组织宣传部、教务科研处、学生工作与就业处、发展规划处、国际合作与交流处、招生工作处、干部人事处、财务处、审计监察处、后勤基建处、保卫处、资产处等10多个职能部门。&nbsp;
+    <br />&nbsp;&nbsp; &nbsp;&nbsp;学院牢固树立教学工作的中心地位,全力保障教学经费投入,严格教学管理,深化教学改革,健全质量监控和保障体系,践行陶行知教育思想,创新人才培养模式,着力打造优势和特色专业。学院是重庆市高校中唯一的中国陶行知研究会“陶行知思想实验基地”,是重庆市&nbsp;“美术人才培养模式创新实验区”。&nbsp;
+    <br />&nbsp;&nbsp;&nbsp;&nbsp; 学院重视科研工作,着力搭建科研平台,成立有“陶行知教育思想研究所”“
+    <a class="innerlink" title="民办高等教育研究" href="http://www.baike.com/ipadwiki/%E6%B0%91%E5%8A%9E%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6" target="_self">民办高等教育研究</a>所”“西部传记文学研究中心”等研究机构。各研究机构先后承担教育部人文社科研究基金项目、全国高等学校教学研究中心“十一五”国家课题、重庆市人文社科重点课题、重庆市社科规划课题等各级各类科研项目33项,出版专著、教材40部,发表学术论文及作品800余篇(件)。
+    <a class="innerlink" title="王长楷" href="http://www.baike.com/ipadwiki/%E7%8E%8B%E9%95%BF%E6%A5%B7" target="_self">王长楷</a>教授主持的重庆市人文社科重点课题“重庆高等教育发展战略研究”,获得重庆市人民政府社科优秀成果一等奖。学院主办的《民办高等教育研究》杂志是全国民办高校优秀学报“十佳”期刊、《CAJ-CD规范》执行优秀期刊。&nbsp;
+    <br />&nbsp;&nbsp;&nbsp; &nbsp;学院积极探索创新人才培养模式,主动适应经济、社会发展需要,坚持“学以致用,服务社会”的办学宗旨,积极践行陶行知先生“生活即教育”“社会即学校”“教学做合一”的教育实践理论,突出学生的全面发展与技能和特长培养相结合,注重强化学生实践能力培养,确立“符合地方经济和社会发展需要的知识、能力、素质协调发展的高素质应用型人才”培养目标,创新推行“通识教育+专业教育+实践教育”的“1+2+1”的人才培养模式,初步形成了师范教育、民族教育、艺术教育等办学特色。&nbsp;
+    <br />&nbsp;&nbsp;&nbsp; 学生课外活动丰富多彩。学生参加近三届全国语言文字基本功大赛,获一等奖30人次、二等奖41人次、三等奖72人次。师生创作的舞蹈赴京参加全国校园春节联欢晚会荣获编导、表演两项金奖。赴香港参加庆香港回归十周年文艺演出获金奖。参加全国大学生数学建模竞赛,多次获重庆赛区一等奖。学生自己设计、组装、调试的节能竞赛车,获第三届本田中国节能竞技大赛大学组重庆赛区第一名。学生参加第四届全国普通高校信息技术与实践活动,获景观设计比赛一等奖。在首届重庆市大学生运动会上,我院学生篮球队和武术队分别获得普通高校第一名。在重庆市第二届大学生运动会上,我院学生田径队获得普通高校总分第一名,游泳队获女子团体第三名、男子个人单项第一名。学院暑期社会实践队多次被中宣部、教育部、中央文明办、团中央、全国学联表彰为先进集体。&nbsp;
+    <br />&nbsp;&nbsp;&nbsp; 迄今,学院已有九届近26000名本专科生顺利毕业,走向社会。本科毕业生学士学位授予率保持在90%左右,历届毕业生就业率均达到90%以上,2010年本科毕业生就业签约率位居在渝本科院校第一名。2012年,本科毕业生一次性就业率达到92.1%。毕业生中已有近600人考上了研究生,仅2010年,就有108人考上了四川大学、华东师范大学、中国传媒大学、重庆大学、西南大学等高校的研究生。&nbsp;
+    <br />&nbsp;&nbsp; &nbsp;几分耕耘,几分收获。今天的西南大学育才学院,已经结出了丰硕的果实,正在以“面向现代化、面向世界、面向未来”的雄姿,朝着建设中国高水平民办大学的目标阔步前进。 
+    <br /> 
+    <div style="WIDTH: 210px" id="changeTheId-wrap-img-1" class="img img_r">
+     <a title="点击查看原图" href="http://tupian.baike.com/ipad/a1_85_76_01300000131286120997768317235_jpg.html" target="_self"><img id="changeTheId-img-1" title="西南大学育才学院" alt="西南大学育才学院" src="http://a1.att.hudong.com/85/76/01300000131286120997768317235_s.jpg" /></a>
+     <strong>爱心捐款</strong>
+    </div>&nbsp; 
+    <p>&nbsp;</p> 
+    <h2 class="h2_line" id="5">西南大学育才学院 董事会</h2> 
+    <a name="5" href="javascript:void(0);" style="color:black;"></a>
+    <p> </p>
+    <table id="changeTheId-jqe-table-0" cellpadding="1" bgcolor="#ffffff" align="left"> 
+     <tbody> 
+      <tr> 
+       <td> 
+        <div style="WIDTH: 134px" id="changeTheId-wrap-img-0" class="img img_r">
+         <a title="全国政协委员、重庆市民办教育协会会长、中国民办教育协会副会长
+ 
+" href="http://tupian.baike.com/ipad/a1_70_79_01300534550877135460797565267_jpg.html" target="_self"><img id="changeTheId-img-0" title="全国政协委员、重庆市民办教育协会会长、中国民办教育协会副会长
+ 
+" alt="全国政协委员、重庆市民办教育协会会长、中国民办教育协会副会长
+ 
+" src="http://a1.att.hudong.com/70/79/01300534550877135460797565267_s.jpg" /></a>
+        </div></td> 
+       <td> <p>董事长 李学春</p> <p>全国政协委员、重庆市民办教育协会会长、中国民办教育协会副会长&nbsp;。<br />&nbsp; <br /></p></td>
+      </tr> 
+      <tr> 
+       <td> 
+        <div style="WIDTH: 130px" id="changeTheId-wrap-img-1" class="img img_r"> 
+         <p><a title="西南大学育才学院" href="http://tupian.baike.com/ipad/a2_17_80_01300534550877135460807441966_jpg.html" target="_self"><img id="changeTheId-img-1" title="西南大学育才学院" alt="西南大学育才学院" src="http://a2.att.hudong.com/17/80/01300534550877135460807441966_s.jpg" /></a></p>
+        </div></td> 
+       <td> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>董事&nbsp;宋乃庆 <br /><br />原西南大学党委常委、常务副校长,博士生导师&nbsp;。<br />&nbsp; <br /></p> <p>&nbsp;</p></td>
+      </tr> 
+      <tr> 
+       <td> 
+        <div style="WIDTH: 124px" id="changeTheId-wrap-img-2" class="img img_r">
+         <img id="changeTheId-img-2" title="西南大学育才学院" alt="西南大学育才学院" src="http://a1.att.hudong.com/24/84/01300534550877135460844256387_s.jpg" width="124" />
+        </div></td> 
+       <td> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;董事 <a class="innerlink" title="陈时见" href="http://www.baike.com/ipadwiki/%E9%99%88%E6%97%B6%E8%A7%81" target="_self">陈时见</a></p> <p>西南大学党委常委、副校长、博士生导师。</p> <p><br />&nbsp; <br /></p></td>
+      </tr> 
+      <tr> 
+       <td> 
+        <div style="WIDTH: 123px" id="changeTheId-wrap-img-3" class="img img_r"> 
+         <p><img id="changeTheId-img-3" title="西南大学育才学院" alt="西南大学育才学院" src="http://a1.att.hudong.com/62/91/01300534550877135460913825252_s.jpg" /></p>
+        </div> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> 
+        <div style="WIDTH: 142px" id="changeTheId-wrap-img-4" class="img img_r"> 
+         <p><a title="西南大学育才学院" href="http://tupian.baike.com/ipad/a4_13_85_01300534550877135460852193266_jpg.html" target="_self"><img id="changeTheId-img-4" title="西南大学育才学院" alt="西南大学育才学院" src="http://a4.att.hudong.com/13/85/01300534550877135460852193266_s.jpg" /></a></p>
+        </div> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p></td> 
+       <td> <p>董事&nbsp;张卫平 <br /><br />西南大学育才学院执行董事、执行院长。&nbsp;&nbsp;<br /><br />&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>董事&nbsp;何向东</p> <p>原西南师范大学副校长,博士生导师&nbsp;。&nbsp;<br />&nbsp;</p></td>
+      </tr> 
+      <tr> 
+       <td> 
+        <div style="WIDTH: 131px" id="changeTheId-wrap-img-5" class="img img_r"> 
+         <p><a title="西南大学育才学院" href="http://tupian.baike.com/ipad/a2_51_85_01300534550877135460859998344_jpg.html" target="_self"><img id="changeTheId-img-5" title="西南大学育才学院" alt="西南大学育才学院" src="http://a2.att.hudong.com/51/85/01300534550877135460859998344_s.jpg" /></a></p>
+        </div> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p></td> 
+       <td> <p>&nbsp;</p> <p>&nbsp;</p> <p>董事 李学让</p> <p>重庆利昂实业有限公司董事&nbsp;。 </p> <p>&nbsp;</p></td>
+      </tr> 
+      <tr> 
+       <td>&nbsp;</td> 
+       <td>&nbsp;</td>
+      </tr> 
+      <tr> 
+       <td>&nbsp; 
+        <div style="WIDTH: 123px" id="changeTheId-wrap-img-6" class="img img_r">
+         <a title="西南大学育才学院" href="http://tupian.baike.com/ipad/a4_52_96_01300534550877135460961071206_jpg.html" target="_self"><img id="changeTheId-img-6" title="西南大学育才学院" alt="西南大学育才学院" src="http://a4.att.hudong.com/52/96/01300534550877135460961071206_s.jpg" /></a>
+        </div></td> 
+       <td> <p>&nbsp;</p> <p>董事 王伟</p> <p>注册会计师&nbsp;西南大学育才学院财务总监。 <br /><br /></p></td>
+      </tr> 
+      <tr> 
+       <td>&nbsp;</td> 
+       <td>&nbsp;</td>
+      </tr>
+     </tbody>
+    </table>
+    <p></p> 
+    <p>&nbsp;</p> 
+    <h2 class="h2_line" id="7">西南大学育才学院 现任领导</h2> 
+    <a name="7" href="javascript:void(0);" style="color:black;"></a>
+    <p> </p>
+    <table style="WIDTH: 705px; HEIGHT: 3686px" id="changeTheId-jqe-table-1" cellpadding="1" bgcolor="#ffffff" align="left"> 
+     <tbody> 
+      <tr> 
+       <td valign="top" width="610" align="left"> <p>&nbsp;</p> <p>&nbsp;&nbsp;&nbsp;</p> 
+        <div style="WIDTH: 123px" class="img img_l">
+         <a title="执行董事 执行院长" href="http://tupian.baike.com/ipad/a1_62_91_01300534550877135460913825252_jpg.html" target="_self"><img title="执行董事 执行院长" alt="执行董事 执行院长" src="http://a1.att.hudong.com/62/91/01300534550877135460913825252_s.jpg" /></a>
+         <strong>执行董事 执行院长</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp;&nbsp; 张卫平,女,汉族,1964年8月生,山西省新<a class="innerlink" title="绛人" href="http://www.baike.com/ipadwiki/%E7%BB%9B%E4%BA%BA" target="_self">绛人</a>,中共党员,法学硕士,教授。现任西南大学育才学院执行董事、执行院长。&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1988年毕业于西南大学经济政法学院(原西南师范大学政治系),后留校,先后在政治系、校团委、物理系工作。重庆市第三届人民代表大会代表,重庆市合川区第十五届人大常委,重庆市民办教育协会秘书长,重庆市高等教育学会第二届理事会常务理事。</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;&nbsp;&nbsp;</p> 
+        <div style="WIDTH: 142px" class="img img_l">
+         <a title="院长" href="http://tupian.baike.com/ipad/a4_13_85_01300534550877135460852193266_jpg.html" target="_self"><img title="院长" alt="院长" src="http://a4.att.hudong.com/13/85/01300534550877135460852193266_s.jpg" /></a>
+         <strong>院长</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 何向东,西南大学育才学院董事会董事、院长。男,1948年7月生于重庆,中共党员,研究生毕业,哲学硕士,西南大学二级教授,博士生导师,西南大学哲学一级学科博士点负责人、逻辑学博士点硕士点负责人、哲学学科博士后流动站负责人,重庆市重点文科研究基地-西南大学逻辑与智能研究中心主任,原西南师范大学副校长;重庆市首届、第二届学术技术(逻辑学)带头人,现任教育部普通高等学校哲学学科教学指导委员、国家哲学社会科学基金项目学科评审专家、中国逻辑学会副会长、重庆市逻辑学会会长、重庆市梁漱溟研究会会长。曾任普通高等学校本科教学工作评估专家委员会委员、教育部普通高等学校文化素质教育指导委员、重庆市社科联副主席、重庆市高教学会副会长兼秘书长。&nbsp;&nbsp;&nbsp; <br />何向东教授从事高校教学、科研及管理工作20多年,在《哲学研究》、大学学报等刊物及论文集上发表研究论文80余篇,出版专著、教材、译著、工具书、文集等20余部,主持省〈部〉级、国家级教学、科研课题12项,获省〈部〉级以上教学、科研成果奖20项,其中优秀教学成果(管理类)国家级二等奖3项,优秀社科成果省、市级政府一等奖1项、二等奖2项。2005年,何向东教授领衔的〈逻辑学〉被评为全国唯一的逻辑学国家级精品课程,他领衔的逻辑学于2006年评为重庆市重点学科,他领衔的逻辑学教学团队2010年评为国家级教学团队。何向东教授1993年起享受国务院颁发的政府特殊津贴,被授予&quot;全国普通高校教材管理工作先进个人&quot;、&quot;四川省普通高校优秀教学管理工作者&quot;、&quot;四川省有突出贡献的优秀专家&quot;称号。&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 何向东教授2008年获得第四届全国高等学校教学名师奖。&nbsp;入选中国校友会网2011(第三届)中国杰出人文社会科学家。&nbsp;&nbsp; </p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+        <div style="WIDTH: 119px" class="img img_l">
+         <a title="党委书记" href="http://tupian.baike.com/ipad/a4_84_44_01300534550877135461444856633_jpg.html" target="_self"><img title="党委书记" alt="党委书记" src="http://a4.att.hudong.com/84/44/01300534550877135461444856633_s.jpg" /></a>
+         <strong>党委书记</strong>
+        </div> <p>&nbsp;&nbsp; 程明亮,男,汉族,1952年3月出生,1976年12月加入中国共产党,重庆大学教授,现任西南大学育才学院党委书记。1985年4月毕业于<a class="innerlink" title="重庆大学机械工程学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2" target="_self">重庆大学机械工程学院</a>,获工学硕士学位。留校工作后,先后担任重庆大学研究生党总支副书记(主持工作),学生处副处长(主持工作),党委办公室副主任,党委统战部部长,校长办公室主任。两次赴日本,先后在日本住友水泥中央研究所和名古屋大学作访问学者。1998年8月调重庆市教育委员会担任发展规划处处长,2004年12至2012年6月担任重庆市教委副巡视员,协助分管高等教育,2012年7月任现职。&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;程明亮教授从事中日韩高等教育比较研究,主持或参与<a class="innerlink" title="高校统战工作研究" href="http://www.baike.com/ipadwiki/%E9%AB%98%E6%A0%A1%E7%BB%9F%E6%88%98%E5%B7%A5%E4%BD%9C%E7%A0%94%E7%A9%B6" target="_self">高校统战工作研究</a>、办公室工作研究,大学城投融资理论与实践研究,大学城资源共享体制机制创新等研究工作。著作有《新编<a class="innerlink" title="机关公文写作" href="http://www.baike.com/ipadwiki/%E6%9C%BA%E5%85%B3%E5%85%AC%E6%96%87%E5%86%99%E4%BD%9C" target="_self">机关公文写作</a>》;译著有《解决问题心理学》、《<a class="innerlink" title="塑料模设计" href="http://www.baike.com/ipadwiki/%E5%A1%91%E6%96%99%E6%A8%A1%E8%AE%BE%E8%AE%A1" target="_self">塑料模设计</a>》;并担任《办公室工作规范和程序》、《常用公文导写》副主编;参编《320种应用文最新规范写作》、《<a class="innerlink" title="科技应用文写作" href="http://www.baike.com/ipadwiki/%E7%A7%91%E6%8A%80%E5%BA%94%E7%94%A8%E6%96%87%E5%86%99%E4%BD%9C" target="_self">科技应用文写作</a>》。公开发表论文40余篇。先后荣获“重庆市好新闻作品二等奖”,“四川省优秀图书奖”,“&nbsp;重庆市社会科学研究优秀成果奖”,“重庆大学有突出贡献的博士、硕士人员”,“重庆市统战工作先进个人”&nbsp;,“重庆市优秀公务员”,“重庆市高校后勤社会化改革先进个人”,“重庆市教委优秀共产党员”等荣誉称号。&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 程明亮教授现任第四届重庆市人民政府督学、第四届重庆市高等学校设置评议委员会委员,教育部普通高等学校本科教学评估专家。&nbsp;&nbsp; </p> <p>&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+        <div style="WIDTH: 120px" class="img img_l">
+         <a title="党委副书记 纪委书记" href="http://tupian.baike.com/ipad/a4_65_45_01300534550877135461455855682_jpg.html" target="_self"><img title="党委副书记 纪委书记" alt="党委副书记 纪委书记" src="http://a4.att.hudong.com/65/45/01300534550877135461455855682_s.jpg" /></a>
+         <strong>党委副书记 纪委书记</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp; <a class="innerlink" title="黄泽文" href="http://www.baike.com/ipadwiki/%E9%BB%84%E6%B3%BD%E6%96%87" target="_self">黄泽文</a>,男,汉族,1969年1月,仁寿人,副研究员,1988年、1999年先后入西南师范大学物理系和政治公共管理学院学习获学士学位、硕士学位,1991年7月18日入党,1992年7月参加工作。&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1992年7月参加工作,先后在西南师范大学团委、党委办公室、美术学院、<a class="innerlink" title="西南大学美术学院" href="http://www.baike.com/ipadwiki/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%E7%BE%8E%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">西南大学美术学院</a>和学生处工作(其间:1992年9月—1993年6月,在解放军重庆通信学院挂职锻炼,任副教导员;1999年9月—2002年6月,在西南师范大学攻读马克思主义理论与思想政治教育专业硕士研究生,并于2002年6月取得法学硕士学位),2002年10月任西南师范大学美术学院党委副书记、2005年10月任西南大学美术学院党委副书记,2006年10月起任<a class="innerlink" title="西南大学学生工作部" href="http://www.baike.com/ipadwiki/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E5%B7%A5%E4%BD%9C%E9%83%A8" target="_self">西南大学学生工作部</a>(处)副部(处)长。&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 参加工作至今,曾先后荣获&quot;重庆市大学生社会实践优秀指导教师&quot;、&quot;重庆市优秀社科成果三等奖&quot;、&quot;西南师范大学民族教育工作先进个人&quot;等多种荣誉称号或奖励,在《中央民族大学学报》、《西南师范大学学报(人文社会科学版)》、《荆州师范学院学报(人文社会科学版)》等杂志发表各类文章10余篇,担任副主编或参编教材、著作10余部,参研教育部社科基金项目等10余项。 </p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+        <div style="WIDTH: 122px" class="img img_l">
+         <a title="副院长" href="http://tupian.baike.com/ipad/a2_82_46_01300534550877135461464273078_jpg.html" target="_self"><img title="副院长" alt="副院长" src="http://a2.att.hudong.com/82/46/01300534550877135461464273078_s.jpg" /></a>
+         <strong>副院长</strong>
+        </div> <p>&nbsp;&nbsp; &nbsp;<a class="innerlink" title="邓朝喜" href="http://www.baike.com/ipadwiki/%E9%82%93%E6%9C%9D%E5%96%9C" target="_self">邓朝喜</a>,生于<a class="innerlink" title="1949年10月2日" href="http://www.baike.com/ipadwiki/1949%E5%B9%B410%E6%9C%882%E6%97%A5" target="_self">1949年10月2日</a>,男,汉族,重庆渝北人,大学本科,中共党员,副教授,重庆市教育委员会原副巡视员、中国教育学会会员、中国管理科学研究院学术委员会特约研究员、中国教育家协会理事,重庆中华传统文化研究会副会长、<a class="innerlink" title="重庆市陶行知研究会" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B8%82%E9%99%B6%E8%A1%8C%E7%9F%A5%E7%A0%94%E7%A9%B6%E4%BC%9A" target="_self">重庆市陶行知研究会</a>副会长。&nbsp;2012年7月任现职。 <br />&nbsp;&nbsp;&nbsp; 曾担任“全国百县农村教育综合改革试验区”实验研究工作。先后参与并承担了原国家教委《中国农村教育综合改革实验研究》、中华职教社《老少山边侨地区职业教育为当地经济建设服务研究与实验》、四川省《中国农村教育管理体制改革研究》、重庆市《城市教育综合改革目标体系研究》等教育科学规划重点课题。组织了教育部委托的《中华人民共和国教育法》、《中华人民共和国学校法》修订和立法课题研究。撰写了《<a class="innerlink" title="一圈两翼" href="http://www.baike.com/ipadwiki/%E4%B8%80%E5%9C%88%E4%B8%A4%E7%BF%BC" target="_self">一圈两翼</a>教育发展战略研究报告》、《教育与经济协调发展机制浅论》、《陶行知<a class="innerlink" title="生活教育理论" href="http://www.baike.com/ipadwiki/%E7%94%9F%E6%B4%BB%E6%95%99%E8%82%B2%E7%90%86%E8%AE%BA" target="_self">生活教育理论</a>与农村教育改革》等研究报告、论文等100余篇。担任主编或参编著作10余部。&nbsp;先后荣获“重庆市教育科研优秀成果一等奖、二等奖、三等奖”“重庆市软科学成果二等奖”&nbsp;“四川省农村教育综合改革工作一等奖”&nbsp;“四川省哲学社会科学优秀科研成果三等奖”“四川省教育科研优秀科研成果二等奖”等荣誉称号。&nbsp;先后被评为全国优秀教师,重庆市优秀教师和先进教育工作者。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+        <div style="WIDTH: 120px" class="img img_l">
+         <a title="副院长" href="http://tupian.baike.com/ipad/a1_21_47_01300534550877135461479016283_jpg.html" target="_self"><img title="副院长" alt="副院长" src="http://a1.att.hudong.com/21/47/01300534550877135461479016283_s.jpg" /></a>
+         <strong>副院长</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp;&nbsp; <a class="innerlink" title="虞建" href="http://www.baike.com/ipadwiki/%E8%99%9E%E5%BB%BA" target="_self">虞建</a>华,男,汉族,1954年1月出生,副教授,现任西南大学育才学院副院长&nbsp;、副研究员。 <br />&nbsp;&nbsp;&nbsp;&nbsp; 1971年9月进入中国人民解放军812研究所承担重要军工品“高频两级管研制”工作;1973年8月分配到中国人民解放军3427医院进入西药房学习,于1980年取得全国药剂师职称;1989年9月调任福建省三明市三明化工厂医院药剂科科长;1991年9月赴欧洲经营国际贸易,直至2002年初回国。在此期间分别在匈牙利、波兰、乌克兰、斯洛伐克等国担任国际贸易公司总经理,为祖国争取大量的外汇做出了积极的贡献;2003年初因工作需要,赴西南大学育才学院担任副院长,主要负责基建、后勤、资产等相关工作。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经过10余年的建设,为学院的发展新建了30多万平方米校舍和至关重要的自来水厂等等,在育才这块热土上修建起了基础设施到位、功能较完善的新型民办大学。&nbsp;<br /><br /> <br /></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+        <div style="WIDTH: 134px" class="img img_l">
+         <a title="副院长" href="http://tupian.baike.com/ipad/a4_61_70_01300534550877135461704404154_jpg.html" target="_self"><img title="副院长" alt="副院长" src="http://a4.att.hudong.com/61/70/01300534550877135461704404154_s.jpg" /></a>
+         <strong>副院长</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<a class="innerlink" title="陈金玉" href="http://www.baike.com/ipadwiki/%E9%99%88%E9%87%91%E7%8E%89" target="_self">陈金玉</a>,女,1949年1月出生,中共党员,副教授,现任西南大学育才学院副院长。 <br />&nbsp;&nbsp;&nbsp; &nbsp; 1982年毕业于重庆建筑工程学院工业电气自动化本科专业,获学士学位。1985年8月-2006年1月,就职于重庆工业高等专科学校(04年更名为重庆科技学院)。历任该校自动化系教师、副系主任、系主任,人事处处长等职。1999年当选为该校党委委员。&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;在重庆工业高等专科学校工作期间,起草了若干教学管理和行政管理文件;公开发表《开关电源PWM集成控制器的替换设计》、《工业电气自动化专业的改革和建设》、《高等学校校内人事分配制度改革初探》等多篇论文;公开出版《电气控制设备工艺学》,《自控原理计算机辅助分析》等多部教材;主持创办新专业《工业控制计算机应用技术》,并成功申报为教育部教改试点专业;1999年组织实施学校内部人事分配制度改革。先后荣获“学校首届十佳教师”&nbsp;“冶金系统宝钢教育奖优秀教师”“重庆市教育系统人事工作先进个人”等光荣称号。&nbsp;</p> <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;陈金玉同志曾任全国高等专科电气类专业协会常务理事。&nbsp;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p> <p></p> 
+        <div style="WIDTH: 126px" class="img img_l">
+         <a title="副院长" href="http://tupian.baike.com/ipad/a4_42_70_01300534550877135461707905643_jpg.html" target="_self"><img title="副院长" alt="副院长" src="http://a4.att.hudong.com/42/70/01300534550877135461707905643_s.jpg" /></a>
+         <strong>副院长</strong>
+        </div> <p><a class="innerlink" title="周宏光" href="http://www.baike.com/ipadwiki/%E5%91%A8%E5%AE%8F%E5%85%89" target="_self">周宏光</a>,男,1947年6月27日出生,汉族,四川合江人,中共党员,副研究员,西南大学育才学院副院长。 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1970年参加工作,1982年西南农业大学园艺系本科毕业获学士学位。1982年至1988年在西南农业大学园艺系任总支副书记从事学生管理工作;1988年至1991年四川省宜宾县任副县长;1991年至1996年西南农业大学园艺系系主任;1996年至1999年西南农业大学副校长;2000年至2005年中国农科院柑桔研究所主持工作,2005年任党工委书记。2011年6月任西南大学育才学院副院长。发表《科技扶贫中一个值得研究的问题》、《实施星火计划.促进农村经济》、《旅游资源的开发与利用》、《高等农业院校如何面向市场的思考》等多篇论文,曾荣获&quot;四川省高等学校优秀思想政治工作人员&quot;、&quot;四川省先进科技副县长&quot;重庆市教育系统&quot;优秀共产党员&quot;称号。 </p> <p>&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+        <div style="WIDTH: 130px" class="img img_l">
+         <a title="副院长" href="http://tupian.baike.com/ipad/a4_07_71_01300534550877135461716959807_jpg.html" target="_self"><img title="副院长" alt="副院长" src="http://a4.att.hudong.com/07/71/01300534550877135461716959807_s.jpg" /></a>
+         <strong>副院长</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp; &nbsp;何光勇,男,1946年12月生,中共党员,西南师范大学本科毕业,理学学士,重庆师范大学副教授,历任原庆第一师范学校教务处、教科处副主任、主任,行政办公室主任,院教学指导委员会副主任,教学督导室主任,院学术带头人,本科教学水平评估工作办公室主任。 <br />&nbsp;&nbsp;&nbsp; 在重庆第一师范学校和<a class="innerlink" title="重庆师范大学初等教育学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E5%88%9D%E7%AD%89%E6%95%99%E8%82%B2%E5%AD%A6%E9%99%A2" target="_self">重庆师范大学初等教育学院</a>从事教学和管理工作30多年。先后主编多部师范类教材,参加3项国家教育部科研课题的研究,公开发表10多篇论文并多次获奖,其中《全国基础物理教育改革与创新学术研讨会》获优秀论文一等奖、市各类论文评选6次一等奖,重庆市基础教育科研成果三等奖、国家教委“九五”重点科研课题优秀成果二等奖。1996年至2003年间4次被评为校先进工作者、2次被评为校优秀党务工作者,被授予“全国‘飞板’比赛优秀辅导员”,被重庆市教委等六部门授予“重庆市优秀青少年科技辅导员”,2001年被国家教育部、人事部联合授予“全国模范教师”等荣誉称号。 <br />&nbsp;&nbsp;&nbsp;&nbsp; 何光勇同志先后担任市陶行知研究会会员、市陶行知研究会理事、重庆市教育学会会员、重庆市书法教育研究会会员、全国硬笔书法协会会员。曾任重庆市中职高级职称评审论文鉴定专家组成员,市师范学校办学达标评估、音体美专业专项检查和师范师训工作调研专家组成员等。 <br /><br /></p></td> 
+       <td valign="top">&nbsp; <br /><br /></td>
+      </tr> 
+      <tr> 
+       <td valign="top" align="middle">&nbsp;</td> 
+       <td valign="top">&nbsp;</td>
+      </tr> 
+      <tr> 
+       <td valign="top" align="left"></td> 
+       <td valign="top"></td>
+      </tr> 
+      <tr> 
+       <td valign="top"></td> 
+       <td valign="top">&nbsp;<br /></td>
+      </tr> 
+      <tr> 
+       <td valign="top"></td> 
+       <td valign="top"></td>
+      </tr> 
+      <tr> 
+       <td valign="top"></td> 
+       <td valign="top"></td>
+      </tr> 
+      <tr> 
+       <td valign="top"></td> 
+       <td valign="top"></td>
+      </tr> 
+      <tr> 
+       <td valign="top"></td> 
+       <td valign="top"></td>
+      </tr> 
+      <tr> 
+       <td valign="top"></td> 
+       <td valign="top"></td>
+      </tr> 
+      <tr> 
+       <td valign="top"></td> 
+       <td valign="top"></td>
+      </tr>
+     </tbody>
+    </table>
+    <p></p> 
+    <p>&nbsp;</p> 
+    <h2 class="h2_line" id="9">西南大学育才学院 机构分布</h2> 
+    <a name="9" href="javascript:void(0);" style="color:black;"></a>
+    <p> </p>
+    <table style="WIDTH: 618px; HEIGHT: 596px" id="changeTheId-jqe-table-2" cellpadding="1" bgcolor="#ffffff" align="left"> 
+     <tbody> 
+      <tr> 
+       <td>&gt;&gt;&nbsp;党政办公室&nbsp;&gt;&gt;&nbsp;组织宣传部&nbsp;&gt;&gt;&nbsp;教务科研处 <br />&nbsp;&gt;&gt;&nbsp;评建办公室 <br />&nbsp; <br />&nbsp;&gt;&gt;&nbsp;学生工作与就业处 <br />&nbsp;&gt;&gt;&nbsp;发展规划处 <br />&nbsp;&gt;&gt;&nbsp;国际合作与交流处 <br />&nbsp;&gt;&gt;&nbsp;招生工作处 <br />&nbsp; <br />&nbsp;&gt;&gt;&nbsp;干部人事处 <br />&nbsp;&gt;&gt;&nbsp;财务处 <br />&nbsp;&gt;&gt;&nbsp;审计监察处 <br />&nbsp;&gt;&gt;&nbsp;后勤基建处 <br />&nbsp; <br />&nbsp;&gt;&gt;&nbsp;资产处 <br />&nbsp;&gt;&gt;&nbsp;图书馆 <br />&nbsp;&gt;&gt;&nbsp;保卫处&nbsp;<br />&nbsp; <br /></td> 
+       <td></td>
+      </tr> 
+      <tr> 
+       <td></td> 
+       <td></td>
+      </tr> 
+      <tr> 
+       <td></td> 
+       <td></td>
+      </tr> 
+      <tr> 
+       <td></td> 
+       <td></td>
+      </tr>
+     </tbody>
+    </table>
+    <p></p> 
+    <p>&nbsp;</p> 
+    <h2 class="h2_line" id="11">西南大学育才学院 院系设置</h2> 
+    <a name="11" href="javascript:void(0);" style="color:black;"></a>
+    <p> </p>
+    <table id="changeTheId-jqe-table-3" cellpadding="1" bgcolor="#ffffff" align="left"> 
+     <caption></caption> 
+     <tbody> 
+      <tr> 
+       <td></td> 
+       <td width="612"> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文学与新闻传播学院简介</p> 
+        <div style="WIDTH: 300px" id="changeTheId-wrap-img-0" class="img img_l">
+         <a title="文学与新闻传播学院" href="http://tupian.baike.com/ipad/a2_73_59_01300534550877135468596045288_jpg.html" target="_self"><img id="changeTheId-img-0" title="文学与新闻传播学院" alt="文学与新闻传播学院" src="http://a2.att.hudong.com/73/59/01300534550877135468596045288_s.jpg" /></a>
+         <strong>文学与新闻传播学院</strong>
+        </div> <p></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 文学与新闻传播学院是我校开办最早、培养人才最多的院(部)之一,是一个有着深厚文化底蕴、优良教风学风的院系。学院现有学生3400余人。学院下设“三系一部”,即汉语言文学系、新闻系、对外汉语系和大学语文部。&nbsp; <br /> 学院师资队伍阵容强大、教学与科研成果显著。现有专业底蕴深厚的资深教授22人、副教授42人,占专任教师的44.8%;教师中有博士15人,硕士60人,具有研究生学历的达52.5%。学院十分重视科学研究和青年教师的培养提高,成立有朱德研究所、西部传记文学创作研究中心等研究机构。近年来,全院教师在国内外各级各类刊物上发表学术论文150余篇,出版多部专著与教材,参加全国性学术活动160余人次;在学校举办的第一、二、三届青年教师讲课大赛中,我院三位参赛教师连续届届夺魁;在学院举办的首届中青年教师团体教学竞赛中取得了第一名和优秀组织奖的好成绩。&nbsp; <br /> 学生教学管理也屡获学校表彰,多次被授予学风建设先进单位,曾获学校就业工作一等奖。学院认真贯彻党的教育方针,推动学生全面发展,培养的学生有较高质量。2004年以来,学院历届考研上线率达30%以上,研究生共228人;2010——2012年学院分别有125名学生考取硕士研究生。&nbsp;&nbsp;<br />&nbsp;&nbsp;<br />&nbsp; </p> <p>&nbsp;</p> <p><br />法学院简介 <br /><br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <a class="innerlink" title="西南大学育才学院法学院" href="http://www.baike.com/ipadwiki/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%E8%82%B2%E6%89%8D%E5%AD%A6%E9%99%A2%E6%B3%95%E5%AD%A6%E9%99%A2" target="_self">西南大学育才学院法学院</a>,于2006年10月由原西南大学育才学院经济政法学院拆分而建。学院现设有法学、思政2个本科专业和五个系,即民商法系、社会法系、知识产权法系、法制新闻系和思想政治教育系。法学专业被批准为学校的首批重点专业,有四门重点课程被批准为学校精品课程,三门课程被批准为学校重点课程。我院的两个专业以培养政教、法学为主的综合型、复合型、应用型的高级专门人才,加强实践性教学环节,注重技能培训,达到一专多能。目前学生总人数共2000余人(少数民族学生占49%以上),教职工74人。 <br />我院拥有雄厚的师资力量,从西南政法大学、西南大学等重点高校聘请了一批声誉卓著、教学经验丰富的教师任教,硕士学位的任教51人,中级职称21人,具有博士学位的12人,其中高级职称27人,所占比例34%,中级职称达64%,并成立了专门的教授委员会、学位评定委员会和教学督导小组等指导教学,保证了教学质量的提高。学院十分重视科研工作,建立了育才学院法学研究所和陶行知研究会法学院分会。几年来,公开出版了法学教科书、法学通用读物,在各类刊物上发表专著、论文百余篇。 <br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 我院还致力于“双师型”教师队伍的打造,在法学院、检察院、重庆市仲裁委、司法部门的律师事务所办事和担任人民陪审员、专家、法律检察员等职务的教师35人。 <br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 我院培养的学生具有较全面的专业知识,应用能力较强,在教学实践活动中除积极参加认真完成专业实习和毕业论文外,还积极组织和参与模拟庭审法律知识辩论赛、法律咨询、<a class="innerlink" title="送法下乡" href="http://www.baike.com/ipadwiki/%E9%80%81%E6%B3%95%E4%B8%8B%E4%B9%A1" target="_self">送法下乡</a>、法制宣传等活动。对学生全面发展有很大的帮助和提高。 <br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 学院在丰富课余生活的同时,也注意对专业知识的学习与巩固。在青年学生中成立了育才青年法学会,创办《法制新闻报》报刊和《律政青年》杂志,为同学提供了展示自我的舞台和探索理论知识、指导社会实践的平台。 <br />学院十分重视党建和思想政治工作。党总支下设1个教师党支部和4个学生党支部。拥有一支政治思想素质过硬、业务能力较强、工作作风深入的党建和思想政治工作队伍。学生党员在各项活动、各项工作中充分发挥了党员的先锋模范作用,实干和带头作用。我院有60%以上的学生积极申请加入党组织。 <br />教师在教学中注重理论联系实际,不断改革教学方法,更新教学内容,注重教学效果,教学质量较高,近三年来我院考取研究生的共44人,司法考试获得A、C证的共96人。截止2012年5月底,我院2012届应届毕业生一次性就业率达90%,其中,就业好的专业方向就业率达100%。 <br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 目前,我院全体师生员工,正在学院董事会和党政的领导下,抓住机遇,团结奋进,为把我院建设成民办高校中高质量的法学院而努力奋斗! </p> <p>&nbsp;</p> <p>&nbsp;</p> <p><br />工商学院简介</p> <p><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 工商学院是西南大学育才学院重点建设的二级学院,学院师资力量雄厚,全院有教师147名,其中教授23名、副教授34名、博士8名、硕士81名;学院教学设施完备,有10000平方米的现代化教学大楼,有实验手段先进、设备齐全,涵盖金融、国际贸易、会计、税务、物流、工程管理等专业的经济与管理综合实践教学中心;有藏书5000余册的专业资料室。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 工商学院下设五个系、一个教学部,即劳动经济系、工程投资与管理系、国际经济与贸易系、物流管理系、会计系以及经济管理专业基础教学部。现有经济学劳动经济、工程投资经济、国际经济与贸易、物流经济、金融学、商业经济、会计学、工程管理等8个本科专业及专业方向,以及会计、国际贸易实务、投资与理财(工程投资与管理)、营销与策划(电子商务)等4个专科专业及专业方向,在校学生约4500人,是西南大学育才学院规模较大的院系之一。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 学院以“厚学养德、树人育才”为校训,秉持“扬长进取、求实创新”的院训,根据现有的生源情况,突出因材施教、扬长进取的办学思路,不断深化教学改革,积极探索适应经济和社会发展的人才培养模式,形成了“专业方向市场化、学科建设科学化、教学管理制度化、人才培养层次化、学生管理规范化”的办学特色,治学严谨、刻苦努力学习已蔚然成风,教育教学取得了丰硕的成果。&nbsp; <br /></p> <p>&nbsp;</p></td>
+      </tr> 
+      <tr> 
+       <td> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p></td> 
+       <td> <p>外国语学院简介&nbsp;</p> <p>&nbsp;</p> 
+        <div style="WIDTH: 300px" id="changeTheId-wrap-img-1" class="img img_l">
+         <a title="外国语学院" href="http://tupian.baike.com/ipad/a3_32_65_01300534550877135468657661746_jpg.html" target="_self"><img id="changeTheId-img-1" title="外国语学院" alt="外国语学院" src="http://a3.att.hudong.com/32/65/01300534550877135468657661746_s.jpg" /></a>
+         <strong>外国语学院</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 外国语学院(School&nbsp;of&nbsp;Foreign&nbsp;Languages)是育才学院最早设立的院系之一,其前身为2000年9月成立的外语系。伴随着学院的跨越式发展,外语系规模迅速扩大,于2005年9月改建为外国语学院,下设学院办公室、公外教学部、英语专业教研室、日语教研室、英语自主学习中心和资料室等部门。我院面向全国23个省(市、区)招生,现有全日制本专科学生1155人。学院始终把建设一支与办学目标相适应的高水平师资队伍作为核心工作之一,现有教职工81人,专任教师65人,其中教授7人,副教授&nbsp;10人,研究生以上学历教师14人,青年骨干教师9人。 <br />&nbsp; &nbsp;&nbsp; 学院拥有独立的外语教学大楼(<a class="innerlink" title="宏识" href="http://www.baike.com/ipadwiki/%E5%AE%8F%E8%AF%86" target="_self">宏识</a>楼),建筑面积约6000平方米,共有47间多媒体教室,备有各种现代化视听设备、音像资料和网络查询终端等设施,为方便教师使用多媒体教学,学院设立了多媒体课件制作室,多媒体技术已成为我院外语教学的重要手段,在日常教学中广泛使用,并得到广大师生的好评。学院资料室现有藏书数千册,各类电子和音像教学资料数百套(盘),为现代化教学、科研和管理提供了良好的条件。 <br />&nbsp;&nbsp;&nbsp;&nbsp; 外国语学院在办学中,严格遵循“厚学养德,树人育才”的校训。坚持以教学为中心,加强教学改革,以突出口语、写作能力训练为重点,夯实学生的基本功,确保教学质量不断提高。学院重视学生思想政治教育和综合素质的培养,形成了浓厚的学习氛围和良好的学风,多次被评为学校教风学风先进单位。学院办学11年来,为国家社会培养了一批优秀的人才,前几届毕业生中,大部分通过CET-6和TEM-4,99%的学生获得学士学位,先后有100多名学生考取了包括中国对外经济贸易大学、北京师范大学等重点大学在内的研究生,每年就业率达90%以上。&nbsp;<br /><br />&nbsp;&nbsp;</p> <p>&nbsp;</p> <p><br />管理学院简介</p> <p>&nbsp;</p> 
+        <div style="WIDTH: 300px" id="changeTheId-wrap-img-2" class="img img_l">
+         <a title="管理学院" href="http://tupian.baike.com/ipad/a4_45_67_01300534550877135468676018483_jpg.html" target="_self"><img id="changeTheId-img-2" title="管理学院" alt="管理学院" src="http://a4.att.hudong.com/45/67/01300534550877135468676018483_s.jpg" /></a>
+         <strong>管理学院</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;管理学院成立于2004年7月,以“关爱学生、平等切研、启迪睿穹、健康成长”为培养理念,以“厚基础、宽视野、善协调、会服务”为培养目标,以“思辩、求学、创新、实践”为院训,经过8年的建设,现已成为师资力量较强、办学水平较高、管理类专业较为齐全的二级学院。学院现有专职教师57人,他们分别毕业于中国人民大学、四川大学、重庆大学、西南大学、华中农业大学、华中师范大学、湖南师范大学、苏州大学、上海大学、重庆工商大学、四川师范大学、重庆师范大学、西南民族大学、四川外语学院等高校。其中:副教授及以上职称者28人,占49.1%;具有博士、硕士学位者41人,占71.9%;享受国务院政府特殊津贴者2人。此外,我院还礼聘企事业成功人士为客座教授。今后将继续加强师资队伍建设,以形成学缘、学历、年龄、职称等结构更为合理、教学水平更高的师资队伍。&nbsp;<br />&nbsp;&nbsp;&nbsp; &nbsp;学院下设人力资源管理系、公共事业管理系、旅游管理系、社会学系四个教学系和一个教学实验中心。拥有公共事业管理(城市建设与管理方向)、公共事业管理(会展经济与服务方向)、公共事业管理(民航运输方向)、农村区域发展(统筹城乡发展与管理方向)、人力资源管理、旅游管理、社会工作(城市社会工作方向)五个本科专业方向和航空服务、商务管理、<a class="innerlink" title="涉外事务管理" href="http://www.baike.com/ipadwiki/%E6%B6%89%E5%A4%96%E4%BA%8B%E5%8A%A1%E7%AE%A1%E7%90%86" target="_self">涉外事务管理</a>三个专科专业。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;学院强调实践创新,贯行陶行知先生“行是知之始,知是行之成”的教育理念。围绕社会需求、学生需要以及市场紧缺,积极开展相关领域的研究,先后建立了公关服务研究中心、人力资源管理实训室、管理信息系统实训室。旅游实验室、社会工作实验室也正在筹建中。同时,学院进一步强化学生专业实习基地的建设,加大与地方各级政府和企业的合作力度,广泛开展校企合作。在全国建立学生实习(实训)基地30余处,先后与北京、上海、重庆、江苏、浙江、贵州等地的18家企事业单位正式签订教学实习(实训)协议,进一步促进了学生实践能力的培养。2011年12月,我院学生参加由重庆市人民政府会展办公室和重庆市会展行业协会联合举办的首届会展技能大赛喜获二等奖,并被授予“会展教育优秀院校”的荣誉称号;2012年6月,我院学生参加合川区<a class="innerlink" title="导游服务技能" href="http://www.baike.com/ipadwiki/%E5%AF%BC%E6%B8%B8%E6%9C%8D%E5%8A%A1%E6%8A%80%E8%83%BD" target="_self">导游服务技能</a>大赛荣获组织奖。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;学院在狠抓教学质量的同时,也非常重视专业教师学术水平的提高,并采取措施,促进科研发展。近年来,专业教师科研初见成效,已承担校内外科研项目20余项,发表学术论文40余篇,参与编著教材6部。此外,学院组织了丰富多彩的学术讲座活动,主讲人有著名专家、学者、企业界成功人士、政府领导等,受到师生好评。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;“天道酬勤、厚德载物”的教育理念指导着学生思想教育工作。人性化的管理、对学生的严格督导加上耐心细致的思想工作,使全院呈现出教风严、学风好、学生上进心强的良好局面。学生基础知识和专业理论较为扎实,知识面较广,实践能力较强。市、校级先进班级、团支部、文明寝室等优秀集体不断涌现。在学院的1800余名的学生中,有23%以上的学生加入中国共产党或成为入党积极分子。各年级均活跃着大批市、校级优秀学生干部、三好学生、优秀团员、社会实践先进分子。更有十余人荣获重庆市的优秀学生干部、优秀大学生的光荣称号。还有多名学生荣获市、校级科技创新奖、优秀导游等殊荣。&nbsp;<br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;自2004年9月首届招生至今,连续五年毕业率均在97%以上,学士学位授予率平均为90%,本专科就业率平均在96%以上,“专升本”考试上线率平均为60%。先后有30余名毕业生考取研究生继续深造。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;八年来,我院已为政府机关、公共管理部门、人力资源部门、旅游管理机构、社会服务组织、航空公司、机场和商务涉外机构输送了近千名毕业生。他们在工作岗位上表现出了较高的综合素质与业务能力,受到用人单位的好评。部分毕业生已成为政府部门、集团公司、证券机构、著名景区、星级酒店、知名旅行社的部门主管和业务骨干,受到重用,为学院赢得了良好的声誉。&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp; “&nbsp;荜路蓝缕,以启山林”,我院将紧紧围绕学校的发展目标定位,整合力量,抓住机遇,加快教学改革步伐,积极吸纳优秀人才,不断提高学术和教学水平,努力把学院建设成为培养企事业单位现代化管理人才的摇篮。 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 热忱欢迎四海学子奔赴陶行知先生办学之地,与我们携手并进,共创管理学院辉煌的未来!&nbsp;<br /></p> <p>&nbsp;</p> <p><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p> <p>&nbsp;天籁影视艺术学院简介 </p> <p>&nbsp;</p> 
+        <div style="WIDTH: 300px" id="changeTheId-wrap-img-3" class="img img_l">
+         <a title="天籁影视学院" href="http://tupian.baike.com/ipad/a3_87_69_01300534550877135468697875660_jpg.html" target="_self"><img id="changeTheId-img-3" title="天籁影视学院" alt="天籁影视学院" src="http://a3.att.hudong.com/87/69/01300534550877135468697875660_s.jpg" /></a>
+         <strong>天籁影视学院</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天籁影视艺术学院现有本、专科学生近千人。拥有专业教师77人,其中教授11人,副教授17人,具有博士硕士学位的教师32人,他们分别来自中央戏剧学院、中国传媒大学、西南大学、重庆大学、武汉大学等名校。&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 学院把培养学生影视艺术创作能力和技术动手能力紧密结合起来,成体系的配置了专业的教学设备、设施。学院拥有专业的教学楼、11个大型多媒体教室、非线性编辑教学室、影视节目演播制作中心、节目排演中心、播音主持语音教学实验室、影视制作录音棚、编导教学实验室、形体教室、钢琴教室、影视节目放映厅等专业设施,可以实现戏剧影视作品、各类电视节目的流程制作,强有力的保证了专业教学和实践创作的需要。 <br />&nbsp;&nbsp;&nbsp;&nbsp; 近年来学院师生积极参加各种文艺汇演、艺术大赛等活动。荣获重庆市第二届大学生戏剧节“演出奖”、“组织奖”、“表演奖”。学生作品《小路》、《竹篮子》获湖南省大学生电影节DV短片等级奖,应邀参加颁奖晚会;《最美丽的》入围湖南省大学生电影节DV短片奖,并获第五届<a class="innerlink" title="广州大学生电影节" href="http://www.baike.com/ipadwiki/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%94%B5%E5%BD%B1%E8%8A%82" target="_self">广州大学生电影节</a>DV短片奖,应邀参加颁奖晚会;《看看那石头》获北京大学生电影节DV短片组专业制作片入围奖,并与另二部作品《十六岁的轨迹》、《我被青春撞了》一起获得JVC电影节入围奖;《父亲膝下的儿子》获第二十七届重庆市大学生<a class="innerlink" title="校园之春" href="http://www.baike.com/ipadwiki/%E6%A0%A1%E5%9B%AD%E4%B9%8B%E6%98%A5" target="_self">校园之春</a>DV短片大赛二等奖。 <br />&nbsp;&nbsp;&nbsp;&nbsp; 学院师生还多次参加重庆电视台大型节目制作和重庆卫视“刑侦档案”、“大戏当前”、“冷暖人生”、“人生有戏”等栏目电视剧的拍摄,并在中央电视台6频道和重庆市的电视台播出。 <br />&nbsp;&nbsp; &nbsp; 学院坚持以就业为导向,以加强素质教育为核心,遵循高等教育规律和艺术教育规律,按照“应用型、复合型”人才的培养模式,强化实践教学,三年来,本科就业率均超过85%,就业范围遍布北京、重庆、广东、江苏、浙江、四川、山东、云南、贵州等地。服务单位包括:央视第七频道、第十频道、北京交通广播台、湖南广电总局、广东南方电视台、浙江日报集团、重庆电视台各频道、云南香格里拉电视台、贵州黔西南州立电视台等。还有一大批毕业生分别在市、州、县级广电媒体、文化传媒机构从事记者、编辑、播音主持和演艺工作。 <br /></p> <p>&nbsp;</p> <p>&nbsp;</p></td>
+      </tr> 
+      <tr> 
+       <td></td> 
+       <td> <p>&nbsp;&nbsp;&nbsp;理工&nbsp;学院简介</p> <p>&nbsp;</p> 
+        <div style="WIDTH: 300px" id="changeTheId-wrap-img-4" class="img img_l">
+         <a title="理工学院" href="http://tupian.baike.com/ipad/a1_83_71_01300534550877135468714030603_jpg.html" target="_self"><img id="changeTheId-img-4" title="理工学院" alt="理工学院" src="http://a1.att.hudong.com/83/71/01300534550877135468714030603_s.jpg" /></a>
+         <strong>理工学院</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 理工学院始终坚持秉承“厚学养德,树人育才”的校训,始终坚持创建全国高水平民办大学的目标,始终坚持把“一切为了学生”作为教学和管理工作的根本宗旨,加大各项基础建设投入,不断深化教学内容、教学方法、教学手段的改革,强化管理,提高效率,严把教育教学质量关,确保人才培养质量的稳步提高。&nbsp; <br /> 我院是一个跨学科多门类的融理学、工学、农学三个一级学科为一体的学院。学院现下设有办公室、辅导员工作组、五个教学单位,分别是:电子信息科学与技术系、数学系、工程技术系、实验中心和公共计算机教研室。设有计算机科学与技术、数学与应用数学、电子信息工程、微电子学、汽车服务工程、机械设计制造及其自动化、园林共7个本科专业;我院拥有校级重点专业1个,校级重点实验室2个,校级重点课程5门,学科专业建设形成特色。&nbsp; <br /> 学院现有教职工125人,其中教授、副教授以上职称57人,占45.6%;硕士研究生以上学历58人,占46%;目前有来自全国二十多省(市、自治区)的全日制本、专科学生2136人。&nbsp; <br /> 拥有教学和实验用房15000余平方米,教学、实验设备固定资产1600余万元。目前我院共有实验室40余个;学院拥有工程实训中心1个,建筑面积近2000㎡,拥有先进数控加工中心、车、铣、磨床等设备60余台;实验室建设做到了结构布局合理、层次分明、重点突出、功能齐全、教学科研互动,满足了教学科研的需求。&nbsp; <br /> 学院不断深化教育教学改革,不断加强学生素质教育。近3年我院在全国大学生数学建模比赛中获得重庆市赛区一等奖2个、二等奖5个、三等奖2个;在第四届“全国普通高校信息技术创新与实践活动”——景观设计大赛分获一等奖1个、三等奖1个;在全国大学生电子设计竞赛,取得了重庆市赛区二等奖1个,三等奖2个;在2009、2010本田.中国汽车节能大赛中,分别获得重庆地区参赛队第一、第二的优异成绩。2010-2012年有20名学生考取了研究生继续深造。&nbsp; <br /> 学院坚持素质与能力教育并重,增强学生岗位能力的培养,我院学生在职业能力上具有较强的竞争力,近3年我院毕业生一次性就业率均为90%以上,近3年连续荣获育才学院就业先进单位称号。&nbsp; <br /></p> <p>&nbsp;</p> <p><br />&nbsp;</p></td>
+      </tr> 
+      <tr> 
+       <td></td> 
+       <td> <p>美术学院简介</p> <p>&nbsp;</p> 
+        <div style="WIDTH: 300px" id="changeTheId-wrap-img-5" class="img img_l">
+         <a title="美术学院" href="http://tupian.baike.com/ipad/a2_60_72_01300534550877135468727854625_jpg.html" target="_self"><img id="changeTheId-img-5" title="美术学院" alt="美术学院" src="http://a2.att.hudong.com/60/72/01300534550877135468727854625_s.jpg" /></a>
+         <strong>美术学院</strong>
+        </div> <p>&nbsp;&nbsp;&nbsp; &nbsp; 美术学院成立于2001年,现有在校学生1300多人。学院辖美术学系、艺术设计一系(环境艺术方向、数字艺术方向)、艺术设计二系(视觉传播方向、设计管理方向)和服装设计系。有专业教师102人,其中教授、副教授37&nbsp;人,博士、硕士51人。 <br />&nbsp;&nbsp;&nbsp; &nbsp;学院现有慧思楼,美术苑和雕塑苑三个教学场地,教学用房面积12000多平方米。建有艺术设计实训中心、美术创作实训中心和重庆市美术学人才培养模式创新实验区。有服装实训室3间,三维动画实训室、二维动画实训室各2间,摄影实训室、定格动画实训室、雕塑实训室、版画实训室、国画实训室、油画实训室、壁画实训室、漆画实训室、<a class="innerlink" title="装饰材料与施工" href="http://www.baike.com/ipadwiki/%E8%A3%85%E9%A5%B0%E6%9D%90%E6%96%99%E4%B8%8E%E6%96%BD%E5%B7%A5" target="_self">装饰材料与施工</a>工艺实训室各1间。有美术学专业校外教学实习基地2处,艺术设计专业校外实习基地7处,写生摄影基地1处。 <br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;美术学院积极探索学院发展的新思想、新措施,以市场为导向,以科技为基础,以艺术为手段,深化教学改革,努力培养具有创新精神、动手能力和创业能力的高素质艺术人才。学院以教学为中心,规范教学管理、探索艺术教育的新方法、新规律,教学改革走在了国内艺术院校的前列。其中专业基础课与基础理论课的模块化教学体系改革,有效解决了艺术教育中的质量评定与管理标准化问题。率先在国内探索实施三年级下学期至毕业的工作室教学制度使学校教学与社会实践很好的融合了起来,加强了学生的行业认知能力,提高了学生的专业实践能力。 <br />&nbsp;&nbsp;&nbsp;&nbsp; 我院坚持以“市场实现”、“亮相教育”为核心,全面提升学生的综合素养。近几年来,学生一次性就业率均在93%以上,三年来考上研究生15名。 <br />我院非常重视科研、创作工作,分别于2005年、2011年成立了美术文化研究所和国际创意产业发展研究所,并以两所为依托,整合科研资源,申报科研项目,致力于将学校的智力资源最快速地与生产、市场结合,最终实现对中国大学人才培养新模式的探索与培养方式的改革。近年来,我院教师获国家级奖两项、省部级获13项、高校人文社科奖3项、其他科研奖92项;出版著作8部,自编教材5部,发表论文(作品)53篇,入选国家级美展作品3件,入选省级美展作品67件,教师在国内举办个人画展3人次,教师设计服务地方项目近100项。其中张其昱副教授的作品《夏秋之交》入选第十一届全国美展;青年教师黄<a class="innerlink" title="诗鸿" href="http://www.baike.com/ipadwiki/%E8%AF%97%E9%B8%BF" target="_self">诗鸿</a>的作品《儿童玩具设计》获得中国—荷兰优秀工业设计大赛一等奖;张鸿副教授主持的《红河卷烟厂建筑及景观规划设计工程》获得“鲁班奖”;高燕副教授的作品《渗透》入选2011香港国际时装周,并获“汉帛奖”;三维动画实训室作品《重庆城市宣传片》在第14届全国大学生“大师杯”比赛中获优秀奖;青年教师<a class="innerlink" title="冯艳" href="http://www.baike.com/ipadwiki/%E5%86%AF%E8%89%B3" target="_self">冯艳</a>红的作品《优雅的叛逆》获得“杉杉杯”中国服装设计师大赛新人奖。学生王希超作品《<a class="innerlink" title="露友" href="http://www.baike.com/ipadwiki/%E9%9C%B2%E5%8F%8B" target="_self">露友</a>运动鞋》获得第四届全国大学生广告艺术大赛二等奖;学生李一诚作品《<a class="innerlink" title="西后街" href="http://www.baike.com/ipadwiki/%E8%A5%BF%E5%90%8E%E8%A1%97" target="_self">西后街</a>》获得央视风云大赛漫画组优秀奖;学生团队8405工作室作品《火火in南京》获得大广赛&middot;<a class="innerlink" title="南京青奥会" href="http://www.baike.com/ipadwiki/%E5%8D%97%E4%BA%AC%E9%9D%92%E5%A5%A5%E4%BC%9A" target="_self">南京青奥会</a>动画组优秀奖;学生刘艳作品《“友基”数位板》获得第九届全国大学生学院奖佳作奖。 <br /></p> <p>&nbsp;</p> <p>&nbsp;</p></td>
+      </tr> 
+      <tr> 
+       <td></td> 
+       <td> <p>&nbsp;&nbsp;音乐学院简介</p> <p>&nbsp;</p> 
+        <div style="WIDTH: 300px" id="changeTheId-wrap-img-6" class="img img_l">
+         <a title="音乐学院" href="http://tupian.baike.com/ipad/a1_33_74_01300534550877135468745264056_jpg.html" target="_self"><img id="changeTheId-img-6" title="音乐学院" alt="音乐学院" src="http://a1.att.hudong.com/33/74/01300534550877135468745264056_s.jpg" /></a>
+         <strong>音乐学院</strong>
+        </div> <p>&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 音乐学院现有学生1064人,教师84人,其中教授、副教授26人,具有博士、硕士学位的教师26人,在职攻读硕士学位教师6人。学院现有钢琴180架,拥有设施现代化的音乐厅、7800多平方米的教学实训室和各专业课教室、多媒体、电脑音乐制作室、阶梯教室、数码钢琴教室、形体与舞蹈教室、民乐教室、电声器乐室等各种教学设备设施。音乐学院现已培养了六届本、专科毕业学生,就业去向有中国武警部队文工团、<a class="innerlink" title="重庆市歌剧院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B8%82%E6%AD%8C%E5%89%A7%E9%99%A2" target="_self">重庆市歌剧院</a>、重庆电视台、重庆市民族歌舞团及省内外各中小学等企事业单位。 <br />&nbsp;&nbsp;&nbsp; &nbsp; 音乐学院建于建校之初,学院经过十多年的办学积淀,如今进一步明确在办好现有的音乐学(师范)、音乐表演和舞蹈学等三个本科专业的同时,积极探索“上下左右四方拓展”的办学思路:第一,向上方——办学层次拓展,即准备在学校转设之后,力争率先实现研究生教育;第二,向下方——面向基础教育拓展,即力争与基础教育联手,建成音乐学院附中,为学院生源质量打下基础;第三,向左方——新专业方向拓展:即进一步论证和争取<a class="innerlink" title="音乐与舞蹈学" href="http://www.baike.com/ipadwiki/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%88%9E%E8%B9%88%E5%AD%A6" target="_self">音乐与舞蹈学</a>新专业或方向的设置;第四,向右方——国际合作拓展,即积极开展与国外高校合作探索新的人才培养模式。 <br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;学院多年来在学生中组建的支教团,长期面向地方基础教育服务,即为学校附近的育才学校、大庙村小学长期承担音乐课教学和音乐活动,受到学校及当地教委的支持和肯定,也为我院的人才培养起到一定的作用。 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 音乐学院师生参加全国及省市级的各种艺术比赛活动取得了可喜的成绩:2007年,由学院师生创作表演的舞蹈《依依毕业情》赴京演出获“魅力校园”文艺汇演编导金奖和表演金奖,音乐学院合唱团在重庆市庆直辖十周年首届文化艺术节合唱比赛中获金奖第一名,歌舞《中国的节日》赴香港参加庆祝香港回归10周年演出,获表演金奖;&nbsp;2008年,我院的现代舞《说说•看》在广州国际现代舞周获创作、表演双金奖,合唱团参加重庆市大学生艺术展演比赛获专业组第二名;&nbsp;2009年,我院合唱团参加“重庆市第二届大学生艺术节”&nbsp;合唱比赛专业组第二名,合唱团参加第三届重庆<a class="innerlink" title="长江三峡国际红叶节" href="http://www.baike.com/ipadwiki/%E9%95%BF%E6%B1%9F%E4%B8%89%E5%B3%A1%E5%9B%BD%E9%99%85%E7%BA%A2%E5%8F%B6%E8%8A%82" target="_self">长江三峡国际红叶节</a>“库区移民唱红歌颂祖国”合唱比赛荣获第一名;2011年,合唱团参加第八届“金钟奖”合唱比赛获得“展演优秀奖”;2012年,我院编排的舞蹈《以蜕为净》赴京参加第一届舞蹈双周展获舞蹈创作和表演金奖。&nbsp;<br />&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>体育部简介</td>
+      </tr> 
+      <tr> 
+       <td></td> 
+       <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 西南大学育才学院体育部在2008年9月以前为我院基础教学部的一个分支称体育教研部,2008年9月经学院批准成立体育部&nbsp;。&nbsp;<br />&nbsp;&nbsp;&nbsp;2008年独立为体育部以来,设有体育教研室、党支部、办公室、部门工会,配备主任1名,党支部书记1名,行政教务办公室主任1名,教学秘书1名。承担全校学生公共体育课教学任务,组织全校师生课外体育锻炼和体育竞赛,开展课余训练,负责全校《国家学生体质健康标准》年度测试及成绩管理,负责全校体育场地设施管理等。体育部现有教师专职体育教师23人,副教授1人,外聘教师副教授5人人。&nbsp; <br />讲师职称的20人,中级职称比例达到86.9%;助教职称的2人,初级职称比例为1.3%;研究生学历比例为34.7%,此外还有7位教师正在在职攻读研究生,本科生学历比例为65.3%。&nbsp;<br />体育部现开设的课程为公共课程,全部为所有全日制本、专科学生在校期间的必修课程,每学期设置学分为2。主要有以下课程: <br />大一开设:篮球必修课,排球必修课,武术必修课,游泳; 大二开设:篮球选项课,排球选项课,武术选项课,健美操选项课,羽毛球选项课,乒乓球选项课,足球选项课,游泳。 <br /></p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>基础教学部简介</p> <p>&nbsp;</p> <p align="left">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;基础课教学部成立于201年7月,由原体育部、教学心理学研究室合并而成,与思想政治理论课教学部合署办公,主要承担全校本、专科学生的思想政治理论课、体育、教育学以及心理学等公共基础课的教学工作,负责全校学生体育运动及有关素质教育活动的组织、指导。教学部下设1个教务行政办公室和7个教研室,即思想道德修养与法律基础教研室、中国近现代史刚要研究室、马克思主义基本原理概论研究室、毛泽东思想和中国特色社会主义理论体系概论研究室、体育研究室、教育学心理学研究室。</p> <p align="left">&nbsp;&nbsp;&nbsp; &nbsp; 教学部拥有一支经验丰富、年龄结构、知识结构合理、素质过硬、锐意改革的教学与教学科研团队,现有专兼职教师99人,其中教授、副教授28人,具有硕士、博士学位者62人。教学部注重教师的教育和培养,不仅鼓励、支持教师积极参及各种研讨会、发表教学科研文章,还选派优秀教师参加教育部组织的高校思想政治理论课骨干教师研修班、重庆市委党校开办的哲学社会科学教学科研骨干研修班以及重庆市教委组织各项培训。还制订了教师联系教学班制度、教师互相听课制度、教师集体备课制度、以老带新的导师制等制度,帮助青年教师站稳讲台、开展好教学。</p> <p align="left">&nbsp;&nbsp; &nbsp;&nbsp; 教学部始终秉承“厚学养德,树人育才”的校训,坚持以教学为中心,积极推进教学改革,为培养德智体美全面发展的高素质大学生而努力。根据学生特点,转变教育观念,探索提高教学效果的新方法、新路子,形成了专题讲授、案例分析、社会调查、阅读指导、提问、讨论、辩论等课堂教学的方式、方法,充分调动了学生学习的积极性和主动性;紧扣教材,广泛搜集材料,特别针对本科、专科层次不同,文科、理科性质不同,一般本专科与艺术本专科学风不同,实行因材施教,注重增强教学实效性,稳步提高教学质量。</p> <p align="left">&nbsp;&nbsp;&nbsp;&nbsp; 在学校领导的关心、支持下,在教学部全体教师的辛勤工作之下,教学部的各项工作得以顺利展开,并取得令人满意的成绩。近年来,公开发表论文近数十篇,其中数篇还发表在《北京体育大学学报》、《福建论坛》、《西南大学学报》、《<a class="innerlink" title="高校教育研究" href="http://www.baike.com/ipadwiki/%E9%AB%98%E6%A0%A1%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6" target="_self">高校教育研究</a>》等核心期刊上。目前承担了市级课题、校级课题多项。我部教师组织训练的学生篮球队、武术队、田径队、游泳队、健美操队等在重庆市大学生运动会上都取得了不菲的成绩。在首届重庆市大学生运动会上,我院学生篮球队和武术队分别获得普通高校第一名。在重庆市第二届大学运动会上,我院学生田径队获得普通高校总分第一名,游泳队获女子团体第三名、男子个人单项第一名。</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>国际学院简介 </p> <p><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 与国外先进的教育教学体系接轨,广泛开展国际教育,是学校的战略发展目标之一。经过长时间的调研和准备,国际学院于今年9月底正式成立,预计明年正式招生。 <br />办学宗旨: <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 坚持全球先进办学理念,引进国外优质教育资源;聚集中外品牌高校优秀师资,营造良好的学习环境;为有志青年提供出国学习深造的平台,接收来华留学生,&nbsp;拓展国际交流与合作,培养具有国际视野、通晓国际规则、能够参与国际事务和国际竞争的国际化应用型的高素质专业人才。 <br />三大职能: <br />★&nbsp;出国留学 <br />&nbsp;&nbsp;&nbsp;&nbsp; 与国外高校建立合作伙伴关系,探索多渠道、多层次、全方位、高水平的联合办学模式,开展诸如2+2,3+1,4+X等形式的本科预科、本科、硕士项目,开设当前国际上就业前景好,潜力大的专业,开发国外合作院校认可的课程体系和学分互认体系,引进英语原版教材及教学方式,培养和引进高水平的双语教师,将英语强化培训、专业基础课程和德育教育融为一体,强调学生的语言学习技能、创新思维、实践能力和健全人格的培养,让育才学生走出国门,接受现代化的国际教育。 <br />★&nbsp;来华留学 <br />&nbsp;&nbsp;&nbsp;&nbsp; 创造一流的教学条件,招收来华留学生,并以多种方式吸引并鼓励国外及港澳台地区学生来西南大学育才学院国际学院学习提高,从开展短期汉语进修入手,逐步开展全<a class="innerlink" title="日制汉语" href="http://www.baike.com/ipadwiki/%E6%97%A5%E5%88%B6%E6%B1%89%E8%AF%AD" target="_self">日制汉语</a>课程预科项目和本、专科学历教育项目,为推广汉语教学,提高汉语在国际上的影响力贡献力量。 <br />★&nbsp;国际合作与交流 <br />&nbsp;&nbsp;&nbsp;&nbsp; 加强国际合作与交流,策划并实施提升学校国际影响力的活动,如开展教师互派,学生交换、邀请国外知名专家学者来校讲座、举办国际学术会议等,打造国际化的校园氛围。</p></td>
+      </tr> 
+      <tr> 
+       <td></td> 
+       <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+     </tbody>
+    </table>
+    <p></p> 
+    <p>&nbsp;</p> 
+    <h2 class="h2_line" id="13">西南大学育才学院 师资力量</h2> 
+    <a name="13" href="javascript:void(0);" style="color:black;"></a>
+    <p>学院现有教职工总数为1599人,其中专职任课教师849人。在专职任课教师中,具有副高以上职称的教师260人,占专职任课教师30.6 %;具有硕士以上学历的教师258人,占专职任课教师30.4 %。学院有辅导员101人,其中有研究生学历的7人,本科学历的76人,具有本科以上学历辅导员共83人,占辅导员总数的82%,其中辅导员与学生人数比为1:174。</p> 
+    <h2 class="h2_line" id="15">西南大学育才学院 所获荣誉</h2> 
+    <a name="15" href="javascript:void(0);" style="color:black;"></a>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 学院先后荣获“全国先进社会组织”“全国先进独立学院”“中国民办高等教育优秀院校”“重庆市民办教育先进集体”“重庆市先进社会组织”“重庆市先进基层党组织”“全国大学生社会实践工作先进集体”等称号。&nbsp;</p>
+    <div style="WIDTH: 300px" class="img img_r">
+     <a title="西南大学育才学院" href="http://tupian.baike.com/ipad/a2_34_39_01300534550877135469394188988_jpg.html" target="_self"><img title="西南大学育才学院" alt="西南大学育才学院" src="http://a2.att.hudong.com/34/39/01300534550877135469394188988_s.jpg" /></a>
+     <strong>西南大学育才学院</strong>
+    </div> 
+    <h2 class="h2_line" id="17">西南大学育才学院 招生章程</h2> 
+    <a name="17" href="javascript:void(0);" style="color:black;"></a>
+    <p>第一条 为深入贯彻依法行政、依法治招的要求,进一步规范学校的招生行为,保证 2007 年招生工作顺利进行,依据<a class="innerlink" title="《中华人民共和国教育法" href="http://www.baike.com/ipadwiki/%E3%80%8A%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%95%99%E8%82%B2%E6%B3%95" target="_self">《中华人民共和国教育法</a><a class="innerlink" title="》" href="http://www.baike.com/ipadwiki/%E3%80%8B" target="_self">》</a>、<a class="innerlink" title="《" href="http://www.baike.com/ipadwiki/%E3%80%8A" target="_self">《</a><a class="innerlink" title="中华人民共和国高等教育法》" href="http://www.baike.com/ipadwiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E6%B3%95%E3%80%8B" target="_self">中华人民共和国高等教育法》</a>等法律法规和上级的有关规定,结合学院实际制定本章程。 <br /></p>
+    <p>第二条 学校全称:西南大学育才学院(学院国家代码 13548 ) <br /></p>
+    <p>第三条 学校批准成立时间和批准单位:学院成立于 2000 年 5 月, 2003 年 3 月经教育部批准为<a class="innerlink" title="西南师范大学育才学院" href="http://www.baike.com/ipadwiki/%E8%A5%BF%E5%8D%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%B2%E6%89%8D%E5%AD%A6%E9%99%A2" target="_self">西南师范大学育才学院</a>(独立学院), 2006 年 11 月经教育部批准更名为西南大学育才学院。 <br /></p>
+    <p>第四条 学校地址:重庆市合川区草街镇 <br /></p>
+    <p>第五条 招生层次:本科、专科、少数民族预科 <br /></p>
+    <p>第六条 办学类型:独立学院 <br /></p>
+    <p>第七条 办学基本条件:学院地处著名教育 家陶行知 先生早年办学地重庆市合川区,占地面积约 2100 亩,环境优雅,森林覆盖率达 70% ,拥有教学楼十余幢及实验大楼、图书馆、学生公寓、学生食堂等。拥有语音室、多媒体教室近百间,可容纳近万名学生上课。有闭路电视台、广播调频台、网络信息中心、学生文化活动中心、运动场、体育馆、网球场、篮球场、游泳池等各类现代化教学、文化、体育、生活设施。拥有计算机 3100 多台、钢琴 200 余台、电脑音乐制作设备、数码钢琴设备、电影电视制作设备、电子电工实验设备等。图书 88 万多册。学院现有教职工 1485 人,其中专任教师 891 人,具有研究生学位教师占专任教师的比例为 30.5% ,具有高级职称教师占专任教师的比例为 32% 。 <br /></p>
+    <p>第八条 在有关省(自治区、直辖市)分专业招生计划及有关说明(见附表) <br /></p>
+    <p>第九条 凡取得报名资格,思想政治品德合格、学习成绩优良、身体健康状况符合教育部、卫生部、中国残疾人联合会修订的《普通高等学校招生体检工作指导意见》规定标准的考生均可报考。 <br /></p>
+    <p>第十条 录取基本原则:我院招生录取工作遵循“公平竞争、公正选拔、公开透明”和“德、智、体全面考核,综合评价,择优录取”的原则。 <br /></p>
+    <p>第十一条 录取规则: <br /></p>
+    <p>1、我院严格按各有关省(<a class="innerlink" title="直辖市" href="http://www.baike.com/ipadwiki/%E7%9B%B4%E8%BE%96%E5%B8%82" target="_self">直辖市</a>、<a class="innerlink" title="自治区" href="http://www.baike.com/ipadwiki/%E8%87%AA%E6%B2%BB%E5%8C%BA" target="_self">自治区</a>)招办规定的录取批次实行计算机远程网上录取。</p>
+    <p>2、我院按志愿优先和分数优先相结合的原则录取。第一志愿报考我院、经各省(直辖市、自治区)招办投档的考生,从高分到低分进行录取;在第一志愿生源不足的情况下,录取非第一志愿考生。 <br /></p>
+    <p>3、填报我院志愿,如所报专业已录取满额,填报有服从专业调剂的考生,我院调剂到其他专业录取;未填报服从专业调剂的考生,不予录取。 4、我院严格执行有关省(直辖市、自治区)规定的加分(降分)政策,在相同情况下,优先录取享受加分(降分)政策的考生。 <br /></p>
+    <p>5、我院各专业均不限制男女生比例。 <br /></p>
+    <p>6、我院各专业录取时,除英语、英语教育、对外汉语、国际贸易实务、涉外事务管理及理工学院所有专业只招收英语语种的考生外,其它专业均不限制外语语种;航空服务、营销与策划(拍卖与典当方向)要求考生形象较好,口齿清楚,男生身高 1.70 米 以上,女生身高 1.60 米 以上;艺术类考生录取办法以我院艺术类招生简章为准。 <br /></p>
+    <p>7、录取时原则上不设专业<a class="innerlink" title="志愿级差" href="http://www.baike.com/ipadwiki/%E5%BF%97%E6%84%BF%E7%BA%A7%E5%B7%AE" target="_self">志愿级差</a>分。 <br /></p>
+    <p>8、学校根据国家有关政策和我院录取原则及招生计划录取内地新疆高中班、内地西藏高中班、少数民族预科班考生。 <br /></p>
+    <p>9、录取期间,我院在有条件的情况下,尽量以电话等方式再次征求考生的意愿,如已填志愿但征求意见时又放弃到我院就读的考生,我院可不予录取。 <br /></p>
+    <p>第十二条 我院学生修完学院规定的课程,并获得应修学分,将发给由教育部统一印制、网上电子注册、国家认可的西南大学育才学院全日制普通本科(或专科)毕业证书;符合西南大学学士学位授予条件的本科毕业生,颁发西南大学学士学位证书。 <br /></p>
+    <p>第十三条 我院严格按重庆市物价局、财政局、教委 2007 年核定的标准收取学费及住宿费,普通本科学费 10500 元- 12000 元 / 生 / 年、艺术本科学费 14000 元- 15000 元 / 生 / 年、普通专科学费 8500 元- 9000 元 / 生 / 年、艺术专科学费 10000 元- 10500 元 / 生 / 年、少数民族本科预科学费 9000 元- 10000 元 / 生 / 年、少数民族专科预科 8000 元 / 生 / 年,各专业具体学费标准见各省(自治区、直辖市)招生办公室公布的招生信息,住宿费 1000 - 1100 元 / 生 / 年。 <br /></p>
+    <p>第十四条 为奖励学生勤奋学习,努力成才,学院设有优秀学生<a class="innerlink" title="奖学金" href="http://www.baike.com/ipadwiki/%E5%A5%96%E5%AD%A6%E9%87%91" target="_self">奖学金</a>、<a class="innerlink" title="勤工助学金" href="http://www.baike.com/ipadwiki/%E5%8B%A4%E5%B7%A5%E5%8A%A9%E5%AD%A6%E9%87%91" target="_self">勤工助学金</a>和<a class="innerlink" title="特困学生助学金" href="http://www.baike.com/ipadwiki/%E7%89%B9%E5%9B%B0%E5%AD%A6%E7%94%9F%E5%8A%A9%E5%AD%A6%E9%87%91" target="_self">特困学生助学金</a>。学院不办理助学贷款。 <br /></p>
+    <p>第十五条 我校未委托任何中介机构或个人从事代理招生工作<br /></p>
+    <p>第十六条 网址:http://www.swuyc.edu.cn <br /></p>
+    <p>电子邮箱:E-mail:xnsdyc@126.com<sup class="refer" name="e3f81a3f9bf232bde1e403a82f70db4f">[1]</sup> </p> 
+   </section> 
+   <a name="navAnchor" href="javascript:void(0);" style="color:black;"></a> 
+   <div class="nav-module"> 
+    <h2> <span class="hide"></span>重庆市高校一览 <span class="toggleshow" name="navClickObj">+</span> </h2> 
+    <div style="display: none;" name="navData">
+     <table class="table"> 
+      <tbody> 
+       <tr> 
+        <td><a class="innerlink" title="重庆大学" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6" target="_self">重庆大学</a> | <a class="innerlink" title="西南大学" href="http://www.baike.com/ipadwiki/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6" target="_self">西南大学</a> | <a class="innerlink" title="重庆师范大学" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" target="_self">重庆师范大学</a> | <a class="innerlink" title="西南政法大学" href="http://www.baike.com/ipadwiki/%E8%A5%BF%E5%8D%97%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6" target="_self">西南政法大学</a> | <a class="innerlink" title="重庆交通大学" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6" target="_self">重庆交通大学</a> | <a class="innerlink" title="重庆邮电大学" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6" target="_self">重庆邮电大学</a> | <a class="innerlink" title="重庆医科大学" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6" target="_self">重庆医科大学</a> | <a class="innerlink" title="重庆工商大学" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B7%A5%E5%95%86%E5%A4%A7%E5%AD%A6" target="_self">重庆工商大学</a> | <a class="innerlink" title="重庆科技学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E7%A7%91%E6%8A%80%E5%AD%A6%E9%99%A2" target="_self">重庆科技学院</a> | <a class="innerlink" title="重庆理工大学" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" target="_self">重庆理工大学</a> | <a class="innerlink" title="长江师范学院" href="http://www.baike.com/ipadwiki/%E9%95%BF%E6%B1%9F%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2" target="_self">长江师范学院</a> | <a class="innerlink" title="四川外语学院" href="http://www.baike.com/ipadwiki/%E5%9B%9B%E5%B7%9D%E5%A4%96%E8%AF%AD%E5%AD%A6%E9%99%A2" target="_self">四川外语学院</a> | <a class="innerlink" title="四川美术学院" href="http://www.baike.com/ipadwiki/%E5%9B%9B%E5%B7%9D%E7%BE%8E%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">四川美术学院</a> | <a class="innerlink" title="重庆三峡学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E4%B8%89%E5%B3%A1%E5%AD%A6%E9%99%A2" target="_self">重庆三峡学院</a> | <a class="innerlink" title="重庆文理学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E6%96%87%E7%90%86%E5%AD%A6%E9%99%A2" target="_self">重庆文理学院</a> | <a class="innerlink" title="重庆房地产职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E6%88%BF%E5%9C%B0%E4%BA%A7%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆房地产职业学院</a> | <a class="innerlink" title="重庆城市职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%9F%8E%E5%B8%82%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆城市职业学院</a> | <a class="innerlink" title="重庆电力高等专科学校" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E7%94%B5%E5%8A%9B%E9%AB%98%E7%AD%89%E4%B8%93%E7%A7%91%E5%AD%A6%E6%A0%A1" target="_self">重庆电力高等专科学校</a> | <a class="innerlink" title="重庆电子工程职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆电子工程职业学院</a> | <a class="innerlink" title="重庆航天职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E8%88%AA%E5%A4%A9%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆航天职业技术学院</a> | <a class="innerlink" title="重庆工程职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B7%A5%E7%A8%8B%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆工程职业技术学院</a> | <a class="innerlink" title="重庆工商职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B7%A5%E5%95%86%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆工商职业学院</a> | <a class="innerlink" title="重庆工业职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B7%A5%E4%B8%9A%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆工业职业技术学院</a> | <a class="innerlink" title="重庆传媒职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E4%BC%A0%E5%AA%92%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆传媒职业学院</a> | <a class="innerlink" title="重庆海联职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E6%B5%B7%E8%81%94%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆海联职业技术学院</a> | <a class="innerlink" title="重庆机电职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E6%9C%BA%E7%94%B5%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆机电职业技术学院</a> | <a class="innerlink" title="重庆警官职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E8%AD%A6%E5%AE%98%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆警官职业学院</a> | <a class="innerlink" title="重庆民生职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E6%B0%91%E7%94%9F%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆民生职业技术学院</a> | <a class="innerlink" title="重庆三峡医药高等专科学校" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E4%B8%89%E5%B3%A1%E5%8C%BB%E8%8D%AF%E9%AB%98%E7%AD%89%E4%B8%93%E7%A7%91%E5%AD%A6%E6%A0%A1" target="_self">重庆三峡医药高等专科学校</a> | <a class="innerlink" title="重庆三峡职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E4%B8%89%E5%B3%A1%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆三峡职业学院</a> | <a class="innerlink" title="重庆水利电力职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E6%B0%B4%E5%88%A9%E7%94%B5%E5%8A%9B%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆水利电力职业技术学院</a> | <a class="innerlink" title="重庆信息技术职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆信息技术职业学院</a> | <a class="innerlink" title="重庆医药高等专科学校" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%8C%BB%E8%8D%AF%E9%AB%98%E7%AD%89%E4%B8%93%E7%A7%91%E5%AD%A6%E6%A0%A1" target="_self">重庆医药高等专科学校</a> | <a class="innerlink" title="重庆正大软件职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E6%AD%A3%E5%A4%A7%E8%BD%AF%E4%BB%B6%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆正大软件职业技术学院</a> | <a class="innerlink" title="重庆职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆职业技术学院</a> | <a class="innerlink" title="重庆教育学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E6%95%99%E8%82%B2%E5%AD%A6%E9%99%A2" target="_self">重庆教育学院</a> | <a class="innerlink" title="重庆应用外国语专修学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%BA%94%E7%94%A8%E5%A4%96%E5%9B%BD%E8%AF%AD%E4%B8%93%E4%BF%AE%E5%AD%A6%E9%99%A2" target="_self">重庆应用外国语专修学院</a> | <a class="innerlink" title="重庆大学城市科技学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%9F%8E%E5%B8%82%E7%A7%91%E6%8A%80%E5%AD%A6%E9%99%A2" target="_self">重庆大学城市科技学院</a> | <a class="innerlink" title="西南大学育才学院" href="http://www.baike.com/ipadwiki/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%E8%82%B2%E6%89%8D%E5%AD%A6%E9%99%A2" target="_self">西南大学育才学院</a> | <a class="innerlink" title="四川外语学院" href="http://www.baike.com/ipadwiki/%E5%9B%9B%E5%B7%9D%E5%A4%96%E8%AF%AD%E5%AD%A6%E9%99%A2" target="_self">四川外语学院</a> | <a class="innerlink" title="重庆南方翻译学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%8D%97%E6%96%B9%E7%BF%BB%E8%AF%91%E5%AD%A6%E9%99%A2" target="_self">重庆南方翻译学院</a> | <a class="innerlink" title="重庆师范大学涉外商贸学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%B6%89%E5%A4%96%E5%95%86%E8%B4%B8%E5%AD%A6%E9%99%A2" target="_self">重庆师范大学涉外商贸学院</a> | <a class="innerlink" title="重庆工商大学融智学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B7%A5%E5%95%86%E5%A4%A7%E5%AD%A6%E8%9E%8D%E6%99%BA%E5%AD%A6%E9%99%A2" target="_self">重庆工商大学融智学院</a> | <a class="innerlink" title="重庆工商大学派斯学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B7%A5%E5%95%86%E5%A4%A7%E5%AD%A6%E6%B4%BE%E6%96%AF%E5%AD%A6%E9%99%A2" target="_self">重庆工商大学派斯学院</a> | <a class="innerlink" title="重庆邮电大学移通学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%E7%A7%BB%E9%80%9A%E5%AD%A6%E9%99%A2" target="_self">重庆邮电大学移通学院</a> | <a class="innerlink" title="重庆工贸职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%B7%A5%E8%B4%B8%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆工贸职业技术学院</a> | <a class="innerlink" title="重庆青年职业技术学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E9%9D%92%E5%B9%B4%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" target="_self">重庆青年职业技术学院</a> | <a class="innerlink" title="重庆城市管理职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%9F%8E%E5%B8%82%E7%AE%A1%E7%90%86%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆城市管理职业学院</a> | <a class="innerlink" title="重庆财经职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E8%B4%A2%E7%BB%8F%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆财经职业学院</a> | <a class="innerlink" title="重庆科创职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E7%A7%91%E5%88%9B%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆科创职业学院</a> | <a class="innerlink" title="重庆建筑工程职业学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E5%BB%BA%E7%AD%91%E5%B7%A5%E7%A8%8B%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" target="_self">重庆建筑工程职业学院</a> | <a class="innerlink" title="重庆五一技师学院" href="http://www.baike.com/ipadwiki/%E9%87%8D%E5%BA%86%E4%BA%94%E4%B8%80%E6%8A%80%E5%B8%88%E5%AD%A6%E9%99%A2" target="_self">重庆五一技师学院</a>&nbsp;</td>
+       </tr>
+      </tbody>
+     </table>
+    </div> 
+   </div> 
+   <footer class="foot">
+    pthg19创建, 最后一次啦、shamo、lys6386、一路春水、景萱等参与编辑。 
+    <br /> 互动百科的词条(含所附图片)系由网友上传,如果涉嫌侵权,请与客服联系,我们将按照法律之相关规定及时进行处理。如需转载,请注明来源于www.baike.com。 
+   </footer> 
+  </article> 
+  <form style="top:150px;left:190px;display:none;" class="popBox" id="correctionForm"> 
+   <h3>意见或建议 <a class="close" href="javascript:void(0);">关闭</a> </h3> 
+   <div class="content"> 
+    <div class="item"> 
+     <label class="cblack">标题:</label> 
+     <input type="text" id="titleCorrection" /> 
+     <p class="explain">请输入标题,1-30个汉字以内</p> 
+    </div> 
+    <div class="item"> 
+     <label class="cblack">内容:</label> 
+     <textarea id="contentCorrection"></textarea> 
+     <p class="explain">请输入内容,1-200个汉字以内</p> 
+    </div> 
+    <div class="item"> 
+     <p class="cblack">如果方便,请您留下联系方式,我们会尽快将答案反馈给您:</p> 
+     <input type="text" id="contactCorrection" class="mt10" /> 
+    </div> 
+    <div class="item tc mt10"> 
+     <a class="popBoxBtn" id="submitCorrection" href="javascript:void(0);">提交</a> 
+     <a class="popBoxBtn" name="cancel" href="javascript:void(0);">取消</a> 
+    </div> 
+   </div> 
+  </form> 
+  <form style="top:150px;left:190px;display:none;" class="popBox" id="correctionTipsForm"> 
+   <h3>提示 <a class="close" href="javascript:void(0);">关闭</a> </h3> 
+   <div class="content tc"> 
+    <h4 class="gratitude"> <p id="correctionTips"></p> 谢谢关注,我们会尽快处理您的问题! </h4> 
+    <a class="popBoxBtn" href="javascript:void(0);">确定</a> 
+   </div> 
+  </form> 
+  <script type="text/javascript" src="http://www.huimg.cn/lib/jquery-1.4.2.min.js"></script> 
+  <script type="text/javascript" src="http://www.huimg.cn/wap/js/hudong.pad.search.min.js"></script> 
+  <script type="text/javascript" src="http://www.huimg.cn/entry/js/ipadHtml5Share.js"></script> 
+  <script type="text/javascript" src="http://www.huimg.cn/entry/js/viewdocIpadHtml5-20121204.js"></script> 
+  <script type="text/javascript" src="http://www.huimg.cn/wap/js/appTool.js"></script> 
+  <script type="text/javascript"> DocViewIpadHtml5.load(); </script> 
+  <footer class="footer"> 
+   <p>互动在线 版权所有</p> 
+   <nav id="my_app"> 
+    <a href="http://www.baike.com/wiki/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%E8%82%B2%E6%89%8D%E5%AD%A6%E9%99%A2">电脑版</a>| 
+    <a href="http://www.baike.com/gwiki/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%E8%82%B2%E6%89%8D%E5%AD%A6%E9%99%A2">3G炫版</a> 
+   </nav> 
+   <p>Powered by HDwiki &copy; 2015</p> 
+  </footer> 
+ </body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>张鸿教授当选陕西省应急管理学会常务理事</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link href="/templets/style/style.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="/templets/style/style_home.css" rel="stylesheet" media="screen" type="text/css" />
+  <script src="/templets/style/ac_runactivecontent.js" language="javascript" type="text/javascript"></script>
+  <script src="/templets/style/rss.js" language="javascript" type="text/javascript"></script>
+  <script src="/templets/style/common.js" language="javascript" type="text/javascript"></script>
+  <script src="/templets/style/default.js" language="javascript" type="text/javascript"></script>
+  <script src="/templets/style/jquery.js" language="javascript" type="text/javascript"></script>
+  <link href="/templets/style/menu.css" rel="stylesheet" media="screen" type="text/css" />
+ </head>
+ <body>
+  <div id="home_banner">
+   <div id="sitemap">
+    <font face="Tahoma,Verdana">
+     <!--<a class=site href="http://jgy.xupt.edu.cn/en/indexen.htm" target=_blank>english </a>--></font>
+   </div>
+  </div>
+  <div id="menu_bk" align="center">
+   <div id="menu">
+    <ul>
+     <li class="current"><a href="http://jgy.xupt.edu.cn/index.html">首页</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/a/xueyuanjj.html" onmouseover="moreLink(1);" onmouseout="hidden(1,0)">学院概况</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=44" onmouseover="moreLink(8);" onmouseout="hidden(8,0)">党建工作</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/a/jjxx.html" onmouseover="moreLink(0);" onmouseout="hidden(0,0)">系部设置</a> </li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=11" onmouseover="moreLink(2);" onmouseout="hidden(2,0)">教学教务</a> </li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=93" onmouseover="moreLink(3);" onmouseout="hidden(3,0)">质量工程</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=18" onmouseover="moreLink(4);" onmouseout="hidden(4,0)">科学研究</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=88" onmouseover="moreLink(5);" onmouseout="hidden(5,0)">人才培养</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=7" onmouseover="moreLink(6);" onmouseout="hidden(6,0)">学生工作</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/a/mbaxmjs.html" onmouseover="moreLink(7);" onmouseout="hidden(7,0)">MBA教育</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=66" onmouseover="moreLink(9);" onmouseout="hidden(9,0)">合作交流</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=75">招生工作</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=74">校友信息</a></li>
+    </ul>
+    <div class="nav_more nav_bak nav0"></div>
+    <div class="nav_more nav0"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/a/jjxx.html">经济学系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/gsglx.html">工商管理系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/glgcx.html">管理工程系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/kjxx.html">会计学系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/wlydzswx.html">物流与电子商务系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/jrgcyxxxtx.html">金融工程与信息系统系</a>
+    </div>
+    <div class="nav_more nav_bak nav1"></div>
+    <div class="nav_more nav1"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/a/xueyuanjj.html">学院简介</a> 
+     <a href="http://jgy.xupt.edu.cn/a/xueyuanld.html">学院领导</a> 
+     <a href="http://jgy.xupt.edu.cn/a/xisuozhx.html"> 组织结构</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=27">师资队伍</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=1">学院新闻</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=2">学院公告</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=73">规章制度</a> 
+     <a href="http://jgy.xupt.edu.cn/a/lianxifangshi.html">联系方式</a> 
+    </div>
+    <div class="nav_more nav_bak nav2"></div>
+    <div class="nav_more nav2"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=9" target="_blank">教学资源</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=10">教学管理</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=11">教学成果</a> 
+    </div>
+    <div class="nav_more nav_bak nav3"></div>
+    <div class="nav_more nav3"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=93">专综改革试点</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=12">省级名牌专业</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=13">省级教学团队</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=14">省级精品课程</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=15">教学名师</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=17">省级创新试验区</a>
+    </div>
+    <div class="nav_more nav_bak nav4"></div>
+    <div class="nav_more nav4"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=18">科研项目</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=19">科研成果</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=68">科研机构</a>
+    </div>
+    <div class="nav_more nav_bak nav5"></div>
+    <div class="nav_more nav5"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile37.html">本科培养</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=65">研究生培养</a> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile39.html">教学基地</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=92">导师风采</a>
+    </div>
+    <div class="nav_more nav_bak nav6"></div>
+    <div class="nav_more nav6"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=24">学工动态</a> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile30.html ">就业指导</a> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile31.html">学生团体</a> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile32.html">党团工作</a>
+    </div>
+    <div class="nav_more nav_bak nav7"></div>
+    <div class="nav_more nav7"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/a/mbaxmjs.html">MBA项目介绍</a> 
+     <a href="http://jgy.xupt.edu.cn/a/mbatixi.html">MBA人才培养体系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/mbahuanjing.html">MBA培养环境和条件</a> 
+     <a href="http://jgy.xupt.edu.cn/a/mbashizi.html">MBA师资力量</a> 
+     <a href="http://jgy.xupt.edu.cn/a/mbazhsxinxi.html">MBA招生信息</a>
+    </div>
+    <div class="nav_more nav_bak nav8"></div>
+    <div class="nav_more nav8"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=44">总支概况</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=63">学生党校</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=64"> 组织生活</a> 
+    </div>
+    <div class="nav_more nav_bak nav9"></div>
+    <div class="nav_more nav9"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=66">联合办学</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=67">对外交流</a> 
+    </div>
+   </div>
+   <div id="u_menu"></div>
+  </div>
+  <!-- //header -->
+  <div id="white">
+   <div id="LanMu_name">
+    <div style="FLOAT: left">
+     <img height="100" src="/templets/images/e62b293968cd55a236a66a2bf111239d.gif" width="183" />
+    </div>
+    <div style="FLOAT: right">
+     <script type="text/javascript">AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','753','height','100','src','/templets/images/flash/f2611e22ab6e10c17a7c8f55d80970b4','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','/templets/images/flash/f2611e22ab6e10c17a7c8f55d80970b4' ); //end AC code</script>
+     <noscript>
+      <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" height="100" width="753" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"><param name="movie" value="/templets/images/flash/f2611e22ab6e10c17a7c8f55d80970b4.swf"></param><param name="quality" value="high"></param><param name="wmode" value="opaque"></param><param name="menu" value="false"></param> <embed src="/templets/images/flash/f2611e22ab6e10c17a7c8f55d80970b4.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="753" height="100" /> </object>
+     </noscript>
+    </div>
+   </div>
+   <div id="LanMu_content">
+    <div id="LanMu_menu">
+     <div id="top_formenu"></div>
+     <div id="PARENT">
+      <ul id="nav"> 
+       <li><a href="http://jgy.xupt.edu.cn/a/xueyuanjj.html">学院简介</a> </li> 
+       <li><a href="http://jgy.xupt.edu.cn/a/xueyuanld.html">学院领导</a> </li> 
+       <li><a href="http://jgy.xupt.edu.cn/a/xisuozhx.html">组织结构</a> </li> 
+       <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=27">师资队伍</a></li> 
+       <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=1">学院新闻</a> </li> 
+       <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=2">学院公告</a> </li> 
+       <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=73">规章制度</a> </li> 
+       <li><a href="http://jgy.xupt.edu.cn/a/newfile23.html">联系方式</a> </li>
+      </ul>
+     </div>
+     <script type="text/javascript">var LastLeftID = "";function menuFix() { var obj = document.getElementById("nav").getElementsByTagName("li");  for (var i=0; i<obj.length; i++) {  obj[i].onmouseover=function() {   this.className+=(this.className.length>0? " ": "") + "sfhover";  }  obj[i].onMouseDown=function() {   this.className+=(this.className.length>0? " ": "") + "sfhover";  }  obj[i].onMouseUp=function() {   this.className+=(this.className.length>0? " ": "") + "sfhover";  }  obj[i].onmouseout=function() {   this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), "");  } }}function DoMenu(emid){ var obj = document.getElementById(emid);  obj.className = (obj.className.toLowerCase() == "expanded"?"collapsed":"expanded"); if((LastLeftID!="")&&(emid!=LastLeftID)) //关闭上一个Menu {  document.getElementById(LastLeftID).className = "collapsed"; } LastLeftID = emid;}function GetMenuID(){ var MenuID=""; var _paramStr = new String(window.location.href); var _sharpPos = _paramStr.indexOf("#");  if (_sharpPos >= 0 && _sharpPos < _paramStr.length - 1) {  _paramStr = _paramStr.substring(_sharpPos + 1, _paramStr.length); } else {  _paramStr = ""; }  if (_paramStr.length > 0) {  var _paramArr = _paramStr.split("&");  if (_paramArr.length>0)  {   var _paramKeyVal = _paramArr[0].split("=");   if (_paramKeyVal.length>0)   {    MenuID = _paramKeyVal[1];   }  }  /*  if (_paramArr.length>0)  {   var _arr = new Array(_paramArr.length);  }  //取所有#后面的,菜单只需用到Menu  //for (var i = 0; i < _paramArr.length; i++)  {   var _paramKeyVal = _paramArr[i].split('=');      if (_paramKeyVal.length>0)   {    _arr[_paramKeyVal[0]] = _paramKeyVal[1];   }    }  */ }  if(MenuID!="") {  DoMenu(MenuID) }}GetMenuID(); //*这两个function的顺序要注意一下,不然在Firefox里GetMenuID()不起效果menuFix();</script>
+    </div>
+    <div id="LanMu_rightarea">
+     <div id="Curent_name">
+      <div style="FLOAT: left">
+       <img height="27" src="/templets/images/open_column.gif" width="31" />
+      </div>
+      <div id="Current_title" style="FLOAT: left">
+       <a href="http://localhost/">主页</a> &gt; 
+       <a href="/a/xueyuanxinwen/">学院新闻</a> &gt; 
+      </div>
+      <div style="FLOAT: right">
+       <img height="27" src="/templets/images/open_column_r.gif" width="7" />
+      </div>
+     </div>
+     <div id="content">
+      <div id="title" align="center">
+       <span class="t16yh">张鸿教授当选陕西省应急管理学会常务理事</span>
+       <br />
+      </div>
+      <div class="info"> 
+       <small>时间:</small>2012-04-10 16:13
+       <small>来源:</small>未知 
+       <small>作者:</small>盛攀峰 
+       <small>点击:</small>
+       <script src="/plus/count.php?view=yes&amp;aid=317&amp;mid=20" type="text/javascript" language="javascript"></script>次
+      </div>
+      <!-- /info -->
+      <div id="artical_real">
+       <p class="p15" style="margin-top: 0pt; margin-bottom: 0pt; text-indent: 24pt; line-height: 150%"><span style="font-size: 12pt; font-family: '宋体'; mso-spacerun: 'yes'">4月6日,陕西省应急管理学会成立大会暨第一次会员大会在西安召开,国际应急管理学会中国委员会发来贺电,省委常委、常务副省长娄勤俭表示祝贺并发来书面讲话。全国人大常委会内务司法委员会委员、中国行政管理学会会长王澜明,省人大常委会党组书记、副主任罗振江,国务院应急管理办公室副主任严鹏程等出席成立大会并讲话。省人大常委会秘书长、省政府应急管理专家组组长桂维民当选为第一届理事会理事长。我校经管院院长张鸿当选常务理事,副院长张利、信息产业发展研究中心办公室副主任盛攀峰当选学会首届理事。</span><span style="font-size: 12pt; font-family: '宋体'; mso-spacerun: 'yes'">
+         <o:p></o:p></span></p>
+       <p class="p15" style="margin-top: 0pt; margin-bottom: 0pt; text-indent: 24pt; line-height: 150%"><span style="font-size: 12pt; font-family: '宋体'; mso-spacerun: 'yes'">据悉,陕西省应急管理学会是我国成立的第二个应急管理学会,</span><span style="font-size: 12pt; font-family: '宋体'; mso-spacerun: 'yes'">是由陕西省从事应急管理研究的大专院校和科研机构及相关的企、事业单位自愿结成的、依法登记的学术性、联合性、专业性、全省性、非营利性社会团体。</span><span style="font-size: 12pt; font-family: '宋体'; mso-spacerun: 'yes'">学会提出,要努力形成具有中国特色的应急管理知识体系,提出中国不同类型组织的应急管理体系框架与标准,同时立足陕西、面向全国乃至世界,成为服务经济社会发展的知识库、思想库和人才库。</span><span style="font-size: 12pt; font-family: '宋体'; mso-spacerun: 'yes'">
+         <o:p></o:p></span></p>
+       <!--EndFragment-->(责任编辑:盛攀峰)
+      </div>
+      <div class="boxoff"> 
+       <strong>------分隔线----------------------------</strong>
+      </div>
+      <div class="handle">
+       <div class="context"> 
+        <ul> 
+         <li>上一篇:<a href="/a/xueyuanxinwen/2012/0331/312.html">我校经管院领导班子到西北农林科技大学经管院学习考察</a> </li> 
+         <li>下一篇:<a href="/a/xueyuanxinwen/2012/0410/318.html">张鸿教授参加工信部电信经济专家委员会2012年春季沙龙</a> </li> 
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div id="boot"></div>
+    </div>
+   </div>
+  </div>
+  <!-- //二级子类下拉菜单,考虑SEO原因放置于底部  -->
+  <!-- //底部模板 -->
+  <div id="copyright_top"></div>
+  <div id="copyright">
+   <div id="copyright-1">
+    <div align="center">
+     <font face="tahoma, verdana" color="#ffffff">copyright &copy; 西安邮电大学经济与管理学院 版权所有 <a href="http://www.miitbeian.gov.cn/" rel="nofollow"> 陕ICP备040096号</a><br />地址:中国陕西西安韦郭路 710121</font>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

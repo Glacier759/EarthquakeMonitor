@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta id="ctl00_viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=no" />
+  <title>	西安交通大学档案馆-显示详细的信息纪念颜家驹</title>
+  <link href="/css/1.css?t=2013121702" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="/js/common.js?t=2014042801"></script> 
+  <link rel="canonical" href="http://www.360doc.com/content/11/0321/14/5387443_103178563.shtml" /> 
+  <meta content="西安交通大学档案馆-显示详细的信息纪念颜家驹" name="description" /> 
+  <meta content="学分,校务,交大" name="keywords" />
+  <script type="text/javascript" src="http://libs.useso.com/js/jquery/1.4.4/jquery.min.js"></script>
+  <style>	.share{float:right;position:relative;width:165px;overflow:hidden;}	.share-bar-btn a{	float:left;	display:block;	width:55px!important;	height:40px!important; 	margin:0!important;	padding:0!important;		background: url("/images/tb50.png") no-repeat scroll 0% 0% transparent !important;}.share-bar-btn2 a{    background: url("/images/tb502.png") no-repeat scroll 0% 0% transparent !important;    }    .share-bar-btn3 a{    background: url("/images/tb503.png") no-repeat scroll 0% 0% transparent !important;    }    .share-bar-btn4 a{    background: url("/images/tb504.png") no-repeat scroll 0% 0% transparent !important;    }    .share-bar-btn5 a{    background: url("/images/tb505.png") no-repeat scroll 0% 0% transparent !important;    }	.share-bar-btn span{float:left;line-height:28px; color:#999999;}	.share-bar-btn .bds_qzone{background-position:0 0!important;}	.share-bar-btn a.bds_qzone:hover{background-position:0 0!important;opacity:1.0!important;filter:alpha(opacity=100)!important;}	.share-bar-btn .bds_tsina{background-position:0 -41px!important;}	.share-bar-btn a.bds_tsina:hover{background-position:0 -41px!important;opacity:1.0!important;filter:alpha(opacity=100)!important;}	.share-bar-btn .bds_tqq{background-position:0 -82px!important;}	.share-bar-btn a.bds_tqq:hover{background-position:0 -82px!important;opacity:1.0!important;filter:alpha(opacity=100)!important;}	.share-bar-btn .bds_fxx{background-position:0 -123px!important;}	.share-bar-btn a.bds_fxx:hover{background-position:0 -123px!important;opacity:1.0!important;filter:alpha(opacity=100)!important;}</style>
+  <script type="text/javascript">    function displayalliamge(versionid, pageidx) {        if (navigator.userAgent.toLowerCase().indexOf("windows phone") > -1 || (navigator.userAgent.toLowerCase().indexOf("windows nt") > -1 && navigator.userAgent.toLowerCase().indexOf("msie") > -1)) {            window.location.href = "/imagelist2.aspx?versionid=" + versionid + "&pagenum=" + pageidx;        }        else {            window.location.href = "/imagelist.aspx?versionid=" + versionid + "&pagenum=" + pageidx;        }        return false;    }</script> 
+  <script src="http://adscript.360doc.cn/cpro/ui/dm.js" type="text/javascript"></script>
+ </head>
+ <body> 
+  <script type="text/javascript">     if (navigator.userAgent.toLowerCase().indexOf("windows phone") > -1 || (navigator.userAgent.toLowerCase().indexOf("windows nt") > -1 && navigator.userAgent.toLowerCase().indexOf("msie") > -1)) {         document.body.style.fontFamily = "Verdana,Tahoma,Helvetica,Arial,sans-serif";     }    </script> 
+  <header> 
+   <div style="display:none;" id="curruseridmaster"></div> 
+   <div id="ctl00_currentuseridmaster" style="display:none;"></div>
+   <div class="p_header">
+    <div class="p_header_logowrap">
+     <a href="/index.aspx" id="ctl00_logopic" class="p_header_logo" onclick="wzhit('wapart1')"></a>
+     <div class="p_header_nav" id="currsearchdiv">
+      <a href="javascript:void(0)" class="p_header_serch" id="sousoflag" onclick="wzhit(2);opensearch();">搜索</a>
+     </div>
+     <div class="p_header_nav" style=" padding-right:20px;" id="curruserlayerdiv">
+      <a href="javascript:void(0)" class="p_header_ren" onclick="openuserpanel();wzhit(1);" id="userpanel"></a>
+     </div>
+     <div class="p_header_nav" style="display:none;padding-right:20px;padding-top:0px;" id="fontsetup"> 
+      <a href="javascript:void(0)" class="p_header_wz" onclick="wzhit('wapart2');openfontsetup();"></a>
+     </div>
+    </div>
+    <nav>
+     <ul class="p_nav" id="daohang">
+      <li style=" width:20%;" class="nava" id="indexindex"><a href="http://www.360doc.cn" title="首页" onclick="wzhit(5);">首页</a></li>
+      <li style=" width:25%;" id="indexreadroom"><a href="/readroom.aspx" title="阅览室" onclick="wzhit(6);">阅览室</a></li>
+      <li style=" width:20%;"><a href="/showusers.aspx" title="馆友" onclick="wzhit(7);">馆友</a></li>
+      <li style=""><a href="/myindex.aspx" title="我的图书馆" onclick="wzhit(8);">我的图书馆</a></li>
+     </ul>
+    </nav>
+    <script type="text/javascript">    var daohang = document.getElementById("daohang");    if (navigator.userAgent.toLowerCase().indexOf("windows phone") > -1 || (navigator.userAgent.toLowerCase().indexOf("windows nt") > -1 && navigator.userAgent.toLowerCase().indexOf("msie") > -1)) {        //        document.getElementById("indexindex").style.width = "18%";        document.getElementById("indexreadroom").style.width = "22%";    }    var lilist = daohang.getElementsByTagName("li");    if (window.location.href.toString().indexOf("/index.aspx") > -1 || window.location.href.toString() == "http://www.360doc.cn/" || window.location.href.toString() == "http://www.360doc.cn") {        for (var i = 0; i < lilist.length; i++) {            lilist[i].className = "";        }        lilist[0].className = "nava";    }    else if (window.location.href.toString().indexOf("readroom.aspx") > -1) {        for (var i = 0; i < lilist.length; i++) {            lilist[i].className = "";        }        lilist[1].className = "nava";    }    else if (window.location.href.toString().indexOf("showusers.aspx") > -1) {        for (var i = 0; i < lilist.length; i++) {            lilist[i].className = "";        }        lilist[2].className = "nava";    }    else if (window.location.href.toString().indexOf("myindex.aspx") > -1) {        for (var i = 0; i < lilist.length; i++) {            lilist[i].className = "";        }        lilist[3].className = "nava";    }    else {        for (var i = 0; i < lilist.length; i++) {            lilist[i].className = "";        }    }</script>
+   </div>
+  </header> 
+  <section>
+   <div style=" border-top:1px solid #f8f8f8;">
+    <div class="headyin2" style=" height:10px;" id="headyinid"></div>
+   </div>
+   <script type="text/javascript" src="/js/article.js?t=2015041301"></script>
+   <div style="width:320px;margin:0px auto;">
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- 移动站文章页首屏横幅 -->
+    <ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px" data-ad-client="ca-pub-2340359438634333" data-ad-slot="6615271604"></ins>
+    <script>    (adsbygoogle = window.adsbygoogle || []).push({});</script>
+   </div>
+   <div id="currbackgroudcolor" style="margin-top:4px;">
+    <div class="w1" id="upartcolor">
+     <div id="ctl00_ContentPlaceHolder1_doctitlediv" class="wztit">
+      西安交通大学档案馆-显示详细的信息纪念颜家驹
+     </div>
+     <div id="ctl00_ContentPlaceHolder1_Div1" style="display:none"></div>
+     <div style=" padding-top:8px; height:42px;">
+      <div class="time fl" style=" margin-top:3px;" id="colortime">
+       <span id="ctl00_ContentPlaceHolder1_savedatespan">2011-03-21</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+       <span id="ctl00_ContentPlaceHolder1_resavename" class="name1"><a href="/userhome.aspx?userid=5387443" onclick="wzhit('wapart20')">网络书店库</a></span>
+       <span id="abcd" style="display:none;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+      </div>
+      <div class="zhuanfabt fl" id="resavediv" onclick="resavearticle(this)" style="display:none;">
+       <span id="yizhuancang">转藏<span id="resavenumspan"></span></span>
+       <span id="resaveflag" style="display:none;"></span>
+      </div>
+     </div>
+     <div class="article" id="artcontentdiv">
+       《南洋公学—交通大学年谱》—1949年—己丑年 发布时间: 2007-6-14 8:23:56 被阅览数: 608 次 来源: 西安交通大学档案馆
+      <div style="height:10px;"></div>文字 〖 
+      <a target="_blank" href="http://wwww.360doc.com/javascript:doZoom(16)">大</a> 
+      <a target="_blank" href="http://wwww.360doc.com/javascript:doZoom(14)">中</a> 
+      <a target="_blank" href="http://wwww.360doc.com/javascript:doZoom(12)">小</a> 〗 自动滚屏(右键暂停)
+      <div style="height:10px;"></div>1949年—己丑年
+      <div style="height:10px;"></div>●一月一日下午,因决定不放年假,王校长为省事起见,在容闳堂举行新年团拜,以代表个别贺年。
+      <div style="height:10px;"></div>●一月,因教育经费困难,“全月之经常费尚不够水电燃料任何一项开资,教授员工同学之生活更濒于冻馁”,交大校长王之卓、复旦校长章益、暨大校长李寿雍、同济校长夏坚白、上医院长朱恒璧、上商院长朱国璋、音专校长戴粹伦、吴淞商船学校校长周均等上海8所院校长,联合署名向教育部提出总辞职。
+      <div style="height:10px;"></div>●一月,本校以中国机械工程学会上海分会名义主办的《机械世界》第一卷第三期出版发行。本期发表的论文之目录是:
+      <div style="height:10px;"></div>本刊资料室:机械世界消息
+      <div style="height:10px;"></div>曹省之:铝的焊接法
+      <div style="height:10px;"></div>梅志存:双炉胆锅炉的故障与修理
+      <div style="height:10px;"></div>海屏:注尺寸和公差的实践
+      <div style="height:10px;"></div>克敏:战后美国动力厂设计之动向
+      <div style="height:10px;"></div>士宏:怎样车削斜势
+      <div style="height:10px;"></div>伯申:柴油机的优点
+      <div style="height:10px;"></div>张清涛:什么叫回转仪?
+      <div style="height:10px;"></div>筠:钢铁~铸件~工资
+      <div style="height:10px;"></div>●一月,本校以中国机械工程学会上海分会名义主办的《汽车世界》第一卷第三期出版发行,本刊发表的文章要目是(参见《机械世界》第一卷第三期“广告”):
+      <div style="height:10px;"></div>修理厂设计—辛烷调整器,自动阻风装置—火花塞保养,
+      <div style="height:10px;"></div>超低压车胎—离合器修理,卡车检修及保养—汽车名词商榷,
+      <div style="height:10px;"></div>新型制动器—修理厂安全,人的处理—节油器之谜。
+      <div style="height:10px;"></div>●一月,国文会课成绩揭晓。评出优良学生11名,按获奖次序,获奖者姓名(系别)如下:
+      <div style="height:10px;"></div>汤毓骏(物理),仲泽初(造船),金士谟(轮机),仲郡(造船),尤圻(土木),张诚正(水利),马寿延(电机),余杰(电管专),卢兆麟(化工),杨延口(航空)、庄继德(土木)。
+      <div style="height:10px;"></div>●一月六日,教授会举行第二次理事会议,出席者有周同庆、曹鹤荪、王达时、张鸿、潘承梁诸教授。议决:通电行政院院长孙科,请讯按立法院方案切实调整公教待遇;对陈本端理事辞职表示挽留。
+      <div style="height:10px;"></div>●一月七日,学生自治会系科代表大会,议决:(1)建议学校寒假不放假,继续上课;(2)支援教授会呼吁调整待遇;(3)挽留校长,请其打消辞职念头;(4)通电全国,反对学校驻军。
+      <div style="height:10px;"></div>●一月十日,本市国立专科以上学校教授联谊会召开第二次会议,决定推派本校曹鹤荪教授、复旦陈望道教授、暨南刘大杰教授为代表,于十三日赴京见李宗仁代总统,要求调整薪金及研究费用。十四日,交大等6校学生发表宣言,表示全力声援三教授赴京请愿。
+      <div style="height:10px;"></div>●一月十日,教育部派田培林次长来沪招待上海8所大专学校校长,对辞职加以挽留,并表示各院校1~6月之经费,教育部已照11月份之标准汇出。
+      <div style="height:10px;"></div>●一月十一日,举行第三次校务会议,出席者有各院院长、各系主任及三长、教授等19人,王校长主持。决定寒假继续上课,将下学期校历提前两周;提请上海市国立八院校首长共同设法,“防止校内驻军”。
+      <div style="height:10px;"></div>●一月十一日,本校地下党建立党的外围组织“交大新民主主义青年联合会”。至4月份(解放前夕),发展会员400余人。
+      <div style="height:10px;"></div>●一月十二日,教授会举行第二次理事会议,到会有周同庆、曹鹤荪、王达时、张鸿、潘继梁等,由曹鹤荪教务长主持。主席报告粮油水电等“应变准备”情况,通过《致行政院孙院长电》。
+      <div style="height:10px;"></div>●一月十九日,举行校务会议,各院院长、系主任、三长、教授等到会39人,王校长报告“本校储粮事宜”、“员工生活补助费”、学校透支等情况。讨论如何防止校内驻军。议决不放寒假,继续上课。本校纺织系主任陈维稷教授、苏延宾教授先后被捕。
+      <div style="height:10px;"></div>●一月二十三日,学生自治会召开紧急系科代表大会,议决:组织营救机构,营救被捕师生;组织全校性应变机构;尽量与校方教职师长工警联合一致,共同防止迁校;举办第二期斗米运动。
+      <div style="height:10px;"></div>●一月二十四日,教授会举行第一次扩大理事会,决定组织应变机构,以理事会名义发表宣言,抗议逮捕陈维稷、苏延宾教授,呼吁当局改善待遇。
+      <div style="height:10px;"></div>●一月二十五日,交通大学教授会理事会发出《为本校师生被捕抗议书》,指出:“为维护自由民主的权利,特向中央政府及上海的治安当局提出严重的抗议,并要求保证以后决不得有同样事件的再度发生,更要求给我们关于这次不幸事件一个合理的答复。”
+      <div style="height:10px;"></div>●一月二十八日,应变委员会召开筹备会议,推举教授、职工、学生会及校方代表共6人为常务委员,校长为常务委员会主任。
+      <div style="height:10px;"></div>●一月,交大党总支根据上级“准备力量,迎接上海的解放;调查研究,保护物资,配合接管工作”的指示精神,开展的工作有:(1)建立党的外围组织,即新民主主义青年联合会;(2)用各种形式如纠察队、生活小组、学习小组将群众组织起来,保护学校;(3)开始比较大量地、在已成熟的基础上发展党;(4)组织党员与新青联会员进行秘密调查研究工作,调查学校附近的仓库、碉堡、战犯住宅、交通要道等;(5)开展深入广泛的宣传工作,加强学生自治会机关刊物《交大生活》的出版发行工作,出版《每日新闻》,刊登新华社电讯。秘密油印出版《新民主主义论》、《关于修改党章的报告》、《关于党的群众路线问题》、《工商业政策》等书刊;(6)向学校内部的敌人发出警告信,以分化瓦解敌人。
+      <div style="height:10px;"></div>●二月三日,应变委员会召开第一次全体大会,通过应变委员会章程,推定各组负责人。
+      <div style="height:10px;"></div>●二月四日,举行校务会议,议决:暂缓举办工程教育展览;鉴于本校面临困难,除北平管理学院学生可由管理学院考虑办法外,一律不收借读生。
+      <div style="height:10px;"></div>●二月十二日,应变委员会召开第二次全体大会,对争取应变经费及呼吁调整待遇事进行广泛讨论。王校长决定当晚赴京交涉。
+      <div style="height:10px;"></div>●二月十四日,教授会理事会讨论决定,由教授会出面主办一所中学——文治中学。
+      <div style="height:10px;"></div>●二月,去年教育部分配美金15000元,作为本校购置图书仪器设备费用。分配结果如下:物理系1500元,化学系1700元,土木系(包括水利系)1700元,机械系2500元,电机系2500元,航空系1000元,造船轮机系10000元,工管系300元,管理学院2000元,图书馆800元。
+      <div style="height:10px;"></div>●二月,本校工学院各工厂设备,除接获联总及日本赔偿物资各项机件正在陆续收装外,现又有教育部分配本校联合国文化教育组织捐赠之一批设备,主要包括金、木工厂工具等,现已到沪。此项物资多系英国战后剩余物资,另一部分则为英美各厂产品。
+      <div style="height:10px;"></div>●二月十六日,本日出版之《交大周刊》第一版刊登本校与复旦、同济、暨南、上医等校教授,以“教授联谊会”名义,致国民党代总统李宗仁的电文。电文说:“……同人等生活已濒绝境,啼饥号寒,妻孥交谪。查上海市职工生活费指数上月已达88倍有余,而同人等底薪一折二扣之余,仅加发十五倍,每月收入价值银币一元余,不足以应一人最低生活三日之开支。……”
+      <div style="height:10px;"></div>●二月十九日,应变委员会召开全体大会,教务长曹鹤荪报告赴京见李宗仁代总统后,获准先发1亿元(金圆券)。经各校协商分配,本校得款1180余万元。
+      <div style="height:10px;"></div>●二月,校方宣布无限期停课,军队将进驻学校。
+      <div style="height:10px;"></div>●三月一日至二日,在中共地下党领导下,第七届学生自治会展开竞选活动。
+      <div style="height:10px;"></div>●三月九日,第七届学生自治会召开首次系科代表大会,为自费及半自费学生争取公费,进行讨论。国立交通大学等16院校为办学经费事,上书李宗仁。
+      <div style="height:10px;"></div>●三月,造船系“光弹性试验器”完成安装调试,王达时院长捐赠本人电木试验材料一块,供试验之用。
+      <div style="height:10px;"></div>●四月八日,本校有校庆五十三年之刊。理学院院长周同庆教授撰文谈理学院发展史并提出“差别训练原则”,认为学生“学习能力有差别,个性发展方向有不同,而施以差别训练,应当是合理的法则”。学生课程可分为主要部分(即必选学程,及总学分,应均行减少)与第二部课程,允许“有余力之学生”申请注册第二部课程,学习合格者,“毕业时可另给以证明,此与英国之优等毕业制度相似”。这样学生“自动学习习惯容易养成。自由研究之风气,方可展开矣。”
+      <div style="height:10px;"></div>●四月中旬,学生自治会号召全校同学行动起来,组织警卫小队,共同保卫学校。决定有计划有步骤地把可以移动的有价值的教具仪器、图书资料散存到校外;在同学之间建立定期联络制度。
+      <div style="height:10px;"></div>●四月十四日,解放战争节节胜利,反动政府张皇失措。应变委员会举行第五次常务委员会,决定成立警卫队。开始夜间巡逻。
+      <div style="height:10px;"></div>●四月十五日,王校长召集各院、系主管人员会议,讨论毕业生就业与应变问题。
+      <div style="height:10px;"></div>●四月十九日,为应变计,警卫大队号召同学和衣而眠,如闻警铃声即行集合。
+      <div style="height:10px;"></div>●四月二十三日,人民解放军百万雄师过大江,解放南京。
+      <div style="height:10px;"></div>●四月二十四日,学生自治会出版了标着“南京解放”四个大红字的《每日新闻》,张贴在学生联谊馆门口的大布告栏前,师生员工争先阅读。
+      <div style="height:10px;"></div>●四月二十五日,师生一道参加巡逻护校。
+      <div style="height:10px;"></div>●四月二十六日,学校中共地下党从上级获得紧急情报,得知国民党当局已发出逮捕交大352名学生的黑名单,立即布置疏散和隐蔽本校学生党员与积极分子。凌晨2时,国民党军警冲进交大,60余名同学作为“嫌疑”而被逮捕。当晚,经党组织积极营救,有40余名同学获释。
+      <div style="height:10px;"></div>●四月二十七日,国民党上海警备司令部通知,限师生员工三日内离校,并称五月五日国民党第十一军将进驻学校。
+      <div style="height:10px;"></div>●四月二十七日,交大地下党组织学生开始担负起保护学校设备图书仪器、维持治安、防止破坏的重任,经过一个多星期的努力,组织了一支有1000多同学参加的地下人民保安队。
+      <div style="height:10px;"></div>●四月二十八日,本校化学系学生、新青联会员史宵雯在执行任务时被捕。
+      <div style="height:10px;"></div>●五月初,解放军包围上海,开始了解放上海的战役。国民党五十一军占据本校,交大地下党有组织有计划地撤离学校。
+      <div style="height:10px;"></div>●五月一日,无家可归的同学暂迁恭绰馆。
+      <div style="height:10px;"></div>●五月二日,同学又被迫迁往中华学艺社。
+      <div style="height:10px;"></div>●五月十二日,解放上海的战斗打响。
+      <div style="height:10px;"></div>●五月十五日,上海人民团体联合会发出《为迎接解放告工商界同胞书》。
+      <div style="height:10px;"></div>●五月二十一日,经地下党组织多次组织营救无效,本校穆汉祥、史宵雯同学在闸北宋公园(现闸北公园)慷慨就义,临刑前高呼“中国共产党万岁!”而壮烈牺牲。
+      <div style="height:10px;"></div>●五月二十四日下午,解放军占领了虹桥、虹桥机场、徐家汇、梵皇渡车站,并越过万国公墓、大虹桥、中山西路、龙华镇和龙华机场,攻入了市区。
+      <div style="height:10px;"></div>●五月二十五日清晨,人们发现解放军有序地坐在街上休息。交大校门冉冉升起一面鲜艳的红旗,交大支部与群众在不同的地点迎接了解放军。师生员工欢呼胜利,清除国民党军队遗弃的垃圾,修复整理被破坏的校园。自是日起,交通大学迎来了一个新时代。全校师生纷纷返校,成立校务维持会,组织复校工作。
+      <div style="height:10px;"></div>●五月二十六日,交大同学组织了1000多人的宣传队,走向工厂、贫民区、住宅区,载歌载舞,热烈庆祝上海解放。
+      <div style="height:10px;"></div>●五月二十七日,上午九时解放军完成了对市区的总攻,上海全境获得解放。多日锚泊在吴淞口的英美军舰终于消失在公海上。中国人民解放军上海市军事管制委员会成立,陈毅、粟裕分任正副主任。
+      <div style="height:10px;"></div>●五月二十八日,上海市人民政府成立,陈毅任市长。同日,上海人民广播电台正式播音,《解放日报》正式出版。留居中华学艺社的同学全部迁返校内。
+      <div style="height:10px;"></div>●六月二日,全校恢复正常上课。
+      <div style="height:10px;"></div>●六月五日,全校师生举行追悼大会,沉痛悼念穆汉祥、史宵雯两位烈士。下午,迎两位烈士灵柩安葬于校园。交大学生自治会、史穆烈士治丧委员会编辑出版《史穆二烈士纪念册》。
+      <div style="height:10px;"></div>●六月十二日,全校同学参加反银元投机宣传运动。
+      <div style="height:10px;"></div>●六月十三日,上海市高教处接管本校。
+      <div style="height:10px;"></div>●六月十五日,上海市军管会对国立交通大学发布命令(文字第壹号令),任命唐守愚为军代表接管交大。
+      <div style="height:10px;"></div>●六月十七日,在军代表领导下宣布成立清点委员会,负责清点全校财产。清点委员会由21人组成,设置常务委员会。常务委员会由军代表唐守愚、联络员甘京林、教授会张鸿、讲助会胡永畅、学生代表林超雄组成。
+      <div style="height:10px;"></div>●六月十九日,开始清点本校财产。
+      <div style="height:10px;"></div>●六月二十一日,赴立信等校进行宣传鼓动,动员南下。
+      <div style="height:10px;"></div>●六月二十四日,清点委员会公布《交通大学库存清单》,计有:黄金20.033两,银元30枚,人民币460015元。讲师助教会理事会改选,选举胡永畅为主席,理事由10人组成。
+      <div style="height:10px;"></div>●七月一日,召开交通大学新民主主义青年联合会全体会议。青年团市工作委员会批准在交大建立新民主主义青年团。选举赵国士等18人为筹备委员。
+      <div style="height:10px;"></div>●七月六日,全校师生员工参加全市庆祝上海解放大游行。
+      <div style="height:10px;"></div>●七月九日,举行青年团成立大会和第一批团员入团仪式。
+      <div style="height:10px;"></div>●七月二十三日,为纪念史、穆二烈士成立史、穆图书馆。
+      <div style="height:10px;"></div>●七月二十五日,飓风驱使海浪摧毁南汇县区海堤75里,20万人受灾。交大79名同学组成服务队,深入灾区进行抢险。
+      <div style="height:10px;"></div>●七月二十八日,教授会新理事会举行第一次会议,柴志明当选为主席,新理事由15人组成。
+      <div style="height:10px;"></div>●七月二十九日,市军管会对交大发布成立国立交通大学校务委员会令。
+      <div style="height:10px;"></div>●七月,陈毅市长宴请10老,有张元济、唐文治、颜惠庆、吴有训、竺可桢、陶孟和、陈望道等人,其中许多人属交大校友。唐文治因病,请王瑗仲代表出席。
+      <div style="height:10px;"></div>●八月一日,军管会公布吴有训等19人为交大校务委员。即吴有训为主任委员,陈石英为副主任委员。校务委员会由吴有训、陈石英、王之卓、钟伟成、陈大燮、朱物华、陈维稷、钟兆琳、王龙甫、黄席棠、曹鹤荪、裘维裕、张鸿、张震、汪旭庆、胡永畅、蒋大宗、沈友益(学生代表)、张立秉(学生代表)组成;校务委员会常务委员会由吴有训、陈石英、王之卓、钟伟成、陈大燮、朱物华、陈维稷、胡永畅、沈友益组成。以陈大燮兼教务长,王龙甫兼秘书长,朱物华兼工学院院长,裘维裕兼理学院院长,钟伟成兼管理学院院长。义卖荣军纪念章。
+      <div style="height:10px;"></div>●八月二日,全校师生举行庆祝校务委员会成立大会。校务委员会举行第一次会议,议决成立“续聘教员审查小组”;校行政机构进行调整与改组,设立秘书处、教务处,撤消原训导处、总务处。
+      <div style="height:10px;"></div>●八月四日,校务委员会举行第二次会议。军事联络员传达市高教处指示:校委会组织条例及职权、学校编制、员工人数,以上三项均须由校委会讨论拟订后送高教处。会议推定王之卓等5位委员起草拟订校委会条例。
+      <div style="height:10px;"></div>●八月十四日,校务委员会举行第二次会议。军事联络员传达市军管会高教处指示:即确定校委会组织条例及职权、学校编制、员工人数,并由校委会讨论拟订后送高教处。推定王之卓等五名委员起草校委会条例。
+      <div style="height:10px;"></div>●八月十六日,校务会第三次会议讨论通过《国立交通大学校务委员会组织章程》。章程指出:本会遵上海市军管会命令组织之,为本校之最高权力机构。
+      <div style="height:10px;"></div>●八月十八日,校务委员会举行第五次会议。议决:(1)推选教务处等组成委员会,研究“助教服务规程”;(2)物理系改为物理学系;(3)推选教务长、工学院院长、管理学院院长,成立3人小组,研究工业管理系改名问题。
+      <div style="height:10px;"></div>●八月十九日,校务会举行第六次会议,讨论通过《国立交通大学行政系统组织条例》,共18条。
+      <div style="height:10px;"></div>●八月二十日,军管会公布暨南大学理学院并入交大。理学院教授、同学和自治会代表赴暨大欢迎。暨大理学院学生于九月九日迁入交大。
+      <div style="height:10px;"></div>●八月二十二日,呈报市军管会:校委会8月2日已到职接收视事。
+      <div style="height:10px;"></div>校委会讨论并请理学院裘维裕院长主持发动该院同仁研究合并后各项细节问题,校委会委员曹鹤荪、蒋大宗参加。并由正副主任委员向高教处反映本校房屋困难问题。
+      <div style="height:10px;"></div>●八月二十五日,校委会举行第七次会议。议决:九月十二日开学,十五日正式上课;添聘、补聘教授、讲师、助教原则;请施复亮任政治学科教授等12项议案。
+      <div style="height:10px;"></div>●八月二十八日,校委会通过《国立交通大学教职员服务规则》,对教授、副教授、讲师的聘请手续及任课时数等作了具体规定。
+      <div style="height:10px;"></div>●八月二十九日,为正式成立校委会事函告北平、天津、南京、上海、杭州、武汉各国立大学和上海市直属各机关,以便加强与各方面的联系。
+      <div style="height:10px;"></div>●本年度电信专修科新生姓名与籍贯如下(依据《交通大学一九五一级毕业纪念刊》记载的毕业生名单):
+      <div style="height:10px;"></div>黄念慈(江苏奉贤),萧道中(江西南城),张茀(江苏高邮),许蔼云(江苏无锡),谢茂(江苏靖江),赵大和(江苏扬州),严可光(江苏泰兴),谢祺安(浙江余姚),钱雪蕾(江苏江荫),蔡效平(江苏盐城),竺保泰(江苏嵊县),朱雄世(上海),朱一鸣(浙江嘉善),刘文健(江苏镇江),王成伟(江苏无锡),史久寅(浙江鄞县),王鉴霖(浙江上虞),谢启元(江苏苏州),祝治权(江苏无锡),张泰元(江苏无锡),姜永本(山东烟台),范骏勋(浙江杭州),张铭麟(江苏武进),顾远耀(浙江鄞县),李绍仪(江苏常州),周承联(浙江上虞)。
+      <div style="height:10px;"></div>●九月五日,校务会讨论通过《讲助分配工作暂行办法》。
+      <div style="height:10px;"></div>●九月十七日,校委会举行第十二次会议。讨论通过各系拟聘教授、副教授名单;推选周同庆等为人民助学金评议委员会委员;讨论经上海市高教处核定的“校委会组织章程”。
+      <div style="height:10px;"></div>●九月二十日,第二次教务会议通过《国立交通大学学籍规则》。对招生、入学、转学、转系、考试、缺席、学程、学分以及成绩、补考、重读、留级、停学、休学、复学、退学、毕业等均有规定,共10章78条。
+      <div style="height:10px;"></div>●九月二十五日,运输系1950年四年级同学赴东北实习。
+      <div style="height:10px;"></div>●九月二十八日,第三次教务会议通过“大考采取重点考试办法”。
+      <div style="height:10px;"></div>●十月一日,中华人民共和国成立。全校师生员工在大草坪举行升国旗典礼,鸣礼炮12响,并在学校内举行庆祝游行。
+      <div style="height:10px;"></div>●十月七日,举行保卫世界和平、庆祝中华人民共和国诞生晚会。
+      <div style="height:10px;"></div>●十月八日,全校师生员工2000余人参加全市庆祝开国暨保卫世界和平百万人示威大游行。
+      <div style="height:10px;"></div>●十月十六日,开始推行人民助学金及减免学杂费的评议工作。
+      <div style="height:10px;"></div>●十月十八日,俄罗斯联邦共和国人民教育部副部长杜伯洛维娜莅校参观机、电、金工、材料等实验室及图书馆,表示能来有斗争传统的学校参观,感到无上光荣。
+      <div style="height:10px;"></div>●十月十九日,庆祝广州解放,本校学生参加大游行。
+      <div style="height:10px;"></div>●十一月二日,举行第五次教务会议。拟订设立专科夜校办法。
+      <div style="height:10px;"></div>●十一月七日,举行第六次教务会议。修改一年级国文、英文甄别考试办法。
+      <div style="height:10px;"></div>●十一月,据《交通大学理学院暨数学物理学化学三系概况》记载,本校1930年“秋成立自然科学学院,后改称科学学院,扩充设备,增加课程,成立数学物理学及化学三系。一九三七年春,本校改隶教育部,因统一院之名称,改为理学院。一九四二年沪地沦陷,本校迁渝,未设理学院,同时沪校在伪南京政府之下,在沪继续上课,理学院亦继续办理。至一九四七年秋、抗战胜利,渝校在沪复校,恢复理学院(院长:周同庆),仍设数学物理学及化学三系。”本院教职员名单如下:
+      <div style="height:10px;"></div>(1)数学系(共19人)
+      <div style="height:10px;"></div>教授:张鸿(兼系主任),朱公谨,武崇林,徐钟济,孙泽瀛,雷垣。
+      <div style="height:10px;"></div>副教授:黄正平,徐桂芳,莫叶,唐济楫。
+      <div style="height:10px;"></div>讲师:颜家驹,陆庆乐。
+      <div style="height:10px;"></div>助教:李立柔,吕学礼,龚晨,陆慧英,刘国庸,邵济煦,周彭年。
+      <div style="height:10px;"></div>(2)物理系(共33人)
+      <div style="height:10px;"></div>教授:吴有训(兼本校校务委员会主任),裘维裕(兼理学院院长),黄席棠(兼系主任),周铭,周同庆,赵富鑫,许国保,王子昌,殷大钧。
+      <div style="height:10px;"></div>副教授:赵贻镜,沈德滋,杨景才,黄志诚,郑昌时,任有恒。
+      <div style="height:10px;"></div>讲师:阮名成,孙沩,黄德昭。
+      <div style="height:10px;"></div>助教:胡永畅,卞祖芬,刘国桢,虞承高,陈宏毅,董金渊,屠善洁,汪玉芝,许槑,钱玄,潘耀鲁,方俊鑫,殷大敏。
+      <div style="height:10px;"></div>(3)化学系(缺)。根据《1949级纪念刊&middot;理学院概说》所载资料补充如下:
+      <div style="height:10px;"></div>教授有:苏元复(主任),潘承圻,张大煜,梁普,李懋观,颜翼东,张宗骏。
+      <div style="height:10px;"></div>●十一月,据《交通大学理学院暨数学物理学化学三系概况》记载,本校理学院课程设置是:
+      <div style="height:10px;"></div>(1)数学系
+      <div style="height:10px;"></div>一年级:国文(2学分),英文(2学分),代数(3学分),微积分微分方程(5学分),普通物理及试验(5学分),普通化学及试验(4学分)。
+      <div style="height:10px;"></div>二年级:第二外国语(2学分),代数(二)(3学分),高等解析几何(3学分),高等微积分(4学分),理论力学(3学分)。
+      <div style="height:10px;"></div>三年级:第二外国语(2学分),抽象代数(4学分),微分几何(3学分),复函数数(4学分),电磁学(3学分)。
+      <div style="height:10px;"></div>四年级:实函数论(3学分),拓扑学(3学分)。
+      <div style="height:10px;"></div>选修科目:经济学(2学分),微分方程式论(3学分),积分方程式论(3学分),F氏级数(3学分),几何特选(3学分),变分学(4学分),天文学(3学分)。
+      <div style="height:10px;"></div>(2)物理系
+      <div style="height:10px;"></div>一年级:普通物理学,微积分及微分方程,普通化学,普通物理试验,普通化学试验。
+      <div style="height:10px;"></div>二年级:普通物理,普通物理试验,理论力学,微分方程,高等微积分,精密计算及图解法,物性学及热学试验,普通物理试验。
+      <div style="height:10px;"></div>三年级:电磁学,光学,热学,物性学及热学试验,光学试验,电磁学试验。
+      <div style="height:10px;"></div>四年级:近代物理,理论物理,电子学,光学试验,近代物理试验,电子学试验。
+      <div style="height:10px;"></div>(3)化学系(缺)
+      <div style="height:10px;"></div>●《1949级纪念刊&middot;管理学院概说》指出,全院现有同学600余人,课程设置可分为5类:
+      <div style="height:10px;"></div>(1)各系专门课程:运输系有开铁路、水道、公路、民用航空等课程;财务系有各种经济、财政会计、统计等课程;电信管理系有电话、电报、技术及业务等课程。
+      <div style="height:10px;"></div>(2)社会科学基本课程:有经济学、社会学、通史、心理学等课程。
+      <div style="height:10px;"></div>(3)治学必须基本课程:有国文、英文、日文、德文、俄文等课程。
+      <div style="height:10px;"></div>(4)相关工程课程:有铁路工程、机车结构、航空工程、汽车工程、轮机工程、电话工程及其他课程等。
+      <div style="height:10px;"></div>(5)近代科学管理课程:有成本会计、企业组织、材料管理等课程。
+      <div style="height:10px;"></div>●十一月十八日,青年团举行第二批入团同志宣誓典礼。订立方针,贯彻学生会决议,开展新民主主义学习。
+      <div style="height:10px;"></div>●十一月二十一日,教职员工会筹委会成立。由教授会、讲助会、职员会、工友会、技工会等单位各推代表共5人组成。
+      <div style="height:10px;"></div>●十一月二十四日,上海市学联举办的“学生运动资料展览会”在本校展出。
+      <div style="height:10px;"></div>●十一月二十五日,召开扩大教务会议。讨论改订学制和精简课程的意见。
+      <div style="height:10px;"></div>●十二月一日,举行校委会第十五次会议。陈大燮教务长传达市高教处召开会议情况,指出理工科大学生课业负担过重影响学生健康,且无暇顾及政治学习,各校应研究如何加以纠正。校扩大教务会提出治标办法。关于治本办法待进一步研究。
+      <div style="height:10px;"></div>●十二月六日,运输系1950年四年级同学返校,介绍东北铁路学院教学负责制。
+      <div style="height:10px;"></div>●十二月十六日,举行第七次教务会议,议决本学期精简课程办法。
+      <div style="height:10px;"></div>●十二月二十二日,本校中苏友协支会成立,陈石英任会长。
+      <div style="height:10px;"></div>●十二月二十三日,亚洲妇女代表团莅校参观。
+      <div style="height:10px;"></div>●十二月二十五日,迎接解放后第一个新年。师生员工数百人参加义务劳动,清洁校园,修筑道路。
+      <div style="height:10px;"></div>●十二月三十一日,举行盛大除夕晚会,当场竞购公债。
+      <div style="height:10px;"></div>●十二月,中共交大党总支填报学校党组织情况:总支书记由陈启懋担任,组织委员由祖振铨担任。共计16个党小组,党员111人(其中正式党员21人,候补党员90人;男100人,女11人)。
+     </div>
+    </div>
+    <div style="width:320px;margin:0px auto;padding-bottom:10px;padding-top:10px;" id="guanggaopifu"> 
+     <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <!-- 移动网站正文下方320*100 -->
+     <ins class="adsbygoogle" style="display:inline-block;width:320px;height:100px" data-ad-client="ca-pub-2340359438634333" data-ad-slot="3759836802"></ins>
+     <script>    (adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <div class="w1" id="downartcolor">
+     <div class="name" style=" min-height:28px;">
+      <div>
+       来自:
+       <span id="ctl00_ContentPlaceHolder1_usernamespan" class="name1"><a id="suoshuuser" href="/userhome.aspx?userid=5387443" onclick="wzhit('wapart22')">网络书店库</a></span>&nbsp;&nbsp;&gt;
+       <span id="ctl00_ContentPlaceHolder1_filespan" class="lan" onclick="wzhit('wapart23')">《<a href="/taCategoryArticle.aspx?userid=5387443&amp;cid=6" style="colo:#2d609f">我的图书馆</a>》</span>
+       <a href="javascript:void(0)" onclick="wzhit('wapart24')"><img id="addcurrfollow" src="/images/guanzhu.gif" onclick="addfollow()" /></a>
+      </div>
+     </div>
+     <div style="height:6px;"></div>
+     <div style=" height:46px;display:none;" id="resaveflowerdiv">
+      <div class="zcwdtsgbt fl" id="resavemy" onclick="resavearticle(this)">
+       转藏到我的图书馆
+      </div>
+      <div style=" margin-left:10px;float:left;">
+       <a href="javascript:void(0)">
+        <div class="xianhuabt fl" onclick="sendflower(this)" id="loginflower">
+         <span id="flowertxt">献花</span>(
+         <span id="flowernum">0</span>)
+        </div></a>
+      </div>
+     </div>
+     <div style=" height:50px; ">
+      <div class="left">
+       <!-- Baidu Button BEGIN -->
+       <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn" onclick="wzhit(event.srcElement.title)">
+        <span style="font-size:18px; line-height:40px; color:#1f1f1f;" id="fenxiang">分享到:</span>
+        <a class="bds_qzone" title="分享到QQ空间" href="#"></a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+       </div>
+       <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6857724" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=384195"></script>
+       <script type="text/javascript">    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000)</script>
+       <!-- Baidu Button END -->
+       <script src="http://bdimg.share.baidu.com/static/js/logger.js?cdnversion=384195"></script>
+      </div>
+      <div class="fl">
+       <div class="share-bar-btn" id="sharemail">
+        <div style=" cursor:pointer;">
+         <a class="bds_fxx" href="/sendfriendmail.aspx?id=103178563" onclick="wzhit('wapart30')"></a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div>
+      更多精彩,关注微信号:
+      <span style="color:#2D609F">360doc</span>
+     </div>
+    </div>
+   </div> 
+   <div style="padding-top:11px;text-align:center;"> 
+    <a href="http://www.360doc.cn/kehuduan.aspx"><img src="http://www.360doc.cn/images/clipper.gif" style="width:320px;" /></a> 
+   </div>
+   <div class="w1" style="padding-top:14px;">
+    <div class="lswztit">
+     类似文章
+    </div>
+   </div>
+   <div id="ctl00_ContentPlaceHolder1_relearticle">
+    <a href="/article/7434782_166364679.html" onclick="wzhit('wapart31')">
+     <div class="listd1">
+      叶企孙(互动百科)
+     </div></a>
+    <a href="/article/7163563_127841186.html" onclick="wzhit('wapart31')">
+     <div class="listd2">
+      叶企孙简历
+     </div></a>
+    <a href="/article/1630322_291037660.html" onclick="wzhit('wapart31')">
+     <div class="listd1">
+      谁培养出十几位“两弹元勋...
+     </div></a>
+    <a href="/article/2535389_45423949.html" onclick="wzhit('wapart31')">
+     <div class="listd2">
+      江苏高中明年试行学分制 3...
+     </div></a>
+    <a href="/article/739691_320323432.html" onclick="wzhit('wapart31')">
+     <div class="listd1">
+      香港大学如何选校长
+     </div></a>
+    <a href="/article/3125585_52669360.html" onclick="wzhit('wapart31')">
+     <div class="listd2">
+      美国高中课程
+     </div></a>
+   </div>
+   <div id="ctl00_ContentPlaceHolder1_relevantmorediv" style=" padding-top:6px;">
+    <a href="/relevant.aspx?id=103178563" id="ctl00_ContentPlaceHolder1_relevantlink" class="p_newsmore" onclick="wzhit('wapart32')">更多类似文章 &gt;&gt;</a>
+   </div>
+   <div class="w1" id="reftitle">
+    <a name="anchor"></a>
+    <div class="lswztit " style=" padding-top:26px;">
+     馆友评论(
+     <span id="refnum">0</span>)
+    </div>
+   </div>
+   <div id="refinfolist"></div>
+   <div style=" padding-top:12px;display:none;" id="refmore">
+    <a href="/refmore.aspx?artid=103178563" class="p_newsmore" onclick="wzhit('wapart34')">查看更多馆友评论 &gt;&gt;</a>
+   </div>
+   <div class="w1" style=" padding-top:16px;" id="inputrefcontent">
+    <div class="plfbbox"> 
+     <textarea name="textarea" cols="" rows="" class="pltxtbox" id="refcontent" onfocus="if(this.value=='发表评论') this.value='';this.style.color='#1f1f1f'" onblur="if(!this.value) {this.value='发表评论';this.style.color='#8c8c8c';}">发表评论</textarea>
+    </div>
+   </div>
+   <div style=" margin-right:11px; margin-top:10px; height:60px;" id="refbutton">
+    <a href="javascript:void(0)">
+     <div class="xianhuabt fr" onclick="wzhit('wapart37');sendref()">
+      发表评论
+     </div></a>
+   </div>
+   <div style=" padding-top:12px;" id="loginref">
+    <div class="p_newsmore4 lan" style=" height:68px; line-height:68px;">
+     您好,请&nbsp;
+     <a href="/login.aspx" id="articlelogin" onclick="wzhit('wapart35')">登录</a>&nbsp;或者&nbsp;
+     <a href="/register.aspx" onclick="wzhit('wapart36')">注册</a>&nbsp;后再进行评论
+    </div>
+   </div>
+   <div class="fenxiagn w1" style=" height:99px; padding-right:22px; font-size:14px;text-align:center;padding-top:15px;" id="loginref2">
+    合作登录:
+    <a href="http://www.360doc.com/redirect2oplogin.aspx?t=wapsmb&amp;reurl=http://www.360doc.cn/myindex.aspx" style="margin-right:20px;" onclick="wzhit('wapart38')"><img src="/images/tb15.png" /></a>
+    <a href="http://www.360doc.com/redirect2oplogin.aspx?t=wapqq&amp;reurl=http://www.360doc.cn/myindex.aspx" style="margin-right:20px;" onclick="wzhit('wapart39')"><img src="/images/tb16.png" /></a>
+    <a href="http://www.360doc.com/redirect2oplogin.aspx?t=rr&amp;reurl=http://www.360doc.cn/myindex.aspx?waprr=1" onclick="wzhit('wapart40')"><img src="/images/tb17.png" /></a>
+   </div>
+  </section>
+  <div id="tipiphonediv" style="display:none;"> 
+   <script type="text/javascript">        (function () {            var s = "_" + Math.random().toString(36).slice(2);            document.write('<div style="" id="' + s + '"></div>');            (window.slotbydup = window.slotbydup || []).push({                container: s,                id: 'u1442766',                scale: '20.3',                display: 'inlay-fix'            });        })();</script> 
+  </div> 
+  <script type="text/javascript">    setlayertab();</script> 
+  <nav> 
+   <div style="height:20px;"></div>
+   <ul class="p_nav p_nav_footer"> 
+    <li style=" width:18%"><a href="/index.aspx" onclick="wzhit(56)">首页</a> </li>
+    <li style=" width:30%"><a href="/advice.aspx?type=0" onclick="wzhit(58)">留言交流</a> </li>
+    <li style=" width:30%"><a href="/lianxiwomen.aspx" onclick="wzhit(57)">联系我们</a> </li>
+    <li style=" width:22%"><a href="javascript:scroll(0,0)" onclick="wzhit(59)">回顶部</a> </li>
+   </ul>
+  </nav> 
+  <footer data-sudaclick="footer"> 
+   <div class="p_footer"> 
+    <p class="p_foot_v"> <a href="/3g/index.aspx" onclick="wzhit(60)">3G版</a>| <a href="/index.aspx" class="active" onclick="wzhit(61)">触屏版</a>| <a href="http://www.360doc.com/mobile" onclick="wzhit(62)">电脑版</a>| <a href="/kehuduan.aspx" onclick="wzhit(63)">客户端</a> </p> 
+    <p class="p_foot_t">&copy;360doc( 京ICP证090625号)</p> 
+   </div> 
+  </footer> 
+  <script type="text/javascript">        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd9c1856f9607e4aa5d4419e774bc0c9e' type='text/javascript'%3E%3C/script%3E"));</script> 
+ </body>
+</html>

@@ -1,0 +1,250 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head></head>
+ <body>
+  ﻿
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>经济与管理学院</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link href="/templets/style/4new.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="/templets/style/style.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="/templets/style/style_home.css" rel="stylesheet" media="screen" type="text/css" />
+  <script src="/templets/style/ac_runactivecontent.js" language="javascript" type="text/javascript"></script>
+  <script src="/templets/style/rss.js" language="javascript" type="text/javascript"></script>
+  <script src="/templets/style/common.js" language="javascript" type="text/javascript"></script>
+  <script src="/templets/style/default.js" language="javascript" type="text/javascript"></script>
+  <script src="/templets/style/jquery.js" language="javascript" type="text/javascript"></script>
+  <link href="/templets/style/menu.css" rel="stylesheet" media="screen" type="text/css" />
+  <div id="home_banner">
+   <div id="sitemap">
+    <font face="Tahoma,Verdana">
+     <!--<a class=site href="http://jgy.xupt.edu.cn/en/indexen.htm" target=_blank>english </a>--></font>
+   </div>
+  </div>
+  <div id="menu_bk" align="center">
+   <div id="menu">
+    <ul>
+     <li class="current"><a href="http://jgy.xupt.edu.cn/index.html">首页</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/a/xueyuanjj.html" onmouseover="moreLink(1);" onmouseout="hidden(1,0)">学院概况</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=44" onmouseover="moreLink(8);" onmouseout="hidden(8,0)">党建工作</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/a/jjxx.html" onmouseover="moreLink(0);" onmouseout="hidden(0,0)">系部设置</a> </li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=11" onmouseover="moreLink(2);" onmouseout="hidden(2,0)">教学教务</a> </li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=93" onmouseover="moreLink(3);" onmouseout="hidden(3,0)">质量工程</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=18" onmouseover="moreLink(4);" onmouseout="hidden(4,0)">科学研究</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=88" onmouseover="moreLink(5);" onmouseout="hidden(5,0)">人才培养</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=7" onmouseover="moreLink(6);" onmouseout="hidden(6,0)">学生工作</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/a/mbaxmjs.html" onmouseover="moreLink(7);" onmouseout="hidden(7,0)">MBA教育</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=66" onmouseover="moreLink(9);" onmouseout="hidden(9,0)">合作交流</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=75">招生工作</a></li>
+     <li><a href="http://jgy.xupt.edu.cn/plus/list.php?tid=74">校友信息</a></li>
+    </ul>
+    <div class="nav_more nav_bak nav0"></div>
+    <div class="nav_more nav0"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/a/jjxx.html">经济学系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/gsglx.html">工商管理系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/glgcx.html">管理工程系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/kjxx.html">会计学系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/wlydzswx.html">物流与电子商务系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/jrgcyxxxtx.html">金融工程与信息系统系</a>
+    </div>
+    <div class="nav_more nav_bak nav1"></div>
+    <div class="nav_more nav1"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/a/xueyuanjj.html">学院简介</a> 
+     <a href="http://jgy.xupt.edu.cn/a/xueyuanld.html">学院领导</a> 
+     <a href="http://jgy.xupt.edu.cn/a/xisuozhx.html"> 组织结构</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=27">师资队伍</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=1">学院新闻</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=2">学院公告</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=73">规章制度</a> 
+     <a href="http://jgy.xupt.edu.cn/a/lianxifangshi.html">联系方式</a> 
+    </div>
+    <div class="nav_more nav_bak nav2"></div>
+    <div class="nav_more nav2"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=9" target="_blank">教学资源</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=10">教学管理</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=11">教学成果</a> 
+    </div>
+    <div class="nav_more nav_bak nav3"></div>
+    <div class="nav_more nav3"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=93">专综改革试点</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=12">省级名牌专业</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=13">省级教学团队</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=14">省级精品课程</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=15">教学名师</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=17">省级创新试验区</a>
+    </div>
+    <div class="nav_more nav_bak nav4"></div>
+    <div class="nav_more nav4"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=18">科研项目</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=19">科研成果</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=68">科研机构</a>
+    </div>
+    <div class="nav_more nav_bak nav5"></div>
+    <div class="nav_more nav5"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile37.html">本科培养</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=65">研究生培养</a> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile39.html">教学基地</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=92">导师风采</a>
+    </div>
+    <div class="nav_more nav_bak nav6"></div>
+    <div class="nav_more nav6"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=24">学工动态</a> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile30.html ">就业指导</a> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile31.html">学生团体</a> 
+     <a href="http://jgy.xupt.edu.cn/a/newfile32.html">党团工作</a>
+    </div>
+    <div class="nav_more nav_bak nav7"></div>
+    <div class="nav_more nav7"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/a/mbaxmjs.html">MBA项目介绍</a> 
+     <a href="http://jgy.xupt.edu.cn/a/mbatixi.html">MBA人才培养体系</a> 
+     <a href="http://jgy.xupt.edu.cn/a/mbahuanjing.html">MBA培养环境和条件</a> 
+     <a href="http://jgy.xupt.edu.cn/a/mbashizi.html">MBA师资力量</a> 
+     <a href="http://jgy.xupt.edu.cn/a/mbazhsxinxi.html">MBA招生信息</a>
+    </div>
+    <div class="nav_more nav_bak nav8"></div>
+    <div class="nav_more nav8"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=44">总支概况</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=63">学生党校</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=64"> 组织生活</a> 
+    </div>
+    <div class="nav_more nav_bak nav9"></div>
+    <div class="nav_more nav9"> 
+     <img src="/templets/images/nav_m.gif" alt="" /> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=66">联合办学</a> 
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=67">对外交流</a> 
+    </div>
+   </div>
+   <div id="u_menu"></div>
+  </div>
+  <!-- //header -->
+  <div id="white">
+   <div id="add79ljegpi1" ;="" style="z-index:1000;LEFT: 0px; POSITION: absolute; TOP: 0px" width="159"> 
+    <table cellspacing="0" cellpadding="0"> 
+     <tbody> 
+      <tr align="center"> 
+       <td align="left"> <a href="http://222.24.19.94/a/xueyuangonggao/2014/0410/536.html" target="_blank" title=""> <img src="/images/weixin.jpg" width="240" height="70" border="0" alt="" /> </a> </td> 
+      </tr> 
+      <tr align="center"> 
+       <td align="right"> 
+        <div onclick="showimageclosed79ljegpi1()" bgcolor="white" style="cursor:hand;font-size:9pt">
+         关闭
+        </div> </td> 
+      </tr> 
+     </tbody> 
+    </table>
+   </div> 
+   <script>  function showimageclosed79ljegpi1()  {      var objd79ljegpi1=document.getElementById("add79ljegpi1");      objd79ljegpi1.style.display = 'none';  };  //水平             //上下     var xd79ljegpi1 = 0;yd79ljegpi1 = 0;    var xind79ljegpi1 = true; yind79ljegpi1 = true;  var stepd79ljegpi1 = 1;    var delayd79ljegpi1 = 88;    var objd79ljegpi1=document.getElementById("add79ljegpi1");   function floatADd79ljegpi1(){  var Ld79ljegpi1=Td79ljegpi1=0;  var Rd79ljegpi1= document.body.clientWidth-objd79ljegpi1.offsetWidth;  var Bd79ljegpi1 = document.body.clientHeight-objd79ljegpi1.offsetHeight;  objd79ljegpi1.style.left = xd79ljegpi1 + document.body.scrollLeft;  objd79ljegpi1.style.top = yd79ljegpi1 + document.body.scrollTop;  xd79ljegpi1 = xd79ljegpi1 + stepd79ljegpi1*(xind79ljegpi1?1:-1);   if (xd79ljegpi1 < Ld79ljegpi1) { xind79ljegpi1 = true; xd79ljegpi1 = Ld79ljegpi1;};   if (xd79ljegpi1 > Rd79ljegpi1){ xind79ljegpi1 = false; xd79ljegpi1 = Rd79ljegpi1;};  yd79ljegpi1 = yd79ljegpi1 + stepd79ljegpi1*(yind79ljegpi1?1:-1);   if (yd79ljegpi1 < Td79ljegpi1) { yind79ljegpi1 = true; yd79ljegpi1 = Td79ljegpi1; };   if (yd79ljegpi1 > Bd79ljegpi1) { yind79ljegpi1 = false; yd79ljegpi1 = Bd79ljegpi1; };  };  var itld79ljegpi1= setInterval("floatADd79ljegpi1()", delayd79ljegpi1);   objd79ljegpi1.onmouseover=function(){clearInterval(itld79ljegpi1);};  objd79ljegpi1.onmouseout=function(){itld79ljegpi1=setInterval("floatADd79ljegpi1()", delayd79ljegpi1)};       </script> 
+   <div id="home_flash"> 
+    <div id="photo_news"> 
+     <div class="flashnews"> 
+      <!-- size: 312px * 214px --> 
+      <script language="javascript"> 	linkarr = new Array(); 	picarr = new Array(); 	textarr = new Array(); 	var swf_width=312; 	var swf_height=214; 	var configtg="0xffffff:文字颜色|2:文字位置|0x000000:文字背景颜色|30:文字背景透明度|0xffffff:按键文字颜色|0x4f6898:按键默认颜色|0x000033:按键当前颜色|8:自动播放时间|3:图片过渡效果|1:是否显示按钮|_blank:打开新窗口"; 	var files = ""; 	var links = ""; 	var texts = ""; 	//这里设置调用标记 	linkarr[1] = "/a/xueyuanxinwen/2015/0602/753.html"; 	picarr[1]  = "/uploads/allimg/150602/19-150602164932123-lp.jpg"; 	textarr[1] = "经管举办就业经验交流会";linkarr[2] = "/a/xueyuanxinwen/2015/0602/752.html"; 	picarr[2]  = "/uploads/allimg/150602/19-150602113613307-lp.jpg"; 	textarr[2] = "经管院举办考研经验交流会";linkarr[3] = "/a/xueshengtiandi/xuegongdongtai/2015/0602/754.html"; 	picarr[3]  = "/uploads/allimg/150602/19-1506021A435535-lp.jpg"; 	textarr[3] = "第四党员工作站邀请西安华颜装饰有限公司总经理赵嘉铖作讲座";linkarr[4] = "/a/xueyuanxinwen/2015/0601/751.html"; 	picarr[4]  = "/uploads/allimg/150601/19-1506011HP3O5-lp.jpg"; 	textarr[4] = "经管院举办大学生职业生涯规划大赛";linkarr[5] = "/a/xueyuanxinwen/2015/0601/750.html"; 	picarr[5]  = "/uploads/allimg/150601/19-15060116391Q92-lp.jpg"; 	textarr[5] = "财务管理专业举办第二次考研就业交流会"; 	for(i=1;i<picarr.length;i++){ 	  if(files=="") files = picarr[i]; 	  else files += "|"+picarr[i]; 	} 	for(i=1;i<linkarr.length;i++){ 	  if(links=="") links = linkarr[i]; 	  else links += "|"+linkarr[i]; 	} 	for(i=1;i<textarr.length;i++){ 	  if(texts=="") texts = textarr[i]; 	  else texts += "|"+textarr[i]; 	} 	document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">'); 	document.write('<param name="movie" value="/templets/images/bcastr3.swf"><param name="quality" value="high">'); 	document.write('<param name="menu" value="false"><param name=wmode value="opaque">'); 	document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">'); 	document.write('<embed src="/templets/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 	</script> 
+     </div> 
+     <!-- /flashnews --> 
+    </div> 
+    <div id="news_papers"> 
+     <div id="news_bk"> 
+      <div id="news_list_name_papers">
+       学工动态
+      </div> 
+      <div align="right"> 
+       <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=24" target="_blank"><img height="25" src="/templets/images/new_title_more.gif" width="62" border="0" /></a> 
+      </div> 
+     </div> 
+     <div id="news_list2"> 
+      <ul class="news_ul"> 
+       <li><img src="/templets/images/arrow.gif" /> <a href="/a/xueshengtiandi/xuegongdongtai/2015/0602/754.html" title="第四党员工作站邀请西安华颜装饰有限公司总经理赵嘉铖作讲座" target="_blank">第四党员工作站邀请西安华颜装饰有限公司总经理赵嘉铖作讲座</a> <span class="date"><font color="#ff0000">2015-06-02</font> </span></li>
+       <li><img src="/templets/images/arrow.gif" /> <a href="/a/xueshengtiandi/xuegongdongtai/2015/0529/748.html" title="第四党员工作站举办第二届党史、校情知识竞赛初赛" target="_blank">第四党员工作站举办第二届党史、校情知识竞赛初赛</a> <span class="date">2015-05-29 </span></li>
+       <li><img src="/templets/images/arrow.gif" /> <a href="/a/xueshengtiandi/xuegongdongtai/2015/0512/739.html" title="第四党员工作站开展“献给妈妈的爱”主题感恩活动" target="_blank">第四党员工作站开展“献给妈妈的爱”主题感恩活动</a> <span class="date">2015-05-12 </span></li>
+       <li><img src="/templets/images/arrow.gif" /> <a href="/a/xueshengtiandi/xuegongdongtai/2015/0409/719.html" title="第四党员工作站组织学习全国“两会”精神" target="_blank">第四党员工作站组织学习全国“两会”精神</a> <span class="date">2015-04-03 </span></li>
+       <li><img src="/templets/images/arrow.gif" /> <a href="/a/xueshengtiandi/xuegongdongtai/2015/0309/706.html" title="经管院指导的党员工作站开展庆元宵佳节活动" target="_blank">经管院指导的党员工作站开展庆元宵佳节活动</a> <span class="date">2015-03-09 </span></li>
+       <li><img src="/templets/images/arrow.gif" /> <a href="/a/xueshengtiandi/xuegongdongtai/2014/1223/701.html" title="经管院指导党员工作站开展诚信考试教育活动" target="_blank">经管院指导党员工作站开展诚信考试教育活动</a> <span class="date">2014-12-23 </span></li> 
+      </ul> 
+     </div> 
+    </div>
+   </div>
+   <div id="home_news">
+    <div id="news_list">
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=1" target="_blank"><img height="25" src="/templets/images/news.gif" width="121" border="0" /></a>
+     <img height="7" src="/templets/images/line.gif" width="236" />
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=1" target="_blank"><img height="20" src="/templets/images/more.gif" width="69" border="0" /></a> 
+     <ul class="news_ul">
+      <li><img src="/templets/images/arrow.gif" /> <a title="经管举办就业经验交流会" href="/a/xueyuanxinwen/2015/0602/753.html" target="_blank">经管举办就业经验交流会</a> <span class="date"><font color="#ff0000">2015-06-02</font> </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="经管院举办考研经验交流会" href="/a/xueyuanxinwen/2015/0602/752.html" target="_blank">经管院举办考研经验交流会</a> <span class="date"><font color="#ff0000">2015-06-02</font> </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="经管院举办大学生职业生涯规划大赛" href="/a/xueyuanxinwen/2015/0601/751.html" target="_blank">经管院举办大学生职业生涯规划大赛</a> <span class="date"><font color="#ff0000">2015-06-01</font> </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="财务管理专业举办第二次考研就业交流会" href="/a/xueyuanxinwen/2015/0601/750.html" target="_blank">财务管理专业举办第二次考研就业交流会</a> <span class="date">2015-06-01 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="我院加入“一带一路大学管理学院联盟”" href="/a/xueyuanxinwen/2015/0529/749.html" target="_blank">我院加入“一带一路大学管理学院联盟”</a> <span class="date">2015-05-29 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="百度发展研究中心主任李勇博士来访" href="/a/xueyuanxinwen/2015/0529/747.html" target="_blank">百度发展研究中心主任李勇博士来访</a> <span class="date">2015-05-29 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="中国电信股份有限公司宁夏分公司来我院交流" href="/a/xueyuanxinwen/2015/0528/746.html" target="_blank">中国电信股份有限公司宁夏分公司来我院交流</a> <span class="date">2015-05-28 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="张鸿院长在第二届丝绸之路经济带国际清真食品企业合作交流大会作主题发言" href="/a/xueyuanxinwen/2015/0527/745.html" target="_blank">张鸿院长在第二届丝绸之路经济带国际清真食品企业合作交流大会作主题发言</a> <span class="date">2015-05-27 </span> </li> 
+     </ul>
+    </div>
+    <div id="news_list">
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=2" target="_blank"><img height="37" src="/templets/images/news_notice.gif" width="121" align="bottom" border="0" /></a>
+     <img height="7" src="/templets/images/line.gif" width="236" align="bottom" />
+     <a href="http://jgy.xupt.edu.cn/plus/list.php?tid=2" target="_blank"><img height="20" src="/templets/images/more.gif" width="69" align="bottom" border="0" /></a> 
+     <ul class="news_ul">
+      <li><img src="/templets/images/arrow.gif" /> <a title="关于第五届全国高校电子商务“创新、创意及创业”挑战赛报名时间的通知" href="/a/xueyuangonggao/2015/0330/716.html" target="_blank">关于第五届全国高校电子商务“创新、创意及创业”挑战赛报名时间的通知</a> <span class="date">2015-03-30 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="关于组织参加第五届全国高校电子商务“创新、创意及创业”挑战赛的通知" href="/a/xueyuangonggao/2015/0312/708.html" target="_blank">关于组织参加第五届全国高校电子商务“创新、创意及创业”挑战赛的通知</a> <span class="date">2015-03-12 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="经管院关于2015年寒假放假安排的通知" href="/a/xueyuangonggao/2015/0117/704.html" target="_blank">经管院关于2015年寒假放假安排的通知</a> <span class="date">2015-01-17 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="关于举办2014陕西经济论坛的通知" href="/a/xueyuangonggao/2014/1016/663.html" target="_blank">关于举办2014陕西经济论坛的通知</a> <span class="date">2014-10-16 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="经济与管理学院2013-2014学年国家奖学金公示" href="/a/xueyuangonggao/2014/1010/658.html" target="_blank">经济与管理学院2013-2014学年国家奖学金公示</a> <span class="date">2014-10-10 </span> </li>
+      <li><img src="/templets/images/arrow.gif" /> <a title="关于廉洁过好教师节、中秋节、国庆节的通知" href="/a/xueyuangonggao/2014/0906/624.html" target="_blank">关于廉洁过好教师节、中秋节、国庆节的通知</a> <span class="date">2014-09-05 </span> </li> 
+     </ul> 
+    </div>
+   </div>
+   <div id="right">
+    <div style="margin:0px auto;padding:0px auto;">
+     <a href="http://www.iidrc.org/" target="_blank"><img height="42" border="0" width="159" style="margin-left:25px;margin-top:8px;" src="/templets/images/xinxiyanjiu.jpg" /></a>
+    </div>
+    <div style="margin:0px auto;padding:0px auto;">
+     <a href="http://jgy.xupt.edu.cn/a/xdjjyglyjy.html"><img height="42" border="0" width="159" style="margin-left:25px;margin-top:8px;" src="/templets/images/guanliyanjiuyuan.jpg" /></a>
+    </div>
+    <div style="margin:0px auto;padding:0px auto;">
+     <a href="http://222.24.63.105/index.aspx"><img height="42" border="0" width="159" style="margin-left:25px;margin-top:8px;" src="/templets/images/guanlixit.jpg" /></a>
+    </div>
+    <div style="margin:0px auto;padding:0px auto;">
+     <a href="http://mba.xupt.edu.cn"><img height="42" border="0" width="159" style="margin-left:25px;margin-top:8px;" src="/templets/images/MBA.jpg" /></a>
+    </div>
+    <div id="menut">
+     <a href="http://www.xupt.edu.cn/" target="_blank">西邮首页</a>
+     <a href="http://oa.xupt.edu.cn/" target="_blank">办公系统</a>
+     <a href="http://222.24.19.201/" target="_blank">教务系统</a> 
+     <a href="http://elearn.xupt.edu.cn/eol/homepage/common/index_jpk.jsp" target="_blank">网上教学</a>
+     <a href="http://www.icourses.cn/home/" target="_blank">精品课程</a>
+     <a href="http://webmail.xupt.edu.cn/" target="_blank">邮件系统</a>
+    </div>
+    <div style="float: right; width: 184px; padding-top: 12px">
+     <form action="/plus/search.php" name="formsearch"> 
+      <h4 style="display:none;">搜索</h4> 
+      <input type="hidden" name="kwtype" value="0" /> 
+      <input name="keyword" type="text" class="search-keyword" id="search-keyword" /> 
+      <div style="height:19px;"> 
+       <select name="searchtype" class="search-option" id="search-option"> <option value="titlekeyword" selected="1">智能模糊搜索</option> <option value="title">仅搜索标题</option> </select> 
+       <button type="submit" class="search-submit">搜索</button> 
+      </div> 
+     </form>
+    </div>
+   </div>
+  </div>
+  <!-- //二级子类下拉菜单,考虑SEO原因放置于底部  -->
+  <!-- //底部模板 -->
+  <div id="copyright_top"></div>
+  <div id="copyright">
+   <div id="copyright-1">
+    <div align="center">
+     <font face="tahoma, verdana" color="#ffffff">copyright &copy; 西安邮电大学经济与管理学院 版权所有 <a href="http://www.miitbeian.gov.cn/" rel="nofollow"> 陕ICP备040096号</a><br />地址:中国陕西西安韦郭路 710121</font>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

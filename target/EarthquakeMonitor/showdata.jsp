@@ -133,8 +133,8 @@
                                     <div class="row">
                                         <%--<div class="col-lg-2"></div>--%>
                                         <div class="col-lg-12" align="center">
-                                            <%--<p id="filter-source"></p>--%>
-                                            <iframe width="100%" height="100%" src="" id="filter-iframe"></iframe>
+                                            <p id="filter-source" hidden></p>
+                                            <iframe width="100%" height="100%" src="" id="filter-iframe" hidden></iframe>
                                         </div>
                                         <%--<div class="col-lg-2"></div>--%>
                                     </div>
@@ -217,8 +217,18 @@
                     dataType: "json",
                     success: function (msg) {    //msg是后台调用action时，你传过来的参数
                         var objson = eval(msg);
-                        //$("#filter-source").html(objson.source);
-                        $("#filter-iframe").attr("src", objson.url);
+
+                        if ( objson.source != null ) {
+                            $("#filter-iframe").attr("hidden","");
+                            $("#filter-source").removeAttr("hidden");
+                            $("#filter-source").html(objson.source);
+                        }
+                        else {
+                            $("#filter-source").attr("hidden", "");
+                            $("#filter-iframe").removeAttr("hidden");
+                            $("#filter-iframe").attr("src", objson.url);
+                        }
+
                         if (objson.type == "disaster") {
                             $("#filter-type").html("信息类型: 灾情获取");
                             $("#filter-patten").remove();

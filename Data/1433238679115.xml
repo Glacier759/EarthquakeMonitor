@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" /> 
+  <meta content="360doc" name="classification" /> 
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.360doc.cn/article/14475422_330559769.html" /> 
+  <meta content="电,互联网,家居" name="keywords" /> 
+  <meta content="哪些行业未被互联网打败" name="description" /> 
+  <meta name="mobile-agent" content="format=html5;url=http://www.360doc.cn/article/14475422_330559769.html" /> 
+  <meta content="www.360doc.com" name="author" /> 
+  <title>        哪些行业未被互联网打败    </title> 
+  <link href="http://bdimg.share.baidu.com/static/css/bdsstyle.css?cdnversion=20130704" rel="stylesheet" type="text/css" /> 
+  <script type="text/javascript" src="http://www.360doc.com/js/jquery1.js?t=2015041801"></script> 
+  <script type="text/javascript" src="http://www.360doc.com/js/jQuery.md5.js?t=2013121101"></script> 
+  <script type="text/javascript" language="javascript">        window.onerror = ignoreError;        function ignoreError() {            return true;        }    </script> 
+  <link href="http://css.360doc.com/wzhead-cleaned.css?t=2014082004" rel="stylesheet" type="text/css" /> 
+  <link href="http://css.360doc.com/wz20130912-cleaned.css?t=2014102301" rel="stylesheet" type="text/css" /> 
+  <script type="text/javascript" src="/js/indexhead.js?t=2014082801"></script> 
+  <script type="text/javascript" src="/js/showarticlefollow20130912.js?t=2014101805"></script>
+ </head>
+ <body style="font-family: Arial, Helvetica, sans-serif;" onmouseup="setDragEnd()" onmousemove="DragDiv();" onclick="delAllDiv(event)"> 
+  <span id="LayerLogin"></span> 
+  <div style="position: fixed; width: 100%; z-index: 1000;"> 
+   <div class="mainnav"> 
+    <div class="mainnav1"> 
+     <div class="lf360" style="padding-left: 5px;"> 
+      <img src="http://pubimage.360doc.com/newsite/logoo.gif" /> 
+     </div> 
+     <div style="width: 625px; padding-top: 0px; padding-left: 4px; position: absolute;"> 
+      <table height="34" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody> 
+        <tr id="daohangtr"> 
+         <td style="width: 185px; _width: 0px; *width: 0px !important;"></td> 
+         <td class="navwz1" width="95"> <a href="http://www.360doc.com/index.html">首&nbsp;页</a> </td> 
+         <td width="100" class="  navwz1"> <a href="http://www.360doc.com/readroom.html">阅览室</a> </td> 
+         <td width="88" class="  navwz1"> <a href="http://www.360doc.com/weekstar.html">馆友</a> </td> 
+         <td width="132" class="  navwz1"> <a href="http://www.360doc.com/my360doc.aspx">我的图书馆</a> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div class="rt360" style="padding-top: 6px; width: 133px; padding-left: 38px;" id="outerdiv"> 
+     </div> 
+     <div class=" rt360" style="padding-top: 6px; padding-right: 0px;"> 
+      <div class="lf360 serch"> 
+       <input name="input2" class="serchpt" id="txtSearchword" onkeydown="ongosearch()" onkeyup="showIntelliSense()" onfocus="if(this.value=='搜文章 找馆友') this.value='';this.style.color='#272727'" onblur="if(!this.value) {this.value='搜文章 找馆友';this.style.color='#b2b2b2';}" onpaste="showIntelliSense1()" type="text" value="搜文章 找馆友" /> 
+      </div> 
+      <div class="lf360 ssuo"> 
+       <a id="searchlinkid" href="javascript:gosearch();"></a> 
+      </div> 
+      <div id="divsearch" style="margin-top: 25px; margin-left: 1px; display: block; position: absolute; z-index: 100;"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="navxt"> 
+   </div> 
+  </div> 
+  <div style="height: 44px; _height: 0px; width: 100%;"></div> 
+  <div class="both"> 
+  </div> 
+  <div id="docTotalInfo" class="mainzt"> 
+   <table class="index_main" border="0" cellpadding="0" cellspacing="0"> 
+    <tbody> 
+     <tr> 
+      <td align="left" valign="top" width="727px"> 
+       <div id="ADAboveArtContent"> 
+       </div> 
+       <div style="height: 7px;"> 
+       </div> 
+       <table border="0" cellpadding="0" cellspacing="0" class="mainbj" id="docArtClass"> 
+        <tbody> 
+         <tr> 
+          <td> 
+           <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; text-align: center;"> 
+            <tbody> 
+             <tr> 
+              <td> 
+               <table style="width: 100%; text-align: left;" border="0" cellpadding="0" cellspacing="0"> 
+                <tbody> 
+                 <tr> 
+                  <td class="biaoti"> 
+                   <div class="biaoti2 lf360">
+                     哪些行业未被互联网打败 
+                   </div> </td> 
+                 </tr> 
+                 <tr> 
+                  <td style="height: 32px;"> 
+                   <div style="width: 670px; height: 28px; padding-left: 26px; color: #777b7a;"> 
+                    <table> 
+                     <tbody>
+                      <tr> 
+                       <td>收藏人:<span class="name" onclick="wzhitnew(1);"><a href="http://www.360doc.com/userhome/14475422" target="_blank">xbyu0</a></span> </td> 
+                       <td> 
+                        <div class="btzctsg" id="spanfollowstatus"> 
+                        </div> <script>isfollow(14475422);</script> </td> 
+                       <td> 
+                        <div class="ytdh1">
+                         <a onclick="doctalk();wzhitnew(106);" href="javascript:void(0)"></a>
+                        </div> </td> 
+                      </tr> 
+                     </tbody>
+                    </table> 
+                   </div> 
+                   <div class="wztopxx"> 
+                    <div style="float: left; height: 28px; padding-top: 7px;"> 
+                     <table cellpadding="0" cellspacing="0" style="position: relative; z-index: 4"> 
+                      <tbody> 
+                       <tr> 
+                        <td> 2013-11-19&nbsp;|&nbsp;阅:<span id="360doc_Readnum"></span>&nbsp;&nbsp;<span style="position: relative;">转:<span onclick="wzhitnew(3)" id="360doc_saverNum"></span><span id="360doc_saverUser"></span></span>&nbsp;&nbsp; </td> 
+                        <td> 
+                         <div style="position: relative;">
+                           &nbsp;|&nbsp;
+                          <span id="docsource"></span> 
+                         </div> 
+                         <div class="sekuaibox" style="display: none; margin-left: 48px;" id="zihaoboxID"> 
+                          <div style="padding-top: 10px; padding-left: 5px;"> 
+                           <div class="lf360 danxunbt"> 
+                            <input id="artdocfont3" onclick="ChangeArtSize(3, this); wzhitnew(15); " name="radio" type="radio" value="1" /> 
+                           </div> 
+                           <div class="lf360 danxunwz" onclick="ChangeArtSize(3,this);wzhitnew(15); " style="cursor: pointer;">
+                             大 
+                           </div> 
+                           <div class="lf360 danxunbt"> 
+                            <input id="artdocfont2" onclick="ChangeArtSize(2, this); wzhitnew(16); " name="radio" type="radio" value="2" /> 
+                           </div> 
+                           <div class="lf360 danxunwz" onclick="ChangeArtSize(2,this);wzhitnew(16); " style="cursor: pointer;">
+                             中 
+                           </div> 
+                           <div class="lf360 danxunbt"> 
+                            <input id="artdocfont1" onclick="ChangeArtSize(1, this); wzhitnew(17); " name="radio" type="radio" value="3" /> 
+                           </div> 
+                           <div class="lf360 danxunwz" onclick="ChangeArtSize(1,this);wzhitnew(17); " style="cursor: pointer;">
+                             小 
+                           </div> 
+                          </div> 
+                         </div> 
+                         <div class="sekuaibox" style="margin-left: 76px; display: none;" id="sekuaiboxID"> 
+                          <div style="padding-top: 10px; padding-left: 5px;"> 
+                           <img src="http://pubimage.360doc.com/wz/cr1.gif" id="docArtC1" onclick="ChangeArtClass(1,this);wzhitnew(18);" style="cursor: pointer;" />
+                           <img src="http://pubimage.360doc.com/wz/cr2.gif" id="docArtC2" onclick="ChangeArtClass(2,this);wzhitnew(19);" style="cursor: pointer;" />
+                           <img src="http://pubimage.360doc.com/wz/cr3.gif" id="docArtC3" onclick="ChangeArtClass(3,this);wzhitnew(20);" style="cursor: pointer;" />
+                           <img src="http://pubimage.360doc.com/wz/cr4.gif" id="docArtC4" onclick="ChangeArtClass(4,this);wzhitnew(21);" style="cursor: pointer;" />
+                           <img src="http://pubimage.360doc.com/wz/cr5.gif" id="docArtC5" onclick="ChangeArtClass(5,this);wzhitnew(22);" style="cursor: pointer;" />
+                           <img src="http://pubimage.360doc.com/wz/cr6.gif" id="docArtC6" onclick="ChangeArtClass(6,this);wzhitnew(23);" style="cursor: pointer;" /> 
+                          </div> 
+                         </div> </td> 
+                        <td> 
+                         <div style="padding-left: 10px;"> 
+                          <a href="javascript:void(0)"> <img onmouseover="changedivdisplay(1);" src="http://pubimage.360doc.com/wz/wz1.gif" /></a> 
+                         </div> </td> 
+                        <td> 
+                         <div style="padding-left: 10px;" onmouseover="changedivdisplay(2);"> 
+                          <a href="javascript:void(0)"> <img src="http://pubimage.360doc.com/wz/wz2.gif" /></a> 
+                         </div> </td> 
+                        <td>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" onclick=" setTimeout(showShareLayer, 10);wzhitnew(4);">分享</a>&nbsp;</td> 
+                        <td> <a href="#" onclick="  setTimeout(showShareLayer, 10);wzhitnew(5);"> <img style="cursor: pointer;" src="http://pubimage.360doc.com/wz/tb10.gif" /></a>
+                         <div class="fenxiang" id="fenxiangLayer" style="display: none; border: none; width: 110px; margin-left: -28px; _margin-left: -40px;"> 
+                         </div> </td> 
+                       </tr> 
+                      </tbody> 
+                     </table> 
+                    </div> 
+                    <div id="resavelayer1" class="rt360"> 
+                    </div> 
+                    <div id="shareweixinabove" class="rt360"> 
+                    </div> 
+                    <table cellpadding="0" cellspacing="0" style="text-align: center; margin: 0px auto;"> 
+                     <tbody> 
+                      <tr> 
+                       <td> 
+                        <div id="AlertArt1" style="display: none; position: absolute;"> 
+                        </div> 
+                        <div id="SendToFriends1" style="display: none; position: absolute; z-index: 100;"> 
+                        </div> 
+                        <div class="lf360 zcbutton" style="margin-left: 100px;"> 
+                        </div> 
+                        <div class="lf360">
+                          &nbsp;&nbsp; 
+                        </div> </td> 
+                      </tr> 
+                     </tbody> 
+                    </table> 
+                   </div> </td> 
+                 </tr> 
+                 <tr> 
+                  <td></td> 
+                 </tr> 
+                </tbody> 
+               </table> </td> 
+             </tr> 
+             <tr> 
+              <td> 
+               <table class="wenzhangcss" border="0" cellpadding="0" cellspacing="0" width="100%"> 
+                <tbody> 
+                 <tr> 
+                  <td> 
+                   <div class="xiantao"> 
+                   </div> </td> 
+                 </tr> 
+                 <tr> 
+                  <td align="left" valign="top" width="670px" style="height: 200px;"> <span id="articlecontent" onmousedown="newhighlight = true;" onmouseup="NewHighlight(event)"> 
+                    <table> 
+                     <tbody> 
+                      <tr> 
+                       <td width="670px" style="position: relative;"> <p style="white-space: normal;">感谢关注【<strong><span style="color: rgb(255, 0, 0);">互联网金融</span></strong>】</p><p style="white-space: normal;">微信公众帐号:<strong><span style="color: rgb(255, 0, 0);">webfinance</span></strong></p><p><br /></p><p style="text-indent: 28px; margin-bottom: 21px;">350<span style="font-family: 宋体;">亿元!今年天猫“双十一”支付宝交易额与去年</span>191<span style="font-family: 宋体;">亿元相比,大幅增长,而且创出新高。这既是阿里系电商造节的胜利,更是全体电商的胜利。在这一天里,京东商城成交</span>100<span style="font-family: 宋体;">亿元,订单量是去年的</span>3<span style="font-family: 宋体;">倍多;截至</span>11<span style="font-family: 宋体;">日当天</span>16<span style="font-family: 宋体;">时,易迅网下单笔数近</span>35<span style="font-family: 宋体;">万,下单金额超过</span>2.84<span style="font-family: 宋体;">亿元……除了天猫及淘宝,京东、易迅、当当网和亚马逊等同行也是火爆共舞,披露的订单量均达到全年峰值。</span>3</p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">如今,只要能数字化、方便复制的,都成为被互联网化的对象。例如图书市场、服装市场、鞋帽市场、</span>3C<span style="font-family: 宋体;">市场等,这种属于方便复制,体验和售后服务跟得上的,都让电商在这些领域中,对传统行业形成非常大的冲击。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">以今年天猫公布的“双十一”数据来看,单店销售榜前十位中,有</span>5<span style="font-family: 宋体;">位是服装品牌,其中骆驼品牌以</span>1.59<span style="font-family: 宋体;">亿元销售额排名第三,杰克琼斯、优衣库、茵曼、阿卡分列第</span>5<span style="font-family: 宋体;">、</span>6<span style="font-family: 宋体;">、</span>7<span style="font-family: 宋体;">、</span>10<span style="font-family: 宋体;">位,总交易额超过</span>6.5<span style="font-family: 宋体;">亿元。此外,</span>3C<span style="font-family: 宋体;">家电类的小米、海尔分别以</span>5.41<span style="font-family: 宋体;">亿元和</span>1.75<span style="font-family: 宋体;">亿元交易额分列销售榜冠军和亚军。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">互联网业界有句话:“所有还没被互联网改变的行业,终究都将被互联网改变”。虽然如今只要我们想象得到的行业,几乎都正面临传统行业和电商之间的博弈,但除了服装类和</span>3C<span style="font-family: 宋体;">家电类商品以外,未被互联网打败的还有很多。例如我们本期所要介绍的医药行业、家居行业、汽车行业、生鲜食品行业、金融行业……</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">在他们当中,有些线上线下渠道正激烈对抗,如今年“双十一”中,国内</span>19<span style="font-family: 宋体;">家家居卖场联名抵制天猫家居</span>O2O<span style="font-family: 宋体;">;有些则只是刚起步,如互联网金融;有些则是配套环节尚未满足完全电商化的需求,例如缺乏冷链配送的生鲜电商。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">但我们不可否认,互联网在未来商业社会中的作用。西安邮电大学经管学院院长张鸿认为,互联网渗透了很多行业,打破了工农业社会的经济规律,降低流通成本,通过复制、共享等方式解决了经济学中“资源稀缺”的难题。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">电子商务专家李成东分析认为,</span>2011<span style="font-family: 宋体;">至</span>2016<span style="font-family: 宋体;">年在线零售占社会消费品零售总额分别为</span>4.2%<span style="font-family: 宋体;">、</span>6.2%<span style="font-family: 宋体;">、</span>9.1%<span style="font-family: 宋体;">、</span>11.7%<span style="font-family: 宋体;">、</span>14.1%<span style="font-family: 宋体;">、</span>16.8%<span style="font-family: 宋体;">。业界预测,如果继续保持此增长态势,</span>2020<span style="font-family: 宋体;">年在线零售占社会消费品零售总额超过</span>50%<span style="font-family: 宋体;">完全有可能。电商便利性、低价格、无地界等优势将比实体店越来越明显,电商的市场占有率越来越大,增长速度也会越来越快。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">在那些尚未被互联网打败的行业中,究竟是电商侵占传统行业的份额,还是传统行业自己革自己的命,完成线下往线上发展的涅槃重生,我们可以拭目以待。</span>(<span style="font-family: 宋体;">撰写新快报记者</span><span style="font-family: 宋体;">张潇</span> <span style="font-family: 宋体;">陈庆麟</span> <span style="font-family: 宋体;">陆琨倩</span> <span style="font-family: 宋体;">庞倩影</span> <span style="font-family: 宋体;">见习记者</span> <span style="font-family: 宋体;">许莉芸</span>)</p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">【银行开网店仍止步不前】</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">在刚刚过去的“双</span>11<span style="font-family: 宋体;">”</span>,<span style="font-family: 宋体;">基金、保险等理财产品首次加入大促行列,仅</span>11<span style="font-family: 宋体;">月</span>11<span style="font-family: 宋体;">日一天时间,天猫及淘宝上的理财总成交金额达到</span>9.08<span style="font-family: 宋体;">亿元,其中国华人寿旗舰店</span>5.31<span style="font-family: 宋体;">亿元居首,易方达基金旗舰店成交</span>2.11<span style="font-family: 宋体;">亿元,这些数据都足以令保险与基金行业的所有同行眼红。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">事实上,此次“双</span>11<span style="font-family: 宋体;">”并非互联网金融的首秀。今年</span>6<span style="font-family: 宋体;">月,支付宝携手天弘基金率先推出了“余额宝”,其所有拥有的</span>1<span style="font-family: 宋体;">元门槛+货币基金收益+实时赎回可用于支付等一系列特性,被业界视为一场颠覆性的互联网金融大潮由此拉开序幕。虽然成交的数据在迅速攀升,但与传统金融现有的规模相比,互联网金融依然是弱小的。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">庞大的新生客户群</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">事实上,让保险、基金公司趋之若鹜的,并非只是表面的成交数据。此次“双</span>11<span style="font-family: 宋体;">”理财分会场的负责人问天坦言,在一天之内,基金公司通过网上平台新增</span>2<span style="font-family: 宋体;">万多个新客户,这才是他们看重的价值。尽管与传统的服装、家电、百货品类相比,理财分会场仅占“双</span>11<span style="font-family: 宋体;">”成交金额的</span>1/30<span style="font-family: 宋体;">,但是从登录淘宝平台的那一刻起,互联网金融一亮相便显示出强大的磁力,对新兴用户人群的吸引力尤为明显。后台数据显示,理财分会场</span>42%<span style="font-family: 宋体;">的购买金额,来自于</span>26-32<span style="font-family: 宋体;">岁用户,从本次购买易方达基金用户上来看,仅有</span>2586<span style="font-family: 宋体;">名淘宝用户在此之前有过投资理财经验,余下</span>23000<span style="font-family: 宋体;">名用户,此前没在淘宝的平台上买过任何的理财产品。换句话说,</span>90%<span style="font-family: 宋体;">以上的用户都是第一次理财。以富国基金的淘宝店为例,其副总经理林志松透露,“双</span>11<span style="font-family: 宋体;">”当天店铺新增了</span>2000<span style="font-family: 宋体;">多名客户,户均申购金额达到</span>4150<span style="font-family: 宋体;">元。若从开店以来计算,已有</span>5000<span style="font-family: 宋体;">名新客户购买了富国基金产品。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">“对于理财产品而言,用户转化渠道很重要,传统渠道中主要通过银行、线下第三方机构,部分基金公司也尝试通过官网销售,但显然植入电商平台后的转化效果是非常明显的。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">理财的长尾效应</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">如果说互联网可以为金融行业提供庞大的客户群体,那这一作用还只是从互联网的渠道功能上出发。但显然互联网金融的意义不只在此,在每笔投资背后,其意味着碎片化理财的巨大长尾效应。</span></p><p style="text-indent: 28px; margin-bottom: 21px;">2004<span style="font-family: 宋体;">年</span>10<span style="font-family: 宋体;">月,美国《连线》杂志主编克里斯&middot;安德森在他的文章中第一次提出“长尾(</span>LongTail<span style="font-family: 宋体;">)”理论,他告诉读者:商业和文化的未来不在热门产品,不在传统需求曲线的头部,而在于需求曲线中那条无穷长的尾巴。长尾效应的根本就是要强调“个性化”、“客户力量”和“小利润大市场”,也就是要赚很多人的钱。互联网上很多成功的商业都是以某种方式整合了长尾市场,而如今这种互联网基因正在与金融密切融合。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">来自中国证券登记结算有限责任公司的数据显示,截至</span>2012<span style="font-family: 宋体;">年</span>12<span style="font-family: 宋体;">月</span>31<span style="font-family: 宋体;">日,国内所有个人有效基金账户数为</span>7630.14<span style="font-family: 宋体;">万户。而综合中国证券投资基金业协会的数据显示,平均每个基金账户的投资金额达到</span>7.5<span style="font-family: 宋体;">万元。但余额宝最初的统计数据中,户均的投资金额不到</span>2000<span style="font-family: 宋体;">元。在“双</span>11<span style="font-family: 宋体;">”中,真正购买理财产品金额超过</span>5<span style="font-family: 宋体;">万元的也不算多数,超过</span>1000<span style="font-family: 宋体;">用户的投入只有</span>100<span style="font-family: 宋体;">元。大量达不到传统理财门槛的消费者,在互联网时代有了机会。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">互联网金融刚起步</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">对于是否可以颠覆或就此改写金融行业,互联网与银行业的融合或许才是决定性的一役。然而引入银行在淘宝开店的计划却一再出现变故。</span>11<span style="font-family: 宋体;">月</span>9<span style="font-family: 宋体;">日,广发银行网上营业厅刚上线</span>5<span style="font-family: 宋体;">天就突然宣布歇业。其暂缓开业的公告上显示,由于内部核准的原因,该行的网上营业厅开业暂缓,同时此前广发银行准备在“双</span>11<span style="font-family: 宋体;">”推出的四款理财产品也不能正常发售。尽管业内对于紧急叫停原因众说纷纭,但更多人认为目前银行进驻电商平台依然是监管真空地带,这或许表明监管部门依然对此存在保留意见。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">“相比较保险公司与基金公司而言,他们开设店铺只是销售金融产品。但银行不同,它不只是一个销售方,它是国家信任体系中的重要一环。每一步的谨慎是必须的。”广州某股份制银行互联网业务负责人对记者坦言。虽然银行都在加快互联网架构的建设,但这种互联网化并不等于真正的互联网金融。“互联网从数据、流量切入金融领域,整个操作的逻辑是跟传统金融业不同的。而这种逆转带来的,例如现在阿里所在做的小微贷款、定制的保险和基金产品、与购物支付挂钩的实时赎回系统。虽然普通客户只是看到了可以在网上买理财产品而已,但背后的改变是巨大的。”</span>(<span style="font-family: 宋体;">张潇</span>)</p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">【“汽车电商元年”未真正到来</span> <span style="font-family: 宋体;">】</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">相比</span>3C<span style="font-family: 宋体;">、服装、箱包甚至家具产品在今年“双十一”意料之中热卖,汽车销售的崛起似乎有点出人意料。战报显示,搜狐等三家汽车电商号称“双十一”交易额达到</span>235<span style="font-family: 宋体;">亿元,相当于天猫成交额</span>350<span style="font-family: 宋体;">亿元的三分之二。但在疯狂之后,有汽车界人士认为,“双十一”不是常态,“汽车电商元年”也并没有真正到来。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">“双十一”狂欢</span>+<span style="font-family: 宋体;">汽车之家</span>IPO</p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">公开数据显示,在没有大力宣传、没有成为社会关注热点的情况下,汽车电商今年“双十一”期间成绩惊人。“汽车之家</span>11.11<span style="font-family: 宋体;">疯狂购车节”订购总量达</span>17776<span style="font-family: 宋体;">台,订购总金额</span>26.43<span style="font-family: 宋体;">亿元;易车网“易车惠第三季百团大战”双</span>11<span style="font-family: 宋体;">总订单量达</span>90466<span style="font-family: 宋体;">台,订单额超过</span>117<span style="font-family: 宋体;">亿元;搜狐“特惠车第</span>3<span style="font-family: 宋体;">季</span>11.11<span style="font-family: 宋体;">最高直降”活动总订单量</span>60556<span style="font-family: 宋体;">台,订购总金额</span>92.05<span style="font-family: 宋体;">亿元。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">此外,汽车之家近日向美国证券委员会提交上市申请,有望成为继易车网之后成为第二家在美</span>IPO<span style="font-family: 宋体;">的垂直类汽车媒体。汽车之家招股说明书显示,其</span>2010<span style="font-family: 宋体;">年至</span>2012<span style="font-family: 宋体;">年的净利润分别达为</span>8040<span style="font-family: 宋体;">万元、</span>1.35<span style="font-family: 宋体;">亿元、</span>2.13<span style="font-family: 宋体;">亿元,年复合增长率达到</span>62.7%<span style="font-family: 宋体;">。在截至</span>2013<span style="font-family: 宋体;">年</span>9<span style="font-family: 宋体;">月</span>30<span style="font-family: 宋体;">日的前三季度,净利润达到</span>3.34<span style="font-family: 宋体;">亿元,同比增长</span>96.7%<span style="font-family: 宋体;">。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">但值得注意的是,目前火热的汽车电商似乎仅限于由汽车媒体发展的汽车电商。在天猫平台,虽然进驻的品牌有</span>33<span style="font-family: 宋体;">个,上至路虎、凯迪拉克,下至夏利、长安汽车。但从天猫的数据来看,品牌旗舰店在“双十一”期间的销售并不令人满意。以天猫汽车行业成交量最高的东风雪铁龙单日订单额也不过</span>2114<span style="font-family: 宋体;">万元。而以汽车媒体成交额最小的汽车之家计算,其厂商订单额首位的一汽大众奥迪高达</span>2.46<span style="font-family: 宋体;">亿元,前五位的订单额均超</span>1.5<span style="font-family: 宋体;">亿元。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">汽车电商的隐患</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">虽然“双十一”期间汽车电商的表现颇为震撼人心,汽车电商的前景也逐渐被人看好,但不少业界声音认为,“双十一”不是常态,“汽车电商元年”也并没有真正到来。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">汽车网购的一个特殊性是,它在全流程上尚不能实现,消费者最终还是要回到</span>4S<span style="font-family: 宋体;">店体验和完成购车手续,因此很难发展到像日常家用电器那样的电商销售模式。但汽车电商的威力正在呈现,它可以使厂家更好地寻找到销售线索和整合客户资源。目前主流车企也纷纷建立数字营销部以拓展销售,潜力非常大。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">易车网声称自己打造的是奥特莱斯模式:“易车惠就是利用优势形成垂直媒体电商化促销平台,帮助汽车厂商实现品牌营销、活动招募、限量款推广、团购促销、限时抢购、区域促销、秒杀活动、清理库存等多元化营销模式,从而实现高效的订单收集和销售转化。”而汽车之家则自称是携程模式,汽车之家</span>CEO<span style="font-family: 宋体;">秦致曾表示:“汽车做电商必须依存现有的服务体系,更像是销售线索的转移。和携程差不多,没有飞机和酒店,但是可以预订。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">斯柯达进口车总经理蔡庆成在接受媒体采访时表示,对于刚迈入“全民购车”时代的中国人来说,汽车依然是一个非常私人化、情感化的一个商品。它不能仅仅以价格的高低去吸引消费者,邻里相传的口碑、气味相投的客情关系、经销商之间更好的服务,依然是主导消费者最终购车的重要因素。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">有业内人士指出,未来汽车经销商转型电商才是可行的模式。通过电子商务手段,经销商还可以把各种服务放到网上来做,包括汽车用品采购,集纳汽车用品供应商,建立起公平高效的采购体系,提升消费者服务便捷性和透明度等。“四位一体”的汽车</span>4S<span style="font-family: 宋体;">店,做起电商来就能够深度整合货源、服务等各种资源,而不仅是将之作为促销和线索收集平台。</span>(<span style="font-family: 宋体;">陈庆麟</span>)</p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">【药店触网仍处于“婴儿期”】</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">双</span>11<span style="font-family: 宋体;">当天,天猫医药馆日销售额破</span>8000<span style="font-family: 宋体;">万元,加上其他网上药店平台数据,当日网上药店的总销售额突破</span>1<span style="font-family: 宋体;">亿元。然而这个让医药电商们振奋的消息,在传统医药人士看来实在太小,今年上半年传统医药渠道销售规模就达到了</span>1250<span style="font-family: 宋体;">亿元。有数据分析,今年线上渠道销售额或可达到</span>40<span style="font-family: 宋体;">亿元,但若按照全年传统渠道销售额有望达到</span>2500<span style="font-family: 宋体;">亿元来算,线上占比还不到</span>2%<span style="font-family: 宋体;">。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">而且当记者询问天猫相关负责人今年双</span>11<span style="font-family: 宋体;">医药馆情况时,得到的回复是“品类太小,没有详细统计。”现状让人不得不正视医药电商的前景。正在此间召开网上药店</span>CEO<span style="font-family: 宋体;">大讲坛也可见,整个医药电商都在自救状态。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">成熟网上药商不愿打价格战</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">新快报记者从多渠道获得的销售数据是,康恩贝官方旗舰店显示,双</span>11<span style="font-family: 宋体;">期间销售额达</span>1350<span style="font-family: 宋体;">万元,同比增长</span>147.8%<span style="font-family: 宋体;">,位列保健品类目首位。广东康爱多旗舰大药房旗下的康爱多网上药店,双</span>11<span style="font-family: 宋体;">创纪录销售</span>650<span style="font-family: 宋体;">万元,而不限于双</span>11<span style="font-family: 宋体;">当天销量,在天猫医药馆中,其是</span>TC<span style="font-family: 宋体;">药品</span>+<span style="font-family: 宋体;">保健品类别销售额行业第一,天猫医药馆行业排名前三。</span>1<span style="font-family: 宋体;">号药网则表示,当天销量比平时超</span>10<span style="font-family: 宋体;">倍增长。健客网也表示,今年双</span>11<span style="font-family: 宋体;">年销售额为几百万元。</span></p><p style="text-indent: 28px; margin-bottom: 21px;">1<span style="font-family: 宋体;">号药网天猫事业部总监耿继方表示,这次双</span>11<span style="font-family: 宋体;">线上药店的主战场还是在天猫医药馆,虽然商家给予足够重视,甚至出现了惨烈的价格战,但从整体结果看只能算不温不火,没有出现大爆发。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">一家不愿透露姓名的大型网上药店</span>CEO<span style="font-family: 宋体;">表示,去年双</span>11<span style="font-family: 宋体;">,他们为了抓流量,搞过大促,一天下来销售额虽然达四五百万元,但算上物流成本、产品打折成本等,赔了七八十万元。“今年初以来,我们店的流量和销量都稳定了,就没必要再‘赔本赚吆喝’。”上述人士表示,今年双</span>11<span style="font-family: 宋体;">没有搞很特别的促销活动。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">药品销售仍是非主流</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">据了解,知名度高、常规在医药电商卖得好的产品在双</span>11<span style="font-family: 宋体;">都很畅销。当天一款鱼油单品就卖了</span>100<span style="font-family: 宋体;">万元的广州快货有限公司总经理廖光会表示,隐形眼镜、计生类(尤其是安全套)及保健品是主流品种。健客网的苏展也表示,对利润贡献大头的还是保健品,占整体销售额的五六成。另外,血压仪、按摩仪等简单操作的医疗器械也增长较快。不过耿继方则认为,线上销量最大的在医疗器械、隐形眼镜、计生用品等品类,三者的占比超过了总销量的</span>75%<span style="font-family: 宋体;">,</span>OTC<span style="font-family: 宋体;">最近半年增长也迅猛。而记者从天猫</span>10<span style="font-family: 宋体;">强网上药店的商家特点看到,医疗器械、计生类、隐形眼镜、保健品是销售主流。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">记者了解到,药品属于特殊商品,运输、储存都是有严格要求的,这些都增加了网店物流成本。而这也是为什么网上药店均以出售保健品、美容护肤品、医疗器械等为主,药品销售不理想的情况。(庞倩影)</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">【家居卖场拒当“线下体验店”】</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">今年“双十一”的电商狂欢节中,如果要数美中不足的,则是家居</span>O2O<span style="font-family: 宋体;">战略因</span>19<span style="font-family: 宋体;">家家居卖场联合抵制而草草收场的插曲了。这反映了传统渠道与线上渠道在“地盘”上的竞争愈演愈烈。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">天猫家居</span>O2O<span style="font-family: 宋体;">遭抵制</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">对于家居行业,电商化已不是什么新鲜事。</span>2008<span style="font-family: 宋体;">年,美乐乐在淘宝开设店铺,而后创建官方网上商城。</span>2011<span style="font-family: 宋体;">年,美乐乐在成都开设了第一家美乐乐体验馆。</span>2011<span style="font-family: 宋体;">年,美乐乐开始布局线下体验店之旅;</span>2012<span style="font-family: 宋体;">年,天猫爱蜂潮城外诚家居体验馆开馆……记者在天猫平台上仅以沙发作为关键词搜索,入驻的品牌就有</span>208<span style="font-family: 宋体;">个之多。环节少、成本低、规模效应明显的电商渠道能有效降低商品价格,不少家居业的人士对新快报记者都表示,电商是未来家居行业突围的最重要渠道。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">然而,正当商家们准备“双十一”狂欢之际,</span>10<span style="font-family: 宋体;">月</span>28<span style="font-family: 宋体;">日,包括红星美凯龙、居然之家、欧亚达、月星集团等在内的国内</span>19<span style="font-family: 宋体;">家家居卖场,在中国家具协会市场委员会公开的一份《关于规范电子商务工作的意见》</span>(<span style="font-family: 宋体;">下称意见</span>)<span style="font-family: 宋体;">上签字背书,联合抵制电商平台。意见中明确指出:不能变相让卖场成为电商的线下体验场所,未经卖场允许,不许利用卖场的商标、商号进行宣传、不许通过电商移动</span>POS<span style="font-family: 宋体;">将卖场的业务转至他处交易等。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">随后,天猫被迫解除了与家居卖家的</span>O2O<span style="font-family: 宋体;">协议。但家居电商在今年“双十一”期间的表现依然惊人。据天猫数据显示,支付宝成交金额单店总排名</span>TOP10<span style="font-family: 宋体;">中,罗莱家纺以</span>1.55<span style="font-family: 宋体;">亿元位居第四,富安娜以</span>1.16<span style="font-family: 宋体;">亿元位居第七,林氏木业家具以</span>1.10<span style="font-family: 宋体;">亿元位居第九。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">卖场与电商利益冲突凸显</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">目前,家居电商可以分为四大类:第一种是以美乐乐为代表的家居网上购物平台;第二种是以顾家、喜梦宝等传统品牌为代表的,借助第三方平台在网上开店的品牌;第三种是家居卖场涉足电商的模式,成为商家与消费者的中间平台,以居然在线、星易家为代表;第四种则是近几年搭上电商快车兴起的、只在网络销售的非传统制造品牌,以林氏木业为代表。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">可以说,目前对“双十一”抵制最激烈的是传统家居卖场。有业内人士表示,天猫家装</span>O2O<span style="font-family: 宋体;">计划的具体操作方法是,消费者先从线上购得优惠券,付款后手机会收到验证码,消费者至实体门店挑选货品,凭验证码刷支付宝</span>POS<span style="font-family: 宋体;">机。但家居卖场前期的投资非常大,主要的收入是依靠场地的租金、“通道费”</span>(<span style="font-family: 宋体;">包括陈列费、条码费、节庆费等</span>)<span style="font-family: 宋体;">,目前家居卖场大多统一收银,扣除租金后再将钱分给商户。天猫想绕开家居卖场进行支付的做法,无疑触犯了卖场的底线。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">家居电商之路仍漫漫</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">诚然,卖场们这次集体抵制了天猫的</span>O2O<span style="font-family: 宋体;">战略,但对于电商本身,他们显然并非持否定态度。今年</span>11<span style="font-family: 宋体;">月</span>11<span style="font-family: 宋体;">日,居然之家打造的自有电子商务平台“居然在线”正式上线,而红星美凯龙也早在数月前就已开通了官网商城星易家。然而,在线上与线下之间如何做到无缝连接,仍然是一个待解的难题。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">业内人士表示,与服装鞋帽、</span>3C<span style="font-family: 宋体;">电器、图书音像等产品不同,家居产品的个性化、体验性更强,如瓷砖需要选花色、切割加工,木门、橱柜需要上门量尺、订做、安装。此外,建材家居产品以大件居多,对物流、售后安装也有专业要求。如果在运输途中发生磕碰、损坏,解决纠纷会很麻烦,退换货也导致成本大幅增加。这是线下卖场的优势,也是线上电商难以快速冲击线下的重要因素。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">【生鲜电商仍面临物流瓶颈】</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">一直被认为难以撼动、以快消品为代表的生鲜超市也在今年进入了密集触电期,</span>1<span style="font-family: 宋体;">号店、山姆会员店、天猫超市、京东、顺丰,以及垂直电商类的百森商城、田鲜蔬菜等,不难发现的是,除了沃尔玛外,传统超市零售也在尝试,但仍以小规模的方式前进。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">线上倾向走高端路线</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">电商经营生鲜可以说是直接进军传统超市零售的“心脏”,市场之巨大,连阿里巴巴掌舵人马云也忍不住晒单,“淘宝大闸蟹品类已创造三天内卖出</span>30<span style="font-family: 宋体;">万只的业绩。同时,海南香蕉三天也曾出货</span>580<span style="font-family: 宋体;">吨。美国樱桃淘宝出货量达</span>170<span style="font-family: 宋体;">吨。”这种情况并不仅在天猫超市出现,“新西兰的猕猴桃,澳洲的橙子,美国的樱桃都是非常受消费者欢迎。”</span>1<span style="font-family: 宋体;">号店副总郭冬东昨日接受记者采访时表示,“在常温牛奶品类,我们每天都能卖出</span>15<span style="font-family: 宋体;">个货柜,占据国内</span>50%<span style="font-family: 宋体;">以上的市场份额。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">从这个角度上,传统超市上线销售并非不可能,而且由于品类不同,特别在生鲜部分,线上更倾向于走高端路线。郭冬东透露,双</span>11<span style="font-family: 宋体;">一天,仅上海的生鲜类产品就接到了</span>2500<span style="font-family: 宋体;">个订单,从上线至今,客单价的提升也很快。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">记者了解到,目前</span>1<span style="font-family: 宋体;">号店的生鲜超市大概有</span>800<span style="font-family: 宋体;">个单品品种。郭冬东认为,“网上消费的群体对水果和冷冻冷藏比较感兴趣,包括冷鲜保质期只有</span>15<span style="font-family: 宋体;">天的牛奶、进口黄油、、三文鱼、肉类等。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">线上销售遭遇瓶颈</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">记者了解到,除了沃尔玛旗下的山姆会员店及</span>1<span style="font-family: 宋体;">号店外,包括永辉超市、人人乐、乐购、家乐福、永旺、百佳等都已“触电”,但成功的并不多。以永辉超市旗下的生鲜类网站“半边天”为例,今年</span>5<span style="font-family: 宋体;">月,上线不足百日已下线。虽然该公司的副总裁翁海辉对外解释,半边天并非不做了,且官网上的链接已列进了永辉生活网。但记者昨日登录“永辉生活网”看到,显示仍是“站点升级中”的提示信息。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">而其他超市品牌,如家乐福、乐购虽然均有上线“网上超市”,但品类并不丰富。从全国范围来看,“目前在传统超市领域,仅沃尔玛做得较为全面,主要是依靠此前收购的</span>1<span style="font-family: 宋体;">号店,其次,沃尔玛在山姆会员店也开辟了网上商城,这在行业内都算做出了规模。”一位不愿具名的业内人士评价道,“从前超市感受不到电商对服装、鞋帽等耐用消费品的冲击。但当食品类、日化类产品纷纷沦陷,最后的生鲜食品也作为一个品类上线时,传统超市面临的冲击才刚开始。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">虽然生鲜电商有着比传统电商的优势,但冷链配送还是最大的瓶颈,如何在二、三、四线城市普及,除了电商们的努力,还需要依靠物流业快速发展的带动。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">同时,前期采购投入巨大、报废率高也让很多电商望而却步,而培养消费者群也非一日之功,说到底,生鲜电商要真正撼动传统超市零售的市场份额,仍有很长的路要走。(陆琨倩</span><span style="font-family: 宋体;">许莉芸)</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">【马云再叫板王健林,任志强加入战局】</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">去年</span>12<span style="font-family: 宋体;">月,马云曾与万达董事长王健林就“</span>10<span style="font-family: 宋体;">年后电商在中国零售市场份额能否攀至</span>50%<span style="font-family: 宋体;">”设下</span>1<span style="font-family: 宋体;">亿元赌局。马云说:“如果王健林赢了,那就是我们的社会输了,如果房地产一直是我们的经济支柱,我们将输掉我们这一代人的幸福。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">今年“双</span>11<span style="font-family: 宋体;">”,在天猫创出</span>350<span style="font-family: 宋体;">亿的天文数字后,马云又再出狂言称,相信网购的力量可以把房价、物价打压下来。马云的逻辑是,当大家都选择网上购物时,传统商业形态的销售量就会减少,进而商业地产价格就会降低。更进一步,商业地产房价下来了,房租成本也就下降,也就会带动整个社会消费品价格降低。对马云关于网购能打压房价的“狂言”,任志强却冷笑:</span>300<span style="font-family: 宋体;">亿也就是几块地钱,全国每天平均房屋销售超过</span>150<span style="font-family: 宋体;">亿……</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">马云和王健林赌局不断升级</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">赌局重温</span></p><p style="text-indent: 28px; margin-bottom: 21px;">2012<span style="font-family: 宋体;">年</span>12<span style="font-family: 宋体;">月,来自电商行业和传统商铺领域的两位大佬——马云和王健林对未来下了一个亿元赌局。双方约定</span>2020<span style="font-family: 宋体;">年,如果电商在中国零售市场份额占</span>50%<span style="font-family: 宋体;">,王健林将给马云一个亿,如果没达到马云还王健林一个亿。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">赌局加码</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">“双</span>11<span style="font-family: 宋体;">”期间,马云表示:“</span>(<span style="font-family: 宋体;">今年双十一</span>)<span style="font-family: 宋体;">成交额</span>300<span style="font-family: 宋体;">亿不是问题。我并不关心数字,而是希望借助市场的力量将房价打下去。”马云还说,如果王健林赢了,那就是我们的社会输了,如果房地产一直是我们的经济支柱,我们将输掉我们这一代人的幸福。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">赌局升级</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">面对马云对地产商与房价权威的挑战,地产大佬任志强加入调侃队伍。任志强用微博发表评论称,</span>300<span style="font-family: 宋体;">亿也就是几块地钱。并指出,全国每天平均房屋销售超过</span>150<span style="font-family: 宋体;">亿。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">正方</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">线下将变成展示重点</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">在今年的“双</span>11<span style="font-family: 宋体;">”发布会上,面对赌局是否能赢的提问,马云并没有正面予以回应,只是表示,</span>300<span style="font-family: 宋体;">亿元不是问题,自己并不关心数字,而是希望借助市场的力量将房价打下去。“现在很多商场里的服务员比顾客多。企业家很聪明,当产业升级、网购起来后,不会把商业区作为重要投资,边上的居民区成本也会降下来,让中国物价通过市场手法调节。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">从逻辑上看,马云的观点可以自圆其说。目前,服装、衣帽、数码家电等领域的电商成熟度已经非常高,对这些传统行业的线下商业模式已经产生了巨大冲击。“苏宁、国美都在发力电商业务,以往他们是靠在线下抢门店,未来这种趋势肯定要改变。线下将变成展示重点,而以往选择商业旺地来布点的模式,也可能会像体验店、小型化、个性化,甚至社区化的方向变化。”曾经从事连锁商业拓展的李先生对记者解释。“以往一些商业地产也依靠这些大连锁商业的进驻来带旺人气,如果连锁商业选址变化,对于商业地产也肯定有影响。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">观察</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">电商进入门槛会越来越高</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">记者了解到,依靠互联网平台的确可以降低渠道和人工成本,电商的门槛也更低。“但现在的电商市场竞争也同样激烈,想从网上赚钱,获取高额利润率也并不容易。”从事了</span>5<span style="font-family: 宋体;">年服装经营的淘宝店主王小姐告诉记者,她的网店主要做外贸服装。“我的单件衣服平均价格不到</span>100<span style="font-family: 宋体;">元,纯利润以前有</span>20<span style="font-family: 宋体;">%左右,现在只有</span>10<span style="font-family: 宋体;">%。除了因为业务量增长增加客服外,现在网上的客流转化成本也很高,各类广告投放后,单客的平均成本也在</span>0.5<span style="font-family: 宋体;">元-</span>0.8<span style="font-family: 宋体;">元。如果不做广告,太多的网店就会分流我们的客户。”不过,在淘宝内部人士看来,电商市场做大,竞争加剧,利润摊薄是正常的现象,“就好像成熟的商业中心,租金肯定比那些冷僻、新开的场子要贵。而且,以前大家上网买东西是买便宜货,但越来越多的人需要有个性、品质和创意的商品,而这些商户会更有前景和生命力。这需要商业模式的创新,而不能只依赖平台。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">反方</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">传统商铺仍有不可替代性</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">究竟电商会不会影响传统商铺?记者采访了广州商业地产人士均认为,虽然电子商业对传统商业已带来不少的冲击,广州部分路段的商铺租金在近期出现滞涨。但电商是不可能完全替代传统商业。在电商冲击下,传统商业将向更注重与消费者的互动体验式消费变革;。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">电子商务难撼房价</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">信盈集团经营部总监刘雄指出,在当前指望用电商来降房价实现不了。首先,对商业来说,地段是决定性的因素,身居热闹的旺区中或城市发展核心区,始终有旺盛生命力。面对电商的冲击,商场可转型餐饮娱乐等体验式消费,这是电商不可能替代的。另一方面,房地产不是单纯的市场供需关系。地方财政需要,其他行业也需要它,所以房价下不下降,不是电商能撼动得了的。</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">小面积主题商铺或难过</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">中原地产商铺部总监法永能指出,“电子商务发展迅猛,那些以廉价商品为主的格仔铺,或者是小商品、工艺品的零售市场,一定会受到较大的冲击。毕竟这些十几二十元的东西,估计以后大多数人都会直接在网上卖,所以从投资的角度看,前几年流行的小面积主题商铺,若没有变革的话,以后的日子会难过。而一些黄金地带或者具有较强发展前景的核心商圈商铺,则仍会成为投资回报稳定向上的好选择。所以不管电商如何来势汹汹,好的商铺,依然会是长线投资的好选择。”</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">观察</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">物流仓储投资现商机</span></p><p style="text-indent: 28px; margin-bottom: 21px;"><span style="font-family: 宋体;">电子商务的快速发展直接带动物流业腾飞,“电子商务发展越快,对物流仓储的需求也必然就会越来越大。所以说,仓储物流也将成为未来一大投资新热点。”美联物业广州工商铺副总监劳耀波介绍说,“以前广州不少三四线街区或者是社区内非主干道的裙楼商铺都很难出租。但随着电商的快速发展,主要为网购服务的快递公司对仓库的需求越来越大,三四线街区或社区非主干道街区的裙楼商铺因为交通相对仍较方便而租金便宜,特别受欢迎。这也给曾经门面清冷的非主干道的裙楼商铺带来了生机。对预算不多的投资客来说,这一类商铺也不失是个好选择。</span></p><p style="white-space: normal;">【来源:新快报】</p><p style="white-space: normal;"><br /></p><p style="white-space: normal;">//关于我们//</p><p style="white-space: normal;"><span style="text-indent: 2em;"><br /></span></p><p style="white-space: normal;">&nbsp; &nbsp; 作为互联网金融研究的前沿阵地,本平台依托专业的投研团队及媒体资料库,每天精选若干条内容客观翔实的互联网金融类资讯或报告,深度解读互联网金融发展的现状与趋势,达到促进经验分享、提升研究和业务水平的能力,以及推动实践开展的目的。</p><p style="white-space: normal;"><span style="text-indent: 2em;"><br /></span></p><p style="white-space: normal;">===========================================</p><p style="white-space: normal;">感谢关注公众微信:互联网金融</p><p style="white-space: normal;">我们的微信号是:webfinance</p><p style="white-space: normal;">您可以:<br />&nbsp; &nbsp; &nbsp;【回复“1”】关注行业热点</p><p style="white-space: normal;">&nbsp; &nbsp; &nbsp;【回复“2”】了解财经大势<br />&nbsp; &nbsp; &nbsp;【回复“3”】紧跟投资变化<br />&nbsp; &nbsp; &nbsp;【回复“4”】感受IT的力量</p><p style="white-space: normal;"><br /></p><p style="white-space: normal;">如果您有好文章愿意与我们分享交流,可发稿到</p><p style="white-space: normal;">web-finance@163.com,并告诉我们您的姓名及所在单位,一旦为我们选用,我们将在发布的文章内,公开表示对您推荐分享的感谢。也请推荐更多的朋友关注或添加!</p><p style="white-space: normal;"><span style="text-indent: 32px;"><br /></span></p><p style="white-space: normal;"><span style="text-indent: 32px;">关注我们后,您可以直接在主对话框内给我们留言,告诉我们您的姓名与所在机构,以及您感兴趣的话题。我们将根据您的具体需求及要求,陆续安排您加入不同的内部交流圈子群,并组织相关沙龙、讨论会等线下交流活动。</span></p><p style="white-space: normal;"><span style="color: rgb(51, 51, 51); line-height: 24px; font-family: 宋体; font-size: 14px; background-color: rgb(231, 240, 247);"><img src="http://image67.360doc.com/DownloadImg/2013/11/1918/36832376_1" /></span></p><p style="white-space: normal;"><span style="color: rgb(51, 51, 51); line-height: 24px; font-family: 宋体; font-size: 14px; background-color: rgb(231, 240, 247);"><br /></span></p><p><br /></p> </td> 
+                      </tr> 
+                     </tbody> 
+                    </table> 
+                    <div id="viewerPlaceHolder" style="width: 717px; height: 700px; display: none;"> 
+                    </div> </span> 
+                   <table> 
+                    <tbody> 
+                     <tr> 
+                      <td></td> 
+                     </tr> 
+                    </tbody> 
+                   </table> </td> 
+                 </tr> 
+                 <tr> 
+                  <td align="left"> <a name="anchordoc1" id="anchordoc1"></a> 
+                   <div style="height: 28px"> 
+                    <div style="font-size: 14px; color: #797b7a; float: left;">
+                      来自:
+                     <span class="name" onclick="wzhitnew(59)"><a href="http://www.360doc.com/userhome/14475422" target="_blank">xbyu0</a></span>&nbsp;&gt;&nbsp;
+                     <span id="cname" onclick="wzhitnew(60)"></span> 
+                    </div> 
+                    <div style="float: left;"> 
+                     <div class="btzctsg" id="spanfollowstatus1"> 
+                     </div> 
+                     <script>isfollow(14475422);</script> 
+                    </div> 
+                    <div style="float: left;"> 
+                     <div class="ytdh1">
+                      <a onclick="doctalk();wzhitnew(107);" href="javascript:void(0)"></a>
+                     </div> 
+                    </div> 
+                   </div> 
+                   <div> 
+                    <div class="modlist lf360 list" style="padding-top: 0px;"> 
+                     <ul> 
+                      <div id="lastart"> 
+                      </div> 
+                      <div id="nextart"> 
+                      </div> 
+                     </ul> 
+                    </div> 
+                   </div> </td> 
+                 </tr> 
+                 <tr> 
+                  <td align="left"> 
+                   <div style="padding-top: 12px;"> 
+                    <div id="docAdBelowContent"> 
+                    </div> 
+                   </div> </td> 
+                 </tr> 
+                 <tr> 
+                  <td style="text-align: left;"> 
+                   <div style="padding-top: 15px; width: 670px;"> 
+                    <table style="width: 670px;" cellpadding="0" cellspacing="0"> 
+                     <tbody> 
+                      <tr> 
+                       <td style="width: 530px;"> 
+                        <div class=" lf360" style="cursor: pointer" onmouseover="ChangeBtnStyle(1);" onmouseout="ChangeBtnStyle(2);"> 
+                         <div class="zscbt"> 
+                          <a href="javascript:void(0);" onclick="SaveArt();wzhitnew(26);"> 
+                           <div id="zscbtword" class="lf360 xianhua" style="padding-left: 38px;">
+                             转藏到我的图书馆 
+                           </div> </a> 
+                         </div> 
+                        </div> 
+                        <div style="margin-left: 10px; cursor: pointer;" class="lf360 xhmainbox" id="sendflowerdiv" onclick="Showflowerlayer(&quot;sendedLayer1&quot;);wzhitnew(27)" onmouseover="ChangeFlowerBtnStyle(1);" onmouseout="ChangeFlowerBtnStyle(2);"> 
+                         <div id="flowimg2" class="lf360"> 
+                          <div style="padding-left: 10px; padding-top: 10px;"> 
+                           <img id="flowimg3" src="http://pubimage.360doc.com/wz/huahuanew.gif" /> 
+                          </div> 
+                         </div> 
+                         <div id="flowimg5" class=" lf360 xianhua">
+                           献花(
+                          <span id="articleflowernum">0</span>)
+                          <div id="flowernumadd" class="addtionone">
+                            +1 
+                          </div> 
+                         </div> 
+                        </div> 
+                        <div class="lf360" style="cursor: pointer; padding-left: 10px;" onmouseover="ChangeBtnStyle(3);" onmouseout="ChangeBtnStyle(4);"> 
+                         <div class="fxwxbt"> 
+                          <a href="javascript:void(0);" onclick="shareWeixin();wzhitnew(64);"> 
+                           <div id="fxwxword" class="lf360 xianhua" style="padding-left: 38px;">
+                             分享到微信 
+                           </div> </a> 
+                         </div> 
+                        </div> 
+                        <div class="lf360" style="cursor: pointer; padding-left: 10px;" onmouseover="ChangeBtnStyle(5);" onmouseout="ChangeBtnStyle(6);"> 
+                         <div class="ywzwbt"> 
+                          <a id="ywzwa" href=" http://www.baidu.com/s?wd=%e7%94%b5+%e4%ba%92%e8%81%94%e7%bd%91+%e5%ae%b6%e5%b1%85&amp;tn=SE_hldp01010_6r0gix1f" onclick="wzhitnew(100);" target="_blank"> 
+                           <div id="ywzwword" class="lf360 xianhua" style="padding-left: 44px;">
+                             以文找文 
+                           </div> </a> 
+                         </div> 
+                        </div> </td> 
+                       <td style="vertical-align: bottom; font-size: 12px;" width="140"> 
+                        <div class="rt360" id="sharediv2"> 
+                        </div> </td> 
+                      </tr> 
+                     </tbody> 
+                    </table> 
+                   </div> </td> 
+                 </tr> 
+                 <tr> 
+                  <td height="10"></td> 
+                 </tr> 
+                </tbody> 
+               </table> </td> 
+             </tr> 
+            </tbody> 
+           </table> </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <div class="lswzbox" style="padding-top: 10px;"> 
+        <div> 
+         <table cellpadding="0" cellspacing="0"> 
+          <tbody> 
+           <tr> 
+            <td width="330" valign="top"> 
+             <div class="lswz" style="height: 300px;"> 
+              <div class="lstwtop"> 
+               <div class="lswztit"> 
+                <div class=" lf360"> 
+                 <div class="titwx1">
+                   类似文章 
+                 </div> 
+                </div> 
+                <div class="rt360" style="padding-top: 5px; padding-right: 9px;"> 
+                 <a href="http://www.360doc.com/relevant/330559769_more.shtml" target="_blank" onclick="wzhitnew(38)">更多</a> 
+                </div> 
+               </div> 
+               <div class="modlist2 list"> 
+                <ul> 
+                 <li style="height: 30px; line-height: 30px;"><span> <a href="http://www.360doc.com/content/13/1112/10/5052258_328566710.shtml" target="_blank" onclick="wzhitnew(37)">阿里巴巴“双十一”交易额突破350亿,创...</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span> <a href="http://www.360doc.com/content/13/1106/09/535749_327063148.shtml" target="_blank" onclick="wzhitnew(37)">今日嗅评:天猫被线下家居卖场抵制是设想....</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span> <a href="http://www.360doc.com/content/13/1205/10/3528518_334625681.shtml" target="_blank" onclick="wzhitnew(37)">互联网焦虑症:控制与权威都失去意义?</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span> <a href="http://www.360doc.com/content/13/1204/17/10853593_334458707.shtml" target="_blank" onclick="wzhitnew(37)">民生电商:只做电子商务和互联网金融</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span> <a href="http://www.360doc.com/content/13/1015/23/73839_321745952.shtml" target="_blank" onclick="wzhitnew(37)">传统百货业: 死了做电商的心吧!</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span> <a href="http://www.360doc.com/content/14/0102/21/14823257_342155680.shtml" target="_blank" onclick="wzhitnew(37)">互联网金融潮:“余额宝”们搅动一池春水....</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span> <a href="http://www.360doc.com/content/13/1110/13/11407962_328121919.shtml" target="_blank" onclick="wzhitnew(37)">来看看今年双11销售可能过亿的土豪们! ...</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span> <a href="http://www.360doc.com/content/13/1214/10/160920_337044421.shtml" target="_blank" onclick="wzhitnew(37)">阿里巴巴三年后将被抛弃?</a></span></li> 
+                </ul> 
+               </div> 
+              </div> 
+             </div> </td> 
+            <td width="330" valign="top"> 
+             <div class="lswz" style="margin-left: 9px; height: 300px;"> 
+              <div class="lstwtop"> 
+               <div class="lswztit"> 
+                <div class=" lf360"> 
+                 <div class="titwx1">
+                   热搜文章 
+                 </div> 
+                </div> 
+                <div class="rt360" style="padding-top: 5px; padding-right: 9px;"> 
+                </div> 
+               </div> 
+               <div class="modlist2 list"> 
+                <ul> 
+                 <li style="height: 30px; line-height: 30px;"><span><a href="http://www.baidu.com/s?wd=%e4%b8%ad%e5%9b%bd%e4%ba%ba%e7%9a%84%e6%99%ba%e6%85%a7%ef%bc%9a%e6%b1%89%e5%ad%97%e9%9a%90%e8%97%8f%e7%9a%84%e4%ba%ba%e7%94%9f%e5%93%b2%e7%90%86&amp;tn=SE_hldp01010_6r0gix1f" target="_blank" onclick="wzhitnew(106)">中国人的智慧:汉字隐藏的人生哲理</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span><a href="http://www.baidu.com/s?wd=%e6%96%87%e9%9d%a9%e4%b8%ad%e5%90%ab%e5%86%a4%e8%87%aa%e6%9d%80%e7%9a%84%e5%90%8d%e5%a5%b3%e4%ba%ba%e4%bb%ac+%e7%94%a8%e7%94%9f%e5%91%bd%e6%8d%8d%e5%8d%ab%e5%b0%8a%e4%b8%a5&amp;tn=SE_hldp01010_6r0gix1f" target="_blank" onclick="wzhitnew(106)">文革中含冤自杀的名女人们 用生命捍卫尊严</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span><a href="http://www.baidu.com/s?wd=%e6%8f%8f%e5%86%99%e6%98%a5%e5%a4%a9%e7%9a%84%e8%af%97%e8%af%8d%e5%90%8d%e5%8f%a5+%e7%bb%86%e7%bb%86%e5%93%81%e8%af%bb%ef%bc%8c%e6%96%b9%e7%9f%a5%e6%98%a5%e5%a4%a9%e4%b9%8b%e7%be%8e&amp;tn=SE_hldp01010_6r0gix1f" target="_blank" onclick="wzhitnew(106)">描写春天的诗词名句 细细品读,方知春天之...</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span><a href="http://www.baidu.com/s?wd=%e4%b8%ad%e5%9b%bd%e7%9a%84%e4%ba%8c%e5%8d%81%e5%a4%a7%e5%9b%bd%e7%b2%b9%ef%bc%8c%e6%88%91%e4%bb%ac%e6%96%87%e5%8c%96%e4%b8%ad%e7%9a%84%e7%b2%be%e5%8d%8e%ef%bc%8c%e4%bd%a0%e9%83%bd%e7%9f%a5%e9%81%93%e6%98%af%e4%bb%80%e4%b9%88%e5%90%97%ef%bc%9f&amp;tn=SE_hldp01010_6r0gix1f" target="_blank" onclick="wzhitnew(106)" title="中国的二十大国粹,我们文化中的精华,你都知道是什么吗?">中国的二十大国粹,我们文化中的精华,你...</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span><a href="http://www.baidu.com/s?wd=%e8%8b%a5%e5%8f%aa%e7%94%a890%e5%88%86%e9%92%9f%e5%b0%b1%e8%83%bd%e5%ae%8c%e6%88%90%e5%85%a8%e5%a4%a9%e5%b7%a5%e4%bd%9c%2c%e5%b0%86%e4%bc%9a%e6%80%8e%e6%a0%b7%3f%e6%97%b6%e9%97%b4%e7%ae%a1%e7%90%86%e4%b8%8d%e5%8f%aa%e6%98%af%e5%8f%a3%e5%8f%b7&amp;tn=SE_hldp01010_6r0gix1f" target="_blank" onclick="wzhitnew(106)" title="若只用90分钟就能完成全天工作,将会怎样?时间管理不只是口号">若只用90分钟就能完成全天工作,将会怎样?...</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span><a href="http://www.baidu.com/s?wd=%e6%89%8b%e8%87%82%e5%88%ae%e7%97%a7%e5%87%8f%e8%82%a5%3a%e5%91%8a%e5%88%ab%e8%9d%b4%e8%9d%b6%e8%a2%96%e6%8e%b0%e6%8e%b0%e8%82%89%2c%e6%89%8b%e8%87%82%e8%82%a5%e8%83%96%e4%b9%8b%e5%90%8e%e6%80%8e%e4%b9%88%e5%8a%9e&amp;tn=SE_hldp01010_6r0gix1f" target="_blank" onclick="wzhitnew(106)" title="手臂刮痧减肥:告别蝴蝶袖掰掰肉,手臂肥胖之后怎么办">手臂刮痧减肥:告别蝴蝶袖掰掰肉,手臂肥胖...</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span><a href="http://www.baidu.com/s?wd=%e8%af%bb%e4%b9%a6%3a%e8%a6%81%e5%83%8f%e8%80%81%e5%87%ba%e7%a7%9f%e8%bd%a6%e5%8f%b8%e6%9c%ba%e5%af%b9%e5%9f%8e%e5%b8%82%e7%9a%84%e7%86%9f%e6%82%89%e7%a8%8b%e5%ba%a6%e4%b8%80%e6%a0%b7&amp;tn=SE_hldp01010_6r0gix1f" target="_blank" onclick="wzhitnew(106)">读书:要像老出租车司机对城市的熟悉程度一...</a></span></li> 
+                 <li style="height: 30px; line-height: 30px;"><span><a href="http://www.baidu.com/s?wd=%e9%a1%be%e5%ae%a2%e8%bf%9b%e5%ba%97100%25%e7%bb%9d%e5%af%b9%e6%88%90%e4%ba%a4%2c%e5%88%ab%e6%80%aa%e6%88%91%e6%b2%a1%e6%8f%90%e9%86%92%e4%bd%a0%2c%e4%b8%8d%e6%94%b6%e8%97%8f%e6%98%af%e4%bd%a0%e7%9a%84%e6%8d%9f%e5%a4%b1&amp;tn=SE_hldp01010_6r0gix1f" target="_blank" onclick="wzhitnew(106)" title="顾客进店100%绝对成交,别怪我没提醒你,不收藏是你的损失">顾客进店100%绝对成交,别怪我没提醒你,不...</a></span></li>
+                </ul> 
+               </div> 
+              </div> 
+             </div> </td> 
+           </tr> 
+          </tbody> 
+         </table> 
+         <div style="background-color: #fafafa; width: 670px; height: 317px; margin-top: 10px;"> 
+          <div style=" padding-top:7px; padding-left:12px; height:182px;"> 
+           <div style=" height:30px;">
+            <div class="titwx3 lf360">
+             猜你喜欢
+            </div>
+            <div class=" rt360" style=" padding-right:18px;">
+             <img onclick="changefiveart(&quot;19999&quot;,&quot;19999&quot;);wzhitnew(62);" src="http://pubimage.360doc.com/wz/hyz.gif" onmouseover="this.src=&quot;http://pubimage.360doc.com/wz/hyza.gif&quot;" onmouseout="this.src=&quot;http://pubimage.360doc.com/wz/hyz.gif&quot;" width="76" height="24" style="cursor:pointer;" />
+            </div>
+           </div>
+           <table cellpadding="0" cellspacing="0">
+            <tbody>
+             <tr id="fivearttdid">
+              <td valign="top" width="131">
+               <div>
+                <a onclick="wzhitnew(39);" href="http://www.360doc.com/content/13/1226/01/1680289_340150687.shtml" target="_blank"><img src="http://artpic.360doc.com/14/0107/10/340150687_201401071034300639.jpg" width="114" height="86" /></a>
+               </div>
+               <div class="lan twentit">
+                <a onclick="wzhitnew(40);" href="http://www.360doc.com/content/13/1226/01/1680289_340150687.shtml" target="_blank">招待客人必学:详细教你切出各种漂亮有...</a>
+               </div></td>
+              <td valign="top" width="131">
+               <div>
+                <a onclick="wzhitnew(39);" href="http://www.360doc.com/content/14/1119/09/6026123_426328587.shtml" target="_blank"><img src="http://artpic2.360doc.com/14/1129/15/426328587_201411291532340017.jpg" width="114" height="86" /></a>
+               </div>
+               <div class="lan twentit">
+                <a onclick="wzhitnew(40);" href="http://www.360doc.com/content/14/1119/09/6026123_426328587.shtml" target="_blank">硬币竟然能快速祛除鞋臭</a>
+               </div></td>
+              <td valign="top" width="131">
+               <div>
+                <a onclick="wzhitnew(39);" href="http://www.360doc.com/content/13/1203/21/9121025_334244390.shtml" target="_blank"><img src="http://artpic.360doc.com/13/1209/08/9121025_201312090822490249_a334244390.jpg" width="114" height="86" /></a>
+               </div>
+               <div class="lan twentit">
+                <a onclick="wzhitnew(40);" href="http://www.360doc.com/content/13/1203/21/9121025_334244390.shtml" target="_blank">教你如何再长高</a>
+               </div></td>
+              <td valign="top" width="131">
+               <div>
+                <a onclick="wzhitnew(39);" href="http://www.360doc.com/content/13/0218/08/1542087_266266617.shtml" target="_blank"><img src="http://artpic.360doc.com/13/0828/17/1542087_201308281738240353.jpg" width="114" height="86" /></a>
+               </div>
+               <div class="lan twentit">
+                <a onclick="wzhitnew(40);" href="http://www.360doc.com/content/13/0218/08/1542087_266266617.shtml" target="_blank">超搞笑电影全集</a>
+               </div></td>
+              <td valign="top" width="131">
+               <div>
+                <a onclick="wzhitnew(39);" href="http://www.360doc.com/content/14/0415/18/10983756_369249922.shtml" target="_blank"><img src="http://artpic.360doc.com/14/0519/01/369249922_201405190146500431.jpg" width="114" height="86" /></a>
+               </div>
+               <div class="lan twentit">
+                <a onclick="wzhitnew(40);" href="http://www.360doc.com/content/14/0415/18/10983756_369249922.shtml" target="_blank">一张图告诉你140首好听的英语歌曲</a>
+               </div></td>
+             </tr>
+            </tbody>
+           </table>
+          </div> 
+          <div style="padding-left: 12px;"> 
+           <iframe marginwidth="0" marginheight="0" frameborder="0" scrolling="no" width="650" height="100" src="http://www.360doc.com/ad/artadali4.html?t=2014012301"></iframe> 
+          </div> 
+          <div id="adabtest"> 
+          </div> 
+         </div> 
+         <div id="Reflction" style="padding-top: 15px; padding-left: 15px;"> 
+          <div id="360docRefTN"> 
+          </div> 
+          <div id="360docRefCT"> 
+          </div> 
+          <div id="360docRefPB" align="center"> 
+          </div> 
+         </div> 
+         <a name="sf"></a> 
+         <div id="ReflectionPart"> 
+          <div style="height: 206px; margin: 0px 0px;"> 
+           <div class="plbox"> 
+            <div class="plmain"> 
+             <div class="titwx" style="height: 23px;">
+               发表评论: 
+             </div> 
+             <textarea name="SendRefTB" id="SendRefTB" style="width: 100%; height: 75px; border: 1px solid #e7e7e7; background-color: #fff; overflow: auto; font-size: 12px;" onfocus="testContent(1);" onblur="testContent(2)"></textarea> 
+             <div style="text-align: right; padding-right: 3px; padding-top: 6px;"> 
+              <div class="huifubt"> 
+               <a id="ImgSendPL" href="javascript:void(0);"></a> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td align="center" valign="top" width="18px"></td> 
+      <td align="left" valign="top" width="252px"> 
+       <div style="height: 98px" id="artrightad1"> 
+       </div> 
+       <div id="artrightnewarticle" class="remenwz" style="height:219px;">
+        <div class="rementop">
+         <div class="titwx" style=" padding-top:10px; padding-left:24px;">
+          最新文章
+         </div>
+        </div>
+        <div class="modlist3 list" style=" padding-left:15px;">
+         <ul>
+          <li><span><a href="http://www.360doc.com/content/15/0328/18/14475422_458764580.shtml" target="_blank" onclick="wzhitnew(51)">这一代的上海</a></span></li>
+          <li><span><a href="http://www.360doc.com/content/15/0328/18/14475422_458764517.shtml" target="_blank" onclick="wzhitnew(51)">这一代的上海</a></span></li>
+          <li><span><a href="http://www.360doc.com/content/15/0328/18/14475422_458764045.shtml" target="_blank" onclick="wzhitnew(51)">当你缺钱困难时……</a></span></li>
+          <li><span><a href="http://www.360doc.com/content/15/0328/18/14475422_458763783.shtml" target="_blank" onclick="wzhitnew(51)">新版《清明上可图》这要逆天了!太现...</a></span></li>
+          <li><span><a href="http://www.360doc.com/content/15/0328/17/14475422_458750928.shtml" target="_blank" onclick="wzhitnew(51)">深度思考比勤奋工作更重要</a></span></li>
+          <li><span><a href="http://www.360doc.com/content/15/0328/17/14475422_458750185.shtml" target="_blank" onclick="wzhitnew(51)">即将改善我们生活的10项重大发明</a></span></li>
+         </ul> 
+         <div class=" rt360" style=" padding-right:23px;">
+          <a href="http://www.360doc.com/userhome/14475422" target="_blank" onclick="wzhitnew(52);">更多</a>
+         </div>
+        </div>
+       </div>
+       <div class="both" style="padding-top: 10px; height: 260px;"> 
+        <iframe id="ifartad1" height="250px" width="250px" frameborder="0" scrolling="no"></iframe> 
+        <div style="height: 10px;"> 
+        </div>
+       </div>
+       <div class="remenwz" id="artrighthotarticle"> 
+        <div class="rementop"> 
+         <div class="titwx" style="padding-top: 10px; padding-left: 24px;">
+           热门文章
+         </div> 
+        </div> 
+        <div class="modlist3 list" style="padding-left: 15px;"> 
+         <ul> 
+          <li><span> <a href="http://www.360doc.com/content/15/0116/16/9322809_441343511.shtml" target="_blank" onclick="wzhitnew(55)">田英章书法选 12345大集合</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/15/0113/21/9322809_440536427.shtml" target="_blank" onclick="wzhitnew(55)">人际要诀</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/1106/07/10927465_422864857.shtml" target="_blank" onclick="wzhitnew(55)">不能爱你!不能舍你!!!</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/1104/20/6987213_422534321.shtml" target="_blank" onclick="wzhitnew(55)">大厨教你秘制家常小菜160道</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/0330/10/4706327_364872711.shtml" target="_blank" onclick="wzhitnew(55)">美国的潜规则,看完很震撼!!</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/0913/06/535749_409075460.shtml" target="_blank" onclick="wzhitnew(55)">从世界上最富有的人身上学到的7个经验</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/0204/09/8457866_349693543.shtml" target="_blank" onclick="wzhitnew(55)">来年我们依然深情的相守</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/15/0302/19/16957824_452039661.shtml" target="_blank" onclick="wzhitnew(55)">12道蘑菇菜</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/0617/23/9539013_387623913.shtml" target="_blank" onclick="wzhitnew(55)">复旦大学出品:科学择偶指南</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/0308/08/8071329_358697461.shtml" target="_blank" onclick="wzhitnew(55)">十大被误读的俗语</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/0115/14/286397_345456742.shtml" target="_blank" onclick="wzhitnew(55)">真正顶级A片 值得收藏欣赏</a></span></li> 
+          <li><span> <a href="http://www.360doc.com/content/14/1226/09/11744440_435836969.shtml" target="_blank" onclick="wzhitnew(55)">我那有缺陷的完美父亲</a></span></li> 
+         </ul> 
+         <div class=" rt360" style="padding-right: 23px;"> 
+          <a href="http://www.360doc.com/readroom.html" target="_blank" onclick="wzhitnew(56)">更多&gt;&gt;</a>
+         </div> 
+        </div>
+       </div>
+       <div class="both" style="padding-top: 10px;"> 
+        <iframe id="ifartad2" height="250px" width="250px" frameborder="0" scrolling="no"></iframe>
+       </div><br /> <iframe id="ifartrightsogou" height="328px" width="250px" frameborder="0" scrolling="no"></iframe><script>    function change(pro_name, i) {        var pro = document.getElementById(pro_name);         var pro_arr = pro.getElementsByTagName("span");        for (var m = 0; m < pro_arr.length; m++) {            pro_arr[m].className = "unclecked link_black";        }        pro_arr[i].className = "checked link_bai";        if (i == 1) {            document.getElementById("qh_ul_1").style.display = "";            document.getElementById("qh_ul_0").style.display = "none";        }        else if (i == 0) {            document.getElementById("qh_ul_1").style.display = "none";            document.getElementById("qh_ul_0").style.display = "";        }    }</script> 
+       <div class="both" id="divad5" style="padding-top: 11px; zoom: 1;"> 
+        <div id="divad4" style="display: none;"> 
+         <div> 
+          <iframe id="ifartad" height="250px" width="250px" frameborder="0" scrolling="no"></iframe> 
+         </div> 
+         <div class="ggwz"> 
+          <a href="javascript:void(0);" onclick="closead(2);">关闭</a> 
+         </div> 
+         <div style="height: 13px;"> 
+         </div> 
+        </div> 
+        <div style="clear: both; display: none;" id="divad6"> 
+         <div id="adfloatbaidu"> 
+          <iframe id="ifartadfloadbaidu" height="250px" width="250px" frameborder="0" scrolling="no"></iframe> 
+         </div> 
+         <div class="ggwz"> 
+          <a href="javascript:void(0);" onclick="closead(3);">关闭</a> 
+         </div> 
+         <div style="height: 13px;"> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr> 
+    </tbody> 
+   </table> 
+  </div> 
+  <input type="hidden" id="docarttitle" value="%e5%93%aa%e4%ba%9b%e8%a1%8c%e4%b8%9a%e6%9c%aa%e8%a2%ab%e4%ba%92%e8%81%94%e7%bd%91%e6%89%93%e8%b4%a5" /> 
+  <input type="hidden" id="artreadroomid" value="0" /> 
+  <script>var asw='%e7%94%b5+%e4%ba%92%e8%81%94%e7%bd%91+%e5%ae%b6%e5%b1%85'</script> 
+  <div id="docdiviframe"></div> 
+  <script language="javascript" type="text/javascript">        var appName = navigator.appName.toLowerCase();        if (appName.indexOf("microsoft internet explorer") > -1) {            document.write("<scr" + "ipt type='text/javascript' src='http://www.360doc.com/js/StickySystemIE20130911.js?t=2015041601'></sc" + "ript>");        }        else {            document.write("<scr" + "ipt type='text/javascript' src='http://www.360doc.com/js/StickySystemOther20130911.js?t=2015041601'></sc" + "ript>");        }    </script> 
+  <script>GerLookingUserInfo(1,14475422,1,0,'-1',-1,10,0);OutputSource('http%3a%2f%2fmp.weixin.qq.com%2fmp%2fappmsg%2fshow%3f__biz%3dMjM5MjQ0NjQ5Mw%253D%253D%26amp%3bappmsgid%3d10001782%26amp%3bitemidx%3d5%26amp%3bsign%3dc012db0bbae4e8806eb775ba4eecc96d%26amp%3bscene%3d1');OutputCategory(14475422,31,'%e3%80%8a%e4%ba%92%e8%81%94%e7%bd%91%e3%80%8b');OutputLastNextArt('%e7%bd%91%e4%b8%8a%e8%b4%ad%e7%89%a9%e7%9f%a5%e8%af%86%e5%a4%a7%e6%b1%87%e6%80%bb%ef%bc%8c%e8%ae%a9%e4%bd%a0%e6%88%90%e4%b8%ba%e7%bd%91%e8%b4%ad%e8%a1%8c%e5%ae%b6','http://www.360doc.com/content/13/1117/22/14475422_330100884.shtml',0);OutputLastNextArt('%e5%9b%be%e8%a7%a3%e8%b4%a2%e7%bb%8f+%7c+%e4%b8%80%e5%9b%be%e5%91%8a%e8%af%89%e4%bd%a0%e2%80%9c%e6%af%94%e7%89%b9%e5%b8%81%e2%80%9d%e4%b8%ba%e4%bb%80%e4%b9%88%e8%bf%99%e4%b9%88%e7%ba%a2%ef%bc%9f','http://www.360doc.com/content/13/1122/06/14475422_331186260.shtml',1);</script> 
+  <script type="text/javascript">        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd86954201130d615136257dde062a503' type='text/javascript'%3E%3C/script%3E"));    </script> 
+  <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6857724" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=384393"></script> 
+  <script type="text/javascript">        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000);    </script> 
+  <!-- Baidu Button END --> 
+  <script src="http://bdimg.share.baidu.com/static/js/logger.js?cdnversion=384393"></script>
+ </body>
+</html>

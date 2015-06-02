@@ -48,9 +48,6 @@ public class WeixinCrawler extends Crawler {
             String searchKey = filterRule.replace('*', ' ');
             //使用该key在搜索引擎中搜索
             Document document = search(searchKey);
-            System.out.println(document);
-            document = downloader.document("http://weixin.sogou.com//weixin?query=新疆%20今晚%20地震&type=2&ie=utf-8&page=1&repp=1", Downloader.HTTP_GET);
-            System.out.println(document);
             //判断抓取的地址是否在白名单中, 在的话就不管了continue
             if (JudgeFilter.isMeetWhiteList(document.baseUri())) {
                 continue;

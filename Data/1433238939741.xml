@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html xmlns:wb="“http://open.weibo.com/wb”">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <title>电商VS传统市场 哪些行业未被互联网打败 - IT业界 - 21CN.COM</title>
+  <meta name="viewport" content="width=device-width, maximum-scale=2.0, user-scalable=yes" />
+  <meta name="keywords" content="双十一,支付宝,鞋帽市场,新闻图片,专题" />
+  <meta name="description" content="电子商务专家李成东分析认为,2011至2016年在线零售占社会消费品零售总额分别为4.2%、6.2%、9.1%、11.7%、14.1%、16.8%。在那些尚未被互联网打败的行业中,究竟是电商侵占传统行业的份额,还是传统行业自己革自己的命,完成线下往线上发展的涅槃重生,我们可以拭目以待。" /> 
+  <link rel="stylesheet" href="http://static.21cnimg.com/css/article/article_v20131012.css" />
+  <link rel="stylesheet" href="http://passport.21cn.com/css/index_20150305.css" />
+  <script type="text/javascript">  //智能跳转    function getcookie(name) {        var cookie_start = document.cookie.indexOf(name);        var cookie_end = document.cookie.indexOf(";", cookie_start);        return cookie_start == -1 ? '' : unescape(document.cookie.substring(cookie_start + name.length + 1, (cookie_end > cookie_start ? cookie_end : document.cookie.length)));    }    //ajax    function ajax(url,fnTip,fnSucc,FnFaild){        var oAjax=null;        if(window.XMLHttpRequest){            oAjax=new XMLHttpRequest();        }else{            oAjax=new ActiveXObject('Microsoft.XMLHTTP');        }        oAjax.open('GET',url,true);        oAjax.send('');        if(fnTip)fnTip();        oAjax.onreadystatechange=function(){            if(oAjax.readyState==4){                if(oAjax.status==200){                    if(fnSucc){fnSucc(oAjax.responseText)};                }else{                    if(FnFaild)FnFaild();                }            }        }    }    (function(){        var version='a';        var url=window.location.href;        var ua=getcookie('_UAI');        var apiUrl='/api/uapi/get.do?'+Math.random();        if( url.split('/')[2].split('.')[0].toLowerCase()!='3g')		{            if(ua!=''){                //a.1280x800                ua=ua.split('.')[0];                if(ua!=version){                    url=url.replace('/'+version+'/','/'+ua+'/');                    location.href=url;                }            }						else{                ajax(apiUrl,                        function(){},                        function(data){                            data= eval('(' + data + ')');                            if(data.subSite!=version){                                url=url.replace('/'+version+'/','/'+data.subSite+'/');                                location.href=url;                            }                        },                        function(){}                );            }        }				else if(url.split('/')[2].split('.')[0].toLowerCase()=='3g'&&version=="a")			{								 if(ua=="a.1280x800")				 {				             url=url.replace('/'+version+'/','/'+"zhnb"+'/');				}				else if(ua!=''){                ua=ua.split('.')[0];				url=url.replace('/'+version+'/','/'+ua+'/');				 location.href=url;				 }				}    })();</script>
+  <script>    document.domain = "21cn.com";    var arrHost = 'it.21cn.com'.split(".");    var strSite = arrHost[0];    ARTICLE_INFO = window.ARTICLE_INFO || {        site: strSite,        sect_id: 100073,        sect_name: 'IT业界',        title: '电商VS传统市场 哪些行业未被互联网打败',        operaId: 9415,        contentId: 25041617,        typeId: 100073,        article_url: 'http://it.21cn.com/itnews/a/2013/1116/02/25041617.shtml',        pubtime: '2013-11-16 02:13:56'    }    //function ResumeError() {return true;}window.onerror = ResumeError;</script>
+  <script type="text/javascript" src="http://static.21cnimg.com/lib/effect/modernizr.js"></script>
+  <script type="text/javascript" src="http://static.21cnimg.com/lib/jquery/jquery-1.7.2.min.js"></script>
+  <script>$(function(){	var leftH = $('#con_left').height();	var rightH = $('#house_right').height();	if(rightH > leftH){		$('#house_left').show();		}else{		$('#house_left').hide();		}});</script>
+  <script type="text/javascript" src="http://cloud.189.cn/source/js/libs/cookie/cookie.js?v=6.11.0"></script>
+  <script charset="gb2312" type="text/javascript" src="http://static.21cnimg.com/lib/do/do.min.js" data-cfg-autoload="false"></script>
+  <script type="text/javascript" src="http://static.21cnimg.com/js/article/util4adv.js"></script>
+  <!--赞组件-->
+  <!--<meta property="og:type" content="article" /><meta property="og:url" content="http://it.21cn.com/itnews/a/2013/1116/02/25041617.shtml" /><meta property="og:title" content="电商VS传统市场 哪些行业未被互联网打败" /><meta property="og:description" content="电子商务专家李成东分析认为,2011至2016年在线零售占社会消费品零售总额分别为4.2%、6.2%、9.1%、11.7%、14.1%、16.8%。在那些尚未被互联网打败的行业中,究竟是电商侵占传统行业的份额,还是传统行业自己革自己的命,完成线下往线上发展的涅槃重生,我们可以拭目以待。" />-->
+  <!--选填-->
+  <!--<meta property="og:image" content="" /><meta name="weibo: article:create_at" content="2013-11-16 02:13:56" /><meta name="weibo: article:update_at" content="2013-11-16 02:13:56" />-->
+  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script> 
+  <!--<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script><script type="text/javascript">    BAIDU_CLB_preloadSlots("707928","707929","707931","707932","707935","840729");</script>-->
+ </head>
+ <body>
+  <!-- AFP两段式代码-公用代码 --> 
+  <!--<script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script> <script>_acKOTL(1707,1713,1708,1709,1712,1716,1717,1718,1793,1827,1719,1715,"afp.21cn.com/");</script>-->
+  <!--<script>$(function(){	var x = $('.third').html();	$('#zq_third').append(x).show();});</script><div class="third" style="display:none;"><script type="text/javascript">//<![CDATA[        ac_as_id = 1710;        ac_format = 0;        ac_mode = 1;        ac_group_id = 1;        ac_server_base_url = "afp.21cn.com/";        //]]></script>        <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script></div>-->
+  <!--=S sitebar-->
+  <div class="site-bar" id="J_siteBar"> 
+   <div class="site-bar-bd clearfix"> 
+    <div class="left-col clearfix"> 
+     <ul class="main-nav clearfix"> 
+      <li><a href="http://www.21cn.com/" target="_blank">首页</a></li> 
+      <li><a href="http://news.21cn.com/" target="_blank">新闻</a></li> 
+      <li><a href="http://mil.21cn.com/" target="_blank">军事</a></li> 
+      <li><a href="http://finance.21cn.com/" target="_blank">财经</a></li> 
+      <li><a target="_blank" href="http://et.21cn.com/">娱乐</a></li> 
+      <li><a target="_blank" href="http://sports.21cn.com/">体育</a></li> 
+      <li><a target="_blank" href="http://auto.21cn.com/">汽车</a></li> 
+      <li><a target="_blank" href="http://it.21cn.com/">科技</a></li> 
+      <li><a target="_blank" href="http://house.21cn.com/">房产</a></li> 
+      <li><a target="_blank" href="http://edu.21cn.com/">教育</a></li> 
+      <li><a target="_blank" href="http://game.21cn.com/">游戏</a></li> 
+      <li><a target="_blank" href="http://she.21cn.com/">女人</a></li> 
+      <li><a target="_blank" href="http://life.21cn.com/">生活</a></li> 
+      <li class="ddl-widget" id="J_moreNav_dropDownMenu"> 
+       <div class="ddl-widget-outer"> 
+        <div class="ddl-widget-inner">
+         <span id="J_moreNav_txt">更多</span>
+         <b></b>
+        </div> 
+       </div> 
+       <ul id="J_moreNav_ddl" class="suggestion" style="width: 64px;"> 
+        <li class=""><a href="http://picture.21cn.com/" target="_blank">读图</a></li> 
+        <li class=""><a href="http://ts.21cn.com/" target="_blank">聚投诉</a></li> 
+       </ul> </li> 
+     </ul> 
+    </div> 
+    <div class="right-col" style="width:400px;"> 
+     <div class="fr"> 
+      <div id="J_login_update_panel" class="login-area"> 
+       <a class="login login_new" style="background:none;cursor: pointer;">用户中心</a> 
+      </div> 
+      <div class="ico-links"> 
+       <a title="免费邮箱" target="_blank" href="http://mail.21cn.com/" class="ico-mail">免费邮箱</a> 
+       <a title="新浪微博" target="_blank" href="http://e.weibo.com/21cnweibohui" class="ico-sina-weibo">新浪微博</a> 
+       <a title="腾讯微博" target="_blank" href="http://t.qq.com/t21cn" class="ico-tx-weibo">腾讯微博</a> 
+      </div> 
+     </div> 
+    </div> 
+   </div>
+  </div>
+  <div id="J_sitebar_bg"></div>
+  <div class="blank10"></div>
+  <div class="clearfix area"> 
+   <div class="col-main"> 
+    <div class="banner" id="iframe_hf1_box" style="display: none;"> 
+     <code> 
+      <!--BOF                <script type="text/javascript">                  document.write("<iframe id='iframe_end_hf1' name='iframe_end_hf1' src='http://shows.21cn.com/ashow?js=0&log=1&ref=1&pos=21cn|"+ARTICLE_INFO.site+"|end_hf1' width='650' height='130' frameborder='0' border='0' marginwidth='0' marginheight='0' scrolling='no' ></iframe>")                </script>                EOF--> </code> 
+    </div> 
+    <script type="text/javascript">            new AdRotator({maxTimes : 1, identifier : 'iframe_hf1_box'});        </script> 
+   </div> 
+   <div class="col-aside"> 
+    <div class="scroll-area-130"> 
+     <iframe width="300" scrolling="no" height="100" frameborder="0" marginheight="0" marginwidth="0" border="0" src="http://it.21cn.com/shtml/region/1/0/2163.html"></iframe> 
+    </div> 
+   </div>
+  </div>
+  <div class="blank25"></div>
+  <div class="channel-bar"> 
+   <div class="channel-bar-bd area clearfix"> 
+    <div class="col-main"> 
+     <h2 class="logo"><a href="http://it.21cn.com/" title="科技"><img src="http://static.21cnimg.com/css/article/bgimg/it-logo.png" alt="科技" /></a></h2> 
+     <div class="sub-nav"> 
+      <a href="http://it.21cn.com/discovery/">科学</a> 
+      <a href="http://it.21cn.com/ec/">电商</a> 
+      <a href="http://it.21cn.com/mobile/">手机</a> 
+      <a href="http://it.21cn.com/pad/">平板</a> 
+      <a href="http://it.21cn.com/jd/">家电</a> 
+      <a href="http://it.21cn.com/pc/">电脑</a> 
+      <a href="http://it.21cn.com/app/">应用</a> 
+      <a href="http://it.21cn.com/tel/">通信</a> 
+     </div> 
+    </div> 
+    <div class="col-aside"> 
+     <div class="cn-search clearfix"> 
+      <!--<form target="_blank" action="http://it.21cn.com/api/article/search.do" method="post">                                  <input type="text" style="width: 258px;" value="" class="cn-input placeholder" name="keywords"                           placeholder="输入关键字">                    <input type="submit" value="" class="cn-btn">    <div style="display:none">      <input type="hidden" id="" name="view" value="/article/article/search">                    <input type="hidden" id="" name="channelId" value="11">    </div>                </form>--> 
+      <script type="text/javascript">document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E%3Cscript charset="utf-8" src="http://znsv.baidu.com/customer_search/api/js?sid=13309194359411136047') + '&plate_url=' + (encodeURIComponent(window.location.href)) + '&t=' + (Math.ceil(new Date()/3600000)) + unescape('"%3E%3C/script%3E'));</script> 
+     </div> 
+    </div> 
+   </div>
+  </div>
+  <div class="blank40"></div>
+  <!--=S bd-->
+  <div class="clearfix area bd"> 
+   <div class="col-main-outer" id="con_left"> 
+    <!--=S 面包屑导航--> 
+    <div class="breadcrumb"> 
+     <a target="_blank" href="http://www.21cn.com/">首页</a> &gt; 
+     <a href="http://it.21cn.com" target="_blank">科技</a> &gt; 
+     <a href="http://it.21cn.com/itnews" target="_blank">IT业界</a> &gt; 正文 
+    </div> 
+    <!--=S article-cmt--> 
+    <div id="article-cmt"> 
+     <div class="hd"> 
+      <h1 class="title">电商VS传统市场 哪些行业未被互联网打败</h1> 
+      <div class="clearfix"> 
+       <div class="info fl" style="font-size:14px; font-family:'微软雅黑'; width:100%;"> 
+        <table width="100%" border="0"> 
+         <tbody>
+          <tr> 
+           <td> 来源:<a href="http://www.ycwb.com/ePaper/xkb" target="_blank" rel="nofollow">新快报</a><span class="sp">|</span> <span class="pubTime">2013-11-16 02:13:56</span><span class="sp">|</span> <span class="infoAuthor">作者:张潇 陈庆麟 陆琨倩 庞倩影</span> </td> 
+           <td> <span class="discuss_num"></span></td> 
+           <td align="right">
+            <div id="J_fixed_shareBox" style="position:static;"> 
+             <span style=" display:block; float:left;  padding-top:2px;" class="share-txt">分享到:</span> 
+             <!-- Baidu Button BEGIN --> 
+             <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" style="float:left;"> 
+              <a class="bds_tsina"></a> 
+              <a class="bds_qzone"></a> 
+              <a class="bds_tqq"></a> 
+             </div> 
+             <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6492479"></script> 
+             <script type="text/javascript" id="bdshell_js"></script> 
+             <script type="text/javascript">        /**         * 在这里定义bds_config         */        function GetDescription() {            var metas = document.getElementsByTagName("meta");            var description = '';            var strTemp;            for (var i = 0; i < metas.length; i++) {                if (metas[i].name == 'description') {                    description = metas[i].content;                }            }            return description;        }        function removeHTMLTag(str) {            str = str.replace(/<\/?[^>]*>/g, ''); //去除HTML tag            str = str.replace(/[ | ]*\n/g, '\n'); //去除行尾空白            str = str.replace(/ /ig, '');//去掉            return str;        }        function GetArticleImg() {            var imgs = document.getElementById('article_text').getElementsByTagName('img');            var img = '';            if (imgs.length != 0) {                img = imgs[0].src;                return img;            }        }        var bds_config = {            'bdText':'【' + ARTICLE_INFO.title + '】' + removeHTMLTag(GetDescription()), //'请参考自定义分享内容'			//'bdText':'#就爱阅读#'+'【' + ARTICLE_INFO.title + '】' + removeHTMLTag(GetDescription()),            'bdPic':GetArticleImg(), //'请参考自定义分享出去的图片'            'searchPic':'0', //'0为抓取,1为不抓取,默认为0,目前只针对新浪微博'            'wbUid':'2675235393', //'请参考自定义微博 id'            'snsKey':{"tsina":"3673594135",                "qzone":"ec0092725ae3f99280f14fc6a4914015",                "tqq":"36d5d281ef90455582e519f067a99916"}        //'请参考自定义分享到平台的appkey'        }    </script> 
+             <!-- Baidu Button END -->
+            </div></td> 
+          </tr>
+         </tbody>
+        </table> 
+       </div> 
+       <!--<div class="zan-col">                        <wb:like appkey="5Vf4ZV" type="text"></wb:like>                    </div>--> 
+      </div> 
+     </div> 
+     <div class="bd"> 
+      <div id=""> 
+       <!--摘要--> 
+       <div class="clearfix" id="article_text"> 
+        <p align="center"><img src="http://img003.21cnimg.com/photos/album/20131116/m600/5F7F51236FF2699C56CDB4F8CC06D14A.jpeg" alt="王云涛/图" /></p> 
+        <p align="center" class="pictext">王云涛/图</p> 
+        <p> “双11”反思</p> 
+        <p> 专题撰写新快报记者 张潇 陈庆麟 陆琨倩 庞倩影 见习记者 许莉芸</p> 
+        <!-- 广告位:画中画 -->
+        <div id="embed_hzh_div" class="embedHzh" style="width: 250px; height: 250px; margin: 10px 20px 10px 0px; float: left; display: inline; overflow: hidden; clear: both; padding: 4px; border: 1px solid rgb(205, 205, 205);">
+         <!--<script type="text/javascript" >BAIDU_CLB_SLOT_ID = "712948";</script><script type="text/javascript" src="http://cbjs.baidu.com/js/o.js"></script>-->
+         <!-- 1716:全终端页正文专区(画中画) 类型:固定广告位 尺寸:260x260 -->
+         <script type="text/javascript">//<![CDATA[ac_as_id = 1716;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+         <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+        </div> 
+        <p> 350亿元!今年天猫“双十一”支付宝交易额与去年191亿元相比,大幅增长,而且创出新高。这既是阿里系电商造节的胜利,更是全体电商的胜利。在这一天里,京东商城成交100亿元,订单量是去年的3倍多;截至11日当天16时,易迅网下单笔数近35万,下单金额超过2.84亿元……除了天猫及淘宝,京东、易迅、当当网和亚马逊等同行也是火爆共舞,披露的订单量均达到全年峰值。</p> 
+        <p> 如今,只要能数字化、方便复制的,都成为被互联网化的对象。例如图书市场、服装市场、鞋帽市场、3C市场等,这种属于方便复制,体验和售后服务跟得上的,都让电商在这些领域中,对传统行业形成非常大的冲击。</p> 
+        <p> 以今年天猫公布的“双十一”数据来看,单店销售榜前十位中,有5位是服装品牌,其中骆驼品牌以1.59亿元销售额排名第三,杰克琼斯、优衣库、茵曼、阿卡分列第5、6、7、10位,总交易额超过6.5亿元。此外,3C家电类的小米、海尔分别以5.41亿元和1.75亿元交易额分列销售榜冠军和亚军。</p> 
+        <p> 互联网业界有句话:“所有还没被互联网改变的行业,终究都将被互联网改变”。虽然如今只要我们想象得到的行业,几乎都正面临传统行业和电商之间的博弈,但除了服装类和3C家电类商品以外,未被互联网打败的还有很多。例如我们本期所要介绍的医药行业、家居行业、汽车行业、生鲜食品行业、金融行业……</p> 
+        <p> 在他们当中,有些线上线下渠道正激烈对抗,如今年“双十一”中,国内19家家居卖场联名抵制天猫家居O2O;有些则只是刚起步,如互联网金融;有些则是配套环节尚未满足完全电商化的需求,例如缺乏冷链配送的生鲜电商。</p> 
+        <p> 但我们不可否认,互联网在未来商业社会中的作用。西安邮电大学经管学院院长张鸿认为,互联网渗透了很多行业,打破了工农业社会的经济规律,降低流通成本,通过复制、共享等方式解决了经济学中“资源稀缺”的难题。</p> 
+        <p> 电子商务专家李成东分析认为,2011至2016年在线零售占社会消费品零售总额分别为4.2%、6.2%、9.1%、11.7%、14.1%、16.8%。业界预测,如果继续保持此增长态势,2020年在线零售占社会消费品零售总额超过50%完全有可能。电商便利性、低价格、无地界等优势将比实体店越来越明显,电商的市场占有率越来越大,增长速度也会越来越快。</p> 
+        <p> 在那些尚未被互联网打败的行业中,究竟是电商侵占传统行业的份额,还是传统行业自己革自己的命,完成线下往线上发展的涅槃重生,我们可以拭目以待。</p> 
+        <p> (详见A30-32版)</p> 
+       </div> 
+       <div class="page-box"> 
+        <div class="page-ctrl"></div> 
+       </div> 
+       <div class="clearfix"> 
+        <div style="width:144px; padding-top:5px;" class="fl">
+         <a class="go-app" href="http://k.21cn.com/" target="_blank" title="头版资讯客户端"><img src="http://static.21cnimg.com/zt/news/2015/contenttext/con_new.jpg" width="144" height="32" /></a>
+        </div> 
+        <div class="ding-cai-btns videoAct" style="padding-left:130px;"> 
+         <div class="ding" style="width:87px; height:36px; margin:0px;">
+          <a style="width:87px; height:36px; line-height:36px; background-position:22px; text-indent:54px;" href="javascript:;" id="J_Ding">0</a>
+         </div>
+         <div class="cai" style="float: left; width:87px;">
+          <a style="width:87px; height:36px; background-position:19px -104px; text-indent:52px;  line-height:36px;" href="javascript:;" id="J_Cai_JoinNum">0</a>
+         </div> 
+        </div> 
+        <p class="create-editor fr">责任编辑:AP016</p> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="blank30"></div> 
+    </div> 
+    <div class="col-main"> 
+     <!--=S rel-mod--> 
+     <div class="mod rel-mod"> 
+      <div class="hd">
+       <h3>本文相关推荐</h3> 
+      </div> 
+      <div class="bd clearfix"> 
+       <div class="fl" style="width: 380px;overflow: hidden"> 
+        <ul class="art ico-dot" id="forTag"> 
+         <li style="background:none; padding:0px;"><a style="font-weight:bold; font-size:16px; " class="_block_rel" target="_blank" href="http://it.21cn.com/itnews/a/2014/0623/10/27520652.shtml">自身服务传统,靠流量转化实现o2o只是个笑话</a></li> 
+         <li><a class="_block_rel" target="_blank" href="http://it.21cn.com/collect/a/2012/1114/06/13653297.shtml">“如果让淘宝去卖火车票?”</a></li> 
+         <li><a class="_block_rel" target="_blank" href="http://it.21cn.com/itnews/a/2012/1114/07/13653428.shtml">网友调侃“让淘宝去卖火车票”</a></li> 
+         <li><a class="_block_rel" target="_blank" href="http://it.21cn.com/prnews/a/2012/1114/09/13656364.shtml">电商双十一网购 带火数码产品二手市场</a></li> 
+        </ul> 
+       </div> 
+       <div class="fr"> 
+        <!--<div style="width: 250px;height: 130px;border: 1px solid #DEDEDE;overflow: hidden;">    <div style="padding: 9px">        <style type="text/css">            .picTxtList2 li{clear: both;height: 65px;}            .picTxtList2 .img{float: left;width: 80px;padding-right: 10px;}            .picTxtList2 .info{overflow: hidden;zoom: 1;font-size: 14px;font-family: "microsoft yahei"}        </style>        <ul class="picTxtList2"  id="region_1070">                                    <li><div class="img"><a href="http://v.et.21cn.com/" target="_blank"><img width="80" border="0" height="60" alt="资深女屌丝成功逆袭 与男神双宿双栖" src="http://img001.21cnimg.com/photos/album_0/20130922/c100-53-0-300-225_r0/127CE2BF31F5B50E02F8B2DFBF7ECF64.jpeg"></a></div>                <div class="info"><a href="http://v.et.21cn.com/">资深女屌丝成功逆袭 与男神双宿双栖</a>                </div>            </li>                    </ul>        <ul class="art ico-dot" id="region_1072">                                    <li><a href="http://v.et.21cn.com/union/public/week_special/1/week/59-86.html" target="_blank">惊艳的处女作:一夜爆红名利双收</a>            </li>                        <li><a href="http://v.et.21cn.com/detail/223/222986.html" target="_blank">模特魅影:揭秘内衣模特的潜规则</a>            </li>                    </ul>    </div>    </div>-->
+        <!--<script type="text/javascript">var cpro_id = "u1367589";</script><script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>--> 
+        <!-- 1718:全终端页正文下专区二(相关阅读) 类型:固定广告位 尺寸:250x130 -->
+        <script type="text/javascript">//<![CDATA[ac_as_id = 1718;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+        <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="blank30"></div> 
+     <div class="banner">
+      <!--<script type="text/javascript"> BAIDU_CLB_fillSlot("840729"); </script>-->
+      <!-- 1717:全终端页正文下专区一(我要评论下) 类型:固定广告位 尺寸:650x100 -->
+      <script type="text/javascript">//<![CDATA[ac_as_id = 1717;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+      <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script> 
+     </div>
+     <div style="margin-top:-30px;"></div> 
+     <div class="blank30" style=" margin-top:30px;"></div> 
+     <div class="mod"> 
+      <div class="hd">
+       <h3>精彩图集</h3> 
+      </div>
+     </div> 
+     <!--科技正文下方图片-->
+     <ul class="piclist clearfix" style="padding-top:10px;"> 
+      <li><a class="_block_piclist" href="http://it.21cn.com/photo/" target="_blank"><img class="J_lazyload" width="140" height="105" alt="科技大佬的童年照 你能认出几个?" original="http://img002.21cnimg.com/photos/album/20150601/s140x105/79661FBF116E4AE3626173DAF7CE0D49.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>科技大佬的童年照 你能认出几个?</em></a></li> 
+      <li><a class="_block_piclist" href="http://it.21cn.com/itnews/a/2015/0601/08/29613688.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="一批新规今起实施:发垃圾短信最高罚3万元" original="http://img002.21cnimg.com/photos/album/20150601/s140x105/172BD1A64301F66A2C0A90883393E4D1.jpeg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>一批新规今起实施:发垃圾短信最高罚3万元</em></a></li> 
+      <li><a class="_block_piclist" href="http://it.21cn.com/itnews/a/2015/0602/14/29621227.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="广州投入8亿元鼓励企业科技创新" original="http://img001.21cnimg.com/photos/album/20150602/s140x105/115E8C4BE28BD92E40C0EF536F5FD65E.jpeg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>广州投入8亿元鼓励企业科技创新</em></a></li> 
+      <li><a class="_block_piclist" href="http://it.21cn.com/itnews/a/2015/0601/15/29615955.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="去哪儿网高管称此前考虑过并购艺龙" original="http://img002.21cnimg.com/photos/album/20150601/s140x105/480151480324AAE1EA338B7EB2937C3E.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>去哪儿网高管称此前考虑过并购艺龙</em></a></li> 
+      <li><a class="_block_piclist" href="http://et.21cn.com/star/pic/a/2015/0602/14/29621232.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="吴奇隆跪地向刘诗诗求婚 两人幸福甜蜜秀婚戒" original="http://img001.21cnimg.com/photos/album/20150602/s140x105/9B2BC3253B8B86B976E4C8E1567B11BA.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>吴奇隆向刘诗诗求婚</em></a></li> 
+      <li><a class="_block_piclist" href="http://et.21cn.com/star/pic/a/2015/0602/08/29618907.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="传李晨布达拉宫求婚成功 与范冰冰甜蜜亲吻" original="http://img002.21cnimg.com/photos/album/20150602/s140x105/ECC20445475AB8339A4182B81BA19309.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>李晨范冰冰甜蜜亲吻</em></a></li> 
+      <li><a class="_block_piclist" href="http://et.21cn.com/star/pic/a/2015/0602/08/29618793.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="刘烨携子登杂志封面 携手搞怪默契十足" original="http://img001.21cnimg.com/photos/album/20150602/s140x105/5D9C3592AB06215034958ED6A9403A3A.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>刘烨携子登杂志封面</em></a></li> 
+      <li><a class="_block_piclist" href="http://et.21cn.com/star/zhuixing/neidi/a/2014/0702/08/27715438.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="黄奕老公疑曝不雅视频" original="http://img001.21cnimg.com/photos/album/20140702/s140x105/E4A06C34413EB8A567F28FFE6F4A32F7.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>黄奕老公疑曝不雅视频</em></a></li> 
+      <li><a class="_block_piclist" href="http://news.21cn.com/social/daqian/a/2015/0601/16/29616487.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="信息错号了怎么办?国外网友爆笑回复" original="http://img003.21cnimg.com/photos/album/20150601/s140x105/35ECC02E9A50FBFF55844F0FBACB549E.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>信息发错的爆笑回复</em></a></li> 
+      <li><a class="_block_piclist" href="http://news.21cn.com/social/daqian/a/2015/0529/11/29605635.shtml" target="_blank"><img class="J_lazyload" width="140" height="105" alt="前方高能!盘点那些亮瞎眼的买家秀" original="http://img003.21cnimg.com/photos/album/20150529/s140x105/25EB28442FC865B897ED37F5596A4B4B.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>那些亮瞎眼的买家秀</em></a></li>
+      <!-- 1719:全终端页正文下专区三(八张图) 类型:固定广告位 尺寸:310x130 -->
+      <script type="text/javascript">//<![CDATA[ac_as_id = 1719;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+      <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+     </ul> 
+     <div id="Dialog" style="left:0; z-index:100000000000;"> 
+      <div class="Dialog"></div>
+     </div>
+     <script src="http://passport.21cn.com/js/dialog.js"></script> 
+     <!--评论系统 S--> 
+     <div id="dsq_loader" class="ajaxLoader">
+      互动评论加载中…
+     </div> 
+     <div id="dsq_frame" style="width:650px"> 
+     </div> 
+     <div class="blank10"></div> 
+     <script type="text/javascript">                var dsq_articleTitle=ARTICLE_INFO.title;                (function() {                    var dsq_script = document.createElement('script'); dsq_script.type = 'text/javascript'; dsq_script.charset = "utf-8"; dsq_script.async = true; dsq_script.id = 'DSQScript';                    dsq_script.src = 'http://review.21cn.com/js/iframe2.js?operationId='+ARTICLE_INFO.operaId+'&contentId='+ARTICLE_INFO.contentId+'&pageTitle='+ARTICLE_INFO.title+'&contentTime='+ARTICLE_INFO.pubtime;                    document.getElementsByTagName('head')[0].appendChild(dsq_script);                })();            </script> 
+     <!--评论系统 E--> 
+     <div id="house_left" style="display:none;"> 
+      <!--=S haxiu-->
+      <div class="mod"> 
+       <div class="bd clearfix"> 
+        <div class="blank10"></div>
+        <div class="mod"> 
+         <div class="hd">
+          <h3>今日热图</h3> 
+         </div>
+        </div> 
+        <ul class="piclist clearfix" id="region_663" style="padding-top:10px;"> 
+         <li><a class="_block_hotpic" href="http://news.21cn.com/social/daqian/a/2015/0525/16/29586313.shtml" target="_blank"><img class="J_lazyload" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" height="105" width="140" border="0" alt="朝鲜课本都学啥 颠覆三观" original="http://img002.21cnimg.com/photos/album/20150525/s140x105/A4CA00ABF41B0F5BCB896AD568CB6F18.jpg" /> <em>朝鲜课本学啥颠覆三观</em></a></li> 
+         <li><a class="_block_hotpic" href="http://news.21cn.com/social/daqian/a/2015/0522/16/29576755.shtml" target="_blank"><img class="J_lazyload" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" height="105" width="140" border="0" alt="萌呆!世界上仍被动物统治的几个地方" original="http://img002.21cnimg.com/photos/album/20150522/s140x105/43144B6F47A58E669CD16D0EBEE0E989.jpeg" /> <em>仍被动物统治的地方</em></a></li> 
+         <li><a class="_block_hotpic" href="http://news.21cn.com/history/tushuolishi/a/2015/0527/16/29596488.shtml" target="_blank"><img class="J_lazyload" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" height="105" width="140" border="0" alt="抗日神剧有出处:70年代民兵苦练步枪打飞机" original="http://img002.21cnimg.com/photos/album/20150527/s140x105/98FC903BC1CA9DCBF3AA3C9685F18126.jpeg" /> <em>抗日民兵步枪打飞机</em></a></li> 
+         <li><a class="_block_hotpic" href="http://news.21cn.com/history/tushuolishi/a/2015/0525/17/29586452.shtml" target="_blank"><img class="J_lazyload" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" height="105" width="140" border="0" alt="揭密希特勒情妇爱娃的照片" original="http://img001.21cnimg.com/photos/album/20150525/s140x105/FFEA8B2860D33B17DB3876B27D933FD1.jpg" /> <em>揭秘希特勒神秘情妇</em></a></li> 
+        </ul> 
+       </div>
+      </div>
+      <!-- 1822:排行榜上专区650x145 类型:固定广告位 尺寸:650x145 --> 
+      <script type="text/javascript">//<![CDATA[ ac_as_id = 1822; ac_format = 0; ac_mode = 1; ac_group_id = 1; ac_server_base_url = "afp.21cn.com/"; //]]></script> 
+      <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script> 
+      <div class="blank20"></div> 
+      <!--=S chart--> 
+      <div class="toplist clearfix"> 
+       <div class="toplist-colL"> 
+        <div class="tit ui_s2">
+         <h3>本日点击排行榜</h3>
+         <span class="more"><a target="_blank" href="http://www.21cn.com/ranking/#9415">更多&gt;&gt;</a></span>
+        </div> 
+        <div class="blank10"></div> 
+        <ol class="rank splitLine"> 
+         <li> <a class="_block_ranking rank_1" target="_blank" title="《撸啊撸》众多妹子火热来袭 陪你一起撸翻天" href="http://it.21cn.com/mobile/Android/a/2013/0923/11/24170093.shtml">《撸啊撸》众多妹子火热来袭 陪你一起撸翻天</a></li>
+         <li> <a class="_block_ranking rank_2" target="_blank" title="谷歌推出翻墙软件uProxy:不支持IE" href="http://it.21cn.com/itnews/a/2013/1022/11/24627403.shtml">谷歌推出翻墙软件uProxy:不支持IE</a></li>
+         <li> <a class="_block_ranking rank_3" target="_blank" title="涧湖绿的夏天 有你 有索尼Xperia Z3+ Dual双卡双待版" href="http://it.21cn.com/mobile/a/2015/0601/17/29616702.shtml">涧湖绿的夏天 有你 有索尼Xperia Z3+ Dual双卡双待版</a></li>
+         <li> <a class="_block_ranking rank_4" target="_blank" title="Win7/8用户收到Win10免费升级提示" href="http://it.21cn.com/prnews/a/2015/0601/10/29614477.shtml">Win7/8用户收到Win10免费升级提示</a></li>
+         <li> <a class="_block_ranking rank_5" target="_blank" title="苹果做好准备:Windows 10下个月就上市了" href="http://it.21cn.com/itnews/a/2015/0601/18/29616812.shtml">苹果做好准备:Windows 10下个月就上市了</a></li>
+         <li> <a class="_block_ranking rank_6" target="_blank" title="落入黑洞会发生什么?你死了但同时你活着" href="http://it.21cn.com/top/a/2015/0602/09/29619148.shtml">落入黑洞会发生什么?你死了但同时你活着</a></li>
+         <li> <a class="_block_ranking rank_7" target="_blank" title="科技大佬的童年照 你能认出几个?" href="http://it.21cn.com/itnews/a/2015/0601/15/29615910.shtml">科技大佬的童年照 你能认出几个?</a></li>
+         <li> <a class="_block_ranking rank_8" target="_blank" title="牛电推电动踏板车N1:3999元起" href="http://it.21cn.com/itnews/a/2015/0601/16/29616135.shtml">牛电推电动踏板车N1:3999元起</a></li>
+         <li> <a class="_block_ranking rank_9" target="_blank" title="Apple I被当做垃圾:一不小心就扔了 20 万" href="http://it.21cn.com/itnews/a/2015/0601/10/29614214.shtml">Apple I被当做垃圾:一不小心就扔了 20 万</a></li>
+         <li> <a class="_block_ranking rank_10" target="_blank" title="苹果手表何时换代? 对手已经在各种更新了" href="http://it.21cn.com/itnews/a/2015/0601/17/29616728.shtml">苹果手表何时换代? 对手已经在各种更新了</a></li> 
+        </ol> 
+       </div> 
+       <div class="toplist-colR"> 
+        <div class="tit ui_s2">
+         <h3>本日评论排行榜</h3>
+         <span class="more"><a href="http://www.21cn.com/ranking/#9415" target="_blank">更多&gt;&gt;</a></span>
+        </div>
+        <div class="blank10"></div>
+        <ol class="rank splitLine"> 
+         <li><a href="http://it.21cn.com/market/a/2013/0326/16/20824302.shtml" title="微缔模具生产管理软件不断实现管理生产模式..." target="_blank"> 微缔模具生产管理软件不断实现管理生产模式... </a></li> 
+         <li><a href="http://it.21cn.com/mobile/a/2015/0601/17/29616702.shtml" title="涧湖绿的夏天 有你 有索尼Xperia ..." target="_blank"> 涧湖绿的夏天 有你 有索尼Xperia ... </a></li> 
+         <li><a href="http://it.21cn.com/discovery/a/2015/0516/12/29549813.shtml" title="南极存在了万年的冰架 可能5年后完全消失" target="_blank"> 南极存在了万年的冰架 可能5年后完全消失 </a></li> 
+         <li><a href="http://it.21cn.com/mobile/xj/2009/04/14/6131428.shtml" title="永远的毒药!惊现比卡片还小的LV手机" target="_blank"> 永远的毒药!惊现比卡片还小的LV手机 </a></li> 
+         <li><a href="http://it.21cn.com/itnews/a/2015/0313/16/29208792.shtml" title="阿布达比暂停无人机产品销售" target="_blank"> 阿布达比暂停无人机产品销售 </a></li> 
+         <li><a href="http://it.21cn.com/itnews/a/2015/0413/16/29384026.shtml" title="李开复:安稳的工作很快会灭亡" target="_blank"> 李开复:安稳的工作很快会灭亡 </a></li> 
+         <li><a href="http://it.21cn.com/top/a/2015/0330/09/29305938.shtml" title="看扎克伯格如何打造Facebook社交集..." target="_blank"> 看扎克伯格如何打造Facebook社交集... </a></li> 
+         <li><a href="http://it.21cn.com/prnews/a/2015/0428/15/29470973.shtml" title="微信搜索成爆发点 搜狗加速构建差异化壁垒" target="_blank"> 微信搜索成爆发点 搜狗加速构建差异化壁垒 </a></li> 
+         <li><a href="http://it.21cn.com/prnews/a/2015/0428/10/29468746.shtml" title="同方大数据发力智慧数据中心建设" target="_blank"> 同方大数据发力智慧数据中心建设 </a></li> 
+         <li><a href="http://it.21cn.com/oa/a/2015/0318/18/29237862.shtml" title="低成本 HP LaserJet 1020..." target="_blank"> 低成本 HP LaserJet 1020... </a></li> 
+        </ol> 
+       </div> 
+      </div> 
+      <div class="blank30"></div>
+     </div> 
+     <!--<div id="iframe_end_qz"><iframe id='' name='' src='http://p.21cn.com/iframe/square_2.html' width='650' height='145' frameborder='0' border='0' marginwidth='0' marginheight='0' scrolling='no' ></iframe>        </div>--> 
+     <div id="J_Channel_Roll">
+      <style>    .tab-mod .mod-tab-hd li a{ width:71px}</style>
+      <div class="tab-mod auto-roll-tab J_Tabber">
+       <div class="mod-tab-hd"> 
+        <ul class="tab-hd clearfix"> 
+         <li class="cur"><a target="_blank" href="http://news.21cn.com/">新闻</a><b></b></li> 
+         <li class=""><a target="_blank" href="http://mil.21cn.com/">军事</a><b></b></li> 
+         <li class=""><a target="_blank" href="http://finance.21cn.com/">财经</a><b></b></li> 
+         <li class=""><a target="_blank" href="http://et.21cn.com/">娱乐</a><b></b></li> 
+         <li class=""><a target="_blank" href="http://sports.21cn.com/">体育</a><b></b></li> 
+         <li class=""><a target="_blank" href="http://it.21cn.com/">科技</a><b></b></li> 
+         <li class=""><a target="_blank" href="http://auto.21cn.com/">汽车</a><b></b></li> 
+         <li class=""><a target="_blank" href="http://house.21cn.com/">房产</a><b></b></li> 
+         <li class=""><a target="_blank" href="http://she.21cn.com/" style="width:64px;">女人</a><b></b></li> 
+        </ul>
+       </div>
+       <!--=S tab-con 新闻-->
+       <div class="tab-con" style="display: block"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a href="http://news.21cn.com/webfocus/a/2015/0529/07/29604265.shtml" target="_blank" title="携程“宕机”近12小时 否认数据丢失"><img class="J_lazyload" width="220" height="150" alt="携程“宕机”近12小时 否认数据丢失" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20150529/s220x150/2D34685D806A370603E2AC55BEE7773A.jpg" /><em>携程“宕机”近12小时 否认数据丢失</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a target="_blank" href="http://news.21cn.com/hot/social/a/2015/0602/16/29621815.shtml">张馨予身披婚纱现身引混乱 不回应李晨指责(图)</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a target="_blank" href="http://news.21cn.com/hot/cn/a/2015/0602/15/29621526.shtml">沪指震荡上行站稳4900点 逾400股涨停</a> </li> 
+           <li><a target="_blank" href="http://news.21cn.com/hot/cn/a/2015/0602/15/29621491.shtml">商务部回应“沙特拒供更多石油”:中国货源稳定</a> </li> 
+           <li><a target="_blank" href="http://news.21cn.com/hot/cn/a/2015/0602/15/29621433.shtml">泰国一游船失火 船上102中国游客跳海逃生均获救</a> </li> 
+           <li><a target="_blank" href="http://news.21cn.com/hot/cn/a/2015/0602/14/29621313.shtml">李克强现场指挥救援:85岁老人被救出</a> </li> 
+           <li><a target="_blank" href="http://news.21cn.com/hot/int/a/2015/0602/13/29620707.shtml">美军方实验室曾向加拿大3个实验室送炭疽杆菌样本</a> </li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+       <!--=S tab-con 军事-->
+       <div class="tab-con" style="display: none"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a href="http://mil.21cn.com/pic/a/2015/0126/09/28952266.shtml" target="_blank" title="俄罗斯学生雪地射击拉练 体验真实军队生活"><img class="J_lazyload" width="220" height="150" alt="俄罗斯学生雪地射击拉练 体验真实军队生活" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img001.21cnimg.com/photos/album/20150126/s220x150/6538D4064FBEC3F2C97CC8F44728F83B.jpeg" /><em>俄罗斯学生雪地射击拉练 体验真实军队生活</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a target="_blank" href="http://mil.21cn.com/jiaodian/a/2015/0602/09/29619456.shtml">朱日和实兵演习烽烟起 7大军区10支劲旅轮战漠北</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a target="_blank" href="http://mil.21cn.com/jiaodian/a/2015/0602/09/29619248.shtml">美媒曝光SR72高超声速察打无人机 中国须警惕</a> </li> 
+           <li><a target="_blank" href="http://mil.21cn.com/jiaodian/a/2015/0602/07/29618500.shtml">美越签军事合作愿景秀亲密 欲损耗中国战略精力</a> </li> 
+           <li><a target="_blank" href="http://mil.21cn.com/jiaodian/a/2015/0601/16/29616270.shtml">中国第三批赴马里维和部队首次启用国产防炸弹袭击信号屏蔽装置</a> </li> 
+           <li><a target="_blank" href="http://mil.21cn.com/jiaodian/a/2015/0601/14/29615624.shtml">日将首派陆自参加蒙古国举行的联合国维和军演</a> </li> 
+           <li><a target="_blank" href="http://mil.21cn.com/jiaodian/a/2015/0601/07/29613460.shtml">苏联版联合打击战斗机与歼10相似 设计南辕北辙</a> </li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+       <!--=S tab-con 财经-->
+       <div style="display: none;" class="tab-con"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a title="韩官方发布最全“整形指导价目表”" target="_blank" href="http://money.163.com/photoview/0BGT0025/19403.html?frp21"><img width="220" height="150" original="http://img2.cache.netease.com/stock/2015/5/30/20150530090455cb03b.jpg" src="http://img2.cache.netease.com/stock/2015/5/30/20150530090455cb03b.jpg" alt="韩官方发布最全“整形指导价目表”" class="J_lazyload" style="display: block;" /><em>韩官方发布最全“整形指导价目表”</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a href="http://money.163.com/?frp21" target="_blank">汉能债务版图:国有银行到影子银行均</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a href="http://money.163.com/15/0602/10/AR3LVRAF00253B0H.html?frp21" target="_blank">国家3纵5横骨干大通道图纸曝光 37市迎利好</a></li> 
+           <li><a href="http://money.163.com/15/0602/07/AR3DAJCN00254IU1.html?frp21" target="_blank">马云A股做超级试验:阿里资本浪潮席卷30公司</a></li> 
+           <li><a href="http://money.163.com/15/0602/09/AR3I2AQH00253B0H.html?frp21" target="_blank">肯德基状告10个微信号 因谣传鸡有&quot;8腿6翅&quot;</a></li> 
+           <li><a href="http://money.163.com/15/0602/17/AR4CKFPK002534NU.html?frp21" target="_blank">住建部连续6年未向全国通报住房公积金信息</a></li> 
+           <li><a href="http://money.163.com/15/0602/15/AR46EVUR00253B0H.html?frp21" target="_blank">商务部回应沙特拒供更多石油:中国货源稳定</a></li> 
+           <li><a href="http://money.163.com/15/0602/02/AR2Q617Q00253B0H.html?frp21" target="_blank">赵薇夫妇炒股1日赚60亿元</a> <a target="_blank" href="http://money.163.com/15/0602/00/AR2LBLM500253B0H.html">跟着马云&quot;有肉吃&quot;</a></li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+       <!--=S tab-con 娱乐-->
+       <div class="tab-con" style="display: none"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a href="http://et.21cn.com/star/pic/a/2015/0602/14/29621232.shtml" target="_blank" title="吴奇隆向刘诗诗求婚"><img class="J_lazyload" width="220" height="150" alt="吴奇隆跪地向刘诗诗求婚 两人幸福甜蜜秀婚戒" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img001.21cnimg.com/photos/album/20150602/s220x150/9B2BC3253B8B86B976E4C8E1567B11BA.jpg" /><em>吴奇隆向刘诗诗求婚</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a target="_blank" href="http://et.21cn.com/zt/2015/fanlilove/">传李晨求婚范冰冰 斥张馨予出轨分手</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a target="_blank" href="http://et.21cn.com/star/zhuixing/neidi/a/2015/0602/08/29618754.shtml">李晨发文斥张馨予炒作 分手因女方出轨</a> </li> 
+           <li><a target="_blank" href="http://et.21cn.com/star/zhuixing/neidi/a/2015/0602/15/29621580.shtml">陈楚生陪爱子过六一 游海洋馆吃蛋糕庆儿童节 </a> </li> 
+           <li><a target="_blank" href="http://et.21cn.com/star/zhuixing/gangtai/a/2015/0602/12/29620551.shtml">澳门大亨小三产女获赠豪宅 正宫随后产女</a> </li> 
+           <li><a target="_blank" href="http://et.21cn.com/star/zhuixing/gangtai/a/2015/0602/14/29621060.shtml">朱孝天疑恋情生变 发文称“我希望你幸福”</a> </li> 
+           <li><a target="_blank" href="http://et.21cn.com/star/zhuixing/gangtai/a/2015/0602/12/29620506.shtml">终于不晒娃!范玮琪晒做发型照靓丽依旧</a> </li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+       <!--=S tab-con 体育-->
+       <div class="tab-con" style="display: none"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a href="http://sports.21cn.com/international/other/a/2015/0602/11/29620213.shtml" target="_blank" title="曝拜仁签京多安已破裂 铁腰要价高巴萨恐钻空子"><img class="J_lazyload" width="220" height="150" alt="曝拜仁签京多安已破裂 铁腰要价高巴萨恐钻空子" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img002.21cnimg.com/photos/album/20150602/s220x150/7C6EDDAFDDC8C381AC6B58F8ECFB757F.png" /><em>曝拜仁签京多安已破裂 铁腰要价高巴萨恐钻空子</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a target="_blank" href="http://sports.21cn.com/international/xijia/rm/a/2015/0602/11/29620208.shtml">贝帅抵马德里直赴训练场 皇马4000万报价维拉蒂</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a target="_blank" href="http://sports.21cn.com/international/xijia/barcelona/a/2015/0602/11/29620190.shtml">哈维拒巴黎怕与巴萨为敌 赴卡塔尔将过招卡洛斯</a> </li> 
+           <li><a target="_blank" href="http://sports.21cn.com/gzhengda/a/2015/0531/22/29612419.shtml">3-0人和卡纳瓦罗满意球员表现 让自己非常自豪</a> </li> 
+           <li><a target="_blank" href="http://sports.21cn.com/national/jiaa/fuli/a/2015/0531/22/29612372.shtml">孔特拉:前锋无力球队难赢球 等待中期转会换人</a> </li> 
+           <li><a target="_blank" href="http://sports.21cn.com/national/jiaa/fuli/a/2015/0531/22/29612337.shtml">中超-姜至鹏乌龙哈默德迷失 富力客场0-2泰达</a> </li> 
+           <li><a target="_blank" href="http://sports.21cn.com/national/jiaa/gy/a/2015/0531/21/29612336.shtml">冯潇霆于汉超郑龙破门 恒大3-0人和完成最低消费</a> </li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+       <!--=S tab-con 科技-->
+       <div class="tab-con" style="display: none"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a href="http://it.21cn.com/discovery/a/2015/0528/14/29601280.shtml" target="_blank" title="最年轻的“毫秒脉冲星” 只有2500岁"><img class="J_lazyload" width="220" height="150" alt="最年轻的“毫秒脉冲星” 只有2500岁" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img002.21cnimg.com/photos/album/20150528/s220x150/3FA7EB7756F65C970D98BB65B8F62499.jpeg" /><em>最年轻的“毫秒脉冲星” 只有2500岁</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a target="_blank" href="http://it.21cn.com/itnews/a/2015/0602/17/29622172.shtml">苹果表心率读取会关闭 为续航 or 数据不准</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a target="_blank" href="http://it.21cn.com/itnews/a/2015/0602/17/29622195.shtml">苹果数据中心发生毒气泄露事件:五人受伤</a> </li> 
+           <li><a target="_blank" href="http://it.21cn.com/itnews/a/2015/0602/16/29621767.shtml">火星上惊现神秘“蓝湖”</a> </li> 
+           <li><a target="_blank" href="http://it.21cn.com/itnews/a/2015/0602/16/29621669.shtml">神州数码与Uber达成战略合作</a> </li> 
+           <li><a target="_blank" href="http://it.21cn.com/itnews/a/2015/0602/15/29621655.shtml">商务部:未收到携程等相关方提出反垄断申报</a> </li> 
+           <li><a target="_blank" href="http://it.21cn.com/itnews/a/2015/0602/15/29621609.shtml">从携程事件看中国互联网的裸奔</a> </li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+       <!--=S tab-con 汽车-->
+       <div class="tab-con" style="display: none"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a href="http://auto.21cn.com/zixun/qiye/a/2015/0602/15/29621648.shtml" target="_blank" title="唱着摇滚去旅行 看江铃域虎引领中国皮卡文化"><img class="J_lazyload" width="220" height="150" alt="唱着摇滚去旅行 看江铃域虎引领中国皮卡文化" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img001.21cnimg.com/photos/album/20150602/s220x150/4053BCA29C2AD15DE5726B664180D244.jpeg" /><em>唱着摇滚去旅行 看江铃域虎引领中国皮卡文化</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a target="_blank" href="http://auto.21cn.com/zixun/pinglun/a/2015/0602/15/29621443.shtml">中国市场豪华车转冷值得担忧吗?稳健发展将是常态</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a target="_blank" href="http://auto.21cn.com/autonews/diezhao/a/2015/0602/13/29620724.shtml">[原创]或秋季上市 上海大众新款朗行无伪谍照</a> </li> 
+           <li><a target="_blank" href="http://auto.21cn.com/zixun/qiye/a/2015/0602/11/29620286.shtml">劳斯莱斯幻影流光熠世典藏版的星光顶棚如何打造?</a> </li> 
+           <li><a target="_blank" href="http://auto.21cn.com/zixun/qiye/a/2015/0602/10/29619624.shtml">观致营销战再下一城 与易车合作电商新模式</a> </li> 
+           <li><a target="_blank" href="http://auto.21cn.com/zixun/qiye/a/2015/0602/09/29619376.shtml">跑在瑞典沃尔沃携手哥德堡马拉松一路清呼吸</a> </li> 
+           <li><a target="_blank" href="http://auto.21cn.com/zixun/pinglun/a/2015/0602/08/29618954.shtml">“颠覆没戏“——经销商老总谈电商</a> </li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+       <!--=S tab-con 房产-->
+       <div class="tab-con" style="display: none"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a href="http://house.21cn.com/news/jishi/a/2015/0529/17/29607430.shtml" target="_blank" title="楼市升温 广州中心区二手房非首套买家占比过半"><img class="J_lazyload" width="220" height="150" alt="楼市升温 广州中心区二手房非首套买家占比过半" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img002.21cnimg.com/photos/album/20110915/s220x150/189E2A88DE6DD1FEE1BD073011C5FD21.jpg" /><em>楼市升温 广州中心区二手房非首套买家占比过半</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a target="_blank" href="http://house.21cn.com/news/jishi/a/2015/0602/06/29618383.shtml">备案价37.6万/平方米 深圳一开发商被约谈</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a target="_blank" href="http://house.21cn.com/news/a/2015/0602/08/29618917.shtml">广州拟建“历史微型博物馆”</a> </li> 
+           <li><a target="_blank" href="http://house.21cn.com/news/a/2015/0602/08/29618929.shtml">广佛地铁预计年底前开通沙园燕岗等四站</a> </li> 
+           <li><a target="_blank" href="http://house.21cn.com/news/a/2015/0601/09/29613780.shtml">六一送礼 13个儿童公园开园</a> </li> 
+           <li><a target="_blank" href="http://house.21cn.com/news/jishi/a/2015/0601/08/29613728.shtml">增城挂牌后多盘均价破万 有楼盘涨价4000元</a> </li> 
+           <li><a target="_blank" href="http://house.21cn.com/news/jishi/a/2015/0601/00/29612475.shtml">北京公积金将认房不认贷 已百余城松绑公积金政策</a> </li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+       <div class="tab-con" style="display: none"> 
+        <div class="blank10"></div> 
+        <div class="clearfix"> 
+         <div class="fl col-250"> 
+          <div class="big-img"> 
+           <a href="http://she.21cn.com/fashion/clothing/a/2015/0525/11/29584601.shtml" target="_blank" title="GUCCI放大招五折直降 四千多就能入手单肩背"><img class="J_lazyload" width="220" height="150" alt="GUCCI放大招五折直降 四千多就能入手单肩背" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20150525/s220x150/F7D92F0F1CC3CD00E16937F14404A241.jpeg" /><em>GUCCI放大招五折直降 四千多就能入手单肩背</em></a> 
+          </div> 
+         </div> 
+         <div class="fl col-400"> 
+          <h3 class="headline"><a target="_blank" href="http://she.21cn.com/fashion/east/a/2015/0525/11/29584476.shtml">开衩裙子的各种可能性</a> </h3> 
+          <ul class="art ico-dot"> 
+           <li><a target="_blank" href="http://she.21cn.com/beauty/skincare/a/2015/0525/11/29584422.shtml">鲜肉女神们的校园护肤经</a> </li> 
+           <li><a target="_blank" href="http://she.21cn.com/fashion/clothing/a/2015/0525/10/29584268.shtml">揭露戛纳电影节六宗“最”</a> </li> 
+           <li><a target="_blank" href="http://she.21cn.com/wedding/dresses/a/2015/0525/10/29584199.shtml">Lady Gaga的婚纱设计稿很奇葩?还有更多呢!</a> </li> 
+           <li><a target="_blank" href="http://she.21cn.com/wedding/relationship/a/2015/0525/10/29584150.shtml">30岁沪漂剩女征婚惹争议:老公要有钱有势是处男</a> </li> 
+           <li><a target="_blank" href="http://she.21cn.com/fashion/dapei/a/2015/0518/10/29554652.shtml">黑色西装外套时尚穿搭窍门</a> </li> 
+          </ul> 
+         </div> 
+        </div>
+       </div>
+      </div>
+     </div>
+     <script>    $(".tab-mod .tab-con").eq(3).css("display","none");</script> 
+     <div class="blank30"></div> 
+     <!--<ul class="piclist clearfix">            <li><a href="http://v.et.21cn.com" target="_blank"><img class="J_lazyload" width="140" height="105" alt="周润发再续赌神传奇" original="http://img001.21cnimg.com/photos/album/20140305/s140x105/A1AA822871E511155F2242852506E34F.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif"><em>周润发再续赌神传奇</em></a></li>        <li><a href="http://v.et.21cn.com/detail/244/243476.html" target="_blank"><img class="J_lazyload" width="140" height="105" alt="隋唐英雄3" original="http://img002.21cnimg.com/photos/album/20140210/s140x105/476C08ADD2D28DFB5E107A16A2A774DD.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif"><em>隋唐英雄3</em></a></li>        <li><a href="http://v.et.21cn.com/detail/275/274662.html" target="_blank"><img class="J_lazyload" width="140" height="105" alt="老兵" original="http://img002.21cnimg.com/photos/album/20140305/s140x105/96AB7A59F99FD22B6AB69B949FA5848A.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif"><em>老兵</em></a></li>        <li><a href="http://v.et.21cn.com/detail/275/274936.html" target="_blank"><img class="J_lazyload" width="140" height="105" alt="我和我的传奇奶奶" original="http://img001.21cnimg.com/photos/album/20140305/s140x105/8FE29E2C1CF3EA23C340B0E015081209.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif"><em>我和我的传奇奶奶</em></a></li>    </ul>--> 
+    </div> 
+    <!--=E col-main--> 
+   </div> 
+   <div class="col-aside"> 
+    <!--=S xuantu--> 
+    <div class="xuantu"> 
+     <!--终端页一屏右大图--> 
+     <!-- 1707:终端页炫图一 类型:固定广告位 尺寸:300x250 -->
+     <script type="text/javascript">//<![CDATA[ac_as_id = 1707;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+     <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+     <div class="blank10"></div>
+     <iframe src="http://www.cnr.cn/cnrxwph/21sjwhz/" allowtransparency="1" frameborder="0" scrolling="no" width="300" height="120"></iframe>
+     <div class="blank10"></div>
+     <iframe src="http://miniweb.cntv.cn/hezuo/21cn/21tj.html" allowtransparency="1" frameborder="0" scrolling="no" width="300" height="100"></iframe> 
+    </div> 
+    <div class="blank30"></div> 
+    <!--=S today--> 
+    <div class="mod"> 
+     <div class="hd">
+      <h3>今日推荐</h3> 
+     </div> 
+     <div class="bd clearfix"> 
+      <div class="today_div"> 
+       <a class="_block_today" href="http://news.21cn.com/domestic/difang/a/2015/0530/17/29610111.shtml" title="红色通缉令头号女嫌犯杨秀珠的逃亡路线" target="_blank">
+        <div class="img_zc">
+         <img src="http://img002.21cnimg.com/photos/album/20150530/s140x105/02865A17556D7278333B63CBB146F0F2.jpeg" alt="红色通缉令头号女嫌犯杨秀珠的逃亡路线" height="105" width="140" />
+        </div> 
+        <div class="zc_title">
+         红色通缉令头号女
+        </div></a> 
+      </div> 
+      <div class="today_div" style="float:right;"> 
+       <a class="_block_today" href="http://news.21cn.com/webfocus/a/2015/0530/14/29609796.shtml" title="27岁消防员救火时坠楼牺牲 怀中2岁女童得救" target="_blank"> 
+        <div class="img_zc">
+         <img src="http://img001.21cnimg.com/photos/album/20150530/s140x105/16EDD3D1C74C500FA13ED61D99AB0578.jpeg" alt="27岁消防员救火时坠楼牺牲 怀中2岁女童得救" height="105" width="140" />
+        </div> 
+        <div class="zc_title">
+         27岁消防员救火时
+        </div></a> 
+      </div> 
+      <div class="today_div"> 
+       <a class="_block_today" href="http://et.21cn.com/zt/2015/fanlilove/" title="传李晨求婚范冰冰 斥张馨予出轨分手" target="_blank">
+        <div class="img_zc">
+         <img src="http://img001.21cnimg.com/photos/album/20150602/s140x105/7BDD94D7C6A11617B3E8B2AE1695FD0C.jpg" alt="传李晨求婚范冰冰 斥张馨予出轨分手" height="105" width="140" />
+        </div> 
+        <div class="zc_title">
+         传李晨求婚范冰冰
+        </div></a> 
+      </div> 
+      <div class="today_div" style="float:right;"> 
+       <a class="_block_today" href="http://et.21cn.com/star/zhuixing/neidi/a/2015/0602/15/29621580.shtml" title="陈楚生陪爱子过六一 游海洋馆吃蛋糕庆儿童节 " target="_blank"> 
+        <div class="img_zc">
+         <img src="http://img003.21cnimg.com/photos/album/20150602/s140x105/9BA12059B9EDC6043AE85F3F19110BDB.jpg" alt="陈楚生陪爱子过六一 游海洋馆吃蛋糕庆儿童节 " height="105" width="140" />
+        </div> 
+        <div class="zc_title">
+         陈楚生陪爱子过六
+        </div></a> 
+      </div> 
+     </div> 
+    </div> 
+    <!--=S xuantu--> 
+    <div class="blank30"></div> 
+    <ul class="piclist piclist-s2 clearfix" style="display:none;"> 
+     <li><a class="_block_today" target="_blank" href="http://sh.qihoo.com/?src=news.21cn.com"><img class="J_lazyload" width="140" height="120" alt="韩国MERS确诊患者增至12人 上百人被隔离" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img001.21cnimg.com/photos/album/20150530/s140x120/A060B238ECC6708C438C2EBA75CA3B11.jpeg" /><em>韩国MERS确诊患者增至12人 上百人被隔离</em></a></li> 
+     <li><a target="_blank" href="http://sh.qihoo.com/?src=ent.21cn.com"><img class="J_lazyload" width="140" height="120" alt="中国版“绝命毒师”在美被诱捕 于香料中添致幻品" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img001.21cnimg.com/photos/album/20150530/s140x120/3B88F3D942B87C80346B0D7C4FCE69B8.jpeg" /><em>中国版“绝命毒师”在美被诱捕 于香料中添致幻品</em></a></li> 
+    </ul> 
+    <ul class="piclist piclist-s2 clearfix" id="picJson"> 
+     <!--             </ul>                                               <script type="text/javascript">				var cnt=[];				$("#picJson").empty();$.ajax({                url:'http://sh.qihoo.com/api/out_rst_21cny.json?callback=?',                dataType:'jsonp',                timeout:10000,                jsonp:"jsoncallback",                error:function (result, stats, ex) {                  //  _trace(result.status);                },                success:function (data) {													$.each(data, function (i) {										var item = data[i];										if(i<2)										{										//console.log(item.title)var str='<li><a href="'+decodeURIComponent(item.url)+'" target="_blank"><img width="140" height="120" style="display: block;" src="'+item.img+'" alt="'+item.title+'"><em>'+item.title+'</em></a>' $("#picJson").append(str);										}	                          });					                }				            });				</script>--> 
+    </ul> 
+    <div class="xuantu"> 
+     <!-- 1708:全终端页右侧专区一 类型:固定广告位 尺寸:300x250 -->
+     <script type="text/javascript">//<![CDATA[ac_as_id = 1708;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+     <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+     <div class="blank20"></div>
+     <!-- 1709:全终端页右侧专区二 类型:固定广告位 尺寸:300x180 -->
+     <script type="text/javascript">//<![CDATA[ac_as_id = 1709;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+     <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+     <div style="margin-top:-50px;"></div> 
+    </div> 
+    <!-- <div class="blank30"></div>--> 
+    <!--=S xuantu--> 
+    <div class="xuantu"> 
+     <!--全终端页右侧专区三(新)--> 
+     <!-- 1710:全终端页右侧专区三 类型:固定广告位 尺寸:300x180 --> 
+     <script type="text/javascript">//<![CDATA[        ac_as_id = 1710;        ac_format = 0;        ac_mode = 1;        ac_group_id = 1;        ac_server_base_url = "afp.21cn.com/";        //]]></script> 
+     <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+     <!-- 广告位Id:1710 广告位名称:全终端页右侧专区三 类型:固定广告位 尺寸:300x250 -->
+     <!--  <iframe id="ac_im86_1710" name="ac_im86_1710" src="http://afp.21cn.com/a.htm?pv=1&sp=1710,1,180,300,0,0,1,9" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="true" ></iframe>-->
+     <div id="zq_third"></div>
+     <div class="blank20"></div> 
+    </div> 
+    <div class="xuantu"> 
+     <!--全终端页右侧专区四(新)--> 
+     <!--<div id="zhaunquqi" style="width: 300px;height: 250px;">            <script type="text/javascript">                BAIDU_CLB_fillSlot("707932");            </script>       </div>--> 
+    </div> 
+    <!--    <div class="blank30"></div>    --> 
+    <!--=S hotnews--> 
+    <div class="mod"> 
+     <div class="hd">
+      <h3>大家爱看</h3> 
+     </div> 
+     <div class="bd clearfix"> 
+      <div class=""> 
+       <ul class="picTxtList splitLine"> 
+        <a class="_block_hotnews" href="http://et.21cn.com/star/zhuixing/gangtai/a/2015/0602/12/29620551.shtml" target="_blank"><li><img class="J_lazyload" width="74" height="56" alt="澳门大亨小三产女获赠豪宅 正宫随后产女" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20150602/s74x56/A3BACCC2033F8CB0F1065244F4493FD3.jpeg" /> <p>澳门大亨小三产女获赠豪宅 正宫随后产女 <span>06月02日</span> </p> </li></a> 
+        <a class="_block_hotnews" href="http://et.21cn.com/star/zhuixing/gangtai/a/2015/0602/14/29621060.shtml" target="_blank"> <li><img class="J_lazyload" width="74" height="56" alt="朱孝天疑恋情生变 发文称“我希望你幸福”" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img002.21cnimg.com/photos/album/20150602/s74x56/F2A7B2FE500A117DC9C7EBC324E6F619.jpeg" /> <p>朱孝天疑恋情生变 发文称“我希望你幸福” <span>06月02日</span> </p> </li></a> 
+        <a class="_block_hotnews" href="http://news.21cn.com/hot/int/a/2015/0602/12/29620512.shtml" target="_blank"> <li><img class="J_lazyload" width="74" height="56" alt="日本女星与黑道老公闹离婚 吵架失手重摔幼女" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20150602/s74x56/F357A3D906E4CAFFB0FCE7B7876F0733.png" /> <p>日本女星与黑道老公闹离婚 吵架失手重摔幼女 <span>06月02日</span> </p> </li></a> 
+        <a class="_block_hotnews" href="http://et.21cn.com/star/zhuixing/gangtai/a/2015/0602/12/29620506.shtml" target="_blank"> <li style="border-bottom:none"><img class="J_lazyload" width="74" height="56" alt="终于不晒娃!范玮琪晒做发型照靓丽依旧" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img002.21cnimg.com/photos/album/20150602/s74x56/C43C2EB4151229A4C543F9D83B1D8C7E.jpeg" /> <p>终于不晒娃!范玮琪晒做发型照靓丽依旧 <span>06月02日</span> </p> </li></a> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <!--=S xuantu--> 
+    <!-- 1712:全终端页右侧专区五 类型:固定广告位 尺寸:300x250 -->
+    <script type="text/javascript">//<![CDATA[ac_as_id = 1712;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+    <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+    <div class="blank20"></div>
+    <div style="margin-top:-20px"></div> 
+    <!-- <div class="blank30"></div>--> 
+    <!--众聚环宇广告位--> 
+    <div style="margin-top:-30px"></div> 
+    <!-- <div class="blank30"></div>--> 
+    <!-- 1713:全终端页右侧专区六 类型:固定广告位 尺寸:300x250 -->
+    <script type="text/javascript">//<![CDATA[ac_as_id = 1713;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+    <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+    <div class="blank20"></div> 
+    <!--=S ranking-tab--> 
+    <div class="mod"> 
+     <div class="hd">
+      <h3>24小时点击排行榜</h3> 
+     </div> 
+     <div class="bd"> 
+      <ol class="rank splitLine"> 
+       <li> <a class="_block_ranking2 rank_1" target="_blank" title="清华男生卖学姐被褥 销量高一天进账过万(图)" href="http://news.21cn.com/social/shixiang/a/2015/0602/10/29619813.shtml">清华男生卖学姐被褥 销量高一天进账过万(图)</a> <span class="num"> 126864</span></li>
+       <li> <a class="_block_ranking2 rank_2" target="_blank" title="前方高能!盘点那些亮瞎眼的买家秀" href="http://news.21cn.com/social/daqian/a/2015/0529/11/29605635.shtml">前方高能!盘点那些亮瞎眼的买家秀</a> <span class="num"> 119475</span></li>
+       <li> <a class="_block_ranking2 rank_3" target="_blank" title="故宫女模裸照惹争议,大量私照流出(图)" href="http://news.21cn.com/domestic/jinriredian/a/2015/0601/18/29616858.shtml">故宫女模裸照惹争议,大量私照流出(图)</a> <span class="num"> 87963</span></li>
+       <li> <a class="_block_ranking2 rank_4" target="_blank" title="范冰冰李晨西藏秀恩爱 牵手同撑伞虐单身狗" href="http://et.21cn.com/star/pic/a/2015/0601/10/29614458.shtml">范冰冰李晨西藏秀恩爱 牵手同撑伞虐单身狗</a> <span class="num"> 84751</span></li>
+       <li> <a class="_block_ranking2 rank_5" target="_blank" title="朝鲜课本都学啥 颠覆三观" href="http://news.21cn.com/social/daqian/a/2015/0525/16/29586313.shtml">朝鲜课本都学啥 颠覆三观</a> <span class="num"> 81409</span></li>
+       <li> <a class="_block_ranking2 rank_6" target="_blank" title="快递员上门取件强吻女客户 警方已介入调查(图)" href="http://news.21cn.com/social/shixiang/a/2015/0602/08/29618722.shtml">快递员上门取件强吻女客户 警方已介入调查(图)</a> <span class="num"> 79021</span></li>
+       <li> <a class="_block_ranking2 rank_7" target="_blank" title="孙俪带儿子逛公园 尽显母爱" href="http://et.21cn.com/star/pic/a/2015/0602/08/29618788.shtml">孙俪带儿子逛公园 尽显母爱</a> <span class="num"> 78451</span></li>
+       <li> <a class="_block_ranking2 rank_8" target="_blank" title="女子故宫拍裸照引争议 摄影师:没影响他人" href="http://news.21cn.com/social/shixiang/a/2015/0601/07/29613284.shtml">女子故宫拍裸照引争议 摄影师:没影响他人</a> <span class="num"> 74532</span></li>
+       <li> <a class="_block_ranking2 rank_9" target="_blank" title="这周我们相爱吧停播 网传因某CP闹矛盾" href="http://news.21cn.com/social/shixiang/a/2015/0602/11/29619982.shtml">这周我们相爱吧停播 网传因某CP闹矛盾</a> <span class="num"> 66988</span></li>
+       <li> <a class="_block_ranking2 rank_10" target="_blank" title="快递员强吻女客户,施暴未遂下跪道歉" href="http://news.21cn.com/domestic/jinriredian/a/2015/0601/18/29616810.shtml">快递员强吻女客户,施暴未遂下跪道歉</a> <span class="num"> 63617</span></li> 
+      </ol> 
+     </div> 
+    </div>
+    <div class="blank20"></div> 
+    <div class="mod">
+     <div class="hd">
+      <h3>视觉焦点</h3> 
+     </div>
+    </div> 
+    <div class="blank10"></div>
+    <ul class="piclist piclist-s2 clearfix"> 
+     <li><a target="_blank" href="http://www.37bjw.com/?21cn1"><img class="J_lazyload" width="140" height="120" alt="爆笑穿帮镜头亮瞎眼 " original="http://img001.21cnimg.com/photos/album/20150421/s140x105/C26AE29E860D489E4BC35879E92C0303.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>爆笑穿帮镜头亮瞎眼 </em></a></li> 
+     <li><a target="_blank" href="http://www.laobingmi.com/?21cn1"><img class="J_lazyload" width="140" height="120" alt="世界最悲惨28张照片" original="http://img003.21cnimg.com/photos/album/20150518/s140x105/25B46920A33AB434E8F5D6A7CB979034.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>世界最悲惨28张照片</em></a></li> 
+     <li><a target="_blank" href="http://www.37bjw.com/?21cn2"><img class="J_lazyload" width="140" height="120" alt="女监狱不为人知的秘密" original="http://img003.21cnimg.com/photos/album/20150424/s140x105/A2EDE2C60F8BFEA70E638E1722BDE7D4.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>女监狱不为人知的秘密</em></a></li> 
+     <li><a target="_blank" href="http://www.laobingmi.com?21cn2"><img class="J_lazyload" width="140" height="120" alt="黑社会追杀特种兵后果真可怕" original="http://img001.21cnimg.com/photos/album/20150206/s140x105/D2C118CEFB3584976B5FF4D3057EFF70.jpg" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" /><em>黑社会追杀特种兵后果真可怕</em></a></li> 
+    </ul> 
+    <div class="blank20"></div> 
+    <div class="mod"> 
+     <div class="hd">
+      <h3><a href="http://ts.21cn.com" target="_blank">聚投诉</a></h3> 
+      <span class="more"><a href="http://ts.21cn.com" target="_blank">更多</a></span> 
+     </div> 
+     <div class=""> 
+      <ul class="picTxtList splitLine"> 
+       <li><a href="http://ts.21cn.com/news/a/2015/0531/11/29611463.shtml" target="_blank"><img class="J_lazyload" width="74" height="56" alt="淘宝" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20131222/s74x56/ED9B64DEAB7643776339219DED5B3255.jpg" /></a> <p><a href="http://ts.21cn.com/news/a/2015/0531/11/29611463.shtml" target="_blank">评析:淘宝客服几个错?爆款假小米Pad10HD艰难维权记</a> <span>2015.05.31</span> </p> </li> 
+       <li style="border-bottom:none"><a href="http://ts.21cn.com/news/a/2015/0531/11/29611429.shtml" target="_blank"><img class="J_lazyload" width="74" height="56" alt="iFunk" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img001.21cnimg.com/photos/album/20150505/s74x56/0CDCAAF53430D77E71BBF4929B4107B7.png" /></a> <p><a href="http://ts.21cn.com/news/a/2015/0531/11/29611429.shtml" target="_blank">81例众筹投诉分析丨iFunk超极本货不对板遭遇三倍索赔 </a> <span>2015.05.31</span> </p> </li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="blank20"></div> 
+    <div class="mod">
+     <!--         <div class="hd"><h3><a href="http://wen.21cn.com" target="_blank">广东网络问政</a></h3>            <span class="more"><a href="http://wen.21cn.com" target="_blank">更多</a></span>        </div> --> 
+     <div class=""> 
+      <ul class="picTxtList splitLine"> 
+       <li><a href="http://weibo.com/3056092137/CkhUaeF6w" target="_blank"><img class="J_lazyload" width="74" height="56" alt="城管" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img001.21cnimg.com/photos/album/20150601/s74x56/20005962DCE2CF6D41C6BD3937576606.png" /></a> <p><a href="http://weibo.com/3056092137/CkhUaeF6w" target="_blank">投诉:持续举报违建后被诬指发布小广告,手机遭越秀城管呼死</a> <span>2015.06.01</span> </p> </li> 
+       <li style="border-bottom:none"><a href="http://ts.21cn.com/tousu/show/id/11885" target="_blank"><img class="J_lazyload" width="74" height="56" alt="招行" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20131022/s74x56/1F5A2AE69B99825DC09301467AF1D1A9.jpg" /></a> <p><a href="http://ts.21cn.com/tousu/show/id/11885" target="_blank">盗刷投诉半年多后终获赔偿。投诉人建言:网络付款须要验证码</a> <span>2015.06.01</span> </p> </li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="blank10"></div> 
+    <div style="margin-top:-30px;"></div>
+    <div class="blank30"></div>
+    <!--=S shipin-->
+    <!--<div class="mod">    <div class="hd"><h3><a href="http://v.et.21cn.com" target="_blank">精彩视频</a></h3>        <span class="more"><a href="http://v.et.21cn.com" target="_blank">更多</a></span>    </div>    <div class="">                             <ul class="picTxtList splitLine">                                      </ul>    </div></div><div class="blank30"></div>-->
+    <!-- 1715:全终端页右侧专区八 类型:固定广告位 尺寸:300x250 -->
+    <script type="text/javascript">//<![CDATA[ac_as_id = 1715;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+    <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+    <!--=E col-aside-->
+   </div>
+  </div>
+  <div class="blank50"></div>
+  <!--=E bd-->
+  <script>_acK({aid:1827,format:0,mode:1,gid:1,serverbaseurl:"afp.21cn.com/"});     (function(){var analytics_host='analytics.21cn.com/collect/';var pkBaseURL=(('https:'==document.location.protocol)?'https://'+analytics_host:'http://'+analytics_host);document.write(unescape('%3Cscript src='+pkBaseURL+'js/wa_tracking.js type=text/javascript%3E%3C/script%3E'));var analytics_time=0;function timeout_fun(){setTimeout(function(){if(typeof(WATrace)!='undefined'){track()}else if(analytics_time<100){timeout_fun();analytics_time++}},500)}function track(){try{_wa_trace_track=WATrace.getTracker(pkBaseURL+'_trace.gif','aOxuz');if(typeof(_wa_beforeload)!="undefined")_wa_trace_track.setBeforeload(_wa_beforeload);_wa_trace_track.trackPageView();_wa_trace_track.enableLinkTracking()}catch(err){}}new timeout_fun()})();</script>
+  <!--=S footer-->
+  <div class="mod mod-footer"> 
+   <div class="mod-zt area"> 
+    <div class="bd"> 
+     <ul class="clearfix"> 
+      <li> <a href="http://it.21cn.com/video/a/2014/0805/10/27959237.shtml"><img width="120" height="90" style="display: block;" class="J_lazyload" alt="" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20140805/s120x90/49E654065D27A972F309E4EF3E0F746D.png" /> <em>视频已成移动端重应用 先行者尽享爆发红利</em> </a></li> 
+      <li> <a href="http://it.21cn.com/video/a/2014/0116/17/26067035.shtml"><img width="120" height="90" style="display: block;" class="J_lazyload" alt="" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20140116/s120x90/1E9E974C2AEA5DBAAC61719441EFAD87.jpg" /> <em>飞碟君解读《中国年轻人快乐心态报告》</em> </a></li> 
+      <li> <a href="http://it.21cn.com/video/a/2014/0114/23/26028071.shtml"><img width="120" height="90" style="display: block;" class="J_lazyload" alt="" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20140114/s120x90/B75A7E18EE3D29CC810D4D838FAC8929.jpeg" /> <em>让新年不再寂寞 幻想曲通讯游戏推荐23期(原创)</em> </a></li> 
+      <li> <a href="http://it.21cn.com/video/a/2014/0114/17/26025471.shtml"><img width="120" height="90" style="display: block;" class="J_lazyload" alt="" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20140114/s120x90/C8AC37B466BB3439DEB05A67B0E5D66A.jpeg" /> <em>文艺女青年贺岁巨制 指尖上的灵感 </em> </a></li> 
+      <li> <a href="http://it.21cn.com/video/a/2014/0114/14/26020863.shtml"><img width="120" height="90" style="display: block;" class="J_lazyload" alt="" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img003.21cnimg.com/photos/album/20140114/s120x90/AD3DB29116802B6E552301B62263EC48.jpeg" /> <em>三星第二代Galaxy Camera试玩+样张</em> </a></li> 
+      <li class="last"> <a href="http://it.21cn.com/video/a/2014/0114/06/26011791.shtml"><img width="120" height="90" style="display: block;" class="J_lazyload" alt="" src="http://static.21cnimg.com/css/com/bgimg/transparent.gif" original="http://img001.21cnimg.com/photos/album/20140114/s120x90/9EE3B1F04745526A56C352BF0F5075BA.jpeg" /> <em>触动力微教程2013年度花絮特辑</em> </a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="sitemap"> 
+    <div class="area clearfix"> 
+     <div class="col-l"> 
+      <div class="tit">
+       <a href="http://it.21cn.com/">科技 <i></i></a>
+      </div>
+      <ul> 
+       <li><a href="http://it.21cn.com/discovery/">科学 </a></li> 
+       <li><a href="http://it.21cn.com/itnews/">业界 </a></li> 
+       <li><a href="http://it.21cn.com/mi/">移动互联 </a></li> 
+       <li><a href="http://it.21cn.com/ec/">电商</a></li> 
+       <li><a href="http://it.21cn.com/tel/">通信</a></li> 
+       <li><a href="http://it.21cn.com/digi/">数码</a></li> 
+       <li><a href="http://it.21cn.com/ec/">电商</a></li> 
+       <li><a href="http://it.21cn.com/mobile/">手机</a></li> 
+       <li><a href="http://it.21cn.com/pad/">平板</a></li> 
+       <li><a href="http://it.21cn.com/zt/">专题</a></li> 
+       <li><a href="http://it.21cn.com/photo/">图集</a></li> 
+       <li><a href="http://it.21cn.com/itroll/">滚动</a></li>
+      </ul> 
+     </div> 
+     <div class="col-m"> 
+      <div class="tit">
+       <a href="javascript:;">其它频道 <i></i></a>
+      </div> 
+      <ul> 
+       <li><a href="http://news.21cn.com/">新闻 </a></li> 
+       <li><a href="http://auto.21cn.com/">汽车 </a></li> 
+       <li><a href="http://life.21cn.com/">生活 </a></li> 
+       <li><a href="http://mail.21cn.com/">邮箱 </a></li> 
+       <li><a href="http://mil.21cn.com/">军事 </a></li> 
+       <li><a href="http://et.21cn.com/">娱乐 </a></li> 
+       <li><a href="http://she.21cn.com/">女人 </a></li> 
+       <li><a href="http://tv.21cn.com/">视频 </a></li> 
+       <li><a href="http://finance.21cn.com/">财经 </a></li> 
+       <li><a href="http://sports.21cn.com/">体育 </a></li> 
+       <li><a href="http://t.21cn.com/v/">微博汇 </a></li> 
+       <li><a href="http://finance.21cn.com/stock/index.shtml">股票 </a></li> 
+       <li><a href="http://house.21cn.com/">房产 </a></li> 
+       <li><a href="http://bbs.21cn.com/">社区 </a></li> 
+       <li><a href="http://picture.21cn.com/">读图 </a></li> 
+       <li><a href="http://www.21cn.com/sitemap/">网站地图&gt;&gt; </a></li> 
+      </ul> 
+     </div> 
+     <div class="col-r"> 
+      <div class="icon-lis"> 
+       <a title="21CN新闻客户端" class="ico-newsapp" href="http://k.21cn.com/">21CN新闻客户端</a> 
+       <a title="21CN邮箱" class="ico-mail" href="http://mail.21cn.com/">21CN邮箱</a> 
+       <a title="189邮箱" class="ico-189" href="http://webmail12.189.cn/webmail/">189邮箱</a> 
+       <a title="天翼云" class="ico-cloud" href="http://cloud.189.cn/">天翼云</a> 
+       <a title="21CN官方微博" class="ico-weibo" href="http://weibo.com/21cnweibohui/">21CN官方微博</a> 
+      </div> 
+      <div class="cn-search"> 
+       <form target="_blank" action="http://it.21cn.com/api/article/search.do" method="post"> 
+        <input type="hidden" id="view" name="view" value="/article/article/search" /> 
+        <input type="hidden" id="channelId" name="channelId" value="11" /> 
+        <input type="text" style="color: rgb(102, 102, 102);" value="" class="cn-input placeholder" name="keywords" /> 
+        <input type="submit" value="" class="cn-btn" /> 
+       </form> 
+      </div> 
+      <div class="mod-contact">
+       联系电话:020-85115032 主编信箱:xix#corp.21cn.com (发送时请将#改为@)
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-sm"> 
+    <div class="area clearfix"> 
+     <img width="89" height="24" src="http://static.21cnimg.com/css/com/bgimg/tell-logo.png" alt="中国电信" /> 
+     <p>经营许可证编号: <a href="http://www.21cn.com/other/copyright/icp.html" target="_blank" title="在新窗口中查看ICP证" style="">粤B2-20040116</a> 不良信息举报:<a href="http://help.21cn.com/" target="_blank">[点击联系]客户服务</a> 世纪龙信息网络有限责任公司版权所有 </p> 
+    </div>
+   </div>
+  </div>
+  <!--tuisong-box-->
+  <div class="tuisong-box" id="J_tuisongBox" style="display: none;"> 
+   <b class="arr"></b> 
+   <div class="tuisong-box-inner"> 
+    <div class="clearfix"> 
+     <input class="mobile-input" type="text" id="J_mobileNum" onblur="if(this.value=='') {this.value='请输入您的手机号码';}" onfocus="if(this.value=='请输入您的手机号码') {this.value='';}" value="请输入您的手机号码" /> 
+     <button class="submit-btn" type="button" id="J_tuiApp2mobile">发送</button> 
+    </div> 
+   </div>
+  </div>
+  <div class="fixed-share-box" id="J_fixed_shareBox" style="display:none;"> 
+   <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6492479"></script> 
+   <script type="text/javascript" id="bdshell_js"></script> 
+   <script type="text/javascript">        /**         * 在这里定义bds_config         */        function GetDescription() {            var metas = document.getElementsByTagName("meta");            var description = '';            var strTemp;            for (var i = 0; i < metas.length; i++) {                if (metas[i].name == 'description') {                    description = metas[i].content;                }            }            return description;        }        function removeHTMLTag(str) {            str = str.replace(/<\/?[^>]*>/g, ''); //去除HTML tag            str = str.replace(/[ | ]*\n/g, '\n'); //去除行尾空白            str = str.replace(/ /ig, '');//去掉            return str;        }        function GetArticleImg() {            var imgs = document.getElementById('article_text').getElementsByTagName('img');            var img = '';            if (imgs.length != 0) {                img = imgs[0].src;                return img;            }        }        var bds_config = {            'bdText':'【' + ARTICLE_INFO.title + '】' + removeHTMLTag(GetDescription()), //'请参考自定义分享内容'			//'bdText':'#就爱阅读#'+'【' + ARTICLE_INFO.title + '】' + removeHTMLTag(GetDescription()),            'bdPic':GetArticleImg(), //'请参考自定义分享出去的图片'            'searchPic':'0', //'0为抓取,1为不抓取,默认为0,目前只针对新浪微博'            'wbUid':'2675235393', //'请参考自定义微博 id'            'snsKey':{"tsina":"3673594135",                "qzone":"ec0092725ae3f99280f14fc6a4914015",                "tqq":"36d5d281ef90455582e519f067a99916"}        //'请参考自定义分享到平台的appkey'        }    </script> 
+   <!-- Baidu Button END -->
+  </div>
+  <!--=E footer-->
+  <!-- 1793:图加广告 类型:浮层广告位 尺寸:- --> 
+  <script type="text/javascript">//<![CDATA[ ac_as_id = 1793; ac_format = 0; ac_mode = 1; ac_group_id = 1;ac_send_referer = 1; ac_server_base_url = "afp.21cn.com/"; //]]></script> 
+  <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+  <script type="text/javascript" src="http://static.21cnimg.com/js/article/article_v20130625.js"></script>
+  <script src="http://static.21cnimg.com/js/video_end/ding_cai.js"></script>
+  <script type="text/javascript">    initArticleOpinion({operationId: ARTICLE_INFO.operaId, contentId: ARTICLE_INFO.contentId,contentTitle:ARTICLE_INFO.title});</script>
+  <!--<div style="display:none"><iframe id="clickFrame" name="clickFrame" src="" frameborder="0"></iframe></div><script type="text/javascript">    (function(){        var chid = "9415"        if(chid > 9400) chid = chid - 9400;        var article_id = "25041617";        var type_id = "100073";        var title = "电商VS传统市场 哪些行业未被互联网打败";        var pubtime = "2013-11-16";		var modify_time="1384539237000";        var url = window.location.href;        var invokeUrl = " http://ranking.21cn.com/add.addservlet?ArticleID="+article_id+"&ChannelID="+chid+"&url="+url+"&title="+encodeURI(title)+"&pubtime="+pubtime+"&type_id="+type_id;     if (url.indexOf(":8") == -1) {            document.getElementById("clickFrame").src = invokeUrl;        }    })();</script>-->
+  <div style="display: none">
+    oumin@189.cn kanmiaochen@21cn.com liyg@21cnsales.com ibm2012cd@21cn.com Athena_1a@21cn.com 1994004509@qq.com Athena_1a@163.com
+  </div>
+  <div style="display: none"> 
+   <script type="text/javascript" src="http://market.21cn.com/w/js/market-end2.js"></script>
+  </div>
+  <!-- 1734:全终端页富媒体弹窗-新 类型:浮层广告位 尺寸:- -->
+  <script type="text/javascript">//<![CDATA[ac_as_id = 1734;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+  <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+  <!-- 1793:图加广告 类型:浮层广告位 尺寸:- -->
+  <script type="text/javascript">//<![CDATA[ac_as_id = 1793;ac_format = 0;ac_mode = 1;ac_group_id = 1;ac_server_base_url = "afp.21cn.com/";//]]></script>
+  <script type="text/javascript" src="http://market.21cn.com/asp/k.js"></script>
+  <script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F201379f79f5799c2c5109bdd9fa51e5e' type='text/javascript'%3E%3C/script%3E"));</script>
+  <!--baidu hm2-->
+  <script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe1e8af8f59435d404f801c09c8347539' type='text/javascript'%3E%3C/script%3E"));</script>
+  <iframe id="Ads_popser" height="0" width="0" src="http://dist.21cn.com:8088/dist/47.jsp"></iframe>
+  <!--<script type="text/javascript">    /*百度推荐创建于 2015-05-25*/    var cpro_id = "u2120570";</script><script src=" http://su.bdimg.com/static/dspui/js/uf.js" type="text/javascript"></script>-->
+  <img style="display:none" src="http://ranking.21cn.com/api/article/collect.do?articleId=25041617&amp;articleType=11&amp;columnId=100073&amp;channelId=11&amp;subSiteId=1&amp;modifyTime=1384539237000" />
+ </body>
+</html>

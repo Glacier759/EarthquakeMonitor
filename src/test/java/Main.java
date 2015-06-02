@@ -43,7 +43,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Crawler crawler = new BaiduSearchCrawler();
+        Crawler crawler = new WeiboCrawler();
         crawler.start();
 
     }

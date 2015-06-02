@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="Keywords" content="吾谷网,成本负担,合作社建设,杨凌,农业品牌,农产品销售" />
+  <meta name="Description" content="吾谷网,成本负担,合作社建设,杨凌,农业品牌,农产品销售" />
+  <link href="/css/zx/zxStyle.css" rel="stylesheet" type="text/css" />
+  <script src="/js/jquery-1.8.2.min.js"></script>
+  <script src="/js/zx/base.js"></script>
+  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2139333996" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0"></script>
+  <script type="text/javascript" id="bdshell_js"></script>
+  <script type="text/javascript">	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)</script>
+  <script src="/js/zx/common.js"></script>
+  <title>陕西农产品电商欲驶“蓝海”_吾谷网</title>
+ </head>
+ <body>
+  <!--五谷资讯-->
+  <script>$(function(){	$("input[name=search]").focus(function(){		$(this).attr("placeholder","");	});		//enter键提交:  	function submitByEnter(){		if(getEvent().keyCode == 13 || getEvent().keyCode == 32){	    	var keyword = $.trim($("input[name=search]").attr("placeholder"));	    	if(keyword.length>0){	        	$(".search").submit();	        }else{	            return false;	        }		}	}	});</script>
+  <!--top-->
+  <!--common-header-->
+  <div class="header-normal"> 
+   <div class="top"> 
+    <nav class="f12 topNav"> 
+     <a href="http://www.wugu.com.cn">首页</a> 
+     <span>|</span> 
+     <a href="http://news.wugu.com.cn/">吾谷资讯</a> 
+     <span>|</span> 
+     <a href="http://hxm.wugu.com.cn/">吾谷好项目</a> 
+     <span>|</span> 
+     <a href="http://rencai.wugu.com.cn">吾谷人才</a> 
+     <span>|</span> 
+     <a href="http://yicunyipin-bj.wugu.com.cn/">一村一品</a> 
+     <span>|</span> 
+     <a href="http://nongshitong.wugu.com.cn">农事通</a> 
+     <span>|</span> 
+     <a href="http://www.wugu.com.cn/nonghepage">合作社</a> 
+     <span>|</span> 
+     <a href="http://www.wugu.com.cn/zt/index.html">专题</a> 
+     <span>|</span> 
+     <a href="http://zhuanlan.wugu.com.cn/">专栏</a> 
+     <span>|</span> 
+     <a href="http://www.wugu.com.cn/exhibitionpage">展会活动</a> 
+    </nav> 
+    <nav class="nav_login f12"> 
+     <a href="http://passport.wugu.com.cn/register/index">注册</a> 
+     <span>|</span> 
+     <a href="http://passport.wugu.com.cn/login/index?gourl=http://news.wugu.com.cn/article/20140922/317868.html">登录</a> 
+    </nav> 
+   </div>
+  </div>
+  <!--end top-->
+  <div class="mt30"></div>
+  <div class="header"> 
+   <header> 
+    <h1 class="logo"> <a href="http://news.wugu.com.cn/"><img src="/images/zx/logo.png" alt="吾谷网" title="吾谷资讯" /></a> </h1> 
+    <form class="search" action="http://news.wugu.com.cn/search" onkeydown="submitByEnter();" method="post"> 
+     <input type="text" placeholder="请输入内容" name="search" class="text" autocomplete="off" /> 
+     <button class="btn-search"></button> 
+    </form> 
+   </header>
+  </div> 
+  <!--content-->
+  <div class="wrap cf"> 
+   <div class="content cf"> 
+    <section class="main"> 
+     <div class="articles cf"> 
+      <section class="arPage rcIn"> 
+       <div class="detail cf"> 
+        <p class="la">陕西农产品电商欲驶“蓝海”</p> 
+        <div class="n"> 
+         <p class="ly"><span class="time">2014-09-22 19:42:59 </span><span>来自农世界</span></p> 
+         <div class="AA"> 
+          <a href="javascript:;" class="aDown"></a> 
+          <a href="javascript:;" class="aUp"></a> 
+         </div> 
+         <p class="yd"><span class="reyd">阅读<em class="emreader">(682)</em></span> 
+          <!--分享--> </p>
+         <div class="bdshare_t bds_tools get-codes-bdshare share" id="bdshare" style="z-index:999;"> 
+          <span class="bds_more" style="padding:0 0 5px 0!important;background-image:none!important;">分享</span> 
+         </div> 
+         <!--end 分享--> 
+         <p></p> 
+        </div> 
+       </div> 
+       <div class="dd cf"> 
+        <span class="ddcon"> 热潮冷流 中国的电子商务市场正以史无前例的步伐增长,预期未来将会以更快的速度持续增长。 据统计,2013年中国电子商务持续快速发展,全年交易总额突破10万亿元人民币,网络零售交易额超过... </span> 
+       </div> 
+      </section> 
+      <div class="wd"> 
+       <p></p>
+       <div class="addstyle"> 
+        <strong>热潮冷流</strong>
+        <p></p>
+        <p> 中国的电子商务市场正以史无前例的步伐增长,预期未来将会以更快的速度持续增长。</p>
+        <p> 据统计,2013年中国电子商务持续快速发展,全年交易总额突破10万亿元人民币,网络零售交易额超过1.85万亿,相当于全国社会消费品零售总额的7.8%。</p>
+        <p> 业界预测,如果继续保持这样的增长态势,2020年在线零售占社会消费品零售总额将超过50%的预判,会像阳光一样照进现实。</p>
+        <p> <img alt="陕西农产品电商欲驶“蓝海” " title="陕西农产品电商欲驶“蓝海” " src="http://img.wugu.com.cn/000/000/130/050.jpg" width="354" height="241" /></p>
+        <p> 作为教育和科技大省,陕西的电子商务近几年来发展迅速。来自陕西商务厅的数据显示,2013年,全省电子商务交易额达到1800亿元,同比增长15.6%,相当于当年陕西省生产总值的11.2%。其中,网络零售市场规模达335亿元,相当于全省社会消费品零售总额的6.8%,同比增长38%,增速约为当年社会消费品零售总额增长率的2.7倍。</p>
+        <p> 2014年,国家发改委等八个部门批复西安成为创建国家电子商务示范城市,西安同时获批了全国跨境贸易电子商务服务试点城市。西安国际港务区引进了京东集团、唯品会、利安集团、国美电器、华腾科技、易迅、华西城等配套电商企业,东方电子支付、建设银行等配套支付企业和中国邮政ems配套物流快递企业。同时,陕西各市县各级政府也相继出台了发展电子商务的扶持政策。</p>
+        <p> 2014年7月份,陕西省商务厅召开了全省电子商务大会,“电子商务的发展热潮在陕西已经兴起。”西安邮电大学经管院院长、陕西电子商务行业协会高级顾问张鸿告诉记者,他近期已经参与了多个电子商务项目的研讨论证会。</p>
+        <p> “但与此形成鲜明对比的是,我省自身电子商务企业的发展却步履维艰。”唐显平此前曾做过调查,“在我国互联网发展的三个时期——传统互联网、移动互联网、电子商务,在每个时期的起始阶段,我省在全国都处于领先地位,但发展后劲乏力,经济效益与社会效益不明显。”</p>
+        <p> 调查显示,目前,陕西电子商务企业年销售额在千万元以上的寥寥无几,众多的企业处于被外来电商吞并的境地。</p>
+        <p> “尤其值得注意的是,我省是全国果业和农副产品大省,但却是电子商务网上销售相关产品的小省。”李俊峰说,目前,陕西农副产品电子商务企业以年销售在100万元左右的企业居多,“企业各自为战,而我省大量的果品、农副产品不得不借助北京、上海以及南方的电商来销售,造成了极大的资源浪费和商品销售成本负担。”</p>
+        <p> 适宜网销且销量排名靠前的产品有服装、鞋帽箱包、3c、家电、图书音像等,受产业结构限制,上述产品鲜有陕西省品牌。“目前,我省网销产品局限于农产品、医药保健品和旅游文化产品,还不在网销量较大的品类之列,同时未得到充分发掘推广,整体交易额较小。”张鸿说。</p>
+        <p> 以农产品在淘宝网的销售为例,2012年淘宝网陕西买家消费金额242亿元,陕西卖家销售金额40亿,买卖比例超过6:1,表现为逆差,“且242亿元购买消费金额中仅有7亿元的产品买自陕西本地,也就是说淘宝网陕西商户买入产品的96.9%和销售产品的82.5%都是外地产品。”陕西省商务厅厅长姚超英说,淘宝网农产品单品销量排名第一的枣类制品中,陕西仅占总销量的5%,排在河南、新疆、江苏等省份之后,位列第7位。</p>
+        <p> “2013年,淘宝网上陕西省买卖比例仍达6:1,网络交易持续呈现逆差。”姚超英说。</p>
+        <p> <strong>陕西发力</strong></p>
+        <p> 刚从汉中回来的唐显平略显疲惫。最近一个月,唐显平南上北下,跑了陕西许多地方,“主要是和各地的合作社等一些农业组织沟通。”</p>
+        <p> 唐显平现在的身份是陕西供销集团电子商务有限公司的副总经理,主要负责公司的运营,“陕西供销在线的域名已经下来了,目前主要是做前期的准备。”</p>
+        <p> 陕西供销集团电子商务有限公司作为依托陕西供销集团和陕西供销总社的一个电商企业,“我们经营的主要特色就是陕西的农特产品,我们的目标是打造陕西乃至西北的农产品电商第一品牌。”陕西供销集团电子商务有限公司总经理李俊峰说。</p>
+        <p> 和唐显平一样,吕周峰也正在积极准备他们即将上线的电商平台。这又是一家农副产品电商平台。吕周峰是陕西赛众生物科技有限公司的董事长。他即将启动的电子商务平台将把新型农业科技推广和农产品市场结合起来:一方面帮助农民销售优质健康的农产品,打造地方特色农业品牌;一方面通过农产品销售带动和引导农户主动应用现代农业科技,关注土壤健康,生产安全绿色的农产品。</p>
+        <p> 据陕西省科技厅科技资源统筹中心培训部部长桂亚刚介绍,今年由陕西省科技厅牵头,计划用两年左右的时间,在全省100个县开展现代农业电商培训,并首先选择10个县开展电商平台建设试点,扶持当地重点涉农企业和有实力的合作社建设农业电商平台。</p>
+        <p> 合阳县是陕西科技厅遴选的首批10个试点县之一,位于该县的陕西赛众生物科技有限公司获得陕西省科技厅支持开办农业电商平台。</p>
+        <p> 面对农产品电商的热潮,已经牵手杨凌的陕西利安集团董事长陈立强也正在绸缪一个大的动作,“目前正在构建农村网络体系。最终的情况我们将在近期发布。”</p>
+        <p> 而除了陕西本土电商企业之外,一些全国性电商平台也开始看好陕西的农副产品,“我们在陕西的招商重点就是农副产品的生产加工企业。”苏宁云商集团西安地区管理中心营销总监王明贵说。</p>
+        <p> 除此之外,陕西中农资讯有限公司在国内果汁行业已经有一定影响;陕西熊猫伯伯农业网络科技有限公司与农户建立了良好合作关系,通过整合线上线下的农业资源,实现了“从田地到餐桌”,减少中间环节,降低了产品成本、价格,最终实现让利消费者的目标。</p>
+        <p> “对于陕西来说,目前的电商平台不是多了,而是还不够。”对于目前的农副产品电商发展的热潮,张鸿表示,陕西的农产品电商目前发展的还远远不够,尤其是具有规模和品牌影响力的电商平台太少。</p>
+        <p> “事实上,农产品电商在很大程度上将解决农产品‘买难卖难’问题,促进农村繁荣和农民增收。”张鸿说。</p>
+        <p> 原标题:陕西农产品电商欲驶“蓝海”</p> 
+       </div> 
+       <!--农世界网微信--> 
+      </div>
+      <p></p> 
+     </div> 
+     <div class="mark"> 
+      <span>标签 :</span> 
+      <a href="/tag/187091.html">成本负担</a> 
+      <a href="/tag/198317.html">合作社建设</a> 
+      <a href="/tag/162907.html">杨凌</a> 
+      <a href="/tag/166420.html">农业品牌</a> 
+      <a href="/tag/195694.html">农产品销售</a> 
+     </div> 
+     <!-- 添加分页 start--> 
+     <div class="pagelistH clearfix" style="text-align:center;margin-top:15px;"> 
+     </div> 
+     <!-- 添加分页 end--> 
+     <div class="ctac"> 
+      <h3>相关新闻</h3> 
+      <a href="/article/20150602/559559.html">深度拥抱互联网+雨润打造农产品电商全产业链</a> 
+      <a href="/article/20150428/532803.html">四大因素导致农民专业合作社贷款难</a> 
+      <a href="/article/20150428/532778.html">市场分析:棕榈油期货强势整理前期多单仍持有</a> 
+      <a href="/article/20150417/525379.html">从超级稻绝产看农业保险任重道远</a> 
+      <a href="/article/20141121/394400.html">预计年后白糖价格将开展新一波下跌</a> 
+     </div> 
+     <!-- 微博评论 --> 
+     <div class="sinanr"> 
+      <wb:comments url="http://news.wugu.com.cn/article/20140922/317868.html" width="auto" border="n" ralateuid="2574636327"></wb:comments> 
+      <!--<div style="position:absolute;right:0;bottom:20px;width:100%;height:20px;background-color:#fff;"></div>--> 
+     </div> 
+     <!-- 微博评论/ --> 
+    </section> 
+    <!--右侧--> 
+    <div class="sidebar cf"> 
+     <div id="fragmentid_592" limittype="1"> 
+      <span><a href="http://hxm.wugu.com.cn/" target="_blank" class="flt"><img src="http://img.wugu.com.cn/000/000/185/901.jpg" alt="吾谷好项目" /></a></span> 
+     </div> 
+     <!--五谷人才--> 
+     <div class="rencai cf"> 
+      <div class="mod-tit"> 
+       <h2 class="tit yh f18  art-tit"><a href="http://rencai.wugu.com.cn/">吾谷人才</a></h2> 
+      </div> 
+      <div class="talent" id="fragmentid_598" limittype="1"> 
+       <dl> 
+        <dt>
+         <span><a href="http://rencai.wugu.com.cn/job/Detail?postid=809"><img src="http://img.wugu.com.cn/000/000/185/859.png" alt="吾谷网" /></a></span>
+        </dt> 
+        <dd> 
+         <h3 class="tatit"><span><a href="http://rencai.wugu.com.cn/job/Detail?postid=809" class="yh f16">生测专员</a></span></h3> 
+         <p class="fw">薪资范围:3000-5000元/月<span>招聘人数:2人 </span></p> 
+         <p>工作地址:江西省 九江市</p> 
+        </dd> 
+       </dl> 
+       <ol class="deper"> 
+        <li><a href="http://rencai.wugu.com.cn/job/Detail?postid=575">仓管主任</a><a href="http://rencai.wugu.com.cn/job/Detail?postid=575" class="cash">面议</a></li> 
+        <li><a href="http://rencai.wugu.com.cn/job/Detail?postid=591">工程管理员</a><a href="http://rencai.wugu.com.cn/job/Detail?postid=591" class="cash">5000-8000元/月</a></li> 
+        <li><a href="http://rencai.wugu.com.cn/job/Detail?postid=627">区域经理</a><a href="http://rencai.wugu.com.cn/job/Detail?postid=627" class="cash">2000-3000元/月</a></li> 
+       </ol> 
+      </div> 
+     </div> 
+     <!--专栏--> 
+     <div class="zl cf art-zl rc-zl"> 
+      <div class="mod-tit"> 
+       <h2 class="tit yh f18  art-tit"><a href="http://zhuanlan.wugu.com.cn/">吾谷专栏</a></h2> 
+       <a href="http://zhuanlan.wugu.com.cn/" class="more yh">更多</a> 
+      </div> 
+      <div class="zl-list cf" id="fragmentid_593" limittype="1"> 
+       <ol class="cf"> 
+        <li class="cf"> <span><a href="http://zhuanlan.wugu.com.cn/article/20150525/553611.html" class="pic"><img src="http://img.wugu.com.cn/000/000/266/189.jpg" alt="吾谷网" title="..." /></a></span> 
+         <div class="show cf"> 
+          <span><a href="http://zhuanlan.wugu.com.cn/article/20150525/553611.html" class="f16 yh sa">一个“疯子”的苹果真理</a></span>并不能以为执着就能感天动地,如果不能找出事物内部的奥秘,则成功永远遥不可及。就像书中所说:“如果无法证明自己理想中的无作为农业比现代农业更加优秀,就会沦为纸上谈兵。
+          <p></p> 
+          <div class="tag cf">
+           <span><a href="http://zhuanlan.wugu.com.cn/article/20150525/553611.html" class="per">魏延安</a></span>
+           <span><a href="http://zhuanlan.wugu.com.cn/article/20150525/553611.html"><i class="icon-comment"></i><span class="pv">369</span></a></span>
+          </div> 
+         </div> </li> 
+        <li class="cf"> <span><a href="http://zhuanlan.wugu.com.cn/article/20150521/550320.html" class="pic"><img src="http://img.wugu.com.cn/000/000/261/427.jpg" alt="吾谷网" title="..." /></a></span> 
+         <div class="show cf"> 
+          <span><a href="http://zhuanlan.wugu.com.cn/article/20150521/550320.html" class="f16 yh sa">做餐饮不要拿互联网思维说事</a></span> 
+          <p class="cf m">13年有两家做餐饮的创业者把互联网思维放大到了极致,无论是热极一时的黄太吉,还是NB哄哄的雕爷牛腩,亦或是西少爷肉夹馍,几千万的融资让这些苦哈哈的餐饮老板们像追星一般,疯涌而至,然后……</p> 
+          <div class="tag cf">
+           <span><a href="http://zhuanlan.wugu.com.cn/article/20150521/550320.html" class="per">庄帅</a></span>
+           <span><a href="http://zhuanlan.wugu.com.cn/article/20150521/550320.html"><i class="icon-comment"></i><span class="pv">369</span></a></span>
+          </div> 
+         </div> </li> 
+        <li class="cf"> <span><a href="http://zhuanlan.wugu.com.cn/article/20150518/547317.html" class="pic"><img src=" http://img.wugu.com.cn/000/000/256/825.jpg" alt="吾谷网" title="..." /></a></span> 
+         <div class="show cf"> 
+          <span><a href="http://zhuanlan.wugu.com.cn/article/20150518/547317.html" class="f16 yh sa">生鲜电商为什么都爱“绑大款”?</a></span> 
+          <p class="cf m">互联网界有着太多站队的潜规则,敌人的敌人是朋友,毛主席说过的话至今仍是真理。至此,全国八大生鲜电商平台,已基本被大资本包养。</p> 
+          <div class="tag cf">
+           <span><a href="http://zhuanlan.wugu.com.cn/article/20150518/547317.html" class="per">钟文彬</a></span>
+           <span><a href="http://zhuanlan.wugu.com.cn/article/20150518/547317.html"><i class="icon-comment"></i><span class="pv">369</span></a></span>
+          </div> 
+         </div> </li> 
+       </ol> 
+      </div> 
+     </div> 
+     <!-- 广告位-- --> 
+     <div id="fragmentid_599" limittype="1" class="aadd"> 
+      <span><a href="http://yicunyipin-bj.wugu.com.cn/" class="ad"><img src="/images/zx/p3.jpg" alt="吾谷网" /></a></span> 
+     </div> 
+     <!--微信扫描区--> 
+     <section class="aside-social"> 
+      <p class="f18 yh code">关注微信公众号,了解最新精彩内容</p> 
+      <div class="weixin"> 
+       <img src="/images/zx/w.jpg" alt="吾谷网微信" /> 
+      </div> 
+     </section> 
+    </div> 
+   </div>
+  </div>
+  <!-- 更新浏览量 -->
+  <script type="text/javascript" src="/js/u_track.js"></script>
+  <!--footer-->
+  <footer class="cf"> 
+   <div class="footer-inner"> 
+    <article> 
+     <h2 class="yh f18">关于吾谷网</h2> 
+     <ol> 
+      <li><a href="http://www.wugu.com.cn/public/aboutus">关于我们</a></li> 
+      <li><a href="http://www.wugu.com.cn/public/UserTrack">加入我们</a></li> 
+      <li><a href="http://www.wugu.com.cn/public/ContactUs">联系我们</a></li> 
+      <li><a href="http://www.wugu.com.cn/public/Adservice">广告服务</a></li> 
+      <li><a href="http://www.wugu.com.cn/public/Copyright">版权声明</a></li> 
+     </ol> 
+    </article> 
+    <article class="icon"> 
+     <h2>社会化媒体</h2> 
+     <ol> 
+      <li><a href="http://weibo.com/wgool">新浪微博</a></li> 
+      <li><a href="javascript:;">QQ群162930640</a></li> 
+      <li><a href="http://t.qq.com/wugucomcn">腾讯微博</a></li> 
+      <li class="spe"> <a href="#">微信公众号</a> 
+       <div class="mask"></div> </li> 
+     </ol> 
+    </article> 
+    <article> 
+     <h2>网站服务</h2> 
+     <ol> 
+      <li><a href="http://news.wugu.com.cn/article/20150303/490908.html">寻求报道</a></li> 
+      <li><a href="http://www.wugu.com.cn/lishihui/">吾谷理事会</a></li> 
+      <li><a href="http://news.wugu.com.cn/magazine">邮件订阅</a></li> 
+      <li><a href="http://wap.wugu.com.cn">手机吾谷网</a></li> 
+     </ol> 
+    </article> 
+    <article class="mobg"> 
+     <h2></h2> 
+     <ol> 
+      <li class="spe spe1"> <a class="sina" href="http://weibo.com/wgool"></a> <a class="tengxun" href="http://t.qq.com/wugucomcn"></a> <a class="weixin" href="javascript:;"></a> 
+       <div class="mask"></div> </li> 
+      <li class="ba">京公网安备 1101050221269</li> 
+      <li>京ICP备12038660号 Copyright &copy; 2011-2015 CTV Golden Bridge</li> 
+     </ol> 
+    </article> 
+   </div>
+  </footer>
+  <!-- 百度统计 -->
+  <script type="text/javascript">	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://": " http://");   document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd61c25bec1a865139b29ac485c95cca9' type='text/javascript'%3E%3C/script%3E"));</script> 
+  <script>$(function(){	//动态更新显示的浏览数:	var url = window.location.href; 	var strs= new Array(); //定义一数组 	strs = url.split("/"); //字符分割 ("|",c);	var id = strs[5].split(".")[0];	$.post("http://news.wugu.com.cn/getpv", { id: id}, function(data){		$(".emreader").text("("+data+")");	});	});</script>
+ </body>
+</html>

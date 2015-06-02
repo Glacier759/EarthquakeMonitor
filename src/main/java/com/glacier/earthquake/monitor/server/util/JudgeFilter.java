@@ -56,6 +56,7 @@ public class JudgeFilter {
         List<FilterWhiteList> filterWhiteLists = Data2Object.filterRulesWhiteList();
         for (FilterWhiteList filterWhiteList : filterWhiteLists) {
             if ( filterWhiteList.getUrl().equals(url) || url.contains(filterWhiteList.getUrl()) ) {
+                logger.info("[白名单] - 该条链接属于白名单 不会进行抓取 " + url);
                 return true;
             }
         }

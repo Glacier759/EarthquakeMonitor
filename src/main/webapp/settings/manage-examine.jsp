@@ -91,6 +91,12 @@
                 <div id="filters-div">
                     <form id="examine-ok" method="post">
                         <div class="row">
+                            <button type="button" class="btn btn-info" onclick="showAll()">全部</button>
+                            <button type="button" class="btn btn-warning" onclick="showDis()">灾情获取</button>
+                            <button type="button" class="btn btn-success" onclick="showPub()">舆情监控</button>
+                        </div>
+                        <br />
+                        <div class="row">
                             <table class="table table-striped table-bordered table-hover" id="filters-table" style="table-layout: fixed;">
                                 <thead>
                                 <tr>
@@ -105,9 +111,9 @@
                             </table>
                         </div>
                         <div class="row">
-                            <div class="col-lg-10"></div>
-                            <div class="col-lg-2">
-                                <button class="btn btn-info" type="submit">审核通过</button>
+                            <div class="col-lg-12" align="right">
+                                <input class="btn btn-danger btn-lg" onclick="submit_form(0)" type="button" value="审核淘汰" />
+                                <input class="btn btn-info btn-lg" onclick="submit_form(1)" type="button" value="审核通过" />
                             </div>
                         </div>
                     </form>
@@ -134,8 +140,8 @@
                                     <div class="row">
                                         <%--<div class="col-lg-2"></div>--%>
                                         <div class="col-lg-12" align="center">
-                                            <%--<p id="filter-source"></p>--%>
-                                            <iframe width="100%" height="100%" src="" id="filter-iframe"></iframe>
+                                            <p id="filter-source" hidden></p>
+                                            <iframe width="100%" height="100%" src="" id="filter-iframe" hidden></iframe>
                                         </div>
                                         <%--<div class="col-lg-2"></div>--%>
                                     </div>
@@ -177,6 +183,7 @@
                             var row = document.createElement("tr");
                             row.setAttribute("id", objson[i].id);
                             row.setAttribute("class", "text-info");
+                            row.setAttribute("status", objson[i].type);
                             var col0 = document.createElement("th");
                             col0.setAttribute("class", "text-center");
                             var select = document.createElement("input");
@@ -225,8 +232,16 @@
                     dataType: "json",
                     success: function (msg) {    //msg是后台调用action时，你传过来的参数
                         var objson = eval(msg);
-                        //$("#filter-source").html(objson.source);
-                        $("#filter-iframe").attr("src", objson.url);
+                        if ( objson.source != null ) {
+                            $("#filter-iframe").attr("hidden","");
+                            $("#filter-source").removeAttr("hidden");
+                            $("#filter-source").html(objson.source);
+                        }
+                        else {
+                            $("#filter-source").attr("hidden", "");
+                            $("#filter-iframe").removeAttr("hidden");
+                            $("#filter-iframe").attr("src", objson.url);
+                        }
                         if (objson.type == "disaster") {
                             $("#filter-type").html("信息类型: 灾情获取");
                             $("#filter-patten").remove();
@@ -245,6 +260,19 @@
                     }
                 });
             }
+
+            function showAll() {
+                $("tr[status]").attr("style", "display:");
+            }
+            function showDis() {
+                $("tr[status='0']").attr("style", "display:");
+                $("tr[status='1']").attr("style", "display:none");
+            }
+            function showPub() {
+                $("tr[status='1']").attr("style", "display:");
+                $("tr[status='0']").attr("style", "display:none");
+            }
+
             function fun(value) {
                 $.ajax({
                     type: "get",
@@ -266,28 +294,28 @@
                 });
             }
 
-            $("#examine-ok").submit(function() {
-                    var ajax_url = "<%=request.getContextPath()%>/SettingServlet?operate=examine-ok";
-                    var ajax_type = $(this).attr('method');
-                    var ajax_data = $(this).serialize();
-                    $.ajax({
-                        type: ajax_type,
-                        url: ajax_url,
-                        data: ajax_data,
-                        success: function(msg) {    //msg是后台调用action时，你传过来的参数
-                            if ( msg == "wrong" ) {
-                                alert("审核出现异常");
-                                location.reload();
-                            } else if ( msg == "success" ) {
-                                alert("操作成功");
-                                location.reload();
-                            } else if ( msg == "permission denied" ) {
-                                alert("您没有权限进行此操作");
-                            }
+            function submit_form(op) {
+                var ajax_url = "<%=request.getContextPath()%>/SettingServlet?operate=examine-ok&type=" + op;
+                var ajax_type = $("#examine-ok").attr('method');
+                var ajax_data = $("#examine-ok").serialize();
+                $.ajax({
+                    type: ajax_type,
+                    url: ajax_url,
+                    data: ajax_data,
+                    success: function(msg) {    //msg是后台调用action时，你传过来的参数
+                        if ( msg == "wrong" ) {
+                            alert("审核出现异常");
+                            location.reload();
+                        } else if ( msg == "success" ) {
+                            alert("操作成功");
+                            location.reload();
+                        } else if ( msg == "permission denied" ) {
+                            alert("您没有权限进行此操作");
                         }
-                    });
-                    return false;   //阻止表单的默认提交事件
-            });
+                        location.reload();
+                    }
+                });
+            }
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <%@include file="../footer.jsp"%>

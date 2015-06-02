@@ -3,6 +3,7 @@ package com.glacier.earthquake.monitor.browser.servlet;
 import com.glacier.earthquake.monitor.browser.util.UserUtils;
 import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
+import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.*;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
@@ -325,7 +326,13 @@ public class SettingServlet extends HttpServlet {
                             JSONObject jsonObject = new JSONObject();
                             jsonObject.put("id", spiderInfo.getId());
                             jsonObject.put("url", spiderInfo.getUrl());
-                            jsonObject.put("title", spiderInfo.getTitle());
+                            if ( spiderInfo.getOrigin() == Scheduler.SERVICE_WEIBO_SEARCH ) {
+                                jsonObject.put("title", spiderInfo.getTitle().substring(1, 30));
+                            }
+                            else {
+                                jsonObject.put("title", spiderInfo.getTitle());
+                            }
+                            jsonObject.put("type", spiderInfo.getType());
                             jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
                             jsonArray.put(jsonObject);
                         }
@@ -342,7 +349,9 @@ public class SettingServlet extends HttpServlet {
                     jsonObject.put("url", spiderInfo.getUrl());
                     jsonObject.put("title", spiderInfo.getTitle());
                     jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
-                    //jsonObject.put("source", spiderInfo.getSource());
+                    if ( spiderInfo.getOrigin() == Scheduler.SERVICE_WEIBO_SEARCH ) {
+                        jsonObject.put("source", spiderInfo.getSource());
+                    }
                     jsonObject.put("status", spiderInfo.getStatus());
 
                     if ( SpiderInfo.FILTER_DISASTER == spiderInfo.getType() ) {
@@ -363,20 +372,31 @@ public class SettingServlet extends HttpServlet {
                     response.getWriter().print("permission denied");
                 }
                 String[] id_array = request.getParameterValues("check");
-                if ( id_array != null ) {
+                String op = request.getParameter("type");
+                if ( id_array != null && op != null ) {
                     int flag = 1;
                     for ( String id : id_array ) {
                         try {
-                            if (UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().approvedThrough(Integer.parseInt(id))) {
-                                flag *= 1;
-                                logger.info("[审核通过] - id: " + id);
-                            } else {
-                                flag *= 0;
-                                logger.error("[审核失败] - id: " + id);
+                            if (op.equals("0")) {
+                                if (UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().deleteSpiderInfo(Integer.parseInt(id))) {
+                                    flag *= 1;
+                                    logger.info("[审核淘汰] - id: " + id);
+                                } else {
+                                    flag *= 0;
+                                    logger.error("[审核失败] - id: " + id);
+                                }
+                            } else if (op.equals("1")) {
+                                if (UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().approvedThrough(Integer.parseInt(id))) {
+                                    flag *= 1;
+                                    logger.info("[审核通过] - id: " + id);
+                                } else {
+                                    flag *= 0;
+                                    logger.error("[审核失败] - id: " + id);
+                                }
                             }
-                        }catch (Exception e) {
+                        } catch (Exception e) {
                             flag *= 0;
-                            logger.error("[审核失败] - id: " + id);
+                            logger.info("[审核异常] - " + id + " 审核时出现异常");
                         }
                     }
                     if ( flag == 1 ) {
@@ -430,7 +450,12 @@ public class SettingServlet extends HttpServlet {
                     JSONObject jsonObject = new JSONObject();
                     jsonObject.put("id", spiderInfo.getId());
                     jsonObject.put("url", spiderInfo.getUrl());
-                    jsonObject.put("title", spiderInfo.getTitle());
+                    if ( spiderInfo.getOrigin() == Scheduler.SERVICE_WEIBO_SEARCH ) {
+                        jsonObject.put("title", spiderInfo.getTitle().substring(1, 30));
+                    }
+                    else {
+                        jsonObject.put("title", spiderInfo.getTitle());
+                    }
                     jsonObject.put("type", spiderInfo.getType());
                     jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
                     jsonArray.put(jsonObject);

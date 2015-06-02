@@ -1,0 +1,790 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+  <meta name="filetype" content="3" /> 
+  <meta name="publishedtype" content="1" /> 
+  <meta name="pagetype" content="1" /> 
+  <meta name="author" content="王玉飞" /> 
+  <meta name="source" content="央视网" /> 
+  <title>《央视财经评论》 20150115 公平养老又一步!_经济频道_央视网(cctv.com)</title> 
+  <meta name="catalogs" content="PAGE1336647974515248" /> 
+  <meta name="contentid" content="VIDE1421341559023728" /> 
+  <meta name="keywords" content="《央视财经评论》 20150115 公平养老又一步!" /> 
+  <meta name="description" content="《央视财经评论》 20150115 公平养老又一步!" /> 
+  <script language="JavaScript">			     var url_domainname=location.href;			                 var str1_dm = url_domainname.substring(7,url_domainname.length);                 var num_= str1_dm.indexOf("/");                     domainame_=str1_dm.substring(0,num_);				  var type_str=domainame_.indexOf(".");                  var type_=domainame_.substring(0,type_str);				var commentTitle = "《央视财经评论》 20150115 公平养老又一步!"; //评论标题				/* 评论对象ID 20位以内的字符串 每个被评论对象不同 */				var itemid1="VIDE1421341559023728";//正文页id,赋值给留言评论模块的参数之一				var commentUrl = "http://jingji.cntv.cn/2015/01/16/VIDE1421341559023728.shtml";				var column_id = "PAGE1336647974515248";				var sub_column_id = "PAGE1336647974515248".substring(0,6);				var domainname = domainame_;				var chnl_domain = domainame_;				var video_ad_primary_column_id = sub_column_id;		  				var video_ad_channel_id="CHAL1334805466887458";				var sobey_video_flag = '';				var type=type_;				var pindao_1 = "CHAL1334805466887458";							var dateNum = (new Date()).toLocaleDateString() + " " + (new Date()).toLocaleTimeString();				var times_str = dateNum.replace(/年/g,'-').replace(/月/g,'-').replace(/日/g,'-').replace(/:/g,'-');				var new_str = times_str.replace(/ /g,'-');				var arr = new_str.split("-");				var datum = new Date(Date.UTC(arr[0],arr[1]-1,arr[2]-2,arr[3]-8,arr[4],arr[5]));				var timeint=datum.getTime()/1000;				var html;				function loadData(){				var urls="http://bbs.cntv.cn/cctvapi/Comment/icms_comment.php?id="+id+"&type="+type;				html = $.ajax({				url: urls,				async: false				}).responseText; 				html =html.replace('article_comment_count=','').replace(';','');				html = "评论("+html+")";				$("#content").html(html);				}			</script>  
+  <script language="JavaScript">			flvImgUrl="http://p4.img.cctvpic.com/fmspic/2015/01/15/d69d255ca02b405e884935488479c388-180.jpg";		</script> 
+  <link href="http://r.img.cctvpic.com/library/content/tw/style/base.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://r.img.cctvpic.com/library/content/tw/style/style.css" rel="stylesheet" type="text/css" /> 
+  <!--专题模版通用脚本统一调用--> 
+  <script type="text/javascript" src="http://r.img.cctvpic.com/library/content/tw/script/base.js"></script> 
+  <script type="text/javascript" src="http://r.img.cctvpic.com/library/content/tw/script/page.js"></script> 
+  <script type="text/javascript" src="http://r.img.cctvpic.com/library/content/tw/script/a2.js"></script> 
+  <script type="text/javascript" src="http://r.img.cctvpic.com/library/content/tw/script/NewCMSpfdc.js"></script> 
+  <script type="text/javascript" src="http://r.img.cctvpic.com/library/content/tw/script/share.js"></script> 
+  <script type="text/javascript" src="http://r.img.cctvpic.com/library/content/tw/script/top.js"></script> 
+  <script type="text/javascript" src="http://my.cntv.cn/js/repaste_js.php?encode=utf8"></script> 
+  <script type="text/javascript" src="http://r.img.cctvpic.com/library/script/closeLight.js"></script>
+  <script type="text/javascript"><!--				 	var   publishDate ="20150116095651 ";//--></script> 
+ </head> 
+ <body> 
+  <!-- START WRating v1.0 --> 
+  <script type="text/javascript">				var vjAcc="860010-1114010100";				var wrUrl="http://cntv.wrating.com/";				var wrVideoUrl="http://cntv.wrating.com/";			</script> 
+  <!-- END WRating v1.0 --> 
+  <!-- 全网统一通用通栏导航 --> 
+  <style type="text/css">b, i{font-style:normal;font-weight:inherit;_font-weight:normal;}/*顶部通栏*/.nav_box_1000{height:40px;}.up{ height:40px; width:100%; background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/jdi2_20131008_9313.jpg) 0 bottom repeat-x; border-bottom:#e1e1e1 1px solid; position:fixed; z-index:99999; _position:absolute; _top:expression(eval(document.documentElement.scrollTop));}.up .colnav{ background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/jdi2_20131008_9313.jpg) 0 bottom repeat-x; width:1000px;margin:auto; height:40px;}.up .xl{ background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/jdi2_20131008_9313.gif) no-repeat 100% 8px;}.up .left{ float:left; /*_width:485px;*/ height:40px;}.up .left a{color:#303030; padding-right:0px;}.up .left a:hover{color:#1E63B0;}.up .right{  float:right; text-align:right;height:40px; position:relative;}.up .right a{ color:#303030; padding-right:0px;padding-left:0px;}.up .right a:hover{color:#1E63B0;}.up .right a.last{ padding-right:0; }.up .right .xian{  display:inline-block; margin-left:14px;}.up .right ul{ height:40px; position:relative;}.up ul li{ float:left; font:12px/40px  Arial, Helvetica, sans-serif,"宋体";color:#333; padding:0 9px;}.up ul li.down{ position:relative; z-index:9999;/*_behavior:url(style/htc/hover.htc)*/}.up ul li.down .downMenu{ position:absolute; width:100%; _width:55px; left:0px; top:40px;text-align:left; display:inline-block; border-bottom:1px solid #dfdfdf; background:#fff; display:none;}.up ul li.down .downMenu a{ display:block; font:12px/30px "宋体"; color:#303030; padding-left:10px; background-image:none; border:1px solid #dfdfdf; border-bottom:none;}.up ul li.down .downMenu a:hover{ background:#e8e8e8; color:#1E63B0;}.up ul li.col{ width:14px; font-size:0; line-height:0; height:40px; background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/col_20131008_9313.gif) 50% 50% no-repeat; padding:0;}.up ul li.down a{ padding:0 13px 0 0; background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/jdi2_20131008_9313.gif) right 50% no-repeat;}.up ul li.down:hover{ background:#e8e8e8; text-decoration:none; color:#1E63B0;}.up ul li.down.hover{ background:#e8e8e8; text-decoration:none; color:#1E63B0;}.up ul li.down a{color:#303030;}.up ul li.down a:hover{ color:#1E63B0; text-decoration:none;}.up ul li a{ color:#333;}.up ul li.mxl{ *padding-top:1px;_padding-top:0px;}.up ul li.col{ width:14px; font-size:0; line-height:0; height:40px; background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/col_20131008_9313.gif) 50% 50% no-repeat; padding:0;}.up ul li.eng{line-height:40px;line-height:39px\0;*padding-top:0px;_padding-top:0px;_line-height:38px;}.up ul li.loginfo{color:#1E63B0;}.up ul li.loginfo a{color:#1E63B0;}/*足迹*/.up ul li.track{}.up ul li.track .tracklist{display:none; position:absolute; top:40px; right:0;}.up ul li.track .tracklist .box{background:#fff;border:solid 1px #dfdfdf;box-shadow:4px 4px 4px 0 rgba(0, 0, 0, 0.2);height:232px;width:233px; text-align:left;}.up ul li.track .tracklist .box .item_list{height:188px;overflow-x:hidden;overflow-y:auto;}.up ul li.track .tracklist .box .item_list dl dd{border-bottom:solid 1px #dfdfdf;cursor:pointer;height:46px;}.up ul li.track .tracklist .box .item_list dl dd span.client{background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/trackclient_20131012_9313.png) no-repeat;display:block;float:left;height:46px;width:36px;overflow:hidden;}.up ul li.track .tracklist .box .item_list dl dd span.client01{background-position:0 0;}.up ul li.track .tracklist .box .item_list dl dd span.client02{background-position:0 -92px;}.up ul li.track .tracklist .box .item_list dl dd span.client03{background-position:0 -184px;}.up ul li.track .tracklist .box .item_list dl dd span.info{display:block;float:left;font:12px/15px "宋体";padding-top:10px;/*width:123px;*/}.up ul li.track .tracklist .box .item_list dl dd span.info a{background:none;padding:0;}.up ul li.track .tracklist .box .item_list dl dd span.info em{display:block;color:#303030;}.up ul li.track .tracklist .box .item_list dl dd span.info em a{color:#303030;}.up ul li.track .tracklist .box .item_list dl dd span.info i{display:block;color:#8d8d8d;}.up ul li.track .tracklist .box .item_list dl dd.active{background-color:#1e63b0;}.up ul li.track .tracklist .box .item_list dl dd.active span.client01{background-position:0 -46px;}.up ul li.track .tracklist .box .item_list dl dd.active span.client02{background-position:0 -138px;}.up ul li.track .tracklist .box .item_list dl dd.active span.client03{background-position:0 -230px;}.up ul li.track .tracklist .box .item_list dl dd.active span.info em{color:#fff;}.up ul li.track .tracklist .box .item_list dl dd.active span.info em a{color:#fff;}.up ul li.track .tracklist .box .item_list dl dd.active span.info em a:hover{text-decoration:underline;}.up ul li.track .tracklist .box .item_list dl dd.active span.info i{display:block;color:#bdd4ee;}.up ul li.track .tracklist .box .item_func{background:#efefef;padding:14px 0 14px 12px;}.up ul li.track .tracklist .box .item_func a{background:none;color:#898989;display:inline-block;font:12px/16px "宋体";padding:0 0 0 24px;}.up ul li.track .tracklist .box .item_func a:hover{color:#1E63B0;text-decoration:underline;}.up ul li.track .tracklist .box .item_func a.empty{background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/trackclient_20131012_9313.png) no-repeat 0 -276px;}.up ul li.track .tracklist .box .item_func a.viewall{background:url(http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/trackclient_20131012_9313.png) no-repeat 0 -296px;margin-left:29px;}.up ul li#topmore{line-height:39px\0;padding-bottom:1px\0;*padding-bottom:0;position:relative;}.up ul li#topmore a:hover{text-decoration:none;}.up ul li#topmore i{display:inline;float:right;*float:none;height:6px;margin:18px 0 0 3px;*margin:0;position:relative;*top:4px;*right:-3px;width:8px;-webkit-transition:all 0.2s ease-in 0s;-moz-transition:all 0.2s ease-in 0s;-o-transition:all 0.2s ease-in 0s;transition:all 0.2s ease-in 0s;}.up ul li#topmore i em{border-style:solid;border-width:4px;border-color:rgba(255,255,255,0);border-color:transparent\9;border-top-color:#999;_border-color:#999 #fbfbfb #fbfbfb;height:0;left:0;overflow:hidden;position:absolute;top:1px;width:0;}.up ul li#topmore i b{border-style:solid;border-width:4px;border-color:rgba(255,255,255,0);border-color:transparent\9;border-top-color:#fbfbfb;_border-width:0;height:0;left:0;overflow:hidden;position:absolute;top:0;top:-1px\9;width:0;}.up ul li#topmore span{display:none;background:#fff;border-bottom:solid 1px #dfdfdf;border-right:solid 1px #dfdfdf;box-shadow:4px 4px 4px 0 rgba(0, 0, 0, 0.2);left:0;position:absolute;top:40px;width:156px;}.up ul li#topmore span a{border-left:solid 1px #dfdfdf;border-top:solid 1px #dfdfdf;display:block;float:left;height:30px;line-height:30px;text-align:center;width:51px;}.up ul li#topmore span a.long{width:77px;}.up ul li#topmore.active{background:#e8e8e8;cursor:pointer;*padding-right:17px;}.up ul li#topmore.active a{color:#1E63B0;}.up ul li#topmore.active i{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);}.up ul li#topmore.active i em{_border-color:#999 #e8e8e8 #e8e8e8;}.up ul li#topmore.active i b{border-color:rgba(255,255,255,0);border-color:transparent\9;border-top-color:#e8e8e8;}.up ul li#topmore.active span{display:block;}.up ul li#topmore.active span a{color:#333;}.up ul li#topmore.active span a:hover{background:#1E63B0;color:#fff;}/*登录*/.up .tn-title{ float:left; width:44px; line-height:40px;display:inline-block; }.up .tn-title .tn-tab{color:#303030; padding:0 10px;padding-bottom:1px\0;*padding-top:1px;_padding:2px 10px 0;_line-height:38px;font-family:Arial, Helvetica, sans-serif,"宋体"; font-size:12px; line-height:40px;color:#303030; display:inline-block; cursor:pointer;}.up .tn-title .tn-tab:hover{background:#e8e8e8;color:#303030; display:inline-block; text-decoration:none;}.up .tn-title .tn-tab.hover{background:#e8e8e8;color:#303030; display:inline-block; text-decoration:none;}.up .tn-topmenulist{ position:absolute; top:40px;left:0; line-height:20px; display:none; }.up .outlogin_layerbox_bylx{ border:1px solid #dfdfdf; background:#fff;box-shadow:4px 4px 4px 0 rgba(0, 0, 0, 0.2);color: #434242;width:260px;height:249px; overflow:hidden; }.up .outlogin_layerbox_bylx .box{ clear:both;zoom:1; padding-top:26px; padding-left:30px; width:230px; text-align:left;height:223px; }.up .outlogin_layerbox_bylx .box .titletips{ line-height:20px; padding:8px 0 30px 0;  zoom:1;}.up .outlogin_layerbox_bylx .box .cur_move{ position:absolute;right:7px; top:4px;}.up .outlogin_layerbox_bylx .box .cur_move .layerbox_close{ text-decoration:none;}.up .outlogin_layerbox_bylx .box .loginformlist .styles{ border:1px solid #D0D0D0; padding:6px 0 7px 4px !important; height:14px; color:#757575;  width:198px;}.up .outlogin_layerbox_bylx .box .loginformlist .dl{ background:#1e63b0; color:#fff; padding:7px 18px; display:inline-block; color:#fff; font-size:14px;}.up .outlogin_layerbox_bylx .box .loginformlist .dl:hover{ background:#dadada; color:#333; text-decoration:none;}.up .outlogin_layerbox_bylx .box .log_option{ border-bottom:solid 1px #dfdfdf; clear:both; margin-top:11px; padding-bottom:11px; width:204px; zoom:1;}.up .outlogin_layerbox_bylx .box .log_option a{ margin-right:12px; display:inline-block; color:#1e63b0; line-height:18px;font-family:"宋体"; }.up .outlogin_layerbox_bylx .box .log_cooper{color:#757575;line-height:18px;margin-top:11px;}.up .outlogin_layerbox_bylx .box .log_cooper i{display:inline-block;float:left;}.up .outlogin_layerbox_bylx .box .log_cooper img{display:inline-block;float:left;margin:11px 11px 0 0;}.jianrong{width:333px; *width:333px; _width:335px;}</style>
+  <!--顶部快速导航栏目-->
+  <div id="nav" class="nav_box_1000"> 
+   <div class="up" id="topnav"> 
+    <div class="colnav"> 
+     <div class="left"> 
+      <ul> 
+       <li class="first eng"><a href="http://cctv.cntv.cn/" target="_blank">CCTV官网</a></li> 
+       <li class="mxl"><a href="http://tv.cntv.cn/pindao/" target="_blank">频道</a></li> 
+       <li class="mxl"><a href="http://cctv.cntv.cn/lm/" target="_blank">栏目</a></li> 
+       <li class="mxl"><a href="http://cctv.cntv.cn/zhuchiren/index.shtml" target="_blank">主持人</a></li> 
+       <li class="mxl"><a href="http://tv.cntv.cn/epg" target="_blank">节目单</a></li> 
+       <li class="col"></li> 
+       <li class="mxl"><a href="http://news.cntv.cn/" target="_blank">新闻</a></li> 
+       <li class="mxl"><a href="http://tv.cntv.cn/" target="_blank">视频</a></li> 
+       <li class="mxl"><a href="http://sports.cntv.cn/" target="_blank">体育</a></li> 
+       <li class="mxl" id="topmore"><a>更多</a><i><em></em><b></b></i> <span><a href="http://kejiao.cntv.cn/" target="_blank">科教</a><a href="http://ent.cntv.cn/" target="_blank">综艺</a><a href="http://shaoer.cntv.cn/" target="_blank">少儿</a><a href="http://sannong.cntv.cn/" target="_blank">农业</a><a href="http://jiankang.cntv.cn/" target="_blank">健康</a><a href="http://igongyi.cntv.cn/" target="_blank">公益</a><a href="http://arts.cntv.cn/" target="_blank">书画</a><a href="http://xiqu.cntv.cn/" target="_blank">戏曲</a><a href="http://music.cntv.cn/" target="_blank">音乐</a><a href="http://travel.cntv.cn/" target="_blank">旅游</a><a href="http://auto.cntv.cn/" target="_blank">汽车</a><a href="http://style.cntv.cn/" target="_blank">时尚</a><a href="http://games.cntv.cn/" target="_blank">游戏</a><a href="http://caipiao.cctv.com/" target="_blank">彩票</a><a href="http://mall.cntv.cn/" target="_blank">商城</a><a href="http://bbs.cntv.cn/" class="long" target="_blank">复兴论坛</a><a href="http://ipanda.cntv.cn/portal.php" class="long" target="_blank">熊猫频道</a></span></li> 
+      </ul> 
+     </div> 
+     <form id="loginForm" name="loginForm"> 
+      <div class="right" id="right" style="width:333px; *width:333px; _width:335px;"> 
+       <ul style="float:right; height:40px;"> 
+        <li class="loginfo" id="logon2" style="display:none">欢迎您,<a href="javascript:;" id="cookie_user_name2">央视网友</a>&nbsp;&nbsp;<a href="javascript:void(0);" onclick="logout()" id="logout">退出</a></li> 
+        <li class="col"></li> 
+        <li class="mxl"><a href="http://t.cntv.cn/" id="wb" target="_blank">微博</a></li> 
+        <li class="mxl"><a href="http://blog.cntv.cn/" id="bk" target="_blank">博客</a></li> 
+        <li class="mxl"><a href="http://mail.cntv.cn/" target="_blank" id="yx_f">邮箱</a></li> 
+        <li class="down track" id="track" style="display:none;"><a href="javascript:;">足迹</a>
+         <div class="tracklist"> 
+          <div class="box"> 
+           <div class="item_list"> 
+            <dl id="gkjl"> 
+            </dl> 
+           </div> 
+           <div class="item_func">
+            <a href="http://my.cntv.cn/record.php" class="viewall" target="_blank">查看全部</a>
+           </div> 
+          </div> 
+         </div></li> 
+        <li class="mxl"><a href="http://help.cntv.cn/" target="_blank">客服</a></li> 
+        <li class="col"></li> 
+        <li class="mxl"><a href="http://www.cntv.cn/" target="_blank">返回央视网&gt;&gt;</a></li> 
+       </ul> 
+       <div id="login" class="tn-title" style="*width:44px;">
+        <a id="ccc" class="tn-tab"><i>登录</i></a>
+        <div id="SI_Top_LoginLayer" class="tn-topmenulist" style="display:none;"> 
+         <div class="outlogin_layerbox_bylx"> 
+          <div class="box"> 
+           <div class="cur_move" style="cursor: pointer;">
+            <a class="layerbox_close">&times;</a>
+           </div> 
+           <!--<div class="titletips">CNTV微博、博客、邮箱帐号,请直接登录</div>--> 
+           <div class="loginformlist"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td><input class="styles" type="text" id="username" value="帐号" onblur="if(this.value==''){this.value=this.defaultValue;}" onfocus="if(this.value==this.defaultValue){this.value='';}" name="username" autocomplete="off" onkeypress="getOnkeyDown_login(event)" /><input type="hidden" name="service" id="service" value="client_transaction" /><input type="hidden" name="from" id="from" value="aaa" /></td> 
+              </tr> 
+              <tr>
+               <td height="12"></td>
+              </tr> 
+              <tr> 
+               <td><input type="text" style="display:block" onfocus="if(this.value==this.defaultValue){this.value='';}document.getElementById('passwd_view').style.display='none';document.getElementById('password').style.display='block';setTimeout(function(){document.getElementById('password').focus();},200); " onblur="if(this.value==''){this.value=this.defaultValue;}" value="密码" class="styles" id="passwd_view" name="passwd_view" /><input type="password" lang="" onkeypress="getOnkeyDown_login(event)" style="display:none" onfocus="document.getElementById('passwd_view').style.display='none'" onblur="if(this.value==''){document.getElementById('passwd_view').style.display='block';document.getElementById('password').style.display='none';}" value="" class="styles" id="password" name="password" /></td> 
+              </tr> 
+              <tr>
+               <td height="12"></td>
+              </tr> 
+             </tbody>
+            </table> 
+            <table border="0" cellspacing="0" cellpadding="0" height="30"> 
+             <tbody>
+              <tr> 
+               <td width="80"><a href="javascript:void(0);" onclick="loginDemo(); return false;" class="dl">登录</a></td>
+               <td width="18"><input type="checkbox" id="check_user" name="remuser" /></td>
+               <td>下次自动登录</td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+           <div class="log_option"> 
+            <a class="forget_Pwd" target="_blank" href="http://reg.cntv.cn/forgetPassword/findPassword.jsp">忘记密码</a>
+            <a class="register_lnk" href="#1" target="_blank">立即注册</a> 
+           </div> 
+           <div class="log_cooper">
+            <i>使用合作网站账号登录</i>
+            <br />
+            <a id="weixin_url" href="http://oauth.passport.cntv.cn/OauthClientWeixin/OAuthWeixinClientServlet.do?method=login&amp;cntv_callback=my"><img title="微信" alt="微信" src="http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/cooper_wx_141230.png" /></a>
+            <a id="qq_url" href="http://oauth.passport.cntv.cn/OAuthQzoneClient/OAuthQZoneClientServlet.do?method=login&amp;cntv_callback=my"><img src="http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/cooper_qq_10886_140506.png" alt="QQ" title="QQ" /></a>
+            <a id="rr_url" href="http://oauth.passport.cntv.cn/OAuthRenRenClient/OAuthRenRenClientServlet.do?method=login&amp;cntv_callback=my"><img src="http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/cooper_rr_10886_140506.png" alt="人人网" title="人人网" /></a>
+            <a id="kx_url" href="http://oauth.passport.cntv.cn/OAuthKaixinClient/connect/index.jsp?cntv_callback=my"><img src="http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1381197220279381/cooper_kx_10886_140506.png" alt="开心网" title="开心网" /></a>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <input type="hidden" id="cookid" value="" /> 
+       <input type="hidden" id="nicknm" /> 
+      </div>
+     </form> 
+    </div>
+   </div>
+  </div> 
+  <div id="message"></div> 
+  <div id="passport"></div>
+  <!--END-->
+  <script language="javascript" charset="UTF-8" src="http://www.cntv.cn/Library/passport/2013passport_style/js/login.js"></script>
+  <script type="text/javascript">var Url_domainname=location.href;var Url_domainname1 = '';var $=jQuery;//登录框$("#login").hover(function(){$("#SI_Top_LoginLayer").show();},function(){$("#SI_Top_LoginLayer").hide();});$(".cur_move .layerbox_close").click(function(){$("#SI_Top_LoginLayer").hide();})/*顶通更多*/$("#topmore").hover(function(){$(this).addClass("active");},function(){$(this).removeClass("active");});var shorturl = (Url_domainname.substr(0,Url_domainname.indexOf("/",7)));var zhuceurl = "http://reg.cntv.cn/regist.html?from="+shorturl+"&backurl="+encodeURI(Url_domainname);$("#SI_Top_LoginLayer .log_option .register_lnk").attr("href",zhuceurl);if(Url_domainname.indexOf("?")==-1){	Url_domainname1 = Url_domainname;}else{	Url_domainname1 = Url_domainname.substr(0,Url_domainname.indexOf("?"));}var qq_url = "http://oauth.passport.cntv.cn/OAuthQzoneClient/OAuthQZoneClientServlet.do?method=login&cntv_callback="+encodeURI(Url_domainname1);var rr_url = "http://oauth.passport.cntv.cn/OAuthRenRenClient/OAuthRenRenClientServlet.do?method=login&cntv_callback="+encodeURI(Url_domainname1);var kx_url = "http://oauth.passport.cntv.cn/OAuthKaixinClient/connect/index.jsp?cntv_callback="+encodeURI(Url_domainname1);var weixin_url = "http://oauth.passport.cntv.cn/OauthClientWeixin/OAuthWeixinClientServlet.do?method=login&cntv_callback="+encodeURI(Url_domainname1);$("#qq_url").attr("href",qq_url);$("#rr_url").attr("href",rr_url);$("#kx_url").attr("href",kx_url);$("#weixin_url").attr("href",weixin_url);var sns_userid = "";var userSeqId = "";getCookie_main();var sns_userid = getCookie1('userSeqId');function getCookie_main() {var userSeqId=getCookie1('userSeqId');var flag = passport.isLoginedStatus();if(flag){	$.getJSON(		'http://my.cntv.cn/intf/napi/api.php?client=cntv_top&method=user.getNickName&userid='+userSeqId+'&cb=?&format=jsonp',		function(data){			if(data.code == 0){				var namecookie = data.content.nickname;					if(namecookie.length>8){						namecookie = namecookie.substr(0,5)+"...";					}else{						namecookie = namecookie;					}					document.getElementById("track").style.display = "block";					jQuery("#right").css("width", "auto");					document.getElementById('login').style.display = 'none';					document.getElementById('logon2').style.display = 'block';					jQuery("#cookie_user_name2").attr("title",namecookie);					document.getElementById("cookie_user_name2").innerHTML = namecookie;					document.getElementById("cookie_user_name2").href = "http://my.cntv.cn";					document.getElementById("cookie_user_name2").target = "_blank";					//document.getElementById("cookid").value = sns_userid;					document.getElementById("nicknm").value = namecookie;			}else{}		}		);}else{	//展示 “登录” 按钮	document.getElementById('login').style.display = 'block';	$('#SI_Top_LoginLayer .loginformlist table').eq(0).find('tr').eq(0).find('td').html('<input type="text" name="username" onfocus="if(this.value==this.defaultValue){this.value=\'\'}" onblur="if(this.value==\'\'){this.value=this.defaultValue}" value="帐号" id="username" class="styles" autocomplete="off" onkeypress="getOnkeyDown_login(event)"><input type="hidden" value="client_transaction" id="service" name="service"><input type="hidden" value="http://www.cntv.cn" id="from" name="from">');	document.getElementById("passwd_view").style.display = "block";	document.getElementById("password").value = "";	document.getElementById("password").style.display = "none";	document.getElementById('logon2').style.display = 'none';	document.getElementById('track').style.display = 'none';	$("#right").removeAttr("style");	$("#right").addClass("jianrong");}}document.getElementById("from").value = shorturl;function handleResult (result){		var msg = result.msg;//提示信息		var errorCode = result.errorCode;//错误码,i18n展示用		if(passport.usernameError==result.type){//如果是用户名有问题			//在用户名的位置展示错误提示信息			//alert(msg);			if(errorCode == "-1"){				alert("格式不正确,请使用邮箱,手机号码或名字");			}else if(errorCode == "-2"){				alert("请输入密码!");			}else if(errorCode == "-4"){				alert("账户不存在!");			}else if(errorCode == "-11"){				alert("不能用昵称登录,请使用邮箱、手机号或用户名");			}else if(errorCode == "-36"){				alert("帐户信息进行审查中...");			}else if(errorCode == "-40"){				alert("该帐号已被封,请联系客服!");			}else if(errorCode == "104"){				alert("此帐户没有注册!");			}else if(errorCode == "105"){				alert("密码错误,请重新输入!");			}else if(errorCode == "106"){				alert("您尚未激活,请去reg.cntv.cn激活!");			}		}else if(passport.passwordError==result.type){//如果是密码有问题			//在密码的位置展示错误提示信息			//alert(msg);			if(errorCode == "-1"){				alert("格式不正确,请使用邮箱,手机号码或名字");			}else if(errorCode == "-2"){				alert("请输入密码!");			}else if(errorCode == "-4"){				alert("账户不存在!");			}else if(errorCode == "-11"){				alert("不能用昵称登录,请使用邮箱、手机号或用户名");			}else if(errorCode == "-36"){				alert("帐户信息进行审查中...");			}else if(errorCode == "-40"){				alert("该帐号已被封,请联系客服!");			}else if(errorCode == "104"){				alert("此帐户没有注册!");			}else if(errorCode == "105"){				alert("密码错误,请重新输入!");			}else if(errorCode == "106"){				alert("您尚未激活,请去reg.cntv.cn激活!");			}		} else if(passport.success==result.type){//登录成功			//处理用户id:result.usrid 或者 result.user_seq_id			if ($("#check_user").attr('checked') == 'checked') {			setCookie('cntv_main_usr', $("#username").attr("value"));			}else{			}			sns_userid = result.user_seq_id;			function loadjquery(m){				var d=document.createElement("script");				d.setAttribute("charset","utf-8");				d.type="text/javascript";				d.language="javascript";				d.src=m;				document.getElementsByTagName("body")[0].appendChild(d);				if(d.readyState){				d.onreadystatechange=function(){					if(!this.readyState||this.readyState=="loaded"||this.readyState=="complete"){						delete d;					}				}				}else{				d.onload=function(){						delete d;				}				}			}			var m="http://my.cntv.cn/intf/napi/api.php?client=cntv_top&method=user.getNickName&userid="+result.user_seq_id+"&cb=callbackfun&format=jsonp";			loadjquery(m);		}	}function callbackfun(data){	if(data.code == 0){	var nickname = data.content.nickname;		if(nickname.length>8){			nickname = nickname.substr(0,5)+"...";		}else{			nickname = nickname;		}		$("#cookie_user_name2").attr("title",data.content.nickname);		document.getElementById('cookie_user_name2').innerHTML = nickname;		document.getElementById("cookie_user_name2").href = "http://my.cntv.cn";		document.getElementById("cookie_user_name2").target = "_blank";		document.getElementById('login').style.display = 'none';		document.getElementById('logon2').style.display = 'block';		document.getElementById("track").style.display = "block";		document.getElementById("wb").href = "http://t.cntv.cn/index.php?m=index";		document.getElementById("bk").href = "http://blog.cntv.cn/spacecp.php?docp=me";		$("#right").css("width", "auto");	}else{		alert(data.error);	}}function loginDemo(){	document.getElementById("username").value = document.getElementById("username").value;	document.getElementById("password").value = document.getElementById("password").value;	var re = /[^\u4e00-\u9fa5]/;	var flg = re.test(document.getElementById("username").value);	if (document.getElementById("username").value == "" || document.getElementById("username").value == "帐号") {		document.getElementById("username").focus();		return false	} else if (document.getElementById("password").value == "") {		document.getElementById("password").style.display = "block";		document.getElementById("password").focus();		return false	} else if (flg == false) {		alert("帐号或密码错误");		document.getElementById("username").value = "";		document.getElementById("username").focus();		return false;	}	var form = document.getElementById("loginForm");	if ($("#check_user").attr('checked') == 'checked') {	$("#check_user").attr("value", "checktrue");	}else{	$("#check_user").attr("value","");	}	passport.checkJsonpForm(form, handleResult);	}function logout(){	var from = shorturl;	passport.logout(from);	if (getCookie1('cntv_main_usr') == "" || getCookie1('cntv_main_usr') == null) {		$('#SI_Top_LoginLayer .loginformlist table').eq(0).find('tr').eq(0).find('td').html('<input type="text" name="username" onfocus="if(this.value==this.defaultValue){this.value=\'\'}" onblur="if(this.value==\'\'){this.value=this.defaultValue}" value="帐号" id="username" class="styles" autocomplete="off" onkeypress="getOnkeyDown_login(event)"><input type="hidden" value="client_transaction" id="service" name="service"><input type="hidden" value="http://www.cntv.cn" id="from" name="from">');	} else {		$("#username").attr("value", getCookie1('cntv_main_usr'));		$("#username").attr("onblur", "").attr("onfocus", "");		$("#check_user").attr('checked', true);	}	document.getElementById('login').style.display = 'block';	document.getElementById("passwd_view").style.display = "block";	document.getElementById("password").value = "";	document.getElementById("password").style.display = "none";	document.getElementById('logon2').style.display = 'none';	document.getElementById('track').style.display = 'none';	$("#right").removeAttr("style");	$("#right").addClass("jianrong");}function getOnkeyDown_login(e){var ev = e;ev = ev || event;if(ev.keyCode == 13){loginDemo();}}function show_pwd() {    document.getElementById("passwd_view").style.display = "none";    document.getElementById("password").style.display = "block";    document.getElementById("password").focus()}function checkTime(i) {    if (i < 10) {        i = "0" + i    }    return i}var array = [{    "id": "1",    "img_title": "电脑",    "className": "client01"},{    "id": "2",    "img_title": "手机",    "className": "client02"},{    "id": "3",    "img_title": "平板",    "className": "client03"}];function callback(json) {    if (json.code === 0) {        html = [];        for (var i in json.list) {            var time = json.list[i].position;            var img_clienttype = json.list[i].clienttype;            var className = "";            var width = 0;            var img_title = "";            var title = "";            if (json.list[i].title.length > 13) {                title = json.list[i].title.substring(0, 13) + "..."            } else {                title = json.list[i].title            }            if (img_clienttype == 1) {                className = array[0].className;                img_title = array[0].img_title            } else if (img_clienttype == 2) {                className = array[1].className;                img_title = array[1].img_title            } else if (img_clienttype == 3) {                className = array[2].className;                img_title = array[2].img_title            } else {                className = array[0].className;                img_title = array[0].img_title            }            if (time == -1) {                fina = "已看完"            } else {                var hour = checkTime(parseInt(time / 60 / 60));                var minutes = checkTime(parseInt(time / 60));                var seconds = checkTime(time % 60);                if (hour == 0 && minutes == 0 & seconds == 0) {                    fina = "已看到&nbsp;00:00:00"                } else {                    fina = "已看到&nbsp;" + hour + ":" + minutes + ":" + seconds                }            }            if(json.list[i].pageurl.length == 0){				html.push('<dd><span class="client ' + className + '"></span><span class="info"><em><a id="'+json.list[i].vid+'" class="url_null" target="_blank" href="' + json.list[i].pageurl + '" title="' + json.list[i].title + '">' + title + '</a></em><i>' + fina + '</i></span></dd>');			}else{				html.push('<dd><span class="client ' + className + '"></span><span class="info"><em><a target="_blank" href="' + json.list[i].pageurl + '" title="' + json.list[i].title + '">' + title + '</a></em><i>' + fina + '</i></span></dd>');			}        }        document.getElementById('gkjl').innerHTML = html.join("");		var page_num = $("#track .url_null").length;		for(var j=0;j<page_num;j++){			var page_vid = $("#track .url_null").eq(j).attr("id");			var url = 'http://api.cntv.cn/video/videoinfoByGuid?serviceId=cbox&guid='+page_vid+'&cb=?&t=jsonp';			$.getJSON(url,function(data){				var page_url = data.url;				var new_vid = data.vid;				$("#"+new_vid).attr("href",page_url);			})		}    } else if (json.code === -201) {        document.getElementById('gkjl').innerHTML = '<dd><span class="client client01" style="display:none;"></span><span class="info"><em><a href="javascript:;" title="">没有任何视频观看记录</a></em><i style="display:none;"></i></span></dd>'    }    tc()}$(".track").hover(function() {    $(".tracklist").css({        "display": "block"    });    var o = document.createElement('script');    o.src = "http://history.apps.cntv.cn/interface/jsonp/service.php?client=3&method=video.getUserVideoRecordList&cb=callback&data=" + encodeURIComponent('{"uid":' + sns_userid + '}') + "&" + Math.random();    document.getElementsByTagName("HEAD")[0].appendChild(o)},function() {    $(".tracklist").css({        "display": "none"    });    delete o});function tc() {    $(".tracklist .box .item_list dl dd").hover(function() {        $(this).addClass("active")    },    function() {        $(this).removeClass("active")    })}function getCookie1(name) {    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");    if (arr = document.cookie.match(reg)) return unescape(arr[2]);    else return null}function setCookie(name, value) {    var Days = 14;    var exp = new Date();    exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);    document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString()}function delCookie(name) {    var exp = new Date();    exp.setTime(exp.getTime() - 1);    var cval = getCookie1(name);    if (cval != null) document.cookie = name + "=" + cval + ";expires=" + exp.toGMTString()}function get_main_usr() {    if (getCookie1('cntv_main_usr') == "" || getCookie1('cntv_main_usr') == null) {} else {        $("#username").attr("value", getCookie1('cntv_main_usr'));        $("#username").attr("onblur", "").attr("onfocus", "");        $("#check_user").attr('checked', true);    }}$(function() {    get_main_usr()});</script> 
+  <script type="text/javascript">//googletag.oldvar googletag = googletag || {};googletag.cmd = googletag.cmd || [];(function() {var gads = document.createElement('script');gads.async = true;gads.type = 'text/javascript';var useSSL = 'https:' == document.location.protocol;gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';var node = document.getElementsByTagName('script')[0];node.parentNode.insertBefore(gads, node);})();</script>
+  <script type="text/javascript">try{dfp_subsite=location.href.split("/")[2].split(".")[0];}catch(e){dfp_subsite="";}if(typeof column_id=="undefined"){column_id=""}if(typeof sub_column_id=="undefined"){sub_column_id=""}googletag.cmd.push(function() {if(dfp_subsite=="chanjing"){	googletag.defineSlot('/8962/web_cntv/dicengye_dingbuchangtonglan', [728, 90], 'div-gpt-ad-1367991525820-3').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);}else{	//googletag.defineSlot('/8962/web_cntv/dicengye_anniu01', [201, 90], 'div-gpt-ad-1367991525820-0').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);	//googletag.defineSlot('/8962/web_cntv/dicengye_anniu02', [201, 90], 'div-gpt-ad-1367991525820-1').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);	//googletag.defineSlot('/8962/web_cntv/dicengye_anniu03', [201, 90], 'div-gpt-ad-1367991525820-2').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);	googletag.defineSlot('/8962/web_cntv/dicengye_dingbuchangtonglan', [728, 90], 'div-gpt-ad-1367991525820-3').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", sub_column_id);	googletag.defineSlot('/8962/web_cntv/dicengye_huazhonghua01', [313, 260], 'div-gpt-ad-1367991525820-4').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);	googletag.defineSlot('/8962/web_cntv/dicengye_huazhonghua02', [313, 260], 'div-gpt-ad-1367991525820-5').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);	googletag.defineSlot('/8962/web_cntv/dicengye_huazhonghua03', [313, 260], 'div-gpt-ad-1367991525820-6').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);	googletag.defineSlot('/8962/web_cntv/dicengye_zhongbutonglan', [960, 90], 'div-gpt-ad-1367991525820-7').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);	googletag.defineSlot('/8962/web_cntv/dicengye_dibutonglan', [960, 90], 'div-gpt-ad-1367991525820-8').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);	googletag.defineSlot('/8962/web_cntv/dicengye_changtonglan', [637, 90], 'div-gpt-ad-1367991525820-9').addService(googletag.pubads()).setTargeting("subsite", dfp_subsite).setTargeting("channel", sub_column_id).setTargeting("sorts", column_id);}googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script> 
+  <div id="header"> 
+   <a href="http://www.cntv.cn/" target="_blank"><img src="http://p2.img.cctvpic.com/special/netvs/20100716/images/logo20131113.jpg" id="logo" alt="中国网络电视台" /></a> 
+   <div style="float:right;"> 
+    <center> 
+     <!-- web_cntv/dicengye_dingbuchangtonglan -->
+     <div id="div-gpt-ad-1367991525820-3" style="width:728px; height:90px;">
+      <script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1367991525820-3'); });</script>
+     </div> 
+    </center> 
+   </div>
+  </div>
+  <div class="vspace"></div> 
+  <script language="JavaScript">			<!--			javascript:document.getElementById("passport").style.display = "none";void(0);			//-->		</script> 
+  <div id="crumb"> 
+   <p class="f-l" id="xiaodaohang"> <a href="http://www.cntv.cn" target="_blank">中国网络电视台</a> &gt; <a href="http://jingji.cntv.cn/" target="_blank"> 经济频道 </a> &gt; <a href="http://jingji.cntv.cn/gundong" target="_blank">经济台滚动新闻</a> 
+    <!-- 																					<a href="http://jingji.cntv.cn/video/gundong/program/jinriguancha/" target="_blank">														CCTV-今日观察															</a>																			--> </p> 
+   <div class="f-r"> 
+    <script language="javascript" type="text/javascript">function check_search(obj){var loc = location.href;var searchUrl="";if(loc.indexOf("big5.cntv.cn")>-1){searchUrl = 'http://so.cntv.cn/search.php?qtext='+encodeURIComponent(obj);window.open(searchUrl,"_blank");}else{searchUrl ="http://so.cntv.cn/search.php?qtext=" + encodeURIComponent(obj)+"";window.open(searchUrl,"_blank");}}if(document.addEventListener){ document.addEventListener("keypress",fireFoxHandler, true);   }else{ document.attachEvent("onkeypress",ieHandler);}  function fireFoxHandler(evt){if(evt.keyCode==13){Info = document.getElementById("searchInfo_new").value;	if(Info=="" || Info.substring(0,4)=="视频搜索"){document.getElementById("searchInfo_new").focus();return false;}else{check_search(Info);}}}function ieHandler(evt){  if(evt.keyCode==13){Info = document.getElementById("searchInfo_new").value;	if(Info=="" || Info.substring(0,4)=="视频搜索"){document.getElementById("searchInfo_new").focus();return false;}else{check_search(Info);}}  }function Search_new(){Info = document.getElementById("searchInfo_new").value;	if(Info=="" || Info.substring(0,4)=="视频搜索"){document.getElementById("searchInfo_new").focus();return false;}else{check_search(Info);}}</script> 
+    <form class="fm2"> 
+     <input type="text" class="ip1" id="searchInfo_new" value="" onfocus="if(this.value==this.defaultValue){this.value='';}" onblur="if(this.value==''){this.value=this.defaultValue;}" /> 
+     <input type="image" class="ip2" src="http://www.cntv.cn/Library/image/search.jpg" onclick="Search_new();return false;" /> 
+    </form> 
+   </div> 
+   <!--remian--> 
+  </div> 
+  <!--end crumb--> 
+  <!--repaste.body.begin--> 
+  <div id="container"> 
+   <div class="top_title" id="top_title"> 
+    <h1 class="b-tit"> 《央视财经评论》 20150115 公平养老又一步! </h1> 
+    <h1 class="m-tit"> </h1> 
+    <p class="art-info"> 发布时间:2015年01月16日 01:07 | <a href="http://bbs.cntv.cn/forum-932-1.html" class="u_link" target="_blank">进入复兴论坛</a> | 来源:央视网 | <a href="http://news.cntv.cn/mobile/index.shtml" target="_blank">手机看新闻</a> | <a target="_blank" href="http://cbox.cntv.cn">手机看视频</a> </p> 
+    <br /> 
+    <!--下面是播放器 start player--> 
+    <div class="player m-b-10 has_ad" id="video_player" style="height:565px;"> 
+     <script type="text/javascript" src="http://www.cctv.com/playcfg/video_content.js"></script> 
+     <script type="text/javascript">									var channelId = domainame_;//频道id									var adcalldomain = domainame_;									var width = "640";									var height = "480";									var sysSource = channelId; //视频来源									var isLogin = isLogin_115;//用户中心相关									var userId = userId_115;//用户中心相关									var sorts = "1";								</script> 
+     <!--播放器 begin--> 
+     <div class="back_ad"> 
+      <script type="text/javascript" src="http://www.cctv.com/js/video_type.js"></script> 
+      <script type="text/javascript" src="http://js.player.cntv.cn/creator/common_bg.js"></script> 
+      <script type="text/javascript">									var videokeyWord = "《央视财经评论》 20150115 公平养老又一步!";//暂未实现									var video_CHANNEL ="PAGE1336647974515248";//主分类id									</script> 
+      <script type="text/javascript" src="http://www.cctv.com/js/cntv_Advertise.js"></script> 
+      <div id="myFlash"></div> 
+      <script type="text/javascript">										function loading_video(){											var fo = createCommonPlayer("vplayer",width,height,type_video);											fo.addVariable("videoId", "421341559023728");//视频id											fo.addVariable("scheduleId", "《央视财经评论》 20150115 公平养老又一步!");//关键字											fo.addVariable("filePath", "/flvxml/2009/10/14/");//txt路径											fo.addVariable("sysSource", sysSource);//视频来源											fo.addVariable("url", "http://jingji.cntv.cn/2015/01/16/VIDE1421341559023728.shtml");//视频url											fo.addVariable("videoCenterId","d69d255ca02b405e884935488479c388");//视频生产中心guid (必要值)											fo.addVariable("isLogin", isLogin);//用户中心相关											fo.addVariable("userId", userId);//用户中心相关											fo.addVariable("adCall", ad_Call);//前贴片广告											fo.addVariable("adPause", ad_Pause);//暂停广告											fo.addVariable("adAfter", ad_After);//后贴片广告											fo.addVariable("adCorner", ad_Corner);//角标广告											fo.addVariable("adCurtain", ad_Curtain);//跑马灯广告											writePlayer(fo,"myFlash",ad_BG,ad_Roll);										}										setTimeout(loading_video,1000);//延时1秒									</script> 
+      <script type="text/javascript">										document.getElementById("video_player").style.display="";										document.getElementById("top_title").style.width="960px";									</script> 
+     </div> 
+     <!--播放器 end--> 
+     <style type="text/css">	.yaodai{background:#e9e9e9;height:33px;margin:0 auto;position:relative;width:960px; top:480px;}	.yaodai .yd_link{display:block;position:absolute;left:0;top:0;height:36px;width:200px;}	.yaodai #yd_roll{height:33px;overflow:hidden;}	.yaodai ul li{color:#838383;font:bold 14px/30px "微软雅黑", "宋体", "黑体";height:33px; }	.yaodai ul li a{color:#838383;display:inline-block;padding:3px 0 0 10px;}	.player .cp2{top:510px;height:65px;}	.has_ad {height: 700px;} </style>
+     <div class="yaodai"> 
+      <a class="yd_link"></a> 
+      <div id="yd_roll"> 
+       <!-- web_cntv/dicengye_wenzilianfanpai -->
+       <!--<div id="div-gpt-ad-1367991525820-10">	<script type="text/javascript">		if((dfp_subsite=="sannong"||dfp_subsite=="chanjing")&&(document.getElementById("video_player").style.display=="none")){	}else{		document.getElementById('div-gpt-ad-1367991525820-10').innerHTML="<iframe marginheight='0' marginwidth='0' frameborder='0' width='635' height='33'  scrolling='no' id='dicengye_wenzilianfanpai_1' src=''></iframe>";		document.getElementById('dicengye_wenzilianfanpai_1').src="http://pubads.g.doubleclick.net/gampad/adx?iu=/8962/web_cntv/dicengye_wenzilianfanpai&t=subsite%3D"+dfp_subsite+"%26channel%3D"+column_id+"%26sorts%3D"+sub_column_id+"&sz=1x1&c="+(new Date()).getTime();	}	</script></div>--> 
+      </div>
+     </div> 
+     <div class="cp2"> 
+      <div class="in"> 
+       <div class="tb tb1"> 
+        <table width="100%"> 
+         <tbody>
+          <tr> 
+           <td style="width:35px; text-align:left;">评分</td> 
+           <td style="width:105px; padding:0px;"> 
+            <div class="rating"> 
+             <table> 
+              <tbody>
+               <tr> 
+                <td> 
+                 <div class="pinfen" id="mark"> 
+                  <span class="l star"> <i id="fenshu"></i> <span class="pf"> <a href="javascript:void(0);" title="2"></a> <a href="javascript:void(0);" title="4"></a> <a href="javascript:void(0);" title="6"></a> <a href="javascript:void(0);" title="8"></a> <a href="javascript:void(0);" title="10"></a> </span> </span> 
+                  <span class="fen l" id="fenshu1"></span> 
+                 </div> </td> 
+               </tr> 
+              </tbody>
+             </table> 
+            </div> <script type="text/javascript">														<!--调用评分start-->														sendRate(itemid1,'no',commentUrl);														<!--调用评分end-->														var jq=jQuery;														var rate = false;														function makeData(divid){															this.emId=divid;															var obj=jq("#"+divid),																data=jq("#"+divid+" .star i"),																links=jq("#"+divid+" .star a"),																fen=jq("#"+divid+" .fen");															var data_val=parseFloat(data.html())/2;																function p_data(){																data.css("width",data_val*15+"px");															}															p_data();															links.each(function(i,li){																li=jq(li);																li.bind("mouseover",function(){																	data.css("width",(i+1)*15+"px");																}).bind("mouseout",function(){																	p_data();																});																li.bind("click",function(){																	if(!rate){																		rate = true;																		data_val=(i+1);																		p_data();																		fen.html(li.attr("title"));																		sendRate(itemid1,li.attr("title"),commentUrl)																		alert("感谢评论");																	}else{																		alert("您已经评论过了!");																	}																});															});														}														function disData(){															makeData("mark");														}														</script> </td> 
+           <script language="JavaScript">														document.write("<td style=\"width:95px;\" class=\"border\"><a href=\"http://www.cntv.com.cn/nettv/news/top/index.shtml\"><img src=\"http://www.cntv.com.cn/Library/content2010/image/icon/paihang.gif\" height=\"14\" alt=\"排行榜\" /> 排行榜</a></td>");													</script> 
+           <td style="width:95px;" class="border"><a href="http://www.cntv.cn/special/csc/jubao/index.shtml" target="\&quot;_blank\&quot;"><img src="http://www.cntv.com.cn/Library/content2010/image/icon/fankui.gif" height="14" alt="意见反馈" /> 意见反馈</a></td> 
+           <td style="width:95px;" class="border"><a href="javascript:dojsp(itemid1,1,commentUrl)"><img src="http://www.cntv.com.cn/Library/content2010/image/icon/ding.gif" height="14" alt="顶" /> 顶</a></td> 
+           <td style="width:95px;" class="border"><a href="javascript:dojsp(itemid1,2,commentUrl)"><img src="http://www.cntv.com.cn/Library/content2010/image/icon/cai.gif" height="14" alt="踩" /> 踩</a></td> 
+           <script type="text/javascript">													var _guid="d69d255ca02b405e884935488479c388";													document.write('<td><a href="http://tv.cntv.cn/vodplay/'+_guid+'/'+vjAcc+'" target="_blank"><img src="http://www.cntv.com.cn/Library/content2010/image/icon/shoucang.gif" width="15" height="15" alt="完整视频" /> 完整视频</a></td>');													</script> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div class="tb tb2"> 
+       </div> 
+       <!-- end:get_sql_content --> 
+       <div class="clear"></div> 
+      </div>
+      <!--end in--> 
+     </div>
+     <!--end cp--> 
+     <!-- begin:get_tv_video_2009 --> 
+     <div style="display:none"> 
+      <!--repaste.video.channel.begin-->channelId
+      <!--repaste.video.channel.end--> 
+      <!--repaste.bizId.begin-->1
+      <!--repaste.bizId.end--> 
+      <!--repaste.subBizId.begin-->1
+      <!--repaste.subBizId.end--> 
+      <!--contentType--> 
+      <!--video_id--> 
+     </div> 
+     <!-- end:get_tv_video_2009 --> 
+     <div class="md md_55494_01 has_ad_2" style="display:none" id="yaodaishipin"> 
+      <div class="md_hdc">
+       <b></b>
+      </div> 
+      <div class="md_hd"></div> 
+      <!-- begin:get_video_preview --> 
+      <script language="JavaScript">										var videopreview = '<ul></ul>';										if(videopreview.length > 10){										document.write('<div class="img_scroll" id="mousewheel" ><div class="img_left"><img src="http://www.cntv.cn/nettv/sports/image/roll_pic.jpg"/></div><div class="img_mid" id = "videoPreview" >');										document.write(videopreview);										document.write('</div><div class="img_right"><img src="http://www.cntv.cn/nettv/sports/image/roll_pic_r.jpg" /></div></div>');										}else{										document.getElementById("video_player").style.height="565px";										document.getElementById("yaodaishipin").style.display="none";										} 									</script> 
+      <!-- end:get_video_preview --> 
+     </div> 
+    </div>
+    <!--播放器结束 end player--> 
+   </div> 
+   <!--end top_title--> 
+   <div id="side"> 
+    <!--右部包含页开始20110529--> 
+    <link type="text/css" rel="stylesheet" href="http://r.img.cctvpic.com/nettv/financial/include/arti2012/right/style/style.css?80263abaec162f053e85a1ce326c4cfc" />
+    <script language="javascript" src="http://r.img.cctvpic.com/nettv/financial/include/arti2012/right/style/main.js?eca4898a6af45dbc7bff886e6ba5a356"></script> 
+    <!-- web_cntv/dicengye_huazhonghua01 -->
+    <div id="div-gpt-ad-1367991525820-4" style="width:313px; height:260px;">
+     <script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1367991525820-4'); });</script>
+    </div> 
+    <link type="text/css" rel="stylesheet" href="http://r.img.cctvpic.com/nettv/imall/caipiao/ycdcy/style/style.css?b759a6bed758a94a78407c8636d54c98" />
+    <script language="javascript" src="http://r.img.cctvpic.com/nettv/imall/caipiao/ycdcy/style/main.js?7ea909657ce6c63e6593ebd1e3f44192"></script>
+    <div class="ELMT1380092752101468">
+     <div class="md" id=""> 
+      <div class="md_bd"> 
+       <div id="SUBD1380092752105470"> 
+        <div class="ELMT1384944040276511"> 
+         <div class="imagelist_lt5"> 
+          <div class="image_list_box" id="contentELMT1384944040276511"> 
+           <ul class="il_w120_b1  " style="display:block;"> 
+            <li> 
+             <div class="image" style="+position:static">
+              <a href="http://caipiao.cntv.cn/" target="_blank"><img src="http://p3.img.cctvpic.com/photoAlbum/page/performance/img/2013/11/20/1384944092228_124.jpg" width="100" height="75" /></a>
+              <a href="http://caipiao.cntv.cn/" class="plus" target="_blank"></a>
+             </div>
+             <div class="text">
+              <a href="http://caipiao.cntv.cn/" target="_blank"></a>
+             </div> </li> 
+           </ul> 
+          </div> 
+          <script language="javascript">			var contentIdELMT1384944040276511 = "contentELMT1384944040276511";		var splitFlagELMT1384944040276511 = false;						showImage("ELMT1384944040276511",1);</script> 
+          <div style="clear:both;"></div> 
+         </div> 
+         <div class="vspace"></div> 
+        </div> 
+        <style type="text/css">.md .md_hd {    background-attachment: scroll;    background-clip: border-box;    background-color: #C7C7C7;    background-image: url("http://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1318581100695105/m1-h220120509.gif");    background-origin: padding-box;    background-position: 0 0 !important;    background-repeat: repeat;    background-size: auto auto;    border-color: #CCCCCC;    border-style: solid;    border-width: 0 0 1px;    clear: both;    color: #2D2D2D;    font-weight: bold;    height: 0px;    line-height: 26px;    overflow: hidden;    padding: 0 10px;}</style> 
+       </div> 
+       <div style="clear:both;"></div> 
+      </div> 
+      <div class="md_ftc">
+       <b></b>
+      </div>
+     </div>
+     <div class="hide"></div>
+    </div> 
+    <div class="vspace"></div>
+    <div class="xinwenCind_6248_2013041101"> 
+     <div class="bd"> 
+      <div class="images_text_boxs"> 
+       <div class="images">
+        <a href="http://news.cntv.cn/special/wangluoxinwenlianbo/index.shtml" target="_blank"><img src="http://p3.img.cctvpic.com/photoAlbum/page/performance/img/2013/4/16/1366077703953_465.jpg" width="84" height="84" /></a>
+       </div> 
+       <div class="texts"> 
+        <h4>扫一扫,立即关注!</h4> 
+        <p>央视网新闻官方微信</p> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="vspace"></div> 
+      <div class="weixin_list_boxs"> 
+       <div class="text_title">
+        关注网络新闻联播微博
+       </div> 
+       <div class="ul_list_boxs"> 
+        <ul> 
+         <li> 
+          <div class="images">
+           <a href="http://t.cntv.cn/weibolianbo" target="_blank"><img src="http://p3.img.cctvpic.com/photoAlbum/page/performance/img/2014/3/27/1395888837609_855.png" width="32" height="32" /></a>
+          </div> 
+          <div class="texts">
+           <a href="http://t.cntv.cn/weibolianbo" target="_blank">CNTV微博</a>
+          </div> </li> 
+         <li> 
+          <div class="images">
+           <a href="http://t.qq.com/Microbloglianbo" target="_blank"><img src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2013/4/16/1366080133957_838.jpg" width="32" height="32" /></a>
+          </div> 
+          <div class="texts">
+           <a href="http://t.qq.com/Microbloglianbo" target="_blank">腾讯微博</a>
+          </div> </li> 
+         <li> 
+          <div class="images">
+           <a href="http://t.sohu.com/u/963141873" target="_blank"><img src="http://p5.img.cctvpic.com/photoAlbum/page/performance/img/2013/4/16/1366080223240_446.jpg" width="32" height="32" /></a>
+          </div> 
+          <div class="texts">
+           <a href="http://t.sohu.com/u/963141873" target="_blank">搜狐微博</a>
+          </div> </li> 
+         <li> 
+          <div class="images">
+           <a href="http://e.weibo.com/cntv2011lh" target="_blank"><img src="http://p3.img.cctvpic.com/photoAlbum/page/performance/img/2013/4/16/1366080187841_158.jpg" width="32" height="32" /></a>
+          </div> 
+          <div class="texts">
+           <a href="http://e.weibo.com/cntv2011lh" target="_blank">新浪微博</a>
+          </div> </li> 
+        </ul> 
+        <div class="clear"></div> 
+        <div class="vspace"></div> 
+       </div> 
+      </div> 
+     </div>
+    </div>
+    <div class="ELMT1336728217869700">
+     <div class="lt_85"> 
+      <div class="image">
+       <a href="http://jingji.cntv.cn/315/tousu/index.shtml" class="" target="_blank"><img src="http://p5.img.cctvpic.com/nettv/financial/20120209/images/103349_1328768013357.jpg" /></a>
+      </div> 
+      <div class="title">
+       <a href="http://jingji.cntv.cn/315/tousu/index.shtml" class="" target="_blank"></a>
+      </div> 
+      <div class="jianjie"></div> 
+     </div>
+    </div>
+    <div class="ELMT1336728217869703">
+     <div class="md" id=""> 
+      <div class="md_hdc">
+       <b></b>
+      </div> 
+      <div class="md_hd"> 
+       <span class="mh_title"> 3&middot;15调查 </span> 
+       <span class="mh_option"><a href="http://jingji.cntv.cn/315/index.shtml" class="more_btn" title="更多" target="_blank">更多</a></span> 
+      </div> 
+      <div class="md_bd"> 
+       <div id="SUBD1336728217869705"> 
+        <div class="ELMT1336728217869706"> 
+         <div class="img_title_list" id="contentELMT1336728217869706"> 
+          <div class="text_box" style="clear:both;"> 
+           <div style="float:left;position:relative;_height:1px;width:px;margin-right:8px;"> 
+            <a href="http://jingji.cntv.cn/20140404064324226.shtml" target="_blank"><img src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2014/4/8/1396937717919_542.jpg" width="" /></a> 
+            <div class="thumb_video_icon"></div> 
+           </div> 
+           <h2><a href="http://jingji.cntv.cn/20140404064324226.shtml" target="_blank">斯柯达违反汽车三包法</a></h2> 
+           <p><a href="http://jingji.cntv.cn/20140404064324226.shtml" target="_blank">行驶中换挡会出现顿挫感,起步时易熄火。</a></p> 
+          </div> 
+          <div style="clear:both;"></div> 
+          <div class="vspace"></div> 
+         </div>
+        </div>
+        <script language="javascript">			var contentIdELMT1336728217869706 = "contentELMT1336728217869706";		var splitFlagELMT1336728217869706 = false;						showImageTPBTJJ("ELMT1336728217869706",1,".text_box");</script>
+        <div class="ELMT1336728217869709">
+         <div class="title_list"> 
+          <div class="title_list_box"> 
+           <div class="tl_caption"></div> 
+           <ul class="ul_title_list" id="contentELMT1336728217869709"> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140403180365023.shtml" target="_blank">芭莎网礼品卡兑换问题</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140403230783230.shtml" target="_blank">在香孕坊批发奶粉受骗</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140408100336185.shtml" target="_blank">京东商城差别对待消费者</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140407135650170.shtml" target="_blank">浪莎丝袜一穿就烂</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140330094835326.shtml" target="_blank">田园牛奶质量问题</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140330134949753.shtml" target="_blank">在京东上购买到残次商品</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140402102337394.shtml" target="_blank">索尼手机质量堪忧</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140401161258340.shtml" target="_blank">多美滋奶粉食用后拉肚子</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140324195071439.shtml" target="_blank">&quot;星期六&quot;品牌鞋子开胶</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140325184167260.shtml" target="_blank">雪铁龙世嘉空调制冷差</a> </li> 
+           </ul> 
+           <!--更多项开始--> 
+           <div class="tl_option"></div> 
+           <!--更多项结束--> 
+          </div> 
+          <script language="javascript">					var itemStepELMT1336728217869709 ="1";		var splitItemELMT1336728217869709 ="";		var contentIdELMT1336728217869709 = "contentELMT1336728217869709";				showTitle("ELMT1336728217869709",1);</script> 
+          <div style="clear:both;"></div> 
+          <div class="vspace"></div> 
+         </div>
+         <script>var liobj = $(".ELMT1336728217869709 .title_list .title_list_box .ul_title_list li");$(liobj[liobj.length-1]).css("border-bottom","0");</script>
+        </div> 
+       </div> 
+       <div style="clear:both;"></div> 
+      </div> 
+      <div class="md_ftc">
+       <b></b>
+      </div>
+     </div>
+     <div class="hide"></div>
+    </div> 
+    <!-- web_cntv/dicengye_wenzilian02 -->
+    <div id="div-gpt-ad-wenzilian02"> 
+     <iframe marginheight="0" marginwidth="0" frameborder="0" width="313" height="165" scrolling="no" id="dicengye_wenzilian02_1" src=""> </iframe> 
+     <script type="text/javascript">		function hide_dicengye_wenzilian02(){document.getElementById("div-gpt-ad-wenzilian02").style.display="none";}	document.getElementById('dicengye_wenzilian02_1').src="http://pubads.g.doubleclick.net/gampad/adx?iu=/8962/web_cntv/dicengye_wenzilian02&t=subsite%3D"+dfp_subsite+"%26channel%3D"+sub_column_id+"%26sorts%3D"+column_id+"&sz=1x1&c="+(new Date()).getTime();	</script>
+    </div> 
+    <iframe scrolling="No" frameborder="0" width="313px;" height="0px;" src="http://www.xinhuanet.com/world/widget/widget01.htm"></iframe> 
+    <!-- web_cntv/dicengye_huazhonghua02 -->
+    <div id="div-gpt-ad-1367991525820-5" style="width:313px; height:260px;">
+     <script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1367991525820-5'); });</script>
+    </div> 
+    <div class="ELMT1340613654483614">
+     <div class="md" id=""> 
+      <div class="md_hdc">
+       <b></b>
+      </div> 
+      <div class="md_hd"> 
+       <span class="mh_title"> 3&middot;15投诉排行榜 </span> 
+      </div> 
+      <div class="md_bd"> 
+       <div id="SUBD1340613654487616"> 
+        <div class="ELMT1340613654500617">
+         <div class="title_list"> 
+          <div class="title_list_box"> 
+           <div class="tl_caption"></div> 
+           <ul class="ul_title_list" id="contentELMT1340613654500617"> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140404182766431.shtml" target="_blank">LG滚筒洗衣机无法退货</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140405151154678.shtml" target="_blank">TCL电视音量30即出现低频机震现象</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140407163259577.shtml" target="_blank">海信电视屏幕开裂</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140407135149891.shtml" target="_blank">QQ号无缘无故被腾讯冻结</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140401164660400.shtml" target="_blank">喜来健坑骗老年人</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140324102437459.shtml" target="_blank">百度糯米只顾利益欺骗消费客户</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140318114442295.shtml" target="_blank">哈飞赛豹V系1.8配件漫天要价</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140323120843688.shtml" target="_blank">平安车险理赔半年了车还没有修好</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140324090632772.shtml" target="_blank">艺龙旅行网拖欠赔付</a> </li> 
+            <li style="display:none;" class="zdy"><a href="http://jingji.cntv.cn/20140322202873704.shtml" target="_blank">iPhone 5s被阉割了4G功能</a> </li> 
+           </ul> 
+           <!--更多项开始--> 
+           <div class="tl_option"></div> 
+           <!--更多项结束--> 
+          </div> 
+          <script language="javascript">					var itemStepELMT1340613654500617 ="";		var splitItemELMT1340613654500617 ="";		var contentIdELMT1340613654500617 = "contentELMT1340613654500617";				showTitle("ELMT1340613654500617",1);</script> 
+          <div style="clear:both;"></div> 
+          <div class="vspace"></div> 
+         </div>
+         <script>var liobj = $(".ELMT1340613654500617 .title_list .title_list_box .ul_title_list li");$(liobj[liobj.length-1]).css("border-bottom","0");</script>
+        </div> 
+       </div> 
+       <div style="clear:both;"></div> 
+      </div> 
+      <div class="md_ftc">
+       <b></b>
+      </div>
+     </div>
+     <div class="hide"></div>
+    </div> 
+    <iframe scrolling="No" frameborder="0" width="313px;" height="0px;" src="http://shehui.v1.cn"></iframe> 
+    <!-- web_cntv/dicengye_huazhonghua03 -->
+    <div id="div-gpt-ad-1367991525820-6" style="width:313px; height:260px;">
+     <script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1367991525820-6'); });</script>
+    </div> 
+    <div class="ELMT1366077835541379">
+     <script type="text/javascript">var str='';str+='<div class="xinwenCind_6248_2013041102">';str+='<div class="images">';str+='<a href="http://news.cntv.cn/special/wangluoxinwenlianbo/index.shtml" target="_blank"><img src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2013/4/16/1366097162449_24.jpg" width="94" height="94" /></a></div>';str+='<div class="texts">';str+='<div class="text_01">央视网新闻官方微信:扫一扫,立即关注!</div>';str+='<div class="text_02">关注"网络新闻联播",获取独家新闻资讯。</div>';str+='<div class="text_02">更多精彩请关注各大微博平台@网络新闻联播 ,@央视网新闻。</div>';str+='</div>';str+='<div class="clear"></div></div>';$(function(){$(str).insertBefore("#main .tags");});</script>
+    </div>
+    <style type="text/css">.xinwenCind_6248_2013041102{	background:url()}</style> 
+    <!-- web_cntv/dicengye_wenzilian01 -->
+    <!--<div id="div-gpt-ad-wenzilian01">	<iframe marginheight="0" marginwidth="0" frameborder="0" width="310" height="310" scrolling="no" id="dicengye_wenzilian01_1" src="">	</iframe>	<script type="text/javascript">		function hide_dicengye_wenzilian01(){document.getElementById("div-gpt-ad-wenzilian01").style.display="none";}	document.getElementById('dicengye_wenzilian01_1').src="http://pubads.g.doubleclick.net/gampad/adx?iu=/8962/web_cntv/dicengye_wenzilian01&t=subsite%3D"+dfp_subsite+"%26channel%3D"+sub_column_id+"%26sorts%3D"+column_id+"&sz=1x1&c="+(new Date()).getTime();	</script></div>--> 
+    <div class="ELMT1383549050806864">
+     <div class="vspace_jj"></div>
+    </div> 
+    <link type="text/css" rel="stylesheet" href="http://r.img.cctvpic.com/blog/nettv/Library/bkdcybhy/article/right/bkjbd/style/style.css?27f12fcaf9807db6546ca06cacd071be" />
+    <div class="ELMT1383295055978257">
+     <div class="m1 m-b-10 fs_14 zoom1"> 
+      <h2 class="fs_14"> <span class="more">
+        <cf:component tag="more">
+         <a href="&lt;cf:value-of select='url'/&gt;" target="_blank" class="more_btn">
+          <cf:value-of select="text" /></a>
+        </cf:component></span> 
+       <cf:header>
+        博客劲爆点
+       </cf:header> </h2> 
+      <ul class="ul1-1 c-b"> 
+       <li><a href="http://blog.cntv.cn/30523661-5079810.html" target="_blank">电影频道美女主持人涂经纬纽约求学</a><br /><a target="_blank" href="http://blog.cntv.cn/gongxiaojun" class="zcx">龚小军</a></li>
+       <li><a href="http://blog.cntv.cn/14319413-5080684.html" target="_blank">郎永淳童年和爸爸数星星想做科学家</a><br /><a target="_blank" href="http://blog.cntv.cn/hahahou" class="zcx">小盼</a></li>
+       <li><a href="http://blog.cntv.cn/10438955-5080719.html" target="_blank">董洁PK赵薇:昔日女神今日“狐狸精”</a><br /><a target="_blank" href="http://blog.cntv.cn/10438955" class="zcx">冰河</a></li>
+       <li><a href="http://blog.cntv.cn/14642822-5080037.html" target="_blank">莱昂纳多:昔日美少年骤变今日土肥圆</a><br /><a target="_blank" href="http://blog.cntv.cn/liushigong" class="zcx">刘士功</a></li>
+       <li><a href="http://blog.cntv.cn/10409094-5080259.html" target="_blank">谢霆锋何时能像王菲那样为孩子庆生</a><br /><a target="_blank" href="http://blog.cntv.cn/lishuo" class="zcx">李烁妈妈</a></li> 
+      </ul> 
+      <ul class="p-list p-w80"> 
+       <li> <a href="http://blog.cntv.cn/42546292-5080555.html" target="_blank"><img width="80" height="60" class="pic" src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2015/5/25/1432518002045_563.jpg" /></a> <p class="p1"><a class="cl29" href="http://blog.cntv.cn/42546292-5080555.html" target="_blank">夏天西瓜也不要太贪吃</a></p> </li> 
+       <li> <a href="http://blog.cntv.cn/21470213-5080510.html" target="_blank"><img width="80" height="60" class="pic" src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2015/5/25/1432517988505_45.jpg" /></a> <p class="p1"><a class="cl29" href="http://blog.cntv.cn/21470213-5080510.html" target="_blank">奶茶妹妹刘强东拍婚照</a></p> </li> 
+       <li> <a href="http://blog.cntv.cn/21470213-5080457.html" target="_blank"><img width="80" height="60" class="pic" src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2015/5/25/1432517979207_938.jpg" /></a> <p class="p1"><a class="cl29" href="http://blog.cntv.cn/21470213-5080457.html" target="_blank">曹格老婆养眼长腿泳装</a></p> </li> 
+       <li> <a href="http://blog.cntv.cn/30523661-5080512.html" target="_blank"><img width="80" height="60" class="pic" src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2015/5/25/1432517971022_683.jpg" /></a> <p class="p1"><a class="cl29" href="http://blog.cntv.cn/30523661-5080512.html" target="_blank">周海媚拍摄公主风大片</a></p> </li> 
+       <li> <a href="http://blog.cntv.cn/10596276-5076648.html" target="_blank"><img width="80" height="60" class="pic" src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2015/5/21/1432172776351_425.jpg" /></a> <p class="p1"><a class="cl29" href="http://blog.cntv.cn/10596276-5076648.html" target="_blank">杨澜专访陈数和邬君梅</a></p> </li> 
+       <li> <a href="http://blog.cntv.cn/10438955-5076269.html" target="_blank"><img width="80" height="60" class="pic" src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2015/5/21/1432172763726_550.jpg" /></a> <p class="p1"><a class="cl29" href="http://blog.cntv.cn/10438955-5076269.html" target="_blank">中国最著名七大错别字</a></p> </li> 
+      </ul>
+     </div>
+    </div> 
+    <!-- web_cntv/dicengye_tanchuang -->
+    <script type="text/javascript">if(typeof dfp_subsite=="undefined"){dfp_subsite=location.href.split("/")[2].split(".")[0];}if(typeof column_id=="undefined"){column_id=""}if(typeof sub_column_id=="undefined"){sub_column_id=""}(function(c,e){var n=(new Date()).getTime()+Math.random().toString().replace("0.",""),f=typeof e=="undefined",d=f?"adp_"+n:e,t=/([&?]+t=)/i,r="did%3D"+d;c=c.replace("%n",n);a=c.split("#",2);b=a[0];if(t.test(b)){b=b.replace(t,"$1"+r+"%26");}else{b+=(b.indexOf("?")>-1?"&":"?")+"t="+r;}a[0]=b;x=a.join("#");if(f){document.write('<div id="'+d+'"><script type="text/javascript" src="'+x+'"></scr'+'ipt> </div>')};})("http://pubads.g.doubleclick.net/gampad/adx?iu=/8962/web_cntv/dicengye_tanchuang&sz=1x1&m=text/javascript&c=%n&t=subsite%3D"+dfp_subsite+"%26channel%3D"+sub_column_id+"%26sorts%3D"+column_id);</script> 
+    <!-- web_cntv/dicengye_duilian -->
+    <script type="text/javascript">if(typeof dfp_subsite=="undefined"){dfp_subsite=""}if(typeof column_id=="undefined"){column_id=""}if(typeof sub_column_id=="undefined"){sub_column_id=""}(function(c,e){if(location.href.indexOf("f=360")!=-1){return};var n=(new Date()).getTime()+Math.random().toString().replace("0.",""),f=typeof e=="undefined",d=f?"adp_"+n:e,t=/([&?]+t=)/i,r="did%3D"+d;c=c.replace("%n",n);a=c.split("#",2);b=a[0];if(t.test(b)){b=b.replace(t,"$1"+r+"%26");}else{b+=(b.indexOf("?")>-1?"&":"?")+"t="+r;}a[0]=b;x=a.join("#");if(f){document.write('<div id="'+d+'"><script type="text/javascript" src="'+x+'"></scr'+'ipt> </div>')};})("http://pubads.g.doubleclick.net/gampad/adx?iu=/8962/web_cntv/dicengye_duilian&sz=1x1&m=text/javascript&c=%n&t=subsite%3D"+dfp_subsite+"%26channel%3D"+sub_column_id+"%26sorts%3D"+column_id);</script> 
+    <div class="m1 m-b-10 fs_14 zoom1"> 
+     <h2 class="fs_14"> <span class="more"><a href="http://t.cntv.cn/">更多&gt;&gt;</a></span> 微博推荐 </h2> 
+     <ul class="p-list p-w120 md_list_5"> 
+      <li> <a href="http://t.cntv.cn/topicList/%E4%B8%AD%E5%9B%BD%E5%9F%8E%E5%B8%82%E5%B9%B8%E7%A6%8F%E6%84%9F" target="_blank"><img width="120" height="68" src="http://p4.img.cctvpic.com/blog/20130823/images/101047_3422_1383186716513.jpg" class="pic" /></a> <p class="p1"><a href="http://t.cntv.cn/topicList/%E4%B8%AD%E5%9B%BD%E5%9F%8E%E5%B8%82%E5%B9%B8%E7%A6%8F%E6%84%9F" target="_blank" class="cl29">中国城市幸福感</a></p> </li> 
+      <li> <a href="http://t.cntv.cn/topicList/%E4%B8%8D%E5%AD%9D%E4%B8%83%E5%AE%97%E7%BD%AA" target="_blank"><img width="120" height="68" src="http://p2.img.cctvpic.com/blog/20130819/images/100975_5238_1383186860959.jpg" class="pic" /></a> <p class="p1"><a href="http://t.cntv.cn/topicList/%E4%B8%8D%E5%AD%9D%E4%B8%83%E5%AE%97%E7%BD%AA" target="_blank" class="cl29">不孝七宗罪</a></p> </li> 
+     </ul> 
+     <p class="md_p_3"> <a href="http://t.cntv.cn/talk" target="_blank" class="cl66">微访谈</a> | <a href="http://t.cntv.cn/live" target="_blank" class="cl66">微直播</a> | <a href="http://t.cntv.cn/pub" target="_blank" class="cl66">微广场</a> | <a href="http://t.cntv.cn/fame" target="_blank" class="cl66">名人墙</a> | <a href="http://t.cntv.cn/rank" target="_blank" class="cl66">排行榜</a> </p> 
+     <p class="md_p_4"> <a href="http://t.cntv.cn/show/49832103" target="_blank">• 橙子打蜡该如何识别</a> <a href="http://t.cntv.cn/show/49817739" target="_blank">• 揭秘歼十研制全过程</a> </p> 
+     <p class="md_p_4"> <a href="http://t.cntv.cn/show/49831892" target="_blank">• 十种贵人可遇不可求 </a> <a href="http://t.cntv.cn/show/49831564" target="_blank">• 抽烟是如何毁掉健康</a> </p> 
+     <p class="md_p_4"> <a href="http://t.cntv.cn/show/49825102" target="_blank">• 老人为病妻搭40米扶手</a> <a href="http://t.cntv.cn/show/49831793" target="_blank">• 拒绝浪费从我做起</a> </p> 
+     <ul class="p-list p-w60 md_list_3"> 
+      <li> <a href="http://t.cntv.cn/30630580" target="_blank"><img width="60" height="60" src="http://p2.img.cctvpic.com/blog/20120730/images/110752_945_1376014528485.jpg" class="pic" /></a> <p class="p1"><a href="http://t.cntv.cn/30630580" target="_blank" class="cl29">美丽中国&middot;湿地行</a></p> </li> 
+      <li> <a href="http://t.cntv.cn/18027148" target="_blank"><img width="60" height="60" src="http://p3.img.cctvpic.com/blog/20120730/images/110749_6432_1376014597904.jpg" class="pic" /></a> <p class="p1"><a href="http://t.cntv.cn/18027148" target="_blank" class="cl29">梦想星搭档</a></p> </li> 
+      <li> <a href="http://t.cntv.cn/14114318" target="_blank"><img width="60" height="60" src="http://p1.img.cctvpic.com/blog/20120730/images/110750_2330_1376014659628.jpg" class="pic" /></a> <p class="p1"><a href="http://t.cntv.cn/14114318" target="_blank" class="cl29">我要上春晚</a></p> </li> 
+      <li> <a href="http://t.cntv.cn/21836214" target="_blank"><img width="60" height="60" src="http://p4.img.cctvpic.com/blog/20120730/images/110754_8396_1376014728860.jpg" class="pic" /></a> <p class="p1"><a href="http://t.cntv.cn/21836214" target="_blank" class="cl29">开门大吉</a></p> </li> 
+     </ul> 
+    </div>
+    <style>.col_w960 {width: 313px;}</style>
+    <!--remian--> 
+    <div id="erweima" style="position:fixed;z-index:9999;top:405px;right:20px;width:100px;text-align:center;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+440));"> 
+     <div style="position:relative;"> 
+      <a href="http://cbox.cntv.cn/" target="_blank"><img src="http://p5.img.cctvpic.com/photoAlbum/page/performance/img/2014/1/23/1390449445161_28.jpg" /></a>
+      <a href="http://cbox.cntv.cn/" target="_blank"><p style="font:15px/2em '微软雅黑','黑体';">央视影音</p></a> 
+      <span style="position:absolute;top:-15px;right:0;cursor:pointer;" onclick="$(this).parent().parent().hide()">关闭</span> 
+     </div>
+    </div>
+    <script type="text/javascript">	$(document).ready(function(){		function windowalign(){			bodyheight = $(window).height();			if(bodyheight<704){				$("#erweima").css({"display":"none"});			}			if(bodyheight>704){				$("#erweima").css({"display":"block"});			}		}		windowalign();		window.onresize=windowalign;	});</script> 
+    <!--右部包含页结束20110529--> 
+   </div> 
+   <!--end side--> 
+   <div id="main"> 
+    <!-- 首播 --> 
+    <div class="body" id="content_body"> 
+     <p> 解说:养老金双轨制破冰,3700万机关事业单位人员将和企业职工一样缴纳养老金。</p>
+     <p> 张鸿:都要为自己的养老买单。</p>
+     <p> 解说:老人老办法、新人新制度,中人逐步过度,改革内涵如何解读,养老金定位如何用市场化视角来观察,《央视财经评论》正在关注。</p>
+     <p> 主持人(沈竹):欢迎各位关注今晚的《央视财经评论》,今天我们来关注我们的养老问题,养老中很关键的一个就是养老金,一直以来我们看到养老金的双轨制都被称为改革的一块硬骨头,而现在这块硬骨头终于被啃掉了,昨天我们看到《国务院关于机关事业单位工作人员养老保险制度改革的决定》是正式公布,这个方案可以简单的提炼为一个统一、五个同步,简单的解释就是改革后,机关事业单位按工资总额的20%缴费,个人按本人缴费工资的8%缴费,3700万的机关事业单位工作人员养老将告别年缴费时代,那这样的改革如何能够循序渐进地实现,如何从市场化的视角来审视今天的养老金并轨改革,我们先看看相关政策。</p>
+     <p> 王大姐(江苏淮安某退休人员):公务员你在岗的时候,你比普通老百姓拿的多,我们没有说的,但是退休以后应该是人人平等,这就对头了,国家应该推行这个。</p>
+     <p> 男:并轨的话,我觉得这个应该是做了一件实事。</p>
+     <p> 男2:那种公平性吧,我觉得反正应该还蛮好的。</p>
+     <p> 解说:养老改革,事关每一个人,百姓热议的正是这次机关事业单位养老金并轨改革。</p>
+     <p> 相关数据显示,我国公务员人数超过717万人,事业单位编制人员3153万人,在这次改革前这些人当中很大的一部分不用交养老保险,退休养老金由政府财政出资,退休后养老金可达到退休前工资的80%到90%。而更多每月交养老保险的企业职工,在退休后能拿到的养老金是退休前的30%到60%,这种情况被形象的称为双轨制。</p>
+     <p> 这次机关事业单位养老保险改革方案被提炼为“一个统一、五个同步”。</p>
+     <p> 一个统一,是指党政机关、事业单位建立与企业相同的基本养老保险制度,实行单位和个人缴费,党政机关、事业单位将同步建立和企业相同的基本养老保险制度,也就是单位按工资总额的20%,个人按本人缴费工资的8%缴纳养老保险,相应的工资制度、职业年金制度、计发办法和待遇调整机制也将同步改革。</p>
+     <p> 金维刚(人力资源和社会保障部社会保障研究所所长):我们目前在养老金方面还是存在着不同的保障的制度。那么这种不同的制度之间还是存在着待遇差,特别是作为机关事业单位来讲,不缴费但是他的待遇水平比较高,容易引起其他一些社会群体的攀比。那么通过改革以后,他个人要缴费,那么长缴和多缴他的待遇水平也会相应地提高。</p>
+     <p> 解说:以公务员小李为例,除去津贴、补贴等,每个月的缴费工资是5000元,改革前单位和个人都不用缴费,小李退休后照样有养老金。改革后,小李每月要缴纳养老保险400元。</p>
+     <p> 职业年金方面,单位按本单位工资总额的8%缴费,个人按本人缴费工资的4%缴费。这样,小李还要缴200元,加上基本养老保险的400元,一共缴600元,这笔钱是从小李的月收入当中扣除的,将进入小李的养老金个人账户。连同单位缴费部分,退休后按月发放。也就是说并轨后机关事业单位人员与企业职工的养老缴费和发放基本一致。</p>
+     <p> 主持人:确实实行了60多年的这样一个机关事业单位的退休制度以及所谓的养老金双轨制,也是将近20年了,那这样一次改革到底改了什么,动了谁的奶酪?今天邀请到的是清华大学公共管理学院的助理研究员胡乃军博士和张鸿一起讨论,应该说原来我们双轨双轨,就是不一样,大家不一样,同等学历、同等职务、同等职称甚至同等贡献、同等工龄这样的人,因为单位工作性质的不一样,所以退休之后拿的钱也不一样,那今天你们两位能不能够从市场的角度看一看这样的一种并轨到底是改了什么、并了什么,什么东西从原来的不一样变成今天的一样了?</p>
+     <p> 胡乃军:从并轨来看,就说让我们机关事业单位工作人员也参加我们的社会保险,和企业职工一样根据缴费,我们说,社会保险它绝对是一种按照市场机制来运作的,你要想得到更多的养老金待遇,那么需要你缴费工资要高,缴费年限要长,缴费时间相对也要长,多缴多得,权利义务相匹配,那么这些规则现在通过我们新的政策下来,我们机关和事业单位的工作人员也要进入这样的一个体系,那我们说这当然就改变了原来依靠财政来获取养老金的这样一种老的政策,在新的政策之下,需要我们的财政、单位、个人甚至于我们市场,因为你钱要缴上来,也需要一些市场化的运作在里面,账户的相关管理、资产的相关管理等等,这样的话就是说改变以往的完全依靠财政,变成更多的市场化的机制,权利义务去匹配,多缴多得,这当然是一个有利于市场化机制这样一个改革的方向。</p>
+     <p> 主持人:我问一个简单的问题,将来我不同的工作性质的这种单位的性质,能不能够我同等的工龄也好、同等的职称也好,最后拿到的退休金一样了呢?</p>
+     <p> 张鸿:你交的同等多,缴费年限同等长,理论上讲,在基本养老的账户里边你拿的是一样的,现在就是说基本养老账户,原来机关单位和事业单位的这些人是没有这个账户,他自己没有,所以那个时候就像食堂一样,我们都知道有个大食堂,然后机关事业单位,企业都是在大食堂里边吃饭,你要想养老,你得自己刷卡,你知道吧?你每次刷刷刷,到最后养老了,你就有养老金了,但是机关事业单位它不是在这个食堂,它在一个小灶里边吃,这里边的饭菜是政府来买单、财政来买单,现在他也得自己,他有一个账户了,然后自己也来刷卡,每次吃,这样到他退休以后也有自己的账户可以来养老,当然进去以后,短期内他吃的和原来企业这些吃的可能层次还是不太一样,但是起码他保证了有一个制度,这个制度就是刚才胡博士说,就是相对来说更市场化的制度,就是我交钱,我享受我的养老,所以在这个制度上,我们从中国养老制度建设上来说,现在大家用同样的一个方式,来为自己的养老来安排自己的资金,这未来我们的养老制度就更好地推进。</p>
+     <p> 主持人:用你的话说就是取消了小灶,大家都可能在一个锅里面可能享受的是,可能平等一个待遇。</p>
+     <p> 张鸿:都要为自己的养老买单。</p>
+     <p> 主持人:那机关事业单位人员他们原来是常年的不需要缴费,那今天在我们的改革政策当中,对这部分人他们如何计算年限,如何安排他们的退休金,也有一个政策上的规定,我们来看看。</p>
+     <p> 解说:此次改革实行老人老办法、新人新制度、中人逐步过渡的办法。这也就意味着,改革前已退休的人员维持原待遇不变,并参加今后的待遇调整;而改革后参加工作的新人参与社保;对这两类人,改革带来的变化并不大,改革直接影响的是大约700万名在职公务员,以及超过3000万事业单位工作人员。</p>
+     <p> 金维刚(人力资源和社会保障部社会保障研究所所长):对于改革前已经参加工作,改革后已经退休的这些人我们把他称为中人,对于这类群体,一方面他们要参加改革也要进行缴费,另一方面由于他们过去视同缴费的这些年限,过去实际上是没有这种单位和个人缴费的积累,所以要给他们实行一些过渡性的办法。</p>
+     <p> 解说:为避免机关事业单位在职人员在改革后养老金出现较大幅度降低的情况,改革方案中明确,对改革前参加工作,改革后退休的人员,确定视同缴费年限,在发给基础养老金和个人账户养老金的同时,在依据视同缴费年限长短等因素,发给过渡性养老金,同时,为更好保持中人待遇的衔接,本次改革设立一定期限的过渡期,在过渡期内,实行新老办法,养老金低于老办法的,按老办法补齐,以确保待遇不降低,新办法计发的养老金高于老办法的,对高出部分有所限制,以防止养老金的不合理增加。</p>
+     <p> 此次改革中还有一个新词汇备受关注,那就是视同缴费年限,通俗的说也就是:职工全部工作年限中,其实际缴费年限之前的按国家规定计算的连续工作时间。也就是说,在这次改革中,2014年10月1日是一个节点,在此日期之后到方案生效之日之间,机关事业单位在职人员要按照城镇职工基本养老保险的缴纳标准补齐个人账户,在此日期之前的则按照已经缴纳养老保险对待。</p>
+     <p> 褚福灵(中央财经大学社会保障研究中心主任):相对独立有什么好处。就是刚才你讲到就是有利于空账,有利于分清责任,有利于空账自我平衡,而不至于占压和挤压现有职工养老保险基金。</p>
+     <p> 解说:数据显示,2013年职工养老保险总支出18400多亿,总收入22500多亿,当期收入大于支出,节余4000多亿。</p>
+     <p> 主持人:说到这里,大家可能关心我是不是被改革的人群,改革的人群涵盖了公务员、医生、教师还有我们的科研人员,所谓群体挺大的,而且我们在其中学到了一个词既然是过渡期,就提炼了一个过渡的人群叫中人,利用老人老办法,新人新办法,中人逐渐地来过渡,我们就想问问中人怎么过渡,这可能需要一些个细则,因为没缴过的,后来怎么补缴,然后怎么用市场化的手段来进行稳步的推进,真的从双轨变成最终我们期望的一轨。</p>
+     <p> 胡乃军:从中人的角度来看,在我们以前职工的养老保险里也遇到过这样的问题,就是很多人要退休了,发现我缴费年限不足,缴费金额很少,你要完全按照养老保险公式和原则,他们待遇将非常低,那怎么办?通过政策上,给你,你以前没有缴费的工龄,叫做视同缴费年限,然后给你再直接发一部分过渡性养老金,那这样的话,这两个政策一叠加,帮助你的养老金待遇水平进行提升,而且我们这次改革文件里说得非常清楚,对这些过渡人来说,在一定的过渡期内,要确保他们待遇不至于和原来相比降得太低,这样的话,要不断地去过渡,这么过渡有个好处是什么?在初期可能补贴和过渡的额度要比较高,社会保险水平还没有发展起来,经过一段时间,我们说新人逐渐的增加,中人越来越少,保险积累额度越来越大,将来过渡的额度和比例会越来越少,社会保险的作用将逐步扩大,直至完全把旧的制度完全取代。</p>
+     <p> 主持人:市场的力量怎么来更多的进行一个托底,应该说从营运的角度,大家也会说,是不是会将来公务员这样一个缴纳的费用,他们有一个自己的资金。</p>
+     <p> 张鸿:专门的池子。</p>
+     <p> 主持人:是吧?专门的账户,然后其他的,企业的人士,包括医生、教师,他们各有一个池子,互相引入竞争等等,这方面有什么考虑吗?</p>
+     <p> 张鸿:教师和企业还是两码事,像胡博士他属于事业单位里的新人,他以后完全就是自己的账户全新开始,所以最难解决的其实是中人这一部分,可能很多人会担心自己的待遇会下来,养老金会减少,所以咱们的政策也说明了,就说你们的待遇不会受到太大影响,当然我们也要限,可能和老办法相比,你一下多了很多,也要限制,但是也要给你有一个兜底,但市场化的原则其实是什么,其实刚才我们已经提到了,多劳多得、少劳少得,你多缴的多拿,少缴的少拿,你交的长,你就多挣一点、多拿一点,你交的时间短你就少拿,所以它避免了什么?避免了过去我们的养老,很多时候是按级别来的,所以你会看到很多59岁的人开退休了,然后一下他级别,他哪怕弄个虚职,他也要长半级,为什么要长半级?因为他的养老金是挂钩的,但是未来不管你是什么级别,咱们拼的是你交的年限多少,然后你交的是多还是少,所以这个时候就避免了过去的完全和级别来挂钩。</p>
+     <p> 然后还有一个待遇,就说现在很多人,包括机关事业单位担心说,我现在我要从我工资里,咱们算了一下,个人要从你的工资里掏出12%来,8%要交你的个人账户里,4%要交你的职业年金里,所以你的工资要掏出12%来交这个,所以很多基层公务员就说,说我本来工资可能就几千块钱,两三千块钱,对,我交12%出来怎么办?所以接下来可能这个可能也会有补贴,这个补贴我算了一下,相当于你现在工资涨13.6%,你才能掏出12%来保证你现在实际收入的水平没有大幅的下降,按全国3700万这样的人来算的话,每个人,比如说按照去年的人均年收入,城镇职工人均年收入三万块左右,一年可能要,财政要补贴的1500亿。</p>
+     <p> 主持人:没错,养老金的这样一个并轨制度的改革,正式全面的破冰,那如何未来如何用市场的角度去审视改革的进程呢,我们稍事休息,继续回来。</p>
+     <p> 主持人:欢迎各位回到我们今晚的《央视财经评论》,我们关注的是养老金制度的重大改革,也就是所谓的养老金制度的双轨制可能将来变成了一个单轨制,到底需要什么样的一些个变化,会触动哪些人的一些个利益,那回顾我们的养老金双轨制在国内已经实行了将近20年,这个历程如何?我们不妨来梳理梳理。</p>
+     <p> 解说:养老金并轨改革有了明确的时间表,也引发了百姓热议。</p>
+     <p> 内江市民:这个养老保险(改革)完了之后,以后在一个单位工作,到另外的单位去工作也可以随意辞职,反正也不用担心养老保险。</p>
+     <p> 市民:我以前在北京工作,最近刚回四川这边工作,因为两个城市不一样,它很多那种缴费的标准或者是两方面的那种养老保险那种系统或者不兼容,在那边,比如说我在那边工作了四年,可能第一年缴得少,慢慢的缴得多了,但是我回来换了这边又得重新开始,就说这个城市之间或者跨省之间,什么时候能全国能统一就好了,就不用再重新来过。</p>
+     <p> 记者:你希望这次改革怎样改?有没有什么建议?</p>
+     <p> 市民:这次改革,我觉得就不要像以前一样,把养老制度就捆死在编制上面,如果捆死在编制上面,就不能促进人才这些流通、流动。</p>
+     <p> 解说:破除养老金双轨制难题是是社会关注的焦点,2008年国务院通过了事业单位工作人员养老保险制度改革试点方案,确定在山西、上海、浙江、广东和重庆5省市先期开展试点工作。</p>
+     <p> 在深圳养老金并轨试点已经开展,2010年5月,深圳市出台了行政机关聘任制公务员社会养老保障试行办法,全市所有新进公务员实行新的社会养老保险和职业年金相结合的养老保险制度,实现了公务员与企业职工社会养老保险制度的统一。2012年,深圳将该这项制度进一步推广到事业单位,自当年8月25日起,事业单位新聘工作人员全部实行社会养老保险和职业年金相结合的养老保险制度。到2014年6月底,在深圳参加社会养老保险和职业年金的机关事业单位“新人”已经超过7000人。</p>
+     <p> 媒体也在热评。</p>
+     <p> 新华社文章,在全面深化改革的背景下,养老金并轨改革决定的公布,迈出了实现公平养老的关键一步。</p>
+     <p> 京华时报认为,人才只有流动起来,才会使社会呈现活力,此时市场的力量就以其看不见手的高能、高效配置为人才提供合适的位置,为经济提供最佳的生产要素,打通双轨制这堵墙,不仅利于公平,还利于人才流动。</p>
+     <p> 主持人:公平养老第一步,我觉得说得特别好,而且很多观众的期待,我们看到刚才采访的这样一个受访者也说到了,全国要统一就好了,因为好多人现在在异地工作,互相的流动之间,特别需要这样保障能够有一个比较稳妥的一个安排,而且我们今天看到了,似乎这个政策也是指向市场,希望更多地发挥市场的要素配置的作用,将来能不能够实现大家说的,有利于我们人才流动很多保障,能够更加平等。</p>
+     <p> 张鸿:你就说过去是怎么限制人才流动的,除了你说那些区域,因为我们统筹级别比较低,所以全国有很多这样的不同的区域,它的差别特别大,这个没法统一,你就说体制内和外这个两轨之间,它就很难形成人才的流动,比如说我是一公务员或者我一事业单位,就包括胡博士,如果他是个老人,他没有自己的养老账户,突然今天一个大企业说,你到我这来工作,他怎么去?他没有账户,他没有养老账户,因为都是政府直接给他钱,他退休以后,政府直接给他钱,那他就麻烦了,同样的,你如果是企业,你到政府部门来也是一样,到事业部门来也是一样,你有,然后你以后不需要了,怎么办,你白交,你原来就等于白交了,政府直接给你钱就完了,所以就面临这样一个,你看这非常细小的人才流动的一个障碍,所以未来我们希望大家都有一个统一的一个规则以后,大家都有卡、都有自己账号了,你想跳槽什么就相对来说方便了。</p>
+     <p> 还有一个,刚才胡博士也提到了,我们市场化的这样一个管理基金的,管理我们养老基金的这样一个模式,在我看来两个还不够,你不能说机关事业单位一个,然后企业一个,这还不够,机关事业单位里我也可以选,我众多的市场化的基金,哪个效益好,我就选哪个,在国外都是这样的,对不对?企业也是一样,我不管考虑什么,我不考虑别的,就考虑你到最后我的稳定的收益能不能保障,那这个为什么我们要保障稳定的收益,就是因为我们其实养老根本的问题就是钱不够,我们老龄化越来越严重,年龄人越来越不够,不够怎么办?前几天有研究机构说,中国的社保缴费率在全球界排名靠前,人社部不还专门还出来正面回应了一下,人社部说确实我们的缴费率比较高,我们将实时调低,在这里边养老的缴费率在世界上排名确实是靠前的,那这就是为什么我们现在要交,我们为什么要收那么高?是因为我们确实比如说投资收益等等,我们没有完全市场化,如果我们这些完全市场化了以后,我们相对来说不需要那么多的钱就能够保证更多人的养老的话,那么我们的费率不就可以降一些了?</p>
+     <p> 主持人:没错,挪个地就不用付出这么大的成本了,也不用再有什么担心和后顾之忧了,这样的一个实现,似乎是一个理想的状态,似乎还有很多区域上的不平等,包括我们各个城市之间的一些个差异化等等等等,那未来平将来的平等会体现在哪些方面呢?</p>
+     <p> 胡乃军:我倒想从一个心理的作用来说,给人们一个启示,之所以养老金并轨,刚才张老师说,利于人才流动,但我也想打破一些旧有固定认识。以前总有人认为说,机关事业单位稳定,不需要向市场追求绩效,不需要创造很大的价值,我只需要追求一个稳定,那么我们现在通过并轨的改革,就向社会说明,这种简单的稳定很可能不能持续了,每一个人需要,我们习近平总书记不说嘛,任何幸福都要靠自己双手去创造,将来你要想获得高的养老金收益,获得好的稳定、好的保障,那么怎么办?多多的工作,更多的向市场上、社会创造价值,取得高收入同时,更多的缴纳社会保险,通过这种前期的积累,为你将来今后的生活创造更多的保障,我想这个并轨,在向社会传递这种声音和信号,这这种市场机制的作用也在体现,所以这样的话,我们说只能追求这个过程的一种相对平等,至于结果来看,那很明显,因为保险存在缴费的差别、地区的差别、年限的差别等等,还会出现一些不一样的待遇水平,但是至少我们过程上,至于在这个制度下我们是一样的,这个信号是非常强烈。</p>
+     <p> 主持人:对。</p>
+     <p> 主持人:今天我们探讨养老金的双轨制改革破冰,我们为这样的改革点赞,那在过程统一、规则统一的一种期望中,大家还对这样的改革寄于什么样的期待,我们再来参考一下。</p> 
+    </div> 
+    <!--end content body--> 
+    <div style="display:none"> 
+     <!--repaste.title.begin-->《央视财经评论》 20150115 公平养老又一步!
+     <!--repaste.title.end--> 
+     <!--repaste.video.desc.begin-->本期节目主要内容: 2015年我国首次统一提高全国城乡居民养老保险基础养老金最低标准。同时,企业退休人员基本养老金继续上调,迎来“11连调”。本期特邀专家对此解读。养老金并轨,利于市场化运行,有助于人才流动。(《央视财经评论》 20150115 公平养老又一步!)
+     <!--repaste.video.desc.end--> 
+    </div> 
+    <div class="vspace"></div> 
+    <div class="tags dot_x_t"> 
+     <span class="f-r">责任编辑:王玉飞 </span> 
+     <h2> 热词: </h2> 
+     <li> <a target="_blank" href="http://search.cntv.cn/netall/index.shtml?qtext=《央视财经评论》" onclick="window.open('http://search.cntv.cn/netall/index.shtml?qtext='+ escape('《央视财经评论》'));return false">《央视财经评论》 </a> </li> 
+     <li> <a target="_blank" href="http://search.cntv.cn/netall/index.shtml?qtext=20150115" onclick="window.open('http://search.cntv.cn/netall/index.shtml?qtext='+ escape('20150115'));return false">20150115 </a> </li> 
+     <li> <a target="_blank" href="http://search.cntv.cn/netall/index.shtml?qtext=公平养老又一步!" onclick="window.open('http://search.cntv.cn/netall/index.shtml?qtext='+ escape('公平养老又一步!'));return false">公平养老又一步! </a> </li> 
+    </div> 
+    <div class="share">
+      【 
+     <a href="#" onclick="window.print()">打印</a>】【 
+     <a href="http://help.cntv.cn/20101108/102609.shtml" target="_blank">举报/纠错</a>】【 
+     <a href="Javascript:copyTextToClipboard('《央视财经评论》 20150115 公平养老又一步!http://jingji.cntv.cn/2015/01/16/VIDE1421341559023728.shtml');">复制链接</a>】【 
+     <a href="javascript:void(window.open('http://mail.apps.cntv.cn/application_search/program06/contact/cntv_email.jsp?header=《央视财经评论》 20150115 公平养老又一步!&amp;url=http://jingji.cntv.cn/2015/01/16/VIDE1421341559023728.shtml'));">转发邮件</a>】
+     <!--【								<span id="cntvuc_repaste" class="tipsbox"></span>】-->
+     <!--20120720去除部分开始-->
+     <!--20120720去除部分结束--> 
+    </div> 
+    <div class="bdsharebuttonbox"> 
+     <a href="#" class="bds_more" data-cmd="more"></a> 
+     <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a> 
+     <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a> 
+     <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a> 
+     <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a> 
+     <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a> 
+     <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a> 
+     <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a> 
+     <a href="#" class="bds_tqf" data-cmd="tqf" title="分享到腾讯朋友"></a> 
+     <a href="#" class="bds_kaixin001" data-cmd="kaixin001" title="分享到开心网"></a> 
+     <a href="#" class="bds_mshare" data-cmd="mshare" title="分享到一键分享"></a> 
+    </div> 
+    <script>								window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2078561600","tqq":"801099517"},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","sqq","renren","weixin","tieba","tqf","kaixin001","mshare"],"viewText":"分享到:","viewSize":"16"}};								with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=86835285.js?cdnversion='+~(-new Date()/36e5)];							</script> 
+    <div style="display:none"> 
+     <!--repaste.video.channel.begin-->channelId
+     <!--repaste.video.channel.end--> 
+     <!--repaste.bizId.begin-->1
+     <!--repaste.bizId.end--> 
+     <!--repaste.subBizId.begin-->1
+     <!--repaste.subBizId.end--> 
+     <!--repaste.contentType.begin-->2
+     <!--repaste.contentType.end--> 
+     <!--repaste.video.code.begin-->d69d255ca02b405e884935488479c388
+     <!--repaste.video.code.end--> 
+    </div> 
+    <!--end share--> 
+    <div class="vspace"></div> 
+    <!-- 相关微博 --> 
+    <!--左侧留言评论包含页20120524开始--> 
+    <!-- web_cntv/dicengye_wenzilian03 -->
+    <div id="div-gpt-ad-wenzilian03"> 
+     <script type="text/javascript">		function hide_dicengye_wenzilian03(){document.getElementById("div-gpt-ad-wenzilian03").style.display="none";}	if(typeof(dfp_subsite)=='undefined'){		var dfp_subsite="undefined";	}	if(dfp_subsite!='undefined'&&dfp_subsite!='style'&& dfp_subsite!='travel'&& dfp_subsite!='music'){		document.getElementById('div-gpt-ad-wenzilian03').innerHTML="<iframe marginheight='0' marginwidth='0' frameborder='0' width='637' height='165'  scrolling='no' id='dicengye_wenzilian03_1' src=''></iframe>";		document.getElementById('dicengye_wenzilian03_1').src="http://pubads.g.doubleclick.net/gampad/adx?iu=/8962/web_cntv/dicengye_wenzilian03&t=subsite%3D"+dfp_subsite+"%26channel%3D"+sub_column_id+"%26sorts%3D"+column_id+"&sz=1x1&c="+(new Date()).getTime();	}	</script>
+    </div> 
+    <div class="vspace"></div>
+    <div class="m1 m-b-10"> 
+     <h2>留言评论</h2> 
+     <iframe width="634px;" height="210px;" frameborder="0" scrolling="no" style="" src="" id="liuyan_new"></iframe>
+    </div>
+    <script type="text/javascript">document.getElementById('liuyan_new').src='http://bbs.cntv.cn/cctvapi/Comment/icms_comment.php?id='+itemid1+'&type='+itemid1.substring(0,4);</script> 
+    <!--左侧留言评论包含页20120524结束--> 
+    <script type="text/javascript"><!--var commentUrl=location.href;var str2_dm =commentUrl.substring(7,commentUrl.length);var numk_= str2_dm.indexOf("/");var  domainamek_=str2_dm.substring(0,numk_);var type_strk=domainamek_.indexOf(".");var typek_=domainamek_.substring(0,type_strk);//--></script>
+    <div style="position:relative; width:637px; overflow:hidden;"> 
+     <div style="height:90px; width:218px; float:left;"> 
+     </div> 
+     <div style="height:90px; width:218px; float:left;"> 
+     </div> 
+     <div style="height:90px; width:201px; float:left;"> 
+     </div> 
+     <div style="clear:both; height:0px; line-height:0px; font-size:0px;"></div>
+    </div>
+    <div class="vspace"></div> 
+    <div class="m1 m-b-10"> 
+     <h2 class="fs_14"> <span class="more" style="float: left"><b>搜索更多</b><a onclick="window.open('http://search.cntv.cn/new/netall/index.shtml?qtext='+ escape('《央视财经评论》'));return false" href="http://search.cntv.cn/new/netall/index.shtml?qtext=《央视财经评论》" class="blue" target="_blank"> 《央视财经评论》 </a> <a onclick="window.open('http://search.cntv.cn/new/netall/index.shtml?qtext='+ escape('20150115'));return false" href="http://search.cntv.cn/new/netall/index.shtml?qtext=20150115" class="blue" target="_blank"> 20150115 </a> <b>的新闻</b> </span> </h2> 
+     <ul class="ul1-1"> 
+      <li> <span class="date">2015-01-16 05:59:04 </span> <a href="http://tv.cntv.cn/video/VSET100156269129/d69d255ca02b405e884935488479c388" target="_blank">《央视财经评论》 20150115 公平养老又一步! </a> </li> 
+      <li> <span class="date">2015-01-15 16:07:11 </span> <a href="http://tv.cntv.cn/video/C10375/fc6f16a4370440d6bd0d74d7104e025a" target="_blank">《第一时间》 20150115 1/2 </a> </li> 
+      <li> <span class="date">2015-01-15 13:49:10 </span> <a href="http://tv.cntv.cn/video/C10375/950399ac18144d8eb893844084d2e4a3" target="_blank">《第一时间》 20150115 2/2 </a> </li> 
+      <li> <span class="date">2015-01-15 16:07:11 </span> <a href="http://tv.cntv.cn/video/C10375/8524b260731345ce8713b945d3bfcfe9" target="_blank">[第一时间]20150115天气预报 </a> </li> 
+      <li> <span class="date">2015-01-15 18:26:30 </span> <a href="http://tv.cntv.cn/video/C30104/7c5aad52d79d4268bae8ed1940fa3779" target="_blank">《今乐坛》 20150115 </a> </li> 
+      <li> <span class="date">2015-01-16 01:46:17 </span> <a href="http://tv.cntv.cn/video/C10313/6b0ab17f3be241228fd71e8ca9c57258" target="_blank">《东方时空》 20150115 </a> </li> 
+      <li> <span class="date">2015-01-15 21:35:17 </span> <a href="http://tv.cntv.cn/video/C16632/6262e3d9c2d44dda9a1de675a16010d6" target="_blank">《美丽中国乡村行》 20150115 袁家村里游关中 </a> </li> 
+      <li> <span class="date">2015-01-16 02:48:19 </span> <a href="http://tv.cntv.cn/video/C21314/dfac3270e98345369337c01cbfbcb7d6" target="_blank">《动物传奇》 20150115 宝贝成长记32 </a> </li> 
+      <li> <span class="date">2015-01-16 03:38:18 </span> <a href="http://tv.cntv.cn/video/C39723/137acf145d1c3ddff69258c60a4e5c44" target="_blank">《时尚家居》 20150115 葫芦灯手艺人的别样生活 </a> </li> 
+      <li> <span class="date">2015-01-16 03:42:19 </span> <a href="http://tv.cntv.cn/video/VSET100216295382/ce441ebacd004dd89d3dbd22acaf57bf" target="_blank">《东方眼》 20150115 </a> </li> 
+     </ul> 
+     <div class="clear"></div> 
+    </div> 
+    <!--左部包含页02开始20110610--> 
+    <!-- web_cntv/dicengye_wenzilian04 -->
+    <!--<div id="div-gpt-ad-wenzilian04">	<iframe marginheight="0" marginwidth="0" frameborder="0" width="637" height="260" scrolling="no" id="dicengye_wenzilian04_1" src="">	</iframe>	<script type="text/javascript">	function hide_dicengye_wenzilian04(){document.getElementById("div-gpt-ad-wenzilian04").style.display="none";}	if(typeof(dfp_subsite)=='undefined'){		var dfp_subsite="undefined";	}	if(dfp_subsite!='undefined'&&dfp_subsite!="travel"){		document.getElementById('dicengye_wenzilian04_1').src="http://pubads.g.doubleclick.net/gampad/adx?iu=/8962/web_cntv/dicengye_wenzilian04&t=subsite%3D"+dfp_subsite+"%26channel%3D"+sub_column_id+"%26sorts%3D"+column_id+"&sz=1x1&c="+(new Date()).getTime();	}	</script></div>--> 
+    <!--remian--> 
+    <!--左部包含页02结束20110610--> 
+   </div> 
+   <!--end main--> 
+   <div class="clear"></div> 
+  </div>
+  <!--repaste.body.end--> 
+  <!--end container--> 
+  <!--页脚--> 
+  <!-- 全网统一通用页尾 --> 
+  <center> 
+   <style type="text/css">#page_bottom{ margin-top:10px; height:143px; overflow:hidden;}#page_bottom .cntv_footer_hdc{border-top:none;margin:0 auto;width:960px;}#page_bottom .cntv_footer {background: none repeat scroll 0 0 transparent;border-top: 1px solid #FCFCFD;clear: both;color: #333333;margin: 0 auto;min-height: 10px;width: 960px;}#page_bottom .cntv_footer a{color:#333333;margin:0 1px;}#page_bottom .cntv_footer .bottom_link{line-height:52px;text-align:center;font-family:"宋体";}#page_bottom .cntv_footer .bottom_link a{padding:0 2px 0 4px;}#page_bottom .cntv_footer .bottom_copyright{width:802px;margin:0 auto;padding-bottom:16px;_height:1px;min-height:1px;font-family:Arial,"宋体";font-size:12px;}#page_bottom .cntv_footer .bottom_copyright p{float:left;width:632px;_display:inline;text-align:center;line-height:18px;font-size:12px;}#page_bottom .cntv_footer .bottom_copyright .copyright_gongshang_logo{float:right;margin-top:9px;}#page_bottom .cntv_footer .bottom_copyright .copyright_wangjing_logo{float:right;margin-top:6px;}--></style>
+   <div id="page_bottom">
+    <div class="cntv_footer_hdc">
+     <b></b>
+    </div>
+    <div class="cntv_footer">
+     <div class="bottom_link">
+      <a href="http://cctvenchiridion.cctv.com/index.shtml" target="_blank">关于CCTV</a>|
+      <a href="http://www.cctv.com/program/20110130/column_header/index.shtml" target="_blank">联系CCTV</a>|
+      <a href="http://www.cntv.cn/special/guanyunew/PAGE13818868795101875/index.shtml" target="_blank">关于CNTV</a>|
+      <a href="http://www.cntv.cn/special/guanyunew/PAGE13818868795101876/index.shtml" target="_blank">联系CNTV</a>|
+      <a href="http://www.cntv.cn/special/guanyunew/PAGE13818868795101877/index.shtml" target="_blank">人才招聘</a>|
+      <a href="http://www.cntv.cn/special/guanyunew/PAGE13818868795101878/index.shtml" target="_blank">权利声明</a>|
+      <a href="http://www.cntv.cn/special/guanyunew/PAGE13818868795101879/index.shtml" target="_blank">法律顾问</a>|
+      <a href="http://1118.cctv.com/chinese/index.shtml" target="_blank">CCTV广告中心</a>|
+      <a href="http://ad.cntv.cn/" target="_blank">CNTV营销</a>|
+      <a href="http://info.passport.cntv.cn/wyznt/wyznt.jsp" target="_blank">网友智囊团</a>|
+      <a href="http://help.cntv.cn/" target="_blank">客服中心</a>|
+      <a href="http://www.cntv.cn/map/index.shtml" target="_blank">网站地图</a>
+     </div>
+     <div class="bottom_copyright">
+      <p>中国中央电视台&nbsp;&nbsp;中国网络电视台&nbsp;&nbsp;版权所有<br />违法和不良信息举报电话:010-88047123&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank">京ICP证060535号</a>&nbsp;&nbsp;京公网安备110000000018号&nbsp;&nbsp;京网文[2014]0383-083号<br />网上传播视听节目许可证号 0102004&nbsp;&nbsp;新出网证(京)字098号&nbsp;&nbsp;<a target="_blank" href="http://www.cntv.cn/cntv/01/01/index.shtml">中国互联网视听节目服务自律公约</a></p>
+      <div class="copyright_wangjing_logo"> 
+       <a target="_blank" href="http://www.bj.cyberpolice.cn/index.jsp"><img width="115" height="48" border="0" name="wangjing" src="http://p5.img.cctvpic.com/10/2012/01/16/20120116/image/wangjing.gif" /></a> 
+      </div>
+      <div class="copyright_gongshang_logo">
+       <a href="http://www.baic.gov.cn/internet/content/signhome.shtm" target="_blank"><img src="http://www.cctv.com/Library/images/100011_gongshang.gif" width="29" height="39" id="gongshang" /></a>
+      </div>
+      <div class="clear_float"></div>
+     </div>
+    </div>
+    <div class="cntv_footer_ftc">
+     <b></b>
+    </div>
+   </div>
+   <!-- START OF SmartSource Data Collector TAG -->
+   <!--<SCRIPT SRC="http://www.cntv.cn/Library/dcs_tag.js" TYPE="text/javascript"></SCRIPT>-->
+   <!-- END OF SmartSource Data Collector TAG -->
+   <script src="http://www.cntv.cn/Library/include/netvs/dengluchongzai.js" type="text/javascript"></script>
+   <!--<script type="text/javascript" src="/Library/yixuan/yixuan_nav/domready.js?sid=53923"></script>-->
+   <!--remian--> 
+  </center> 
+  <script type="text/javascript">jq = jQuery;function shareMore(divId){	var divId = jq("#" + divId);	divId.click(function(){		var icons = jq(this).parent().find(".icons");		var display = icons.css("display") == "none" ? "block" : "none";		icons.css("display", display);		return false;	});}jq(document).ready(function(){	shareMore("share_more");});(new module('focus_10')).initTabsHover();</script> 
+  <!-- START WRating v1.0 --> 
+  <script type="text/javascript">			_vjTrack("");		</script> 
+  <noscript> 
+   <img src="http://cntv.wrating.com/a.gif?c=860010-1114010100" width="1" height="1" /> 
+  </noscript> 
+  <!-- END WRating v1.0 --> 
+  <div style="display:none"> 
+   <!--repaste.pv.begin-->860010-1114010100
+   <!--repaste.pv.end--> 
+  </div> 
+  <!-- START OF SmartSource Data Collector TAG --> 
+  <script src="http://www.cctv.com/Library/dcs_tag.js" type="text/javascript"></script> 
+  <!-- END OF SmartSource Data Collector TAG --> 
+  <div style="display:none"> 
+   <script type="text/javascript">		document.write(unescape("%3Cscript src='http://terren.cntv.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));	</script> 
+   <script type="text/javascript">		wd_paramtracker("_wdxid=000000000000000000000000000000000000000000");	</script> 
+  </div> 
+ </body>
+</html>
