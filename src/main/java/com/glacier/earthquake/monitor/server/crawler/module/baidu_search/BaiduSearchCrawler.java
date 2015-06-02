@@ -19,7 +19,8 @@ import org.jsoup.select.Elements;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.List;
-
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**
@@ -118,9 +119,21 @@ public class BaiduSearchCrawler extends Crawler {
                                 logger.info("[判断] - 正在对搜索结果进行正确新判断");
                                 //进行过滤条件判断
                                 boolean ans = true;
+                                String base = "(.*)";
                                 for (String keyword : keywords) {
+                                    base += keyword + "(.*)";
                                     ans = ans && document_result.text().contains(keyword);
                                 }
+
+//                                Pattern pattern = Pattern.compile(base);
+//                                Matcher matcher = pattern.matcher(document_result.toString());
+//                                if ( matcher.find() ) {
+//                                    logger.info("[正则匹配] - 正则匹配成功 " + document_result.baseUri());
+//                                } else {
+//                                    logger.info("[正则匹配] - 正则匹配失败 " + document_result.baseUri());
+//                                    ans = false;
+//                                }
+
                                 //如果ans为true则表示当前网页符合过滤条件
                                 if (ans) {
                                     SpiderInfo spiderInfo = new SpiderInfo();

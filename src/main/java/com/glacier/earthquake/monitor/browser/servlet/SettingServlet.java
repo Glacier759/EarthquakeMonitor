@@ -120,7 +120,7 @@ public class SettingServlet extends HttpServlet {
                         String filters[] = request.getParameterValues("filter");
                         if ( filters != null ) {
                             for (String f : filters) {
-                                f = new String(f.getBytes("iso-8859-1"),"UTF-8");
+                                //f = new String(f.getBytes("iso-8859-1"),"UTF-8");
                                 try {
                                     if (f.length() < 1) {
                                         logger.error("[插入规则] - 插入规则失败: " + f + " [FilterDisaster]");
