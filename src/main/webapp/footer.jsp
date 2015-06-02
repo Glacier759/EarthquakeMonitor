@@ -6,6 +6,23 @@
             document.getElementById("login").click();
         });
     });
+    function system() {
+        $.ajax({
+            type: "post",
+            url: "<%=request.getContextPath()%>/SettingServlet?operate=system",
+            data: "",
+            success: function (msg) {    //msg是后台调用action时，你传过来的参数
+                if ( msg == "stoping" ) {
+                    $("#system-stop").remove();
+                    $("#system-body").html("系统处于关闭状态.");
+                } else if ( msg == "starting" ) {
+                    $("#system-body").html("系统处于运行状态.");
+                    $("#system-start").remove();
+                }
+            }
+        });
+        $("#confirm").modal("toggle");
+    }
     $(function () {
         $("#system").click(function () {
             document.getElementById("menu").click();

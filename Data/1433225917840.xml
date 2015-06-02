@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>	 中国商论杂志-2013年17期-中国知网</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  <link href="http://qiangguo.cnki.net/Mall/CSS/magazine/base.css?v=0" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/Mall/css/magazine/magazine.css?v=3" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/Mall/css/magazine/list.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/Mall/js/magazine/alterbox/alterbox.css" rel="stylesheet" type="text/css" /> 
+  <meta name="keywords" content="中国商论杂志,中国商论2013年17期,中国商论电子版,中国商论订阅,中国商论在线阅读" />
+  <meta name="description" content="中国商论杂志2013年第17期,中国商论杂志(期刊)电子版。提供中国商论2013年第17期杂志电子版订阅、杂志在线阅读、中国商论杂志文章阅读、文章下载等服务。" />
+ </head>
+ <body> 
+  <script type="text/javascript" src="http://qiangguo.cnki.net/Mall/Scripts/jquery.min.js"></script> 
+  <script type="text/javascript" language="javascript">        var loginUrl = 'http://mall.cnki.net/Login.aspx';    </script> 
+  <script src="http://qiangguo.cnki.net/Mall/js/magazine/search.js?v=0" type="text/javascript"></script> 
+  <form name="aspnetForm" method="post" action="ZGSM201317.htm?code=ZGSM&amp;year=2013&amp;period=17" id="aspnetForm">
+   <div>
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTc1NjQxNzc4MGRki7bfzWTUACeFe52XqyI5vXiZy5Q=" />
+   </div>
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2CF6664E" />
+   </div> 
+   <!--topnav--> 
+   <div id="topnav"> 
+    <div class="topnavcon"> 
+     <div class="login"> 
+      <strong><a href="http://www.cnki.net/" target="_blank">中国知网</a> • <a href="http://mall.cnki.net/" target="_blank">数字出版物超市</a></strong> 
+      <span id="ctl00_lblUrl"> <a href="http://mall.cnki.net/Login.aspx?p=%2fmagazine%2fmagadetail%2fZGSM201317.htm" class="button_login"></a><a href="http://mall.cnki.net/Register.aspx" target="_blank" class="button_sub"></a></span> 
+     </div> 
+     <div class="guild"> 
+      <a href="/PersonalLib.aspx" target="blank">我的数字书房</a> 
+      <span>|</span> 
+      <span id="ctl00_lblCartAndBookURL"><a id="btnturnToCart" href="http://my.cnki.net/trolley/WebTrolleyMain.aspx?uid=&amp;logourl=http://mall.cnki.net/magazine/shoppingcart/logourl.aspx&amp;bottomurl=http://mall.cnki.net/magazine/shoppingcart/bottomurl.aspx&amp;returnurl=http://mall.cnki.net/magazine/index.aspx&amp;anonymousuid=WEEvREcwSlJHSldTTGJhYlMyT1ZVOHVYazhwNjcvR2oyOVBpWkc0b0hUVHJFQ3FUVHE4Qm9qNVNkR3ZSNzRFdDJjWT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!" class="topnav_gwc" target="blank">购物车</a></span>
+      <span>|</span> 
+      <a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank">充值</a> 
+      <span>|</span> 
+      <a href="http://ec.cnki.net/sksm/CNKIApplyForm.aspx" target="_blank">购买知网卡</a> 
+      <span>|</span> 
+      <a href="/help/azydq.html" target="_blank">安装阅读器</a> 
+      <span>|</span> 
+      <a href="/help/help_QS.html" target="_blank">帮助</a> 
+     </div> 
+    </div> 
+   </div> 
+   <!--topnav end--> 
+   <!--header--> 
+   <div id="header"> 
+    <div id="logo">
+     <a href="http://mall.cnki.net" class="logo01" title="数字出版物超市-中国知网"></a>
+     <a href="http://mall.cnki.net" class="logo02" title="数字出版物超市-中国知网"></a>
+    </div> 
+    <!--nav--> 
+    <div class="nav"> 
+     <div class="navleft"> 
+     </div> 
+     <ul> 
+      <li>&nbsp;<a href="http://mall.cnki.net/" title="首页">首页</a>&nbsp;</li> 
+      <li class="nav_on"><a href="/magazine/" title="期刊">期刊</a></li> 
+      <li>&nbsp;<a href="/book/" title="图书">图书</a></li> 
+      <li>|</li> 
+      <li><a href="/reference/" title="工具书">工具书</a></li> 
+      <li>|</li> 
+      <li><a href="http://epub.cnki.net/kns/brief/result.aspx?dbPrefix=CCND' title=" 报纸"="">报纸</a></li> 
+      <li>|</li> 
+      <li><a href="http://epub.cnki.net/kns/brief/result.aspx?dbPrefix=CDFD' target=" _blank"="" title="博士论文">博士论文</a></li> 
+      <li>|</li> 
+      <li><a href="http://epub.cnki.net/kns/brief/result.aspx?dbPrefix=CMFD' target=" _blank"="" title="硕士论文">硕士论文</a></li> 
+      <li>|</li> 
+      <li><a href="http://epub.cnki.net/kns/brief/result.aspx?dbPrefix=CIPD' target=" _blank"="" title="会议论文">会议论文</a></li> 
+     </ul> 
+     <div class="navright"> 
+     </div> 
+    </div> 
+    <!--nav end--> 
+    <div class="nav_xueshu">
+     <a href="http://epub.cnki.net/grid2008/index/ZKCALD.htm" target="_blank" title="学术文献">学术文献</a>
+    </div> 
+    <div class="nav_baiyi"> 
+     <a href="http://xuewen.cnki.net" target="_blank" title="CNKI学问">CNKI学问</a>
+    </div> 
+    <div class="cl"> 
+    </div> 
+    <!--headerbottombox--> 
+    <div class="headerbottombox"> 
+     <div id="ctl00_Panel1"> 
+      <div class="search search-for-short-input"> 
+       <table height="31" border="0" cellspacing="0" cellpadding="0" align="center"> 
+        <tbody>
+         <tr> 
+          <td> <p class="select-wrap"> <select name="11" id="searchtype" class="sh4"> <option value="1">全部出版物</option> <option value="0" selected="selected">期刊</option> <option value="2">图书</option> <option value="3">工具书</option> <option value="5">文献</option> </select> </p> </td>
+          <td> <input type="text" class="sh3_new sh3_new-short-input" autocomplete="Off" id="headq" name="q" value="搜期刊" onkeyup="textChanged(event);" onkeydown="return tabfix(this.value,event,this);" onblur="onblurSearchTextHandler(this)" onclick="onclickSearchTextHandler(this)" maxlength="20" /> <p class="nodisplay"> <label class="displayList"> kIndex</label> <input class="nodisplay" type="text" id="keyIndex" /> </p> <p class="nodisplay"> <label class="displayList"> rev</label> <input class="nodisplay" type="text" id="sortIndex" /> </p> 
+           <div id="results" class="results0"> 
+           </div></td>
+          <td><input type="button" id="button_shswx" value="搜索" onclick="return BtnSearchData();" /></td> 
+          <td align="left" width="14"><img src="http://qiangguo.cnki.net/Mall/images/magazine/search7.jpg" width="2" height="32" /></td>
+          <td> 
+           <div class="search_zm"> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=A" target="_blank">A</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=B" target="_blank">B</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=C" target="_blank">C</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=D" target="_blank">D</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=E" target="_blank">E</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=F" target="_blank">F</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=G" target="_blank">G</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=H" target="_blank">H</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=I" target="_blank">I</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=J" target="_blank">J</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=K" target="_blank">K</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=L" target="_blank">L</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=M" target="_blank">M</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=N" target="_blank">N</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=O" target="_blank">O</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=P" target="_blank">P</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=Q" target="_blank">Q</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=R" target="_blank">R</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=S" target="_blank">S</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=T" target="_blank">T</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=U" target="_blank">U</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=V" target="_blank">V</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=W" target="_blank">W</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=X" target="_blank">X</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=Y" target="_blank">Y</a> 
+            <a href="/magazine/magasearchnew.aspx?type=en&amp;keys=Z" target="_blank">Z</a> 
+           </div> </td> 
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+     </div> 
+    </div> 
+    <!--headerbottombox end--> 
+   </div> 
+   <!--header end--> 
+   <!--main--> 
+   <div id="content"> 
+    <!--left--> 
+    <!--sidebar--> 
+    <div class="mag_sidebar"> 
+     <div class="mag_sidebar"> 
+      <div class="sidebar_title">
+        全部杂志分类
+      </div> 
+      <div class="sidebar_c"> 
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F17" title="学术名刊类电子杂志">学术名刊</a></h2>
+        <h4><a href="/magazine/list.aspx?cate=F1701" title="基础科学类电子杂志" class="close">基础科学</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1702" title="工程科技Ⅰ辑类电子杂志" class="close">工程科技Ⅰ辑</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1703" title="工程科技Ⅱ辑类电子杂志" class="close">工程科技Ⅱ辑</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1704" title="农业科技类电子杂志" class="close">农业科技</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1705" title="医药卫生科技类电子杂志" class="close">医药卫生科技</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1706" title="哲学与人文科学类电子杂志" class="close">哲学与人文科学</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1707" title="社会科学Ⅰ辑类电子杂志" class="close">社会科学Ⅰ辑</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1708" title="社会科学Ⅱ辑类电子杂志" class="close">社会科学Ⅱ辑</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1709" title="信息科技类电子杂志" class="close">信息科技</a></h4>
+        <h4><a href="/magazine/list.aspx?cate=F1710" class="open" title="经济与管理科学类电子杂志">经济与管理科学</a></h4>
+        <h5><a href="/magazine/list.aspx?cate=F171001" title="宏观经济管理与可持续发展类电子杂志">宏观经济管理与...</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171002" title="经济理论及经济思想史类电子杂志">经济理论及经济...</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171003" title="经济体制改革类电子杂志">经济体制改革</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171004" title="经济统计类电子杂志">经济统计</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171005" title="农业经济类电子杂志">农业经济</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171006" title="工业经济类电子杂志">工业经济</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171007" title="交通运输经济类电子杂志">交通运输经济</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171008" title="企业经济类电子杂志">企业经济</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171009" title="旅游类电子杂志">旅游</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171010" title="文化经济类电子杂志">文化经济</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171011" title="信息经济与邮政经济类电子杂志">信息经济与邮政...</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171012" title="服务业经济类电子杂志">服务业经济</a></h5>
+        <h5><a class="now" href="/magazine/list.aspx?cate=F171013" title="贸易经济类电子杂志">贸易经济</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171014" title="财政与税收类电子杂志">财政与税收</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171015" title="金融类电子杂志">金融</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171016" title="证券类电子杂志">证券</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171017" title="保险类电子杂志">保险</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171018" title="投资类电子杂志">投资</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171019" title="会计类电子杂志">会计</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171020" title="审计类电子杂志">审计</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171021" title="市场研究与信息类电子杂志">市场研究与信息</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171022" title="管理学类电子杂志">管理学</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171023" title="领导学与决策学类电子杂志">领导学与决策学</a></h5>
+        <h5><a href="/magazine/list.aspx?cate=F171024" title="科学研究管理类电子杂志">科学研究管理</a></h5>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F01" title="居家生活类电子杂志">居家生活</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F02" title="女性天地类电子杂志">女性天地</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F03" title="金色晚年类电子杂志">金色晚年</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F04" title="中小学类电子杂志">中小学</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F05" title="高等教育类电子杂志">高等教育</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F06" title="经济管理类电子杂志">经济管理</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F07" title="科普世界类电子杂志">科普世界</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F08" title="休闲广场类电子杂志">休闲广场</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F09" title="文学博览类电子杂志">文学博览</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F10" title="艺术殿堂类电子杂志">艺术殿堂</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F11" title="党政党建类电子杂志">党政党建</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F12" title="数字时代类电子杂志">数字时代</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F13" title="汽车族类电子杂志">汽车族</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F14" title="军事武器类电子杂志">军事武器</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F15" title="法律时空类电子杂志">法律时空</a></h2>
+       </div>
+       <div class="side_menu">
+        <h2><a href="/magazine/list.aspx?cate=F16" title="人物巡礼类电子杂志">人物巡礼</a></h2>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <!--sidebar end--> 
+    <!--left over--> 
+    <!--center--> 
+    <div id="center"> 
+     <!--bookbox--> 
+     <div id="bookbox"> 
+      <h1>中国商论</h1>
+      <h2>2013年第17期</h2> 
+      <div id="book_fma"> 
+       <img id="faceImg" src="http://c61.cnki.net/CJFD/big/ZGSM/ZGSM201317.jpg" style="cursor:pointer;" width="212" height="295" border="0" alt="中国商论" title="中国商论" onclick="OpenCnkiViewPage('http://mall.cnki.net/onlineview/MagaView.aspx?fn=ZGSM201317*1*',2013)" onerror="javascript:this.src='http://c61.cnki.net/CJFD/big/ZGSM.jpg';this.onerror=null;" />
+       <br />
+       <a style="cursor:pointer;" onclick="OpenCnkiViewPage('http://mall.cnki.net/onlineview/MagaView.aspx?fn=ZGSM201317*1*',2013)" target="TopReading" class="v3readeronline2">在线阅读</a>
+       <a style="cursor:pointer;" href="javascript:void(0);" target="_blank" class="v3readeronline3" onclick="return DownloadMagazine('ZGSM', '2013', '17', '中国商论', 'http://c61.cnki.net/CJFD/big/ZGSM/ZGSM201317.jpg', 'http://my.cnki.net/trolley/WebTrolleyMain.aspx?uid=&amp;logourl=http://mall.cnki.net/magazine/shoppingcart/logourl.aspx&amp;bottomurl=http://mall.cnki.net/magazine/shoppingcart/bottomurl.aspx&amp;returnurl=http://mall.cnki.net/magazine/index.aspx&amp;anonymousuid=WEEvREcwSlJHSldTTGJhYlMyT1ZVOHVYazhwNjcvR2oyOVBpWkc0b0hUVHJFQ3FUVHE4Qm9qNVNkR3ZSNzRFdDJjWT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!','choosebag4','http://mall.cnki.net/magazine/magadetail/ZGSM201317.htm');">下载本刊</a> 
+      </div> 
+      <span id="bookmessage"> <p>编辑出版:中国商论杂志编辑部<br />主办:中国商业联合会<br /> 出版周期:旬刊<span>出版地:北京市</span><br />语种:中文 <span>ISSN:1005-5800</span></p> 
+       <div class="choosebag"> 
+        <a href="/help/help_buy.html" class="choosebag_how" target="_blank">如何购买&gt;&gt;</a> 
+        <h6>电子杂志订阅</h6>
+        <label for="chhosebag_9"><input type="radio" name="choosebag4" id="chhosebag_9" value="16.00@16.00" />本期:16.00元</label>
+        <label for="chhosebag_10"><input type="radio" name="choosebag4" id="chhosebag_10" checked="checked" value="460.80@576" />全年:12.80元/期,全年36期,共460.80元<br /> 立即节省:115.20元</label>
+        <a href="javascript:void(0);" class="v3handbagbutt" title="订阅杂志" onclick="return ShoppingCart('ZGSM', '2013', '17', '中国商论', 'http://c61.cnki.net/CJFD/big/ZGSM/ZGSM201317.jpg', 'http://my.cnki.net/trolley/WebTrolleyMain.aspx?uid=&amp;logourl=http://mall.cnki.net/magazine/shoppingcart/logourl.aspx&amp;bottomurl=http://mall.cnki.net/magazine/shoppingcart/bottomurl.aspx&amp;returnurl=http://mall.cnki.net/magazine/index.aspx&amp;anonymousuid=WEEvREcwSlJHSldTTGJhYlMyT1ZVOHVYazhwNjcvR2oyOVBpWkc0b0hUVHJFQ3FUVHE4Qm9qNVNkR3ZSNzRFdDJjWT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!','choosebag4','http://mall.cnki.net/magazine/magadetail/ZGSM201317.htm')"></a>
+        <a href="http://mall.cnki.net/onlineview/MagaView.aspx?fn=ZGSM201317*1*" onclick="return OpenCnkiViewPage('http://mall.cnki.net/onlineview/MagaView.aspx?fn=ZGSM201317*1*',2013);" title="预览杂志" class="v3handbagbutt2"></a> 
+       </div>
+       <div class="useraction">
+        <div class="ydxg">
+         <a href="/magazine/demo/ydxg.html" target="_blank">阅读效果</a>
+        </div>
+        <div class="bjgn">
+         <a href="/magazine/demo/bjgn.html" target="_blank">编辑功能预览</a>
+        </div>
+        <div class="fenx">
+         <a id="pingkan" style="cursor:pointer;" title="让更多人知道我对此刊的评价" onclick="Confirm(event,this,'%e4%b8%ad%e5%9b%bd%e5%95%86%e8%ae%ba+2013%e5%b9%b4%e7%ac%ac17%e6%9c%9f-%e4%b8%ad%e5%9b%bd%e7%9f%a5%e7%bd%91','http%3a%2f%2fmall.cnki.net%2fmagazine%2fmagadetail%2fZGSM201317.htm','ZGSM201317')">分享</a>&nbsp;&nbsp;
+         <a style="cursor:pointer;" onclick="addfavorite('中国商论 2013年第17期-中国知网','http://mall.cnki.net/magazine/magadetail/ZGSM201317.htm')" id="shoucang" title="收藏">收藏</a>
+        </div>
+       </div> 
+       <div class="cl"></div> </span> 
+     </div> 
+     <!--bookbox end--> 
+     <div class="add_tab">
+      <div class="l_text">
+       <p>其他年期订购&nbsp;&nbsp;<input id="cb_selectall" type="checkbox" onclick="SetAllCheckBox('cb_selectall','cb_yearinfo','div_saveinfo')" value="{0}@{1}@{2}@{3}" />&nbsp;全选</p> 
+       <table border="0" cellspacing="0" cellpadding="0" align="left">
+        <tbody>
+         <tr>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2015@460.80@115.20@36" />&nbsp;2015年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2014@460.80@115.20@36" />&nbsp;2014年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2013@460.80@115.20@36" />&nbsp;2013年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2012@460.80@115.20@36" />&nbsp;2012年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2011@448.00@112.00@35" />&nbsp;2011年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2010@358.40@89.60@28" />&nbsp;2010年</td>
+         </tr>
+         <tr>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2009@256.00@64.00@20" />&nbsp;2009年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2008@140.80@35.20@11" />&nbsp;2008年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2007@140.80@35.20@11" />&nbsp;2007年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2006@153.60@38.40@12" />&nbsp;2006年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2005@140.80@35.20@11" />&nbsp;2005年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2004@140.80@35.20@11" />&nbsp;2004年</td>
+         </tr>
+         <tr>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2003@140.80@35.20@11" />&nbsp;2003年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2002@153.60@38.40@12" />&nbsp;2002年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2001@281.60@70.40@22" />&nbsp;2001年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="2000@153.60@38.40@12" />&nbsp;2000年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="1999@153.60@38.40@12" />&nbsp;1999年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="1998@307.20@76.80@24" />&nbsp;1998年</td>
+         </tr>
+         <tr>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="1997@307.20@76.80@24" />&nbsp;1997年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="1996@256.00@64.00@20" />&nbsp;1996年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="1995@243.20@60.80@19" />&nbsp;1995年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="1994@153.60@38.40@12" />&nbsp;1994年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="1993@28.00@7.00@7" />&nbsp;1993年</td>
+          <td height="24" width="75" align="left"><input name="cb_yearinfo" type="checkbox" onclick="SetOrderTotalPrice('cb_selectall','cb_yearinfo','div_saveinfo')" value="1992@36.00@9.00@9" />&nbsp;1992年</td>
+         </tr>
+         <tr></tr>
+        </tbody>
+       </table>
+      </div>
+      <div class="r_text">
+       <div id="div_saveinfo">
+        <p> </p>
+        <br /> 
+       </div>
+       <a href="#" target="_blank" onclick="return ShoppingCartMoreYear('ZGSM', '中国商论', 'http://c61.cnki.net/CJFD/big/ZGSM/ZGSM201317.jpg', 'http://my.cnki.net/trolley/WebTrolleyMain.aspx?uid=&amp;logourl=http://mall.cnki.net/magazine/shoppingcart/logourl.aspx&amp;bottomurl=http://mall.cnki.net/magazine/shoppingcart/bottomurl.aspx&amp;returnurl=http://mall.cnki.net/magazine/index.aspx&amp;anonymousuid=WEEvREcwSlJHSldTTGJhYlMyT1ZVOHVYazhwNjcvR2oyOVBpWkc0b0hUVHJFQ3FUVHE4Qm9qNVNkR3ZSNzRFdDJjWT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!', 'cb_yearinfo', 'http://mall.cnki.net/magazine/magadetail/ZGSM201317.htm')"><img src="http://qiangguo.cnki.net/Mall/Images/Magazine/btn_qddy.jpg" width="70" height="25" /></a>
+      </div>
+     </div> 
+     <!--bookinfo--> 
+     <div id="bookinfo"> 
+      <div id="bookinfotitle"> 
+       <h2>本期目录</h2>
+       <span><strong><a href="/magazine/magalist/ZGSM.htm" title="全部中国商论杂志" target="_blank">全部往期杂志&gt;&gt;</a></strong></span> 
+      </div> 
+      <div class="clear"></div> 
+      <!--本期目录和相关期刊--> 
+      <div class="slidingList" id="slidingList0"> 
+       <ul>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317006','23-24+26',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="使用Arena进行生鲜农产品超市购物时间模拟-中国商论" style="" href="../Article/ZGSM201317006.htm">使用Arena进行生鲜农产品超市购物时间模拟</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317006.htm">周三元 王智源</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317007','25-26',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="超市临期及过期食品管理体系框架构建研究-中国商论" style="" href="../Article/ZGSM201317007.htm">超市临期及过期食品管理体系框架构建研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317007.htm">沈丽 张耀荔 芮嘉明</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317008','27-29',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="SCP视角下我国沥青行业市场结构分析-中国商论" style="" href="../Article/ZGSM201317008.htm">SCP视角下我国沥青行业市场结构分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317008.htm">祝永胜</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317009','30-31',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅析我国古典家具营销策略-中国商论" style="" href="../Article/ZGSM201317009.htm">浅析我国古典家具营销策略</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317009.htm">戴素芬</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317010','31-32',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="商场布局的经济学思考-中国商论" style="" href="../Article/ZGSM201317010.htm">商场布局的经济学思考</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317010.htm">朱文娟</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317011','33-34+36',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="云南省中华老字号品牌复兴策略研究-中国商论" style="" href="../Article/ZGSM201317011.htm">云南省中华老字号品牌复兴策略研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317011.htm">段万春 陈升麒</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317012','35-36',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="企业塑造消费者归属感品牌的对策与建议-中国商论" style="" href="../Article/ZGSM201317012.htm">企业塑造消费者归属感品牌的对策与建议</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317012.htm">曾朝斌 张晓琳</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317013','37-38',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅谈针对货款结算方式的增值税税收筹划-中国商论" style="" href="../Article/ZGSM201317013.htm">浅谈针对货款结算方式的增值税税收筹划</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317013.htm">乔媛</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317014','39-40',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="新媒体发展对企业媒体关系战略的影响-中国商论" style="" href="../Article/ZGSM201317014.htm">新媒体发展对企业媒体关系战略的影响</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317014.htm">庞亚婷</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317015','41-42',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="我国企业合并问题的比较研究-中国商论" style="" href="../Article/ZGSM201317015.htm">我国企业合并问题的比较研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317015.htm">曲宏坤</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317016','43-44',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="中小民营企业的内部控制问题研究-中国商论" style="" href="../Article/ZGSM201317016.htm">中小民营企业的内部控制问题研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317016.htm">汪琛</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317017','45-46',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="中小企业的税收筹划策略研究-中国商论" style="" href="../Article/ZGSM201317017.htm">中小企业的税收筹划策略研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317017.htm">王剑雄</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317018','47-48',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅谈企业管理工作中的问题与对策-中国商论" style="" href="../Article/ZGSM201317018.htm">浅谈企业管理工作中的问题与对策</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317018.htm">范明燕</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317019','48-49',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅谈如何提高企业秘书的信息工作-中国商论" style="" href="../Article/ZGSM201317019.htm">浅谈如何提高企业秘书的信息工作</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317019.htm">索莉</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317020','50-51',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅析民营企业主要税种的纳税筹划思路-中国商论" style="" href="../Article/ZGSM201317020.htm">浅析民营企业主要税种的纳税筹划思路</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317020.htm">尤家棋</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317021','52-53',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="新世纪高科技人力资源的特征及开发研究-中国商论" style="" href="../Article/ZGSM201317021.htm">新世纪高科技人力资源的特征及开发研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317021.htm">张翔</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317022','53-54',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="企业坏账准备相关问题的探讨-中国商论" style="" href="../Article/ZGSM201317022.htm">企业坏账准备相关问题的探讨</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317022.htm">杨文苏 杨文娟</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317023','55-56+59',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="公司内部控制信息披露的影响因素logistic回归分析——以我国上市公司为例-中国商论" style="" href="../Article/ZGSM201317023.htm">公司内部控制信息披露的影响因素logistic回归分析——以我国上市</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317023.htm">杨瑞霖</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317024','57-59',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="公允价值在上市公司投资性房地产中的应用研究-中国商论" style="" href="../Article/ZGSM201317024.htm">公允价值在上市公司投资性房地产中的应用研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317024.htm">杨昆元 葛倩</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317025','60+63',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅谈企业的企业文化建设-中国商论" style="" href="../Article/ZGSM201317025.htm">浅谈企业的企业文化建设</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317025.htm">李晶</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317026','61-63',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="普通高校财务管理体制改革刍议-中国商论" style="" href="../Article/ZGSM201317026.htm">普通高校财务管理体制改革刍议</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317026.htm">杨雁</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317027','64-66+68',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="微创新时代ERP系统的持续化管理改善-中国商论" style="" href="../Article/ZGSM201317027.htm">微创新时代ERP系统的持续化管理改善</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317027.htm">姜岳新</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317028','67-68',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="基于动态能力观的企业吸收能力分析-中国商论" style="" href="../Article/ZGSM201317028.htm">基于动态能力观的企业吸收能力分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317028.htm">肖雪婷 陈琪</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317029','69-70',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="会计与财务管理的关系探析-中国商论" style="" href="../Article/ZGSM201317029.htm">会计与财务管理的关系探析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317029.htm">赵世龙</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317030','71-72',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="企业管理发展初探-中国商论" style="" href="../Article/ZGSM201317030.htm">企业管理发展初探</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317030.htm">丁荣荣</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317031','72-73',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="企业社会责任会计研究-中国商论" style="" href="../Article/ZGSM201317031.htm">企业社会责任会计研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317031.htm">吕英巧 王富炜</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317032','74-75',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅谈责任会计与内部控制的关系-中国商论" style="" href="../Article/ZGSM201317032.htm">浅谈责任会计与内部控制的关系</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317032.htm">满放</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317033','75-76',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅谈企业全面预算管理-中国商论" style="" href="../Article/ZGSM201317033.htm">浅谈企业全面预算管理</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317033.htm">郝立奇</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317034','77-79',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="网络团购商品质量监管现状及存在的问题分析-中国商论" style="" href="../Article/ZGSM201317034.htm">网络团购商品质量监管现状及存在的问题分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317034.htm">刘艳荣 张耀荔 张燕燕</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317035','79-80',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="我国网络银行与第三方支付的关系——基于电子商务环境下的研究分析-中国商论" style="" href="../Article/ZGSM201317035.htm">我国网络银行与第三方支付的关系——基于电子商务环境下的研究分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317035.htm">徐洁</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317036','81-82',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="战略成本管理的原理与应用——以南京银行为例-中国商论" style="" href="../Article/ZGSM201317036.htm">战略成本管理的原理与应用——以南京银行为例</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317036.htm">戴小月</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317037','83-84',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="中小企业筹资路径探析-中国商论" style="" href="../Article/ZGSM201317037.htm">中小企业筹资路径探析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317037.htm">金洁锋</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317038','85-87',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="利率市场化下商业银行利率风险及其应对措施-中国商论" style="" href="../Article/ZGSM201317038.htm">利率市场化下商业银行利率风险及其应对措施</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317038.htm">顾彦恒</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317039','88-89+91',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="国债期货与我国利率市场化的研究-中国商论" style="" href="../Article/ZGSM201317039.htm">国债期货与我国利率市场化的研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317039.htm">李信澍</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317040','90-91',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="枣庄市经济转型的金融支持方式研究-中国商论" style="" href="../Article/ZGSM201317040.htm">枣庄市经济转型的金融支持方式研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317040.htm">任聪 叶蜀君</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317041','92-93',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="中小企业融资难的原因及对策研究-中国商论" style="" href="../Article/ZGSM201317041.htm">中小企业融资难的原因及对策研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317041.htm">刘恭懿</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317042','94-97',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="利率对北京市产业部门经济及结构的影响研究-中国商论" style="" href="../Article/ZGSM201317042.htm">利率对北京市产业部门经济及结构的影响研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317042.htm">叶超 袁永科</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317043','98-100',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="农信社小额信贷的发展现状及建议——以云南省为例-中国商论" style="" href="../Article/ZGSM201317043.htm">农信社小额信贷的发展现状及建议——以云南省为例</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317043.htm">吴以 蔡璐 杨夏妮</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317044','100-101',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="银团贷款的信息不对称问题及信贷风险防范研究-中国商论" style="" href="../Article/ZGSM201317044.htm">银团贷款的信息不对称问题及信贷风险防范研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317044.htm">杜一品</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317045','102-103+106',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="中国国际短期资本流动的原因及影响-中国商论" style="" href="../Article/ZGSM201317045.htm">中国国际短期资本流动的原因及影响</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317045.htm">郑慧娟</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317046','104-106',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="非利息收入对我国上市商业银行风险的影响-中国商论" style="" href="../Article/ZGSM201317046.htm">非利息收入对我国上市商业银行风险的影响</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317046.htm">吴晓艳</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317047','107-108',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="人工神经网络在股指期货价格预测中的研究——基于沪深300股指期货市场高频数据的分析-中国商论" style="" href="../Article/ZGSM201317047.htm">人工神经网络在股指期货价格预测中的研究——基于沪深300股指期货市场</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317047.htm">李宗龙</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317048','109-110',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="铝冶炼企业内部物流管理现状与对策-中国商论" style="" href="../Article/ZGSM201317048.htm">铝冶炼企业内部物流管理现状与对策</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317048.htm">李少华</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317049','110-111',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="国外第三方物流选择综述及网购下研究趋向-中国商论" style="" href="../Article/ZGSM201317049.htm">国外第三方物流选择综述及网购下研究趋向</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317049.htm">谢广营 张耀荔 陈静</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317050','112-113+115',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="模糊偏序理论的物流企业人力资源风险分析-中国商论" style="" href="../Article/ZGSM201317050.htm">模糊偏序理论的物流企业人力资源风险分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317050.htm">郑强</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317051','114-115',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="现代物流企业财务管理方法解析-中国商论" style="" href="../Article/ZGSM201317051.htm">现代物流企业财务管理方法解析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317051.htm">陈胜真</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317052','116+122',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="营业税改征增值税对物流业的影响及对策-中国商论" style="" href="../Article/ZGSM201317052.htm">营业税改征增值税对物流业的影响及对策</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317052.htm">王全英</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317053','117-118',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="加强文化旅游产业联动  打造揭阳文化旅游精品-中国商论" style="" href="../Article/ZGSM201317053.htm">加强文化旅游产业联动 打造揭阳文化旅游精品</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317053.htm">杨晓英</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317054','119-120',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="户外自助旅游相关法律问题的研究-中国商论" style="" href="../Article/ZGSM201317054.htm">户外自助旅游相关法律问题的研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317054.htm">胡俊青</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317055','121+123',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="我国对外贸易结构的变化及优化对策-中国商论" style="" href="../Article/ZGSM201317055.htm">我国对外贸易结构的变化及优化对策</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317055.htm">耿倩 郭馨梅</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317056','122-123',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="新贸易保护主义下我国贸易发展的对策分析-中国商论" style="" href="../Article/ZGSM201317056.htm">新贸易保护主义下我国贸易发展的对策分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317056.htm">韩娟娟</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317057','124-125+128',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="我国机电产品出口应对技术性贸易壁垒的研究-中国商论" style="" href="../Article/ZGSM201317057.htm">我国机电产品出口应对技术性贸易壁垒的研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317057.htm">朱淼 李正维 王竹君</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317058','126-128',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="人民币汇率与国际收支的实证研究-中国商论" style="" href="../Article/ZGSM201317058.htm">人民币汇率与国际收支的实证研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317058.htm">何菊</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317059','129-130+132',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="应对中美贸易摩擦的政策选择-中国商论" style="" href="../Article/ZGSM201317059.htm">应对中美贸易摩擦的政策选择</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317059.htm">原玲玲</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317060','131-132',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="应对欧盟贸易摩擦的程序性法律对策研究-中国商论" style="" href="../Article/ZGSM201317060.htm">应对欧盟贸易摩擦的程序性法律对策研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317060.htm">陈丽</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317061','133-134',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="贸易保护主义背景下中国企业可持续发展的对策-中国商论" style="" href="../Article/ZGSM201317061.htm">贸易保护主义背景下中国企业可持续发展的对策</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317061.htm">肖东红</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317062','135-136',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="我国林产品贸易中刨花板进口贸易影响因素分析-中国商论" style="" href="../Article/ZGSM201317062.htm">我国林产品贸易中刨花板进口贸易影响因素分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317062.htm">赵慧娟 张健</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317063','137-139+141',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="北京市在京津冀都市圈的经济辐射能力研究-中国商论" style="" href="../Article/ZGSM201317063.htm">北京市在京津冀都市圈的经济辐射能力研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317063.htm">刘崇献 柴南南</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317064','140-141',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="中原经济区建设中的高等教育支撑作用-中国商论" style="" href="../Article/ZGSM201317064.htm">中原经济区建设中的高等教育支撑作用</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317064.htm">陈丽</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317065','142-143+145',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="江苏省民营企业走出去政策研究-中国商论" style="" href="../Article/ZGSM201317065.htm">江苏省民营企业走出去政策研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317065.htm">朱坡</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317066','144-145',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="江苏民营企业“走出去”的模式研究-中国商论" style="" href="../Article/ZGSM201317066.htm">江苏民营企业“走出去”的模式研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317066.htm">单天明 杨艳</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317067','146-147',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="区域软实力提升策略研究-中国商论" style="" href="../Article/ZGSM201317067.htm">区域软实力提升策略研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317067.htm">胡效洋 刁艳华</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317068','147-148',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="昆仑唐人中心商圈分析-中国商论" style="" href="../Article/ZGSM201317068.htm">昆仑唐人中心商圈分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317068.htm">陶永前 杨小勇</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317069','149-150+155',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="乌鲁木齐市区域城市化水平的综合评价研究-中国商论" style="" href="../Article/ZGSM201317069.htm">乌鲁木齐市区域城市化水平的综合评价研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317069.htm">张园园 周耀治</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317070','151+165',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="文化资源对区域经济发展的作用探究——以衡水市为例-中国商论" style="" href="../Article/ZGSM201317070.htm">文化资源对区域经济发展的作用探究——以衡水市为例</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317070.htm">刘晓慧 邢建</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317071','152-154',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="高职商务英语复合型人才的能力本位教育探索-中国商论" style="" href="../Article/ZGSM201317071.htm">高职商务英语复合型人才的能力本位教育探索</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317071.htm">唐美华</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317072','154-155',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="谈商务英语翻译中的文化差异-中国商论" style="" href="../Article/ZGSM201317072.htm">谈商务英语翻译中的文化差异</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317072.htm">石荣海</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317073','156-157+161',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="基于SEM模型的产业集群困境影响要素分析-中国商论" style="" href="../Article/ZGSM201317073.htm">基于SEM模型的产业集群困境影响要素分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317073.htm">张吉刚 梁娜</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317074','158-160',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="成都会展产业发展阶段判断与预测——基于Logistic回归模型的研究-中国商论" style="" href="../Article/ZGSM201317074.htm">成都会展产业发展阶段判断与预测——基于Logistic回归模型的研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317074.htm">史晋娜</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317075','160-161',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅析产业技术革命对中国制造业的影响-中国商论" style="" href="../Article/ZGSM201317075.htm">浅析产业技术革命对中国制造业的影响</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317075.htm">张丹</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317076','162-163',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅析国产服装品牌发展的现状及趋势-中国商论" style="" href="../Article/ZGSM201317076.htm">浅析国产服装品牌发展的现状及趋势</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317076.htm">赵娜</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317077','164-165',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="服务质量模型与测评的研究综述与展望-中国商论" style="" href="../Article/ZGSM201317077.htm">服务质量模型与测评的研究综述与展望</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317077.htm">林鼎鼎 刘文英</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317078','166-167',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="温州市外来务工人员素质提升工程的现状与对策——以温州酒店行业为例-中国商论" style="" href="../Article/ZGSM201317078.htm">温州市外来务工人员素质提升工程的现状与对策——以温州酒店行业为例</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317078.htm">任曼殊</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317079','168-169',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="刍议校企合作环境下高职院校教学模式的创新-中国商论" style="" href="../Article/ZGSM201317079.htm">刍议校企合作环境下高职院校教学模式的创新</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317079.htm">刘建廷</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317080','170-172',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="城中村改造的系统思考-中国商论" style="" href="../Article/ZGSM201317080.htm">城中村改造的系统思考</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317080.htm">刘文英 林鼎鼎</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317081','172-173',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="石油科技工作团队建设的方法研究-中国商论" style="" href="../Article/ZGSM201317081.htm">石油科技工作团队建设的方法研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317081.htm">张利民</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317082','174-175',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="体验式教学法在中职基础会计教学中的应用-中国商论" style="" href="../Article/ZGSM201317082.htm">体验式教学法在中职基础会计教学中的应用</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317082.htm">张惠芳</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317083','176-177',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="大庆油田建立“产学研一体化创新体系”初探-中国商论" style="" href="../Article/ZGSM201317083.htm">大庆油田建立“产学研一体化创新体系”初探</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317083.htm">房业勇</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317084','178-179',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="浅谈高职院校的固定资产管理-中国商论" style="" href="../Article/ZGSM201317084.htm">浅谈高职院校的固定资产管理</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317084.htm">楼建设</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317085','180-181',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="面向特色化的经管类专业教学团队建设案例研究——以西安邮电大学为例-中国商论" style="" href="../Article/ZGSM201317085.htm">面向特色化的经管类专业教学团队建设案例研究——以西安邮电大学为例</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317085.htm">欧晓华 张鸿 张超</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317086','182-183',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="基于社会责任的产学研系统研究-中国商论" style="" href="../Article/ZGSM201317086.htm">基于社会责任的产学研系统研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317086.htm">王寅 胡玲静</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317087','183-184',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="我国大中型城市失业与再就业问题研究-中国商论" style="" href="../Article/ZGSM201317087.htm">我国大中型城市失业与再就业问题研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317087.htm">石芮川</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317088','185-186',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="外贸类专业学生顶岗实习的实现方式研究-中国商论" style="" href="../Article/ZGSM201317088.htm">外贸类专业学生顶岗实习的实现方式研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317088.htm">石国华</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317089','187-188',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="京津冀小麦价格与期货价格相关性的实证研究-中国商论" style="" href="../Article/ZGSM201317089.htm">京津冀小麦价格与期货价格相关性的实证研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317089.htm">霍再强 李玉林 周丹</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317090','188-189',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="基于供应链环境下的采购研究-中国商论" style="" href="../Article/ZGSM201317090.htm">基于供应链环境下的采购研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317090.htm">许珍</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317091','190-191',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="我国珠宝类存货价值管理的应用研究-中国商论" style="" href="../Article/ZGSM201317091.htm">我国珠宝类存货价值管理的应用研究</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317091.htm">周琦深 杨明星 邱英 张鹏飞</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317092','192-193',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="我国发展广告学的研究方向探析-中国商论" style="" href="../Article/ZGSM201317092.htm">我国发展广告学的研究方向探析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317092.htm">张允 倪</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317093','194-196',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="苏州市工业碳排放的影响因素研究及对策分析-中国商论" style="" href="../Article/ZGSM201317093.htm">苏州市工业碳排放的影响因素研究及对策分析</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317093.htm">苏奕洁 郑哲贝 刘波 鲍元</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317094','197-198',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="项目驱动教学法在高职思政课教学中的运用-中国商论" style="" href="../Article/ZGSM201317094.htm">项目驱动教学法在高职思政课教学中的运用</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317094.htm">刘风</a></span></li>
+        <li><span class="liico" target="TopReading" title="在线阅读" onclick="CajReadXlst('ZGSM201317095','199',2013)" style="cursor:pointer;"></span><h3><a target="_blank" title="《中国商贸》杂志稿约-中国商论" style="" href="../Article/ZGSM201317095.htm">《中国商贸》杂志稿约</a></h3><span class="litext2"><a target="_blank" title="中国商论" href="../Article/ZGSM201317095.htm"></a></span></li>
+       </ul> 
+      </div> 
+      <div id="bookinfotitle"> 
+       <h4><span class="bookinfotitle_span1">与中国商论类似的杂志,也很不错哦!</span><span class="bookinfotitle_span2"><a href="/magazine/list.aspx?cate=F171013" target="_blank">更多&gt;&gt;</a></span></h4>
+      </div>
+      <div id="aboutbooks"> 
+       <span class="aboutbook" title="中华商标"><a href="/magazine/magadetail/AHON201504.htm" title="中华商标" target="_blank"> <img src="http://c61.cnki.net/CJFD/small/AHON/AHON201504.jpg" width="70" height="96" border="0" title="中华商标杂志" alt="推荐杂志:中华商标" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/AHON.jpg';this.onerror=null;" /><br /> <span class="bookname1">中华商标</span> </a></span> 
+       <span class="aboutbook" title="中国商人"><a href="/magazine/magadetail/AZSR2015Z1.htm" title="中国商人" target="_blank"> <img src="http://c61.cnki.net/CJFD/small/AZSR/AZSR2015Z1.jpg" width="70" height="96" border="0" title="中国商人杂志" alt="推荐杂志:中国商人" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/AZSR.jpg';this.onerror=null;" /><br /> <span class="bookname1">中国商人</span> </a></span> 
+       <span class="aboutbook" title="北京物价"><a href="/magazine/magadetail/BJWJ200312.htm" title="北京物价" target="_blank"> <img src="http://c61.cnki.net/CJFD/small/BJWJ/BJWJ200312.jpg" width="70" height="96" border="0" title="北京物价杂志" alt="推荐杂志:北京物价" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/BJWJ.jpg';this.onerror=null;" /><br /> <span class="bookname1">北京物价</span> </a></span> 
+       <span class="aboutbook" title="商业研究"><a href="/magazine/magadetail/BUSI201504.htm" title="商业研究" target="_blank"> <img src="http://c61.cnki.net/CJFD/small/BUSI/BUSI201504.jpg" width="70" height="96" border="0" title="商业研究杂志" alt="推荐杂志:商业研究" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/BUSI.jpg';this.onerror=null;" /><br /> <span class="bookname1">商业研究</span> </a></span> 
+       <span class="aboutbook" title="成功营销"><a href="/magazine/magadetail/CGZN201504.htm" title="成功营销" target="_blank"> <img src="http://c61.cnki.net/CJFD/small/CGZN/CGZN201504.jpg" width="70" height="96" border="0" title="成功营销杂志" alt="推荐杂志:成功营销" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/CGZN.jpg';this.onerror=null;" /><br /> <span class="bookname1">成功营销</span> </a></span> 
+      </div> 
+      <!--本期目录和相关期刊 end--> 
+     </div> 
+     <!--bookinfo--> 
+     <div class="clear"></div> 
+    </div> 
+    <!--center end--> 
+    <!--right--> 
+    <div id="right"> 
+     <!--往期回顾--> 
+     <div class="mode_free"> 
+      <div class="mode_free_t"> 
+       <span>往期回顾</span>
+       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/magazine/magalist/ZGSM.htm" class="more12white" target="_blank">更多&gt;&gt;</a></span>
+      </div> 
+      <div class="cl"></div> 
+      <div class="mode_free_c"> 
+       <ul>
+        <li> <a href="/magazine/magadetail/ZGSM201510.htm" target="_blank"><img src="http://c61.cnki.net/CJFD/small/ZGSM/ZGSM201510.jpg" width="69" height="89" title="中国商论2015年10期" border="0" alt="中国商论2015年10期" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/ZGSM.jpg';this.onerror=null;" /></a>
+         <div class="cl"></div><a href="/magazine/magadetail/ZGSM201510.htm" target="_blank" title="中国商论2015年10期">2015年10期</a></li>
+        <li> <a href="/magazine/magadetail/ZGSM201509.htm" target="_blank"><img src="http://c61.cnki.net/CJFD/small/ZGSM/ZGSM201509.jpg" width="69" height="89" title="中国商论2015年09期" border="0" alt="中国商论2015年09期" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/ZGSM.jpg';this.onerror=null;" /></a>
+         <div class="cl"></div><a href="/magazine/magadetail/ZGSM201509.htm" target="_blank" title="中国商论2015年09期">2015年09期</a></li>
+        <li> <a href="/magazine/magadetail/ZGSM201504.htm" target="_blank"><img src="http://c61.cnki.net/CJFD/small/ZGSM/ZGSM201504.jpg" width="69" height="89" title="中国商论2015年04期" border="0" alt="中国商论2015年04期" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/ZGSM.jpg';this.onerror=null;" /></a>
+         <div class="cl"></div><a href="/magazine/magadetail/ZGSM201504.htm" target="_blank" title="中国商论2015年04期">2015年04期</a></li>
+        <li> <a href="/magazine/magadetail/ZGSM201503.htm" target="_blank"><img src="http://c61.cnki.net/CJFD/small/ZGSM/ZGSM201503.jpg" width="69" height="89" title="中国商论2015年03期" border="0" alt="中国商论2015年03期" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/ZGSM.jpg';this.onerror=null;" /></a>
+         <div class="cl"></div><a href="/magazine/magadetail/ZGSM201503.htm" target="_blank" title="中国商论2015年03期">2015年03期</a></li>
+        <li> <a href="/magazine/magadetail/ZGSM201502.htm" target="_blank"><img src="http://c61.cnki.net/CJFD/small/ZGSM/ZGSM201502.jpg" width="69" height="89" title="中国商论2015年02期" border="0" alt="中国商论2015年02期" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/ZGSM.jpg';this.onerror=null;" /></a>
+         <div class="cl"></div><a href="/magazine/magadetail/ZGSM201502.htm" target="_blank" title="中国商论2015年02期">2015年02期</a></li>
+        <li> <a href="/magazine/magadetail/ZGSM201501.htm" target="_blank"><img src="http://c61.cnki.net/CJFD/small/ZGSM/ZGSM201501.jpg" width="69" height="89" title="中国商论2015年01期" border="0" alt="中国商论2015年01期" onerror="javascript:this.src='http://c61.cnki.net/CJFD/small/ZGSM.jpg';this.onerror=null;" /></a>
+         <div class="cl"></div><a href="/magazine/magadetail/ZGSM201501.htm" target="_blank" title="中国商论2015年01期">2015年01期</a></li>
+       </ul>
+       <div class="clear"></div>
+       <span>按年查看 <a href="/magazine/magalist/ZGSM.htm" title="更多中国商论杂志" target="_blank">更多&gt;&gt;</a><br /><a href="/magazine/magalist/ZGSM2015.htm" target="_blank" title="中国商论2015年">[2015]</a> <a href="/magazine/magalist/ZGSM2014.htm" target="_blank" title="中国商论2014年">[2014]</a> <a href="/magazine/magalist/ZGSM2013.htm" target="_blank" title="中国商论2013年">[2013]</a> <a href="/magazine/magalist/ZGSM2012.htm" target="_blank" title="中国商论2012年">[2012]</a> <a href="/magazine/magalist/ZGSM2011.htm" target="_blank" title="中国商论2011年">[2011]</a> <a href="/magazine/magalist/ZGSM2010.htm" target="_blank" title="中国商论2010年">[2010]</a> <a href="/magazine/magalist/ZGSM2009.htm" target="_blank" title="中国商论2009年">[2009]</a> <a href="/magazine/magalist/ZGSM2008.htm" target="_blank" title="中国商论2008年">[2008]</a> <a href="/magazine/magalist/ZGSM2007.htm" target="_blank" title="中国商论2007年">[2007]</a> <a href="/magazine/magalist/ZGSM2006.htm" target="_blank" title="中国商论2006年">[2006]</a> <a href="/magazine/magalist/ZGSM2005.htm" target="_blank" title="中国商论2005年">[2005]</a> <a href="/magazine/magalist/ZGSM2004.htm" target="_blank" title="中国商论2004年">[2004]</a> <a href="/magazine/magalist/ZGSM2003.htm" target="_blank" title="中国商论2003年">[2003]</a> <a href="/magazine/magalist/ZGSM2002.htm" target="_blank" title="中国商论2002年">[2002]</a> <a href="/magazine/magalist/ZGSM2001.htm" target="_blank" title="中国商论2001年">[2001]</a> <a href="/magazine/magalist/ZGSM2000.htm" target="_blank" title="中国商论2000年">[2000]</a> <a href="/magazine/magalist/ZGSM1999.htm" target="_blank" title="中国商论1999年">[1999]</a> <a href="/magazine/magalist/ZGSM1998.htm" target="_blank" title="中国商论1998年">[1998]</a> <a href="/magazine/magalist/ZGSM1997.htm" target="_blank" title="中国商论1997年">[1997]</a> <a href="/magazine/magalist/ZGSM1996.htm" target="_blank" title="中国商论1996年">[1996]</a> <a href="/magazine/magalist/ZGSM1995.htm" target="_blank" title="中国商论1995年">[1995]</a> <a href="/magazine/magalist/ZGSM1994.htm" target="_blank" title="中国商论1994年">[1994]</a> <a href="/magazine/magalist/ZGSM1993.htm" target="_blank" title="中国商论1993年">[1993]</a> <a href="/magazine/magalist/ZGSM1992.htm" target="_blank" title="中国商论1992年">[1992]</a> </span> 
+      </div> 
+     </div> 
+     <!--往期回顾 end--> 
+     <!--看了本刊的人还喜欢--> 
+     <div class="rightbox"> 
+      <div class="right_xktj_t">
+       新刊推荐
+      </div> 
+      <div class="rightbox_con"> 
+       <div class="rightbox_con"> 
+        <ul class="rightbox_ul2">
+         <li><a href="/magazine/magadetail/ZXXI201504.htm" target="_blank" title="中小学校长">中小学校长</a></li>
+         <li><a href="/magazine/magadetail/ZXWX201106.htm" target="_blank" title="中学生优秀作文(教学)">中学生优秀作文(教学)</a></li>
+         <li><a href="/magazine/magadetail/ZWWZ201322.htm" target="_blank" title="中外文摘">中外文摘</a></li>
+         <li><a href="/magazine/magadetail/ZUGU201509.htm" target="_blank" title="祖国">祖国</a></li>
+         <li><a href="/magazine/magadetail/ZRKJ201501.htm" target="_blank" title="科学教育与博物馆">科学教育与博物馆</a></li>
+         <li><a href="/magazine/magadetail/ZQJN201504.htm" target="_blank" title="早期教育(教科研版)">早期教育(教科研版)</a></li>
+         <li><a href="/magazine/magadetail/ZLXY201504.htm" target="_blank" title="中学生数理化(学研版)">中学生数理化(学研版)</a></li>
+         <li><a href="/magazine/magadetail/ZHRV201410.htm" target="_blank" title="中华儿女(海外版)&middot;书画名家">中华儿女(海外版)&middot;书画名家</a></li>
+         <li><a href="/magazine/magadetail/ZHPS201105.htm" target="_blank" title="中国化妆品(时尚)">中国化妆品(时尚)</a></li>
+         <li><a href="/magazine/magadetail/ZHBJ201112.htm" target="_blank" title="中国保健营养">中国保健营养</a></li>
+         <li><a href="/magazine/magadetail/YYXS201206.htm" target="_blank" title="英语新世纪">英语新世纪</a></li>
+         <li><a href="/magazine/magadetail/YXJI201508.htm" target="_blank" title="营销界(农资与市场)">营销界(农资与市场)</a></li>
+         <li><a href="/magazine/magadetail/YWXX2014Z1.htm" target="_blank" title="语文学习">语文学习</a></li>
+         <li><a href="/magazine/magadetail/YLYL201510.htm" target="_blank" title="意林">意林</a></li>
+         <li><a href="/magazine/magadetail/YKWH201503.htm" target="_blank" title="意林文汇">意林文汇</a></li>
+         <li><a href="/magazine/magadetail/XZJF201506.htm" target="_blank" title="学子(理论版)">学子(理论版)</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+      <!--看了本刊的人还喜欢 end--> 
+      <!--点击排行--> 
+      <div class="rightbox"> 
+       <div class="rightbox_tit">
+        您最近的浏览记录
+       </div> 
+       <div class="rightbox_con"> 
+       </div> 
+      </div> 
+      <!--点击排行 end--> 
+     </div> 
+     <!--right end--> 
+     <div class="cl"></div>
+    </div> 
+    <script type="text/javascript">      function CajReadXlst(filename, page, tmpYear)      {          var murl = 'http://mall.cnki.net/onlineview/MagaView.aspx?fn={0}*{1}*{2}';          if (page.indexOf("+") > 0)              page = page.substr(0, page.indexOf("+"));          OpenCnkiViewPage(String.Format(murl, filename, page, ""), tmpYear);      }      function GetFreeMagezine(uid, url, subuser)      {          if (uid == "")          {              alert("您还未登录,请先登录!");          }          else if (subuser == 1)          {              alert("请您登录主账户领取该杂志!");          }          else          {              window.location.href = url;          }          return false;      }      function showMagazineCatalog()      {          if (getArticleCatalogList != null)              getArticleCatalogList('ZGSM', '2013', '17', -1, 'magazine', '中国商论', 'slidingList0');      }      SetCurrentCheckBox('cb_selectall', 'cb_yearinfo', 'div_saveinfo', '2013');  </script> 
+    <!--main end-->
+    <!--footer-->
+    <div id="footer"> 
+     <div class="footer_link"> 
+      <a href="http://www.cnki.net/gycnki/gycnki.htm" target="_blank">关于知网</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank">充值中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="http://ec.cnki.net/sksm/CNKIApplyForm.aspx" target="_blank">购买知网卡</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="http://mall.cnki.net/help/azydq.html" target="_blank">安装阅读器</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="http://mall.cnki.net/help/help_QS.html" target="_blank">帮助中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="http://help.cnki.net/" target="_blank">在线咨询</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="http://mall.cnki.net/help_contact/help_contact.html" target="_blank">联系我们</a> 
+     </div> 
+     <div class="cl"></div> 
+     <div class="footer_copyright"> 
+      <ul> 
+       <li>出版:《中国学术期刊(光盘版)》电子杂志社有限公司</li> 
+       <li>地址:北京清华大学 84-48信箱 知识超市公司</li> 
+       <li>互联网出版许可证 新出网证(京)字008号</li> 
+       <li>京ICP证040431号</li> 
+      </ul> 
+      <ul> 
+       <li>服务咨询:400-810-9888 400-819-9993</li> 
+       <li>订购咨询:400-819-9993</li> 
+       <li>传真:010-62780361</li> 
+       <li>京公网安备11010802014875号</li> 
+      </ul> 
+      <div class="biaoshi_l">
+       <a target="_blank" href="http://hd315.gov.cn/beian/view.asp?bianhao=010202005012100021"></a>
+      </div> 
+      <div class="biaoshi_r">
+       <a target="_blank" href="http://hd315.gov.cn/beian/view.asp?bianhao=010202005012100021"></a>
+      </div> 
+     </div>
+    </div>
+    <!--footer end-->
+    <div style="display:none;">
+     <script src="http://s21.cnzz.com/stat.php?id=3164660&amp;web_id=3164660&amp;show=pic1" type="text/javascript"></script>
+     <script type="text/javascript">    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F30de01e251cf0d9eae32bd93996f09c6' type='text/javascript'%3E%3C/script%3E"));    </script>
+    </div> 
+    <script type="text/javascript">    var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-26008707-1']);    _gaq.push(['_trackPageview']);    (function ()    {        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();</script>
+    <script type="text/javascript">    try { document.getElementsByTagName("form")[0].action = window.location; } catch (ex) { }</script>
+   </div>
+  </form>
+ </body>
+</html>

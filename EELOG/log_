@@ -2989,3 +2989,450 @@ Caused by: java.net.URISyntaxException: Illegal character in path at index 44: h
 2015-06-02 14:14:20 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
 2015-06-02 14:14:20 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
 2015-06-02 14:14:20 [INFO] - [解析] - 得到一条搜索结果链接 http://www.ggrsrc.net/sydw/ShowArticle.asp?ArticleID=1926 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:22 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:22 [INFO] - [解析] - 得到一条搜索结果链接 http://edu.hljnews.cn/system/2013/08/01/003050444.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:23 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:23 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:14:23 [INFO] - [解析] - 得到一条搜索结果链接 http://www.jyscjzx.com/Item/2129.aspx {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:30 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:30 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:14:30 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=280 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:14:30 [INFO] - [解析] - 正在获取第 29页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:14:30 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:14:30 [INFO] - [解析] - 得到一条搜索结果链接 http://www.daozhenzhongxue.com/EC_ShowArticle.asp?EC_ArticleID=1086 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:32 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:32 [INFO] - [解析] - 得到一条搜索结果链接 http://www.lrjt.cn/Article/ShowArticle.asp?ArticleID=1174 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:35 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:36 [INFO] - [解析] - 得到一条搜索结果链接 http://haiyangxinwen.cn/a/jy/2015/0601/2654.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:36 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:36 [INFO] - [解析] - 得到一条搜索结果链接 http://liwanxinwen.cn/a/news/2015/0528/2008.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:37 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:37 [INFO] - [解析] - 得到一条搜索结果链接 http://tech.hexun.com/2015-04-30/175463201.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:38 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:38 [INFO] - [解析] - 得到一条搜索结果链接 http://finance.qq.com/a/20150109/058615.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:38 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:38 [INFO] - [解析] - 得到一条搜索结果链接 http://www.newwinner.cn/zt/ruxiaoxunjiangzt/ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:38 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:38 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:14:38 [INFO] - [解析] - 得到一条搜索结果链接 http://www.sn.xinhuanet.com/2015-03/27/c_1114786304.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:38 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:39 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:14:39 [INFO] - [解析] - 得到一条搜索结果链接 http://www.03964.com/read/1ac9eb89c7cf2ab500d3d964.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:40 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:40 [INFO] - [解析] - 得到一条搜索结果链接 http://course.baidu.com/view/5304ee0bf78a6529647d53fa.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:40 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:14:40 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:14:40 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:40 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=290 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:14:41 [INFO] - [解析] - 正在获取第 30页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:14:41 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:14:41 [INFO] - [解析] - 得到一条搜索结果链接 http://www.chinatat.com/new/1_7_/2009_6_17_wx46674490271690026732.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:41 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:41 [INFO] - [解析] - 得到一条搜索结果链接 http://gwy.china-b.com/sxigwy/hanzhong/mianshi/54042.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:41 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:41 [INFO] - [解析] - 得到一条搜索结果链接 http://www.100ksw.com/gwy/1/2/334895.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:42 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:42 [INFO] - [解析] - 得到一条搜索结果链接 http://sbf.uibe.edu.cn/ViewNews.aspx?TypeID=5&NewsID=918&TopTypeID=22 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:42 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:42 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:14:42 [INFO] - [解析] - 得到一条搜索结果链接 http://finance.chinanews.com/cj/2014/10-26/6717605.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:42 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:14:42 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:14:43 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:43 [INFO] - [解析] - 得到一条搜索结果链接 http://sn.people.com.cn/n/2014/1027/c190216-22728464.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:44 [INFO] - [解析] - 得到一条搜索结果链接 http://www.sxdaily.com.cn/data/bsgzzj/20091211_9793424_2.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:44 [INFO] - [解析] - 得到一条搜索结果链接 http://bbs.hsw.cn/read-htm-tid-7212228.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:44 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:14:44 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:14:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:44 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:14:44 [INFO] - [解析] - 得到一条搜索结果链接 http://roll.sohu.com/20130218/n366275712.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:45 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:45 [INFO] - [解析] - 得到一条搜索结果链接 http://blog.sciencenet.cn/blog-469915-791011.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:45 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:14:45 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=300 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:14:46 [INFO] - [解析] - 正在获取第 31页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:14:46 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:14:46 [INFO] - [解析] - 得到一条搜索结果链接 http://news.xinhuanet.com/internet/2010-06/07/c_12193103.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:14:46 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:14:46 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:15:37 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:15:37 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:15:37 [INFO] - [解析] - 得到一条搜索结果链接 http://www.03964.com/read/c9d662878684881620546bd4.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:15:40 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:15:40 [INFO] - [解析] - 得到一条搜索结果链接 http://cdmd.cnki.com.cn/Article/CDMD-10013-2010223070.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:42 [ERROR] - org.apache.http.ConnectionClosedException: Premature end of Content-Length delimited message body (expected: 107699; received: 2654
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:178)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:197)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:155)
+	at org.apache.http.util.EntityUtils.toByteArray(EntityUtils.java:100)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.getContent(Downloader.java:154)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:97)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:118)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.getContent(Downloader.java:164)}
+2015-06-02 14:16:42 [ERROR] - java.lang.NullPointerException
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.getContent(Downloader.java:172)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:97)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:118)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:113)}
+2015-06-02 14:16:42 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:42 [ERROR] - java.lang.NullPointerException
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:127)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:158)}
+2015-06-02 14:16:42 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cnki.com.cn/Article/CJFDTotal-XAYD201403020.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:42 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:42 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:42 [INFO] - [解析] - 得到一条搜索结果链接 http://www.docsou.com/doc/2604231.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:43 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:43 [INFO] - [解析] - 得到一条搜索结果链接 http://blog.39.net/zgro910og6/default_3.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:44 [INFO] - [解析] - 得到一条搜索结果链接 http://www.shaanxi.gov.cn/0/sxzb/7085.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:44 [INFO] - [解析] - 得到一条搜索结果链接 http://money.163.com/13/0824/04/9712D8I400253B0H.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:44 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:44 [INFO] - [解析] - 得到一条搜索结果链接 http://finance.chinanews.com/life/2015/04-22/7225831.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:44 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:16:44 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:16:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:45 [INFO] - [解析] - 得到一条搜索结果链接 http://www.baike.com/wiki/%E9%99%95%E8%A5%BF%E4%BF%A1%E6%81%AF%E8%B5%84%E6%BA%90%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:45 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:45 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:45 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=310 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:16:45 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:16:45 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:16:45 [INFO] - [解析] - 正在获取第 32页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:16:45 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:16:45 [INFO] - [解析] - 得到一条搜索结果链接 http://finance.hsw.cn/system/2014/1201/15698.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:45 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:45 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:46 [INFO] - [解析] - 得到一条搜索结果链接 http://jgy.xupt.edu.cn/index.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:46 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:46 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:46 [INFO] - [解析] - 得到一条搜索结果链接 http://www.seda98.com/sssh.php {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:46 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:46 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:46 [INFO] - [解析] - 得到一条搜索结果链接 http://govinfo.nlc.gov.cn/hnscsfz/xxgk/zssmzj/201312/t20131206_4323821.shtml?classid=423 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:53 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:54 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:54 [INFO] - [解析] - 得到一条搜索结果链接 http://www.jyscjzx.com/Item/2133.aspx {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:54 [INFO] - I/O exception (java.net.SocketException) caught when processing request: Connection reset {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:16:54 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:16:57 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:57 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:57 [INFO] - [解析] - 得到一条搜索结果链接 http://www.mba.org.cn/mbadf15/guanzhu25/30578.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:57 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:57 [INFO] - [解析] - 得到一条搜索结果链接 http://baike.baidu.com/link?url=SojEXsrteOll0W7wBD-ju30b7zBldw5GhW_9zWbsJTuXR7WASYYaeF9HEf-HKsA4DG1EymoWWOqpVNM2MJVTTK {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:58 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:58 [INFO] - [解析] - 得到一条搜索结果链接 http://tieba.baidu.com/p/878919455 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:58 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:16:58 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:16:59 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:59 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:59 [INFO] - [解析] - 得到一条搜索结果链接 http://news.hsw.cn/system/2014/1219/196207.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:59 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:59 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:59 [INFO] - [解析] - 得到一条搜索结果链接 http://blog.sina.com.cn/s/blog_e197ceff0102vm1p.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:16:59 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:16:59 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:16:59 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=320 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:17:00 [INFO] - [解析] - 正在获取第 33页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:17:00 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:17:00 [INFO] - [解析] - 得到一条搜索结果链接 http://nsfc.essaystar.com/2010nsfc6.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:06 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:06 [INFO] - [解析] - 得到一条搜索结果链接 http://news.hsw.cn/system/2014/1105/173820.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:06 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:06 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:06 [INFO] - [解析] - 得到一条搜索结果链接 http://hsb.hsw.cn/2013-03/18/content_8489414.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:06 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:06 [INFO] - [解析] - 得到一条搜索结果链接 http://www.newwinner.cn/2009 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:06 [INFO] - I/O exception (java.net.SocketException) caught when processing request: Connection reset {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:17:06 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:17:07 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:07 [INFO] - [解析] - 得到一条搜索结果链接 http://jgy.xupt.edu.cn/a/xueyuanjj.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:07 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:07 [INFO] - [解析] - 得到一条搜索结果链接 http://max.book118.com/html/2015/0428/15935960.shtm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:07 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:07 [INFO] - [解析] - 得到一条搜索结果链接 http://yvw.000o0.net/ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:09 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:09 [INFO] - [解析] - 得到一条搜索结果链接 http://km.58.com/shilin/zufang/ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:10 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:10 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:10 [INFO] - [解析] - 得到一条搜索结果链接 http://share.renren.com/keywords/2190896 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:11 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:11 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:11 [INFO] - [解析] - 得到一条搜索结果链接 http://gwy.china-b.com/sxigwy/hanzhong/kaoshi/62269.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:11 [INFO] - I/O exception (java.net.SocketException) caught when processing request: Connection reset {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:17:11 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:17:11 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:11 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=330 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:17:12 [INFO] - [解析] - 正在获取第 34页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:17:12 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:17:12 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cuaa.net/bbs/bbs/bbs_200224_1.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:13 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:13 [INFO] - [解析] - 得到一条搜索结果链接 http://wenku.baidu.com/link?url=mPYQQRwfD-XMUCpP-xvq9_tQnvQ0jnpyb_7sH87ndMEyVbyQNd6hAF9cmlK26gZrV9m9h_xstl1RiD78LsPAsBlSWS8EPJPHqZEXvkYCpxe {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:13 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:17:13 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:17:14 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:14 [INFO] - [解析] - 得到一条搜索结果链接 http://news.hsw.cn/system/2015/0108/204437.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:14 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:14 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:14 [INFO] - [解析] - 得到一条搜索结果链接 http://news.163.com/14/1122/02/ABKEPNVG00014Q4P.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:14 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:14 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:14 [INFO] - [解析] - 得到一条搜索结果链接 http://hsb.hsw.cn/2013-01/14/content_8483490.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:14 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:14 [INFO] - [解析] - 得到一条搜索结果链接 http://money.163.com/13/0909/01/989SO4HF00253B0H.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:14 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:17:14 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:17:15 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:15 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:15 [INFO] - [解析] - 得到一条搜索结果链接 http://cdmd.cnki.com.cn/Article/CDMD-10013-1011120109.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:15 [INFO] - [解析] - 得到一条搜索结果链接 http://tech.163.com/13/1116/08/9DPQSITT000915BF.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:16 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:16 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:16 [INFO] - [解析] - 得到一条搜索结果链接 http://www.chinairn.com/news/20140111/103723609.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:16 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:16 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:16 [INFO] - [解析] - 得到一条搜索结果链接 http://cnki.com.cn/article/cjfd2003-dxkx200309002.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:17 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:17 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:17 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=340 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:17:17 [INFO] - [解析] - 正在获取第 35页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:17:17 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:17:17 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cb.com.cn/index.php?m=content&c=index&a=show&catid=30&id=1027336&all {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:17 [ERROR] - java.net.UnknownHostException: www.cb.com.cn: 未知的名称或服务
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1246)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:242)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:130)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:71)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:118)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:113)}
+2015-06-02 14:17:17 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:17 [ERROR] - java.lang.NullPointerException
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:127)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:158)}
+2015-06-02 14:17:17 [INFO] - [解析] - 得到一条搜索结果链接 http://www.hg-z.com/nl/yiyao/3 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:17:18 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:17:18 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:17:18 [INFO] - [解析] - 得到一条搜索结果链接 http://www.lib.sjtu.edu.cn/UserFiles/File/Collections/xstb/xstb0611cn.doc {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:20 [ERROR] - java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:187)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:176)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:197)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:155)
+	at org.apache.http.util.EntityUtils.toByteArray(EntityUtils.java:100)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.getContent(Downloader.java:154)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:97)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:118)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.getContent(Downloader.java:164)}
+2015-06-02 14:18:20 [ERROR] - java.lang.NullPointerException
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.getContent(Downloader.java:172)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:97)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:118)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:113)}
+2015-06-02 14:18:20 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:20 [ERROR] - java.lang.NullPointerException
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:127)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:158)}
+2015-06-02 14:18:20 [INFO] - [解析] - 得到一条搜索结果链接 http://www.bdfls.cn/Item.aspx?id=229 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:21 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:21 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:21 [INFO] - [解析] - 得到一条搜索结果链接 http://www.amazon.cn/%E5%88%9B%E6%96%B0%E4%B9%8B%E9%81%93-%E4%B8%AD%E5%A4%96%E4%BC%81%E4%B8%9A%E5%88%9B%E6%96%B0%E7%BB%8F%E5%85%B8%E6%A1%88%E4%BE%8B%E6%95%99%E7%A8%8B-%E6%9B%BE%E5%8F%94%E4%BA%91/dp/product-description/B003DYUX9S {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:22 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:22 [INFO] - [解析] - 得到一条搜索结果链接 http://www.hbstd.gov.cn/cszz/cgc/ywgz/cgtayjsfc/16905.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:22 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:22 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:22 [INFO] - [解析] - 得到一条搜索结果链接 http://www.cedf.org.cn/cedf/2013ryjhxs/201402/20140220/772199080.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:23 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:23 [INFO] - [解析] - 得到一条搜索结果链接 http://lib.kmu.edu.cn/n3972c8.aspx {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:28 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:29 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:29 [INFO] - [解析] - 得到一条搜索结果链接 http://lib.zj-art.com/view.aspx?id=132 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:34 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:34 [INFO] - [解析] - 得到一条搜索结果链接 http://www.jxstc.gov.cn/ReadNews.asp?NewsID=7978 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:35 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:35 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=350 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:18:35 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:18:35 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:18:36 [INFO] - [解析] - 正在获取第 36页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:18:36 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:18:36 [INFO] - [解析] - 得到一条搜索结果链接 http://ad.jxnews.com.cn/2012/zss/2013/gg/ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:36 [ERROR] - org.apache.http.conn.HttpHostConnectException: Connection to http://ad.jxnews.com.cn refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:71)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:118)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+Caused by: java.net.ConnectException: 拒绝连接
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:179)
+	at org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor.connectSocket(SchemeSocketFactoryAdaptor.java:62)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 16 more
+ {com.glacier.earthquake.monitor.server.crawler.core.Downloader.document(Downloader.java:113)}
+2015-06-02 14:18:36 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:36 [ERROR] - java.lang.NullPointerException
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:127)
+	at com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.start(BaiduSearchCrawler.java:60)
+	at Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+ {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:158)}
+2015-06-02 14:18:37 [INFO] - [解析] - 得到一条搜索结果链接 http://mall.cnki.net/magazine/magadetail/ZGSM201317.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:37 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:37 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:37 [INFO] - [解析] - 得到一条搜索结果链接 http://c.wanfangdata.com.cn/periodical/zhonggsm/2013-17.aspx {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:38 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:38 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:38 [INFO] - [解析] - 得到一条搜索结果链接 http://sn.people.com.cn/n/2015/0315/c226647-24159356.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:39 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:18:39 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:18:39 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:39 [INFO] - [解析] - 得到一条搜索结果链接 http://news.xinhuanet.com/info/2013-10/30/c_132842520.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:39 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:18:39 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:18:40 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:40 [INFO] - [解析] - 得到一条搜索结果链接 http://news.cnwest.com/content/2014-08/20/content_11512292.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:40 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:40 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:40 [INFO] - [解析] - 得到一条搜索结果链接 http://www.chinanews.com/cj/2014/10-26/6717605.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:40 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:40 [INFO] - [解析] - 得到一条搜索结果链接 http://hsb.hsw.cn/2013-01/07/content_8482877.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:40 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:18:40 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:18:40 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:40 [INFO] - [解析] - 得到一条搜索结果链接 http://hsb.hsw.cn/2014-04/05/content_8532464.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:40 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:40 [INFO] - [解析] - 得到一条搜索结果链接 http://news.163.com/14/0924/03/A6SKE99K00014Q4P.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:40 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:18:40 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:18:41 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:41 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:41 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=360 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:18:41 [INFO] - [解析] - 正在获取第 37页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:18:41 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:18:41 [INFO] - [解析] - 得到一条搜索结果链接 http://news.sohu.com/20150331/n410561325.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:41 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:41 [INFO] - [解析] - 得到一条搜索结果链接 http://hsb.hsw.cn/2015-01/08/content_8561548.htm {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:42 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:42 [INFO] - [解析] - 得到一条搜索结果链接 http://sn.ifeng.com/shanxidifangzixun/xianyang/economy/detail_2014_08/19/2789640_0.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:42 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:42 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:42 [INFO] - [解析] - 得到一条搜索结果链接 http://wenku.baidu.com/link?url=x8lNw_yjFTJ6awZi_nCkogRTpuSjLyuAuW2ryK59z8gpZLSiYVwEo0TZwWYwPv0exDHt7neegz3-FnTWL3fy55GEq3gK_8a1ilaNB_QFaDy {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:42 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:18:42 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:18:42 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:42 [INFO] - [解析] - 得到一条搜索结果链接 http://www.docin.com/p-865427358.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:43 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:43 [INFO] - [解析] - 得到一条搜索结果链接 http://www.docin.com/p-108524830.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:43 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:43 [INFO] - [解析] - 得到一条搜索结果链接 http://www.docin.com/p-433301037.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:43 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:43 [INFO] - [解析] - 得到一条搜索结果链接 http://roll.sohu.com/20130704/n380630903.shtml {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:43 [INFO] - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:656)}
+2015-06-02 14:18:43 [INFO] - Retrying request {org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:663)}
+2015-06-02 14:18:43 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:43 [INFO] - [解析] - 得到一条搜索结果链接 http://www.mbachina.com/html/jzlt/201212/67295.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:44 [INFO] - [匹配成功] - 获得一条新数据 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:152)}
+2015-06-02 14:18:44 [INFO] - [解析] - 得到一条搜索结果链接 http://help.3g.163.com/15/0424/09/ANV6201N00964KF0.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}
+2015-06-02 14:18:44 [INFO] - [判断] - 正在对搜索结果进行正确新判断 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:121)}
+2015-06-02 14:18:44 [INFO] - [翻页] - 获取到下一页: https://www.baidu.com/s?wd=西安%20邮电%20张鸿&pn=370 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.next(BaiduSearchCrawler.java:180)}
+2015-06-02 14:18:44 [INFO] - [解析] - 正在获取第 38页 {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:86)}
+2015-06-02 14:18:44 [INFO] - [解析] - 本页获得搜索结果 10 条(粗略结果) {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:94)}
+2015-06-02 14:18:44 [INFO] - [解析] - 得到一条搜索结果链接 http://9512.net/read/9c1a3761c6760ff9a43b97d5.html {com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler.parse(BaiduSearchCrawler.java:105)}

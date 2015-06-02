@@ -1,0 +1,642 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head></head>
+ <body class="body">
+  ﻿
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="职场e路通 网络新赢家 百场入校巡讲活动" />
+  <meta name="keywords" content="入校巡讲活动,专题,互联网, 建行, e路通, 大学生,大赛,电子商务,创业,就业、实践、有奖活动、网络商务、实践、海峡两岸、大学生竞赛、实践教学、高新民、校企合作" /> 
+  <title>建行“e路通”杯首届海峡两岸大学生网络商务创新应用大赛暨第四届大陆大学生网络商务创新应用大赛百场入校巡讲活动专题</title>
+  <script type="text/javascript">var $$ = function (id) {    return "string" == typeof id ? document.getElementById(id) : id;};function Event(e){	var oEvent = document.all ? window.event : e;	if (document.all) {		if(oEvent.type == "mouseout") {			oEvent.relatedTarget = oEvent.toElement;		}else if(oEvent.type == "mouseover") {			oEvent.relatedTarget = oEvent.fromElement;		}	}	return oEvent;}function addEventHandler(oTarget, sEventType, fnHandler) {	if (oTarget.addEventListener) {		oTarget.addEventListener(sEventType, fnHandler, false);	} else if (oTarget.attachEvent) {		oTarget.attachEvent("on" + sEventType, fnHandler);	} else {		oTarget["on" + sEventType] = fnHandler;	}};var Class = {  create: function() {    return function() {      this.initialize.apply(this, arguments);    }  }}Object.extend = function(destination, source) {    for (var property in source) {        destination[property] = source[property];    }    return destination;}var GlideView = Class.create();GlideView.prototype = {  //容器对象 容器宽度 展示标签 展示宽度  initialize: function(obj, iWidth, sTag, iMaxWidth, options) {    var oContainer = $$(obj), oThis=this, len = 0;		this.SetOptions(options);		this.Step = Math.abs(this.options.Step);	this.Time = Math.abs(this.options.Time);	this.Showtext = false;//是否显示说明文本		this._list = oContainer.getElementsByTagName(sTag);	len = this._list.length;	this._count = len;	this._width = parseInt(iWidth / len);	this._width_max = parseInt(iMaxWidth);	this._width_min = parseInt((iWidth - this._width_max) / (len - 1));	this._timer = null;		//有说明文本	if(this.options.TextTag && this.options.TextHeight > 0){		this.Showtext = true;		this._text = oContainer.getElementsByTagName(this.options.TextTag);		this._height_text = -parseInt(this.options.TextHeight);	}		this.Each(function(oList, oText, i){		oList._target = this._width * i;//自定义一个属性放目标left		oList.style.left = oList._target + "px";		oList.style.position = "absolute";		addEventHandler(oList, "mouseover", function(){ oThis.Set.call(oThis, i); });				//有说明文本		if(oText){			oText._target = this._height_text;//自定义一个属性放目标bottom			oText.style.bottom = oText._target + "px";			oText.style.position = "absolute";		}	})		//容器样式设置	oContainer.style.width = iWidth + "px";	oContainer.style.overflow = "hidden";	oContainer.style.position = "relative";	//移出容器时返回默认状态	addEventHandler(oContainer, "mouseout", function(e){		//变通防止执行oList的mouseout		var o = Event(e).relatedTarget;		if (oContainer.contains ? !oContainer.contains(o) : oContainer != o && !(oContainer.compareDocumentPosition(o) & 16)) oThis.Set.call(oThis, -1);	})  },  //设置默认属性  SetOptions: function(options) {    this.options = {//默认值		Step:			20,//滑动变化率		Time:			20,//滑动延时		TextTag:		"",//说明容器tag		TextHeight:		0//说明容器高度    };    Object.extend(this.options, options || {});  },  //相关设置  Set: function(index) {	if (index < 0) {		//鼠标移出容器返回默认状态		this.Each(function(oList, oText, i){ oList._target = this._width * i; if(oText){ oText._target = this._height_text; } })	} else {		//鼠标移到某个滑动对象上		this.Each(function(oList, oText, i){			oList._target = (i <= index) ? this._width_min * i : this._width_min * (i - 1) + this._width_max;			if(oText){ oText._target = (i == index) ? 0 : this._height_text; }		})	}	this.Move();  },  //移动  Move: function() {	clearTimeout(this._timer);	var bFinish = true;//是否全部到达目标地址	this.Each(function(oList, oText, i){		var iNow = parseInt(oList.style.left), iStep = this.GetStep(oList._target, iNow);		if (iStep != 0) { bFinish = false; oList.style.left = (iNow + iStep) + "px"; }		//有说明文本		if (oText) {			iNow = parseInt(oText.style.bottom), iStep = this.GetStep(oText._target, iNow);			if (iStep != 0) { bFinish = false; oText.style.bottom = (iNow + iStep) + "px"; }		}	})	//未到达目标继续移动	if (!bFinish) { var oThis = this; this._timer = setTimeout(function(){ oThis.Move(); }, this.Time); }  },  //获取步长  GetStep: function(iTarget, iNow) {	var iStep = (iTarget - iNow) / this.Step;	if (iStep == 0) return 0;	if (Math.abs(iStep) < 1) return (iStep > 0 ? 1 : -1);	return iStep;  },  Each:function(fun) {	for (var i = 0; i < this._count; i++)		fun.call(this, this._list[i], (this.Showtext ? this._text[i] : null), i);  }};</script>
+  <style type="text/css"><!--a{	text-decoration:none;	color: #00F;}.body {	font-size: 12px;	background-color: #FC6;	margin:auto;	width:980px;	float:none;	vertical-align: middle;	}#header{	width:980px;	float:left;	height:auto;		 background:; 	background-color: #FFF;}#logo-left{	font-family: "宋体", "华文细黑", "华文中宋";	font-size:14px;	float:left}#logo-right{font:"宋体", "华文细黑", "华文中宋";            font-size:14px;            float:right;            text-align:right;            text-decoration:none}#logo-bottom{	font-family: "华文楷体", "华文隶书", "宋体", "华文细黑", "华文中宋";	font-size:24px;	width:980px;	height:auto;	font-style:normal;	font-weight: bolder;	color: #000;	text-align:center;	float:left;	background-color: #FCF;	border: medium 1px #03F;}#menu{POSITION: relative;      MIN-WIDTH: 950px;      MARGIN: 1px auto;	  WIDTH: 980px;	  CLEAR: both;	  text-align:center;	 }#menu DIV {	BACKGROUND-COLOR: #3CF;	MARGIN: 2px 0px 0px;	WIDTH: 100%;	FLOAT: left;	font-weight: bold;	right: auto;}#menu UL {	LIST-STYLE: none none outside;	MARGIN: 0px;	DISPLAY: inline;	FLOAT: none}#menu UL LI {	BORDER-BOTTOM: #fff 0px solid;	BORDER-LEFT: #fff 0px solid;	DISPLAY: block;	FLOAT: left;	BORDER-TOP: #fff 0px solid;	BORDER-RIGHT: #fff 0px solid}#menu UL LI A {	PADDING-BOTTOM: 4px; 	LINE-HEIGHT: 1.8em; 	PADDING-LEFT: 13px; 	PADDING-RIGHT: 13px;	COLOR: #fff;	FONT-SIZE: small;	TEXT-DECORATION: none;	PADDING-TOP: 5px}#menu UL LI A:hover {	COLOR: red}#menu UL LI A.current {	COLOR: red}.content{width:980px;         height:auto;         float:left;}#huandeng{float:left;          width:490px;		  height:auto}#news{float:right;width:490px;height:auto}#news-top{	background-image:url(pic/lanmu2.gif);	width:490px;	height:45px;	float:left;	font-size: 26px;	font-weight: bolder;}#news-content{	float:left;	font-family:"宋体", "华文细黑", "华文中宋";	font-size:14px;	width:490px;	height:250;        letter-spacing:0.5mm;	line-height: 20px;	text-decoration: none;}#yuhuigaoxiao{float:left;font-size:14px;width:980px;height:auto}#yuhuigaoxiao-table-tr{	font-size:12px;	font-weight:normal;	color:#400000}#yuhuiqiye{float:left;font-size:14px;width:980px;height:auto}#jingcaizaixian{float:left;width:980px;height:auto}#jingcaizaixian-gundong{	float:left;	width:980px;	height:auto;	text-align: center;}#dongtai{float:left;width:980px;height:auto}#xunjianggaoxiao{float:left;width:980px;height:auto}#xunjianggaoxiao-top{	float:left;	width:980px;	background-image:url(pic/lanmu.gif);	height:38px;	font-size: 26px;	font-weight: bolder;}#xunjianggaoxiao-content{border:#000 thin;font-size:14px;float:left;width:980px;height:auto;}#table{	font-size:14px;	text-align: center;}#table-tr{text-align:center;font-weight:bold;font-size:16px}#idGlideView {	float:left;	height:400px;	margin: 0 10px 0 10px;}#idGlideView div {	float:left;	width:500px;	height:350px;}#idGlideView div a {	width:500px;	height:20px;	filter: alpha(opacity=50);	opacity: 0.5;	color:#fff;	text-decoration:none;	background-color: #999;	font-weight: bold;	text-align: center;}-->	</style>
+  <div id="header"> 
+   <div id="logo-left">
+    <strong>指导单位:</strong>中华人民共和国工业和信息化部&nbsp;&nbsp;&nbsp;共青团中央&nbsp;&nbsp;&nbsp;
+    <strong>支持单位:</strong>教育部高等教育司
+    <br />
+    <strong>主办单位:</strong>
+    <a href="http://www.isc.org.cn/" target="_blank">中国互联网协会 </a>&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="http://cse.chinataiwan.org/2011/" target="_blank">中国台湾网 </a> 
+    <strong>主协办单位:</strong>
+    <a href="http://www.ccb.com/" target="_blank"><img style="BORDER-RIGHT-WIDTH: 0px; WIDTH: 90px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 19px; BORDER-LEFT-WIDTH: 0px" id="ctl00_Header1_Image2" src="pic/ccb.gif" /></a> 
+   </div> 
+   <div id="logo-right">
+    <a href="http://www.newwinner.cn/Login.aspx">用户登录</a> 
+    <a href="http://www.newwinner.cn/Register/reg.aspx">报名注册</a> 
+   </div> 
+   <!--<div id="logo-bottom">建行“e路通”杯首届海峡两岸大学生网络商务创新应用大赛<br>暨第四届全国大学生网络商务创新应用大赛</div><div id="menu"> <DIV>      <UL>        <LI><A href="http://www.newwinner.cn/">首页</A> </LI>        <LI ></LI>        <LI><A         href="http://www.newwinner.cn/Content/Introduce.aspx?id=7"target=_blank>大赛介绍</A>         </LI>        <LI class=menuDiv></LI>        <LI><A href="http://www.newwinner.cn/Content/Announcement.aspx?id=17"target=_blank>大赛动态</A> </LI>        <LI class=menuDiv></LI>        <LI><A href="http://www.newwinner.cn/Announcement/Announcement.aspx"target=_blank>赛事公告</A>  </LI>                <LI class=menuDiv></LI>        <LI><A href="http://www.newwinner.cn/Team/Default.aspx"target=_blank>团队风采</A> </LI>        <LI class=menuDiv></LI>        <LI><A href="http://www.newwinner.cn/BusinessProblem/trade.aspx">竞赛项目</A>  </LI>        <LI class=menuDiv></LI>        <LI><A href="http://www.newwinner.cn/Resources/ResourcesList.aspx"target=_blank>学习资源</A> </LI>        <LI class=menuDiv></LI>        <LI><A href="http://www.newwinner.cn/Project/Works.aspx"target=_blank>作品展示</A>         </LI>        <LI class=menuDiv></LI>        <LI><A href="http://www.newwinner.cn/BBS/">大赛论坛</A>       </LI></UL></DIV></DIV>--> 
+   <div>
+    <img src="pic/百场入校巡讲.jpg" width="980" height="300" alt="banner" /> 
+   </div>
+   <div class="content">
+    <div id="huandeng"> 
+     <script> var widths=450;              var heights=360;              var counts=6;  img1=new Image ();img1.src='pic/images/hainandaxue.jpg'; img2=new Image ();img2.src='pic/images/nanchangdaxue.jpg'; img3=new Image ();img3.src='pic/images/tianjindaxue.jpg'; img4=new Image ();img4.src='pic/images/gansunongda.jpg'; img5=new Image ();img5.src='pic/images/xinanminzudaxue.jpg'; img6=new Image ();img6.src='pic/images/huadongjiaoda.jpg'; url1=new Image ();url1.src='http://www.newwinner.cn/Content/Article.aspx?id=389'; url2=new Image ();url2.src='http://www.newwinner.cn/Content/Article.aspx?id=388'; url3=new Image ();url3.src='http://www.newwinner.cn/Content/Article.aspx?id=383'; url4=new Image ();url4.src='http://www.newwinner.cn/Content/Article.aspx?id=376';url5=new Image ();url5.src='http://www.newwinner.cn/Content/Article.aspx?id=371';url6=new Image ();url6.src='http://www.newwinner.cn/Content/Article.aspx?id=384';//var nn=1; var key=0; function change_img() {if(key==0){key=1;} else if(document.all) {document.getElementById("pic").filters[0].Apply();document.getElementById("pic").filters[0].Play(duration=2);} eval('document.getElementById("pic").src=img'+nn+'.src'); eval('document.getElementById("url").href=url'+nn+'.src'); for (var i=1;i <=counts;i++){document.getElementById("xxjdjj"+i).className='axx';} document.getElementById("xxjdjj"+nn).className='bxx'; nn++;if(nn>counts){nn=1;} tt=setTimeout('change_img()',4000);} function changeimg(n){nn=n;window.clearInterval(tt);change_img();} document.write(' <style>'); document.write('.axx{padding:1px 7px;border-left:#cccccc 1px solid;}'); document.write('a.axx:link,a.axx:visited{text-decoration:none;color:#fff;line-height:12px;font:9px sans-serif;background-color:#666;}'); document.write('a.axx:active,a.axx:hover{text-decoration:none;color:#fff;line-height:12px;font:9px sans-serif;background-color:#999;}'); document.write('.bxx{padding:1px 7px;border-left:#cccccc 1px solid;}'); document.write('a.bxx:link,a.bxx:visited{text-decoration:none;color:#fff;line-height:12px;font:9px sans-serif;background-color:#D34600;}'); document.write('a.bxx:active,a.bxx:hover{text-decoration:none;color:#fff;line-height:12px;font:9px sans-serif;background-color:#D34600;}'); document.write(' </style>'); document.write(' <div style="width:'+widths+'px;height:'+heights+'px;overflow:hidden;text-overflow:clip;">'); document.write(' <div> <a id="url"> <img id="pic" style="border:0px;filter:progid:dximagetransform.microsoft.wipe(gradientsize=1.0,wipestyle=4, motion=forward)" width='+widths+' height='+heights+' /> </a> </div>'); document.write(' <div style="filter:alpha(style=1,opacity=10,finishOpacity=80);background: #888888;width:100%-2px;text-align:right;top:-12px;position:relative;margin:1px;height:12px;padding:0px;margin:0px;border:0px;">'); for(var i=1;i <counts+1;i++){document.write(' <a href="javascript:changeimg('+i+');" id="xxjdjj'+i+'" class="axx" target="_self">'+i+' </a>');} document.write(' </div> </div>'); change_img(); </script>
+    </div>
+    <div id="news">
+     <div id="news-top">
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 最新动态
+     </div>
+     <div id="news-content">
+      <p style="font-weight:bold;font-size:16px">☆大赛巡讲团走进沈阳工业大学</p>&nbsp;&nbsp;&amp;nbsp4月11日晚6点,“e路通”杯大学生网络商务创新应用大赛巡讲在沈阳工业大学生活动中心109举行。建设银行辽宁省分行电子银行部高级经理陈春祥以及铁西分行部分职员进行了此次巡讲,沈阳工业大学部分学院学生聆听了此次巡讲。...
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=450" target="_blank">了解详情</a>
+      <img src="pic/ss.gif" width="16" height="10" />
+      <p align="center">------------------------------------------------------</p>
+      <p style="font-weight:bold;font-size:16px">☆大赛巡讲团走进上海医疗器械高等专科学校</p>&nbsp; &nbsp;&nbsp;2011年3月底,在指导老师积极的组织和上届参赛队员积极参与下,于学校大礼堂举行了“e路通”大赛动员暨新老参赛队员交流会。...
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=449" target="_blank">了解详情</a>
+      <img src="pic/ss.gif" width="16" height="10" />
+      <!--<a href="http://www.newwinner.cn/Content/Announcement.aspx?id=17" target="_blank" >更多>>&nbsp;</a><br style="text-align:right" />-->
+     </div>
+    </div>
+   </div>
+   <div id="jingcaizaixian">
+    <div id="xunjianggaoxiao-top">
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;高校领导及老师风采
+    </div>
+    <div id="yuhuigaoxiao">
+     &nbsp; 
+     <table width="960" border="1" cellspacing="0" cellpadding="0" bordercolor="#CCCCCC" align="center" background="pic/table-bg.jpg" ice:repeatinggroup="down"> 
+      <tbody>
+       <tr> 
+        <td width="128" height="99" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls001.jpg" /></td> 
+        <td width="138" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls002.jpg" /></td> 
+        <td width="139" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls003.jpg" /></td> 
+        <td width="144" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls004.jpg" /></td> 
+        <td width="141" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls005.jpg" /></td> 
+        <td width="137" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls006.jpg" /></td> 
+        <td width="137" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls007.jpg" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">安徽大学经济学院杨俊龙院长</td> 
+        <td align="center" valign="top">蚌埠学院同之虎院长</td> 
+        <td align="center" valign="top">北京科技经营管理学院副院长尚贵先生</td> 
+        <td align="center" valign="top">东建筑大学商学院党总支书记胡宁</td> 
+        <td align="center" valign="top">山东建筑大学商学院副院长于承新教授</td> 
+        <td align="center" valign="top">山东交通学院团委书记闫淼</td> 
+        <td align="center" valign="top">中国农业大学陈宝峰副院长</td> 
+       </tr> 
+       <tr> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls008.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls009.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls010.jpg" width="107" height="95" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls011.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls017.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls020.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls021.jpg" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">中国传媒大学传播科技研究所所长夏征宇</td> 
+        <td align="center" valign="top">传媒大学信息工程学院新媒体研究室主任曹三省</td> 
+        <td align="center" valign="top">上海师范大学商学院朱德通院长</td> 
+        <td align="center" valign="top">建桥学院商贸系主任周英芬</td> 
+        <td align="center" valign="top">南京工业大学管理科学与工程学院张瑞荣书记</td> 
+        <td align="center" valign="top">北京联合大学管理学院书记尹庆民教授</td> 
+        <td align="center" valign="top">北京联合大学电子商务教研部主任薛万欣教授</td> 
+       </tr>
+      </tbody>
+     </table>&nbsp;
+     <br />
+     <table width="960" border="1" cellspacing="0" cellpadding="0" bordercolor="#CCCCCC" align="center" background="pic/table-bg.jpg"> 
+      <tbody>
+       <tr> 
+        <td width="128" height="99" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls037.jpg" /></td> 
+        <td width="138" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls043.jpg" /></td> 
+        <td width="139" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls040.jpg" /></td> 
+        <td width="144" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls041.jpg" /></td> 
+        <td width="141" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls024.jpg" /></td> 
+        <td width="137" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls025.jpg" /></td> 
+        <td width="137" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls026.jpg" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">广西民族大学商学院副院长旷乾博士处</td> 
+        <td align="center" valign="top">九江学院商学院副院长郑孝庭</td> 
+        <td align="center" valign="top">济南大学管理学院党委副书记、副院长李祥印</td> 
+        <td align="center" valign="top">济南大学管理学院团委书记李玉龙</td> 
+        <td align="center" valign="top">西安邮电学院崔智林副校长</td> 
+        <td align="center" valign="top">西安邮电学院教务处樊相宇处长</td> 
+        <td align="center" valign="top">西安邮电学院经管理学院院长张鸿教授</td> 
+       </tr> 
+       <tr> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls034.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls028.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls030.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls018.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls014.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls015.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/ls012.jpg" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">广西民族大学商学院党委谢焕文书记</td> 
+        <td align="center" valign="top">湖南师范大学副校长龚维忠</td> 
+        <td align="center" valign="top">湖南师范大学教务处处长杨小云教授</td> 
+        <td align="center" valign="top">北京市供销学校白彦婷副校长</td> 
+        <td align="center" valign="top">渤海大学文理学院副院长梁文宏</td> 
+        <td align="center" valign="top">辽宁信息职业学院工商管理系主任全洪臣</td> 
+        <td align="center" valign="top">苏州大学商学院副院长党委副书记杨青先生</td> 
+       </tr>
+      </tbody>
+     </table>&nbsp;
+     <br />
+     <table width="960" border="1" cellspacing="0" cellpadding="0" bordercolor="#CCCCCC" align="center" background="pic/table-bg.jpg"> 
+      <tbody>
+       <tr> 
+        <td width="128" height="99" align="center" valign="top"><img src="pic/北京林业大学校长助理兼经济管理学院党委书记张卫民教授.jpg" width="92" height="92" alt="北京林业大学校长助理兼经济管理学院党委书记张卫民教授" /></td> 
+        <td width="138" align="center" valign="top"><img src="pic/甘肃农业大学人文学院党委副书记、副院长韩旭峰.jpg" width="92" height="92" alt="甘肃农业大学人文学院党委副书记、副院长韩旭峰" /></td> 
+        <td width="139" align="center" valign="top"><img src="pic/甘肃农业大学实践教学科科长刘青林.jpg" width="92" height="93" /></td> 
+        <td width="144" align="center" valign="top"><img src="pic/IMG_0696.JPG" width="92" height="92" alt="昌大学信息工程学院团委书记龙昆" /></td> 
+        <td width="141" align="center" valign="top"><img src="pic/IMG_0758.JPG" width="92" height="87" /></td> 
+        <td width="137" align="center" valign="top"><img src="pic/广西民族大学商学院副院长廖东升.jpg" width="92" height="93" /></td> 
+        <td width="137" align="center" valign="top"><img src="pic/xc09.jpg" width="92" height="92" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">北京林业大学经管学院党委书记张卫民</td> 
+        <td align="center" valign="top">甘肃农业大学人文学院党委副书记副院长韩旭峰</td> 
+        <td align="center" valign="top">甘肃农业大学实践教学科科长刘青林</td> 
+        <td align="center" valign="top">南昌大学信息工程学院团委书记龙昆 </td> 
+        <td align="center" valign="top">南昌大学信息工程系主任龚花萍</td> 
+        <td align="center" valign="top">广西民族大学商学院副院长廖东升</td> 
+        <td align="center" valign="top">天津大学管理学院系副主任高宏</td> 
+       </tr>
+       <tr> 
+        <td width="128" height="99" align="center" valign="top"><img src="pic/内蒙古财经学院计算机信息管理学院党总支副书记李俊业.jpg" width="92" height="92" alt="内蒙古财经学院计算机信息管理学院党总支副书记李俊业" /></td> 
+        <td width="138" align="center" valign="top"><img src="pic/内蒙古财经学院计算机信息管理学院电子商务系主任杜宏副教授.jpg" width="92" height="92" alt="内蒙古财经学院计算机信息管理学院电子商务系主任杜宏副教授" /></td> 
+        <td width="139" align="center" valign="top"><img src="pic/内蒙古财经学院计算机信息管理学院团总支书记钱卫华.jpg" width="92" height="93" /></td> 
+        <td width="144" align="center" valign="top"><img src="pic/青海大学昆仑学院副院长唐于峰.jpg" width="92" height="92" alt="青海大学昆仑学院副院长唐于峰" /></td> 
+        <td width="141" align="center" valign="top"><img src="pic/青海大学昆仑学院团委书记钞海峰.jpg" width="92" height="87" /></td> 
+        <td width="137" align="center" valign="top"><img src="pic/山东职业学院管理系党委书记汤华东.jpg" width="92" height="93" /></td> 
+        <td width="137" align="center" valign="top">&nbsp;
+         <!--<img src="pic/xc09.jpg" width="92" height="92" />--></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">内蒙古财经学院信管学院党总支副书记李俊业</td> 
+        <td align="center" valign="top">内蒙古财经学院信管学院电商系主任杜宏副教授</td> 
+        <td align="center" valign="top">内蒙古财经学院信管学院团总支书记钱卫华</td> 
+        <td align="center" valign="top">青海大学昆仑学院副院长唐于峰教授</td> 
+        <td align="center" valign="top">青海大学昆仑学院团委书记钞海峰</td> 
+        <td align="center" valign="top">山东职业学院管理系党委书记汤华东</td> 
+        <td align="center" valign="top">&nbsp;</td> 
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+   <div id="jingcaizaixian">
+    <div id="xunjianggaoxiao-top">
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;企业领导及教官风采
+    </div>
+    <div id="yuhuiqiye">
+     &nbsp;
+     <br />
+     <table width="960" border="1" cellspacing="0" cellpadding="0" bordercolor="#CCCCCC" align="center" background="pic/table-bg.jpg"> 
+      <tbody>
+       <tr> 
+        <td width="128" height="99" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy001.jpg" /></td> 
+        <td width="138" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy002.jpg" /></td> 
+        <td width="139" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy003.jpg" /></td> 
+        <td width="144" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy004.jpg" width="103" height="95" /></td> 
+        <td width="141" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy048.jpg" /></td> 
+        <td width="137" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy050.jpg" /></td> 
+        <td width="137" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy051.jpg" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">安徽省分行电子银行部姜俊副总经理</td> 
+        <td align="center" valign="top">建行安徽分行电子银行部汪骏总经理</td> 
+        <td align="center" valign="top">建行安徽分行行长助理杨学军</td> 
+        <td align="center" valign="top">建行电子银行部经理张宁</td> 
+        <td align="center" valign="top">建行山东分行电子银行部刘英杰经理</td> 
+        <td align="center" valign="top">移动飞信山东营销经理梁铕辰先生</td> 
+        <td align="center" valign="top">建行九江分行电子银行部陈铮经理</td> 
+       </tr> 
+       <tr> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy045.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy047.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy043.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy036.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy042.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy034.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy029.jpg" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">建行广西分行电子银行部罗红春经理</td> 
+        <td align="center" valign="top">建设银行青岛分行曹祥红经理</td> 
+        <td align="center" valign="top">建设银行广西区分行高级专务曾子红 </td> 
+        <td align="center" valign="top">建行辽宁分行电子银行部经理李娜</td> 
+        <td align="center" valign="top">建设银行湖南省分行副行长陈二尧</td> 
+        <td align="center" valign="top">建设银行电子银行部经理谢斌先生</td> 
+        <td align="center" valign="top">建行辽宁分行电子银行部刘冬谨经理</td> 
+       </tr>
+      </tbody>
+     </table>&nbsp;
+     <br />
+     <table width="960" border="1" cellspacing="0" cellpadding="0" bordercolor="#CCCCCC" align="center" background="pic/table-bg.jpg"> 
+      <tbody>
+       <tr> 
+        <td width="128" height="99" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy031.jpg" /></td> 
+        <td width="138" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy023.jpg" /></td> 
+        <td width="139" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy015.jpg" /></td> 
+        <td width="144" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy019.jpg" width="103" height="95" /></td> 
+        <td width="141" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy010.jpg" /></td> 
+        <td width="137" align="center" valign="top"><img src="pic/海尔商城总经理宋宝爱.jpg" width="92" height="93" /></td> 
+        <td width="137" align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy014.jpg" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">建行江苏分行电子银行部的张舒经理</td> 
+        <td align="center" valign="top">建行苏州分行电子银行产品部沈烨经理</td> 
+        <td align="center" valign="top">建行上海分行电子银行部许建成经理</td> 
+        <td align="center" valign="top">建行福建分行电子银行部郑挺经理</td> 
+        <td align="center" valign="top">移动飞信营销经理李卫卫</td> 
+        <td align="center" valign="top">海尔商城总经理宋宝爱</td> 
+        <td align="center" valign="top">中国移动飞信营销经理张继元</td> 
+       </tr> 
+       <tr> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy018.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy021.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy025.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy028.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy027.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy044.jpg" /></td> 
+        <td align="center" valign="top"><img src="http://www.newwinner.cn/2009/stresses/images/qy035.jpg" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">中国移动飞信刘俊杰经理</td> 
+        <td align="center" valign="top">移动飞信营销经理陈卉经理</td> 
+        <td align="center" valign="top">西祠胡同苏州市场经理赵峰先生</td> 
+        <td align="center" valign="top">中国移动飞信营销经理高宾</td> 
+        <td align="center" valign="top">西祠胡同媒介合作部经理苏红钢</td> 
+        <td align="center" valign="top">移动飞信广西营销经理郭迪坚先生</td> 
+        <td align="center" valign="top">中国移动飞信营销经理张文佳先生</td> 
+       </tr>
+      </tbody>
+     </table>&nbsp;
+     <br />
+     <table width="960" border="1" cellspacing="0" cellpadding="0" bordercolor="#CCCCCC" align="center" background="pic/table-bg.jpg"> 
+      <tbody>
+       <tr> 
+        <td width="128" height="99" align="center" valign="top"><img src="pic/凡客诚品网站联盟总监郗苹先生.jpg" width="92" height="92" alt="凡客诚品网站联盟总监郗苹先生" /></td> 
+        <td width="138" align="center" valign="top"><img src="pic/敦煌网高级讲师杨杨先生.JPG" width="92" height="92" /></td> 
+        <td width="139" align="center" valign="top"><img src="pic/中国建设银行北京分行电子银行部对私业务部经理孙坚先生.JPG" width="92" height="92" alt="中国建设银行北京分行电子银行部对私业务部经理孙坚" /></td> 
+        <td width="144" align="center" valign="top"><img src="pic/中国移动飞信西北地区负责人庞磊.jpg" width="92" height="92" /></td> 
+        <td width="141" align="center" valign="top"><img src="pic/建行甘肃省行电子银行部客户部杨丽娟.jpg" width="92" height="92" alt="建行甘肃省行电子银行部客户部杨丽娟" /></td> 
+        <td width="137" align="center" valign="top"><img src="pic/海尔集团倪晶品.jpg" width="92" height="92" alt="海尔集团倪晶品" /></td> 
+        <td width="137" align="center" valign="top"><img src="pic/海尔集团团委书记刘大林.jpg" width="92" height="92" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">凡客诚品网站联盟总监郗苹</td> 
+        <td align="center" valign="top">敦煌网高级讲师杨杨</td> 
+        <td align="center" valign="top">建行北京分行电子银行部经理孙坚</td> 
+        <td align="center" valign="top">中国移动飞信西北地区负责人庞磊</td> 
+        <td align="center" valign="top">建行甘肃省行电子银行部客户部杨丽娟</td> 
+        <td align="center" valign="top">海尔集团倪晶品</td> 
+        <td align="center" valign="top">海尔集团团委书记刘大林</td> 
+       </tr>
+       <tr> 
+        <td width="128" height="99" align="center" valign="top"><img src="pic/建行济南地区经营管理部经理韩昱.jpg" width="92" height="92" alt="建行济南地区经营管理部经理韩昱" /></td> 
+        <td width="138" align="center" valign="top"><img src="pic/建设银行内蒙古分行电子银行部产品经理左苑.jpg" width="92" height="92" /></td> 
+        <td width="139" align="center" valign="top"><img src="pic/建设银行内蒙古分行电子银行部客户经理吕娟娟.JPG" width="92" height="92" alt="建设银行内蒙古分行电子银行部客户经理吕娟娟" /></td> 
+        <td width="144" align="center" valign="top"><img src="pic/青海省分行电子银行部韩璐经理.jpg" width="92" height="92" /></td> 
+        <td width="141" align="center" valign="top"><img src="pic/中国建设银行青海分行城北支行喇颖经理.jpg" width="92" height="92" alt="中国建设银行青海分行城北支行喇颖经理" /></td> 
+        <td width="137" align="center" valign="top"><img src="pic/中国建设银行青海省分行电子银行部金婧经理.jpg" width="92" height="92" alt="中国建设银行青海省分行电子银行部金婧经理" /></td> 
+        <td width="137" align="center" valign="top"><img src="pic/郑之.jpg" width="92" height="92" alt="中国建设银行青海省分行电子银行部金婧经理" /></td> 
+       </tr> 
+       <tr id="yuhuigaoxiao-table-tr"> 
+        <td align="center" valign="top">建行济南地区经营管理部经理韩昱</td> 
+        <td align="center" valign="top">建设银行内蒙古分行电子银行部产品经理左苑</td> 
+        <td align="center" valign="top">建设银行内蒙古分行电子银行部客户经理吕娟娟</td> 
+        <td align="center" valign="top">建行青海省分行电子银行部韩璐经理</td> 
+        <td align="center" valign="top">建行青海分行城北支行喇颖经理</td> 
+        <td align="center" valign="top">建行青海省分行电子银行部金婧经理</td> 
+        <td align="center" valign="top">建设银行海南支行副行长郑之</td> 
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+   <div id="xunjianggaoxiao">
+    <div id="xunjianggaoxiao-top">
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;入校巡讲活动高校
+    </div>
+    <div id="xunjianggaoxiao-content">
+     <table width="960" border="0" align="center" cellpadding="0" cellspacing="0" id="table"> 
+      <tbody>
+       <tr style="text-align:left;font-size:14px; "> 
+        <td align="left"><p style="line-height:20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自三月份以来,大赛入校巡讲活动热火朝天的进行着。全国各大高校积极响应,纷纷积极举办大赛入校巡讲活动、校企交流。截止到3月31日,已经开展入校巡讲活动35场,分赛区启动仪式4场,全国总启动仪式于3月24日正式拉开帷幕。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下为举办入校巡讲活动的高校名单(<font color="#FF0000">不断更新中</font>):</p></td> 
+       </tr>
+      </tbody>
+     </table>
+     <table width="635" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC"> 
+      <tbody>
+       <tr id="table-tr"> 
+        <td width="167">高校名称</td> 
+        <td width="95">入校时间</td> 
+        <td width="278">入校形式</td> 
+        <td width="72">备注</td> 
+       </tr> 
+       <tr> 
+        <td align="center">南昌大学科技学院</td> 
+        <td align="center">1月8日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=283" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">南昌航空大学</td> 
+        <td align="center">2月25日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=340" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">江西赣江职业技术学院</td> 
+        <td align="center">3月1日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/#" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">江西城市职业学院</td> 
+        <td align="center">3月4日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">南京工业大学</td> 
+        <td align="center">3月7日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">河北金融学院</td> 
+        <td align="center">3月10日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/#" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">河北大学</td> 
+        <td align="center">3月10日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/#" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">河北软件职业技术学院</td> 
+        <td align="center">3月10日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">九江学院</td> 
+        <td align="center">3月11日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">南京航空航天大学</td> 
+        <td align="center">3月10日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">西安邮电学院</td> 
+        <td align="center">3月15日</td> 
+        <td align="center">西北赛区启动仪式、 校企交流 、入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">广西民族大学</td> 
+        <td align="center">3月15日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">西南民族大学</td> 
+        <td align="center">3月16日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">河北大学工商学院</td> 
+        <td align="center">3月17日</td> 
+        <td align="center">华北赛区启动仪式、校企交流、入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">甘肃农业大学</td> 
+        <td align="center">3月17日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">首都师范大学</td> 
+        <td align="center">3月17日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">厦门理工学院</td> 
+        <td align="center">3月16日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">南京理工大学</td> 
+        <td align="center">3月18日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">天津大学</td> 
+        <td align="center">3月18日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">华东交通大学</td> 
+        <td align="center">3月17日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">贵州财经学院</td> 
+        <td align="center">3月17日</td> 
+        <td align="center">西南赛区启动仪式、校企交流、入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">吉林大学</td> 
+        <td align="center">3月19日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">长安大学</td> 
+        <td align="center">3月18日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">南昌大学</td> 
+        <td align="center">3月13日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">海南大学</td> 
+        <td align="center">3月18日</td> 
+        <td align="center">入校巡讲、校企交流</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">电子科技大学中山学院</td> 
+        <td align="center">3月23日</td> 
+        <td align="center">两广赛区启动仪式、校企交流、入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">北京师范大学</td> 
+        <td align="center">3月24日</td> 
+        <td align="center">全国启动仪式、校企交流</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">北京交通大学</td> 
+        <td align="center">3月24日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">潍坊学院</td> 
+        <td align="center">3月26日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">江西理工大学应用科技学院</td> 
+        <td align="center">3月25日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">海南师范大学</td> 
+        <td align="center">3月25日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=435" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">北京林业大学</td> 
+        <td align="center">3月28日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr> 
+       <tr> 
+        <td align="center">内蒙古财经学院</td> 
+        <td align="center">3月17日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=351" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">山东职业学院</td> 
+        <td align="center">3月29日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=429" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">哈尔滨商业大学广厦学院</td> 
+        <td align="center">3月30日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/#" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">青海大学昆仑学院</td> 
+        <td align="center">3月31日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=430" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">北京邮电大学世纪学院</td> 
+        <td align="center">3月31日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=433" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">吕梁学院</td> 
+        <td align="center">3月31日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=434" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">上海医疗器械高等专科学校</td> 
+        <td align="center">3月31日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=449" target="_blank">查看详情</a></td> 
+       </tr>
+       <tr> 
+        <td align="center">沈阳工业大学</td> 
+        <td align="center">4月11日</td> 
+        <td align="center">入校巡讲</td> 
+        <td align="center"><a href="http://www.newwinner.cn/Content/Article.aspx?id=450" target="_blank">查看详情</a></td> 
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+   <div id="jingcaizaixian">
+    <div id="xunjianggaoxiao-top">
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;精彩再现
+    </div>
+    <div>
+     &nbsp;
+    </div>
+    <div id="idGlideView"> 
+     <div style="background-image:url(pic/images/gansunongda.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=376">甘肃农业大学活动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/xinanminzudaxue.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=371">西南民族大学合影留念</a> 
+     </div> 
+     <div style="background-image:url(pic/images/hainandaxue.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=389">海南大学互动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/nanchangdaxue.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=388">南昌大学活动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/tianjindaxue.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=383">天津大学活动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/huadongjiaotongdaxue.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=384">座无虚席的华东交通大学</a> 
+     </div> 
+     <div style="background-image:url(pic/images/beijinglinyedaxue.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=421">北京林业大学活动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/hebeiruanjian.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=360">河北软件职业学院活动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/nanjinghangkong.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=366">南京航空航天大学活动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/xiamenligong.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=381">厦门理工学院会后留念</a> 
+     </div> 
+     <div style="background-image:url(pic/images/changandaxue.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=387">长安大学活动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/qinghaidaxuekunlun.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=387">青海大学昆仑学院活动现场</a> 
+     </div> 
+     <div style="background-image:url(pic/images/neimenggucaijing.jpg)"> 
+      <a href="http://www.newwinner.cn/Content/Article.aspx?id=387">内蒙古财经学院活动现场</a> 
+     </div>
+    </div>
+    <script>var gv = new GlideView("idGlideView", 960, "div", 500, { TextTag: "a", TextHeight: 50 });var oSel = $$("sel");for (var i = 0; i <= gv._count; i++) {	var op = document.createElement("OPTION");	op.value = i; op.innerHTML = "展开第" + (i + 1) + "个";	oSel.appendChild(op);}oSel.onchange = function(){ gv.Set(oSel.value); }$$("up").onclick = function(){ gv.Step -= 5; if(gv.Step <= 0) gv.Step = 1; };$$("down").onclick = function(){ gv.Step += 5; if(gv.Step >= 500) gv.Step = 50; };$$("stop").onclick = function(){ clearTimeout(gv._timer); };$$("start").onclick = function(){ gv.Move(); };$$("close").onclick = function(){ gv.Step = 1; };$$("open").onclick = function(){ gv.Step = gv.options.Step; };$$("hide").onclick = function(){ gv.Showtext = false; };$$("show").onclick = function(){ gv.Showtext = true; };var t = null, i = -1;$$("auto").onclick = function(){ clearInterval(t);t=setInterval(function(){ if(++i>gv._count) i=0; gv.Set(i); }, 1000); };$$("cancel").onclick = function(){ clearInterval(t);gv.Set(-1); };</script>
+   </div>
+   <div id="jingcaizaixian">
+    <div id="xunjianggaoxiao-top">
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;媒体聚焦
+    </div>
+    <div id="jingcaizaixian-gundong">
+     <p style="color: #900; font-size:14px; text-align:center; font-weight:; font-weight: bold;">中国台湾网 光明日报 和讯网 新华社 人民日报 中国网 中国人民广播电台 央视国际 中国教育电视台 第一财经日报 中华工商时报 环球时报 <br />中国教育报 光明日报 参考消息 中国产经新闻 中国经济时报 中国网友报 计算机世界 电脑商情报 中国大学生就业 互联网天地 新浪 搜狐 腾讯 和讯 网易 天极网</p> 
+    </div>
+   </div>
+   <div align="center">
+    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   </div>
+   <div id="bottom">
+    <p align="center">本网站之所有文字、图片、及商业问题、学生作品等,未经大赛组委会书面授权不得转载。<br />Copyright &copy; 2007-2011 newwinner.cn All Rights Reserved.<a href="http://www.miibeian.gov.cn/" target="_blank"> 京ICP备11002229号</a></p> 
+   </div>
+  </div>
+ </body>
+</html>

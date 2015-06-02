@@ -31,6 +31,13 @@
                         </button>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="<%=request.getContextPath()%>/index.jsp"><h4>主页</h4></a></li>
+                            <li><a href="#" onclick="system()"><h4>系统</h4></a></li>
+                            <li><a href="<%=request.getContextPath()%>/setting.jsp"><h4>设置</h4></a></li>
+                            <li><a href="<%=request.getContextPath()%>/manager.jsp"><h4>用户管理</h4></a></li>
+                            <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
+                        </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
                             <li class="dropdown">

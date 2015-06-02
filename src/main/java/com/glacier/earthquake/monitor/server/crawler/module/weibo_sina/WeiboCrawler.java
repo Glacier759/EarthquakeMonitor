@@ -17,6 +17,8 @@ import org.jsoup.select.Elements;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by glacier on 15-5-2.
@@ -129,9 +131,21 @@ public class WeiboCrawler extends Crawler {
 
                         //进行过滤条件判断
                         boolean ans = true;
-                        for ( String keyword : keywords ) {
+                        String base = "(.*)";
+                        for (String keyword : keywords) {
+                            base += keyword + "(.*)";
                             ans = ans && weiboText.text().contains(keyword);
                         }
+
+                        Pattern pattern = Pattern.compile(base);
+                        Matcher matcher = pattern.matcher(weiboText.toString());
+                        if ( matcher.find() ) {
+                            logger.info("[正则匹配] - 正则匹配成功 " + weiboDiv.attr("id"));
+                        } else {
+                            logger.info("[正则匹配] - 正则匹配失败 " + weiboDiv.attr("id"));
+                            ans = false;
+                        }
+
                         //如果ans为true则表示当前微博符合过滤规则
                         if ( ans ) {
                             SpiderInfo spiderInfo = new SpiderInfo();
