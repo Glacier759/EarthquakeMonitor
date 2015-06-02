@@ -1,0 +1,1951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:user="http://dotnet.aspx.cc/">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>电信产业链整合模式探析--《西安邮电学院学报》2007年04期        </title> 
+  <meta http-equiv="mobile-agent" content="format=xhtml; url=http://wap.cnki.net/qikan-XAYD200704001.html" /> 
+  <meta name="keywords" content="电信产业链 电信运营商 整合模式" /> 
+  <meta name="autoKeywords" content="电信产业链 电信运营商 整合模式" /> 
+  <meta name="description" content="电信产业链 电信运营商 整合模式" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/detail0302.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/header.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/footer.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/window.css" rel="stylesheet" type="text/css" /> 
+ </head> 
+ <body>
+  <script language="javascript" type="text/javascript" src="http://qiangguo.cnki.net/cnki/js/adDetail1123.js"></script>
+  <div id="header948"> 
+   <div id="header948_t">
+    <a href="http://www.cnki.com.cn" id="logo"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjlogo.gif" width="396" height="56" border="0" /></a>
+    <a id="shoucang" href="javascript:addfavorite();">收藏本站</a>
+    <div id="header948_t_link">
+     <a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank" class="link1"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink1.gif" width="71" height="24" border="0" /></a>
+     <a href="http://card.cnki.net/" target="_blank" class="link2"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink2.gif" width="80" height="24" border="0" /></a>
+     <a href="http://vipcard.cnki.net/ec/cardintroduce.html" target="_blank" class="link1"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnkikjheaderlink9.gif" width="71" height="24" border="0" /></a>
+     <a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" target="_blank" class="link3"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink3.gif" width="71" height="24" border="0" /></a>
+     <div class="cl"></div>
+     <a href="http://card.cnki.net/" target="_blank" class="link4"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink4.gif" width="71" height="24" border="0" /></a>
+     <a href="http://www.cnki.net/software/xzydq.htm" target="_blank" class="link5"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink5.gif" width="80" height="24" border="0" /></a>
+     <a href=" http://ad.cnki.net/index.aspx" target="_blank" class="link4"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnkikjheaderlink8.gif" width="71" height="24" border="0" /></a>
+     <a href="http://en.cnki.com.cn/" target="_blank" class="link6"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink6.gif" width="71" height="24" border="0" /></a>
+    </div> 
+   </div> 
+   <div class="cl"></div> 
+   <div id="nav948"> 
+    <div id="nav948_left"></div> 
+    <div id="nav948_center"> 
+     <ul> 
+      <li><a href="http://www.cnki.com.cn" target="_blank" id="nava0" class="nava_1">首页</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cjfd"><a href="http://www.cnki.com.cn/CJFD/CJFD_index.htm" id="nava1" class="nava_2">期刊全文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cdmd"><a href="http://cdmd.cnki.com.cn/" id="nava2" class="nava_2">学位论文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cpfd"><a href="http://cpfd.cnki.com.cn/" id="nava3" class="nava_2">会议论文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://cyfd.cnki.com.cn/" target="_blank" id="nava4" class="nava_2">年鉴全文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://wiki.cnki.com.cn/" target="_blank" id="nava5" class="nava_2">学术百科</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://mall.cnki.net/reference/" target="_blank" id="nava6" class="nava_2">工具书</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://xuewen.cnki.net" target="_blank" id="nava7" class="nava_2">CNKI学问</a></li> 
+     </ul> 
+     <div class="menuctrl">
+      <span><a href="http://my.cnki.net/elibregister/CommonRegister.aspx" target="_blank">注册</a></span>
+      <span>|</span>
+      <span><a href="http://my.cnki.net/" target="_blank">登录</a></span>
+      <span>|</span>
+      <span><a href="http://my.cnki.net/" target="_blank">我的账户</a></span>
+     </div> 
+    </div> 
+    <div id="nav948_right"></div> 
+   </div> 
+   <div id="nav948_b">
+    <a href="http://www.cnki.com.cn/Navi/A.htm" target="_blank">基础科学</a>|
+    <a href="http://www.cnki.com.cn/Navi/B.htm" target="_blank">工程科技I辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/C.htm" target="_blank">工程科技II辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/E.htm" target="_blank">医药卫生科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/I.htm" target="_blank">信息科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/D.htm" target="_blank">农业科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/F.htm" target="_blank">哲学与人文科学</a>|
+    <a href="http://www.cnki.com.cn/Navi/G.htm" target="_blank">社会科学I辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/H.htm" target="_blank">社会科学II辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/J.htm" target="_blank">经济管理</a>
+   </div> 
+   <div id="header948_b"> 
+    <div id="header948_b_l"></div> 
+    <div id="header948_b_c"> 
+     <div id="search">
+      <input type="text" id="txt_word" size="57" name="txt_word" value="输入关键词" onkeydown="if(event.keyCode==13)document.getElementById('Button1').focus();" onmousedown="if(this.value=='输入关键词') this.value='';" />
+      <button id="Button1" onclick="detailSearch();"></button>
+      <button id="Button2" class="btnmaga" onclick="magazineSearch();"></button>
+      <div class="cl"></div> 
+      <div id="tips">
+       <a href="
+                      http://epub.cnki.net/kns/default.aspx?code=cjfd&amp;f=%E5%85%A8%E6%96%87&amp;kw=%E7%94%B5%E4%BF%A1%E4%BA%A7%E4%B8%9A%E9%93%BE %E7%94%B5%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86 " target="_blank" id="tips_c"><span><strong>高级搜索:</strong>用&quot; </span>电信产业链 电信运营商 <span>&quot;到知网平台检索,</span><b>点击这里搜索更多...</b></a>
+      </div> 
+     </div> 
+     <div id="headerbanner">
+      <a href="http://zhiku.cnki.net/Home/Corpus/66.html" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnki_index_top_right460.jpg" alt="中国知网.智库.食物禁忌" /></a>
+      <div style="display:none">
+       <script src="http://s27.cnzz.com/stat.php?id=1356416&amp;web_id=1356416&amp;show=pic1" language="javascript" charset="gb2312" type="text/javascript"></script>
+      </div> 
+     </div> 
+    </div> 
+    <div id="header948_b_r"></div> 
+   </div> 
+  </div>
+  <script language="javascript">      change_color();    </script>
+  <div id="content" style="width: 948px; margin: 0 auto;"> 
+   <div id="edff"></div> 
+   <div style="width:740px; float:left; margin-left:5px;"> 
+    <div> 
+     <div style="float:left;">
+      <a href="http://www.cnki.com.cn/Journal/I-I1-XAYD-2007-04.htm" target="_blank"><b> 《西安邮电学院学报》 </b><font color="#0080ff">2007年04期 </font></a>
+     </div> 
+     <div style="float:right;">
+      <a class="a05" href="#" onclick="return window.external.AddFavorite(document.location.href,'电信产业链整合模式探析');">加入收藏</a> 
+      <a class="a05" target="_blank" href="
+                    http://XAYD.cbpt.cnki.net
+                  ">投稿 </a>
+     </div> 
+    </div> 
+    <div style="text-align:center; width:740px; font-size: 28px;color: #0000a0; font-weight:bold; font-family:'宋体';"> 
+     <h1 class="xx_title">电信产业链整合模式探析</h1> 
+    </div> 
+    <div style="text-align:center; width:740px; height:30px;">
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E9%B8%BF" target="_blank">张鸿</a> &nbsp;
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E8%B6%85" target="_blank">张超</a> &nbsp;
+    </div> 
+    <div style="text-align:left;word-break:break-all" class="xx_font"> 
+     <font color="#000"><strong>【摘要】:</strong></font>本文从电信产业链的概念入手,通过对当前电信运营商产业链整合策略的分析,将其抽象为两种整合模式:虚拟一体化模式和虚拟一体化+内部一体化模式。并认为,前者是产业链整合的根本模式,后者则代表着未来电信产业链整合模式的发展趋势。最后对这两种模式进行了简要的分析。
+    </div> 
+    <div style="text-align:left;" class="xx_font"> 
+     <font color="#000"><strong>【作者单位】</strong></font>: 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=%E8%A5%BF%E5%AE%89%E9%82%AE%E7%94%B5%E5%AD%A6%E9%99%A2%E7%BB%8F%E6%B5%8E%E4%B8%8E%E8%B4%B8%E6%98%93%E7%B3%BB" target="_blank">西安邮电学院经济与贸易系</a> 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=%E8%A5%BF%E5%AE%89%E9%82%AE%E7%94%B5%E5%AD%A6%E9%99%A2%E7%BB%8F%E6%B5%8E%E4%B8%8E%E8%B4%B8%E6%98%93%E7%B3%BB" target="_blank">西安邮电学院经济与贸易系</a> 
+     <br />
+     <font color="#000"><strong>【关键词】</strong></font>: 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E7%94%B5%E4%BF%A1%E4%BA%A7%E4%B8%9A%E9%93%BE" target="_blank"><strong>电信产业链</strong></a> 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E7%94%B5%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86" target="_blank"><strong>电信运营商</strong></a> 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E6%95%B4%E5%90%88%E6%A8%A1%E5%BC%8F" target="_blank"><strong>整合模式</strong></a> 
+     <br />
+     <font color="#000"><strong>【基金】:</strong></font>
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91%E9%A1%B9%E7%9B%AE(70672109)" target="_blank">国家自然科学基金项目(70672109)</a> 
+     <br />
+     <font color="#000"><strong>【分类号】:</strong></font>F626
+     <br />
+     <font color="#000"><strong>【正文快照】:</strong></font> 
+     <div style="text-indent:2em;text-align:left;word-break:break-all">
+      引子随着3G时代的来临,中国发展3G是必然趋势,3G将成为我国运营商竞争的焦点。如何在3G时代取得稳定的市场地位,形成良好的竞争局面,推动我国电信事业更快发展,是各个运营商应该认真思考的首要问题(白传锋,2007)。有句话勾勒出电信产业未来竞争的真实面貌:“未来的竞争是价值
+     </div> 
+    </div> 
+    <div class="down" id="down_1" style="margin-left:120px;margin-top:20px;+margin-left:20px;"> 
+     <div id="down_tit">
+      <a class="downon" href="
+                    http://wap.cnki.net/gowapdetail.aspx?fn=XAYD200704001&amp;libn=CJFDTOTAL
+                  " target="_blank">下载全文 </a>
+      <a href="
+                        http://epub.cnki.net/kns/default.aspx?code=cjfd&amp;f=%E5%85%A8%E6%96%87&amp;kw=%E7%94%B5%E4%BF%A1%E4%BA%A7%E4%B8%9A%E9%93%BE %E7%94%B5%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86 " target="_blank" class="more"> 更多同类文献 </a>
+     </div> 
+     <div class="cl"></div> 
+     <div class="down_button" id="ty_pdf">
+      <a href="
+                    http://epub.cnki.net/grid2008/docdown/docdownload.aspx?filename=XAYD200704001&amp;dbcode=CJFD&amp;year=2007&amp;dflag=pdfdown
+                  " target="_blank">PDF全文下载 </a>
+     </div> 
+     <div class="down_button" id="ty_caj">
+      <a href="
+                    http://epub.cnki.net/grid2008/docdown/docdownload.aspx?filename=XAYD200704001&amp;dbcode=CJFD&amp;year=2007&amp;dflag=cajdown
+                  " target="_blank">CAJ全文下载 </a>
+     </div> 
+     <div class="cl"></div> 
+     <p class="sp_1"> (<a href="../hqqw.html" target="_blank">如何获取全文</a><span style="color:red;">?</span> 欢迎:<a href="http://vipcard.cnki.net/ec/sksm/CNKIApplyForm.aspx" target="_blank">购买知网充值卡</a>、<a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank">在线充值</a>、<a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" id="online" target="_blank">在线咨询</a>) </p> 
+     <p class="sp_2"><a href="http://www.cnki.net/software/xzydq.htm" target="_blank">CAJViewer阅读器</a>支持CAJ、PDF文件格式,<a href="http://get.adobe.com/cn/reader/" target="_blank">AdobeReader</a>仅支持PDF格式 </p> 
+    </div>
+    <br />
+    <div class="adList" style="width:740px;">
+     <a href="http://zhiku.cnki.net/Home/Corpus/118.html" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/ad/zk_wyj.jpg" border="0" width="730" height="90" alt="微营销" /></a>
+    </div> 
+    <div style="text-align:left;"> 
+     <div id="yinzheng" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【引证文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前2条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">何宁;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SCZG200832056.htm
+                          " target="_blank">论电信运营商供应链管理中的竞争与合作</a>[J];中国市场;2008年32期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">岳宇君;吴洪;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SXGZ201204008.htm
+                          " target="_blank">从垄断走向竞争:我国电信产业组织结构的演进及其动因</a>[J];兰州商学院学报;2012年04期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前3条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">李想;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-2009019571.htm
+                          " target="_blank">模块化分工条件下网络状产业链的基本构造与运行机制研究</a>[D];复旦大学;2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">王昕;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2009096603.htm
+                          " target="_blank">移动通信产业链创新系统研究</a>[D];吉林大学;2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">范云翠;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2009098225.htm
+                          " target="_blank">电信产业价值链主体的合作竞争机制研究</a>[D];吉林大学;2009年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前8条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">秦琛;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2009232664.htm
+                          " target="_blank">我国电信产业的协同创新研究</a>[D];北京邮电大学;2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">汪淼;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10004-2010120300.htm
+                          " target="_blank">中国3G应用软件产业纵向结构变动研究</a>[D];北京交通大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">宁博;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010223080.htm
+                          " target="_blank">不同投资主体的电信增值业务价值链优化与协调研究</a>[D];北京邮电大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">郭莉;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-2010234027.htm
+                          " target="_blank">基于链与链竞争的通信运营商的纵向控制结构选择分析</a>[D];电子科技大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">丁玮;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011119616.htm
+                          " target="_blank">基于委托代理模型的运营商移动位置业务发展策略研究</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">侯金伶;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10293-1011226061.htm
+                          " target="_blank">电信运营业与电信设备制造业的关联关系研究</a>[D];南京邮电大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">韦定红;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-1011240560.htm
+                          " target="_blank">BS电信构建新型的产业链运营模式研究</a>[D];电子科技大学;2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">刘姝男;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1012332704.htm
+                          " target="_blank">移动互联网时代以运营商为主导的电信产业价值链合作竞争研究</a>[D];北京邮电大学;2012年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="cankao" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【参考文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前4条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">王朴;黄秀清;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GUDO200606002.htm
+                          " target="_blank">3G产业价值链中电信运营商竞合策略浅析</a>[J];广东通信技术;2006年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">王振富,范玉钟;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JSTX200445018.htm
+                          " target="_blank">营销家族新宠——富有生命力的协同营销</a>[J];通信世界;2004年45期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">杜义飞,李仕明;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-KXYJ200405020.htm
+                          " target="_blank">产业价值链:价值战略的创新形式</a>[J];科学学研究;2004年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">王育民;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-YDQG200403007.htm
+                          " target="_blank">从电信价值链到产业生态系统</a>[J];通信企业管理;2004年03期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="gongyin" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【共引文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">吕志元;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-AYXB200803017.htm
+                          " target="_blank">基于媒介融合集群产业价值链的构建策略</a>[J];安阳工学院学报;2008年03期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">杨延娇;柴威;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJJJ201004006.htm
+                          " target="_blank">大庆市旅游产业价值链分析</a>[J];边疆经济与文化;2010年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">韩志丽;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI200605017.htm
+                          " target="_blank">高科技企业成长中的风险与防范——一种价值链视角</a>[J];商业研究;2006年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">王汉斌;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI200707032.htm
+                          " target="_blank">信息技术与食品产业竞争力的提升</a>[J];商业研究;2007年07期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">刘国亮;范云翠;张秋红;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI200808041.htm
+                          " target="_blank">中日韩电信产业价值链模式对比分析</a>[J];商业研究;2008年08期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">曹群;姜振寰;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI200811037.htm
+                          " target="_blank">产业链的内涵及特性分析</a>[J];商业研究;2008年11期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">沈颂东;郑直;王哲;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI201005043.htm
+                          " target="_blank">TD产业商用化进程探讨</a>[J];商业研究;2010年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">徐立中;秦荪涛;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CJLC200702016.htm
+                          " target="_blank">基于价值链的生态产业共生系统稳定性对策研究</a>[J];财经论丛;2007年02期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">韩士元;陈柳钦;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CKYK200726032.htm
+                          " target="_blank">论产业价值链的集群效应和链式效应</a>[J];财会月刊;2007年26期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">周子剑;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CKYK200927011.htm
+                          " target="_blank">价值链管理的内涵概念辨析</a>[J];财会月刊;2009年27期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前5条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">戴端;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-DIDD200709002234.htm
+                          " target="_blank">设计教育人才培养与创意产业发展的价值驱动链</a>[A];节能环保 和谐发展——2007中国科协年会论文集(二)[C];2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">卢天勇;方威;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-HNSK201001001029.htm
+                          " target="_blank">企业发展的生态价值链初探</a>[A];湖南省市场学会2009年会暨“两型社会与营销创新”学术研讨会论文集[C];2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">王福胜;郭腾达;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-HZOD200510001003.htm
+                          " target="_blank">基于价值链优化的成本控制策略及案例分析</a>[A];中国会计学会高等工科院校分会2005年学术年会暨第十二届年会论文集[C];2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">戴蕾;舒华英;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-TXGL201004001007.htm
+                          " target="_blank">中国物联网产业链浅析</a>[A];两化融合与物联网发展学术研讨会论文集[C];2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZNXX201004001064.htm
+                          " target="_blank">Analysis on the Undertake mode of Henan Textile and Clothing in Industrial Transferring based on industrial value chain</a>[A];2010 Second ETP/IITA World Congress in Applied Computing, Computer Science, and Computer Engineering Proceedings[C];2010年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">沈焱;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-1011055266.htm
+                          " target="_blank">基于价值实现的电信创新研究</a>[D];电子科技大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">严敏;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10056-1011266553.htm
+                          " target="_blank">工程咨询企业组织运行机制创新路径研究</a>[D];天津大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">杜义飞;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-2005096558.htm
+                          " target="_blank">基于价值创造与分配的产业价值链研究</a>[D];电子科技大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">刘冠军;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10108-2005113931.htm
+                          " target="_blank">现代科技劳动价值论研究</a>[D];山西大学;2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">李振华;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10056-2006052107.htm
+                          " target="_blank">基于复杂性的企业协同竞争机制研究</a>[D];天津大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">马慧;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2006135582.htm
+                          " target="_blank">基于系统科学的电信运营企业转型研究</a>[D];北京邮电大学;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">赵绪福;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10504-2006190164.htm
+                          " target="_blank">产业链视角下中国农业纺织原料发展研究</a>[D];华中农业大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">刘贵富;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2007019631.htm
+                          " target="_blank">产业链基本理论研究</a>[D];吉林大学;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">张晓林;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10056-2007041685.htm
+                          " target="_blank">基于价值链的服务企业理论与创新研究</a>[D];天津大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">张娟;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-2007168805.htm
+                          " target="_blank">中国企业对外直接投资的区位选择研究</a>[D];复旦大学;2007年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">李楠楠;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10147-1011024784.htm
+                          " target="_blank">3G时代中国移动竞争与合作策略研究</a>[D];辽宁工程技术大学;2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">陆超英;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10561-1011042747.htm
+                          " target="_blank">广新控股有限公司发展战略研究</a>[D];华南理工大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">张振翔;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-1011055224.htm
+                          " target="_blank">基于产业视角的中国移动无线音乐营销战略研究</a>[D];电子科技大学;2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">郑航;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10532-1011264819.htm
+                          " target="_blank">高科技企业创新生态系统风险识别研究</a>[D];湖南大学;2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">秦满发;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10593-2005088634.htm
+                          " target="_blank">广西电信运营组织问题研究</a>[D];广西大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">李心芹;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-2005094665.htm
+                          " target="_blank">产业链若干问题研究—特性.类型.利益分配</a>[D];电子科技大学;2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">魏金芝;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2005109380.htm
+                          " target="_blank">我国移动通信运营商产业链角色定位问题研究</a>[D];吉林大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">刘刚;<a href="http://cdmd.cnki.com.cn/Article/CDMD-11415-2006065073.htm
+                          " target="_blank">中国音乐产业价值链问题研究</a>[D];中国地质大学(北京);2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">刘伟;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10359-2006072977.htm
+                          " target="_blank">基于价值链管理的内部控制研究</a>[D];合肥工业大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">李贞;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10445-2006093952.htm
+                          " target="_blank">济南都市经济圈构建与发展战略研究</a>[D];山东师范大学;2006年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="tongbeiyin" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【同被引文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">周建安;张望;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BFJJ200608035.htm
+                          " target="_blank">中国电信业竞争与规制</a>[J];北方经济;2006年08期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">金笙,杨冬林;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJLS200301013.htm
+                          " target="_blank">从带动度系数看信息产业在国民经济中的作用</a>[J];北京林业大学学报(社会科学版);2003年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">刘宇;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS200404002.htm
+                          " target="_blank">电信业对区域GDP影响的证实研究——以广东省和青海省为例</a>[J];北京邮电大学学报(社会科学版);2004年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">郭宁,梁雄健;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS200502009.htm
+                          " target="_blank">基于生态系统的通信产业结构分析</a>[J];北京邮电大学学报(社会科学版);2005年02期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">常庆,唐守廉;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS200503008.htm
+                          " target="_blank">电信运营业协调发展战略探索——竞合时代的来临</a>[J];北京邮电大学学报(社会科学版);2005年03期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">吕宗英;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS200504011.htm
+                          " target="_blank">电信体制改革过程中的管制对策</a>[J];北京邮电大学学报(社会科学版);2005年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">陈霞;吕廷杰;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS200705007.htm
+                          " target="_blank">基于投入产出法的我国电信业地位的演变研究</a>[J];北京邮电大学学报(社会科学版);2007年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">秦字兴;忻展红;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS200801013.htm
+                          " target="_blank">我国广电与电信在IPTV业务中的内容产量博弈</a>[J];北京邮电大学学报(社会科学版);2008年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">李高广;吕廷杰;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS200803008.htm
+                          " target="_blank">电信运营商移动互联网运营模式研究</a>[J];北京邮电大学学报(社会科学版);2008年03期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">刘宇;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS201002010.htm
+                          " target="_blank">中国电信业与国民经济各行业的关联性分析</a>[J];北京邮电大学学报(社会科学版);2010年02期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前2条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">石中金;于跃;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGTH200802001017.htm
+                          " target="_blank">电信增值业务如何跨越“市场裂谷”</a>[A];中国通信学会第五届学术年会论文集[C];2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">黄逸珺;舒华英;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZHYJ200210001136.htm
+                          " target="_blank">电信运营商的供应链管理</a>[A];2002年中国管理科学学术会议论文集[C];2002年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要报纸全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前2条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">主持人 计育青 杨庆广;<a href="
+                            http://xuewen.cnki.net/CCND-CDZB20061031B021.html
+                            " target="_blank"></a>[N];中国电子报;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">南京邮电学院 王林林 王良元;<a href="
+                            http://xuewen.cnki.net/CCND-TXXX20040414A051.html
+                            " target="_blank"></a>[N];通信信息报;2004年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">张治河;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10497-2003095157.htm
+                          " target="_blank">面向“中国光谷”的产业创新系统研究</a>[D];武汉理工大学;2003年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">张乃平;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10497-2003095184.htm
+                          " target="_blank">中国汽车工业创新系统研究</a>[D];武汉理工大学;2003年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">余利明;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-2003125726.htm
+                          " target="_blank">企业知识管理能力问题的研究</a>[D];复旦大学;2003年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">朱小娟;<a href="http://cdmd.cnki.com.cn/Article/CDMD-11912-2004091993.htm
+                          " target="_blank">产业竞争力研究的理论、方法和应用</a>[D];首都经济贸易大学;2004年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">龚勤林;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10610-2005031998.htm
+                          " target="_blank">区域产业链研究</a>[D];四川大学;2004年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">黄丽珍;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10247-2006044859.htm
+                          " target="_blank">供应链建模及其动力学机制研究</a>[D];同济大学;2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">牛旭东;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10056-2006051041.htm
+                          " target="_blank">促进我国电子信息产业集群创新研究与实证分析</a>[D];天津大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">王军;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2006115832.htm
+                          " target="_blank">电信网效益理论与评价方法研究</a>[D];吉林大学;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">刘贵富;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2007019631.htm
+                          " target="_blank">产业链基本理论研究</a>[D];吉林大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">纪汉霖;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-2007069074.htm
+                          " target="_blank">双边市场定价策略研究</a>[D];复旦大学;2006年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">袁正;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10574-2004074181.htm
+                          " target="_blank">我国邮电业的投入产出分析—从产业关联和产业波及角度</a>[D];华南师范大学;2004年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">邢晶晶;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10486-2004112311.htm
+                          " target="_blank">电信增值业务的商业模式研究</a>[D];武汉大学;2004年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">郭志英;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2006115269.htm
+                          " target="_blank">基于电信移动增值业务产业链的CP与SP战略竞合发展研究</a>[D];吉林大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">张超;<a href="http://cdmd.cnki.com.cn/Article/CDMD-11664-2007070939.htm
+                          " target="_blank">电信产业链整合与商业运营模式创新</a>[D];西安邮电学院;2007年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">贝同研;<a href="http://cdmd.cnki.com.cn/Article/CDMD-80133-2007154963.htm
+                          " target="_blank">3G移动位置服务增值业务设计与实现</a>[D];中国科学院研究生院(沈阳计算技术研究所);2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">余章坤;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2007164212.htm
+                          " target="_blank">移动通信产业链的控制力研究</a>[D];北京邮电大学;2007年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">王朴;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2007164231.htm
+                          " target="_blank">3G产业链中电信运营商定位与策略研究</a>[D];北京邮电大学;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">夏雨仙;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2007165196.htm
+                          " target="_blank">移动运营商的价值链分析</a>[D];北京邮电大学;2007年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">曾晖;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10532-2008029859.htm
+                          " target="_blank">湖南移动通信公司位置服务发展策略研究</a>[D];湖南大学;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">刘薇;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2008139118.htm
+                          " target="_blank">运营商占主导的移动增值业务供应链利润分配研究</a>[D];北京邮电大学;2008年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="erjiyinzheng" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【二级引证文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前4条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">彭本红;冯良清;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-KUJI201101010.htm
+                          " target="_blank">模块化生产网络的信任博弈及声誉激励研究</a>[J];科技与管理;2011年01期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">满青珊;张金隆;聂磊;种晓丽;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JCJJ201103005.htm
+                          " target="_blank">冲突影响下的移动商务联盟自组织动力建模</a>[J];管理科学;2011年03期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">刘彩梅;彭迪云;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-KJIG201108023.htm
+                          " target="_blank">江西LED产业链均衡发展战略初探——基于网络状链式整合的视角</a>[J];科技广场;2011年08期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">江山;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-OXXT201104003.htm
+                          " target="_blank">3G时代移动互联网发展分析</a>[J];信息通信技术;2011年04期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">李战杰;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10055-1011045723.htm
+                          " target="_blank">专业化劳动力、经济增长与产业升级</a>[D];南开大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">单元媛;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10497-1011058130.htm
+                          " target="_blank">高技术产业融合成长研究</a>[D];武汉理工大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">宋明;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010224402.htm
+                          " target="_blank">电信业的渠道冲突与控制研究</a>[D];北京邮电大学;2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">韩洁平;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2011013722.htm
+                          " target="_blank">数字内容产业成长机理及发展策略研究</a>[D];吉林大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">邱涛;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-1011094740.htm
+                          " target="_blank">通信网络结构与城市功能模块的系统自适应机理研究</a>[D];吉林大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">袁烨;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-1011094800.htm
+                          " target="_blank">基于生态理论的企业信息系统重构</a>[D];吉林大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">耿亚新;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10697-1011088180.htm
+                          " target="_blank">太阳能光伏产业链垂直一体化构建研究</a>[D];西北大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">陈静;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10613-1011233348.htm
+                          " target="_blank">面向业务关联的多产业链协作网络和公共服务平台关键技术研究</a>[D];西南交通大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">王玉晶;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10217-1012264999.htm
+                          " target="_blank">装备制造企业国际化经营价值链管理研究</a>[D];哈尔滨工程大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">王亚飞;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10635-1012280390.htm
+                          " target="_blank">农业产业链纵向关系的治理研究</a>[D];西南大学;2011年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">黄立雄;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10530-1011028283.htm
+                          " target="_blank">数字出版产业链整合研究</a>[D];湘潭大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">宫玮;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10422-2010100772.htm
+                          " target="_blank">烟草行业工商协同营销冲突管理研究</a>[D];山东大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">朱明芳;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10056-2010209504.htm
+                          " target="_blank">通信集成快反平台设计</a>[D];天津大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">程安科;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010223746.htm
+                          " target="_blank">基于行动者网络理论的移动互联网产业盈利及利益协调研究</a>[D];北京邮电大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">丁玮;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011119616.htm
+                          " target="_blank">基于委托代理模型的运营商移动位置业务发展策略研究</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">王南;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011120109.htm
+                          " target="_blank">3G背景下我国电信产业价值链现状与融合趋势研究</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">刘光翀;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011120114.htm
+                          " target="_blank">运营商对SP的分级管理研究</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">谢智斌;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011121670.htm
+                          " target="_blank">中国移动基地管理模式研究</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">柯敏;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011120549.htm
+                          " target="_blank">以运营商为主导的3G产业价值链的合作研究</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">韩娟;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10327-1011035824.htm
+                          " target="_blank">模块化生产实现的组织架构研究</a>[D];南京财经大学;2010年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="erjicankao" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【二级参考文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前7条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">潘成云;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DDCJ200109001.htm
+                          " target="_blank">解读产业价值链——兼析我国新兴产业价值链基本特征</a>[J];当代财经;2001年09期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">李垣,刘益;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GLGU200104011.htm
+                          " target="_blank">基于价值创造的价值网络管理(Ⅰ):特点与形成</a>[J];管理工程学报;2001年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">汪鑫;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JSTX200605019.htm
+                          " target="_blank">3G产业链对我国运营商竞争关系的影响</a>[J];通信世界;2006年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">迟晓英,宣国良;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-WGJG200001004.htm
+                          " target="_blank">价值链研究发展综述</a>[J];外国经济与管理;2000年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">姚群峰;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XXWL200303001.htm
+                          " target="_blank">解析3G价值链</a>[J];信息网络;2003年03期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">刘湜;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XXWL200511006.htm
+                          " target="_blank">电信运营商的价值链定位与策略</a>[J];信息网络;2005年11期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">刘高峰;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-YDQG200305030.htm
+                          " target="_blank">构建共赢价值链 推进竞合策略</a>[J];通信企业管理;2003年05期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="xiangsi" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【相似文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">刘峰;徐晓军;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZDXY200407008.htm
+                          " target="_blank">营造NGN产业链</a>[J];中国电信业;2004年07期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">周晴;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-TOXI200803046.htm
+                          " target="_blank">IPphone对传统电信产业链的冲击</a>[J];江苏通信;2008年03期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">刘国雄;余章坤;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XDDX200706016.htm
+                          " target="_blank">电信运营商产业链调整策略研究</a>[J];现代电信科技;2007年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">黄垂志;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SJZG200912042.htm
+                          " target="_blank">iPhone模式中国之痒</a>[J];商界(评论);2009年12期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZWDG200707002.htm
+                          " target="_blank">打造新型产业链 构造和谐生态圈 2007中国通信业发展高层论坛</a>[J];中国无线电;2007年07期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">李晨;齐佳音;舒华英;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XTLL200811000.htm
+                          " target="_blank">手机短信引导与管理的系统动力学模型</a>[J];系统工程理论与实践;2008年11期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">刘杰;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-HLZK200204008.htm
+                          " target="_blank">家庭上网工程全面铺开 电信产业链大幅跟进</a>[J];互联网周刊;2002年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">丘清贤;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JSTX200617061.htm
+                          " target="_blank">华为IMS合作伙伴计划帮助运营商主导产业价值链</a>[J];通信世界;2006年17期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">杨洵;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GLXX200803016.htm
+                          " target="_blank">电信产业模块化经营分析</a>[J];管理现代化;2008年03期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">李忠全;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-YDQG200812020.htm
+                          " target="_blank">运营商如何应对iPhone们</a>[J];通信企业管理;2008年12期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">张敬;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGTH200509002006.htm
+                          " target="_blank">浅谈电信运营商的IPTV运营策略</a>[A];中国通信学会信息通信网络技术委员会2005年年会论文集[C];2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">刘湜;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGTH200611002011.htm
+                          " target="_blank">电信运营商的价值链定位与策略</a>[A];通信发展战略与管理创新学术研讨会论文集[C];2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">刘清;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-HBKJ200810004062.htm
+                          " target="_blank">基于合同能源管理的电信运营商节能服务探讨</a>[A];2008年“ICT助力两型社会建设”学术研讨会论文集[C];2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-STXX200712001016.htm
+                          " target="_blank">电信运营商如何经营支付业务</a>[A];四川省通信学会2007年学术年会论文集[C];2007年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">王丽敏;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGTH200809001161.htm
+                          " target="_blank">电信运营商应如何整合网络资源与网络应用推进社会信息化</a>[A];第十届中国科协年会信息化与社会发展学术讨论会分会场论文集[C];2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">王惠敏;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-STXX200212001045.htm
+                          " target="_blank">对电信运营商市场调查的探讨</a>[A];四川省通信学会2002年学术年会论文集[C];2002年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">步旸;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGTH200908002094.htm
+                          " target="_blank">电信运营商宽带接入汇聚网络规划</a>[A];中国通信学会信息通信网络技术委员会2009年年会论文集(下册)[C];2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">张鸿;王旭辉;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGUH200911009017.htm
+                          " target="_blank">电信运营商内部营销与员工满意关系的实证研究</a>[A];第四届(2009)中国管理学年会——市场营销分会场论文集[C];2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">白永忠;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZHQL200111001009.htm
+                          " target="_blank">英国移动通信领域非对称管制制度简介</a>[A];信息网络与高新技术法律前沿——中华全国律师协会信息网络与高新技术专业委员会成立大会论文集[C];2001年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">彭久生;梁雄健;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGTH200611002084.htm
+                          " target="_blank">我国电信运营商科技创新的问题及对策</a>[A];通信发展战略与管理创新学术研讨会论文集[C];2006年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要报纸全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">本报记者 曹增光;<a href="
+                            http://xuewen.cnki.net/CCND-JJSB200510260062.html
+                            " target="_blank">联通:一个电信运营商品牌营销样本</a>[N];中国经济时报;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">秦蓉 王辉;<a href="
+                            http://xuewen.cnki.net/CCND-TXCY20050516ZZ52.html
+                            " target="_blank">信息化——公平社会的“原动力”</a>[N];通信产业报;2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">毛涛涛;<a href="
+                            http://xuewen.cnki.net/CCND-BJXD200703140033.html
+                            " target="_blank">网通高层力挺电信重组论</a>[N];北京商报;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">记者 丁峰;<a href="
+                            http://xuewen.cnki.net/CCND-CDZB20060912B011.html
+                            " target="_blank">引进IMS架构 运营商挑战互联网压力</a>[N];中国电子报;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">李国训;<a href="
+                            http://xuewen.cnki.net/CCND-CJSB20070212D042.html
+                            " target="_blank">传闻满天飞的电信业</a>[N];财经时报;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">孙琎;<a href="
+                            http://xuewen.cnki.net/CCND-DYCJ20060807C012.html
+                            " target="_blank">AT&amp;T:想要真正参股中国运营商</a>[N];第一财经日报;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">本报记者 胡红军;<a href="
+                            http://xuewen.cnki.net/CCND-JJRB200607120147.html
+                            " target="_blank">我国将统一短消息类服务接入代码</a>[N];经济日报;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">高雪娟 ;<a href="
+                            http://xuewen.cnki.net/CCND-JSJB20060731B161.html
+                            " target="_blank">农业战场</a>[N];中国计算机报;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">马培;<a href="
+                            http://xuewen.cnki.net/CCND-JSJW20070625C061.html
+                            " target="_blank">IPTV:艰难兑现的承诺</a>[N];计算机世界;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">倪洪章;<a href="
+                            http://xuewen.cnki.net/CCND-JSJW20070723A132.html
+                            " target="_blank">IT与通信搭档惹火农村市场</a>[N];计算机世界;2007年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">张秋红;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-1012358668.htm
+                          " target="_blank">电信运营商间合谋行为的机理及对企业绩效的影响</a>[D];吉林大学;2012年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">张君;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10487-2010042140.htm
+                          " target="_blank">中国电信运营商的竞争与发展策略研究</a>[D];华中科技大学;2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">张倩;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10217-2005137539.htm
+                          " target="_blank">基于知识管理的企业学习型组织模式研究</a>[D];哈尔滨工程大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">田宇;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10145-1012300529.htm
+                          " target="_blank">中国电信企业战略转型研究</a>[D];东北大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">王军;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2006115832.htm
+                          " target="_blank">电信网效益理论与评价方法研究</a>[D];吉林大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">黄建文;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10285-2009232877.htm
+                          " target="_blank">新时期执政党社会整合研究</a>[D];苏州大学;2008年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">董爽;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2007167314.htm
+                          " target="_blank">基于价值网的电信商业模式研究</a>[D];北京邮电大学;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">贺远琼;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10487-2008024771.htm
+                          " target="_blank">企业整合市场环境与非市场环境的行为模式研究</a>[D];华中科技大学;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">张书军;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10213-2009223890.htm
+                          " target="_blank">结盟企业价值链的整合及其评价研究</a>[D];哈尔滨工业大学;2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">刘舸;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2009230920.htm
+                          " target="_blank">基于网络效应的电信运营商IM市场竞争研究</a>[D];北京邮电大学;2009年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">李琳;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010221703.htm
+                          " target="_blank">中太数据基于中国电信运营商市场的WLAN产品发展战略研究</a>[D];北京邮电大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">孙园园;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010221748.htm
+                          " target="_blank">IPTV建设与发展项目的可行性分析</a>[D];北京邮电大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">陈乐;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10056-2010209579.htm
+                          " target="_blank">面向物流行业的电信运营商ICT服务研究</a>[D];天津大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">彭思偲;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10248-1011268706.htm
+                          " target="_blank">我国3G电信运营商对用户锁定策略的分析</a>[D];上海交通大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">关勇;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010224348.htm
+                          " target="_blank">物联网行业发展分析</a>[D];北京邮电大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">殷伟琦;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010225039.htm
+                          " target="_blank">电信网络资源管理系统分析与实施</a>[D];北京邮电大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">何仕军;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10004-2010142452.htm
+                          " target="_blank">广东移动公司科技创新体系研究</a>[D];北京交通大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">周平;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10285-2010152723.htm
+                          " target="_blank">电信运营商网络维护外包管理研究</a>[D];苏州大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">王誌;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2008138887.htm
+                          " target="_blank">服务品牌研究及电信运营商服务品牌评介与建议</a>[D];北京邮电大学;2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">刘云馨;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10036-2006062727.htm
+                          " target="_blank">中国电信运营商融资问题研究</a>[D];对外经济贸易大学;2006年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <div style="width:190px; float:right;margin-left:5px;"> 
+    <div id="div_similar"> 
+     <div class="adListRight" style="line-height:150%;text-align:left;">
+      <a href="http://ad.cnki.net/index.aspx" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/ad/zhiwangguanggao.jpg" border="0" width="190" height="78" alt="中国知网广告投放" /></a>
+     </div> 
+     <div style="line-height:180%;"> 
+      <table height="100%" cellspacing="0" cellpadding="0" width="100%" bgcolor="#055CCE" border="0"> 
+       <tbody> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关期刊</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I1-TXSJ.htm" target="_blank">通讯世界</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/F-F5-ZXDT.htm" target="_blank">哲学动态</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/F-F5-DDYW.htm" target="_blank">道德与文明</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/J-J2-ZDKJ.htm" target="_blank">中国地质矿产经济</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/J-J1-SLJY.htm" target="_blank">数量经济技术经济研究</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/G-G1-TAIS.htm" target="_blank">台声</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/A-A1-XXJK.htm" target="_blank">中国科技信息</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I1-DZCS.htm" target="_blank">电子产品世界</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I1-DDTX.htm" target="_blank">当代通信</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I2-DZJC.htm" target="_blank">电子展望与决策</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关机构</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E4%BA%A4%E6%8D%A2%E7%B3%BB%E7%BB%9F%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8" target="_blank">北京国际交换系统有限公司</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%8F%B8" target="_blank">华为公司</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%86%B6%E9%87%91%E5%9C%B0%E8%B4%A8%E7%9F%BF%E4%BA%A7%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BC%9A" target="_blank">冶金地质矿产经济学会</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%8C%97%E4%BA%AC%E5%86%9C%E5%AD%A6%E9%99%A2%E5%9B%AD%E6%9E%97%E7%B3%BB" target="_blank">北京农学院园林系</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关作者</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+             <td height="6"></td> 
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E6%96%87%E8%BE%9B" target="_blank">文辛</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%AD%9F%E6%A0%91%E6%A3%AE" target="_blank">孟树森</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E6%9E%97%E8%BE%89" target="_blank">张林辉</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E6%9D%8E%E5%BB%B7%E6%9D%BE" target="_blank">李廷松</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%83%81%E8%BE%9B" target="_blank">郁辛</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E7%9F%B3%E6%99%93%E4%B8%9C" target="_blank">石晓东</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%99%88%E4%BB%B2%E6%97%AD" target="_blank">陈仲旭</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E7%A5%A5%E5%B9%B3" target="_blank">张祥平</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%99%88%E5%85%B5" target="_blank">陈兵</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%83%AD%E6%B0%B8%E9%9D%92" target="_blank">郭永青</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%88%98%E5%8A%9B%E5%86%9B" target="_blank">刘力军</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E7%8E%8B%E4%B8%AD%E7%94%B0" target="_blank">王中田</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E4%B8%98%E5%AE%97%E6%98%8E" target="_blank">丘宗明</a></td> 
+            </tr>
+            <tr> 
+             <td height="6"></td> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td id="simblank" bgcolor="#fffcd3"></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="white"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <div style="float:left"> 
+    <div class="body_div2"> 
+     <div class="zhinan"> 
+      <table width="928" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="240" rowspan="2" align="center" valign="top"><img src="http://qiangguo.cnki.net/cnki/images/new/kefupic.gif" width="222" height="91" /></td> 
+         <td colspan="2" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon2.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>快捷付款方式</strong></span></td> 
+         <td width="160" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon4.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>订购知网充值卡</strong></span></td> 
+         <td valign="top" width="160"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon5.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>订购热线</strong></span></td> 
+         <td colspan="2" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon3.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>帮助中心</strong></span></td> 
+        </tr> 
+        <tr> 
+         <td width="72" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_yhk.html" target="_blank" class="grey12">银行卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_zfb.html" target="_blank" class="grey12">支付宝</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_szxk.html" target="_blank" class="grey12">神州行</a></li> 
+          </ul> </td> 
+         <td width="108" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_zwk.html" target="_blank" class="grey12">知网卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_sjdx.html" target="_blank" class="grey12">手机短信</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_more.html" target="_blank" class="grey12">更多&gt;&gt;</a></li> 
+          </ul> </td> 
+         <td valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/CNKIApplyForm.aspx" target="_blank" class="grey12">免费送卡上门</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/yhdh.html" target="_blank" class="grey12">银行汇款购卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/yjhk.html" target="_blank" class="grey12">邮局汇款购卡</a></li> 
+          </ul> </td> 
+         <td valign="top"> 
+          <ul> 
+           <li>400-819-9993</li> 
+           <li>010-62791813</li> 
+           <li>010-62985026</li> 
+          </ul> </td> 
+         <td width="96" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" target="_blank" class="grey12">常见问题</a></li> 
+           <li><a href="http://help.cnki.net" target="_blank" class="grey12">在线咨询</a></li> 
+           <li><a href="http://www.cnki.net/software/xzydq.htm" target="_blank" class="grey12">阅读器下载</a></li> 
+          </ul> </td> 
+         <td width="120" valign="top"> 
+          <ul> 
+           <li><a href="http://ad.cnki.net/Index.aspx" target="_blank" class="grey12">广告服务</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/cardinfo.html" target="_blank" class="grey12">知网卡 </a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/cp&amp;fw.html" target="_blank" class="grey12">关于知网</a></li> 
+          </ul> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="footer">
+      <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target="_blank">
+       <div class="beian"></div></a>
+      <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target="_blank">
+       <div class="beian2"></div></a>
+      <p> 《中国学术期刊(光盘版)》电子杂志社有限公司<br /> 同方知网数字出版技术股份有限公司<br /> 地址:北京清华大学 84-48信箱 知识超市公司<br /><a style="text-decoration:none;">京ICP证040441号</a><br /><a style="text-decoration:none;">互联网出版许可证 新出网证(京)字008号</a><br /> 出版物经营许可证 新出发京批字第直0595号<br /></p> 
+      <p> 订购热线:400-819-9993 010-62982499<br /> 服务热线:010-62985026 010-62791813<br /> 在线咨询:<a href="http://help.cnki.net" target="_blank">http://help.cnki.net</a><br /> 传真:010-62780361<br /> 京公网安备11010802014874号 </p> 
+     </div> 
+     <div class="clear"></div> 
+     <p><br /></p> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

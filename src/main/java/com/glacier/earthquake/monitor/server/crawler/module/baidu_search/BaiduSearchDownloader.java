@@ -22,8 +22,16 @@ public class BaiduSearchDownloader extends Downloader {
         MyHttpConnectionManager.setHandleRedirect(httpClient, false);
         HttpResponse response = response(url, HTTP_GET);
         String locationURL = null;
+        if ( response == null ) {
+            return null;
+        }
         if ( response.getFirstHeader("Location") != null ) {
             locationURL = response.getFirstHeader("Location").getValue();
+        }
+        try {
+            response.getEntity().getContent().close();
+        }catch (Exception e) {
+
         }
         MyHttpConnectionManager.setHandleRedirect(httpClient, true);
         return locationURL;

@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />--> 
+  <title>	大赛专家顾问</title>
+  <meta name="description" content="职场e路通 网络新赢家" />
+  <meta name="keywords" content="互联网,  大学生,大赛,电子商务,创业,就业、实践、有奖活动、网络商务、实践教学、创新大赛、移动互联网、电子银行、高新民、两岸" />
+  <link href="/Style/css/common.css" rel="stylesheet" type="text/css" />
+  <link href="/Style/css/version4Master.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" rev="stylesheet" type="text/css" href="/Style/css/show.css" />
+ </head>
+ <body>
+  <form name="aspnetForm" method="post" action="Introduce.aspx?id=9" id="aspnetForm">
+   <div>
+    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+    <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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Zm9udC1zaXplOiBzbWFsbDsiPuWImOiLsSDmlZnogrLpg6jpq5jmlZnlj7jov5znqIvmlZnogrLlpIQ8c3Bhbj7lpITplb88L3NwYW4+IDwvc3Bhbj48L2xpPg0KPGxpPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+5qKF57uN56WWIOS4reWbveeUteWtkOWVhuWKoeS4k+WutiDljJfkuqznp5HmioDlpKflrabmlZnmjoggPC9zcGFuPjwvbGk+DQo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij7pmYjnprkg5Lit5Zu95L+h5oGv57uP5rWO5a2m5Lya5ZCN6KqJ55CG5LqL6ZW/IOS4reWbveS6uuawkeWkp+WtpuaVmeaOiDwvc3Bhbj48L2xpPg0KPGxpPjxzcGFuPuiIkuWNjuiLsSAmbmJzcDvljJfkuqzpgq7nlLXlpKflrabmlZnmjog8L3NwYW4+PC9saT4NCjxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPuaWuee+jueQqiDkuK3lm73kv6Hmga/nu4/mtY7lrabkvJoo5Y6fKeW4uOWKoeWJr+eQhuS6i+mVvyDkuK3lm73kurrmsJHlpKflrabmlZnmjoggPC9zcGFuPjwvbGk+DQo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij7pmK7mmbrli4cg5Lit5aSu55S15aSn5YWa5aeU5Lmm6K6wIDwvc3Bhbj48L2xpPg0KPGxpPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+5byg5bCR5YiaIOS4reWkrueUteWkp+WFmuWnlOWJr+S5puiusCA8L3NwYW4+PC9saT4NCjxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPuacseWyqSDmuIXljY7lpKflrabnu4/nrqHlrabpmaI8c3Bhbj7mlZnmjog8L3NwYW4+IDwvc3Bhbj48L2xpPg0KPGxpPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+PHNwYW4+5byg6bi/Jm5ic3A7PHNwYW4+6KW/5a6J6YKu55S15aSn5a2m57uP566h5a2m6ZmiPC9zcGFuPjwvc3Bhbj48YnIgLz48L3NwYW4+PC9saT4NCjxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPui1teaso+WmgiDljJfkuqzluIjojIPlpKflrabmlZnmjog8L3NwYW4+PC9saT4NCjxsaT48c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPjxzcGFuPuadjuacneaZliZuYnNwOzxzcGFuPuS4reWbvemCruaUv+WCqOiThOmTtuihjOaAu+ihjOeUteWtkOmTtuihjOmDqOaAu+e7j+eQhjwvc3Bhbj48L3NwYW4+PGJyIC8+PC9zcGFuPjwvbGk+DQo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij48c3Bhbj48c3Bhbj48c3Bhbj7otbXlv5fliJombmJzcDs8c3Bhbj7kuK3lm73pgq7mlL/lgqjok4Tpk7booYzmgLvooYzmiJjnlaXlj5HlsZXpg6jlia/mgLvnu4/nkIY8L3NwYW4+PC9zcGFuPjxiciAvPjwvc3Bhbj48L3NwYW4+PC9zcGFuPjwvbGk+DQo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij7lvKDlroflrocg55Sf5oSP5a6d5Ymv5oC76KOBPC9zcGFuPjwvbGk+DQo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij7lrovlrp3niLEg5rW35bCU572R57uc5ZWG5Z+O5oC757uP55CGPC9zcGFuPjwvbGk+DQo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij7lkJHkvJ8g5Lit5Zu956e75Yqo6aOe5L+h5Yy65Z+f5biC5Zy66YOo5oC755uRPC9zcGFuPjwvbGk+DQo8bGk+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij7miLTot4Pls7Ag5b6h5rOl5Z2K5omn6KGM6JGj5LqLPC9zcGFuPjwvbGk+DQo8YnIgLz4NCjxoMz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPuWkp+i1m+eJuemCgOetluWIkumhvumXru+8mjwvc3Bhbj48L2gzPg0KPGxpPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+5p2O5rGf5LqIIOWMl+S6rOW4iOiMg+Wkp+WtpueUteWtkOWVhuWKoeeglOeptuS4reW/g+WJr+S4u+S7uzwvc3Bhbj48L2xpPg0KPC91bD5kGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBRhjdGwwMCRMb2dpblN0YXR1czEkY3RsMDEFGGN0bDAwJExvZ2luU3RhdHVzMSRjdGwwMyVgYPEHA8yBsqmHTkuPozyrhGBn" />
+   </div>
+   <script type="text/javascript">//<![CDATA[var theForm = document.forms['aspnetForm'];if (!theForm) {    theForm = document.aspnetForm;}function __doPostBack(eventTarget, eventArgument) {    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {        theForm.__EVENTTARGET.value = eventTarget;        theForm.__EVENTARGUMENT.value = eventArgument;        theForm.submit();    }}//]]></script>
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5372FFB6" />
+   </div>
+   <div id="container">
+    <!--头部start--> 
+    <div id="top"> 
+     <a href="/index.aspx" class="logo"></a> 
+     <div class="toplogin"> 
+      <a href="../Login.aspx?ReturnUrl=http://www.newwinner.cn/Content/Introduce.aspx?id=9" target="_parent"> 用户登录</a>
+      <span>|</span>
+      <a href="../../Register/reg.aspx" target="_parent">报名注册</a>
+      <span>|</span>
+      <a href="../../PasswordRecovery.aspx">忘记密码</a> 
+     </div> 
+     <ul class="topunit"> 
+      <a href="http://www.newwinner.cn/MessageBoard" class="qa" title="大赛Q&amp;A">&nbsp;</a>
+      <a href="../Register/reg.aspx" class="qa" title="大赛报名">&nbsp;</a> 
+      <li><span>指导单位:</span>工业和信息化部</li>
+      <li><span>支持单位:</span>教育部 </li>
+      <li><span>主办单位:</span><a href="http://www.isc.org.cn/">中国互联网协会</a>、新赢家网</li>
+      <li><span>主要协办单位:</span><a href="#" target="_blank">中国邮政储蓄银行</a></li> 
+     </ul> 
+    </div> 
+    <ul id="nav"> 
+     <li><a href="http://www.newwinner.cn/Index.aspx" target="_blank">首&nbsp;&nbsp;页</a></li> 
+     <li class="tab"><a href="../../Content/Introduce.aspx?id=7" target="_blank">大赛介绍</a></li> 
+     <li><a href="../../Content/Notice.aspx?id=14" target="_blank">大赛公告</a></li> 
+     <li><a href="../../BusinessProblem/trade.aspx" target="_blank">竞赛项目</a></li> 
+     <li><a href="../../Content/Announcement.aspx?id=17" target="_blank">动态快报</a></li> 
+     <li><a href="http://www.newwinner.cn/Resources/ResourcesList.aspx?category=%e7%bd%91%e7%bb%9c%e9%93%b6%e8%a1%8c%e4%b8%8e%e5%9c%a8%e7%ba%bf%e6%94%af%e4%bb%98" target="_blank">学习资源</a></li> 
+     <li><a href="http://www.newwinner.cn/zt/more/" target="_blank">大赛专题</a></li> 
+     <li><a href="../../Team/Default.aspx" target="_blank">团队风采</a></li> 
+     <li><a href="../../Project/Works.aspx" target="_blank">作品展示</a></li> 
+     <li><a href="../../Blog/CommitteeBlog.aspx" target="_blank">组委会博客</a></li> 
+     <li><a href="http://bbs.newwinner.cn" target="_blank">大赛论坛</a></li> 
+    </ul>
+    <!--头部end-->
+    <!--左边start--> 
+    <div id="left1"> 
+     <ul class="left1_ul"> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=7">大赛简介</a></li> 
+      <li class="d_over"> <a href="Introduce.aspx?id=9">大赛专家顾问</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=10">赛事设置</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=11">大赛日程安排</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=12">奖项设置</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=94">联系我们</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=208">精彩活动安排</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=828">大赛官方社区</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=853">网络商务菁英训练营</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="Introduce.aspx?id=854">网商人才能力发展项目</a></li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="NameList.aspx?id=3">大赛指导老师名单</a> </li> 
+      <li class="d_out" onmouseover="this.className='d_over'" onmouseout="this.className='d_out'"> <a href="NameList.aspx?id=4">企业教官名单</a> </li> 
+     </ul> 
+    </div>
+    <!--左边end--> 
+    <!--<div id="position">            <ul class="position">                <li style="background: url(../version4/Style/img/V4_PositionL.gif) no-repeat  left; float:left; width: 15px;">                    &nbsp;</li>                <li style="padding-top: 4px;">您的位置:<a href="../Index.aspx">大赛首页</a>》大赛介绍》大赛专家顾问</li>                <li style="background: url(../version4/Style/img/V4_positionR.gif) no-repeat right; float: right;">&nbsp;</li>            </ul>        </div>--> 
+    <!--右边start--> 
+    <div id="right1"> 
+     <div class="rbar1">
+      您的位置:
+      <a href="../Index.aspx">大赛首页</a> &gt; 
+      <a>大赛介绍</a> &gt; 
+      <span></span>
+     </div> 
+     <div class="right1_con"> 
+      <h1>
+       <!--class="maintitle"--> 大赛专家顾问</h1> 
+      <!--<div class="mainarticle">--> 
+      <p> </p>
+      <ul>
+       一、 大赛组委会领导小组:
+       <br />
+       <br />
+       <li><span style="font-size: small;">大赛组委会主席:中国互联网协会副理事长高新民 </span></li>
+      </ul>
+      <ul>
+       <br />
+       <br />二、 大赛组委会专家顾问: 
+      </ul>
+      <ul>
+       &nbsp;
+       <li><span style="font-size: small;">杨洪涛 教育部就业指导中心培训处<span>处长</span> </span></li>
+       <li><span style="font-size: small;">刘英 教育部高教司远程教育处<span>处长</span> </span></li>
+       <li><span style="font-size: small;">梅绍祖 中国电子商务专家 北京科技大学教授 </span></li>
+       <li><span style="font-size: small;">陈禹 中国信息经济学会名誉理事长 中国人民大学教授</span></li>
+       <li><span>舒华英 &nbsp;北京邮电大学教授</span></li>
+       <li><span style="font-size: small;">方美琪 中国信息经济学会(原)常务副理事长 中国人民大学教授 </span></li>
+       <li><span style="font-size: small;">阮智勇 中央电大党委书记 </span></li>
+       <li><span style="font-size: small;">张少刚 中央电大党委副书记 </span></li>
+       <li><span style="font-size: small;">朱岩 清华大学经管学院<span>教授</span> </span></li>
+       <li><span style="font-size: small;"><span>张鸿&nbsp;<span>西安邮电大学经管学院</span></span><br /></span></li>
+       <li><span style="font-size: small;">赵欣如 北京师范大学教授</span></li>
+       <li><span style="font-size: small;"><span>李朝晖&nbsp;<span>中国邮政储蓄银行总行电子银行部总经理</span></span><br /></span></li>
+       <li><span style="font-size: small;"><span><span><span>赵志刚&nbsp;<span>中国邮政储蓄银行总行战略发展部副总经理</span></span><br /></span></span></span></li>
+       <li><span style="font-size: small;">张宇宇 生意宝副总裁</span></li>
+       <li><span style="font-size: small;">宋宝爱 海尔网络商城总经理</span></li>
+       <li><span style="font-size: small;">向伟 中国移动飞信区域市场部总监</span></li>
+       <li><span style="font-size: small;">戴跃峰 御泥坊执行董事</span></li>
+       <br />
+       <h3><span style="font-size: small;">大赛特邀策划顾问:</span></h3>
+       <li><span style="font-size: small;">李江予 北京师范大学电子商务研究中心副主任</span></li>
+      </ul> 
+      <p></p> 
+     </div> 
+    </div>
+    <!--右边end--> 
+   </div>
+   <div id="footer"> 
+    <div>
+     <a href="../Content/Introduce.aspx?id=7" target="_blank">大赛介绍</a> | 
+     <a href="../Content/Introduce.aspx?id=10" target="_blank">赛事设置</a> | 
+     <a href="../Content/Introduce.aspx?id=11" target="_blank"> 大赛日程</a> | 
+     <a href="../Content/Introduce.aspx?id=94" target="_blank">联系我们</a> | 
+     <a href="http://beta.newwinner.cn/" target="_blank">往届回顾(第一届)</a> | 
+     <a href="http://newwinner.cn/2008" target="_blank">往届回顾(第二届)</a> | 
+     <a href="http://newwinner.cn/2009" target="_blank">往届回顾(第三届)</a>| 
+     <a href="http://2011.newwinner.cn/" target="_blank">往届回顾(第四届)</a> 
+    </div> 
+    <p>本网站之所有文字、图片、及商业问题、学生作品等,未经大赛组委会书面授权不得转载。<br /> Copyright &copy; 2007-2009 NewWinner.cn All rights reserved. <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备11002229号</a> <br /> 技术支持:<a href="http://www.ncuhome.cn" target="_blank">南昌大学家园网</a> &nbsp; &nbsp; &nbsp; &nbsp;大赛官方指定网络社交工具:<img src="/img/msn.gif" border="0" /><a href="https://signup.msn.cn/?source=NeWinner&amp;medium=HP" target="_blank">MSN</a> </p>
+   </div> 
+   <script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F63e166eb1d295457aa24b81ff1a53347' type='text/javascript'%3E%3C/script%3E"));</script> 
+  </form>
+ </body>
+</html>

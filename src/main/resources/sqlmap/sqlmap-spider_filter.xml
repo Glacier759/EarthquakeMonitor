@@ -15,7 +15,7 @@
     </insert>
 
     <select id="getRecordBySignValue" parameterType="String" resultMap="SpiderFilter">
-        SELECT * FROM spider_filter WHERE sign_value = #{md5(sign_value)};
+        SELECT * FROM spider_filter WHERE sign_value = md5(#{sign_value});
     </select>
 
 </mapper>

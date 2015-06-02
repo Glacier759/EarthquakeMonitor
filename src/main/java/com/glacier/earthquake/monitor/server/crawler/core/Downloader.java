@@ -97,9 +97,11 @@ public class Downloader {
             Document document = Jsoup.parse(getContent(entity, encode));
             document.setBaseUri(url);   //设置document的来源地址
 
-            if ( document.html().contains("GBK") ) {
+            if ( document.html().contains("GBK") && !encode.equals("GBK") ) {
                 setEncode("GBK");
-                return document(url, HTTP_GET);
+                document = document(url, HTTP_GET);
+                setEncode("utf-8");
+                return document;
             }
 
             document = document_method(document);
@@ -110,7 +112,10 @@ public class Downloader {
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
         }finally {
-
+            try {
+                response.getEntity().getContent().close();
+            }catch (Exception e){
+            }
         }
         return null;
     }
@@ -157,6 +162,12 @@ public class Downloader {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            try {
+                entity.getContent().close();
+            }catch (Exception e) {
+
+            }
         }
         return StringUtils.full2half(buffer.toString());
     }
@@ -182,6 +193,12 @@ public class Downloader {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(baos));
             logger.error(baos.toString());
+        }finally {
+            try {
+                source.close();
+            }catch (Exception e) {
+
+            }
         }
         return StringUtils.full2half(buffer.toString());
     }

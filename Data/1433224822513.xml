@@ -1,0 +1,1142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:user="http://dotnet.aspx.cc/">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>智慧城市建设模式比较研究--《西安邮电大学学报》2014年05期        </title> 
+  <meta http-equiv="mobile-agent" content="format=xhtml; url=http://wap.cnki.net/qikan-XAYD201405026.html" /> 
+  <meta name="keywords" content="智慧城市 建设模式 信息化" /> 
+  <meta name="autoKeywords" content="智慧城市 建设模式 信息化" /> 
+  <meta name="description" content="智慧城市 建设模式 信息化" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/detail0302.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/header.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/footer.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/window.css" rel="stylesheet" type="text/css" /> 
+ </head> 
+ <body>
+  <script language="javascript" type="text/javascript" src="http://qiangguo.cnki.net/cnki/js/adDetail1123.js"></script>
+  <div id="header948"> 
+   <div id="header948_t">
+    <a href="http://www.cnki.com.cn" id="logo"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjlogo.gif" width="396" height="56" border="0" /></a>
+    <a id="shoucang" href="javascript:addfavorite();">收藏本站</a>
+    <div id="header948_t_link">
+     <a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank" class="link1"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink1.gif" width="71" height="24" border="0" /></a>
+     <a href="http://card.cnki.net/" target="_blank" class="link2"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink2.gif" width="80" height="24" border="0" /></a>
+     <a href="http://vipcard.cnki.net/ec/cardintroduce.html" target="_blank" class="link1"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnkikjheaderlink9.gif" width="71" height="24" border="0" /></a>
+     <a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" target="_blank" class="link3"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink3.gif" width="71" height="24" border="0" /></a>
+     <div class="cl"></div>
+     <a href="http://card.cnki.net/" target="_blank" class="link4"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink4.gif" width="71" height="24" border="0" /></a>
+     <a href="http://www.cnki.net/software/xzydq.htm" target="_blank" class="link5"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink5.gif" width="80" height="24" border="0" /></a>
+     <a href=" http://ad.cnki.net/index.aspx" target="_blank" class="link4"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnkikjheaderlink8.gif" width="71" height="24" border="0" /></a>
+     <a href="http://en.cnki.com.cn/" target="_blank" class="link6"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink6.gif" width="71" height="24" border="0" /></a>
+    </div> 
+   </div> 
+   <div class="cl"></div> 
+   <div id="nav948"> 
+    <div id="nav948_left"></div> 
+    <div id="nav948_center"> 
+     <ul> 
+      <li><a href="http://www.cnki.com.cn" target="_blank" id="nava0" class="nava_1">首页</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cjfd"><a href="http://www.cnki.com.cn/CJFD/CJFD_index.htm" id="nava1" class="nava_2">期刊全文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cdmd"><a href="http://cdmd.cnki.com.cn/" id="nava2" class="nava_2">学位论文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cpfd"><a href="http://cpfd.cnki.com.cn/" id="nava3" class="nava_2">会议论文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://cyfd.cnki.com.cn/" target="_blank" id="nava4" class="nava_2">年鉴全文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://wiki.cnki.com.cn/" target="_blank" id="nava5" class="nava_2">学术百科</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://mall.cnki.net/reference/" target="_blank" id="nava6" class="nava_2">工具书</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://xuewen.cnki.net" target="_blank" id="nava7" class="nava_2">CNKI学问</a></li> 
+     </ul> 
+     <div class="menuctrl">
+      <span><a href="http://my.cnki.net/elibregister/CommonRegister.aspx" target="_blank">注册</a></span>
+      <span>|</span>
+      <span><a href="http://my.cnki.net/" target="_blank">登录</a></span>
+      <span>|</span>
+      <span><a href="http://my.cnki.net/" target="_blank">我的账户</a></span>
+     </div> 
+    </div> 
+    <div id="nav948_right"></div> 
+   </div> 
+   <div id="nav948_b">
+    <a href="http://www.cnki.com.cn/Navi/A.htm" target="_blank">基础科学</a>|
+    <a href="http://www.cnki.com.cn/Navi/B.htm" target="_blank">工程科技I辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/C.htm" target="_blank">工程科技II辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/E.htm" target="_blank">医药卫生科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/I.htm" target="_blank">信息科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/D.htm" target="_blank">农业科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/F.htm" target="_blank">哲学与人文科学</a>|
+    <a href="http://www.cnki.com.cn/Navi/G.htm" target="_blank">社会科学I辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/H.htm" target="_blank">社会科学II辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/J.htm" target="_blank">经济管理</a>
+   </div> 
+   <div id="header948_b"> 
+    <div id="header948_b_l"></div> 
+    <div id="header948_b_c"> 
+     <div id="search">
+      <input type="text" id="txt_word" size="57" name="txt_word" value="输入关键词" onkeydown="if(event.keyCode==13)document.getElementById('Button1').focus();" onmousedown="if(this.value=='输入关键词') this.value='';" />
+      <button id="Button1" onclick="detailSearch();"></button>
+      <button id="Button2" class="btnmaga" onclick="magazineSearch();"></button>
+      <div class="cl"></div> 
+      <div id="tips">
+       <a href="
+                      http://epub.cnki.net/kns/default.aspx?code=cjfd&amp;f=%E5%85%A8%E6%96%87&amp;kw=%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82 %E5%BB%BA%E8%AE%BE%E6%A8%A1%E5%BC%8F " target="_blank" id="tips_c"><span><strong>高级搜索:</strong>用&quot; </span>智慧城市 建设模式 <span>&quot;到知网平台检索,</span><b>点击这里搜索更多...</b></a>
+      </div> 
+     </div> 
+     <div id="headerbanner">
+      <a href="http://zhiku.cnki.net/Home/Corpus/66.html" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnki_index_top_right460.jpg" alt="中国知网.智库.食物禁忌" /></a>
+      <div style="display:none">
+       <script src="http://s27.cnzz.com/stat.php?id=1356416&amp;web_id=1356416&amp;show=pic1" language="javascript" charset="gb2312" type="text/javascript"></script>
+      </div> 
+     </div> 
+    </div> 
+    <div id="header948_b_r"></div> 
+   </div> 
+  </div>
+  <script language="javascript">      change_color();    </script>
+  <div id="content" style="width: 948px; margin: 0 auto;"> 
+   <div id="edff"></div> 
+   <div style="width:740px; float:left; margin-left:5px;"> 
+    <div> 
+     <div style="float:left;">
+      <a href="http://www.cnki.com.cn/Journal/I-I1-XAYD-2014-05.htm" target="_blank"><b> 《西安邮电大学学报》 </b><font color="#0080ff">2014年05期 </font></a>
+     </div> 
+     <div style="float:right;">
+      <a class="a05" href="#" onclick="return window.external.AddFavorite(document.location.href,'智慧城市建设模式比较研究');">加入收藏</a> 
+      <a class="a05" target="_blank" href="
+                    http://XAYD.cbpt.cnki.net
+                  ">投稿 </a>
+     </div> 
+    </div> 
+    <div style="text-align:center; width:740px; font-size: 28px;color: #0000a0; font-weight:bold; font-family:'宋体';"> 
+     <h1 class="xx_title">智慧城市建设模式比较研究</h1> 
+    </div> 
+    <div style="text-align:center; width:740px; height:30px;">
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E9%B8%BF" target="_blank">张鸿</a> &nbsp;
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E8%8C%83%E6%BB%A1%E8%88%AA" target="_blank">范满航</a> &nbsp;
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E8%B6%85" target="_blank">张超</a> &nbsp;
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E6%AE%B5%E7%A6%84%E5%B3%B0" target="_blank">段禄峰</a> &nbsp;
+    </div> 
+    <div style="text-align:left;word-break:break-all" class="xx_font"> 
+     <font color="#000"><strong>【摘要】:</strong></font>智慧城市是最具有创造力的城市形态,已成为发达国家城市发展的重要战略。为全面了解智慧城市的建设模式、挖掘智慧城市建设的先进理念、推进智慧城市健康可持续发展,运用比较分析法对国内外智慧城市的典型发展模式进行了针对性的研究,总结了各自的优劣势并对其进行了综合比较,明晰了四种智慧城市建设模式的适用条件,并在此基础上,提出了适合发达城市和中小城市的智慧城市建设模式。
+    </div> 
+    <div style="text-align:left;" class="xx_font"> 
+     <font color="#000"><strong>【作者单位】</strong></font>: 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=%E8%A5%BF%E5%AE%89%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%E7%BB%8F%E6%B5%8E%E4%B8%8E%E7%AE%A1%E7%90%86%E5%AD%A6%E9%99%A2;" target="_blank">西安邮电大学经济与管理学院;</a> 
+     <br />
+     <font color="#000"><strong>【关键词】</strong></font>: 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82" target="_blank"><strong>智慧城市</strong></a> 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E5%BB%BA%E8%AE%BE%E6%A8%A1%E5%BC%8F" target="_blank"><strong>建设模式</strong></a> 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E4%BF%A1%E6%81%AF%E5%8C%96" target="_blank"><strong>信息化</strong></a> 
+     <br />
+     <font color="#000"><strong>【基金】:</strong></font>
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91%E8%B5%84%E5%8A%A9%E9%A1%B9%E7%9B%AE(70672109)" target="_blank">国家自然科学基金资助项目(70672109)</a> 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=
+%E9%99%95%E8%A5%BF%E7%9C%81%E8%BD%AF%E7%A7%91%E5%AD%A6%E8%AE%A1%E5%88%92%E5%9F%BA%E9%87%91%E8%B5%84%E5%8A%A9%E9%A1%B9%E7%9B%AE(2014KRM18,2013KRM10,2013KRZ21)" target="_blank">陕西省软科学计划基金资助项目(2014KRM18,2013KRM10,2013KRZ21)</a> 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=
+%E9%99%95%E8%A5%BF%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85%E7%A7%91%E7%A0%94%E8%AE%A1%E5%88%92%E5%9F%BA%E9%87%91%E8%B5%84%E5%8A%A9%E9%A1%B9%E7%9B%AE(2013JK0140)" target="_blank">陕西省教育厅科研计划基金资助项目(2013JK0140)</a> 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=
+%E8%A5%BF%E5%AE%89%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A62014%E5%B9%B4%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A7%91%E6%8A%80%E5%9F%BA%E9%87%91%E8%B5%84%E5%8A%A9%E9%A1%B9%E7%9B%AE(2014A-001)" target="_blank">西安邮电大学2014年大学生科技基金资助项目(2014A-001)</a> 
+     <br />
+     <font color="#000"><strong>【分类号】:</strong></font>F299.1;F49
+     <br />
+     <font color="#000"><strong>【正文快照】:</strong></font> 
+     <div style="text-indent:2em;text-align:left;word-break:break-all">
+      城市发展面临着环境、经济、社会等各种因素的挑战,人口膨胀、环境污染、资源短缺、交通阻塞等城市病已逐渐成为制约我国城市发展的主要问题[1]。城市建设必须走可持续发展之路,以新一代信息技术为支撑的智慧城市理念及实践模式建设,逐步成为专家学者们研究的热点。智慧城市的
+     </div> 
+    </div> 
+    <div class="down" id="down_1" style="margin-left:120px;margin-top:20px;+margin-left:20px;"> 
+     <div id="down_tit">
+      <a class="downon" href="
+                    http://wap.cnki.net/gowapdetail.aspx?fn=XAYD201405026&amp;libn=CJFDTOTAL
+                  " target="_blank">下载全文 </a>
+      <a href="
+                        http://epub.cnki.net/kns/default.aspx?code=cjfd&amp;f=%E5%85%A8%E6%96%87&amp;kw=%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82 %E5%BB%BA%E8%AE%BE%E6%A8%A1%E5%BC%8F " target="_blank" class="more"> 更多同类文献 </a>
+     </div> 
+     <div class="cl"></div> 
+     <div class="down_button" id="ty_pdf">
+      <a href="
+                    http://epub.cnki.net/grid2008/docdown/docdownload.aspx?filename=XAYD201405026&amp;dbcode=CJFD&amp;year=2014&amp;dflag=pdfdown
+                  " target="_blank">PDF全文下载 </a>
+     </div> 
+     <div class="down_button" id="ty_caj">
+      <a href="
+                    http://epub.cnki.net/grid2008/docdown/docdownload.aspx?filename=XAYD201405026&amp;dbcode=CJFD&amp;year=2014&amp;dflag=cajdown
+                  " target="_blank">CAJ全文下载 </a>
+     </div> 
+     <div class="cl"></div> 
+     <p class="sp_1"> (<a href="../hqqw.html" target="_blank">如何获取全文</a><span style="color:red;">?</span> 欢迎:<a href="http://vipcard.cnki.net/ec/sksm/CNKIApplyForm.aspx" target="_blank">购买知网充值卡</a>、<a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank">在线充值</a>、<a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" id="online" target="_blank">在线咨询</a>) </p> 
+     <p class="sp_2"><a href="http://www.cnki.net/software/xzydq.htm" target="_blank">CAJViewer阅读器</a>支持CAJ、PDF文件格式,<a href="http://get.adobe.com/cn/reader/" target="_blank">AdobeReader</a>仅支持PDF格式 </p> 
+    </div>
+    <br />
+    <div class="adList" style="width:740px;">
+     <a href="http://zhiku.cnki.net/Home/Corpus/118.html" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/ad/zk_wyj.jpg" border="0" width="730" height="90" alt="微营销" /></a>
+    </div> 
+    <div style="text-align:left;"> 
+     <div id="cankao" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【参考文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前5条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">许庆瑞;吴志岩;陈力田;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GLGU201204000.htm
+                          " target="_blank">智慧城市的愿景与架构</a>[J];管理工程学报;2012年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CSKF201317020.htm
+                          " target="_blank">深圳:智慧深圳规划纲要</a>[J];城市开发;2013年17期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">柯擎;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XXJS200306023.htm
+                          " target="_blank">信息化浪潮中的日本政府</a>[J];信息化建设;2003年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">辜胜阻;王敏;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZGRZ201205013.htm
+                          " target="_blank">智慧城市建设的理论思考与战略选择</a>[J];中国人口.资源与环境;2012年05期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">严璋鹏;彭程;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XAYD201304025.htm
+                          " target="_blank">基于物联网技术的智慧农业实施方案研究</a>[J];西安邮电大学学报;2013年04期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="gongyin" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【共引文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">王益明;许春雯;黄容;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DZZW201308016.htm
+                          " target="_blank">中国智慧城市建设的现状与发展趋势——第七届中国电子政务高峰论坛综述</a>[J];电子政务;2013年08期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">曹茂春;齐雄;金毅;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GCYZ201308019.htm
+                          " target="_blank">智慧城市的探讨与实践</a>[J];智能建筑与城市信息;2013年08期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">沈毅纲;宋革联;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GPRJ201315015.htm
+                          " target="_blank">智慧城市中基于云通信的协同通信系统研究</a>[J];计算机光盘软件与应用;2013年15期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">徐静;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DXKX201308027.htm
+                          " target="_blank">智慧城市关键技术与实现路径研究</a>[J];电信科学;2013年08期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">张菊伟;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-FJSY201305017.htm
+                          " target="_blank">平潭“智慧岛”发展模式探究</a>[J];福建商业高等专科学校学报;2013年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">黄璜;袁嘉炜;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DZZW201401005.htm
+                          " target="_blank">智慧城市的政策分析:过程、信念与政策设计</a>[J];电子政务;2014年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">吴志强;吕荟;胥星静;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-HCSG201302007.htm
+                          " target="_blank">崇明智慧生态岛规划与建构</a>[J];上海城市规划;2013年02期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">蒋宏斌;阙祥明;翟丹妮;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-KJXY201320031.htm
+                          " target="_blank">物联网技术在农业信息化建设中的应用研究</a>[J];江苏科技信息;2013年20期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">张轮;杨文臣;张孟;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-KXZZ201401012.htm
+                          " target="_blank">智能交通与智慧城市</a>[J];科学;2014年01期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">徐静;陈秀万;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-KJGL201407005.htm
+                          " target="_blank">我国智慧城市发展现状与问题分析</a>[J];科技管理研究;2014年07期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前2条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">薛凯;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10056-1012022157.htm
+                          " target="_blank">数字城市的实施策略与模式研究</a>[D];天津大学;2012年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">邓文钱;<a href="http://cdmd.cnki.com.cn/Article/CDMD-80000-1014336400.htm
+                          " target="_blank">哲学视域中的中国新型城镇化道路</a>[D];中共中央党校;2014年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前3条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">王林玉;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10335-1013303680.htm
+                          " target="_blank">面向智慧城市建设的道路照明监控管理系统研究与开发</a>[D];浙江大学;2013年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">谷春宇;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10214-1014161157.htm
+                          " target="_blank">智慧城市IT应用模式研究</a>[D];哈尔滨理工大学;2013年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">郭素娴;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10353-1014214703.htm
+                          " target="_blank">智慧城市评价指标体系的构建及应用</a>[D];浙江工商大学;2013年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="erjicankao" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【二级参考文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">晏发斌;周航;白建明;杨琼芬;李正平;包丽仙;依香伦;涂菊华;束正齐;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ANHE200702099.htm
+                          " target="_blank">浅谈计算机信息技术与我国农业现代化</a>[J];现代农业科技;2007年02期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">骆小平;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CSGL201006011.htm
+                          " target="_blank">“智慧城市”的内涵论析</a>[J];城市管理与科技;2010年06期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">李重照;刘淑华;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DZZW201106005.htm
+                          " target="_blank">智慧城市:中国城市治理的新趋向</a>[J];电子政务;2011年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">胡小明;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DZZW201108011.htm
+                          " target="_blank">从数字城市到智慧城市资源观念的演变</a>[J];电子政务;2011年08期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">王金台;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JJJW200503013.htm
+                          " target="_blank">信息化对城市化进程的影响及对策</a>[J];经济经纬;2005年03期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">饶旭鹏;刘海霞;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-LLYK201010028.htm
+                          " target="_blank">论城市信息化及其经济社会影响</a>[J];理论月刊;2010年10期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">杨震;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-NJYD201004003.htm
+                          " target="_blank">物联网及其技术发展</a>[J];南京邮电大学学报(自然科学版);2010年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">陈柳钦;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-QDHS201101005.htm
+                          " target="_blank">智慧城市:全球城市发展新热点</a>[J];青岛科技大学学报(社会科学版);2011年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">年福华,姚士谋;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SJDJ200201010.htm
+                          " target="_blank">信息化与城市空间发展趋势</a>[J];世界地理研究;2002年01期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">辜胜阻,郑凌云;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-WSLD200305001.htm
+                          " target="_blank">农村城镇化的发展素质与制度创新</a>[J];武汉大学学报(社会科学版);2003年05期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="xiangsi" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【相似文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">张钊,李薛铭;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CSGH198304002.htm
+                          " target="_blank">上海开展城市建设经济技术咨询服务</a>[J];城市规划;1983年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GWYB198713002.htm
+                          " target="_blank">国务院关于加强城市建设工作的通知</a>[J];中华人民共和国国务院公报;1987年13期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">任今龙;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CSHI199002015.htm
+                          " target="_blank">对城市建设目标管理指标体系的宏观思考</a>[J];城市;1990年02期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">毛昌五;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CSHI199004000.htm
+                          " target="_blank">规划、建设、管理城市是城市政府的主要职责</a>[J];城市;1990年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CJJA199402003.htm
+                          " target="_blank">加快城市建设 重塑城市形象</a>[J];长江建设;1994年02期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">彭代玉,张爽;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-QAYA1994Z1027.htm
+                          " target="_blank">城市建设必须重视发展公共交通</a>[J];前沿;1994年Z1期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CSKF503.003.htm
+                          " target="_blank">向现代化国际性港口城市迈进</a>[J];城市开发;1995年03期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">刘囿;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SCZB199516016.htm
+                          " target="_blank">广汉雄姿——广汉市城市建设掠影</a>[J];四川政报;1995年16期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">莫才明;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZGTD609.014.htm
+                          " target="_blank">谈城市建设八大关系</a>[J];中国土地;1996年09期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">谢仁华;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CXJS199608017.htm
+                          " target="_blank">抓好建设 促进城市对外开放</a>[J];城乡建设;1996年08期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">康巧茹;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-GDCX199109001027.htm
+                          " target="_blank">银川城市建设的性质分析及其规律的研究</a>[A];中国古都研究(第九辑)——中国古都学会第九届年会论文集[C];1991年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">郝建隔;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-HNKX200410002167.htm
+                          " target="_blank">发挥地方优势 突出城市文化特色</a>[A];科技、工程与经济社会协调发展——河南省第四届青年学术年会论文集(下册)[C];2004年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">朱志军;郑清源;马国立;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZCXW200710001119.htm
+                          " target="_blank">数字城市建设浅析</a>[A];2007'全国测绘科技信息交流会暨信息网成立30周年庆典论文集[C];2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">沈旸;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGMZ200901001006.htm
+                          " target="_blank">扬州会馆录</a>[A];文物建筑论文集(第2辑)[C];2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">胡健;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-JSMX200910002009.htm
+                          " target="_blank">城市建设与拯救差异——以淮安市为例</a>[A];2009江苏省美学学会年会“当代审美文化与艺术传统”学术研讨会会议论文集[C];2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">邹念育;程敏;曹帆;张云翠;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGVU200909001013.htm
+                          " target="_blank">LED照明在日本城市建设中的应用</a>[A];中国照明论坛——城市照明节能规划、设计与和谐发展科技研讨会专题报告文集[C];2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">林伦;祝庭;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-EUGQ200509004065.htm
+                          " target="_blank">高性能混凝土在城市建设中的应用状况和发展趋势</a>[A];华北地区硅酸盐学会第八届学术技术交流会论文集[C];2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">赵小汎;代力民;邵国凡;王庆礼;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGST200608001200.htm
+                          " target="_blank">生态环境与宜居城市建设</a>[A];中国生态学会2006学术年会论文荟萃[C];2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">吴志强;干靓;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-QXJX200607001004.htm
+                          " target="_blank">2010年上海世博会园区规划</a>[A];第六届全国现代结构工程学术研讨会论文集[C];2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">胡健;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-JSMX200800001011.htm
+                          " target="_blank">城市建设中的美学问题——以淮安市为例</a>[A];城市文化与艺术审美[C];2008年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要报纸全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">本报记者 蔡炜 陈明 许建军;<a href="
+                            http://xuewen.cnki.net/CCND-XHRB20030630A022.html
+                            " target="_blank">城市建设要追求个性</a>[N];新华日报;2003年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">记者 卫冰;<a href="
+                            http://xuewen.cnki.net/CCND-SXZX2007081500A3.html
+                            " target="_blank">将和谐发展理念贯穿于城市建设中</a>[N];山西政协报;2007年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">郑艳 齐福臣;<a href="
+                            http://xuewen.cnki.net/CCND-TSLD200704180013.html
+                            " target="_blank">为城市建设提供坚强保障</a>[N];唐山劳动日报;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">记者 宋梅瑛;<a href="
+                            http://xuewen.cnki.net/CCND-XSXB200612080014.html
+                            " target="_blank">城市建设要为全民创业提供充分发展空间</a>[N];协商新报;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">实习记者 贾佳;<a href="
+                            http://xuewen.cnki.net/CCND-LFRB20071124A014.html
+                            " target="_blank">加快城市建设 创建宜居环境</a>[N];临汾日报;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">抚顺市社会科学院社会研究所所长 曹阳;<a href="
+                            http://xuewen.cnki.net/CCND-FSRB20071204B03A.html
+                            " target="_blank">城市建设必须走可持续发展道路</a>[N];抚顺日报;2007年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">高路汪文;<a href="
+                            http://xuewen.cnki.net/CCND-BBRB200804150021.html
+                            " target="_blank">淮上区:3.4亿投入城市建设</a>[N];蚌埠日报;2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">记者 韩超;<a href="
+                            http://xuewen.cnki.net/CCND-DZBR200811260022.html
+                            " target="_blank">城市建设发生翻天覆地变化</a>[N];德州日报;2008年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">记者 徐静;<a href="
+                            http://xuewen.cnki.net/CCND-ZYBR200810300013.html
+                            " target="_blank">我市举行“城市建设地下空间的开发利用”专题讲座</a>[N];遵义日报;2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">记者 李晓燕;<a href="
+                            http://xuewen.cnki.net/CCND-HXBS200902060033.html
+                            " target="_blank">银川市政协委员建言“两宜”城市建设</a>[N];华兴时报;2009年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">潘悦;<a href="http://cdmd.cnki.com.cn/Article/CDMD--1013272417.htm
+                          " target="_blank">快速发展背景下城市建设系统运作研究</a>[D];华中科技大学;2013年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">李家凯;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10052-1013317205.htm
+                          " target="_blank">中国宜居城市建设与改造研究</a>[D];中央民族大学;2013年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">黄杉;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10335-2010125261.htm
+                          " target="_blank">城市生态社区规划理论与方法研究</a>[D];浙江大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">周平;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10269-2003033307.htm
+                          " target="_blank">城市建设中的市政债券融资研究</a>[D];华东师范大学;2002年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">吴尧;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10286-2007030485.htm
+                          " target="_blank">澳门近代晚期建筑转型研究</a>[D];东南大学;2004年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">孙长虹;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2009098313.htm
+                          " target="_blank">现代城市管理人本模式研究</a>[D];吉林大学;2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">杨蕾;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10225-1013359165.htm
+                          " target="_blank">生态城市建设作用机理与模拟仿真研究</a>[D];东北林业大学;2013年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">涂文学;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10511-2007014153.htm
+                          " target="_blank">“市政改革”与中国城市早期现代化</a>[D];华中师范大学;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">刘华;<a href="http://cdmd.cnki.com.cn/Article/CDMD-11415-2008068546.htm
+                          " target="_blank">河南省泌阳县区域城市空间规划与调控研究</a>[D];中国地质大学(北京);2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">王宗荣;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10287-1011291425.htm
+                          " target="_blank">创新型城市建设动力研究</a>[D];南京航空航天大学;2010年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">刘志平;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10718-2007199080.htm
+                          " target="_blank">商业发展影响下的明清平遥城建设</a>[D];陕西师范大学;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">唐倩青;<a href="http://cdmd.cnki.com.cn/Article/CDMD-11902-2009241819.htm
+                          " target="_blank">南昌市大型商业区发展研究</a>[D];南昌大学;2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">孟欣;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10335-2003041754.htm
+                          " target="_blank">技术发展对城市建设用地指标的影响</a>[D];浙江大学;2003年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">吴荻;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10319-2006153323.htm
+                          " target="_blank">城市基础设施市场化供给与政府职能转变</a>[D];南京师范大学;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">张妍妍;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10749-2004131197.htm
+                          " target="_blank">物质生态环境与人</a>[D];宁夏大学;2004年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">姜英;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10663-2005101102.htm
+                          " target="_blank">城市建设征地利益冲突问题的研究</a>[D];贵州师范大学;2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">莫雄;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10593-2005088592.htm
+                          " target="_blank">南宁市城市建设投资发展总公司总体发展战略研究</a>[D];广西大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">邓盛杰;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10613-2006023457.htm
+                          " target="_blank">都江堰市城市建筑风貌特色研究与实践</a>[D];西南交通大学;2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">巴艳芳;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10511-2006078347.htm
+                          " target="_blank">城市体育设施空间布局与体育产业发展对策研究</a>[D];华中师范大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">王铭;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10126-2010183215.htm
+                          " target="_blank">鄂尔多斯市东胜区城市建设征地与农房拆迁调研报告</a>[D];内蒙古大学;2010年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <div style="width:190px; float:right;margin-left:5px;"> 
+    <div id="div_similar"> 
+     <div class="adListRight" style="line-height:150%;text-align:left;">
+      <a href="http://ad.cnki.net/index.aspx" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/ad/zhiwangguanggao.jpg" border="0" width="190" height="78" alt="中国知网广告投放" /></a>
+     </div> 
+     <div style="line-height:180%;"> 
+      <table height="100%" cellspacing="0" cellpadding="0" width="100%" bgcolor="#055CCE" border="0"> 
+       <tbody> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关期刊</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/C-C5-ZGJC.htm" target="_blank">中国建材</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/C-C5-CSGH.htm" target="_blank">城市规划</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/J-J1-JJGU.htm" target="_blank">经济管理</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/H-H1-SHKK.htm" target="_blank">社会科学辑刊</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/F-F4-WENW.htm" target="_blank">文物</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/C-C5-JZJI.htm" target="_blank">建筑技术</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/C-C6-TDBS.htm" target="_blank">铁道标准设计</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/G-G1-HXZB.htm" target="_blank">江西政报</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/G-G1-GSUZ.htm" target="_blank">甘肃政报</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/G-G1-FLZB.htm" target="_blank">湖南政报</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关机构</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%8C%85%E5%A4%B4%E5%B8%82%E5%BB%BA%E8%AE%BE%E5%B1%80" target="_blank">包头市建设局</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%B1%B1%E8%A5%BF%E7%9C%81%E5%9F%8E%E5%BB%BA%E5%B1%80" target="_blank">山西省城建局</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E6%96%B0%E7%96%86%E5%96%80%E4%BB%80%E5%B8%82%E5%9F%8E%E5%B8%82%E5%BB%BA%E8%AE%BE%E5%B1%80" target="_blank">新疆喀什市城市建设局</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%9B%BD%E5%AE%B6%E5%9F%BA%E6%9C%AC%E5%BB%BA%E8%AE%BE%E5%A7%94%E5%91%98%E4%BC%9A%E5%9F%8E%E5%B8%82%E5%BB%BA%E8%AE%BE%E5%B1%80" target="_blank">国家基本建设委员会城市建... </a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%B1%B1%E8%A5%BF%E4%BA%91%E5%B2%97%E5%8F%A4%E8%BF%B9%E4%BF%9D%E5%85%BB%E6%89%80" target="_blank">山西云岗古迹保养所</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关作者</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+             <td height="6"></td> 
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E7%BB%B4%E5%BC%BA" target="_blank">张维强</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E6%9C%B1%E6%95%AC" target="_blank">朱敬</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%B0%94%E5%B0%81" target="_blank">尔封</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%85%A8%E5%9B%BD%E7%BE%A4%E8%8B%B1%E4%BC%9A%E5%BB%BA%E7%AD%91%E7%B3%BB%E7%BB%9F%E5%85%A8%E4%BD%93%E4%BB%A3%E8%A1%A8" target="_blank">全国群英会建筑系统全体代表</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%99%88%E4%B8%BA%E9%82%A6" target="_blank">陈为邦</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E7%BD%97%E7%B2%BE%E5%A5%8B" target="_blank">罗精奋</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E8%8B%B1%E7%9F%B3" target="_blank">英石</a></td> 
+            </tr>
+            <tr> 
+             <td height="6"></td> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td id="simblank" bgcolor="#fffcd3"></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="white"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <div style="float:left"> 
+    <div class="body_div2"> 
+     <div class="zhinan"> 
+      <table width="928" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="240" rowspan="2" align="center" valign="top"><img src="http://qiangguo.cnki.net/cnki/images/new/kefupic.gif" width="222" height="91" /></td> 
+         <td colspan="2" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon2.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>快捷付款方式</strong></span></td> 
+         <td width="160" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon4.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>订购知网充值卡</strong></span></td> 
+         <td valign="top" width="160"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon5.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>订购热线</strong></span></td> 
+         <td colspan="2" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon3.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>帮助中心</strong></span></td> 
+        </tr> 
+        <tr> 
+         <td width="72" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_yhk.html" target="_blank" class="grey12">银行卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_zfb.html" target="_blank" class="grey12">支付宝</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_szxk.html" target="_blank" class="grey12">神州行</a></li> 
+          </ul> </td> 
+         <td width="108" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_zwk.html" target="_blank" class="grey12">知网卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_sjdx.html" target="_blank" class="grey12">手机短信</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_more.html" target="_blank" class="grey12">更多&gt;&gt;</a></li> 
+          </ul> </td> 
+         <td valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/CNKIApplyForm.aspx" target="_blank" class="grey12">免费送卡上门</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/yhdh.html" target="_blank" class="grey12">银行汇款购卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/yjhk.html" target="_blank" class="grey12">邮局汇款购卡</a></li> 
+          </ul> </td> 
+         <td valign="top"> 
+          <ul> 
+           <li>400-819-9993</li> 
+           <li>010-62791813</li> 
+           <li>010-62985026</li> 
+          </ul> </td> 
+         <td width="96" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" target="_blank" class="grey12">常见问题</a></li> 
+           <li><a href="http://help.cnki.net" target="_blank" class="grey12">在线咨询</a></li> 
+           <li><a href="http://www.cnki.net/software/xzydq.htm" target="_blank" class="grey12">阅读器下载</a></li> 
+          </ul> </td> 
+         <td width="120" valign="top"> 
+          <ul> 
+           <li><a href="http://ad.cnki.net/Index.aspx" target="_blank" class="grey12">广告服务</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/cardinfo.html" target="_blank" class="grey12">知网卡 </a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/cp&amp;fw.html" target="_blank" class="grey12">关于知网</a></li> 
+          </ul> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="footer">
+      <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target="_blank">
+       <div class="beian"></div></a>
+      <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target="_blank">
+       <div class="beian2"></div></a>
+      <p> 《中国学术期刊(光盘版)》电子杂志社有限公司<br /> 同方知网数字出版技术股份有限公司<br /> 地址:北京清华大学 84-48信箱 知识超市公司<br /><a style="text-decoration:none;">京ICP证040441号</a><br /><a style="text-decoration:none;">互联网出版许可证 新出网证(京)字008号</a><br /> 出版物经营许可证 新出发京批字第直0595号<br /></p> 
+      <p> 订购热线:400-819-9993 010-62982499<br /> 服务热线:010-62985026 010-62791813<br /> 在线咨询:<a href="http://help.cnki.net" target="_blank">http://help.cnki.net</a><br /> 传真:010-62780361<br /> 京公网安备11010802014874号 </p> 
+     </div> 
+     <div class="clear"></div> 
+     <p><br /></p> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

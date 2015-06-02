@@ -1,0 +1,1307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:user="http://dotnet.aspx.cc/">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>基于价值网的IT企业商业模式创新路径研究--《西安邮电大学学报》2013年06期        </title> 
+  <meta http-equiv="mobile-agent" content="format=xhtml; url=http://wap.cnki.net/qikan-XAYD201306024.html" /> 
+  <meta name="keywords" content="商业模式 价值网络 价值模块" /> 
+  <meta name="autoKeywords" content="商业模式 价值网络 价值模块" /> 
+  <meta name="description" content="商业模式 价值网络 价值模块" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/detail0302.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/header.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/footer.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/window.css" rel="stylesheet" type="text/css" /> 
+ </head> 
+ <body>
+  <script language="javascript" type="text/javascript" src="http://qiangguo.cnki.net/cnki/js/adDetail1123.js"></script>
+  <div id="header948"> 
+   <div id="header948_t">
+    <a href="http://www.cnki.com.cn" id="logo"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjlogo.gif" width="396" height="56" border="0" /></a>
+    <a id="shoucang" href="javascript:addfavorite();">收藏本站</a>
+    <div id="header948_t_link">
+     <a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank" class="link1"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink1.gif" width="71" height="24" border="0" /></a>
+     <a href="http://card.cnki.net/" target="_blank" class="link2"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink2.gif" width="80" height="24" border="0" /></a>
+     <a href="http://vipcard.cnki.net/ec/cardintroduce.html" target="_blank" class="link1"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnkikjheaderlink9.gif" width="71" height="24" border="0" /></a>
+     <a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" target="_blank" class="link3"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink3.gif" width="71" height="24" border="0" /></a>
+     <div class="cl"></div>
+     <a href="http://card.cnki.net/" target="_blank" class="link4"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink4.gif" width="71" height="24" border="0" /></a>
+     <a href="http://www.cnki.net/software/xzydq.htm" target="_blank" class="link5"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink5.gif" width="80" height="24" border="0" /></a>
+     <a href=" http://ad.cnki.net/index.aspx" target="_blank" class="link4"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnkikjheaderlink8.gif" width="71" height="24" border="0" /></a>
+     <a href="http://en.cnki.com.cn/" target="_blank" class="link6"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink6.gif" width="71" height="24" border="0" /></a>
+    </div> 
+   </div> 
+   <div class="cl"></div> 
+   <div id="nav948"> 
+    <div id="nav948_left"></div> 
+    <div id="nav948_center"> 
+     <ul> 
+      <li><a href="http://www.cnki.com.cn" target="_blank" id="nava0" class="nava_1">首页</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cjfd"><a href="http://www.cnki.com.cn/CJFD/CJFD_index.htm" id="nava1" class="nava_2">期刊全文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cdmd"><a href="http://cdmd.cnki.com.cn/" id="nava2" class="nava_2">学位论文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cpfd"><a href="http://cpfd.cnki.com.cn/" id="nava3" class="nava_2">会议论文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://cyfd.cnki.com.cn/" target="_blank" id="nava4" class="nava_2">年鉴全文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://wiki.cnki.com.cn/" target="_blank" id="nava5" class="nava_2">学术百科</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://mall.cnki.net/reference/" target="_blank" id="nava6" class="nava_2">工具书</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://xuewen.cnki.net" target="_blank" id="nava7" class="nava_2">CNKI学问</a></li> 
+     </ul> 
+     <div class="menuctrl">
+      <span><a href="http://my.cnki.net/elibregister/CommonRegister.aspx" target="_blank">注册</a></span>
+      <span>|</span>
+      <span><a href="http://my.cnki.net/" target="_blank">登录</a></span>
+      <span>|</span>
+      <span><a href="http://my.cnki.net/" target="_blank">我的账户</a></span>
+     </div> 
+    </div> 
+    <div id="nav948_right"></div> 
+   </div> 
+   <div id="nav948_b">
+    <a href="http://www.cnki.com.cn/Navi/A.htm" target="_blank">基础科学</a>|
+    <a href="http://www.cnki.com.cn/Navi/B.htm" target="_blank">工程科技I辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/C.htm" target="_blank">工程科技II辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/E.htm" target="_blank">医药卫生科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/I.htm" target="_blank">信息科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/D.htm" target="_blank">农业科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/F.htm" target="_blank">哲学与人文科学</a>|
+    <a href="http://www.cnki.com.cn/Navi/G.htm" target="_blank">社会科学I辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/H.htm" target="_blank">社会科学II辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/J.htm" target="_blank">经济管理</a>
+   </div> 
+   <div id="header948_b"> 
+    <div id="header948_b_l"></div> 
+    <div id="header948_b_c"> 
+     <div id="search">
+      <input type="text" id="txt_word" size="57" name="txt_word" value="输入关键词" onkeydown="if(event.keyCode==13)document.getElementById('Button1').focus();" onmousedown="if(this.value=='输入关键词') this.value='';" />
+      <button id="Button1" onclick="detailSearch();"></button>
+      <button id="Button2" class="btnmaga" onclick="magazineSearch();"></button>
+      <div class="cl"></div> 
+      <div id="tips">
+       <a href="
+                      http://epub.cnki.net/kns/default.aspx?code=cjfd&amp;f=%E5%85%A8%E6%96%87&amp;kw=%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F %E4%BB%B7%E5%80%BC%E7%BD%91%E7%BB%9C " target="_blank" id="tips_c"><span><strong>高级搜索:</strong>用&quot; </span>商业模式 价值网络 <span>&quot;到知网平台检索,</span><b>点击这里搜索更多...</b></a>
+      </div> 
+     </div> 
+     <div id="headerbanner">
+      <a href="http://zhiku.cnki.net/Home/Corpus/66.html" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnki_index_top_right460.jpg" alt="中国知网.智库.食物禁忌" /></a>
+      <div style="display:none">
+       <script src="http://s27.cnzz.com/stat.php?id=1356416&amp;web_id=1356416&amp;show=pic1" language="javascript" charset="gb2312" type="text/javascript"></script>
+      </div> 
+     </div> 
+    </div> 
+    <div id="header948_b_r"></div> 
+   </div> 
+  </div>
+  <script language="javascript">      change_color();    </script>
+  <div id="content" style="width: 948px; margin: 0 auto;"> 
+   <div id="edff"></div> 
+   <div style="width:740px; float:left; margin-left:5px;"> 
+    <div> 
+     <div style="float:left;">
+      <a href="http://www.cnki.com.cn/Journal/I-I1-XAYD-2013-06.htm" target="_blank"><b> 《西安邮电大学学报》 </b><font color="#0080ff">2013年06期 </font></a>
+     </div> 
+     <div style="float:right;">
+      <a class="a05" href="#" onclick="return window.external.AddFavorite(document.location.href,'基于价值网的IT企业商业模式创新路径研究');">加入收藏</a> 
+      <a class="a05" target="_blank" href="
+                    http://XAYD.cbpt.cnki.net
+                  ">投稿 </a>
+     </div> 
+    </div> 
+    <div style="text-align:center; width:740px; font-size: 28px;color: #0000a0; font-weight:bold; font-family:'宋体';"> 
+     <h1 class="xx_title">基于价值网的IT企业商业模式创新路径研究</h1> 
+    </div> 
+    <div style="text-align:center; width:740px; height:30px;">
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E6%AC%A7%E6%99%93%E5%8D%8E" target="_blank">欧晓华</a> &nbsp;
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E9%B8%BF" target="_blank">张鸿</a> &nbsp;
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=author:%E9%99%88%E5%BF%97%E5%BC%BA" target="_blank">陈志强</a> &nbsp;
+    </div> 
+    <div style="text-align:left;word-break:break-all" class="xx_font"> 
+     <font color="#000"><strong>【摘要】:</strong></font>价值网是商业模式创新的驱动力。运用文献研究的方法,针对新兴IT企业价值实现的问题,分析IT企业价值网三角模型和商业模式创新的关系,理清IT企业价值网的关键节点,以此作为商业模式创新的切入点,总结IT企业商业模式创新的五种路径,为现实中IT企业商业模式创新提供借鉴。
+    </div> 
+    <div style="text-align:left;" class="xx_font"> 
+     <font color="#000"><strong>【作者单位】</strong></font>: 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86%E5%AD%A6%E9%99%A2;%E8%A5%BF%E5%AE%89%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%E7%BB%8F%E6%B5%8E%E4%B8%8E%E7%AE%A1%E7%90%86%E5%AD%A6%E9%99%A2;" target="_blank">西北大学经济管理学院;西安邮电大学经济与管理学院;</a> 
+     <br />
+     <font color="#000"><strong>【关键词】</strong></font>: 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F" target="_blank"><strong>商业模式</strong></a> 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E4%BB%B7%E5%80%BC%E7%BD%91%E7%BB%9C" target="_blank"><strong>价值网络</strong></a> 
+     <a href="
+                    http://search.cnki.com.cn/Search.aspx?q=%E4%BB%B7%E5%80%BC%E6%A8%A1%E5%9D%97" target="_blank"><strong>价值模块</strong></a> 
+     <br />
+     <font color="#000"><strong>【基金】:</strong></font>
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=%E5%9B%BD%E5%AE%B6%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91%E8%B5%84%E5%8A%A9%E9%A1%B9%E7%9B%AE(10BGL099)" target="_blank">国家社会科学基金资助项目(10BGL099)</a> 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=
+%E6%95%99%E8%82%B2%E9%83%A8%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91%E5%9F%BA%E9%87%91%E8%B5%84%E5%8A%A9%E9%A1%B9%E7%9B%AE(11YJC630094)" target="_blank">教育部人文社科基金资助项目(11YJC630094)</a> 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=
+%E9%99%95%E8%A5%BF%E7%9C%81%E8%BD%AF%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91%E8%B5%84%E5%8A%A9%E9%A1%B9%E7%9B%AE(2010KRM83)" target="_blank">陕西省软科学基金资助项目(2010KRM83)</a> 
+     <a href="
+                      http://search.cnki.com.cn/Search.aspx?q=
+%E8%A5%BF%E5%AE%89%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%E9%9D%92%E5%B9%B4%E6%95%99%E5%B8%88%E7%A7%91%E7%A0%94%E5%9F%BA%E9%87%91%E8%B5%84%E5%8A%A9%E9%A1%B9%E7%9B%AE(102-0480)" target="_blank">西安邮电大学青年教师科研基金资助项目(102-0480)</a> 
+     <br />
+     <font color="#000"><strong>【分类号】:</strong></font>F407.6
+     <br />
+     <font color="#000"><strong>【正文快照】:</strong></font> 
+     <div style="text-indent:2em;text-align:left;word-break:break-all">
+      移动互联网时代,新一代信息技术所显现出的新网络经济规范已经对传统商业模式产生了深刻影响。对企业而言,新兴技术是一把双刃剑,一方面提高收益;另一方面为了规避风险,创新商业模式。正如《德鲁克日志》中的这句话———“当今企业之间的竞争,不是产品之间的竞争,而是商业模
+     </div> 
+    </div> 
+    <div class="down" id="down_1" style="margin-left:120px;margin-top:20px;+margin-left:20px;"> 
+     <div id="down_tit">
+      <a class="downon" href="
+                    http://wap.cnki.net/gowapdetail.aspx?fn=XAYD201306024&amp;libn=CJFDTOTAL
+                  " target="_blank">下载全文 </a>
+      <a href="
+                        http://epub.cnki.net/kns/default.aspx?code=cjfd&amp;f=%E5%85%A8%E6%96%87&amp;kw=%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F %E4%BB%B7%E5%80%BC%E7%BD%91%E7%BB%9C " target="_blank" class="more"> 更多同类文献 </a>
+     </div> 
+     <div class="cl"></div> 
+     <div class="down_button" id="ty_pdf">
+      <a href="
+                    http://epub.cnki.net/grid2008/docdown/docdownload.aspx?filename=XAYD201306024&amp;dbcode=CJFD&amp;year=2013&amp;dflag=pdfdown
+                  " target="_blank">PDF全文下载 </a>
+     </div> 
+     <div class="down_button" id="ty_caj">
+      <a href="
+                    http://epub.cnki.net/grid2008/docdown/docdownload.aspx?filename=XAYD201306024&amp;dbcode=CJFD&amp;year=2013&amp;dflag=cajdown
+                  " target="_blank">CAJ全文下载 </a>
+     </div> 
+     <div class="cl"></div> 
+     <p class="sp_1"> (<a href="../hqqw.html" target="_blank">如何获取全文</a><span style="color:red;">?</span> 欢迎:<a href="http://vipcard.cnki.net/ec/sksm/CNKIApplyForm.aspx" target="_blank">购买知网充值卡</a>、<a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank">在线充值</a>、<a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" id="online" target="_blank">在线咨询</a>) </p> 
+     <p class="sp_2"><a href="http://www.cnki.net/software/xzydq.htm" target="_blank">CAJViewer阅读器</a>支持CAJ、PDF文件格式,<a href="http://get.adobe.com/cn/reader/" target="_blank">AdobeReader</a>仅支持PDF格式 </p> 
+    </div>
+    <br />
+    <div class="adList" style="width:740px;">
+     <a href="http://zhiku.cnki.net/Home/Corpus/118.html" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/ad/zk_wyj.jpg" border="0" width="730" height="90" alt="微营销" /></a>
+    </div> 
+    <div style="text-align:left;"> 
+     <div id="cankao" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【参考文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前5条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">邱洁威;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-FLJS201008021.htm
+                          " target="_blank">国外商业模式理论研究综述(1929~1999年)</a>[J];福建论坛(社科教育版);2010年08期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">方孜,王刊良;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZGGK200204014.htm
+                          " target="_blank">基于5P4F的电子商务模式创新方法研究</a>[J];中国管理科学;2002年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">盛革;李国章;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZWGD201004016.htm
+                          " target="_blank">价值网模式的解构模型与管理框架研究</a>[J];管理评论;2010年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">欧晓华;陈志强;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZGSM201233036.htm
+                          " target="_blank">基于价值网络重构的IT企业价值实现机理研究</a>[J];中国商贸;2012年33期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">陈洋;薛君;王允楠;崔兴朋;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XAYD201304021.htm
+                          " target="_blank">基于双边市场的B2C团购平台竞争策略分析</a>[J];西安邮电大学学报;2013年04期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="gongyin" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【共引文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">刘祖斌;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI200620030.htm
+                          " target="_blank">基于知识工程电子商务模式创新研究</a>[J];商业研究;2006年20期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">卜华白;高阳;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI201105012.htm
+                          " target="_blank">企业价值网络系统低碳共生演化方向的判定模型及其检验</a>[J];商业研究;2011年05期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">任声策;宋炳良;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DLHX201201008.htm
+                          " target="_blank">航运高端服务业的生成和演化:全球价值网视角</a>[J];大连海事大学学报(社会科学版);2012年01期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">黄小瑜,沈建强,潘咏斌,邹轩;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-FJDN200411002.htm
+                          " target="_blank">现代流通环境下专业市场的电子商务模式研究</a>[J];福建电脑;2004年11期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">吴晨,梅姝娥;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-HDJJ200509022.htm
+                          " target="_blank">电子商务模式的多维分类体系研究</a>[J];华东经济管理;2005年09期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">楚金华;张洪革;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JLKF200804025.htm
+                          " target="_blank">高职电子商务专业人才培养模式创新研究</a>[J];职业教育研究;2008年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">谭晓林;谢伟;李培馨;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JSJI201010004.htm
+                          " target="_blank">电子商务模式的分类、应用及其创新</a>[J];技术经济;2010年10期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">杨剑;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JZGC200702030.htm
+                          " target="_blank">属地化电子商务的基本特征和发展趋势</a>[J];价值工程;2007年02期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">惠龙,覃正,刘小勇;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-QBZZ200506027.htm
+                          " target="_blank">基于价值过程的电子商务模式分析方法</a>[J];情报杂志;2005年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">张俊梅;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SXZX200804019.htm
+                          " target="_blank">旅游电子商务模式应用与创新分析</a>[J];思想战线;2008年04期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前1条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">曹宏铎;赖植森;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-PDID200607001035.htm
+                          " target="_blank">电子商务模式分层次分析</a>[A];信息经济与国民经济增长方式的转变——中国信息经济学会2006年学术年会论文集[C];2006年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前5条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">王鑫鑫;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10487-1011110562.htm
+                          " target="_blank">软件企业商业模式创新研究</a>[D];华中科技大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">胡涛;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10248-1012016692.htm
+                          " target="_blank">三网融合视角下我国广电运营商的TIMES融合运营模式研究</a>[D];上海交通大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">王珏辉;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2007106291.htm
+                          " target="_blank">电子商务模式研究</a>[D];吉林大学;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">李培成;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10140-1013108828.htm
+                          " target="_blank">基于现代价值网的传媒企业融合研究</a>[D];辽宁大学;2012年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">迟凤玲;<a href="http://cdmd.cnki.com.cn/Article/CDMD-82101-1013357095.htm
+                          " target="_blank">现代信息网络环境下科技型农业中小企业信贷融资模式创新研究</a>[D];中国农业科学院;2013年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">王宝明;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10463-1011030621.htm
+                          " target="_blank">基于Web2.0的电子商务商业模式影响因素研究</a>[D];河南工业大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">付晓璐;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011120710.htm
+                          " target="_blank">基于产品黏性的互联网盈利模式创新</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">楚迎春;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-1011239862.htm
+                          " target="_blank">中科院成都信息技术有限公司的商业模式研究</a>[D];电子科技大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">刘涌泉;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10504-1011406706.htm
+                          " target="_blank">基于价值网络的IT服务外包企业商业模式研究</a>[D];华中农业大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">尚光亮;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10445-1012339470.htm
+                          " target="_blank">三网融合下中国电视传媒产业的商业模式探析</a>[D];山东师范大学;2012年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">戴欣平;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10386-2003050223.htm
+                          " target="_blank">企业电子商务发展战略研究</a>[D];福州大学;2003年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">陈玉心;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10533-2003074264.htm
+                          " target="_blank">我国医药批发企业电子商务建设研究</a>[D];中南大学;2003年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">袁新龙;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10286-2005033942.htm
+                          " target="_blank">江苏省企业电子商务及其商业模式应用研究</a>[D];东南大学;2004年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">楚金华;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10142-2005083247.htm
+                          " target="_blank">电子商务环境下企业国际竞争优势研究</a>[D];沈阳工业大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">王志杰;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10036-2006062467.htm
+                          " target="_blank">电子商务下汽车零部件配送管理研究</a>[D];对外经济贸易大学;2006年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="erjicankao" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【二级参考文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">刘远航,孔庆发,刘勇,李松涛;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI200011001.htm
+                          " target="_blank">网络营销的理论创新与优势</a>[J];商业研究;2000年11期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">马金海,邓成超;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CGGL901.011.htm
+                          " target="_blank">谈谈网络营销的产生及其存在的优势与不足</a>[J];重庆工业管理学院学报;1999年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">曹俊浩;陈宏民;孙武军;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CJYJ201009010.htm
+                          " target="_blank">多平台接入对B2B平台竞争策略的影响——基于双边市场视角</a>[J];财经研究;2010年09期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">钱慧;吕廷杰;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DXKX200611014.htm
+                          " target="_blank">3G价值网业务模式的研究</a>[J];电信科学;2006年11期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">胡大立;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY200609010.htm
+                          " target="_blank">基于价值网模型的企业竞争战略研究</a>[J];中国工业经济;2006年09期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">王琴;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY201101009.htm
+                          " target="_blank">基于价值网络重构的企业商业模式创新</a>[J];中国工业经济;2011年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">董必荣;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY201201014.htm
+                          " target="_blank">基于价值网络的企业价值计量模式研究</a>[J];中国工业经济;2012年01期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">刘明宇;芮明杰;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY201205011.htm
+                          " target="_blank">价值网络重构、分工演进与产业结构优化</a>[J];中国工业经济;2012年05期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">刘雪梅;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY201206008.htm
+                          " target="_blank">联盟组合:价值创造与治理机制</a>[J];中国工业经济;2012年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">汪晓霞,郑吉春,葛禄青;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JJSS200105048.htm
+                          " target="_blank">互联网营销组合策略的创新</a>[J];经济师;2001年05期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前1条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">王刊良;万映红;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGXC200108002026.htm
+                          " target="_blank">网络经济中的电子商务模式创新</a>[A];管理科学与系统科学研究新进展——第6届全国青年管理科学与系统科学学术会议暨中国科协第4届青年学术年会卫星会议论文集[C];2001年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前1条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">曹俊浩;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10248-2010113677.htm
+                          " target="_blank">基于双边市场理论的B2B平台运行策略及其演化研究</a>[D];上海交通大学;2010年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="xiangsi" class="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【相似文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">孙杰贤;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-TXSJ200806009.htm
+                          " target="_blank">JUNOS打造Distributor时代的价值网络</a>[J];通讯世界;2008年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">丁岚;范黎波;宋志红;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZGRK200802018.htm
+                          " target="_blank">汉王科技的创新模式研究</a>[J];中国软科学;2008年02期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">王惠芬;蔡占奎;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SYJJ201033038.htm
+                          " target="_blank">制造业企业和服务业企业商业模式趋同分析</a>[J];商业时代;2010年33期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">汪拓;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JJZK200706017.htm
+                          " target="_blank">香港仙达总裁赵继纯:“商业模式也要创新”</a>[J];中国经济周刊;2007年06期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">袁茂峰;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DQPJ200714026.htm
+                          " target="_blank">“照片导航”催生新商业模式</a>[J];TWICE消费电子商讯;2007年14期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">张西振;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-YHJS200738028.htm
+                          " target="_blank">从梳理商业模式入手</a>[J];中国计算机用户;2007年38期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">拜龙;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZHYI200804010.htm
+                          " target="_blank">下一个十年预测之三 新商业模式的典型特征</a>[J];中国制衣;2008年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">郄晓烨;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ITSJ200906079.htm
+                          " target="_blank">软件的网络化及Linux的未来趋势</a>[J];程序员;2009年06期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">黄星;陈维祥;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SZTQ2009Z2006.htm
+                          " target="_blank">省电的商业模式</a>[J];深圳特区科技;2009年Z2期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">陈振兴;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JLRZ201002038.htm
+                          " target="_blank">风河打破开源魔咒 “软件免费+服务收费”,塑造有效商业模式</a>[J];经理人;2010年02期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">李海涛;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-SSAD201011001069.htm
+                          " target="_blank">基于信息化的制造业新型商业化模式探讨</a>[A];云南省机械工程学会2010年年会论文集[C];2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">谢建平;徐建平;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-IGSV000000001280.htm
+                          " target="_blank">生物技术公司的“技术平台”商业模式还能走多远?</a>[A];中国生物工程学会第三次全国会员代表大会暨学术讨论会论文摘要集[C];2001年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">任鹤年;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGWL200911004010.htm
+                          " target="_blank">创新商业模式 提升管理水平 打造全新汽车服务运营商</a>[A];全国生产资料流通企业工作座谈会会刊[C];2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGVE200806001011.htm
+                          " target="_blank">服务于占世界人口90%的穷人的工程</a>[A];机械工程未来二十年发展预测[C];2008年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGKU200508002087.htm
+                          " target="_blank">用友小型管理软件事业部简介</a>[A];中国会计学会第四届全国会计信息化年会论文集(下)[C];2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">黄燕;陈翠文;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-STDX201104001008.htm
+                          " target="_blank">我国主要城市LED产业发展模式比较研究——来自上海、深圳、厦门、南昌产业规划的证据</a>[A];地方政府发展研究&middot;第6辑[C];2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGWL201109001015.htm
+                          " target="_blank">王新明 吉峰农机董事长</a>[A];“创新模式、科学发展、汇聚共识、合作共赢”——全国生产资料流通企业工作座谈会暨中国生产资料与商贸流通高峰论坛会刊[C];2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">石涌江;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGVE200511001005.htm
+                          " target="_blank">全球化制造与中国企业制造素质的锤炼</a>[A];2005年中国机械工程学会年会论文集[C];2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">余平;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZXMY200706001004.htm
+                          " target="_blank">引进战略合作伙伴,加快产业发展步伐</a>[A];中国猪业发展大会暨中国畜牧业协会猪业分会第二届会员代表大会论文集[C];2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">侯健生;蒋跃斌;许健宏;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-DIDD201209001023.htm
+                          " target="_blank">电动汽车产业发展中新型商业模式的探索</a>[A];第十四届中国科协年会第19分会场:电动汽车充放电技术研讨会论文集[C];2012年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要报纸全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">记者 李佳师;<a href="
+                            http://xuewen.cnki.net/CCND-CDZB20061010B033.html
+                            " target="_blank">Java之父:关于Java我也有遗憾</a>[N];中国电子报;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">本报记者 安也致;<a href="
+                            http://xuewen.cnki.net/CCND-CQYB200607110063.html
+                            " target="_blank">陆致成:创新是企业原动力</a>[N];中国企业报;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">;<a href="
+                            http://xuewen.cnki.net/CCND-DNSB200806020251.html
+                            " target="_blank">IT技术改变商业模式</a>[N];电脑商报;2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">本报记者 杨志杰;<a href="
+                            http://xuewen.cnki.net/CCND-TXCY201003080241.html
+                            " target="_blank">推动物联网产业健康发展</a>[N];通信产业报;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">张彬;<a href="
+                            http://xuewen.cnki.net/CCND-CQYB200611300064.html
+                            " target="_blank">长虹佳华做中国最卓越的营销公司</a>[N];中国企业报;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">周晓娟;<a href="
+                            http://xuewen.cnki.net/CCND-TXCY200805260501.html
+                            " target="_blank">内外兼修的红帽卓越之路</a>[N];通信产业报;2008年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">本报记者 李蓉;<a href="
+                            http://xuewen.cnki.net/CCND-CHQB201101180080.html
+                            " target="_blank">探索创新商业模式 加速做大非航产业</a>[N];中国航空报;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">本报记者 静安;<a href="
+                            http://xuewen.cnki.net/CCND-CMYB201101040020.html
+                            " target="_blank">移动技术主导未来商业模式</a>[N];中国贸易报;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">王如晨;<a href="
+                            http://xuewen.cnki.net/CCND-DYCJ20071122C044.html
+                            " target="_blank">传统硬盘巨头希捷终妥协明年将推闪存硬盘</a>[N];第一财经日报;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">本期话题主持人 本报记者 梁若韫;<a href="
+                            http://xuewen.cnki.net/CCND-ZGFS20080111A091.html
+                            " target="_blank">新竞争时代企业靠什么赚钱?</a>[N];中国服饰报;2008年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">龚丽敏;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10335-1013145904.htm
+                          " target="_blank">新兴经济背景下商业模式对企业成长的影响:中国制造企业的证据</a>[D];浙江大学;2013年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">刘晓东;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10335-2005115739.htm
+                          " target="_blank">知识产权与软件产业市场结构</a>[D];浙江大学;2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">曹琼;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10384-2009077576.htm
+                          " target="_blank">台湾笔记本电脑产业核心竞争力研究</a>[D];厦门大学;2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">王广凤;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10140-2009044874.htm
+                          " target="_blank">开源软件与专有软件的竞争</a>[D];辽宁大学;2008年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">李杰;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10497-1011197104.htm
+                          " target="_blank">中国钢铁流通企业商业模式的研究</a>[D];武汉理工大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">张幼松;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10385-1011303827.htm
+                          " target="_blank">闽台制造业竞合研究</a>[D];华侨大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">佟石;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-2004134879.htm
+                          " target="_blank">基于价值网络的我国医药企业创新集成管理研究</a>[D];复旦大学;2004年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">冯良清;<a href="http://cdmd.cnki.com.cn/Article/CDMD-11902-1012428503.htm
+                          " target="_blank">服务型制造网络节点质量行为研究</a>[D];南昌大学;2012年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">庄殿君;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10533-2010185778.htm
+                          " target="_blank">基于价值链重构的中国电视产业发展战略研究</a>[D];中南大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">刘兴贵;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-2010234384.htm
+                          " target="_blank">基于价值链的发电设备制造企业技术创新模式选择研究</a>[D];电子科技大学;2009年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02"> 前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="721"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">刘小帅;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010223726.htm
+                          " target="_blank">PC制造商转型与HaaS商业模式创新的研究</a>[D];北京邮电大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">樊立沙;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10075-2010208696.htm
+                          " target="_blank">PC制造业的商业模式及创新研究</a>[D];河北大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">李爱群;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10004-1011102534.htm
+                          " target="_blank">HS公司新商业模式研究</a>[D];北京交通大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">刘涌泉;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10504-1011406706.htm
+                          " target="_blank">基于价值网络的IT服务外包企业商业模式研究</a>[D];华中农业大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">杨卓超;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10056-2007061059.htm
+                          " target="_blank">美国品牌辅助工业品经销商商业模式研究</a>[D];天津大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">李朝伟;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10004-1011102836.htm
+                          " target="_blank">企业商业模式创新研究—以联想为例</a>[D];北京交通大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">杨永清;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10005-2008088408.htm
+                          " target="_blank">我国轿车制造业的商业模式研究</a>[D];北京工业大学;2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">魏宁;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10611-2009047878.htm
+                          " target="_blank">软件企业提供ASP服务的博弈模型研究</a>[D];重庆大学;2008年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">赵心怡;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10335-1011080917.htm
+                          " target="_blank">中国服装产业升级中的商业模式比较研究</a>[D];浙江大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">陆洪艳;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10422-2007087085.htm
+                          " target="_blank">互联网条件下制造企业商业模式创新</a>[D];山东大学;2007年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <div style="width:190px; float:right;margin-left:5px;"> 
+    <div id="div_similar"> 
+     <div class="adListRight" style="line-height:150%;text-align:left;">
+      <a href="http://ad.cnki.net/index.aspx" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/ad/zhiwangguanggao.jpg" border="0" width="190" height="78" alt="中国知网广告投放" /></a>
+     </div> 
+     <div style="line-height:180%;"> 
+      <table height="100%" cellspacing="0" cellpadding="0" width="100%" bgcolor="#055CCE" border="0"> 
+       <tbody> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关期刊</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I2-GRDN.htm" target="_blank">个人电脑</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I2-SHWX.htm" target="_blank">计算机周刊</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I2-WDNJ.htm" target="_blank">微电脑世界</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I3-DZCU.htm" target="_blank">中国电子出版</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I2-YHJS.htm" target="_blank">中国计算机用户</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I1-DZCS.htm" target="_blank">电子产品世界</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/I-I2-MZDN.htm" target="_blank">每周电脑报</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/J-J1-HLZK.htm" target="_blank">互联网周刊</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/J-J7-SGLK.htm" target="_blank">上海管理科学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="http://www.cnki.com.cn/Journal/J-J1-FJGG.htm" target="_blank">开放潮</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关机构</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E6%9C%AC%E5%88%8A%E8%AE%B0%E8%80%85" target="_blank">本刊记者</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E5%8C%97%E4%BA%AC%E8%BF%9E%E9%82%A6%E8%BD%AF%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%85%AC%E5%85%B3%E9%83%A8!%E7%BB%8F%E7%90%86" target="_blank">北京连邦软件有限公司公关... </a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E6%9C%AC%E5%88%8A%E8%AE%B0%E8%80%85
+" target="_blank">本刊记者</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=%E8%8B%B1%E7%89%B9%E5%B0%94%E5%8C%97%E4%BA%9A%E5%8C%BA" target="_blank">英特尔北亚区</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关作者</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+             <td height="6"></td> 
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%88%98%E8%91%B5" target="_blank">刘葵</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E4%B8%80%E4%B8%81" target="_blank">一丁</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E6%96%B9%E5%85%B4%E4%B8%9C" target="_blank">方兴东</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%AE%8B%E7%A7%80%E5%8D%BF" target="_blank">宋秀卿</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%8D%95%E5%B8%86" target="_blank">单帆</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%82%93%E6%83%A0%E5%B9%B3" target="_blank">邓惠平</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%AD%99%E6%B0%B8%E6%9D%B0" target="_blank">孙永杰</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E7%A9%86%E5%8F%A4" target="_blank">穆古</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E6%B1%AA%E8%8B%A5%E8%8F%A1" target="_blank">汪若菡</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E8%B5%B7%E5%8D%AB" target="_blank">张起卫</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%AB%98%E5%85%B4" target="_blank">高兴</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%9F%A9%E6%AF%85" target="_blank">韩毅</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%BB%84%E7%9B%9B%E8%90%8D" target="_blank">黄盛萍</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:Mr.WEE THANG TAN(%E9%99%88%E4%BC%9F%E9%94%AD)" target="_blank">Mr.WEE THANG TAN(陈伟锭)</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02"> &gt;<a href="
+                                        http://search.cnki.com.cn/Search.aspx?q=author:%E9%97%A8" target="_blank">门</a></td> 
+            </tr>
+            <tr> 
+             <td height="6"></td> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td id="simblank" bgcolor="#fffcd3"></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="white"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <div style="float:left"> 
+    <div class="body_div2"> 
+     <div class="zhinan"> 
+      <table width="928" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="240" rowspan="2" align="center" valign="top"><img src="http://qiangguo.cnki.net/cnki/images/new/kefupic.gif" width="222" height="91" /></td> 
+         <td colspan="2" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon2.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>快捷付款方式</strong></span></td> 
+         <td width="160" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon4.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>订购知网充值卡</strong></span></td> 
+         <td valign="top" width="160"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon5.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>订购热线</strong></span></td> 
+         <td colspan="2" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon3.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>帮助中心</strong></span></td> 
+        </tr> 
+        <tr> 
+         <td width="72" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_yhk.html" target="_blank" class="grey12">银行卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_zfb.html" target="_blank" class="grey12">支付宝</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_szxk.html" target="_blank" class="grey12">神州行</a></li> 
+          </ul> </td> 
+         <td width="108" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_zwk.html" target="_blank" class="grey12">知网卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_sjdx.html" target="_blank" class="grey12">手机短信</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_more.html" target="_blank" class="grey12">更多&gt;&gt;</a></li> 
+          </ul> </td> 
+         <td valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/CNKIApplyForm.aspx" target="_blank" class="grey12">免费送卡上门</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/yhdh.html" target="_blank" class="grey12">银行汇款购卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/yjhk.html" target="_blank" class="grey12">邮局汇款购卡</a></li> 
+          </ul> </td> 
+         <td valign="top"> 
+          <ul> 
+           <li>400-819-9993</li> 
+           <li>010-62791813</li> 
+           <li>010-62985026</li> 
+          </ul> </td> 
+         <td width="96" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" target="_blank" class="grey12">常见问题</a></li> 
+           <li><a href="http://help.cnki.net" target="_blank" class="grey12">在线咨询</a></li> 
+           <li><a href="http://www.cnki.net/software/xzydq.htm" target="_blank" class="grey12">阅读器下载</a></li> 
+          </ul> </td> 
+         <td width="120" valign="top"> 
+          <ul> 
+           <li><a href="http://ad.cnki.net/Index.aspx" target="_blank" class="grey12">广告服务</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/cardinfo.html" target="_blank" class="grey12">知网卡 </a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/cp&amp;fw.html" target="_blank" class="grey12">关于知网</a></li> 
+          </ul> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="footer">
+      <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target="_blank">
+       <div class="beian"></div></a>
+      <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target="_blank">
+       <div class="beian2"></div></a>
+      <p> 《中国学术期刊(光盘版)》电子杂志社有限公司<br /> 同方知网数字出版技术股份有限公司<br /> 地址:北京清华大学 84-48信箱 知识超市公司<br /><a style="text-decoration:none;">京ICP证040441号</a><br /><a style="text-decoration:none;">互联网出版许可证 新出网证(京)字008号</a><br /> 出版物经营许可证 新出发京批字第直0595号<br /></p> 
+      <p> 订购热线:400-819-9993 010-62982499<br /> 服务热线:010-62985026 010-62791813<br /> 在线咨询:<a href="http://help.cnki.net" target="_blank">http://help.cnki.net</a><br /> 传真:010-62780361<br /> 京公网安备11010802014874号 </p> 
+     </div> 
+     <div class="clear"></div> 
+     <p><br /></p> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

@@ -10,6 +10,7 @@ import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.JudgeFilter;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
+import org.apache.commons.io.FileUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
@@ -17,6 +18,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.PrintStream;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -136,6 +138,7 @@ public class BaiduSearchCrawler extends Crawler {
 
                                 //如果ans为true则表示当前网页符合过滤条件
                                 if (ans) {
+                                    FileUtils.writeStringToFile(new File("Data", System.currentTimeMillis() + ".xml"), document_result.toString());
                                     SpiderInfo spiderInfo = new SpiderInfo();
                                     spiderInfo.setType(type);
                                     spiderInfo.setUrl(document_result.baseUri());

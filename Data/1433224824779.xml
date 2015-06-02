@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>热烈祝贺社科赛斯教育集团成为中国MBA联盟战略合作伙伴</title> 
+  <meta name="keywords" content="石家庄社科赛斯教育有限公司新闻通知" /> 
+  <meta name="description" content="石家庄社科赛斯教育有限公司学校新闻_学校通知" /> 
+  <link rel="stylesheet" href="/TheaApp/Px/View/PublicSchool/css/base.css" /> 
+  <link rel="stylesheet" href="/TheaApp/Px/View/PublicSchool/css/lecture.css" /> 
+  <script type="text/javascript" src="/TheaApp/Px/View/PublicSchool/js/jquery-1.7.min.js"></script> 
+  <script type="text/javascript" src="/TheaApp/Px/View/PublicSchool/js/lecture.js"></script> 
+  <script type="text/javascript" src="/TheaApp/Px/View/Public/js/theacommon.js"></script> 
+  <link rel="stylesheet" href="/TheaApp/Px/View/PublicSchool/css/loginCheck.css" /> 
+  <script type="text/javascript" src="/TheaApp/Px/View/Public/js/loginCheck.js"></script> 
+  <script type="text/javascript" src="/TheaApp/Px/View/Public/js/webtowap.js"></script>
+ </head>
+ <body> 
+  <div id="topNav"> 
+   <div class="wrap"> 
+    <!-- 公共头部 start --> 
+    <div class="left"> 
+     <a href="http://www.thea.cn" target="_blank" class="website">教育联展网</a>|
+     <a href="http://www.thea.cn/ks/" target="_blank" rel="nofollow">考试</a>|
+     <a href="http://k.thea.cn/" target="_blank" rel="nofollow">模考</a>|
+     <a href="http://v.thea.cn/" target="_blank" rel="nofollow">视频</a>
+    </div> 
+    <div class="right"> 
+     <ul class="menu_nav"> 
+      <li class="menu_li js_land"> <a class="menu_hd">登录</a> 
+       <div style="display: none;" class="land_list"> 
+        <span></span> 
+        <a href="/login/index" target="_blank" rel="nofollow">学员登录</a> 
+        <a href="/agency/Login/index" target="_blank" rel="nofollow">机构登录</a> 
+       </div> </li> 
+      <li class="menu_li js_land"> <a class="menu_hd" href="/reg/index" target="_blank" rel="nofollow">注册 </a> 
+       <div style="display: none;" class="land_list"> 
+        <span></span> 
+        <a href="/reg/index" target="_blank" rel="nofollow">学员注册</a> 
+        <a href="/agency/Register/index" target="_blank" rel="nofollow">机构注册</a> 
+       </div> </li> 
+      <else> 
+       <li class="menu_li userInfo clearfix"> <span>您好!</span> 
+        <div class="ui_cont"> 
+         <a class="menu_hd" href="#"></a> 
+         <div class="ui_show"> 
+          <em></em> 
+          <div class="ui_tit clearfix"> 
+           <img src="#" alt="" height="40" width="40" /> 
+           <h4><a target="_blank" href="#"></a></h4> 
+          </div> 
+          <div class="ui_txt"> 
+           <a href="/Myaccount/loginout" class="ui_quit" rel="nofollow">退出</a> 
+           <a target="_blank" class="uit_info" href="#" rel="nofollow">账号设置</a>| 
+          </div> 
+         </div> 
+        </div> </li> 
+       <li class="menu_li"><a class="menu_hd" href="http://vip.thea.cn/guide/registration" target="_blank" rel="nofollow">招生合作</a></li> 
+       <li class="menu_li webNav"> <a class="menu_hd" href="#">网站导航<i class="i_arr"></i></a> 
+        <ul class="subnav"> 
+         <li> 
+          <div class="choose_area qita">
+           <a href="http://www.thea.cn/ks/" title="联展考试" rel="nofollow">联展考试</a>|
+           <a href="http://k.thea.cn/" title="趣味考场" rel="nofollow">趣味考场</a>|
+           <a href="http://px.thea.cn/" title="联展培训" rel="nofollow">联展培训</a>|
+           <a href="http://net.thea.cn/" title="网校助手" rel="nofollow">网校助手</a>|
+           <a href="http://qy.thea.cn/" title="诺达名师" rel="nofollow">诺达名师</a>|
+           <a href="http://px.thea.cn/" title="会员机构" rel="nofollow">会员机构</a> 
+          </div> </li> 
+         <li class=""> <label>会计类考试</label> 
+          <div class="choose_area">
+           <a href="/shijiazhuang/xkj/" title="会计证" target="_blank">会计证</a>|
+           <a href="/shijiazhuang/xkjz/" title="会计职称" target="_blank" class="hightlight">会计职称</a>|
+           <a href="/shijiazhuang/xzk/" title="注册会计师" target="_blank">注册会计师</a>|
+           <a href="/shijiazhuang/xzcs/" title="注册税务师" target="_blank">注册税务师</a>|
+           <a href="/shijiazhuang/xjjs/" title="经济师" target="_blank" class="hightlight">经济师</a>|
+           <a href="/shijiazhuang/xzcpg/" title="资产评估师" target="_blank">资产评估师</a>|
+           <a href="/shijiazhuang/xlc/" title="理财规划师" target="_blank">理财规划师</a>|
+           <a href="/shijiazhuang/xsj/" title="审计师" target="_blank">审计师</a>|
+           <a href="/shijiazhuang/tongji/" title="统计师" target="_blank">统计师</a>|
+           <a href="/shijiazhuang/xjss/" title="精算师" target="_blank">精算师</a>|
+           <a href="/shijiazhuang/xzhj/" title="证券从业员" target="_blank">证券从业员</a>|
+           <a href="/shijiazhuang/yinhang/" title="银行从业员" ""="" target="_blank">银行从业员</a>|
+           <a href="/shijiazhuang/xacca/" title="ACCA" target="_blank">ACCA</a>|
+           <a href="/shijiazhuang/xcfo/" title="CFO" target="_blank">CFO</a>|
+           <a href="/shijiazhuang/xaia/" title="AIA" target="_blank">AIA</a>|
+           <a href="/shijiazhuang/xcfa/" title="CFA" target="_blank">CFA</a>|
+           <a href="/shijiazhuang/xkjd/" title="会计电算化" target="_blank">会计电算化</a>|
+           <a href="/shijiazhuang/jingjiren/" title="保险经纪人" target="_blank">保险经纪人</a>|
+           <a href="/shijiazhuang/gonggu/" title="保险公估人" target="_blank">保险公估人</a>|
+           <a href="/shijiazhuang/baoxian/" title="保险代理人" target="_blank">保险代理人</a>|
+           <a href="/shijiazhuang/baojian/" title="保荐代表人" target="_blank">保荐代表人</a>
+           <a href="/shijiazhuang/qihuo/" title="期货从业员" target="_blank">期货从业员</a>|
+           <a href="/shijiazhuang/jijin/" title="基金销售员" target="_blank">基金销售员</a>|
+           <a href="/shijiazhuang/jianzheng/" title="价格鉴证师" target="_blank">价格鉴证师</a> 
+          </div> </li> 
+         <li class=""> <label>学历类考试</label> 
+          <div class="choose_area">
+           <a href="/shijiazhuang/zk/" title="自考" target="_blank">自考</a>|
+           <a href="/shijiazhuang/xcgk/" title="成人高考" target="_blank" class="hightlight">成人高考</a>|
+           <a href="/shijiazhuang/xkyfd/" title="研究生考试" target="_blank">研究生考试</a>|
+           <a href="/shijiazhuang/gkfd/" title="高考" target="_blank">高考</a>|
+           <a href="/shijiazhuang/mba//" title="MBA" target="_blank">MBA</a>|
+           <a href="/shijiazhuang/emba/" title="EMBA" target="_blank">EMBA</a>|
+           <a href="/shijiazhuang/mpa/" title="MPA&lt;" target="_blank">MPA</a>|
+           <a href="/shijiazhuang/gcss/" title="工程硕士" target="_blank">工程硕士</a>|
+           <a href="/shijiazhuang/xfls/" title="法律硕士" target="_blank">法律硕士</a>|
+           <a href="/shijiazhuang/jyss/" title="教育硕士" target="_blank">教育硕士</a>|
+           <a href="/shijiazhuang/kjss/" title="会计硕士" target="_blank">会计硕士</a>|
+           <a href="/shijiazhuang/tdxl/" title="同等学力" target="_blank">同等学力</a> 
+          </div> </li> 
+         <li class=""> <label>外语类考试</label> 
+          <div class="choose_area">
+           <a href="/shijiazhuang/pets/" title="公共英语" target="_blank">公共英语</a>|
+           <a href="/shijiazhuang/bec/" title="商务英语" target="_blank">商务英语</a>|
+           <a href="/shijiazhuang/zcyy/" title="职称英语" target="_blank">职称英语</a>|
+           <a href="/shijiazhuang/toefl/" title="托福Toefl" target="_blank">托福Toefl</a>|
+           <a href="/shijiazhuang/yasi/" title="雅思Ielts" target="_blank" class="hightlight">雅思Ielts</a>|
+           <a href="/shijiazhuang/cet/" title="英语四级" target="_blank">英语四级</a>|
+           <a href="/shijiazhuang/cet/" title="英语六级" target="_blank">英语六级</a>|
+           <a href="/shijiazhuang/tem/" title="专四专八" target="_blank">专四专八</a>|
+           <a href="/shijiazhuang/fyzg/" title="翻译资格" target="_blank">翻译资格</a>|
+           <a href="/shijiazhuang/riyu/" title="日语考试" target="_blank">日语考试</a>|
+           <a href="/shijiazhuang/hanyu/" title="韩语考试" target="_blank">韩语考试</a>|
+           <a href="/shijiazhuang/ky/" title="英语口语" target="_blank">英语口语</a>|
+           <a href="/shijiazhuang/sat/" title="SAT/SSAT" target="_blank">SAT/SSAT</a> 
+          </div> </li> 
+         <li class=""> <label>职业资格考试</label> 
+          <div class="choose_area">
+           <a href="/shijiazhuang/xgwy/" title="公务员考试" target="_blank">公务员考试</a>|
+           <a href="/shijiazhuang/xsf/" title="司法考试" target="_blank">司法考试</a>|
+           <a href="/shijiazhuang/falv/" title="企业法律顾问" target="_blank">企业法律顾问</a>|
+           <a href="/shijiazhuang/jiaoshi/" title="教师资格" target="_blank">教师资格</a>|
+           <a href="/shijiazhuang/xrl/" title="人力资源师" target="_blank" class="hightlight">人力资源师</a>|
+           <a href="/shijiazhuang/xpx/" title="企业培训师" target="_blank">企业培训师</a>|
+           <a href="/shijiazhuang/xss/" title="室内设计师" target="_blank">室内设计师</a>|
+           <a href="/shijiazhuang/xzl/" title="质量资格" target="_blank">质量资格</a>|
+           <a href="/shijiazhuang/xdy/" title="导游资格" target="_blank">导游资格</a>|
+           <a href="/shijiazhuang/xxl/" title="心理咨询师" target="_blank">心理咨询师</a>|
+           <a href="/shijiazhuang/xms/" title="秘书资格" target="_blank">秘书资格</a>|
+           <a href="/shijiazhuang/xns/" title="内审员考试" target="_blank">内审员考试</a>|
+           <a href="/shijiazhuang/zdg/" title="深圳招调工" target="_blank">深圳招调工</a>|
+           <a href="/shijiazhuang/xcyi/" title="茶艺师考试" target="_blank">茶艺师考试</a>|
+           <a href="/shijiazhuang/xtj/" title="调酒师考试" target="_blank">调酒师考试</a>|
+           <a href="/shijiazhuang/xch/" title="策划师考试" target="_blank">策划师考试</a>|
+           <a href="/shijiazhuang/xyx/" title="营销师考试" target="_blank">营销师考试</a>|
+           <a href="/shijiazhuang/xsc/" title="生产管理师" target="_blank">生产管理师</a>|
+           <a href="/shijiazhuang/xxm/" title="项目管理师" target="_blank">项目管理师</a>|
+           <a href="/shijiazhuang/shehui/" title="社会工作者" target="_blank">社会工作者</a>|
+           <a href="/shijiazhuang/chuban/" title="出版资格" target="_blank">出版资格</a>|
+           <a href="/shijiazhuang/xbj/" title="公共营养师" target="_blank">公共营养师</a>|
+           <a href="/shijiazhuang/xpc/" title="营养配餐员" target="_blank">营养配餐员</a> 
+          </div> </li> 
+         <li class=""> <label>外贸类考试</label> 
+          <div class="choose_area">
+           <a href="/shijiazhuang/xbg/" title="报关员考试" target="_blank">报关员考试</a>|
+           <a href="/shijiazhuang/xbjy/" title="报检员考试" target="_blank" class="hightlight">报检员考试</a>|
+           <a href="/shijiazhuang/xhy/" title="货运代理人" target="_blank">货运代理人</a>|
+           <a href="/shijiazhuang/xwg/" title="外贸跟单员" target="_blank">外贸跟单员</a>|
+           <a href="/shijiazhuang/xdz/" title="商务单证员" target="_blank">商务单证员</a>|
+           <a href="/shijiazhuang/xgs/" title="国际商务师" target="_blank">国际商务师</a>|
+           <a href="/shijiazhuang/xds/" title="电子商务师" target="_blank">电子商务师</a>|
+           <a href="/shijiazhuang/xwx/" title="外销员考试" target="_blank">外销员考试</a>|
+           <a href="/shijiazhuang/xwl/" title="物流师考试" target="_blank">物流师考试</a>|
+           <a href="/shijiazhuang/xcg/" title="采购师考试" target="_blank">采购师考试</a> 
+          </div> </li> 
+         <li class=""> <label>建筑类考试</label> 
+          <div class="choose_area">
+           <a href="/shijiazhuang/xjl/" title="监理工程师" target="_blank">监理工程师</a>|
+           <a href="/shijiazhuang/yijian/" title="一级建造师" target="_blank" class="hightlight">一级建造师</a>|
+           <a href="/shijiazhuang/erjian/" title="二级建造师" target="_blank">二级建造师</a>|
+           <a href="/shijiazhuang/xzj/" title="造价工程师" target="_blank">造价工程师</a>|
+           <a href="/shijiazhuang/xag/" title="安全工程师" target="_blank">安全工程师</a>|
+           <a href="/shijiazhuang/xfc/" title="房产估价师" target="_blank">房产估价师</a>|
+           <a href="/shijiazhuang/xjj/" title="房产经纪人" target="_blank">房产经纪人</a>|
+           <a href="/shijiazhuang/xzx/" title="咨询工程师" target="_blank">咨询工程师</a>|
+           <a href="/shijiazhuang/xjz/" title="一级建筑师" target="_blank">一级建筑师</a>|
+           <a href="/shijiazhuang/xwy/" title="物业管理师" target="_blank">物业管理师</a>|
+           <a href="/shijiazhuang/xyus/" title="造价员考试" target="_blank">造价员考试</a>|
+           <a href="/shijiazhuang/xsg/" title="施工员考试" target="_blank">施工员考试</a>|
+           <a href="/shijiazhuang/zhaobiao/" title="招标师培训" target="_blank">招标师</a>|
+           <a href="/shijiazhuang/gujia/" title="土地估价师" target="_blank">土地估价师</a>|
+           <a href="/shijiazhuang/guihua/" title="城市规划师" target="_blank">城市规划师</a>|
+           <a href="/shijiazhuang/pingjia/" title="安全评价师" target="_blank">安全评价师</a>|
+           <a href="/shijiazhuang/huanbao/" title="环保工程师" target="_blank">环保工程师</a>|
+           <a href="/shijiazhuang/jiegou/" title="结构工程师" target="_blank">结构工程师</a>|
+           <a href="/shijiazhuang/yantu/" title="岩土工程师" target="_blank">岩土工程师</a>|
+           <a href="/shijiazhuang/shebei/" title="设备监理师" target="_blank">设备监理师</a>|
+           <a href="/shijiazhuang/tudi/" title="土地代理人" target="_blank">土地代理人</a>
+           <a href="/shijiazhuang/gljianli/" title="公路监理师" target="_blank">公路监理师</a>|
+           <a href="/shijiazhuang/huanjing/" title="环境评价师" target="_blank">环境评价师</a>
+           <a href="/shijiazhuang/gonglu/" title="公路造价师" target="_blank">公路造价师</a> 
+          </div> </li> 
+         <li class=""> <label>医药类考试</label> 
+          <div class="choose_area">
+           <a href="/shijiazhuang/xzyys/" title="执业药师" target="_blank">执业药师</a>|
+           <a href="/shijiazhuang/xzy/" title="执业医师" target="_blank">执业医师</a>|
+           <a href="/shijiazhuang/xws/" title="卫生资格" target="_blank">卫生资格</a>|
+           <a href="/shijiazhuang/wshushi/" title="护士资格" target="_blank" class="hightlight">护士资格</a>|
+           <a href="/shijiazhuang/linchuang/" title="临床执业医师" target="_blank">临床执业医师</a>|
+           <a href="/shijiazhuang/lczhuli/" title="临床执业助理医师" target="_blank">临床执业助理医师</a>|
+           <a href="/shijiazhuang/zhongyi/" title="中医执业医师" target="_blank">中医执业医师</a>|
+           <a href="/shijiazhuang/zyzhuli/" title="中医助理医师" target="_blank">中医助理医师</a>|
+           <a href="/shijiazhuang/weisheng/" title="公卫执业医师" target="_blank">公卫执业医师</a>|
+           <a href="/shijiazhuang/wszhuli/" title="公卫执业助理医师" target="_blank">公卫执业助理医师</a>|
+           <a href="/shijiazhuang/kouqiang/" title="口腔执业医师" target="_blank">口腔执业医师</a>
+           <a href="/shijiazhuang/kqzhuli/" title="口腔执业助理医师" target="_blank">口腔执业助理医师</a>|
+           <a href="/shijiazhuang/neike/" title="内科主治医师" target="_blank">内科主治医师</a>|
+           <a href="/shijiazhuang/waike/" title="外科主治医师" target="_blank">外科主治医师</a>|
+           <a href="/shijiazhuang/fuchankec/" title="妇产科主治医师" target="_blank">妇产科主治医师</a>
+           <a href="/shijiazhuang/jianyan/" title="检验技士/师" target="_blank">检验技士/师</a>|
+           <a href="/shijiazhuang/wsyaoshi/" title="药士/药师" target="_blank">药士/药师</a>|
+           <a href="/shijiazhuang/zhongyao/" title="中药士/药师" target="_blank">中药士/药师</a>|
+           <a href="/shijiazhuang/xiyi/" title="中西医结合执业医师" target="_blank">中西医结合执业医师</a>|
+           <a href="/shijiazhuang/xiyizhuli/" title="中西医结合助理医师" target="_blank">中西医结合助理医师</a> 
+          </div> </li> 
+         <li class=""> <label>IT技能类</label> 
+          <div class="choose_area">
+           <a href="/shijiazhuang/jsjd/" title="计算机等级" target="_blank">计算机等级</a>|
+           <a href="/shijiazhuang/cjsj/" title="职称计算机" target="_blank" class="hightlight">职称计算机</a>|
+           <a href="/shijiazhuang/yk/" title="软考" target="_blank">软考</a>|
+           <a href="/shijiazhuang/oracle/" title="oracle认证" target="_blank">oracle认证</a>|
+           <a href="/shijiazhuang/linux/" title="Linux认证" target="_blank">Linux认证</a>|
+           <a href="/shijiazhuang/java/" title="JAVA认证" target="_blank">JAVA认证</a>|
+           <a href="/shijiazhuang/mic/" title="微软认证" target="_blank">微软认证</a>|
+           <a href="/shijiazhuang/cioso/" title="思科认证" target="_blank">思科认证</a>|
+           <a href="/shijiazhuang/pmcj/" title="平面设计" target="_blank">平面设计</a>|
+           <a href="/shijiazhuang/web/" title="网页设计" target="_blank">网页设计</a>|
+           <a href="/shijiazhuang/net/" title="网络技术" target="_blank">网络技术</a>|
+           <a href="/shijiazhuang/jxdq/" target="_blank">机械电气</a>|
+           <a href="/shijiazhuang/skmj/" target="_blank">数控及模具</a>|
+           <a href="/shijiazhuang/xfzs/" target="_blank">服装培训</a>|
+           <a href="/shijiazhuang/zywx/" target="_blank">专业维修</a>|
+           <a href="/shijiazhuang/mrmf/" target="_blank">美容美发</a>|
+           <a href="/shijiazhuang/jzzs/" target="_blank">建筑装饰</a>|
+           <a href="/shijiazhuang/jn/" target="_blank">烹饪厨艺</a>|
+           <a href="/shijiazhuang/sheying/" target="_blank">摄影培训</a>|
+           <a href="/shijiazhuang/teshu/" target="_blank">特殊技能</a> 
+          </div> </li> 
+         <li class="weiboItem"> <label>官方微博</label> 
+          <div class="choose_area"> 
+           <a class="thea_sina_w" target="_blank" title="教育联展网新浪微博" href="http://weibo.com/nuodashiye" rel="nofollow">教育联展网新浪微博</a> 
+           <a class="thea_qq_w" target="_blank" title="教育联展网腾讯微博" href="http://t.qq.com/nuodashiye" rel="nofollow">教育联展网腾讯微博</a> 
+          </div> </li> 
+        </ul> </li> 
+      </else>
+     </ul> 
+    </div>
+    <!-- 公共头部 end --> 
+   </div>
+   <!-- wrap end --> 
+  </div> 
+  <div class="head clearfix"> 
+   <h2 class="logo"><font size="5"><a href="/index.htm" target="_blank"><img src="/TheaApp/Px/View/PublicSchool/images/logo_120_46.png" width="120" alt="联展培训" /></a></font></h2> 
+   <h3><a href="/jg/skss.htm" title="石家庄社科赛斯">石家庄社科赛斯</a></h3> 
+   <div class="search_box left"> 
+    <form action="/Search/submitSearch" method="get"> 
+     <input name="q" id="q" placeholder="请输入关键词" class="inval left" type="text" value="" />
+     <input type="submit" value="" class="sb_submit left" /> 
+     <input type="hidden" value="shijiazhuang" name="cityencity" /> 
+    </form> 
+   </div> 
+   <div class="h_link"> 
+    <div class="hl_qq">
+     <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1053712145&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow"> </a>
+    </div> 
+    <div class="hl_del">
+     <p>400-657-5265</p>
+    </div> 
+   </div> 
+  </div> 
+  <div class="jgTopImg" style="background:url(/TheaApp/Px/View/PublicSchool/images/shopstyleheadbg.png) no-repeat center top;"> 
+  </div> 
+  <div class="jgTitle" style="background:#333"> 
+   <div class="jt_cont"> 
+    <div class="jtc_left"> 
+     <dl> 
+      <dt>
+       <b><a href="/jg/course/skss.htm" target="_blank">所有开班课程</a></b>
+      </dt> 
+      <dd> 
+       <div class="jtc_dd"> 
+        <ul> 
+         <li><a href="/jg/skss/course/30-0-0-0-0-0/1.htm" target="_blank" rel="nofollow">MBA</a></li>
+         <li><a href="/jg/skss/course/35-0-0-0-0-0/1.htm" target="_blank" rel="nofollow">MPA</a></li>
+         <li><a href="/jg/skss/course/183-0-0-0-0-0/1.htm" target="_blank" rel="nofollow">会计硕士</a></li> 
+        </ul> 
+       </div> 
+      </dd> 
+     </dl> 
+    </div> 
+    <style type="text/css">			.jtc_right li a:hover{				color:#ffc93e;			}</style> 
+    <div class="jtc_right"> 
+     <div class="jtc_nav"> 
+      <ul class="clearfix"> 
+       <li><a href="/jg/skss.htm" class="cur">首页</a></li> 
+       <li><a href="/jg/teacher/skss.htm" rel="nofollow">名师团队</a></li> 
+       <li><a href="/jg/course/skss.htm">机构课程</a></li> 
+       <li><a href="/jg/about/skss.htm">机构介绍</a></li> 
+       <li><a href="/jg/school/skss.htm">机构分校</a></li> 
+       <li><a href="/jg/news/skss.htm" rel="nofollow">机构新闻</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="jgPosition">
+    您当前的位置:
+   <a href="/">首页</a>&gt;
+   <a href="/jg/skss.htm">石家庄社科赛斯教育有限公司</a>&gt;
+   <a href="/jg/news/skss.htm" class="cur">机构新闻</a> 
+  </div> 
+  <div class="main clearfix"> 
+   <div class="j_left"> 
+    <div class="jgShow"> 
+     <h1><font size="7">热烈祝贺社科赛斯教育集团成为中国MBA联盟战略合作伙伴</font></h1> 
+     <div class="date">
+      更新时间:2015-01-16
+     </div> 
+     <table width="710" border="0" cellspacing="10" cellpadding="0" align="center" style="font-family:宋体;font-size:12px;white-space:normal;background-color:#D0D0D0;" class="ke-zeroborder"> 
+      <tbody> 
+       <tr> 
+        <td height="30" class="bz" style="line-height:30px;color:#222222;text-align:center;background-color:#E0E0E0;"> 来源:社科赛斯 作者:社科赛斯 时间:2014-2-19 10:08:00 浏览:498次 </td> 
+       </tr> 
+       <tr> 
+        <td> 
+         <div class="jianjie" style="margin:0px;padding:10px;border:1px dotted #FDB444;background-color:#FEF9E0;line-height:30px;color:#DC0000;">
+           2013第七届中国MBA领袖年会于2013年11月22-24日在北京中国农业大学隆重召开,本届领袖年会的主题是“转型期的企业家责任”。来自全国八大区域300多位嘉宾和MBA院校师生代表参加了本届领袖年会。本次年会由中国MBA联盟主办, 社科赛斯教育集团在本次年会上被评为中国MBA联盟战略合作伙伴!!! 
+         </div> </td> 
+       </tr> 
+       <tr> 
+        <td class="txt" style="font-size:14px;line-height:30px;color:#444444;padding-left:2px;padding-right:2px;"> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">2013第七届中国MBA领袖年会于2013年11月22-24日在北京中国农业大学隆重召开,本届领袖年会的主题是“转型期的企业家责任”。来自全国八大区域300多位嘉宾和MBA院校师生代表参加了本届领袖年会。本次年会由中国MBA联盟主办, 社科赛斯教育集团在本次年会上被评为中国MBA联盟战略合作伙伴!!!</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国MBA联盟简介:</span><br /><span style="margin:0px;padding:0px;">中国MBA联盟成立于2006年,下属8个联盟,即中国MBA华东联盟、华南联盟、中部联盟、东北联盟、西北联盟、西南联盟、北京联盟和津冀联盟。</span><br /><span style="margin:0px;padding:0px;">中国MBA联盟是各区域联盟自发组成的,非政治性、非营利性的MBA联合组织,接受团中央中国青年企业家协会MBA指导委员会的指导,遵守国家有关法律法规,其主体为全国各区域MBA联盟。其目的是通过指导和协调全国各区域MBA联盟工作为MBA群体服务,共同打造中国MBA的品牌形象.(摘自百度百科)</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/1(5).png" style="margin:0px;padding:0px;" /></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国MBA联盟会徽</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/20131128001(1).jpg" style="margin:0px;padding:0px;" /></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我校(成都品睿•社科赛斯)校长、西南财经大学08级MBA郭郢先生先后担任了中国MBA西南联盟第六届主席、执行理事长、中国MBA联盟第四届顾问委员会主任委员、第五届联盟副主席兼秘书长等重要职位。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271302.jpg" width="400" height="270" style="margin:0px;padding:0px;" /></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">第七届中国MBA领袖年会现场</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>23日上午,第七届中国MBA领袖年会暨转型期的企业家责任正式拉开序幕。此次年会在全国MBA教育指导委员会指导下,由中国农业大学MBA教育中心和中国MBA联盟主办。国务院参事室特约研究员姚景源,中国银行协会专职副会长、中国银监会巡视员杨再平,中国农业大学副校长郭大,中国MBA教育指导委员会秘书长仝允桓,中国农业大学MBA中心主任、教授付文阁,中国MBA联盟名誉主席、北大纵横管理咨询公司创始人、总裁王璞,财富天下频道主持人刘任远,中国服装股份有限公司董事总经理战英杰,中国牧工商(集团)总公司总经理胡启毅,香港华联集团董事长王春林,五一集团董事长、德国德力士啤酒公司董事长张武星,路博润添加剂公司副总裁唐崇飞,德勤中国事务所合伙人张毅强,大连万达集团投资证券部副总经理杨海鼎,中国农业大学经济管理学院教授常清,中信证券首席策略师毛长青,FCSTONE集团公司亚洲区总裁李小悦,第八届中国MBA联盟顾问委员会主任许媛媛,第八届中国MBA联盟主席权长贵等领导和嘉宾应邀出席。另外中国传媒大学MBA学院、经济管理学院院长张树庭,北京邮电大学经管学院执行院长吕廷杰,北京交通大学MBA中心主任、工商管理学院副院长吕海军、海南大学经济与管理学院副院长刘家诚等,以及来自全国26所MBA联盟会主席以及各位同学也莅临年会现场。会议由中国农业大学MBA副主任谷征主持。</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>在刚刚结束的十八届三中全会再次强调全面优化改革的重大意义,改革意味着转变,在转型期企业和企业家将面临什么样的问题,身上肩负怎样的责任和意义将是本次年会主要讨论的问题。本届论坛设置“转型期的企业家责任”主论坛和“企业家精神与经济转型”及“金融开放与创新”两个分论坛,并举行了中国MBA联盟领袖年会颁奖仪式。(详见附录一)</span> </p> <p align="left" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">热情洋溢的欢迎致辞</strong></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>在首先进行的主论坛上,中国农业大学副校长郭大致开幕辞。郭校长提出,中国农业大学始终秉承“厚德、务实、专注、创新”的核心办学理念,在十八届三中全会背景下召开此次MBA领袖年会具有里程碑式的意义,本次年会将与政府专家、商业精英、专业学者、优秀MBA一起搭建一个把迈世界经济形式,共同探讨中国经济转型区的原动力创新、理念创新、制度创新、机制创新,共同探讨转型期的企业家责任,共走中国梦。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271303.jpg" width="400" height="270" style="margin:0px;padding:0px;" /></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国农业大学副校长郭大</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>接下来中国MBA联盟名誉主席王璞先生分别和中国MBA教育指导委员会秘书长仝允桓先生进行致辞。王璞先生通过一句“幸福是让别人幸福,自己才会幸福”的切身感受,认为企业家的责任是能够帮助更多人成功,而中国MBA联盟所做的事情就是帮助更多的MBA人走向成功。仝允桓先生认为,社会责任在世界经济发展的转型期,是一个突出的主题,本次年会的主题恰逢其时;仝允桓先生强调,作为MBA的学员或者受过MBA教育的这些企业家。要有一种把社会责任看成是企业可持续发展的必要条件和企业战略的一部分意识和胸怀。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271304.jpg" width="300" height="200" style="margin:0px;padding:0px;" /><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271305.jpg" width="300" height="200" style="margin:0px;padding:0px;" /></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">左:中国MBA教育指导委员会秘书长仝允桓先生&nbsp; 右:<span style="margin:0px;padding:0px;">中国MBA联盟名誉主席王璞先生</span></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>第八届中国MBA联盟顾问委员会主任许媛媛作了发言。第八届中国MBA联盟主席权长贵先生代表第八届中国MBA联盟主席团、中国农业大学MBA联合会,对年会的召开表示衷心的祝贺,对出席领袖年会的各位领导和嘉宾表示了热烈的欢迎!简短扼要的介绍了中国MBA联盟为推动和促进中国高校MBA事业与全国MBA同学之间的沟通与交流所起到的不可或缺的重要作用,以及其中国MBA联盟的宗旨和责任。与此同时,权长贵先生在大会中总结了担任中国MBA联盟主席期间,所带领的第八届中国MBA联盟主席团工作的指导思想及一年中的工作重点和成绩,并对本届年会主题进行了精辟的诠释和概括。最后,权长贵先生对广大参会MBA学子同与会嘉宾能够在本次领袖年会中绽放智慧的火花,广大莘莘学子从而获得启迪和收获充满期待!</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271306.jpg" width="300" height="200" style="margin:0px;padding:0px;" /><span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271307.jpg" width="300" height="200" style="margin:0px;padding:0px;" /></span></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">左:第八届中国MBA联盟顾问委员会主任许媛媛&nbsp; 右:<span style="margin:0px;padding:0px;">第八届中国MBA联盟主席权长贵</span></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>整个致辞过程都沉寂在热情洋溢的氛围当中。本次年会评选出了年度十佳特色商学院、十佳MBA联合会、MBA十大成就奖、MBA十大贡献奖、战略合作伙伴等奖项:</span> </p> <p align="left" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">十佳特色商学院:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>中国农业大学、北京交通大学、北京航空航天大学、哈尔滨工业大学、河北工业大学、郑州大学、西北工业大学、云南大学、中山大学、山东大学</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271308.jpg" width="400" height="270" style="margin:0px;padding:0px;" /> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国MBA十佳联合会:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>北京大学、中国政法大学、北京邮电大学、对外经济贸易大学、首都经济贸易大学、中国传媒大学、武汉大学、西安邮电大学、电子科技大学、广东财经大学</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271309.jpg" width="400" height="270" style="margin:0px;padding:0px;" /> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国MBA十大成就奖:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>邴春光(首都经济贸易大学)、常野(陕西师范大学)、王海东(北京航天航空大学)、周钢柱(西安邮电大学)、华赟超(中山大学)、文亚英(北京交通大学)、梁奇(郑州大学)、尹建东(兰州大学)、康洁(广西大学)、张东升(山东财经大学)</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271310.jpg" width="400" height="270" style="margin:0px;padding:0px;" /> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国MBA十大贡献奖:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>邓杰(中国农业大学)、杨月洁(中国传媒大学)、王子瑞(山西大学)、李倩(郑州大学)、万丹(湖北大学)、杨帅(兰州商学院)、许健(西南交通大学)、徐建君(广东外语外贸)、李强(海南大学)、沈兰军(山东大学)</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271311.jpg" width="400" height="270" style="margin:0px;padding:0px;" /> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国MBA优秀区域联盟奖:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>北京联盟、中部联盟、西北联盟、华南联盟</span><span style="margin:0px;padding:0px;">&nbsp;</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271312.jpg" width="400" height="270" style="margin:0px;padding:0px;" /> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">战略合作伙伴奖:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>海南航空、中公教育、北京社科赛斯教育集团、凌云高科(北京)公司、北京德力士酒业股份有限公司、北京青花瓷酒业股份有限公司、汉庭酒店、恒大冰泉、QualityBridals</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271313.jpg" width="400" height="270" style="margin:0px;padding:0px;" /> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国MBA院校最佳组织奖:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>山东财经大学、河北大学、河南财经政法大学、西安石油大学、广东工业大学、海南大学、中国社会科学院、山西大学、江西财经大学、郑州轻工业学院、西安电子科技大学。</span><span style="margin:0px;padding:0px;">&nbsp;</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271314.jpg" width="400" height="270" style="margin:0px;padding:0px;" /> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <br /><span style="margin:0px;padding:0px;">中国MBA院校卓越领导奖:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>张树庭(中国传媒大学MBA学院、经济管理学院院长)、吕廷杰(北京邮电大学经管学院执行院长)、吕海军(北京交通大学MBA中心主任、工商管理学院副院长)、张鸿(西安邮电大学经济管理学院院长)、刘家诚(海南大学经济与管理学院副院长)、李勋来(青岛科技大学商学院副院长)、姚海林(中山大学管理学院MBA中心主任)、尹金辉(中国农业大学MBA中心副主任)、郭星宇(桂林电子科技大学MBA 教育中心副主任)。</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271315.jpg" width="400" height="270" style="margin:0px;padding:0px;" /> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国MBA优秀MBA指导教师奖:</span><br /><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>张利春(中国传媒大学)、冯倩贇(西南交通大学)、杨洵(西安邮电大学)、关家龙(广东外语外贸大学)、毕太富(沈阳大学)</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271316.jpg" width="400" height="270" style="margin:0px;padding:0px;" /></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">颁奖典礼</span> </p> <p align="left" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">主题报告,精彩纷呈</strong></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>随着重磅嘉宾的不断登场,会议主持也不断升级。在接下来的论坛主题报告环节,中国农业大学MBA中心主任付文阁教授亲临主持,中国银行协会专职副会长、中国银监会巡视员杨再平先生,以“中国银行业再改革发展”为主题进行了精彩的报告。杨再平先生首先通过“金融是一般等价物”、“金融的交换作用”“金融是企业的推动力”“金融是企业家创新组织资源的杠杆”“金融的本质是跨时空交易”五个论点阐述了金融的重要性,并强调金融改变生活,金融可以富民强国,可以兴邦;他认为,我国金融体系的特点是银行主导企业金融体系,因此谈到金融体系的改革就要关注银行业的改革。最后,杨先生重点向与会者分享了未来银行业改革的要点和方向。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271317.jpg" width="400" height="270" style="margin:0px;padding:0px;" /></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">中国银行协会专职副会长、中国银监会巡视员杨再平</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>23日下午,国务院参事室特约研究员姚景源先生,以“转型时期的战略展望”主题报告拉开了分论坛的序幕。姚景源先生作为我国著名的经济学家,以其特殊的经历、丰富的实战经验和浅显易懂的语言同与会者介绍了处于转型期的中国经济的形势和展望。姚景源先生在报告中提出,2013年中国经济总的基调、总的要求、总的目标是四个字——稳中求进,从这四大指标可以给2013年中国经济打一个“良好”这样的成绩。但从另一个角度,中国经济现在也面临着深层次的诸多的矛盾和问题。但问题背后的根本是增长方式,是结构的调整,是未来的增长空间。姚景源先生反复强调,解决中国经济的问题一定要认清“我们长期处于社会主义初级阶段没有变”“我们还是个发展中国家没有变”“我们的主要矛盾还是人们日益增长物质文化需求和落后生产力这个矛盾也没有变”三个没有变的国情。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271318.jpg" width="400" height="270" style="margin:0px;padding:0px;" /></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">国务院参事室特邀研究员姚景源</span> </p> <p align="left" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">圆桌论坛共享智慧盛宴</strong></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>姚景源研究员的主题报告结束后,在中国农业大学MBA中心主任付文阁教授主持下,中国服装股份有限公司董事总经理战英杰,中国牧工商(集团)总公司总经理胡启毅,香港华联集团董事长王春林,五一集团董事长、德国德力士啤酒公司董事长张武星,路博润添加剂公司副总裁唐崇飞先生,德勤中国事务所合伙人张毅强先生等国企、跨过企业和民营企业代表,共同围绕“企业家精神与经济转型”主题,就“十八届三中全会对企业转型的影响”“中国转型期不同类型国企的社会责任”“企业面临转型时的需要做好哪些事情”等议题,展开交流对话,阐述各自的真知灼见,共享前瞻思想的盛宴。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271319.jpg" width="300" height="200" style="margin:0px;padding:0px;" /><span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271320.jpg" width="300" height="200" style="margin:0px;padding:0px;" /></span></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">左:“企业家精神与经济转型”论坛 右:<span style="margin:0px;padding:0px;">“金融开放与创新”论坛</span></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>紧接着,在财富天下频道主持人刘任远先生的主持下,香港华联集团董事长王春林,FCSTONE集团公司亚洲区总裁李小悦,中国农业大学经济管理学院教授常清,中信证券首席策略师毛长青,大连万达集团投资证券部副总经理杨海鼎等五位嘉宾,围绕“金融开放与创新”一主题展开论点交锋。各位嘉宾从中国期货市场未来发展动向和趋势、十八届三中全会对证券市场的利好政策、金融活力与创新等方面各自交换了观点和意见。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271321.jpg" width="300" height="200" style="margin:0px;padding:0px;" /><span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271322.jpg" width="300" height="200" style="margin:0px;padding:0px;" /></span></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">合影</span> </p> <p align="left" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">领袖欢乐夜 惊喜不断</strong></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>当日晚宴在北京亚奥国际酒店九层举行,本次主办方之一——中国农业大学MBA教育中心,为参加本次年会的嘉宾精心准备了一场晚会。由主办方带来的开场街舞表演惊艳全场,拉开晚会的序幕。接下来的古典舞+书法表演、魔术表演和互动游戏、抽奖环节,现场欢呼声不断。随着八大联盟的代表纷纷献上各自的才艺表现,晚会也逐渐达到了高潮。整场晚会节目精彩而不失温馨,气氛融洽而充满欢乐。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271323.jpg" width="300" height="200" style="margin:0px;padding:0px;" /><span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271324.jpg" width="300" height="200" style="margin:0px;padding:0px;" /></span></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271325.jpg" width="300" height="200" style="margin:0px;padding:0px;" /><span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271326.jpg" width="300" height="200" style="margin:0px;padding:0px;" /></span></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> &nbsp; </p> <p align="left" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">中国MBA联盟工作会议,换届仪式成功举行</strong></span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>24日上午,第九届联盟主席选举正式开始,在顾问委员会及八大区域联盟主席的监督、讨论和投票下,最终由海南大学MBA林伟胜成功当选新一届中国MBA联盟主席,郑州大学李倩当选新一届中国MBA联盟秘书长。</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271327.jpg" width="400" height="270" style="margin:0px;padding:0px;" /></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">会场</span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271328.jpg" width="300" height="200" style="margin:0px;padding:0px;" /><span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271329.jpg" width="300" height="200" style="margin:0px;padding:0px;" /></span></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;">左:第九届中国MBA联盟主席 右:<span style="margin:0px;padding:0px;">第九届中国MBA联盟秘书长</span></span> </p> <p align="center" style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271330.jpg" width="300" height="200" style="margin:0px;padding:0px;" /><span style="margin:0px;padding:0px;"><img border="0" alt="" src="http://www.scmedu.com/public/uploads/images/2013/11/201311271331.jpg" width="300" height="200" style="margin:0px;padding:0px;" /></span></span><br /><span style="margin:0px;padding:0px;">在热烈的掌声与祥和的氛围中,本届中国MBA领袖年会圆满落幕。</span> </p> <p style="margin-top:0px;margin-bottom:0px;padding:0px;background-color:#FFFFFF;color:#222222;"> <span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>本次年会的举办得到了海南航空、中公教育、社科赛斯、汉庭酒店、德力士啤酒、青花瓷、快书包、凌云高科、恒大冰泉、猎聘网、Senior Gift、QualityBridals 等赞助商的大力支持。</span> </p> </td> 
+       </tr> 
+      </tbody>
+     </table>
+     <p> <br /></p> 
+    </div> 
+   </div> 
+   <div class="j_right"> 
+    <div class="jg_info"> 
+     <div class="jrm_tit"> 
+      <h2>机构信息</h2> 
+     </div> 
+     <div class="jgi_cont"> 
+      <div class="jg_logo">
+       <a href="/jg/skss.htm" target="_blank" rel="nofollow"><img src="/Public/Upload/2386226/Logo/1421382686.png" /></a>
+      </div> 
+      <ul> 
+       <li><span>机构名称:</span><h2><font size="6"><a href="/jg/skss.htm" target="_blank">石家庄社科赛斯教育有限公司</a></font></h2></li> 
+       <li><span>机构信誉:</span><p> <a href="javascript:;" title="机构认证"><img src="/TheaApp/Px/View/PublicSchool/images/verify.png" alt="机构认证" /></a> <a href="javascript:;" title="诚信保障"><img src="/TheaApp/Px/View/PublicSchool/images/agent.png" alt="诚信保障" /></a> </p></li> 
+       <li><span>机构热线:</span><p>400-657-5265</p></li> 
+       <li><span>QQ咨询:</span><p><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1053712145&amp;site=qq&amp;menu=yes" class="jgt_qq" rel="nofollow"></a></p></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="jr_mod jr_nav"> 
+     <div class="jrm_tit"> 
+      <a href="/jg/news/skss.htm" target="_blank" rel="nofollow">更多&gt;&gt;</a> 
+      <h2>学校新闻</h2> 
+     </div> 
+     <ul> 
+     </ul> 
+    </div> 
+    <div class="jr_mod free-listent"> 
+     <div class="tit"> 
+      <h3>免费预约试听</h3> 
+     </div> 
+     <div class="bd"> 
+      <form id="listens" method="post" action="/Listen/schoolListenAdd"> 
+       <div class="ui-fm-item"> 
+        <label class="ui-label" for="tel"><i class="red">*</i>手机:</label> 
+        <input id="tel" name="tel" class="tel ui-input-text fm_test_cell" maxlength="13" type="text" /> 
+       </div> 
+       <div class="ui-fm-item"> 
+        <label class="ui-label" for="course"><i class="red">*</i>意向课程:</label> 
+        <input id="content" name="content" class="course ui-input-text fm_test_empty" type="text" /> 
+       </div> 
+       <div class="ui-fm-item clearfix"> 
+        <label class="ui-label" for="myname"><i class="red">*</i>姓名:</label> 
+        <input id="contact" name="contact" class="tel ui-input-text ui_name_text fm_test_name" type="text" /> 
+        <input value="13" name="cityid" id="cityid" type="hidden" /> 
+        <input value="440954" name="schoolid" id="schoolid" type="hidden" /> 
+        <input value="1" name="vip" id="vip" type="hidden" /> 
+        <input name="sourceurl" id="sourceurl" value="http://px.thea.cn/jg/skss.htm" type="hidden" /> 
+        <input class="oBtn left" value="免费试听" type="submit" /> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+    <div class="jr_mod jr_lecturer"> 
+     <div class="jrm_tit"> 
+      <h2>明星讲师</h2> 
+     </div> 
+     <ul> 
+      <li> <a href="/jg/teacher/skss/teacher8173.html" target="_blank" title="郭崇兴"><img src="/Public/Upload/2386226/Teacher/1421413418.jpg" alt="郭崇兴" /></a> 
+       <div class="jrm_txt"> 
+        <h5><strong>郭崇兴</strong><em>讲师</em></h5> 
+        <p>&nbsp; &nbsp; 中国人民大学外语学<a href="/jg/teacher/skss/teacher8173.html" target="_blank">查看详情&gt;&gt;</a></p> 
+       </div> </li>
+      <li> <a href="/jg/teacher/skss/teacher8174.html" target="_blank" title="蒋军虎"><img src="/Public/Upload/2386226/Teacher/1421413459.jpg" alt="蒋军虎" /></a> 
+       <div class="jrm_txt"> 
+        <h5><strong>蒋军虎</strong><em>讲师</em></h5> 
+        <p>&nbsp; &nbsp; &nbsp;国家考<a href="/jg/teacher/skss/teacher8174.html" target="_blank">查看详情&gt;&gt;</a></p> 
+       </div> </li>
+      <li> <a href="/jg/teacher/skss/teacher8175.html" target="_blank" title="曹其军"><img src="/Public/Upload/2386226/Teacher/1421413498.jpg" alt="曹其军" /></a> 
+       <div class="jrm_txt"> 
+        <h5><strong>曹其军</strong><em>讲师</em></h5> 
+        <p>&nbsp; &nbsp; &nbsp; 全国<a href="/jg/teacher/skss/teacher8175.html" target="_blank">查看详情&gt;&gt;</a></p> 
+       </div> </li> 
+     </ul> 
+    </div> 
+    <div class="jr_mod jr_map"> 
+     <div class="jrm_tit"> 
+      <a href="/jg/map/skss.html" target="_blank" rel="nofollow">更多&gt;&gt;</a> 
+      <h2>校区导航</h2> 
+     </div> 
+     <div class="map_list"> 
+      <div class="map"> 
+      </div> 
+      <div class="school_info"> 
+       <b>共1个校区</b> 
+       <ul> 
+        <li><span></span><a href="/jg/map/skss.html" title="裕华东路70号 河北科技大学招待中心" target="_blank">石家庄社科赛斯教育有限公司</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="footer"> 
+   <div class="ft_cont"> 
+    <div class="ft_box ft_first"> 
+     <h4>旗下品牌</h4> 
+     <p class="ftb_first"> <a href="http://k.thea.cn/" target="_blank" rel="nofollow">趣味考场</a> <a href="http://xue.thea.cn/" target="_blank" rel="nofollow">培训团购</a> <a href="http://net.thea.cn/" target="_blank">网络课程</a> <a href="http://v.thea.cn/" target="_blank" rel="nofollow">学习视频</a> <a href="http://qy.thea.cn/" target="_blank">诺达名师</a> <a href="http://px.thea.cn/" target="_blank">课程培训</a> </p> 
+    </div> 
+    <div class="ft_box"> 
+     <h4>战略合作</h4> 
+     <p> <a href="http://edu.21cn.com/" target="_blank">21CN教育</a> <a href="http://kaoshi.china.com/" target="_blank">中华网考试</a> </p> 
+    </div> 
+    <div class="ft_box"> 
+     <h4>联系我们</h4> 
+     <p> <a href="http://www.thea.cn/about/coopera.htm" target="_blank" rel="nofollow">合作联系</a> <a href="http://www.thea.cn/about/link.htm" target="_blank" rel="nofollow">友情链接</a> </p> 
+    </div> 
+    <div class="ft_box"> 
+     <h4>关于我们</h4> 
+     <p> <a href="http://www.thea.cn/about/aboutus.htm" target="_blank" rel="nofollow">关于我们</a> <a href="http://www.thea.cn/about/banquan.htm" target="_blank" rel="nofollow">版权声明</a> <a href="http://www.thea.cn/about/sitemap.htm" target="_blank">网站地图</a> </p> 
+    </div> 
+    <div class="ft_box"> 
+     <img src="/TheaApp/Px/View/PublicSchool/images/new_terThea_66.png" alt="" />
+     <br />考试答疑微信 
+    </div> 
+   </div> 
+   <div class="ft_cop">
+    版权所有 深圳市诺达实业有限公司 &copy; www.thea.cn All Rights Reserved 粤ICP备10032899号-3
+   </div> 
+  </div> 
+  <div style="display:none;"> 
+   <script type="text/javascript">		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb1cb722788910dd613689b8977f8260a' type='text/javascript'%3E%3C/script%3E"));		</script> 
+  </div> 
+  <div id="returnFeedback"> 
+   <a href="http://px.thea.cn/feedback/index" target="_blank" class="feedbacktip">意见反馈</a> 
+   <a href="javascript:;" class="rf_top"></a> 
+  </div>
+ </body>
+</html>

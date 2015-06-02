@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--NT:LabelType=PageTitle,页面标题标签,分割符"_"-->
+  <title>2015年4月大事记_中国山阳</title>
+  <!--NT:LabelType=Metakey,关键字-->
+  <meta name="keywords" content="," />
+  <!--NT:LabelType=MetaDesc,关键字描述-->
+  <meta name="DESCRIPTION" content="," />
+  <link href="/templets/shanyang/css/css.css" rel="stylesheet" />
+  <style type="text/css"><!---->.biaoti_tang{font-family:"黑体"; font-size:20px; color:#A60000; }.xian_tang{ border-bottom:#CCCCCC 1px dashed; font-size:14px;}.zi_tang { color:#A88A56; }.zi_tang a{ color:#A88A56; }.zi_tang:hover{ color:#A88A56; }.nr_tang{color:#000000; font-size:16px; line-height:180%;}</style>
+  <script language="javascript" type="text/javascript" src="http://www.shy.gov.cn/configuration/js/Prototype.js"></script>
+  <script language="javascript" type="text/javascript" src="http://www.shy.gov.cn/configuration/js/jspublic.js"></script>
+  <script language="javascript" type="text/javascript" src="http://www.shy.gov.cn/configuration/js/public.js"></script>
+ </head>
+ <!--Created by NETCMS v1.0 at 2015-6-1 10:24:03-->
+ <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onbeforecopy="return false" onmouseup="document.selection.empty()" oncopy="document.selection.empty()" onselect="document.selection.empty()">
+  <script language="javascript" type="text/javascript" src="http://www.shy.gov.cn/configuration/js/Prototype.js"></script>
+  <script language="javascript" type="text/javascript" src="http://www.shy.gov.cn/configuration/js/jspublic.js"></script>
+  <script language="javascript" type="text/javascript" src="http://www.shy.gov.cn/configuration/js/public.js"></script>
+  <!--Created by NETCMS v1.0 at 2015-6-1 10:24:03-->
+  <script>	function getNames(obj,name,tij)	{			var p = document.getElementById(obj);		var plist = p.getElementsByTagName(tij);		var rlist = new Array();		for(i=0;i<plist.length;i++)		{			if(plist[i].getAttribute("name") == name)			{				rlist[rlist.length] = plist[i];			}		}		return rlist;	}		function butong_net(obj,name)		{			var p = obj.parentNode.getElementsByTagName("td");			var p1 = getNames(name,"f","div");			for(i=0;i<p1.length;i++)			{				if(obj==p[i])				{					p[i].className = "s";					p1[i].className = "dis";				}				else				{					p[i].className = "";					p1[i].className = "undis";				}			}							}  </script> 
+  <script language="JavaScript" type="text/JavaScript"><!--function goToURL() {  var i, args=goToURL.arguments; document.returnValue = false;  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");}//--></script> 
+  <table border="0" align="center" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <td width="8" height="208" background="/templets/shanyang/images/yin_left.gif">&nbsp;</td> 
+     <td width="975" align="center" valign="top" bgcolor="#FFFFFF">
+      <table width="100%" height="30" border="0" cellpadding="0" cellspacing="0"> 
+       <tbody>
+        <tr> 
+         <td width="57%" align="left" valign="middle" background="/templets/shanyang/images/top_di.gif">
+          <table border="0" cellpadding="0" cellspacing="0" class="nei2"> 
+           <tbody>
+            <tr> 
+             <td width="139" height="29" align="center" background="/templets/shanyang/images/top_di_tang_28.jpg"><a href="http://www.gov.cn/" target="_blank" style="color:A60E06;"><strong><span style="color:#A60E06;">中央政府门户网站</span></strong></a></td> 
+             <td align="center" valign="middle">&nbsp;&nbsp;<a href="http://www.shaanxi.gov.cn/" target="_blank" style="color:#A60E06;"><strong>陕西省人民政府门户网站</strong></a></td> 
+             <td align="center" valign="middle"><strong>&nbsp;<font color="#A60E06">|</font>&nbsp;<a href="http://www.shangluo.gov.cn/" style="color:#A60E06;" target="_blank">商洛市人民政府门户网站</a></strong></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+         <td width="15%" align="left" valign="middle" background="/templets/shanyang/images/top_di.gif">&nbsp;</td> 
+         <td width="28%" align="center" valign="middle" background="/templets/shanyang/images/top_di.gif">
+          <table width="256" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td width="74" height="29"> 
+              <table background="/templets/shanyang/images/top_right1.gif" width="68" height="23" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td><a style="COLOR: black;font-size:12px;" href="" name="StranLink"><font color="#FFFFFF">繁體中文</font></a></td> 
+                </tr> 
+               </tbody>
+              </table> <script language="javascript" src="/templets/js/gb_big5.js"></script></td> 
+             <td width="63"><img src="/templets/shanyang/images/top_right2.gif" width="58" height="29" /></td> 
+             <td width="67"><a href="http://old.shy.gov.cn/" target="_blank"><img src="/templets/shanyang/images/top_right4.gif" width="64" height="29" border="0" /></a></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table width="100%" height="144" border="0" cellpadding="0" cellspacing="0"> 
+       <tbody>
+        <tr> 
+         <td height="144"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="975" height="177"> <param name="movie" value="/templets/shanyang/images/top2.swf"></param> <param name="quality" value="high"></param> <embed src="/templets/shanyang/images/top2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="975" height="177" /> </object></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#C10D02"> 
+       <tbody>
+        <tr> 
+         <td height="32" align="center" valign="bottom" background="/templets/shanyang/images/top_di2.gif" bgcolor="#FFFFFF">
+          <table width="99%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td width="5%" align="right"><img src="/templets/shanyang/images/tang.gif" width="2" height="32" /></td> 
+             <td width="95%" align="left">
+              <table height="32" border="0" align="left" cellpadding="0" cellspacing="0" class="wtop1"> 
+               <tbody>
+                <tr> 
+                 <td width="97" align="center" valign="middle" class="s" onclick="goToURL('parent','/');return document.returnValue" onmouseover="butong_net(this,'butong_nett')"><a href="/">首页</a></td> 
+                 <td width="97" align="center" valign="middle" onclick="goToURL('parent','/news/zjsy');return document.returnValue" onmouseover="butong_net(this,'butong_nett')"><a href="/news/zjsy">走进山阳</a></td> 
+                 <td width="97" align="center" valign="middle" onclick="goToURL('parent','/news/news/');return document.returnValue" onmouseover="butong_net(this,'butong_nett')"><a href="/news/news/">新闻中心</a></td> 
+                 <td width="97" align="center" valign="middle" onclick="goToURL('parent','/news/open');return document.returnValue" onmouseover="butong_net(this,'butong_nett')"><a href="/news/open">政务公开</a></td> 
+                 <td width="97" align="center" valign="middle" onclick="goToURL('parent','/news/internet/');return document.returnValue" onmouseover="butong_net(this,'butong_nett')"><a href="/news/internet/">网上办事</a></td> 
+                 <td width="97" align="center" valign="middle" onmouseover="butong_net(this,'butong_nett')" onclick="goToURL('parent','/news/farmers/');return document.returnValue"><a href="/news/farmers/">服务三农</a></td> 
+                 <td width="97" align="center" valign="middle" onclick="goToURL('parent','/news/investment/');return document.returnValue" onmouseover="butong_net(this,'butong_nett')"><a href="/news/investment/">投资山阳</a></td> 
+                 <td width="97" align="center" valign="middle" onclick="goToURL('parent','/news/tourism/');return document.returnValue" onmouseover="butong_net(this,'butong_nett')"><a href="/news/tourism/">游在山阳</a></td> 
+                 <td width="97" align="center" valign="middle" onclick="goToURL('parent','/news/Interaction/');return document.returnValue" onmouseover="butong_net(this,'butong_nett')"><a href="/news/Interaction/">互动交流</a></td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#FCC0B4"> 
+       <tbody>
+        <tr> 
+         <td height="24" bgcolor="#FFF1E6" class="chaxun"> 
+          <div id="butong_nett"> 
+           <div class="chaxun" name="f"> 
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+             <tbody>
+              <tr> 
+               <td width="17%" height="30" align="center" valign="middle" class="di_left2"><script language="javascript"><!--var enabled = 0; today = new Date();var day; var date;if(today.getDay()==0) day = "星期日"if(today.getDay()==1) day = "星期一"if(today.getDay()==2) day = "星期二"if(today.getDay()==3) day = "星期三"if(today.getDay()==4) day = "星期四"if(today.getDay()==5) day = "星期五"if(today.getDay()==6) day = "星期六"date = (today.getYear()) + "年" + (today.getMonth() + 1 ) + "月" + today.getDate() + "日  " + day +"";document.write(date);// --></script></td> 
+               <td width="48%" align="left" valign="middle" class="nei2">
+                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                 <form id="Search_Form" name="Search_Form" method="get" action="search.html"></form>
+                 <tbody>
+                  <tr>
+                   <td><input name="tags" type="text" class="keyword" size="10" maxlength="20" onkeydown="javascript:if(event.keyCode==13){return false;}" /> <select name="searchType" class=""><option value="0">站内搜索</option></select> <input name="buttongo" class="tang_28" type="button" value="搜索" onclick="javascript:SearchGo73320(this.form);" /></td>
+                  </tr>
+                 </tbody>
+                </table><script language="javascript" type="text/javascript">function SearchGo73320(obj){if(document.getElementById('tags').value.length<2||document.getElementById('tags').value.length>10){ alert('搜索最小长度2字符,最大长度10字符。');return false;}if(document.getElementById('tags').value==''){ alert('请填写关键字');return false;}if(document.getElementById('searchType').value==0){window.location.href='http://www.shy.gov.cn/search.html?type=news&tags='+escape(document.getElementById('tags').value)+'';}else{window.location.href='http://www.baidu.com/s?wd='+document.getElementById('tags').value+''}}</script></td> 
+               <td width="35%" align="left" valign="middle" class="nei2">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                 <tbody>
+                  <tr> 
+                   <td width="23%" align="center"><strong>天气预报:</strong></td> 
+                   <td width="77%" align="left" valign="middle" style="color:#D96C00;"> </td>
+                  </tr> 
+                 </tbody>
+                </table></td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+           <div class="undis" name="f"> 
+            <table width="96%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="30" align="center" valign="middle" class="nei2"> <a href="/news/sygk/">山阳概况</a>&nbsp;|&nbsp; <a href="/news/hzqh">行政区划</a>&nbsp;|&nbsp; <a href="/news/20091030/n6209505.html">领导成员</a>&nbsp;|&nbsp; <a href="/news/jjfz">经济发展</a>&nbsp;|&nbsp; <a href="/news/xzxx">镇情简介</a>&nbsp;|&nbsp; <a href="/news/jcjs">基础建设</a>&nbsp;|&nbsp; <a href="/news/yszy">优势资源</a>&nbsp;|&nbsp;<a href="/news/synj">山阳年鉴</a>&nbsp;|&nbsp;<a href="/news/syfz">山阳方志</a>&nbsp;|&nbsp; <a href="/news/yxsy">印象山阳</a>&nbsp;|&nbsp;<a href="/news/syyc">山阳英才</a>&nbsp;|&nbsp;<a href="/news/sydsj">山阳大事记</a></td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+           <div class="undis" name="f"> 
+            <table width="96%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="30" align="center" valign="middle" class="nei2"><a href="/news/syxw/">山阳新闻</a>&nbsp;&nbsp;| &nbsp;&nbsp;<a href="/news/ldhd/">领导活动</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/news/shyw/">社会要闻</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="/news/tpxw/">图片新闻</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="/news/spxw/">视频新闻</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="/news/ztbd/">专题报道</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/news/bmgz/">部门工作</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/news/xzdt/">各镇动态</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/news/ggtz/">公告通知</a></td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+           <div class="undis" name="f"> 
+            <table width="96%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="30" align="center" valign="middle" class="nei2"> <a href="/ivhmw.html">县政府信息公开规定</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/eqgwq.html">县政府信息公开指南</a>| &nbsp;&nbsp;<a href="/news/open/">县政府信息公开目录</a> |&nbsp;&nbsp;<a href="/news/xgzcfg/">相关政策法规</a>&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp;<a href="/news/xxgkndbg/">县政府信息公开年度报告</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="/sqgk/">依申请公开</a></td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+           <div class="undis" name="f"> 
+            <table width="96%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="30" align="center" valign="middle" class="nei2">&nbsp;&nbsp;&nbsp;&nbsp;<a href="/news/sysy/">个人服务</a>&nbsp; | &nbsp;<a href="/news/qyzy/">企业服务&nbsp;</a> | &nbsp;<a href="/news/nm/">绿色通道</a>&nbsp; |&nbsp; <a href="/news/bjsswsb/">百件实事网上办</a> &nbsp;| &nbsp;<a href="/news/internet/index.html#syxx">常用查询</a> &nbsp;| &nbsp;<a href="#">行政审批服务中心</a></td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+           <div class="undis" name="f"> 
+            <table width="96%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="30" align="center" valign="middle" class="nei2">&nbsp;&nbsp;&nbsp;&nbsp;<a href="/news/nykx/">三农快讯</a>&nbsp; | &nbsp;<a href="/news/nyjs/">农业技术</a>&nbsp; | <a href="/news/ncxxh/">&nbsp;农村信息化</a>&nbsp; | &nbsp;<a href="/news/fkxx/"> 防控信息</a>&nbsp; | &nbsp;<a href="/news/xncjs/">新农村建设</a>&nbsp; | <a href="/news/ncjghq/">&nbsp; 农产价格行情&nbsp;</a> </td> 
+              </tr> 
+             </tbody>
+            </table>
+           </div> 
+           <div class="undis" name="f"> 
+            <table width="96%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="30" align="center" valign="middle" class="nei2"><a href="/news/zsdt/">招商动态</a> &nbsp;| &nbsp;<a href="/news/zsxm/">招商项目&nbsp;</a> | <a href="/news/tzzn/">&nbsp;招商成果</a> &nbsp;|&nbsp; <a href="/news/zsjg/">招商机构</a> &nbsp;| <a href="/news/cyyq">&nbsp;产业园区&nbsp;</a> |&nbsp; <a href="/news/tzhj">投资环境</a>&nbsp; |&nbsp; <a href="/news/tzzc">投资政策&nbsp;</a> |&nbsp; <a href="/news/mxqy">明星企业</a></td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+           <div class="undis" name="f"> 
+            <table width="96%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="30" align="center" valign="middle" class="nei2"><a href="/news/lydt/">旅游动态</a>&nbsp;| &nbsp; <a href="/news/symj/">山阳美景</a>&nbsp;| &nbsp; <a href="/news/tsms/">特色美食</a>&nbsp;| &nbsp; <a href="/news/tpsy/">图片山阳</a>&nbsp;| &nbsp; <a href="/news/lyxd/">旅游向导</a>&nbsp;| &nbsp; <a href="/news/bgjd/">宾馆酒店</a>&nbsp;| &nbsp; <a href="/news/njl/">农 家 乐</a>&nbsp;</td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+           <div class="undis" name="f"> 
+            <table width="96%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="30" align="center" valign="middle" class="nei2">&nbsp;&nbsp;&nbsp;&nbsp;<a href="/mailbook/">县长信箱</a> | <a href="/news/wstc/">&nbsp;网上调查&nbsp;</a> | <a href="/news/wspy/">&nbsp;网上评议&nbsp;</a> | <a href="/bmmail/">&nbsp;投诉咨询&nbsp;</a> | <a href="/news/yjzj/">&nbsp;意见征集&nbsp;</a> | <a href="/news/zxft/">&nbsp;在线访谈&nbsp;</a> | &nbsp;<a href="http://bbs.shy.gov.cn/bbs" target="_blank">丰阳论坛</a></td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+          </div> </td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+     <td width="8" background="/templets/shanyang/images/yin_right.gif">&nbsp;</td> 
+    </tr>
+   </tbody>
+  </table>
+  <table height="415" border="0" align="center" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <td width="8" height="310" background="/templets/shanyang/images/yin_left.gif">&nbsp;</td> 
+     <td width="975" align="center" valign="top" bgcolor="#FFFFFF">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td align="left" bgcolor="#E7E7E7">
+          <table width="76%" height="27" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td width="11%" height="27" align="center"><img src="/templets/shanyang/images/zoujin_dian.gif" width="26" height="27" /></td> 
+             <td width="89%">当前位置:<a href="/">首页</a> &gt;&gt; <a href="/news/zjsy/index.html">走进山阳</a> &gt;&gt; <a href="/news/sydsj/index.html">山阳大事记</a> &gt;&gt; 正文</td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+        </tr> 
+        <tr> 
+         <td height="1" bgcolor="#ABABAB"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table width="100%" height="15" border="0" cellpadding="0" cellspacing="0"> 
+       <tbody>
+        <tr> 
+         <td></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table width="910" height="370" border="0" cellpadding="3" cellspacing="1" bgcolor="#CCCCCC"> 
+       <tbody>
+        <tr> 
+         <td width="76%" height="370" align="center" valign="top" bgcolor="#FFFFFF"> 
+          <table width="93%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td height="22" align="center" valign="middle"> </td> 
+            </tr> 
+            <tr> 
+             <td height="18" align="center" valign="bottom" class="xian_tang"> <span class="biaoti_tang">2015年4月大事记</span> 
+              <div class="nr_tang"></div> 
+              <div style="height:3px;"> 
+              </div> </td> 
+            </tr>
+            <tr> 
+             <td height="10" align="center"></td> 
+            </tr> 
+            <tr> 
+             <td height="24" align="center" class="zi_tang">发布日期:2015年6月1日&nbsp;&nbsp;来源:&nbsp;&nbsp; 浏览次数:<span id="click_418078779137"></span><script language="javascript" type="text/javascript">pubajax('/click.aspx','id=418078779137','click_418078779137');</script>&nbsp;&nbsp;【字体:<a href="#" onclick="Zoom.style.fontSize='18px'">大</a> <a href="#" onclick="Zoom.style.fontSize='16px'">中</a> <a href="#" onclick="Zoom.style.fontSize='14px'">小</a>】&nbsp;&nbsp;<a href="javascript:window.opener=null;window.close()">【 关闭本页 】</a></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="100%" height="15" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="790" border="0" cellpadding="0" cellspacing="0" class="nr_tang"> 
+           <tbody>
+            <tr> 
+             <td align="left" valign="top"><font id="Zoom"><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">1</span>日,副县长赵水利检查打击“两非”专项行动开展情况。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">1</span>日,副县长朱波深入十里铺、漫川关、板岩等镇办检查春季绿化造林工作。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">2</span>日,县长陈璇主持召开县政府第<span lang="EN-US">8</span>次常务会议,研究<span lang="EN-US">2015</span>年财政收支预算编制、全市卫生计生工作会议贯彻意见及<span lang="EN-US">2014</span>年度计划生育目标责任考核、全市工业暨商务工作会、省市民政工作会贯彻意见。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">2</span>日,全县村级组织换届工作推进会召开,县委常委、组织部长王大学出席并讲话,副县长朱波主持会议,县委常委、纪委书记闫亚军,县人大副主任陈泽桂参加会议。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">2</span>日<span lang="EN-US">,</span>县委常委、宣传部长阮景霞主持召开协调会<span lang="EN-US">,</span>研究中村<span lang="EN-US">15</span>兆瓦分布式光伏电站项目建设。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">2</span>日<span lang="EN-US">,</span>县委常委、副县长周建政主持召开南大街东延三期项目开工前期安排部署会议。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">2</span>日<span lang="EN-US">,</span>县委常委、政法委书记刘锋召集公安局、检察院、法院、工商局、信访局等部门协调非法集资处置工作。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※ </span><span lang="EN-US" style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; LAYOUT-GRID-MODE: line; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 仿宋_GB2312">4</span><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; LAYOUT-GRID-MODE: line; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 仿宋_GB2312">月<span lang="EN-US">3</span>日,县委书记李吉斌主持召开县委第七次常委会议,研究贯彻全市党建工作会和非公企业党建工作会议精神、全市宣传部长暨精神文明建设工作会议精神、市委政法工作会议精神、全市统战部长和台办主任会议精神、商洛军分区党委扩大会议精神,研究讨论贯彻落实市纪委全会精神抓好当前几项重点工作的意见,研究贯彻全市卫生计生工作会议精神并审议<span lang="EN-US">2014</span>年度计划生育目标责任考核情况,讨论审议<span lang="EN-US">2015</span>年全县财政收支预算草案及其他有关问题<span style="LETTER-SPACING: -0.25pt">。</span></span><span lang="EN-US" style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">
+                 <o:p></o:p></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※ <span lang="EN-US" style="LETTER-SPACING: -0.35pt">4</span><span style="LETTER-SPACING: -0.35pt">月<span lang="EN-US">3</span>日,副市长柳宪军来山调研扶贫工作,副县长李伟</span>陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">7</span>日<span lang="EN-US">,2015</span>年县委工作会议召开,县委书记李吉斌作重要讲话,县委副书记李超鲲主持会议,县委常委、宣传部长阮景霞,县委常委、组织部长王大学,县委常委、统战部长阮班魁,县委常委、政法委书记刘锋,县委常委、人武部政委董志强分别作工作报告,所有在家县级领导参加会议。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">7</span>日<span lang="EN-US">,</span>全县信访工作会议和人口与计划生育工作会议召开,县委副书记李超鲲讲话,县委常委、常务副县长赵晓斌主持会议,县委常委、政法委书记刘锋,县政府副县长、公安局长赵念强参加会议。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">8</span>日至<span lang="EN-US">10</span>日<span lang="EN-US">,</span>县委副书记李超鲲、副县长朱波带领发改、经贸、农业、财政等部门负责人赴甘肃陇南成县、我省咸阳武功县考察学习电子商务发展工作。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">8</span>日<span lang="EN-US">,</span>县委常委、副县长周建政主持召开翠屏山森林公园建设征地拆迁工作协调会。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">9</span>日,市委书记胡润泽来山调研基层党建工作,县委书记李吉斌,县委常委、组织部长王大学陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">9</span>日,副县长赵水利深入县医院和妇保院检查指导工作。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">13</span>日,中组部组织局调研组来山调研基层党建工作,市县领导周德喜、李吉斌、王大学陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">13</span>日,县委副书记李超鲲深入县域工业集中区检查指导工作。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">13</span>日至<span lang="EN-US">14</span>日,副县长李伟深入色河铺、户家塬、杨地等镇检查“双包双促”工作。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※ <span lang="EN-US">4</span>月<span lang="EN-US">14</span>日<span lang="EN-US">,</span>省政协主席马中平来山视察调研农民增收工作<span lang="EN-US">,</span>市县领导胡润泽、王甲训、李吉斌、陈璇、吴成顺、周建政等陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※ <span lang="EN-US">4</span>月<span lang="EN-US">15</span>日至<span lang="EN-US">16</span>日<span lang="EN-US">,</span>凤翔县人大考察团来山考察学习人大工作,县上领导李开仕、马先友、陈泽桂陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">16</span>日,省政协副主席、民建陕西省委会主委李冬玉来山<span style="LETTER-SPACING: 0.25pt">调研环保执法工作,市县领导王甲训、李吉斌、吴成顺、闫</span>亚军、赵水利等陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">16</span>日至<span lang="EN-US">17</span>日,市人大副主任李选良一行来山检查市委人大工作会议精神及市委《关于进一步加强和改进人大工作的决定》贯彻落实情况并召开座谈会,县上领导李开仕、李超鲲、马先友、杨前超、武建书参加座谈会。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">16</span>日,省委统战部常务副部长孙晓杰来山调研,县委常委、统战部长阮班魁陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">16</span>日,副县长朱波深入板岩、南宽坪、城关等镇办督促检查第九次村委会换届选举工作和县老年公寓及城区公墓项目建设。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※ </span><span lang="EN-US" style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; LAYOUT-GRID-MODE: line; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 仿宋_GB2312">4</span><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; LAYOUT-GRID-MODE: line; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 仿宋_GB2312">月<span lang="EN-US">17</span>日,县委书记李吉斌主持召开县委第八次常委会议,集体学习省委书记赵正永署名文章,研究讨论我县与省水务集团合作建设县城及集镇供水项目有关事宜和创建国家卫生县城、省级生态园林县城、省级文明县城有关情况,研究贯彻市直机关党的工作会议精神、省市档案工作会议精神、全市离退休干部“双先”表彰暨老干部工作会议精神<span style="LETTER-SPACING: -0.25pt">。<span lang="EN-US">
+                   <o:p></o:p></span></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">17</span>日,县委常委、宣传部长阮景霞在信访大厅接待来访群众,研究有关信访问题。</span><span lang="EN-US" style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; LAYOUT-GRID-MODE: line; LETTER-SPACING: -0.25pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 仿宋_GB2312">
+                 <o:p></o:p></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">17</span>日,市中院院长黄东斌来山调研基层法院建设,县委常委、政法委书记刘锋,县法院院长林怀福陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">20</span>日至<span lang="EN-US">21</span>日<span lang="EN-US">,</span>长武县考察团来山观摩“为民服务直通车”工程,县委常委、组织部长王大学陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">21</span>日<span lang="EN-US">,</span>县委副书记李超鲲深入十里铺街道办检查指导新农村示范村建设、农业产业发展等农业农村工作和“五项制度”贯彻落实情况。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">20</span>日<span lang="EN-US">,</span>县委常委、副县长周建政深入高坝店、户家塬等镇检查土地整理项目进展情况。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">20</span>日,省林业厅副厅长党双忍来山检查中央财政林业科技推广项目建设工作,副县长朱波陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">21</span>日,《人民日报》陕西分社采编部主任龚仕建来山调研镇办“五项制度”、村级党组织建设“五大举措”及村企共建工作,县委常委、宣传部长阮景霞陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">22</span>日,县委常委、副县长周建政主持召开<span lang="EN-US">2015</span>年全县防汛工作电视电话会,副县长朱波作工作部署。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">23</span>日,副县长赵水利深入法官镇检查计划生育工作。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">23</span>日,省决资委副主任陈再生来山调研林下经济及木本油料产业发展情况,县上领导李吉斌、李开仕、朱波陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">23</span>日至<span lang="EN-US">24</span>日,省政协副主席李晓东一行来山调研文化<span style="LETTER-SPACING: 0.3pt">旅游名镇建设情况,县上领导吴成顺、赵水利、黄朝庆、袁</span>金榜陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">23</span>日,国家农业部原党组成员、妇工委主任张玉香一行来山调研农业发展情况,县委副书记李超鲲陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">24</span>日,全县新农村示范村建设及“双包双促”精准扶贫推进会召开,县委副书记李超鲲讲话,副县长李伟主持会议。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">24</span>日,县委副书记李超鲲主持召开全县电子商务领导小组第二次会议,副县长朱波、李伟参加会议。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">25</span>日,国家水利部长江委水土保持局局长廖纯艳一行来山检查水土保持重点工程建设工作,副县长朱波陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">27</span>日,香港必康国际董事局主席谷晓嘉一行来山检查必<span style="LETTER-SPACING: 0.2pt">康医药公司二期工程建设进展情况并开展考察活动,县长陈</span>璇,县委副书记李超鲲陪同。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">28</span>日,副县长李伟深入各景区检查“五一”假日旅游安全工作。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">29</span>日,山阳大讲堂“电子商务发展”专题学习报告会举办,县委副书记李超鲲主持,西安邮电大学经济与管理学院院长张鸿作专题报告,所有在家县级领导参加报告会。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">※<span lang="EN-US"> 4</span>月<span lang="EN-US">30</span>日,县委副书记、县政府党组书记袁良善主持召开全县“五一”假期安全生产及旅游工作专题会议,县委常委、常务副县长赵晓斌,副县长李伟、赵念强参加会议。<span lang="EN-US">
+                  <o:p></o:p></span></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span lang="EN-US" style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">
+                 <o:p>
+                  &nbsp;
+                 </o:p></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span lang="EN-US" style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">
+                 <o:p>
+                  &nbsp;
+                 </o:p></span></p><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 27pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly"><span lang="EN-US" style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast">
+                 <o:p>
+                  &nbsp;
+                 </o:p></span></p></font></td> 
+            </tr> 
+            <tr> 
+             <td align="right" valign="top"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="790" height="40" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td height="20" align="right">&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td height="20" align="right" class="zi_tang">编辑:Jack&nbsp;&nbsp;</td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="100%" height="11" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td height="20"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="95%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td width="16%" height="25" align="center" bgcolor="#F9C880" class="biaoti">相关链接</td> 
+             <td width="84%">&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td height="1" bgcolor="#DF860D"></td> 
+             <td height="1" bgcolor="#DF860D"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="95%" height="141" border="0" cellpadding="0" cellspacing="1" bgcolor="#FFE4C8"> 
+           <tbody>
+            <tr> 
+             <td height="141" valign="top" bgcolor="#FFF7EE">
+              <table width="100%" height="8" border="0" cellpadding="0" cellspacing="0"> 
+               <tbody>
+                <tr> 
+                 <td height="8"></td> 
+                </tr> 
+               </tbody>
+              </table> 
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+               <tbody>
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/201561/n10247947.html">2015年4月大事记</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/201561/n49917946.html">2015年3月大事记</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/201561/n29967945.html">2015年2月大事记</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/201561/n06077944.html">2015年1月大事记</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/201561/n93487943.html">2014年12月大事记</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/201561/n95677942.html">2014年11月大事记</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/201561/n53967941.html">2015年政府工作报告</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/2015523/n16767912.html">山阳新闻(2015-05-22)</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/2015523/n05927911.html">山阳新闻(2015-05-21)</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr> 
+                <tr> 
+                 <td width="87%" height="24" align="left">&middot;<a href="http://www.shy.gov.cn/news/2015523/n18397910.html">山阳新闻(2015-05-20)</a> </td> 
+                 <td width="13%" align="left">2015-6-1</td> 
+                </tr>
+                <tr> 
+                 <td height="8" colspan="2" align="center" background="/templets/shanyang/images/dian2.gif"></td> 
+                </tr>
+               </tbody>
+              </table> 
+              <table width="98%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td height="8"></td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="100%" height="20" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td height="20"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="95%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td width="16%" height="25" align="center" bgcolor="#F9C880" class="biaoti">图片报道 </td> 
+             <td width="84%">&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td height="1" bgcolor="#DF860D"></td> 
+             <td height="1" bgcolor="#DF860D"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="95%" height="156" border="0" cellpadding="0" cellspacing="1" bgcolor="#FFE4C8"> 
+           <tbody>
+            <tr> 
+             <td height="154" align="center" bgcolor="#FFF7EE">
+              <table width="97%" height="106" border="0" cellpadding="0" cellspacing="0"> 
+               <tbody>
+                <tr> 
+                 <td width="20%" height="83" align="center">
+                  <table width="66%" height="45" border="0" cellpadding="0" cellspacing="0"> 
+                   <tbody>
+                    <tr> 
+                     <td align="center" valign="middle">
+                      <table width="75" height="13" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"> 
+                       <tbody>
+                        <tr> 
+                         <td bgcolor="#FFF7EE"><a href="http://www.shy.gov.cn/news/201561/n65047939.html"><img src="/files/2015/06/正在建设的移民搬迁.jpg" alt="山阳县陕南移民搬迁工程" width="128" height="100" border="0" /></a></td> 
+                        </tr> 
+                       </tbody>
+                      </table></td> 
+                    </tr> 
+                    <tr> 
+                     <td height="30" align="center"><a href="http://www.shy.gov.cn/news/201561/n65047939.html" target="_blank">山阳县陕南移民搬...</a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                 <td width="20%" height="83" align="center">
+                  <table width="66%" height="45" border="0" cellpadding="0" cellspacing="0"> 
+                   <tbody>
+                    <tr> 
+                     <td align="center" valign="middle">
+                      <table width="75" height="13" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"> 
+                       <tbody>
+                        <tr> 
+                         <td bgcolor="#FFF7EE"><a href="http://www.shy.gov.cn/news/2015529/n44497938.html"><img src="/files/2015/05/奥科公司.jpg" alt="山阳奥科粉体有限公司" width="128" height="100" border="0" /></a></td> 
+                        </tr> 
+                       </tbody>
+                      </table></td> 
+                    </tr> 
+                    <tr> 
+                     <td height="30" align="center"><a href="http://www.shy.gov.cn/news/2015529/n44497938.html" target="_blank">山阳奥科粉体有限...</a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                 <td width="20%" height="83" align="center">
+                  <table width="66%" height="45" border="0" cellpadding="0" cellspacing="0"> 
+                   <tbody>
+                    <tr> 
+                     <td align="center" valign="middle">
+                      <table width="75" height="13" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"> 
+                       <tbody>
+                        <tr> 
+                         <td bgcolor="#FFF7EE"><a href="http://www.shy.gov.cn/news/2015529/n95687936.html"><img src="/files/2015/05/家金公司.jpg" alt="山阳县家金商贸有限责任公司" width="128" height="100" border="0" /></a></td> 
+                        </tr> 
+                       </tbody>
+                      </table></td> 
+                    </tr> 
+                    <tr> 
+                     <td height="30" align="center"><a href="http://www.shy.gov.cn/news/2015529/n95687936.html" target="_blank">山阳县家金商贸有...</a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                 <td width="20%" height="83" align="center">
+                  <table width="66%" height="45" border="0" cellpadding="0" cellspacing="0"> 
+                   <tbody>
+                    <tr> 
+                     <td align="center" valign="middle">
+                      <table width="75" height="13" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"> 
+                       <tbody>
+                        <tr> 
+                         <td bgcolor="#FFF7EE"><a href="http://www.shy.gov.cn/news/2015529/n51887934.html"><img src="/files/2015/05/广远食品有限公司.jpg" alt="陕西广远食品有限责任公司" width="128" height="100" border="0" /></a></td> 
+                        </tr> 
+                       </tbody>
+                      </table></td> 
+                    </tr> 
+                    <tr> 
+                     <td height="30" align="center"><a href="http://www.shy.gov.cn/news/2015529/n51887934.html" target="_blank">陕西广远食品有限...</a></td> 
+                    </tr> 
+                   </tbody>
+                  </table></td> 
+                </tr> 
+               </tbody>
+              </table></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="100%" height="5" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td height="5"></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+     <td width="8" background="/templets/shanyang/images/yin_right.gif">&nbsp;</td> 
+    </tr>
+   </tbody>
+  </table>
+  <script type="text/JavaScript"><!--function MM_jumpMenu(targ,selObj,restore){ //v3.0  eval(targ+".open('"+selObj.options[selObj.selectedIndex].value+"')");  if (restore) selObj.selectedIndex=0;}//--></script>
+  <table width="991" height="181" border="0" align="center" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <td width="8" height="181" background="/templets/shanyang/images/yin_left.gif">&nbsp;</td> 
+     <td width="975" align="center" valign="top" bgcolor="#FFFFFF"> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+       <tbody>
+        <tr> 
+         <td width="9%" align="center" valign="middle"><img src="/templets/shanyang/images/yqlj.gif" width="74" height="29" /></td> 
+         <td width="91%" align="left">
+          <table width="100%" height="33" border="0" cellpadding="7" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td height="33" align="center"><select name="select"> <option>-- 中央省市部门网站 --</option> </select> </td> 
+             <td align="center"><select name="select2" onchange="MM_jumpMenu('parent',this,0)"> <option>-- 全国各省区政府网站 --</option><option value="http://www.beijing.gov.cn/">北京</option> <option value="http://www.tj.gov.cn/">天津</option> <option value="http://www.hebei.gov.cn/">河北</option> <option value="http://www.shanxigov.cn/">山西</option> <option value="http://www.nmg.gov.cn/">内蒙古</option> <option value="http://www.ln.gov.cn/">辽宁</option> <option value="http://www.jl.gov.cn/">吉林</option> <option value="http://www.hlj.gov.cn/">黑龙江</option> <option value="http://www.shanghai.gov.cn/">上海</option> <option value="http://www.jiangsu.gov.cn/">江苏</option> <option value="http://www.zhejiang.gov.cn/">浙江</option> <option value="http://www.ah.gov.cn/">安徽</option> <option value="http://www.fujian.gov.cn/">福建</option> <option value="http://www.jiangxi.gov.cn/">江西</option> <option value="http://www.shandong.gov.cn/">山东</option> <option value="http://www.henan.gov.cn/">河南</option> <option value="http://www.cnhubei.gov.cn/">湖北</option> <option value="http://www.hunan.gov.cn/">湖南</option> <option value="http://www.gd.gov.cn/">广东</option> <option value="http://www.gxzf.gov.cn/">广西</option> <option value="http://www.hainan.gov.cn/">海南</option> <option value="http://www.cq.gov.cn/">重庆</option> <option value="http://www.sichuan.gov.cn/">四川</option> <option value="http://www.gzgov.gov.cn/">贵州</option> <option value="http://www.yn.gov.cn/">云南</option> <option value="http://www.xizang.gov.cn/">西藏</option> <option value="">陕西</option> <option value="http://www.gansu.gov.cn/">甘肃</option> <option value="http://www.nx.gov.cn/">宁夏</option> <option value="http://www.qh.gov.cn">青海</option> <option value="http://www.xinjiang.gov.cn/">新疆</option> <option value="http://www.info.gov.hk/">香港</option> <option value="http://www.gov.mo/egi/Portal/index.jsp">澳门</option> <option value="#">台湾</option> </select></td> 
+             <td align="center"><select name="select3" onchange="MM_jumpMenu('parent',this,0)"> <option>-- 陕西省政府网站 --</option><option>---------</option><option value="http://www.xa.gov.cn/">西安市</option><option value="http://www.xincheng.gov.cn/">新城区</option><option value="http://www.beilin.gov.cn/">碑林区</option><option value="http://www.lianhu.gov.cn/">莲湖区</option><option value="http://www.baqiao.gov.cn/">灞桥区</option><option value="http://www.weiyang.gov.cn/">未央区</option><option value="http://www.yanta.gov.cn/">雁塔区</option><option value="http://www.yanliang.gov.cn/">阎良区</option><option value="http://www.lintong.gov.cn/">临潼区</option><option value="http://www.changanqu.gov.cn/">长安区</option><option value="http://www.lantian.gov.cn/">蓝田县</option><option value="http://www.zhouzhi.gov.cn/">周至县</option><option value="http://www.huxian.gov.cn/">户 县</option><option value="http://www.gao-ling.gov.cn/">高陵县</option><option>---------</option><option value="http://www.baoji.gov.cn/">宝鸡市</option><option value="http://www.weibin.gov.cn/">渭滨区</option><option value="http://www.jtq.cn/">金台区</option><option value="http://www.ccq.gov.cn/">陈仓区</option><option value="http://www.fufeng.gov.cn/">扶风县</option><option value="http://www.sxmx.gov.cn/">眉 县</option><option value="http://www.qishan.gov.cn/">岐山县</option><option value="http://www.fengxiang.gov.cn/">凤翔县</option><option value="http://www.sxtb.gov.cn/">太白县</option><option value="http://www.linyou.gov.cn/">麟游县</option><option value="http://www.qianyang.gov.cn/">千阳县</option><option value="http://www.longxian.gov.cn/">陇 县</option><option value="http://www.sxfx.gov.cn/">凤 县</option><option>---------</option><option value="http://www.xianyang.gov.cn/">咸阳市</option><option value="http://www.snqindu.gov.cn/">秦都区</option><option value="http://www.weic.gov.cn/">渭城区</option><option value="http://www.snxingping.gov.cn/">兴平市</option><option value="http://www.snwugong.gov.cn/">武功县</option><option value="http://www.snsanyuan.gov.cn/">三原县</option><option value="http://www.jysn.cn/">泾阳县</option><option value="http://www.liquan.gov.cn/">礼泉县</option><option value="http://www.snqianxian.gov.cn/">乾 县</option><option value="http://www.yongshou.gov.cn/">永寿县</option><option value="http://www.snbinxian.gov.cn/">彬 县</option><option value="http://www.snchunhua.gov.cn/">淳化县</option><option value="http://www.snxunyi.gov.cn/">旬邑县</option><option value="http://www.snchangwu.gov.cn/">长武县</option><option>---------</option><option value="http://www.tongchuan.gov.cn/">铜川市</option><option value="http://www.tcwy.gov.cn/">王益区</option><option value="http://www.yintai.gov.cn/">印台区</option><option value="http://www.yaozhou.gov.cn/">耀州区</option><option value="http://www.yijun.gov.cn/">宜君县</option><option>---------</option><option value="http://www.weinan.gov.cn/">渭南市</option><option value="http://www.linwei.gov.cn/">临渭区</option><option value="http://www.hancheng.gov.cn/">韩城市</option><option value="http://www.huayin.gov.cn/">华阴市</option><option value="http://www.huaxian.gov.cn/">华 县</option><option value="http://www.tongguan.gov.cn/">潼关县</option><option value="http://www.dalisn.gov.cn/">大荔县</option><option value="http://www.chengcheng.gov.cn/">澄城县</option><option value="http://www.heyang.gov.cn/">合阳县</option><option value="http://www.pucheng.gov.cn/">蒲城县</option>href=&quot;<option value="http://www.fuping.gov.cn/">富平县</option>href=&quot;<option value="http://www.baishuixw.cn/">白水县</option><option>---------</option><option value="http://www.yanan.gov.cn/">延安市</option><option value="http://www.baotaqu.gov.cn/">宝塔区</option><option value="http://www.huangling.gov.cn/">黄陵县</option><option value="http://www.hlx.gov.cn/">黄龙县</option><option value="http://www.yichuanxian.gov.cn/">宜川县</option><option value="http://www.lcx.gov.cn/">洛川县</option><option value="http://www.fuxian.gov.cn/">富 县</option><option value="http://www.ganquanxian.gov.cn/">甘泉县</option><option value="http://www.wqx.gov.cn/">吴起县</option><option value="http://www.zhidan.gov.cn/">志丹县</option><option value="http://www.ansai.gov.cn/">安塞县</option><option value="http://www.zichang.gov.cn/">子长县</option><option value="http://www.yanchuan.gov.cn/">延川县</option><option value="http://www.yanchangxian.gov.cn/">延长县</option><option>---------</option><option value="http://www.yl.gov.cn/">榆林市</option><option value="http://www.yuyang.gov.cn/">榆阳区</option><option value="http://www.sxsm.com.cn/">神木县</option><option value="http://www.fg.gov.cn/">府谷县</option><option value="http://www.dingbian.gov.cn/">定边县</option><option value="http://www.jingbian.gov.cn/">靖边县</option><option value="http://www.sxhs.gov.cn/">横山县</option><option value="http://www.sxsd.gov.cn/">绥德县</option><option value="http://www.mizhi.gov.cn/">米脂县</option><option value="http://www.sxjiaxian.gov.cn/">佳 县</option><option value="http://www.wubu.gov.cn/">吴堡县</option><option value="http://www.qjzhf.gov.cn/">清涧县</option><option value="http://www.zizhou.gov.cn/">子洲县</option><option>---------</option><option value="http://www.hanzhong.gov.cn/">汉中市</option><option value="http://www.htq.gov.cn/">汉台区</option><option value="http://www.nanzheng.gov.cn/">南郑县</option><option value="http://www.chenggu.gov.cn/">城固县</option><option value="http://www.yangxian.gov.cn/">洋 县</option><option value="http://www.mianxian.gov.cn/">勉 县</option><option value="http://www.snxx.gov.cn/">西乡县</option><option value="http://www.lueyang.gov.cn/">略阳县</option><option value="http://www.zb.gov.cn/">镇巴县</option><option value="http://www.nq.gov.cn/">宁强县</option><option value="http://www.liuba.gov.cn/">留坝县</option><option value="http://www.foping.gov.cn/">佛坪县</option><option>---------</option><option value="http://www.ankang.gov.cn/">安康市</option><option value="http://www.hanbin.gov.cn">汉滨区</option><option value="http://www.pingli.gov.cn">平利县</option><option value="http://www.xunyang.com.cn/">旬阳县</option><option value="http://www.shiquan.gov.cn/">石泉县</option><option value="http://www.ziyangxian.gov.cn/">紫阳县</option><option value="http://www.baihe.gov.cn/">白河县</option><option value="http://www.hanyin.gov.cn/">汉阴县</option><option value="http://www.zhp.gov.cn/">镇坪县</option><option value="http://www.ningshan.gov.cn/">宁陕县</option><option value="http://www.langao.gov.cn/">岚皋县</option><option>---------</option><option value="http://www.shangluo.gov.cn/">商洛市</option><option value="http://www.shangzhou.gov.cn/">商州区</option><option value="http://www.luonan.gov.cn/">洛南县</option><option value="http://www.shy.gov.cn/">山阳县</option><option value="http://www.zazf.gov.cn/">镇安县</option><option value="http://www.danfeng.gov.cn/">丹凤县</option><option value="http://www.shangnan.gov.cn/">商南县</option><option value="http://www.snzs.gov.cn/">柞水县</option><option>---------</option><option value="http://www.ylagri.gov.cn/">杨凌示范区</option><option value="http://www.ylqzfw.gov.cn/">杨陵区</option> </select></td> 
+             <td align="center"><select name="select4" onchange="MM_jumpMenu('parent',this,0)"> <option>-- 新闻媒体网站 --</option><option value="http://www.people.com.cn/">人民日报</option> <option value="http://www.xinhuanet.com//">新华网</option> <option value="http://www.cctv.com/default.shtml">中央电视台</option> <option value="http://www.chinadaily.com.cn/gb/worldrep/index.html">中国日报</option> <option value="http://www.chinadaily.com.cn/">Chinadaily</option> <option value="http://www.cnradio.com/">中央人民广播电台</option> <option value="http://gb.chinabroadcast.cn/">中国国际广播电台</option> <option value="http://www.sxdaily.com.cn/">陕西日报</option> <option value="http://www.sxtvs.com">陕西电视台</option> <option value="http://www.sxradio.com.cn">陕西人民广播电台</option> <option value="http://sn.people.com.cn/">人民网陕西频道</option> <option value="http://www.sn.xinhuanet.com/">新华网陕西频道</option> <option value="http://www.cnwest.com/node/index.htm">西部网-陕西新闻网</option> <option value="http://ml.china.com.cn/xibu/">中国网-西部瞭望</option> <option>---------</option> <option value="http://www.huash.com/">华商报</option> <option value="http://www.xawb.com/">西安晚报</option> <option value="http://www.sanqindaily.com/">三秦都市报</option> <option value="http://shangluo.cnwest.com/">商洛新闻网</option><option>---------</option> <option value="http://cn.yahoo.com/">YAHOO</option> <option value="http://www.baidu.com/">百度</option> <option value="http://www.sina.com.cn/">新浪</option> <option value="http://www.163.com/">网易</option> <option value="http://www.sohu.com/">搜狐</option> <option value="http://www.ieread.com/">瑞读网</option> <option value="http://china.alibaba.com/">阿里巴巴</option><option value="http://www.tom.com/">Tom</option> <option value="http://www.21cn.com/">21cn</option> <option value="http://www.stockstar.com/">证券之星</option> <option value="http://www.xaonline.com/">古城热线</option> <option value="http://www.3721.cc/">3721</option> <option value="http://www.xatvs.com/">白鸽网</option> </select></td> 
+             <td align="center"><select name="select5" onchange="MM_jumpMenu('parent',this,0)"> <option>-- 兄弟县区 --</option> <option value="http://www.shangzhou.gov.cn">商州区</option> <option value="http://www.luonan.gov.cn">洛南县</option> <option value="http://www.danfeng.gov.cn">丹凤县</option> <option value="http://www.shangnan.gov.cn">商南县</option> <option value="http://www.zazf.gov.cn">镇安县</option> <option value="http://www.snzs.gov.cn">柞水县</option> </select></td> 
+             <td align="center"><select name="select6" onchange="MM_jumpMenu('parent',this,0)"> <option>-- 本地链接 --</option> <option value="http://61.185.137.18:8080/pscms_web/">互联网舆情</option> <option value="http://61.185.137.7:8080/system/login.jsp">新版政府网</option> <option value="http://www.shyzsj.cn">山阳招商网</option> <option value="http://www.shysfj.gov.cn">山阳司法网</option> <option value="http://shanyanglvyou.com">山阳旅游网</option> <option value="http://www.shluwan.icoc.cc/">陆湾村乡村旅游</option> </select></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" background="/templets/shanyang/images/di_di.gif"> 
+       <tbody>
+        <tr> 
+         <td height="32" align="center" class="di_di"> <a href="/map.html">网站地图</a> | <a href="/oozgp.html">关于我们</a> | <a href="/tpwbl.html">郑重声明</a> | <a href="/vtrui.html">隐私保护</a> | <a href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.shy.gov.cn/');">设为首页</a> | <a href="javascript:window.external.AddFavorite('http://www.shy.gov.cn', '山阳县人民政府门户网站')">加入收藏</a></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td height="5"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table width="99%" height="111" border="0" cellpadding="0" cellspacing="0"> 
+       <tbody>
+        <tr> 
+         <td width="38%" height="111" align="right" valign="middle">
+          <table width="59%" height="76" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td align="right" valign="middle"><img src="/templets/shanyang/images/di_loog.gif" width="161" height="83" /></td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="97%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+         <td width="3%" align="center">
+          <table height="88" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td width="1" style="border-left:#999999 1px solid;">&nbsp;</td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+         <td width="59%" align="left" valign="middle">
+          <table width="564" height="78" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody>
+            <tr> 
+             <td width="427"><p class="di_left"><span class="di_left2">Copyright 2009-2012 陕西&middot;山阳 All Rights Reserved </span><br /> <span class="di_left">主办:陕西省山阳县人民政府 承办:山阳县电子政务中心<br /> 联系电话:0914-8381164(FAX)&nbsp;&nbsp;E-mail:syxzfb@126.com <br /> 备案编号: <a href="http://www.miibeian.gov.cn" target="_blank">陕ICP备05005908号-1</a>&nbsp;&nbsp;&nbsp; <script src="http://s11.cnzz.com/stat.php?id=34942&amp;web_id=34942&amp;show=pic" language="JavaScript" charset="gb2312"></script> </span></p></td> 
+             <td width="123"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/27/387/2553/60496774/CA273872553604967740001.js' type='text/javascript'%3E%3C/script%3E"));</script>&nbsp;</td> 
+             <td width="14">&nbsp;</td> 
+            </tr> 
+           </tbody>
+          </table></td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+     <td width="8" background="/templets/shanyang/images/yin_right.gif">&nbsp;</td> 
+    </tr>
+   </tbody>
+  </table> 
+ </body>
+</html>

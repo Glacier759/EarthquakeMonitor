@@ -1,0 +1,1696 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:user="http://dotnet.aspx.cc/">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>基于双边市场理论的B2B平台运行策略及其演化研究--《上海交通大学》2010年博士论文</title> 
+  <meta name="keywords" content="双边市场 B2B平台 定价策略 平台演化 平台竞争 网络效应" /> 
+  <meta name="autoKeywords" content="双边市场 B2B平台 定价策略 平台演化 平台竞争 网络效应" /> 
+  <meta name="description" content="双边市场 B2B平台 定价策略 平台演化 平台竞争 网络效应" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/detail0301.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/header.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/footer.css" rel="stylesheet" type="text/css" /> 
+  <link href="http://qiangguo.cnki.net/cnki/CSS/window.css" rel="stylesheet" type="text/css" /> 
+ </head> 
+ <body>
+  <script language="javascript" type="text/javascript" src="http://qiangguo.cnki.net/cnki/js/adDetail1123.js"></script>
+  <div id="header948"> 
+   <div id="header948_t">
+    <a href="http://www.cnki.com.cn" id="logo"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjlogo.gif" width="396" height="56" border="0" /></a>
+    <a id="shoucang" href="javascript:addfavorite();">收藏本站</a>
+    <div id="header948_t_link">
+     <a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank" class="link1"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink1.gif" width="71" height="24" border="0" /></a>
+     <a href="http://card.cnki.net/" target="_blank" class="link2"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink2.gif" width="80" height="24" border="0" /></a>
+     <a href="http://vipcard.cnki.net/ec/cardintroduce.html" target="_blank" class="link1"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnkikjheaderlink9.gif" width="71" height="24" border="0" /></a>
+     <a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" target="_blank" class="link3"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink3.gif" width="71" height="24" border="0" /></a>
+     <div class="cl"></div>
+     <a href="http://card.cnki.net/" target="_blank" class="link4"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink4.gif" width="71" height="24" border="0" /></a>
+     <a href="http://www.cnki.net/software/xzydq.htm" target="_blank" class="link5"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink5.gif" width="80" height="24" border="0" /></a>
+     <a href=" http://ad.cnki.net/index.aspx" target="_blank" class="link4"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnkikjheaderlink8.gif" width="71" height="24" border="0" /></a>
+     <a href="http://en.cnki.com.cn/" target="_blank" class="link6"><img src="http://qiangguo.cnki.net/cnki/images/header/cnkikjheaderlink6.gif" width="71" height="24" border="0" /></a>
+    </div> 
+   </div> 
+   <div class="cl"></div> 
+   <div id="nav948"> 
+    <div id="nav948_left"></div> 
+    <div id="nav948_center"> 
+     <ul> 
+      <li><a href="http://www.cnki.com.cn" target="_blank" id="nava0" class="nava_1">首页</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cjfd"><a href="http://www.cnki.com.cn/CJFD/CJFD_index.htm" id="nava1" class="nava_2">期刊全文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cdmd"><a href="http://cdmd.cnki.com.cn/" id="nava2" class="nava_2">学位论文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li id="header_cpfd"><a href="http://cpfd.cnki.com.cn/" id="nava3" class="nava_2">会议论文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://cyfd.cnki.com.cn/" target="_blank" id="nava4" class="nava_2">年鉴全文库</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://wiki.cnki.com.cn/" target="_blank" id="nava5" class="nava_2">学术百科</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://mall.cnki.net/reference/" target="_blank" id="nava6" class="nava_2">工具书</a></li> 
+      <li><img src="http://qiangguo.cnki.net/cnki/images/header/headernavlibg4.gif" width="2" height="37" border="0" /></li> 
+      <li><a href="http://xuewen.cnki.net" target="_blank" id="nava7" class="nava_2">CNKI学问</a></li> 
+     </ul> 
+     <div class="menuctrl">
+      <span><a href="http://my.cnki.net/elibregister/CommonRegister.aspx" target="_blank">注册</a></span>
+      <span>|</span>
+      <span><a href="http://my.cnki.net/" target="_blank">登录</a></span>
+      <span>|</span>
+      <span><a href="http://my.cnki.net/" target="_blank">我的账户</a></span>
+     </div> 
+    </div> 
+    <div id="nav948_right"></div> 
+   </div> 
+   <div id="nav948_b">
+    <a href="http://www.cnki.com.cn/Navi/A.htm" target="_blank">基础科学</a>|
+    <a href="http://www.cnki.com.cn/Navi/B.htm" target="_blank">工程科技I辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/C.htm" target="_blank">工程科技II辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/E.htm" target="_blank">医药卫生科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/I.htm" target="_blank">信息科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/D.htm" target="_blank">农业科技</a>|
+    <a href="http://www.cnki.com.cn/Navi/F.htm" target="_blank">哲学与人文科学</a>|
+    <a href="http://www.cnki.com.cn/Navi/G.htm" target="_blank">社会科学I辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/H.htm" target="_blank">社会科学II辑</a>|
+    <a href="http://www.cnki.com.cn/Navi/J.htm" target="_blank">经济管理</a>
+   </div> 
+   <div id="header948_b"> 
+    <div id="header948_b_l"></div> 
+    <div id="header948_b_c"> 
+     <div id="search">
+      <input type="text" id="txt_word" size="57" name="txt_word" value="输入关键词" onkeydown="if(event.keyCode==13)document.getElementById('Button1').focus();" onmousedown="if(this.value=='输入关键词') this.value='';" />
+      <button id="Button1" onclick="detailSearch();"></button>
+      <button id="Button2" class="btnmaga" onclick="magazineSearch();"></button>
+      <div class="cl"></div> 
+      <div id="tips">
+       <a href="
+                      http://epub.cnki.net/kns/default.aspx?code=cdmd&amp;f=%E5%85%A8%E6%96%87&amp;kw=%E5%8F%8C%E8%BE%B9%E5%B8%82%E5%9C%BA B2B%E5%B9%B3%E5%8F%B0 " target="_blank" id="tips_c"><span><strong>高级搜索:</strong>用&quot; </span>双边市场 B2B平台 <span>&quot;到知网平台检索,</span><b>点击这里搜索更多...</b></a>
+      </div> 
+     </div> 
+     <div id="headerbanner">
+      <a href="http://zhiku.cnki.net/Home/Corpus/66.html" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/newversion/cnki_index_top_right460.jpg" alt="中国知网.智库.食物禁忌" /></a>
+      <div style="display:none">
+       <script src="http://s27.cnzz.com/stat.php?id=1356416&amp;web_id=1356416&amp;show=pic1" language="javascript" charset="gb2312" type="text/javascript"></script>
+      </div> 
+     </div> 
+    </div> 
+    <div id="header948_b_r"></div> 
+   </div> 
+  </div>
+  <script language="javascript">      change_color();    </script>
+  <div id="content" style="width: 948px; margin: 0 auto;"> 
+   <div id="edff"></div> 
+   <div style="width:740px; float:left; margin-left:5px;"> 
+    <div> 
+     <div style="float:left;">
+      <a href="http://cdmd.cnki.com.cn/Area/CDMDUnitArticle-10248-2010-1.htm" target="_blank"><b> 《上海交通大学》 </b><font color="#0080ff">2010年 </font></a>
+     </div> 
+     <div style="float:right;">
+      <a class="a05" href="#" onclick="return window.external.AddFavorite(document.location.href,'基于双边市场理论的B2B平台运行策略及其演化研究');">加入收藏</a> 
+      <a class="a05" href="../CDMD/DetailNew.ashx?url=/Article/CDMD-10248-2010113677.htm"> 获取最新 </a>
+     </div> 
+    </div> 
+    <div style="text-align:center; width:740px; font-size: 28px;color: #0000a0; font-weight:bold; font-family:'宋体';"> 
+     <h1 class="xx_title">基于双边市场理论的B2B平台运行策略及其演化研究</h1> 
+    </div> 
+    <div style="text-align:center; width:740px; height:30px;">
+     <a href="http://search.cnki.com.cn/Search.aspx?q=author:%E6%9B%B9%E4%BF%8A%E6%B5%A9" target="_blank">曹俊浩</a> &nbsp;
+    </div> 
+    <div style="text-align:left;word-break:break-all" class="xx_font"> 
+     <font color="#000"><strong>【摘要】:</strong></font> 商业全球化的发展加强了全球上下游企业之间的联系,企业间协作变得越来越频繁,高效快速的参与市场交易、获取原材料成为企业制胜的关键,网络信息技术的不断完善以及信息服务专业程度的持续提高使得企业传统经营与互联网业务的融合发展成为可能,商业全球化、企业协作需求、企业竞争制胜要求、网络技术日臻完善以及信息服务专业化程度持续提高推动了网络经济的快速发展。以B2B电子商务市场为代表的网络经济为企业供应链延伸、成本控制、盈利能力提高以及品牌辐射提供了途径,以效率高、成本低、纽带强、辐射广的内在特征促其成为现代市场经济体系的一个重要组成部分。 2003年以来,我国网络经济市场规模的年平均增长率达到57.36%,基于此背景,B2B电子商务市场的产业规模、平台数量、服务水平都取得了长足的进步,正在逐渐形成有序、规范的市场体系。但与之形成鲜明对比的是,我国对B2B平台的研究才刚刚兴起,在研究方法上,已有的研究忽视了B2B平台本身所具有的双边市场特征,缺乏运用双边市场这一现代产业组织理论对B2B平台行为进行系统性研究;在研究内容上,主要集中在B2B平台的分类、功能、定价策略等方面,忽视了平台竞争这一市场主题,对平台投资行为、平台自网络效应也鲜有涉及。双边市场理论是进入21世纪后才引起国际经济学界和产业界广泛重视的新理论,是基于网络外部性理论和多产品定价理论而发展起来的对某一类产业进行研究的新学说。我国从2004年开始,在网络外部性研究的基础上开展了对于双边市场理论的研究,其理论体系正在逐步形成的过程中,但尚不完善。这些不完善体现在两个方面:其一是研究内容的不完善。已有研究主要集中在银行卡、传媒和操作系统等领域,对于具有双边市场特征的B2B电子商务市场的研究相对较少,尤其是基于所有权属性展开的平台演化和平台竞争研究几乎是空白;其二,研究方法和工具上的不完善。当前双边市场的研究过多的依靠静态模型的方式来刻画和分析双边市场问题,以比较分析、动态视角作为研究的手段和方法需要进一步丰富和拓展。 纵观全文,本文在双边市场理论框架下,以B2B平台的微观结构及其行为特征分析为逻辑起点,按照市场竞争程度和平台所有权属性两个维度展开,对不同所有者结构B2B平台的双边用户规模、价格结构、平台利润、剩余及社会福利、多平台竞争以及网络效应等相关问题进行深入研究,填补了双边市场领域B2B平台演化和平台竞争的研究空白,发现了垄断市场和竞争市场平台演化的趋势,构建了B2B平台应对不同市场环境的竞争体系,提出了一套新建或投资B2B平台的策略组合。与此同时,与国内对B2B平台的研究相比,本文的研究在研究手法上进行了较大的突破,也为建立我国“电子商务B2B平台理论”研究开创了新的研究范式。 本文主要的研究工作可以归纳如下: (1)明确研究的主体和理论基础。基于国内外超过200个B2B平台调查,将B2B市场上的主流平台划分为公共平台和私有平台两类,并刻画了两类平台的具体特征,包括所有者结构、双边用户规模、所有权变更等,明确公共平台(中立平台和独占平台)是本文的研究主体;基于双边市场理论,总结归纳了B2B平台的双边市场特征,包括结构非中性、网络外部性、多平台接入以及需求互补等,明确了本文研究的理论基础。在上述分析的基础上,形成本文研究的B2B平台的核心特征。 (2)平台收费形式选择及垄断市场和竞争市场定价策略。通过构建注册费、交易费和两部收费三种收费形式的Hotelling模型,探讨了不同收费形式下平台的最优定价问题,并在此基础上分析了平台的定价模式选择问题;结合平台的所有权属性和接入方式,分别探讨了垄断市场和竞争市场平台的定价策略。 (3)不同所有者结构B2B平台比较及其演化趋势。通过以中立、买方以及卖方三种不同的所有者结构平台为研究主体,分别对中立平台的均衡以及独占平台的长期与短期均衡进行分析,比较不同所有者结构平台的最优注册费收费水平、双边市场份额、平台利润、服务水平、双边用户剩余以及社会总福利,总结归纳垄断市场中平台的演化趋势。 (4)三维度分析多平台竞争及其演化趋势。基于接入方式(单平台接入和多平台接入)、所有者结构(中立平台和独占平台)、竞争形式(对称竞争和非对称竞争)三个维度来分析B2B平台竞争策略,总结归纳出了平台接入方式、所有者结构对于平台竞争策略的影响,揭示竞争市场中平台的演化趋势。 (5)理论成果在平台新建或投资中的应用。在前文研究成果的基础上,基于不同的所有者结构和B2B市场的行业特性进行进一步归纳总结,依据所有者结构分类、行业竞争激烈程度、接入方式构建不同的平台组建者或第三方投资机构的投资经营策略组合,并提出了一些指导性的建议。 (6)平台网络效应和动态视角的拓展研究。基于B2B平台市场的现实情况,重点分析B2B平台是否存在自网络效应、自网络外部性内部结构和强弱关系、不同商业模式下的自网络外部性问题,并结合自网络效应理论分析,评判平台双边一致性收费标准的合理性问题,提出改进策略和建议;以动态视角进一步丰富、拓展研究手段和方法,构建基于双边市场的B2B平台网络扩散模型,分析不同视角下平台策略的变化。 本文的主要创新点有: (1)平台定价:以不同的收费形式(注册费、交易费和两部收费)为基础,研究了平台收费形式选择倾向问题,发现平台收费形式选择完全依存于单位服务网络强度比这一相对量,单位服务网络强度比越大,选择注册费倾向会越强;以所有者结构和接入方式为基础,分析垄断市场和竞争市场平台定价策略,发现所有权变更导致垄断平台定价向主导权一方倾斜,而平台竞争导致倾斜幅度变小,即价格结构扁平化;通过构建B2B平台双边网络扩散模型,研究动态定价问题,得到了与传统研究不一致的观点:平台动态定价主要受双边累计用户规模的影响。 (2)平台演化:以中立、买方以及卖方三种不同的所有者结构平台为研究主体,通过对三种不同所有者结构平台的短期和长期均衡分析,发现垄断市场中独占平台的双边用户规模、收费水平、利润水平、服务水平、剩余水平以及社会总福利都具有比较优势,得出了在垄断市场中中立平台会向独占平台反向演化的结论;分析Single-homing和Multi-homing条件下竞争市场中的平台策略,得出与垄断市场不一致的结论:在竞争性市场中,网络外部性不强时中立平台总是能够获得相对竞争优势,独占平台会向中立平台正向演化。 (3)平台竞争:按照接入方式(Single-homing和Multi-homing)、所有者结构(中立平台和独占平台)、竞争形式(对称竞争和非对称竞争)三个维度展开分析平台竞争策略,总结归纳出了平台接入方式、所有者结构对于平台竞争行为的影响。通过与垄断市场的比较发现,平台竞争将导致平台所有者数量扩大化、双边市场份额扩大化、价格结构扁平化、接入方式退化;通过不同接入方式的比较发现,多平台接入将扩大平台的双边市场份额、将使得价格结构更加复杂但并不必然提高平台的收费水平、并不必然增加或者降低平台的利润水平。 此外,本文将理论成果延伸到应用层面,结合理论体系中不同所有者结构B2B平台的定价、平台演化以及Single-homing和Multi-homing下竞争市场平台策略,提出了一套针对不同环境因素(服务水平、行业特性、支付意愿、竞争程度)的新建或投资B2B平台的策略组合。
+    </div> 
+    <div style="text-align:left;" class="xx_font"> 
+     <font color="#000"><strong>【关键词】:</strong></font>
+     <a href="http://search.cnki.com.cn/Search.aspx?q=%E5%8F%8C%E8%BE%B9%E5%B8%82%E5%9C%BA" target="_blank"><strong>双边市场</strong></a> 
+     <a href="http://search.cnki.com.cn/Search.aspx?q=B2B%E5%B9%B3%E5%8F%B0" target="_blank"><strong>B2B平台</strong></a> 
+     <a href="http://search.cnki.com.cn/Search.aspx?q=%E5%AE%9A%E4%BB%B7%E7%AD%96%E7%95%A5" target="_blank"><strong>定价策略</strong></a> 
+     <a href="http://search.cnki.com.cn/Search.aspx?q=%E5%B9%B3%E5%8F%B0%E6%BC%94%E5%8C%96" target="_blank"><strong>平台演化</strong></a> 
+     <a href="http://search.cnki.com.cn/Search.aspx?q=%E5%B9%B3%E5%8F%B0%E7%AB%9E%E4%BA%89" target="_blank"><strong>平台竞争</strong></a> 
+     <a href="http://search.cnki.com.cn/Search.aspx?q=%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94" target="_blank"><strong>网络效应</strong></a> 
+     <br />
+     <font color="#000"><strong>【学位授予单位】:</strong></font>上海交通大学
+     <br />
+     <font color="#000"><strong>【学位级别】:</strong></font>博士
+     <br />
+     <font color="#000"><strong>【学位授予年份】:</strong></font>2010
+     <br />
+     <font color="#000"><strong>【分类号】:</strong></font>F713.36
+     <br />
+     <font color="#000"><strong>【目录】:</strong></font> 
+     <div style="width:740px;_width:650px;float:left;margin-left:5px;"> 
+      <div id="catalog"> 
+       <ul> 
+        <li><span>摘要</span><span id="rightwhite">5-8</span></li>
+        <li><span>ABSTRACT</span><span id="rightwhite">8-13</span></li>
+        <li><span>目录</span><span id="rightwhite">13-16</span></li>
+        <li><span>图目录</span><span id="rightwhite">16-18</span></li>
+        <li><span>表目录</span><span id="rightwhite">18-19</span></li>
+        <li><span>第一章 绪论</span><span id="rightwhite">19-36</span></li>
+        <li><span> 1.1 研究背景和意义</span><span id="rightwhite">19-20</span></li>
+        <li><span> 1.2 国内外研究现状综述</span><span id="rightwhite">20-30</span></li>
+        <li><span> 1.2.1 双边市场理论的研究</span><span id="rightwhite">20-24</span></li>
+        <li><span> 1.2.2 电子商务B2B平台的研究</span><span id="rightwhite">24-29</span></li>
+        <li><span> 1.2.3 基于双边市场理论框架B2B平台研究存在的不足</span><span id="rightwhite">29-30</span></li>
+        <li><span> 1.3 B2B市场需要进一步研究的问题</span><span id="rightwhite">30-32</span></li>
+        <li><span> 1.4 本文的内容与结构</span><span id="rightwhite">32-34</span></li>
+        <li><span> 1.5 本文主要创新点</span><span id="rightwhite">34-35</span></li>
+        <li><span> 1.6 本章小结</span><span id="rightwhite">35-36</span></li>
+        <li><span>第二章 B2B电子商务平台结构及其双边特征</span><span id="rightwhite">36-42</span></li>
+        <li><span> 2.1 B2B平台结构</span><span id="rightwhite">36-39</span></li>
+        <li><span> 2.2 B2B平台的双边市场特征</span><span id="rightwhite">39-41</span></li>
+        <li><span> 2.2.1 B2B平台定价的结构非中性特征</span><span id="rightwhite">39-40</span></li>
+        <li><span> 2.2.2 B2B平台的网络外部性特征</span><span id="rightwhite">40</span></li>
+        <li><span> 2.2.3 B2B平台的需求互补特征</span><span id="rightwhite">40-41</span></li>
+        <li><span> 2.3 本章小结</span><span id="rightwhite">41-42</span></li>
+        <li><span>第三章 中立电子商务B2B平台的定价策略选择研究</span><span id="rightwhite">42-63</span></li>
+        <li><span> 3.1 引言</span><span id="rightwhite">42-47</span></li>
+        <li><span> 3.1.1 研究背景</span><span id="rightwhite">42-45</span></li>
+        <li><span> 3.1.2 问题的提出</span><span id="rightwhite">45-46</span></li>
+        <li><span> 3.1.3 相关文献</span><span id="rightwhite">46-47</span></li>
+        <li><span> 3.2 问题描述与模型构建</span><span id="rightwhite">47-48</span></li>
+        <li><span> 3.3 中立B2B垄断平台的最优定价分析</span><span id="rightwhite">48-57</span></li>
+        <li><span> 3.3.1 形式I:平台注册费收费形式</span><span id="rightwhite">48-52</span></li>
+        <li><span> 3.3.2 形式II:平台收取交易费形式</span><span id="rightwhite">52-54</span></li>
+        <li><span> 3.3.3 形式III:平台两部收费形式</span><span id="rightwhite">54-57</span></li>
+        <li><span> 3.4 中立B2B垄断平台的定价形式的比较分析</span><span id="rightwhite">57-59</span></li>
+        <li><span> 3.5 扩展:中立B2B垄断平台的非对称收费形式</span><span id="rightwhite">59-61</span></li>
+        <li><span> 3.6 本章小结</span><span id="rightwhite">61-63</span></li>
+        <li><span>第四章 基于不同所有者结构比较的B2B平台演化研究</span><span id="rightwhite">63-85</span></li>
+        <li><span> 4.1 引言</span><span id="rightwhite">63-66</span></li>
+        <li><span> 4.1.1 研究背景</span><span id="rightwhite">63-65</span></li>
+        <li><span> 4.1.2 问题的提出</span><span id="rightwhite">65</span></li>
+        <li><span> 4.1.3 相关文献</span><span id="rightwhite">65-66</span></li>
+        <li><span> 4.2 问题描述及模型构建</span><span id="rightwhite">66-67</span></li>
+        <li><span> 4.3 不同所有者结构的B2B平台</span><span id="rightwhite">67-76</span></li>
+        <li><span> 4.3.1 中立所有者结构B2B平台</span><span id="rightwhite">67-68</span></li>
+        <li><span> 4.3.2 买方所有者结构B2B平台</span><span id="rightwhite">68-73</span></li>
+        <li><span> 4.3.2.1 买方平台短期均衡分析</span><span id="rightwhite">69-71</span></li>
+        <li><span> 4.3.2.2 买方平台长期均衡分析</span><span id="rightwhite">71-73</span></li>
+        <li><span> 4.3.3 卖方所有者结构B2B平台</span><span id="rightwhite">73-76</span></li>
+        <li><span> 4.3.3.1 卖方平台短期均衡分析</span><span id="rightwhite">74-75</span></li>
+        <li><span> 4.3.3.2 卖方平台长期均衡分析</span><span id="rightwhite">75-76</span></li>
+        <li><span> 4.4 不同所有者结构B2B平台比较</span><span id="rightwhite">76-83</span></li>
+        <li><span> 4.4.1 双边市场份额比较分析</span><span id="rightwhite">76-77</span></li>
+        <li><span> 4.4.2 双边注册费比较分析</span><span id="rightwhite">77-79</span></li>
+        <li><span> 4.4.3 平台利润比较分析</span><span id="rightwhite">79-80</span></li>
+        <li><span> 4.4.4 剩余及平台福利比较分析</span><span id="rightwhite">80-82</span></li>
+        <li><span> 4.4.5 最优服务水平比较分析</span><span id="rightwhite">82-83</span></li>
+        <li><span> 4.5 垄断市场平台演化趋势判断</span><span id="rightwhite">83</span></li>
+        <li><span> 4.6 本章小结</span><span id="rightwhite">83-85</span></li>
+        <li><span>第五章 不同所有者结构的B2B多平台竞争研究</span><span id="rightwhite">85-109</span></li>
+        <li><span> 5.1 引言</span><span id="rightwhite">85-90</span></li>
+        <li><span> 5.1.1 研究背景</span><span id="rightwhite">85-87</span></li>
+        <li><span> 5.1.2 问题的提出</span><span id="rightwhite">87-89</span></li>
+        <li><span> 5.1.3 相关文献</span><span id="rightwhite">89-90</span></li>
+        <li><span> 5.2 问题描述及模型构建</span><span id="rightwhite">90-91</span></li>
+        <li><span> 5.3 不同所有者结构的B2B平台竞争研究</span><span id="rightwhite">91-105</span></li>
+        <li><span> 5.3.1 Single-homing 平台竞争研究</span><span id="rightwhite">91-99</span></li>
+        <li><span> 5.3.1.1 Single-homing 对称竞争研究</span><span id="rightwhite">91-96</span></li>
+        <li><span> 5.3.1.2 Single-homing 非对称竞争研究</span><span id="rightwhite">96-99</span></li>
+        <li><span> 5.3.2 Multi-homing 平台竞争研究</span><span id="rightwhite">99-105</span></li>
+        <li><span> 5.3.2.1 Multi-homing 对称竞争研究</span><span id="rightwhite">100-104</span></li>
+        <li><span> 5.3.2.2 Multi-homing 非对称竞争研究</span><span id="rightwhite">104-105</span></li>
+        <li><span> 5.4 多平台接入对于平台竞争的影响</span><span id="rightwhite">105-106</span></li>
+        <li><span> 5.5 竞争市场平台演化趋势判断</span><span id="rightwhite">106-107</span></li>
+        <li><span> 5.6 本章小结</span><span id="rightwhite">107-109</span></li>
+        <li><span>第六章 理论应用:新建或投资B2B平台的策略组合研究</span><span id="rightwhite">109-115</span></li>
+        <li><span> 6.1 引言</span><span id="rightwhite">109-110</span></li>
+        <li><span> 6.2 平台组建者或第三方投资机构的投资策略</span><span id="rightwhite">110-113</span></li>
+        <li><span> 6.2.1 横向分析:基于不同所有者结构的投资策略</span><span id="rightwhite">110-112</span></li>
+        <li><span> 6.2.2 纵向分析:基于不同接入方式的投资策略</span><span id="rightwhite">112-113</span></li>
+        <li><span> 6.3 本章小结</span><span id="rightwhite">113-115</span></li>
+        <li><span>第七章 基于商业模式的B2B平台自网络效应分析</span><span id="rightwhite">115-127</span></li>
+        <li><span> 7.1 引言</span><span id="rightwhite">115-118</span></li>
+        <li><span> 7.1.1 研究背景</span><span id="rightwhite">115-116</span></li>
+        <li><span> 7.1.2 问题的提出</span><span id="rightwhite">116-118</span></li>
+        <li><span> 7.1.3 相关文献</span><span id="rightwhite">118</span></li>
+        <li><span> 7.2 问题描述及模型构建</span><span id="rightwhite">118-120</span></li>
+        <li><span> 7.3 B2B平台自网络外部性分析</span><span id="rightwhite">120-122</span></li>
+        <li><span> 7.4 基于网络效应的B2B平台定价合理性判断</span><span id="rightwhite">122-124</span></li>
+        <li><span> 7.5 综合型和专业型B2B平台的网络效应比较分析</span><span id="rightwhite">124-125</span></li>
+        <li><span> 7.6 本章小结</span><span id="rightwhite">125-127</span></li>
+        <li><span>第八章 基于双边市场的B2B平台扩散模型及其动态定价策略</span><span id="rightwhite">127-134</span></li>
+        <li><span> 8.1 引言</span><span id="rightwhite">127-129</span></li>
+        <li><span> 8.1.1 研究背景</span><span id="rightwhite">127-128</span></li>
+        <li><span> 8.1.2 问题的提出</span><span id="rightwhite">128</span></li>
+        <li><span> 8.1.3 相关文献</span><span id="rightwhite">128-129</span></li>
+        <li><span> 8.2 问题描述及模型构建</span><span id="rightwhite">129-130</span></li>
+        <li><span> 8.3 B2B平台垄断动态策略分析</span><span id="rightwhite">130-133</span></li>
+        <li><span> 8.4 本章小结</span><span id="rightwhite">133-134</span></li>
+        <li><span>第九章 全文回顾与研究展望</span><span id="rightwhite">134-138</span></li>
+        <li><span> 9.1 全文回顾</span><span id="rightwhite">134-136</span></li>
+        <li><span> 9.2 研究展望</span><span id="rightwhite">136-138</span></li>
+        <li><span>参考文献</span><span id="rightwhite">138-146</span></li>
+        <li><span>致谢</span><span id="rightwhite">146-147</span></li>
+        <li><span>在读期间发表和完成的主要论文及参加科研情况</span><span id="rightwhite">147-149</span></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div style="float:left;"> 
+     <div class="down" id="down_3" style="margin-left:165px;margin-top:20px;margin-bottom:5px;+margin-left:130px;"> 
+      <div id="down_tit">
+       <a class="downon">下载全文</a>
+       <a href="
+                        http://epub.cnki.net/kns/default.aspx?code=cdmd&amp;f=%E5%85%A8%E6%96%87&amp;kw=%E5%8F%8C%E8%BE%B9%E5%B8%82%E5%9C%BA B2B%E5%B9%B3%E5%8F%B0 " target="_blank" class="more"> 更多同类文献 </a>
+      </div> 
+      <div class="cl"></div> 
+      <div class="down_button" id="ty_caj">
+       <a href="http://epub.cnki.net/grid2008/docdown/docdownload.aspx?filename=2010113677.nh&amp;dbcode=CDFD&amp;year=2010&amp;dflag=cajdown
+                  " target="_blank"> CAJ全文下载 </a>
+      </div> 
+      <div class="cl"></div> 
+      <p class="sp_1"> (<a href="../hqqw.html" target="_blank">如何获取全文?</a><span style="color:red;"></span> 欢迎:<a href="http://vipcard.cnki.net/ec/sksm/CNKIApplyForm.aspx" target="_blank">购买知网充值卡</a>、<a href="http://my.cnki.net/CNKIRecharging/czzx.html" target="_blank">在线充值</a>、<a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" id="online" target="_blank">在线咨询</a>) </p> 
+      <p class="sp_2"><a href="http://www.cnki.net/software/xzydq.htm" target="_blank">CAJViewer阅读器</a>支持CAJ、PDF文件格式 </p> 
+     </div> 
+    </div>
+    <br />
+    <div id="adtest" style="float:left;"> 
+     <div class="adList" style="width:740px;">
+      <a href="http://zhiku.cnki.net/Home/Corpus/118.html" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/ad/zk_wyj.jpg" border="0" width="730" height="90" alt="微营销" /></a>
+     </div> 
+    </div> 
+    <div style="text-align:left;float:left;"> 
+     <div id="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【引证文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前3条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">张花妮;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CHSJ201123056.htm" target="_blank">第三方支付平台双边市场特征的刻画</a>[J];中国城市经济;2011年23期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">崔萌;胡泓;陈继祥;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GLXX201401011.htm" target="_blank">转换成本新视角下电商平台用户忠诚度研究</a>[J];管理现代化;2014年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">陈洋;薛君;王允楠;崔兴朋;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XAYD201304021.htm" target="_blank">基于双边市场的B2C团购平台竞争策略分析</a>[J];西安邮电大学学报;2013年04期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前3条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">王维国;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1013326183.htm" target="_blank">基于双边市场的移动互联网平台所有权的比较研究</a>[D];北京邮电大学;2013年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">张耀文;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1013326176.htm" target="_blank">基于双边市场理论的移动应用商店盈利模式研究</a>[D];北京邮电大学;2013年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">郭锦川;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10487-1013272434.htm" target="_blank">基于最大化的平台功能研究</a>[D];华中科技大学;2013年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前5条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">孙晓坤;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10559-1011127531.htm" target="_blank">搜索引擎双边市场的运营策略研究</a>[D];暨南大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">宫志龙;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10173-1012307203.htm" target="_blank">基于双边市场理论的即时通讯产业反垄断研究</a>[D];东北财经大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">彭立亮;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-1012472418.htm" target="_blank">基于网络外部性的电子商务平台服务策略分析及仿真研究</a>[D];电子科技大学;2012年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">浮红芬;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10141-1013200128.htm" target="_blank">基于双边市场理论的B2C零售商经营模式研究</a>[D];大连理工大学;2013年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">闫修建;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10070-1014179309.htm" target="_blank">基于双边市场理论的智能移动操作系统定价机制研究</a>[D];天津财经大学;2013年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【参考文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">龚亮;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GFJM200808026.htm" target="_blank">第三方B2B电子商务平台定价研究——基于双边市场理论</a>[J];北方经贸;2008年08期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">刘庆林;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY200404011.htm" target="_blank">基于网络外部性的产品扩散模型分析</a>[J];中国工业经济;2004年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">胥莉;陈宏民;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY200606002.htm" target="_blank">银行卡定价理论的新发展——兼论对我国银行卡POS交易价格形成机制的启示</a>[J];中国工业经济;2006年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">胥莉;陈宏民;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GLGU200703009.htm" target="_blank">基于不同市场结构的银行卡组织绩效研究</a>[J];管理工程学报;2007年03期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">孙武军;陈宏民;陈梅;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JCJJ200601009.htm" target="_blank">基于网络外部性的市场结构动态演化分析</a>[J];管理科学;2006年01期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">胥莉;陈宏民;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JCYJ200606002.htm" target="_blank">具有网络外部性特征的企业定价策略研究</a>[J];管理科学学报;2006年06期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">程贵孙;陈宏民;孙武军;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JJLL200609008.htm" target="_blank">双边市场视角下的平台企业行为研究</a>[J];经济理论与经济管理;2006年09期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">胥莉;陈宏民;潘小军;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SJJJ200612005.htm" target="_blank">消费者多方持有行为与厂商的兼容性选择:基于双边市场理论的探讨</a>[J];世界经济;2006年12期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">程贵孙;李银秀;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SXCJ200904001.htm" target="_blank">具有负网络外部性的媒体平台双边定价策略</a>[J];山西财经大学学报;2009年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">李琦,刘骊;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-TJFZ200106015.htm" target="_blank">B2B电子商务平台理论研究</a>[J];天津工业大学学报;2001年06期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【共引文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">张廷海;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ADZS200904028.htm" target="_blank">基于双边市场的平台产业定价策略</a>[J];安徽大学学报(哲学社会科学版);2009年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">陈玲;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI201004004.htm" target="_blank">双边市场理论视角下的市场平台研究</a>[J];商业研究;2010年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">邱甲贤;童牧;林漳希;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CCYD201105017.htm" target="_blank">第三方电子交易市场定价策略探析</a>[J];吉林大学学报(信息科学版);2011年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">曹俊浩;陈宏民;孙武军;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CJYJ201009010.htm" target="_blank">多平台接入对B2B平台竞争策略的影响——基于双边市场视角</a>[J];财经研究;2010年09期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">巩永华;李帮义;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CMJJ200904024.htm" target="_blank">移动通信业务组合定价理论与方法研究</a>[J];财贸经济;2009年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">何伟;冉翠玲;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CYYK201012022.htm" target="_blank">实体商店与虚拟商店的联合定价订货策略研究</a>[J];科技和产业;2010年12期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">王广玲;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DAJJ201020077.htm" target="_blank">网络外部性系数不同时双寡头厂商的定价选址模型研究</a>[J];当代经济;2010年20期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">刘大为;李凯;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DBDX201201036.htm" target="_blank">用户多归属与双边平台竞争的均衡分析</a>[J];东北大学学报(自然科学版);2012年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">程贵孙;李银秀;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DDCJ200907013.htm" target="_blank">平台型产业反垄断规制的几个关键问题研究</a>[J];当代财经;2009年07期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">赵宏霞;杨皎平;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-DKDX2009S1018.htm" target="_blank">B2C电子商务中介的道德风险与声誉模型</a>[J];电子科技大学学报;2009年S1期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前4条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">张瑞金;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-GDYX200907001033.htm" target="_blank">具有重叠业务的双边平台企业竞争分析</a>[A];中国高等院校市场学研究会2009年年会论文集[C];2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">种晓丽;张金隆;聂磊;满青珊;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-HZGL201107001040.htm" target="_blank">基于移动服务消费者效用的定价策略研究</a>[A];信息化、工业化融合与服务创新——第十三届计算机模拟与信息技术学术会议论文集[C];2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">黄小原;晏妮娜;王静;李一波;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-KZJC200506002133.htm" target="_blank">B2B在线市场运作模型与优化问题研究进展</a>[A];2005中国控制与决策学术年会论文集(下)[C];2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">张传根;邬丹燕;吴义爽;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-QHJS201404001005.htm" target="_blank">产业平台研究的文献综述</a>[A];第十一届中国技术管理(2014`MOT)年会论文集[C];2014年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">赵宏霞;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10147-1011024922.htm" target="_blank">B2C环境下消费者信任的影响因素及作用机理研究</a>[D];辽宁工程技术大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">房林;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10055-1011045123.htm" target="_blank">网络产业互联互通的接入定价研究</a>[D];南开大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">罗东;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-1011054972.htm" target="_blank">基于供应链管理的电子采购系统若干问题研究</a>[D];电子科技大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">周正;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10173-1011065451.htm" target="_blank">基于双边市场理论的电子商务平台竞争规制研究</a>[D];东北财经大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">颜海兴;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10255-1011072730.htm" target="_blank">基于创新扩散模型的市场营销组合策略研究</a>[D];东华大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">丁一;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10269-1011129942.htm" target="_blank">中国信用卡市场定价理论与实证研究</a>[D];华东师范大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">沈明伟;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10422-1011170418.htm" target="_blank">基于虚拟世界经济的服务贸易研究</a>[D];山东大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">傅联英;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-1011184038.htm" target="_blank">中国银行卡市场的弱双边市场特征及其价格结构策略研究</a>[D];复旦大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">李豪;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10611-1011265523.htm" target="_blank">竞争环境下考虑顾客行为的易逝品动态定价策略研究</a>[D];重庆大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">王怀祖;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10611-1011265544.htm" target="_blank">网络外部性下的技术许可策略研究</a>[D];重庆大学;2010年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">李昕;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10423-1011027077.htm" target="_blank">基于SCP范式的我国银行卡市场效率研究</a>[D];中国海洋大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">林婷;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10327-1011035902.htm" target="_blank">基于直接网络外部性的在位厂商竞争策略研究</a>[D];南京财经大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">刘盼;<a href="http://cdmd.cnki.com.cn/Article/CDMD-11915-1011052873.htm" target="_blank">制造商与零售商关系质量对新产品扩散绩效的影响研究</a>[D];武汉科技大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">许敏;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10497-1011058489.htm" target="_blank">一个拓展的Hotelling对策选址模型</a>[D];武汉理工大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">苏国斌;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10394-1011062454.htm" target="_blank">基于双寡头模型的平台企业竞争行为研究</a>[D];福建师范大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">耿淼;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10173-1011065589.htm" target="_blank">网络信息产品定价策略研究</a>[D];东北财经大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">甘云凤;<a href="http://cdmd.cnki.com.cn/Article/CDMD-11415-1011078535.htm" target="_blank">第三方B2B电子商务平台综合竞争力评价研究</a>[D];中国地质大学(北京);2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">李凡;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10702-1011078929.htm" target="_blank">基于免费商品赠送的网络效应产品扩散研究</a>[D];西安工业大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">张国利;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10456-1011080462.htm" target="_blank">我国国际铁矿石定价权缺失的经济学分析</a>[D];山东经济学院;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">许佳;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10335-1011080870.htm" target="_blank">基于阿里巴巴平台数据的信用评价模型研究</a>[D];浙江大学;2011年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【同被引文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">陈立平;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJSB201105004.htm" target="_blank">中国百货店的联营制研究</a>[J];北京工商大学学报(社会科学版);2011年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">李高广;吕廷杰;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BJYS200803008.htm" target="_blank">电信运营商移动互联网运营模式研究</a>[J];北京邮电大学学报(社会科学版);2008年03期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">王昭慧;忻展红;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BLDS200803014.htm" target="_blank">平台匹配技术对双边市场定价的影响</a>[J];北京理工大学学报(社会科学版);2008年03期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">陈玲;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-BUSI201004004.htm" target="_blank">双边市场理论视角下的市场平台研究</a>[J];商业研究;2010年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">邱甲贤;童牧;林漳希;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CCYD201105017.htm" target="_blank">第三方电子交易市场定价策略探析</a>[J];吉林大学学报(信息科学版);2011年05期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">岳中刚;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CJWT200608003.htm" target="_blank">双边市场的定价策略及反垄断问题研究</a>[J];财经问题研究;2006年08期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">曹俊浩;陈宏民;孙武军;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CJYJ201009010.htm" target="_blank">多平台接入对B2B平台竞争策略的影响——基于双边市场视角</a>[J];财经研究;2010年09期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">李飞;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CLSY201001004.htm" target="_blank">中国百货店:联营,还是自营</a>[J];中国零售研究;2010年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">史世鹏;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CMJJ200212010.htm" target="_blank">论市场经济中的市场结构</a>[J];财贸经济;2002年12期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">纪汉霖;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CYJJ200604001.htm" target="_blank">双边市场定价方式的模型研究</a>[J];产业经济研究;2006年04期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">陈致豫;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10487-1011110555.htm" target="_blank">移动商务价值链成员关系研究</a>[D];华中科技大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">傅联英;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-1011184038.htm" target="_blank">中国银行卡市场的弱双边市场特征及其价格结构策略研究</a>[D];复旦大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">崔春莹;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10487-1012361181.htm" target="_blank">市场网络结构研究</a>[D];华中科技大学;2012年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">满青珊;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10487-1012361399.htm" target="_blank">移动商务合作伙伴关系模型及其协调机制研究</a>[D];华中科技大学;2012年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">赵晓庆;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10335-2002000925.htm" target="_blank">企业技术学习的模式与技术能力积累途径的螺旋运动过程</a>[D];浙江大学;2002年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">卓武扬;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10610-2005031992.htm" target="_blank">IT产品价格论</a>[D];四川大学;2004年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">朱振中;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2006135578.htm" target="_blank">基于双边市场理论的产业竞争与公共政策研究</a>[D];北京邮电大学;2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">周文志;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-2007019583.htm" target="_blank">中国电信业竞争模式创新研究</a>[D];吉林大学;2006年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">罗亮;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10286-2007064284.htm" target="_blank">“网络融合”趋势下电信业市场结构、商业模式与公共政策的经济分析</a>[D];东南大学;2005年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">纪汉霖;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-2007069074.htm" target="_blank">双边市场定价策略研究</a>[D];复旦大学;2006年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">孙怡;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011120099.htm" target="_blank">基于双边市场理论的移动互联网应用平台研究</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">宁雪兰;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1011120100.htm" target="_blank">手机应用商店开发者激励研究</a>[D];北京邮电大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">李琛;<a href="http://cdmd.cnki.com.cn/Article/CDMD-80201-1011283116.htm" target="_blank">基于双边市场理论的互联网企业基础平台加增值服务商业模式研究</a>[D];中国社会科学院研究生院;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">许玉海;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10141-1012275703.htm" target="_blank">产业间平台合作的经济效应及其规制研究</a>[D];大连理工大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">陈旭;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10359-2004084447.htm" target="_blank">电子商务交易中基于Agent的协商机制及策略研究</a>[D];合肥工业大学;2004年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">张婷;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2007164261.htm" target="_blank">基于双边市场的移动信息服务的博弈研究</a>[D];北京邮电大学;2007年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">郭丽丹;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10173-2008038134.htm" target="_blank">双边市场平台企业的策略及相关反垄断问题研究</a>[D];东北财经大学;2007年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">徐鸣;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-2009020242.htm" target="_blank">互联网的经济学解释:一个双边市场的视角</a>[D];复旦大学;2008年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">谢文容;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10248-2009140253.htm" target="_blank">引入转换成本的平台竞争问题研究</a>[D];上海交通大学;2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">于超;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10614-2009166226.htm" target="_blank">具有网络外部性特征的企业多产品定价策略分析</a>[D];电子科技大学;2009年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【二级引证文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前1条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">欧晓华;张鸿;陈志强;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XAYD201306024.htm" target="_blank">基于价值网的IT企业商业模式创新路径研究</a>[J];西安邮电大学学报;2013年06期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前1条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">顾蓉蓉;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10246-1013102223.htm" target="_blank">基于双边市场理论的网络视频行业的经济学分析</a>[D];复旦大学;2012年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【二级参考文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">翁轶丛,陈宏民,倪苏云;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GCXT200201011.htm" target="_blank">基于网络外部性的企业R&amp;D行为与兼并研究</a>[J];系统工程;2002年01期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">刘庆林;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY200404011.htm" target="_blank">基于网络外部性的产品扩散模型分析</a>[J];中国工业经济;2004年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">程贵孙;孙武军;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GJJR200601007.htm" target="_blank">银行卡产业运作机制及其产业规制问题研究——基于双边市场理论视角</a>[J];国际金融研究;2006年01期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">帅旭,陈宏民;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GLGU200401009.htm" target="_blank">具有网络外部性的产品兼容性决策分析</a>[J];管理工程学报;2004年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">赵道致;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JCYJ199904005.htm" target="_blank">垄断竞争市场定价策略的微分对策模型研究</a>[J];管理科学学报;1999年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">曹韫建,顾新一;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JCYJ200201008.htm" target="_blank">一类存在网络外部性的水平差异模型</a>[J];管理科学学报;2002年01期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">程贵孙;陈宏民;孙武军;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-JJLL200609008.htm" target="_blank">双边市场视角下的平台企业行为研究</a>[J];经济理论与经济管理;2006年09期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">张地生,陈宏民;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-YUCE200004012.htm" target="_blank">网络效应与产品差异化</a>[J];预测;2000年04期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">王国才,朱道立;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZGGK200406017.htm" target="_blank">网络经济下企业兼容性选择与用户锁定策略研究</a>[J];中国管理科学;2004年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">汪应洛,王刊良,冯耕中;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZGRK200003005.htm" target="_blank">我国电子商务对管理影响研究的现状与不足</a>[J];中国软科学;2000年03期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div id="div_Ref"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="2%" valign="bottom"></td> 
+         <td rowspan="2" align="left" valign="bottom" class="b14" nowrap="">【相似文献】</td> 
+         <td width="85%" height="38" align="right" valign="bottom" class="b21"></td> 
+        </tr> 
+        <tr> 
+         <td width="2%" height="12" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif"></td> 
+         <td height="12" align="center" valign="middle" background="http://qiangguo.cnki.net/cnki/images/zwj-xxxxx.gif" class="b14"></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国期刊全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条 </span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">曹俊浩;陈宏民;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XDGL201006022.htm" target="_blank">基于双边市场的B2B垄断平台自网络效应强度研究</a>[J];现代管理科学;2010年06期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">刘磊;杨兴丽;吕廷杰;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XADZ200805009.htm" target="_blank">浅析移动支付产业双边市场特性</a>[J];西安电子科技大学学报(社会科学版);2008年05期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">李建平;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XDDX200707014.htm" target="_blank">无线数据增值业务平台垄断与竞争商务模式</a>[J];现代电信科技;2007年07期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">邓向阳;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-LSGL201010006.htm" target="_blank">基于双边市场的数字图书馆数据库平台建设</a>[J];图书馆理论与实践;2010年10期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">赵健;任剑新;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-ZLCJ201102013.htm" target="_blank">学术杂志定价、质量与学术评价机制——从双边平台视角的研究</a>[J];中南财经政法大学学报;2011年02期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">黄攀;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-SCXH200820093.htm" target="_blank">基于双边市场视角的电子商务平台建设研究</a>[J];商场现代化;2008年20期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">曲振涛;周正;周方召;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-GGYY201004013.htm" target="_blank">网络外部性下的电子商务平台竞争与规制——基于双边市场理论的研究</a>[J];中国工业经济;2010年04期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">汪国利;唐守廉;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-YDTX2009Z1025.htm" target="_blank">移动增值业务创新问题的分析</a>[J];移动通信;2009年Z1期</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">金雪涛;虞海侠;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-CQSK201110012.htm" target="_blank">美国数字报业商业模式及其启示</a>[J];重庆社会科学;2011年10期</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">宋佳佳;武邦涛;;<a href="http://www.cnki.com.cn/Article/CJFDTOTAL-KJGL201002039.htm" target="_blank">平台竞争环境下软件产业的纵向一体化选择</a>[J];科技管理研究;2010年02期</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要会议论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">刘跃;惠美宁;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-TXGL201111001016.htm" target="_blank">双边市场理论下IPTV平台的发展策略</a>[A];融合与创新——中国通信学会通信管理委员会第29次学术研讨会论文集[C];2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">卞艺杰;曹辉;陶飞飞;唐明伟;晏自翔;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-SDJS201108001036.htm" target="_blank">双边市场视角下服务计算驿站的运行机制研究</a>[A];CCF NCSC 2011——第二届中国计算机学会服务计算学术会议论文集[C];2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">朱维维;田海山;王维;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-PDID200807001040.htm" target="_blank">基于双边市场的电子货币交易定价机制分析</a>[A];信息经济学与电子商务:第十三届中国信息经济学会学术年会论文集[C];2008年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">张瑞金;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-GDYX200907001033.htm" target="_blank">具有重叠业务的双边平台企业竞争分析</a>[A];中国高等院校市场学研究会2009年年会论文集[C];2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">胥莉;陈宏民;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGXC200610001048.htm" target="_blank">基于双边市场理论的开放型银行卡组织定价策略研究</a>[A];科学发展观与系统工程——中国系统工程学会第十四届学术年会论文集[C];2006年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">纪汉霖;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZGXC200910001043.htm" target="_blank">用户部分多归属条件下的双边市场定价策略</a>[A];决策科学与评价——中国系统工程学会决策科学专业委员会第八届学术年会论文集[C];2009年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">王文祥;史忠良;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-CYQY201007001012.htm" target="_blank">支付卡网络定价研究的进展述评</a>[A];2010年中国产业组织前沿论坛会议文集[C];2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">程贵孙;孙武军;陈宏民;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-CYQY200510001005.htm" target="_blank">具有“双边市场”特征的银行卡产业规制问题研究</a>[A];中国工业经济研究与开发促进会2005年会暨“产业组织与政府规制”研讨会论文集[C];2005年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">钟林;唐小我;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-ZHYJ200910001010.htm" target="_blank">基于双边市场的中国农地流转交易系统平台定价研究</a>[A];第十一届中国管理科学学术年会论文集[C];2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">傅联英;骆品亮;陈波;;<a href="http://cpfd.cnki.com.cn/Article/CPFDTOTAL-CYQY201007001027.htm" target="_blank">平台共存与中国银行卡组织市场绩效的经验研究</a>[A];2010年中国产业组织前沿论坛会议文集[C];2010年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国重要报纸全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">复旦大学管理学院 王云龙;<a href="
+                            http://xuewen.cnki.net/CCND-CLYB201008110110.html
+                            " target="_blank">基于“双边市场”理论的世博会与博物馆经营业态之分</a>[N];中国旅游报;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">工业和信息化部电信研究院泰尔管理研究所 石立峰;<a href="
+                            http://xuewen.cnki.net/CCND-RMYD201103110061.html
+														" target="_blank">巨头合作背后的“暗战”</a>[N];人民邮电;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">方怀银;<a href="
+                            http://xuewen.cnki.net/CCND-CYZB201010190071.html
+                            " target="_blank">图书“限折令”与邮乐中国</a>[N];中国邮政报;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">工业和信息化部电信研究院泰尔管理研究所 贾敬宇;<a href="
+                            http://xuewen.cnki.net/CCND-RMYD201105270061.html
+														" target="_blank">应用程序商店平台化</a>[N];人民邮电;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">本报记者 郭艺珺;<a href="
+                            http://xuewen.cnki.net/CCND-JFRB201008280150.html
+                            " target="_blank">网络订餐的多元化盈利试验</a>[N];解放日报;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">见习记者 何悦;<a href="
+                            http://xuewen.cnki.net/CCND-ZHGS20110107F240.html
+														" target="_blank">狂啃“苹果”的背后</a>[N];中华工商时报;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">三星研究院;<a href="
+                            http://xuewen.cnki.net/CCND-ZGJY20110711C062.html
+                            " target="_blank">团购市场趋势</a>[N];中国经营报;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">本报实习记者 俞泽;<a href="
+                            http://xuewen.cnki.net/CCND-GJSB20101126B010.html
+														" target="_blank">优惠券:精准营销的第一步</a>[N];国际商报;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">本报记者 许晓泓;<a href="
+                            http://xuewen.cnki.net/CCND-CMHB201105170030.html
+                            " target="_blank">中国国际航空货运增长几多难</a>[N];中国民航报;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">工业和信息化部电子贸促会国际经贸研究中心 徐杰;<a href="
+                            http://xuewen.cnki.net/CCND-JJSB201104210110.html
+														" target="_blank">欧洲国家金融危机后科技、产业振兴计划对我国的启示</a>[N];中国经济时报;2011年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国博士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">王昭慧;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-2010223563.htm" target="_blank">基于双边市场理论的电信双边市场应用及规制研究</a>[D];北京邮电大学;2009年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">张耀文;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1013326176.htm" target="_blank">基于双边市场理论的移动应用商店盈利模式研究</a>[D];北京邮电大学;2013年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">王旭海;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10673-1014152698.htm" target="_blank">不同业务的双边市场平台博弈研究</a>[D];云南大学;2013年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">周正;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10173-1011065451.htm" target="_blank">基于双边市场理论的电子商务平台竞争规制研究</a>[D];东北财经大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">李煜;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1013326155.htm" target="_blank">基于双边市场理论的软件平台运营机制研究</a>[D];北京邮电大学;2013年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">张凯;<a href="http://cdmd.cnki.com.cn/Article/CDMD--1011259507.htm" target="_blank">双边市场中平台企业的非价格竞争策略研究</a>[D];哈尔滨工业大学;2010年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">张凯;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10213-2011012990.htm" target="_blank">双边市场中平台企业的非价格竞争策略研究</a>[D];哈尔滨工业大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">王维国;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10013-1013326183.htm" target="_blank">基于双边市场的移动互联网平台所有权的比较研究</a>[D];北京邮电大学;2013年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">王娜;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10486-1011404070.htm" target="_blank">双边平台企业价格策略研究</a>[D];武汉大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">曹俊浩;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10248-2010113677.htm" target="_blank">基于双边市场理论的B2B平台运行策略及其演化研究</a>[D];上海交通大学;2010年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <table cellspacing="0" cellpadding="0" width="740" border="0"> 
+       <tbody> 
+        <tr> 
+         <td colspan="2" height="10"></td> 
+        </tr> 
+        <tr> 
+         <td height="5"></td> 
+         <td height="5"> 
+          <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#427fc0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td width="73%" class="ban_list_l"><span class="b15"></span><span class="b16">中国硕士学位论文全文数据库</span></td> 
+             <td class="b17" align="right" width="27%"><span class="ban_list_l02">前10条</span></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td width="16" rowspan="2"></td> 
+         <td width="720"> 
+          <table cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff" border="0"> 
+           <tbody> 
+            <tr> 
+             <td align="center" width="30">1</td> 
+             <td width="676">龙丽丽;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10004-1011096129.htm" target="_blank">双边市场的网络构建、盈利模式及竞争优势研究</a>[D];北京交通大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">2</td> 
+             <td width="676">宫志龙;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10173-1012307203.htm" target="_blank">基于双边市场理论的即时通讯产业反垄断研究</a>[D];东北财经大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">3</td> 
+             <td width="676">徐立;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10651-1014128612.htm" target="_blank">网络双边市场搭售行为的法律规制问题研究</a>[D];西南财经大学;2013年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">4</td> 
+             <td width="676">陈剑越;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10288-1014176694.htm" target="_blank">双边市场平台定价机制研究</a>[D];南京理工大学;2014年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">5</td> 
+             <td width="676">尹龙;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10240-1012251965.htm" target="_blank">基于双边市场理论的平台厂商定价与竞争策略研究</a>[D];哈尔滨商业大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">6</td> 
+             <td width="676">王冠桥;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10248-1012019226.htm" target="_blank">基于双边市场的视频游戏平台市场结构选择研究</a>[D];上海交通大学;2011年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">7</td> 
+             <td width="676">邓丽静;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10532-1012328613.htm" target="_blank">基于双边市场理论的数字电视网络定价研究</a>[D];湖南大学;2010年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">8</td> 
+             <td width="676">刘西茜;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10421-1013285561.htm" target="_blank">双边市场理论视角下微博的商业化模式研究</a>[D];江西财经大学;2013年</td> 
+            </tr> 
+            <tr> 
+             <td align="center" width="30">9</td> 
+             <td width="676">陈义国;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10559-1011128152.htm" target="_blank">基于双边市场理论的电视媒体价格策略研究</a>[D];暨南大学;2011年</td> 
+            </tr> 
+            <tr bgcolor="#eaf4ff"> 
+             <td align="center" width="30">10</td> 
+             <td width="676">谢骞;<a href="http://cdmd.cnki.com.cn/Article/CDMD-10053-1012413912.htm" target="_blank">双边市场下的反垄断法相关市场界定研究</a>[D];中国政法大学;2012年</td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <div style="width:190px; float:right;margin-left:5px;"> 
+    <div id="div_similar"> 
+     <div class="adListRight" style="line-height:150%;text-align:left;">
+      <a href="http://ad.cnki.net/index.aspx" target="_blank"><img src="http://qiangguo.cnki.net/cnki/images/ad/zhiwangguanggao.jpg" border="0" width="190" height="78" alt="中国知网广告投放" /></a>
+     </div> 
+     <div style="line-height:180%;"> 
+      <table height="100%" cellspacing="0" cellpadding="0" width="100%" bgcolor="#055CCE" border="0"> 
+       <tbody> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关机构</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6" target="_blank">武汉大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" target="_blank">大连理工大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6" target="_blank">复旦大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" target="_blank">电子科技大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" target="_blank">华中科技大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6" target="_blank">北京邮电大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6" target="_blank">上海交通大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6" target="_blank">东南大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" target="_blank">哈尔滨工业大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td valign="top" align="left" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=%E6%B1%9F%E8%8B%8F%E5%A4%A7%E5%AD%A6" target="_blank">江苏大学</a><br /></td> 
+            </tr> 
+            <tr> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" height="26" class="ban_list_r"><span class="b15">相关作者</span></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="#F4F8FE"> 
+          <table cellspacing="0" cellpadding="0" width="100%" style="border:1px solid #7498d6;"> 
+           <tbody> 
+            <tr> 
+             <td height="6"></td> 
+             <td height="6"></td> 
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E9%92%9F%E6%9E%97" target="_blank">钟林</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E7%8E%8B%E6%98%AD%E6%85%A7" target="_blank">王昭慧</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E5%82%85%E8%81%94%E8%8B%B1" target="_blank">傅联英</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E5%AD%99%E6%AF%85%E5%9D%A4" target="_blank">孙毅坤</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E6%9B%B9%E4%BF%8A%E6%B5%A9" target="_blank">曹俊浩</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E7%BD%97%E4%BA%AE" target="_blank">罗亮</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E7%BA%AA%E6%B1%89%E9%9C%96" target="_blank">纪汉霖</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E8%B4%B9%E6%99%BA" target="_blank">费智</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E7%8E%8B%E5%AD%A6%E6%96%8C" target="_blank">王学斌</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E6%9C%B1%E6%8C%AF%E4%B8%AD" target="_blank">朱振中</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E5%88%98%E7%A3%8A" target="_blank">刘磊</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E6%9D%8E%E6%B3%89" target="_blank">李泉</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E5%87%AF" target="_blank">张凯</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E7%A8%8B%E8%B4%B5%E5%AD%99" target="_blank">程贵孙</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E5%BB%96%E5%88%9A" target="_blank">廖刚</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E5%91%A8%E6%AD%A3" target="_blank">周正</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E6%9D%8E%E5%BB%BA%E5%B9%B3" target="_blank">李建平</a></td> 
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E7%8E%8B%E5%A8%9C" target="_blank">王娜</a></td>
+            </tr>
+            <tr>
+             <td valign="top" align="left" width="50%" class="ban_list_r02">&gt;<a href="http://search.cnki.com.cn/Search.aspx?q=author:%E5%BC%A0%E9%94%90" target="_blank">张锐</a></td> 
+            </tr>
+            <tr> 
+             <td height="6"></td> 
+             <td height="6"></td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td id="simblank" bgcolor="#fffcd3"></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="white"></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="white" height="85px"></td> 
+        </tr> 
+        <tr> 
+         <td bgcolor="white"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <div style="float:left"> 
+    <div class="body_div2"> 
+     <div class="zhinan"> 
+      <table width="928" border="0" cellspacing="0" cellpadding="0"> 
+       <tbody>
+        <tr> 
+         <td width="240" rowspan="2" align="center" valign="top"><img src="http://qiangguo.cnki.net/cnki/images/new/kefupic.gif" width="222" height="91" /></td> 
+         <td colspan="2" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon2.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>快捷付款方式</strong></span></td> 
+         <td width="160" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon4.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>订购知网充值卡</strong></span></td> 
+         <td valign="top" width="160"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon5.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>订购热线</strong></span></td> 
+         <td colspan="2" valign="top"><span><img src="http://qiangguo.cnki.net/cnki/images/new/indexkefuicon3.gif" width="19" height="19" align="absbottom" />&nbsp;<strong>帮助中心</strong></span></td> 
+        </tr> 
+        <tr> 
+         <td width="72" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_yhk.html" target="_blank" class="grey12">银行卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_zfb.html" target="_blank" class="grey12">支付宝</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_szxk.html" target="_blank" class="grey12">神州行</a></li> 
+          </ul> </td> 
+         <td width="108" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_zwk.html" target="_blank" class="grey12">知网卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_sjdx.html" target="_blank" class="grey12">手机短信</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czzx_more.html" target="_blank" class="grey12">更多&gt;&gt;</a></li> 
+          </ul> </td> 
+         <td valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/CNKIApplyForm.aspx" target="_blank" class="grey12">免费送卡上门</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/yhdh.html" target="_blank" class="grey12">银行汇款购卡</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/sksm/yjhk.html" target="_blank" class="grey12">邮局汇款购卡</a></li> 
+          </ul> </td> 
+         <td valign="top"> 
+          <ul> 
+           <li>400-819-9993</li> 
+           <li>010-62791813</li> 
+           <li>010-62985026</li> 
+          </ul> </td> 
+         <td width="96" valign="top"> 
+          <ul> 
+           <li><a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" target="_blank" class="grey12">常见问题</a></li> 
+           <li><a href="http://help.cnki.net" target="_blank" class="grey12">在线咨询</a></li> 
+           <li><a href="http://www.cnki.net/software/xzydq.htm" target="_blank" class="grey12">阅读器下载</a></li> 
+          </ul> </td> 
+         <td width="120" valign="top"> 
+          <ul> 
+           <li><a href="http://ad.cnki.net/Index.aspx" target="_blank" class="grey12">广告服务</a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/cardinfo.html" target="_blank" class="grey12">知网卡 </a></li> 
+           <li><a href="http://vipcard.cnki.net/ec/cp&amp;fw.html" target="_blank" class="grey12">关于知网</a></li> 
+          </ul> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="footer">
+      <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target="_blank">
+       <div class="beian"></div></a>
+      <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target="_blank">
+       <div class="beian2"></div></a>
+      <p> 《中国学术期刊(光盘版)》电子杂志社有限公司<br /> 同方知网数字出版技术股份有限公司<br /> 地址:北京清华大学 84-48信箱 知识超市公司<br /><a style="text-decoration:none;">京ICP证040441号</a><br /><a style="text-decoration:none;">互联网出版许可证 新出网证(京)字008号</a><br /> 出版物经营许可证 新出发京批字第直0595号<br /></p> 
+      <p> 订购热线:400-819-9993 010-62982499<br /> 服务热线:010-62985026 010-62791813<br /> 在线咨询:<a href="http://help.cnki.net" target="_blank">http://help.cnki.net</a><br /> 传真:010-62780361<br /> 京公网安备11010802014874号 </p> 
+     </div> 
+     <div class="clear"></div> 
+     <p><br /></p> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>
