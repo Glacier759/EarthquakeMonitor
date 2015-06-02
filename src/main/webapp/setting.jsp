@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="com.glacier.earthquake.monitor.server.pojo.Chart" %>
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -83,11 +84,11 @@
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">x</span>
                         </button>
-                        <h4>2015年05月25日 星期一 19:28:34</h4>
-                        <p>系统收录信息：111条</p>
-                        <p>灾情获取匹配：222条</p>
-                        <p>舆情监测匹配：333条</p>
-                        <p>今日获取数据：444条（灾情：555条 / 舆情：666条）</p>
+                        <h4><%=new Chart().today()%></h4>
+                        <p>系统收录信息：<%=Chart.infoCountAll%>条</p>
+                        <p>灾情获取匹配：<%=Chart.infoCountDis%>条</p>
+                        <p>舆情监测匹配：<%=Chart.infoCountPub%>条</p>
+                        <p>今日获取数据：<%=Chart.infoCountToday%>条（灾情：<%=Chart.infoCountTodayDis%>条 / 舆情：<%=Chart.infoCountTodayPub%>条）</p>
                     </div>
                 </div>
                 <div class="row">
@@ -95,8 +96,8 @@
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">x</span>
                         </button>
-                        <p>已通过审核信息：777条</p>
-                        <p>未通过审核信息：888条</p>
+                        <p>已通过审核信息：<%=Chart.infoCountPass%>条</p>
+                        <p>未通过审核信息：<%=Chart.infoCountNoPass%>条</p>
                     </div>
                 </div>
             </div>
@@ -145,7 +146,7 @@
                         plotShadow: false
                     },
                     title: {
-                        text: '信息源域名分布'
+                        text: '信息来源分布'
                     },
                     tooltip: {
                         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -164,19 +165,15 @@
                     },
                     series: [{
                         type: 'pie',
-                        name: 'Browser share',
+                        name: 'Search Origin',
                         data: [
-                            ['Firefox',   45.0],
-                            ['IE',       26.8],
-                            {
-                                name: 'Chrome',
-                                y: 12.8,
-                                sliced: true,
-                                selected: true
-                            },
-                            ['Safari',    8.5],
-                            ['Opera',     6.2],
-                            ['Others',   0.7]
+                                <%
+                                    for ( String key : Chart.originMap.keySet() ) {
+                                %>
+                                    ['<%=key%>', <%=Chart.originMap.get(key)%>],
+                                <%
+                                    }
+                                %>
                         ]
                     }]
                 });

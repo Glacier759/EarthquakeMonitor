@@ -43,8 +43,25 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Crawler crawler = new WeiboCrawler();
-        crawler.start();
+        System.out.println(Chart.infoCountAll);
+        System.out.println(Chart.infoCountDis);
+        System.out.println(Chart.infoCountPub);
+        System.out.println(Chart.infoCountToday);
+        System.out.println(Chart.infoCountPass);
+        System.out.println(Chart.infoCountNoPass);
+
+        System.out.println("Time Map");
+        for ( String key : Chart.timeMap.keySet() ) {
+            System.out.println(key + " - " + Chart.timeMap.get(key));
+        }
+        System.out.println("Origin Map");
+        for ( String key : Chart.originMap.keySet() ) {
+            System.out.println(key + " - " + Chart.originMap.get(key));
+        }
+        System.out.println("Rule Map");
+        for ( String key : Chart.ruleMap.keySet() ) {
+            System.out.println(key + " - " + Chart.ruleMap.get(key));
+        }
 
     }
 
