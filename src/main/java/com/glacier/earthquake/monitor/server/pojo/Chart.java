@@ -91,7 +91,7 @@ public class Chart {
     }
 
     public String today() {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy年MM月dd日 星期E HH:mm:ss");
+        SimpleDateFormat format = new SimpleDateFormat("yyyy年MM月dd日 E HH:mm:ss");
         return format.format(new Date());
     }
 

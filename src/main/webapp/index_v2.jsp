@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="modal fade" id="register-div" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <form id="form-register" method="post" class="form-submit">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -80,9 +80,29 @@
                                 <div class="col-md-2"></div>
                                 <div class="col-md-8">
                                     <div class="input-group">
-                                        <span class="input-group-addon">账户</span>
-                                        <input type="text" class="form-control" name="username" value="" placeholder="手机号/邮箱" />
+                                        <span class="input-group-addon">昵称</span>
+                                        <input type="text" class="form-control" name="nickname" value="" placeholder="昵称" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-5">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">邮箱</span>
+                                        <input type="text" class="form-control" name="email" value="" placeholder="邮箱" />
                                         <input type="hidden" name="choice" value="register" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-5">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">手机</span>
+                                        <input type="text" class="form-control" name="mobile" value="" placeholder="手机号" />
                                     </div>
                                 </div>
                             </div>
@@ -107,6 +127,40 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4"></div>
+                            </div>
+                            <br /><br />
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-3">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">姓名</span>
+                                        <input type="text" class="form-control" name="realname" value="" placeholder="真实姓名" />
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">QQ</span>
+                                        <input type="text" class="form-control" name="qqnumber" value="" placeholder="QQ号" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-5">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">工作单位</span>
+                                        <input type="text" class="form-control" placeholder="工作单位" name="workplace" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">职位</span>
+                                        <input type="text" class="form-control" placeholder="职位" name="position" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-4"></div>
                             </div>
                             <br /><br />
                         </div>
@@ -176,10 +230,16 @@
                             alert("登录失败");
                         } else if (msg == "password not equal") {
                             alert("两次密码不一致");
-                        } else if (msg == "user is existed") {
-                            alert("该用户已被注册");
-                        } else if (msg == "input error") {
-                            alert("请输入【邮箱】或【手机号】");
+                        } else if (msg == "mail is existed") {
+                            alert("该邮箱已被注册");
+                        } else if (msg == "mobile is existed") {
+                            alert("该手机已被注册");
+                        } else if (msg == "has null") {
+                            alert("不能有空字段")
+                        } else if (msg == "input mail error") {
+                            alert("邮箱格式错误");
+                        } else if (msg == "input mobile error") {
+                            alert("手机格式错误");
                         } else if (msg == "register success") {
                             alert("注册成功");
                             register();

@@ -27,10 +27,10 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=utf-8");
         String choice = request.getParameter("choice");     //判断是登陆还是注册
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
 
         if ( choice.equals("login") ) {
+            String username = request.getParameter("username");
+            String password = request.getParameter("password");
             User user = null;
             if ( UserUtils.isEmail(username) ) {
                 user = UserMonitor.getUserInfoByEmail(username);
@@ -70,39 +70,73 @@ public class LoginServlet extends HttpServlet {
             }
         }
         else if ( choice.equals("register") ) {
+            String nickname = request.getParameter("nickname");
+            String email = request.getParameter("email");
+            String mobile = request.getParameter("mobile");
+            String password = request.getParameter("password");
             String repassword = request.getParameter("repassword");
+            String realname = request.getParameter("realname");
+            String qqnumber = request.getParameter("qqnumber");
+            String workplace = request.getParameter("workplace");
+            String position = request.getParameter("position");
+
+            if ( nickname == null || email == null || mobile == null || password == null || repassword == null
+                    || realname == null || qqnumber == null || workplace == null || position == null ) {
+                response.getWriter().print("has null");
+                return;
+            }
+            if ( nickname.length() == 0 || email.length() == 0 || mobile.length() == 0 || password.length() == 0
+                    || repassword.length() == 0 || realname.length() == 0 || qqnumber.length() == 0
+                    || workplace.length() == 0 || position.length() == 0 ) {
+                response.getWriter().print("has null");
+                return;
+            }
+
             if ( !password.equals(repassword) ) {
                 response.getWriter().print("password not equal");
-                logger.info("[注册] - " + username + " 两次密码不一致");
+                logger.info("[注册] - " + nickname + " 两次密码不一致");
                 return;
             }
             User user = null;
-            User user_mail = UserMonitor.getUserInfoByEmail(username);
-            User user_mobile = UserMonitor.getUserInfoByMobile(username);
-            if ( user_mail != null ) {  user = user_mail; }
-            else if ( user_mobile != null ) {   user = user_mobile; }
-            if ( user != null ) {
-                response.getWriter().print("user is existed");
-                logger.info("[注册] - " + username + " 已存在该用户");
+            User user_mail = UserMonitor.getUserInfoByEmail(email);
+            User user_mobile = UserMonitor.getUserInfoByMobile(mobile);
+            if ( user_mail != null ) {
+                response.getWriter().print("mail is existed");
+                logger.info("[注册] - " + email + " 已存在该用户");
+                return;
+            }
+            if ( user_mobile != null ) {
+                response.getWriter().print("mobile is existed");
+                logger.info("[注册] - " + mobile + " 已存在该用户");
+                return;
+            }
+            user = new User();
+            if (UserUtils.isEmail(email)) {
+                user.setEmail(email);
             }
             else {
-                user = new User();
-                if (UserUtils.isEmail(username)) {
-                    user.setEmail(username);
-                }
-                else if ( UserUtils.isMobile(username) ) {
-                    user.setMobile(username);
-                }
-                else {
-                    response.getWriter().print("input error");
-                    logger.info("[注册] - " + username + " 输入的信息既不是邮箱也不是手机号");
-                    return;
-                }
-                user.setPassword(password);
-                UserMonitor.registUser(user);
-                response.getWriter().print("register success");
-                logger.info("[注册] - " + username + " 注册成功");
+                response.getWriter().print("input mail error");
+                logger.info("[注册] - " + nickname + " 输入的邮箱格式有误");
+                return;
             }
+            if ( UserUtils.isMobile(mobile) ) {
+                user.setMobile(mobile);
+            }
+            else {
+                response.getWriter().print("input mobile error");
+                logger.info("[注册] - " + nickname + " 输入的手机格式有误");
+                return;
+            }
+            user.setPassword(password);
+            user.setNickname(nickname);
+            user.setPosition(position);
+            user.setQqnumber(qqnumber);
+            user.setRealname(realname);
+            user.setWorkplace(workplace);
+
+            UserMonitor.registUser(user);
+            response.getWriter().print("register success");
+            logger.info("[注册] - " + nickname + " 注册成功");
         }
     }
 

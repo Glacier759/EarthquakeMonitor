@@ -146,7 +146,7 @@
                         plotShadow: false
                     },
                     title: {
-                        text: '信息源域名分布'
+                        text: '信息来源分布'
                     },
                     tooltip: {
                         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
