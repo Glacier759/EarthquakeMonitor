@@ -101,10 +101,10 @@
                         <table class="table table-striped table-bordered table-hover" id="filters-table" style="table-layout: fixed;">
                             <thead>
                             <tr>
-                                <th class="text-center" width="300px">Title</th>
-                                <th class="text-center">URL</th>
-                                <th class="text-center" width="200px">Crawl Date</th>
-                                <th class="text-center" width="80px">Setting</th>
+                                <th class="text-center" width="300px">标题</th>
+                                <th class="text-center">来源地址</th>
+                                <th class="text-center" width="200px">获取时间</th>
+                                <th class="text-center" width="80px">设置</th>
                             </tr>
                             </thead>
                             <tbody id="filters-tbody"></tbody>

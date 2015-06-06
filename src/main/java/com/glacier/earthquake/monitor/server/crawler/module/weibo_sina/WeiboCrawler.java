@@ -122,12 +122,12 @@ public class WeiboCrawler extends Crawler {
                         if (weiboText == null)
                             continue;
 
-                        if ( Scheduler.getRecordBySignVale(weiboDiv.attr("id")) != null ) {
+                        if ( Scheduler.getRecordBySignVale(weiboDiv.attr("id"), ruleID) != null ) {
                             logger.info("[去重] - " + weiboDiv.attr("id") + " 已经抓取过");
                             continue;
                         }
 
-                        Scheduler.insertRecord(Scheduler.SIGN_ID, weiboDiv.attr("id"), Scheduler.SERVICE_WEIBO_SEARCH);
+                        Scheduler.insertRecord(Scheduler.SIGN_ID, weiboDiv.attr("id"), Scheduler.SERVICE_WEIBO_SEARCH, ruleID);
 
                         //进行过滤条件判断
                         boolean ans = true;

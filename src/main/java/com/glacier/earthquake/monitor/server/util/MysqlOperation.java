@@ -95,4 +95,6 @@ public interface MysqlOperation {
 
     public void setManage(User user);
 
+    public void updateRecord(SpiderFilter filter);
+
 }

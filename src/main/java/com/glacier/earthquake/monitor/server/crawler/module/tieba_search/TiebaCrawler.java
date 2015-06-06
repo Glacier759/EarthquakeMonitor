@@ -94,14 +94,14 @@ public class TiebaCrawler extends Crawler {
                                 continue;
                             }
 
-                            if ( Scheduler.getRecordBySignVale(postLink) != null ) {
+                            if ( Scheduler.getRecordBySignVale(postLink, rule_id) != null ) {
                                 logger.info("[去重] - " + postLink + " 已经抓取过");
                                 continue;
                             }
 
                             //获得搜索结果对应的文档树
                             Document document_post = downloader.document(postLink, Downloader.HTTP_GET);
-                            Scheduler.insertRecord(Scheduler.SIGN_URL, postLink, Scheduler.SERVICE_TIEBA_SEARCH);
+                            Scheduler.insertRecord(Scheduler.SIGN_URL, postLink, Scheduler.SERVICE_TIEBA_SEARCH, rule_id);
 
                             //进行过滤条件判断
                             boolean ans = true;

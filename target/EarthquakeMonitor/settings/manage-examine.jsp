@@ -101,10 +101,10 @@
                                 <thead>
                                 <tr>
                                     <th class="text-center" width="30px"></th>
-                                    <th class="text-center" width="250px">Title</th>
-                                    <th class="text-center">URL</th>
-                                    <th class="text-center" width="180px">Crawl Date</th>
-                                    <th class="text-center" width="80px">Setting</th>
+                                    <th class="text-center" width="250px">标题</th>
+                                    <th class="text-center">来源地址</th>
+                                    <th class="text-center" width="180px">获取时间</th>
+                                    <th class="text-center" width="80px">设置</th>
                                 </tr>
                                 </thead>
                                 <tbody id="filters-tbody"></tbody>

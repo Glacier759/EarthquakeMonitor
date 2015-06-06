@@ -8,14 +8,19 @@
         <result column="sign_value" property="sign_value" />
         <result column="origin" property="origin" />
         <result column="create_date" property="create_date" />
+        <result column="rule_json" property="rule_json" />
     </resultMap>
 
     <insert id="insertRecord" parameterType="SpiderFilter">
-        INSERT INTO spider_filter(sign, sign_value, origin) VALUES(#{sign}, md5(#{sign_value}), #{origin});
+        INSERT INTO spider_filter(sign, sign_value, origin) VALUES(#{sign}, md5(#{sign_value}), #{origin}, #{rule_json});
     </insert>
 
     <select id="getRecordBySignValue" parameterType="String" resultMap="SpiderFilter">
         SELECT * FROM spider_filter WHERE sign_value = md5(#{sign_value});
     </select>
+
+    <update id="updateRecord" parameterType="SpiderFilter">
+        UPDATE spider_filter SET rule_json = #{rule_json} WHERE id = #{id};
+    </update>
 
 </mapper>

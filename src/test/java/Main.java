@@ -5,6 +5,7 @@ import com.glacier.earthquake.monitor.server.configure.user.SpiderInfoMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
+import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchCrawler;
 import com.glacier.earthquake.monitor.server.crawler.module.baidu_search.BaiduSearchDownloader;
 import com.glacier.earthquake.monitor.server.crawler.module.bbs_search.BBSCrawler;
@@ -27,8 +28,10 @@ import org.apache.http.params.HttpParams;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import java.io.IOException;
 import java.net.URI;
 import java.net.URL;
 import java.text.SimpleDateFormat;
@@ -41,27 +44,9 @@ import java.util.List;
  */
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        System.out.println(Chart.infoCountAll);
-        System.out.println(Chart.infoCountDis);
-        System.out.println(Chart.infoCountPub);
-        System.out.println(Chart.infoCountToday);
-        System.out.println(Chart.infoCountPass);
-        System.out.println(Chart.infoCountNoPass);
-
-        System.out.println("Time Map");
-        for ( String key : Chart.timeMap.keySet() ) {
-            System.out.println(key + " - " + Chart.timeMap.get(key));
-        }
-        System.out.println("Origin Map");
-        for ( String key : Chart.originMap.keySet() ) {
-            System.out.println(key + " - " + Chart.originMap.get(key));
-        }
-        System.out.println("Rule Map");
-        for ( String key : Chart.ruleMap.keySet() ) {
-            System.out.println(key + " - " + Chart.ruleMap.get(key));
-        }
+        System.out.println(Scheduler.getRecordBySignVale("http://spider.glacierlx.com", 1));
 
     }
 

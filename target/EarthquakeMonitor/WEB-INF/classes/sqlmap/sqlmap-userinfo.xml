@@ -13,6 +13,7 @@
         <result column="workplace" property="workplace"/>
         <result column="position" property="position"/>
         <result column="qqnumber" property="qqnumber"/>
+        <result column="password" property="password"/>
     </resultMap>
 
     <select id="getUserInfoByEmail" parameterType="String" resultMap="User">

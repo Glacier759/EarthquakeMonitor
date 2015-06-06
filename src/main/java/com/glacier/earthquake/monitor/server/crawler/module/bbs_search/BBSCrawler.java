@@ -94,14 +94,14 @@ public class BBSCrawler extends Crawler {
                                 continue;
                             }
 
-                            if ( Scheduler.getRecordBySignVale(resultLink) != null ) {
+                            if ( Scheduler.getRecordBySignVale(resultLink, rule_id) != null ) {
                                 logger.info("[去重] - " + resultLink + " 已经抓取过");
                                 continue;
                             }
 
                             //获得搜索结果对应的文档树
                             Document document_post = downloader.document(resultLink, Downloader.HTTP_GET);
-                            Scheduler.insertRecord(Scheduler.SIGN_URL, resultLink, Scheduler.SERVICE_BBS_SEARCH);
+                            Scheduler.insertRecord(Scheduler.SIGN_URL, resultLink, Scheduler.SERVICE_BBS_SEARCH, rule_id);
 
                             //进行过滤条件判断
                             boolean ans = true;

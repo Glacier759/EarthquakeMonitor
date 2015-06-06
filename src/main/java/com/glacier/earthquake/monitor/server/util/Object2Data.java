@@ -348,4 +348,18 @@ public class Object2Data {
             destory();
         }
     }
+
+    public static void updateRecord(SpiderFilter filter) {
+        init();
+        try {
+            mapper.updateRecord(filter);
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        } finally {
+            destory();
+        }
+    }
 }
