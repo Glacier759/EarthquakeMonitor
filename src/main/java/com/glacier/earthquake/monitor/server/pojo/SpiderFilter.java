@@ -9,7 +9,7 @@ public class SpiderFilter {
 
     private int id, sign;
     private String sign_value;
-    private int origin;
+    private int origin, type;
     private Date create_date;
     private String rule_json;
 
@@ -61,6 +61,14 @@ public class SpiderFilter {
         this.rule_json = rule_json;
     }
 
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
+    }
+
     @Override
     public String toString() {
         return "SpiderFilter{" +
@@ -68,6 +76,7 @@ public class SpiderFilter {
                 ", sign=" + sign +
                 ", sign_value='" + sign_value + '\'' +
                 ", origin=" + origin +
+                ", type=" + type +
                 ", create_date=" + create_date +
                 ", rule_json='" + rule_json + '\'' +
                 '}';

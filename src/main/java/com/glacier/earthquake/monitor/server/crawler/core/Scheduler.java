@@ -22,14 +22,15 @@ public class Scheduler {
     public static final int SERVICE_BING_SEARCH = SystemConfig.CONFIG_TYPE_BING_SEARCH;
     public static final int SERVICE_BBS_SEARCH = SystemConfig.CONFIG_TYPE_BBS_SEARCH;
 
-    public static void insertRecord(int sign, String sign_value, int service, int ruleID) {
-        SpiderFilter filter = getRecordBySignVale(sign_value, ruleID);
+    public static void insertRecord(int sign, String sign_value, int service, int ruleID, int type) {
+        SpiderFilter filter = getRecordBySignVale(sign_value, ruleID, type);
 
         if ( filter == null ) {
             filter = new SpiderFilter();
             filter.setOrigin(service);
             filter.setSign(sign);
             filter.setSign_value(sign_value);
+            filter.setType(type);
 
             String rule_json = new JSONArray().put(new JSONObject().put("rule_id", ruleID)).toString();
             filter.setRule_json(rule_json);
@@ -57,8 +58,8 @@ public class Scheduler {
         }
     }
 
-    public static SpiderFilter getRecordBySignVale(String sign_value, int ruleID) {
-        SpiderFilter filter = Data2Object.getRecordBySignValue(sign_value);
+    public static SpiderFilter getRecordBySignVale(String sign_value, int ruleID, int type) {
+        SpiderFilter filter = Data2Object.getRecordBySignValue(sign_value, type);
         String rule_json = filter.getRule_json();
         if ( rule_json != null) {
             JSONArray jsonArray = new JSONArray(rule_json);

@@ -357,10 +357,10 @@ public class Data2Object {
         return null;
     }
 
-    public static SpiderFilter getRecordBySignValue(String sign_value) {
+    public static SpiderFilter getRecordBySignValue(String sign_value, int type) {
         init();
         try {
-            SpiderFilter filter = mapper.getRecordBySignValue(sign_value);
+            SpiderFilter filter = mapper.getRecordBySignValue(sign_value, type);
             session.commit();
             return filter;
         }catch (Exception e) {
