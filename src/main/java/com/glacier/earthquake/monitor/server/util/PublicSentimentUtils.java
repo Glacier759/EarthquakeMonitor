@@ -1,8 +1,11 @@
 package com.glacier.earthquake.monitor.server.util;
 
+import com.glacier.earthquake.monitor.server.configure.crawler.SpiderInfoManager;
 import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
+import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
+import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 
@@ -18,7 +21,7 @@ public class PublicSentimentUtils {
 
     private static Logger logger = Logger.getLogger(PublicSentimentUtils.class.getName());
 
-    public static boolean publicSentimentJudge(Document document, int ruleID) {
+    public static boolean publicSentimentJudge(Document document, int ruleID, SpiderInfo spiderInfo) {
 
         FilterRuleMonitor monitor = new FilterRuleMonitor();
         FilterDisaster disaster = monitor.getFilterDisasterByID(ruleID);
@@ -39,10 +42,11 @@ public class PublicSentimentUtils {
                 if ( ans ) {
                     try {
                         Pattern pattern = Pattern.compile(sentiment.getMatcher());
-                        //Pattern pattern = Pattern.compile("[glacier]");
                         Matcher matcher = pattern.matcher(document.toString());
-                        System.out.println(pattern.toString());
                         if (matcher.find()) {
+                            spiderInfo.setType(SpiderInfo.FILTER_PUBSENTIMENT);
+                            SpiderInfoManager.insertSpiderInfo(spiderInfo);
+                            Scheduler.insertRecord(Scheduler.SIGN_URL, spiderInfo.getUrl(), spiderInfo.getOrigin(), spiderInfo.getRule_id(), SpiderInfo.FILTER_PUBSENTIMENT);
                             logger.info("[正则匹配] - 正则匹配成功 " + document.baseUri());
                         } else {
                             logger.info("[正则匹配] - 正则匹配失败 " + document.baseUri());

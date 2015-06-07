@@ -159,8 +159,7 @@ public class BaiduSearchCrawler extends Crawler {
                                      * */
                                     SpiderFilter filter = Scheduler.getRecordBySignVale(resultLink, ruleID, SpiderInfo.FILTER_PUBSENTIMENT);
                                     if ( filter == null ) {
-                                        PublicSentimentUtils.publicSentimentJudge(document_result, ruleID);
-
+                                        PublicSentimentUtils.publicSentimentJudge(document_result, ruleID, spiderInfo);
                                     }
                                 }
                             }
