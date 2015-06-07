@@ -46,10 +46,11 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-
-        Document document = Jsoup.parse("你猜我猜不猜 地啦～");
-        document.setBaseUri("http://spider.glacierlx.com");
-        PublicSentimentUtils.publicSentimentJudge(document, 14);
+        String line = "111111<p>222222<p>333333";
+        String[] option = line.split("<p>");
+        for ( String o : option ) {
+            System.out.println(o);
+        }
     }
 
 }

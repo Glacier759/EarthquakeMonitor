@@ -1,10 +1,16 @@
 package com.glacier.earthquake.monitor.browser.servlet;
 
+import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
+import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
+import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
+import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -13,14 +19,20 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * Created by glacier on 15-5-22.
  */
 public class UploadServlet extends HttpServlet {
+
+    private static Logger logger = Logger.getLogger(UploadServlet.class.getName());
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("text/html;charset=utf-8");
@@ -60,19 +72,60 @@ public class UploadServlet extends HttpServlet {
                         if ( !uploaderFile.exists() ) {
                             uploaderFile.createNewFile();
                         }
-                        System.out.println(uploaderFile.getAbsolutePath());
+                        logger.info("[文件上传] - 绝对路径: " + uploaderFile.getAbsolutePath());
                         item.write(uploaderFile);
-                        System.out.println("文件写入完毕");
+                        logger.info("[文件上传] - 文件写入完毕");
 
+                        FilterRuleMonitor monitor = UserMonitor.getUserMonitor(request).getFilterRuleMonitor();
                         if ( type != null && type.equals("disaster") ) {
-                            System.out.println("这是一个disaster文件");
+                            logger.info("[文件上传] - 得到一个Disaster文件");
+                            List<String> lines = FileUtils.readLines(uploaderFile);
+                            for ( String line : lines ) {
+                                try {
+                                    FilterDisaster disaster = new FilterDisaster();
+                                    disaster.setFilterRule(line);
+                                    monitor.addRuleDisaster(disaster);
+                                    logger.info("[规则导入] - 导入一条新规则 " + disaster);
+                                }catch (Exception e) {
+                                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                                    e.printStackTrace(new PrintStream(baos));
+                                    logger.error(baos.toString());
+                                }
+                            }
                         } else if ( type != null && type.equals("public") ) {
-                            System.out.println("这是一个public文件");
+                            logger.info("[文件上传] - 得到一个Public Sentiment文件");
+                            List<String> lines = FileUtils.readLines(uploaderFile);
+                            for ( String line : lines ) {
+                                try {
+                                    FilterPublicSentiment publicSentiment = new FilterPublicSentiment();
+                                    String[] option = line.split("<p>");
+                                    publicSentiment.setName(option[0]);
+                                    publicSentiment.setMatcher(option[1]);
+                                    publicSentiment.setUnexist(option[2]);
+                                    monitor.addRulePubSentiment(publicSentiment);
+                                    logger.info("[规则导入] - 导入一条新规则 " + publicSentiment);
+                                }catch (Exception e) {
+                                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                                    e.printStackTrace(new PrintStream(baos));
+                                    logger.error(baos.toString());
+                                }
+                            }
                         } else if ( type != null && type.equals("whitelist") ) {
-                            System.out.println("这是一个whitelist文件");
+                            logger.info("[文件上传] - 得到一个White List文件");
+                            List<String> lines = FileUtils.readLines(uploaderFile);
+                            for ( String line : lines ) {
+                                try {
+                                    FilterWhiteList whiteList = new FilterWhiteList();
+                                    whiteList.setUrl(line);
+                                    monitor.addRuleWhiteList(whiteList);
+                                    logger.info("[规则导入] - 导入一条新规则 " + whiteList);
+                                }catch (Exception e) {
+                                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                                    e.printStackTrace(new PrintStream(baos));
+                                    logger.error(baos.toString());
+                                }
+                            }
                         }
-
-                        //System.out.println("文件删除完毕 - " + uploaderFile.delete());
                     }
                 }
             } catch (Exception e) {
