@@ -35,4 +35,8 @@
         SELECT * FROM filter_rules_pubsentiment WHERE name = #{name};
     </select>
 
+    <delete id="truncatePubSentiment">
+        TRUNCATE TABLE filter_rules_pubsentiment;
+    </delete>
+
 </mapper>

@@ -26,4 +26,8 @@
         SELECT * FROM filter_rules_disaster WHERE id = #{id};
     </select>
 
+    <delete id="truncateDisaster">
+        TRUNCATE TABLE filter_rules_disaster;
+    </delete>
+
 </mapper>

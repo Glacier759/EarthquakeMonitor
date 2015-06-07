@@ -99,4 +99,10 @@ public interface MysqlOperation {
 
     public List<FilterPublicSentiment> getFilterPubSentimentByName(String name);
 
+    public void truncateDisaster();
+
+    public void truncateWhiteList();
+
+    public void truncatePubSentiment();
+
 }

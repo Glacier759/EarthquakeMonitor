@@ -122,4 +122,28 @@ public class FilterRuleMonitor {
         return Data2Object.getFilterPubSentimentByName(name);
     }
 
+    public boolean truncateDisaster() {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
+            Data2Object.truncateDisaster();
+            return true;
+        }
+        return false;
+    }
+
+    public boolean truncateWhiteList() {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
+            Data2Object.truncateWhiteList();
+            return true;
+        }
+        return false;
+    }
+
+    public boolean truncatePubSentiment() {
+        if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
+            Data2Object.truncatePubSentiment();
+            return true;
+        }
+        return false;
+    }
+
 }

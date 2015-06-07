@@ -46,11 +46,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        String line = "111111<p>222222<p>333333";
-        String[] option = line.split("<p>");
-        for ( String o : option ) {
-            System.out.println(o);
-        }
+        Data2Object.truncateDisaster();
     }
 
 }

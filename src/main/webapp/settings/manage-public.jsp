@@ -83,7 +83,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12" align="right">
-                            <button class="btn btn-info" onclick="uploadFile()">上传</button>
+                            <button class="btn btn-info" onclick="uploadiv()">上传</button>
                         </div>
                     </div>
                 </div>
@@ -174,6 +174,24 @@
                 </div>
             </div>
             <div class="col-md-2"></div>
+        </div>
+        <div class="modal fade" id="uploadiv" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h3>上传文件</h3>
+                    </div>
+                    <div class="modal-body">
+                        追加规则将会在原有规则的基础上增加新导入的规则；覆盖规则则会清除原有的规则使用新导入的规则
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" onclick="uploadFile(0)">追加规则</button>
+                        <button type="button" class="btn btn-danger" onclick="uploadFile(1)">覆盖规则</button>
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">退出</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <script>
             $(function() {
@@ -277,13 +295,16 @@
                 });
                 return false;   //阻止表单的默认提交事件
             });
-            function uploadFile() {
+            function uploadiv() {
+                $("#uploadiv").modal("toggle");
+            }
+            function uploadFile(op) {
                 <%
                     User user = (User)session.getAttribute("login_user");
                     if ( user.getPrivilege() >= 1 ) {
                 %>
                 var fileObj = document.getElementById("file").files[0]; // 获取文件对象
-                var FileController = "<%=request.getContextPath()%>/UploadServlet?type=public";                // 接收上传文件的后台地址
+                var FileController = "<%=request.getContextPath()%>/UploadServlet?type=public&op=" + op;                // 接收上传文件的后台地址
 
                 var form = new FormData();
                 form.append("file", fileObj);                           // 文件对象
@@ -299,6 +320,9 @@
                 alert("您没有权限进行此操作");
                 <%}%>
             }
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <%@include file="../footer.jsp"%>

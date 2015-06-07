@@ -29,4 +29,8 @@
         SELECT * FROM filter_rules_whitelist WHERE id = #{id};
     </select>
 
+    <delete id="truncateWhiteList">
+        TRUNCATE TABLE filter_rules_whitelist;
+    </delete>
+
 </mapper>

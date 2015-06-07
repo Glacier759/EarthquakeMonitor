@@ -405,4 +405,46 @@ public class Data2Object {
         return null;
     }
 
+    public static void truncateDisaster() {
+        init();
+        try {
+            mapper.truncateDisaster();
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+    }
+
+    public static void truncateWhiteList() {
+        init();
+        try {
+            mapper.truncateWhiteList();
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+    }
+
+    public static void truncatePubSentiment() {
+        init();
+        try {
+            mapper.truncatePubSentiment();
+            session.commit();
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+    }
+
 }

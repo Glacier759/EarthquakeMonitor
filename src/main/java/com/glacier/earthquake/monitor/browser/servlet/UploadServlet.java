@@ -37,6 +37,23 @@ public class UploadServlet extends HttpServlet {
 
         response.setContentType("text/html;charset=utf-8");
         String type = request.getParameter("type");
+        String op = request.getParameter("op");
+
+        FilterRuleMonitor monitor = UserMonitor.getUserMonitor(request).getFilterRuleMonitor();
+        if ( op != null && op.equals("1") ) {
+            if ( type != null && type.equals("disaster") ) {
+                logger.info("[覆盖规则] - 清空disaster表");
+                monitor.truncateDisaster();
+            }
+            else if ( type != null && type.equals("public") ) {
+                logger.info("[覆盖规则] - 清空public sentiment表");
+                monitor.truncatePubSentiment();
+            }
+            else if ( type != null && type.equals("whitelist") ) {
+                logger.info("[覆盖规则] - 清空white list表");
+                monitor.truncateWhiteList();
+            }
+        }
 
         if ( !UserMonitor.getUserMonitor(request).isAdministor() ) {
             response.getWriter().print("permission denied");
@@ -76,7 +93,6 @@ public class UploadServlet extends HttpServlet {
                         item.write(uploaderFile);
                         logger.info("[文件上传] - 文件写入完毕");
 
-                        FilterRuleMonitor monitor = UserMonitor.getUserMonitor(request).getFilterRuleMonitor();
                         if ( type != null && type.equals("disaster") ) {
                             logger.info("[文件上传] - 得到一个Disaster文件");
                             List<String> lines = FileUtils.readLines(uploaderFile);
