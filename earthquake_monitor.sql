@@ -265,7 +265,6 @@ CREATE TABLE `user_info` (
 
 LOCK TABLES `user_info` WRITE;
 /*!40000 ALTER TABLE `user_info` DISABLE KEYS */;
-INSERT INTO `user_info` VALUES (1,'戴着眼镜的狗','glacier@xiyoulinux.org','13289212979','q',1,'2015-05-29 11:01:22','热力学','中华人民共和国','搬砖的','32124442s'),(19,'root','root@root.com','13679257840','root',2,'2015-06-01 12:36:23','root','root','root','421186071'),(20,NULL,'1@1.com',NULL,'1',1,'2015-06-01 13:13:02',NULL,NULL,NULL,NULL),(21,'Test','test@test.com','15160987085','123456',1,'2015-06-02 13:09:49','Test','Test','Test','Test'),(22,'普通用 户','test@test1.com','13333333333','123456',0,'2015-06-02 13:11:27','Test','Test','Test','Test'),(23,'戴着眼镜的小狗','test@test2.com','13289212975','q',0,'2015-06-03 05:39:40','任立翔','中华人民共和国','搬砖','421186071'),(24,'da1','test@test3.com','13333333336','q',0,'2015-06-03 05:40:02','q','q','q','q'),(25,'小全','873916514@qq.com','13772070084','qpljiayou',0,'2015-06-03 08:34:22','全蓬琳','无','无','873916514');
 /*!40000 ALTER TABLE `user_info` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

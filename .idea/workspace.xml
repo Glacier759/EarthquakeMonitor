@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba5457ad-e6f0-40e5-889a-d8d63a805ad4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Data2Object.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/Data2Object.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/FilterRuleMonitor.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/configure/user/FilterRuleMonitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Main.java" afterPath="$PROJECT_DIR$/src/test/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/MysqlOperation.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/MysqlOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/UploadServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/UploadServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/settings/manage-disaster.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/settings/manage-disaster.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/settings/manage-disaster.jsp" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/settings/manage-disaster.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/settings/manage-public.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/settings/manage-public.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/settings/manage-public.jsp" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/settings/manage-public.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/settings/manage-whitelist.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/settings/manage-whitelist.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/settings/manage-whitelist.jsp" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/settings/manage-whitelist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-filterules_disaster.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-filterules_disaster.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-filterules_disaster.xml" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-filterules_disaster.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sqlmap/sqlmap-filterules_disaster.xml" afterPath="$PROJECT_DIR$/target/classes/sqlmap/sqlmap-filterules_disaster.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-filterules_pubsentiment.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-filterules_pubsentiment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-filterules_pubsentiment.xml" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-filterules_pubsentiment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sqlmap/sqlmap-filterules_pubsentiment.xml" afterPath="$PROJECT_DIR$/target/classes/sqlmap/sqlmap-filterules_pubsentiment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-filterules_whitelist.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-filterules_whitelist.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-filterules_whitelist.xml" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-filterules_whitelist.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sqlmap/sqlmap-filterules_whitelist.xml" afterPath="$PROJECT_DIR$/target/classes/sqlmap/sqlmap-filterules_whitelist.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-spider_filter.xml" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-spider_filter.xml" />
@@ -1425,7 +1414,7 @@
       <workItem from="1433435952856" duration="151000" />
       <workItem from="1433593813651" duration="561000" />
       <workItem from="1433594793538" duration="6285000" />
-      <workItem from="1433653185949" duration="10505000" />
+      <workItem from="1433653185949" duration="10581000" />
     </task>
     <task id="LOCAL-00001" summary="使用idea整合git进行版本控制">
       <created>1433599735324</created>
@@ -1463,11 +1452,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433671459486</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成对文件上传功能性代码的实现 增加覆盖规则与追加规则的选项">
+      <created>1433673825177</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1433673825177</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317879000" />
+    <option name="totallyTimeSpent" value="317955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
@@ -1546,7 +1541,8 @@
     <MESSAGE value="数据库表spider_filter增加type字段 用于区别舆情监控与灾情获取两个模块的去重" />
     <MESSAGE value="增加对于舆情监控的过滤支持" />
     <MESSAGE value="完成对文件上传功能性代码的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成对文件上传功能性代码的实现" />
+    <MESSAGE value="完成对文件上传功能性代码的实现 增加覆盖规则与追加规则的选项" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成对文件上传功能性代码的实现 增加覆盖规则与追加规则的选项" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
