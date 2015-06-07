@@ -16,6 +16,8 @@ public class FilterRuleMonitor {
 
     private User user;
 
+    public FilterRuleMonitor() {}
+
     public FilterRuleMonitor(User user) {
         this.user = user;
     }
@@ -114,6 +116,10 @@ public class FilterRuleMonitor {
 
     public FilterWhiteList getFilterWhiteListByID(Integer id) {
         return Data2Object.getFilterWhiteListByID(id);
+    }
+
+    public List<FilterPublicSentiment> getFilterPubSentimentByName(String name) {
+        return Data2Object.getFilterPubSentimentByName(name);
     }
 
 }

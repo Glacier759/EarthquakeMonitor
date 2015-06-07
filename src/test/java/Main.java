@@ -17,6 +17,7 @@ import com.glacier.earthquake.monitor.server.pojo.*;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
 import com.glacier.earthquake.monitor.server.util.Object2Data;
+import com.glacier.earthquake.monitor.server.util.PublicSentimentUtils;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -46,8 +47,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println(Scheduler.getRecordBySignVale("http://spider.glacierlx.com", 1));
-
+        Document document = Jsoup.parse("你猜我猜不猜 地啦～");
+        document.setBaseUri("http://spider.glacierlx.com");
+        PublicSentimentUtils.publicSentimentJudge(document, 14);
     }
 
 }

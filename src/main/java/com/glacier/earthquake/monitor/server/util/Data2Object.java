@@ -389,4 +389,20 @@ public class Data2Object {
         return null;
     }
 
+    public static List<FilterPublicSentiment> getFilterPubSentimentByName(String name) {
+        init();
+        try {
+            List<FilterPublicSentiment> filters = mapper.getFilterPubSentimentByName(name);
+            session.commit();
+            return filters;
+        }catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(baos));
+            logger.error(baos.toString());
+        }finally {
+            destory();
+        }
+        return null;
+    }
+
 }

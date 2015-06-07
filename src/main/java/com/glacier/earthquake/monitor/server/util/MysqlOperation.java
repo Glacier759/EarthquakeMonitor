@@ -97,4 +97,6 @@ public interface MysqlOperation {
 
     public void updateRecord(SpiderFilter filter);
 
+    public List<FilterPublicSentiment> getFilterPubSentimentByName(String name);
+
 }

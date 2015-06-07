@@ -31,4 +31,8 @@
         SELECT * FROM filter_rules_pubsentiment WHERE id = #{id};
     </select>
 
+    <select id="getFilterPubSentimentByName" parameterType="String" resultMap="filter_pubsentiment">
+        SELECT * FROM filter_rules_pubsentiment WHERE name = #{name};
+    </select>
+
 </mapper>

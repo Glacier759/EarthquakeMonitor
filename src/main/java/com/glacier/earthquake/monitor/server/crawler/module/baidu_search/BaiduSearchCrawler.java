@@ -5,11 +5,13 @@ import com.glacier.earthquake.monitor.server.crawler.Crawler;
 import com.glacier.earthquake.monitor.server.crawler.core.Downloader;
 import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
+import com.glacier.earthquake.monitor.server.pojo.SpiderFilter;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.JudgeFilter;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
+import com.glacier.earthquake.monitor.server.util.PublicSentimentUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.log4j.Logger;
@@ -150,6 +152,16 @@ public class BaiduSearchCrawler extends Crawler {
                                     //设置好属性后插入数据库
                                     SpiderInfoManager.insertSpiderInfo(spiderInfo);
                                     logger.info("[匹配成功] - 获得一条新数据");
+
+                                    /**
+                                     * 匹配成功一条灾情获取信息之后, 首先进行当前规则id对应的舆情监控抓取记录的判重工作
+                                     * 如果没有进行过对应的舆情监控的过滤, 则对当前页面进行相应规则的二次过滤（舆情监控定制的规则）
+                                     * */
+                                    SpiderFilter filter = Scheduler.getRecordBySignVale(resultLink, ruleID, SpiderInfo.FILTER_PUBSENTIMENT);
+                                    if ( filter == null ) {
+                                        PublicSentimentUtils.publicSentimentJudge(document_result, ruleID);
+
+                                    }
                                 }
                             }
                         } catch (Exception e) {
