@@ -335,6 +335,7 @@ public class SettingServlet extends HttpServlet {
                             }
                             jsonObject.put("type", spiderInfo.getType());
                             jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
+                            jsonObject.put("origin", SpiderInfoUtils.originToString(spiderInfo.getOrigin()));
                             jsonArray.put(jsonObject);
                         }
                     }

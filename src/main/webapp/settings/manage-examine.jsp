@@ -34,14 +34,8 @@
                         <ul class="nav navbar-nav navbar-left">
                             <li><a href="<%=request.getContextPath()%>/index.jsp"><h4>主页</h4></a></li>
                             <li><a href="#" onclick="system()"><h4>系统</h4></a></li>
-                            <li><a href="<%=request.getContextPath()%>/setting.jsp"><h4>设置</h4></a></li>
-                            <li><a href="<%=request.getContextPath()%>/manager.jsp"><h4>用户管理</h4></a></li>
-                            <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h4>审核管理<span class="caret"></span></h4></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h4>设置<span class="caret"></span></h4></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="<%=request.getContextPath()%>/settings/manage-disaster.jsp">灾情获取匹配式管理</a></li>
                                     <li class="divider"></li>
@@ -51,9 +45,21 @@
                                     <li class="divider"></li>
                                     <li><a href="<%=request.getContextPath()%>/settings/manage-warning.jsp">报警设置</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="#">审核管理</a></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-examine.jsp">审核管理</a></li>
                                 </ul>
                             </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h4>用户<span class="caret"></span></h4></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="<%=request.getContextPath()%>/manager.jsp">修改资料</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-user.jsp">用户管理</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><h4>审核管理</h4></a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -101,6 +107,7 @@
                                 <thead>
                                 <tr>
                                     <th class="text-center" width="30px"></th>
+                                    <th class="text-center" width="60px">来源</th>
                                     <th class="text-center" width="250px">标题</th>
                                     <th class="text-center">来源地址</th>
                                     <th class="text-center" width="180px">获取时间</th>
@@ -192,6 +199,15 @@
                             select.setAttribute("value", objson[i].id);
                             col0.appendChild(select);
                             row.appendChild(col0);
+
+                            var col0_ = document.createElement("td");
+                            col0_.setAttribute("valign", "middle");
+                            col0_.setAttribute("class", "text-center");
+                            var span0 = document.createElement("span");
+                            span0.setAttribute("class", "label label-default");
+                            span0.innerHTML = objson[i].origin;
+                            col0_.appendChild(span0);
+                            row.appendChild(col0_);
 
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");
