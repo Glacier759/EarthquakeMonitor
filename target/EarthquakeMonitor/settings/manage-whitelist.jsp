@@ -142,9 +142,9 @@
                     <table class="table table-striped table-bordered table-hover" id="filters-table">
                         <thead>
                         <tr>
-                            <th class="text-center">Create Time</th>
-                            <th class="text-center">URL</th>
-                            <th class="text-center">Setting</th>
+                            <th class="text-center">创建时间</th>
+                            <th class="text-center">地址</th>
+                            <th class="text-center">设置</th>
                         </tr>
                         </thead>
                         <tbody id="filters-tbody"></tbody>

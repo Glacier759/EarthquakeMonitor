@@ -162,11 +162,11 @@
                     <table class="table table-striped table-bordered table-hover" id="filters-table">
                         <thead>
                         <tr>
-                            <th class="text-center">Create Time</th>
-                            <th class="text-center">Name</th>
-                            <th class="text-center">Matcher</th>
-                            <th class="text-center">Unexist</th>
-                            <th class="text-center">Setting</th>
+                            <th class="text-center">创建时间</th>
+                            <th class="text-center">规则</th>
+                            <th class="text-center">正则</th>
+                            <th class="text-center">不包含</th>
+                            <th class="text-center">设置</th>
                         </tr>
                         </thead>
                         <tbody id="filters-tbody"></tbody>

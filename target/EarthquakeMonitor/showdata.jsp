@@ -101,6 +101,7 @@
                         <table class="table table-striped table-bordered table-hover" id="filters-table" style="table-layout: fixed;">
                             <thead>
                             <tr>
+                                <th class="text-center" width="60px">来源</th>
                                 <th class="text-center" width="300px">标题</th>
                                 <th class="text-center">来源地址</th>
                                 <th class="text-center" width="200px">获取时间</th>
@@ -177,6 +178,15 @@
                             row.setAttribute("id", objson[i].id);
                             row.setAttribute("class", "text-info");
                             row.setAttribute("status", objson[i].type);
+
+                            var col0 = document.createElement("td");
+                            col0.setAttribute("valign", "middle");
+                            col0.setAttribute("class", "text-center");
+                            var span0 = document.createElement("span");
+                            span0.setAttribute("class", "label label-default");
+                            span0.innerHTML = objson[i].origin;
+                            col0.appendChild(span0);
+                            row.appendChild(col0);
 
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");

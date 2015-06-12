@@ -1,5 +1,6 @@
 package com.glacier.earthquake.monitor.browser.servlet;
 
+import com.glacier.earthquake.monitor.browser.util.SpiderInfoUtils;
 import com.glacier.earthquake.monitor.browser.util.UserUtils;
 import com.glacier.earthquake.monitor.server.configure.user.FilterRuleMonitor;
 import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
@@ -458,6 +459,7 @@ public class SettingServlet extends HttpServlet {
                     }
                     jsonObject.put("type", spiderInfo.getType());
                     jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
+                    jsonObject.put("origin", SpiderInfoUtils.originToString(spiderInfo.getOrigin()));
                     jsonArray.put(jsonObject);
                 }
                 response.getWriter().print(jsonArray.toString());
