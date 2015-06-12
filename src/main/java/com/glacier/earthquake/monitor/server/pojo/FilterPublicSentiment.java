@@ -10,6 +10,7 @@ public class FilterPublicSentiment {
     private String name, matcher, unexist;
     private int id;
     private Date createDate;
+    private String submiter;
 
     public String getName() {
         return name;
@@ -51,6 +52,14 @@ public class FilterPublicSentiment {
         this.createDate = createDate;
     }
 
+    public String getSubmiter() {
+        return submiter;
+    }
+
+    public void setSubmiter(String submiter) {
+        this.submiter = submiter;
+    }
+
     @Override
     public String toString() {
         return "FilterPublicSentiment{" +
@@ -59,6 +68,7 @@ public class FilterPublicSentiment {
                 ", unexist='" + unexist + '\'' +
                 ", id=" + id +
                 ", createDate=" + createDate +
+                ", submiter='" + submiter + '\'' +
                 '}';
     }
 }

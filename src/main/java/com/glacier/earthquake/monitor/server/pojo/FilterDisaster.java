@@ -10,6 +10,7 @@ public class FilterDisaster {
     private String filterRule;
     private int id;
     private Date createDate;
+    private String submiter;
 
     public String getFilterRule() {
         return filterRule;
@@ -35,12 +36,21 @@ public class FilterDisaster {
         this.createDate = createDate;
     }
 
+    public String getSubmiter() {
+        return submiter;
+    }
+
+    public void setSubmiter(String submiter) {
+        this.submiter = submiter;
+    }
+
     @Override
     public String toString() {
         return "FilterDisaster{" +
                 "filterRule='" + filterRule + '\'' +
                 ", id=" + id +
                 ", createDate=" + createDate +
+                ", submiter='" + submiter + '\'' +
                 '}';
     }
 }

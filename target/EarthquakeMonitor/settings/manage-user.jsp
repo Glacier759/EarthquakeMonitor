@@ -36,13 +36,32 @@
                         <ul class="nav navbar-nav navbar-left">
                             <li><a href="<%=request.getContextPath()%>/index.jsp"><h4>主页</h4></a></li>
                             <li><a href="#" onclick="system()"><h4>系统</h4></a></li>
-                            <li><a href="<%=request.getContextPath()%>/setting.jsp"><h4>设置</h4></a></li>
-                            <li><a href="<%=request.getContextPath()%>/manager.jsp"><h4>用户管理</h4></a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h4>设置<span class="caret"></span></h4></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-disaster.jsp">灾情获取匹配式管理</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-public.jsp">舆情监测匹配式管理</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-whitelist.jsp">白名单管理</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-warning.jsp">报警设置</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-examine.jsp">审核管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h4>用户<span class="caret"></span></h4></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="<%=request.getContextPath()%>/manager.jsp">修改资料</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<%=request.getContextPath()%>/settings/manage-user.jsp">用户管理</a></li>
+                                </ul>
+                            </li>
                             <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#"><h4>用户管理</h4></a></li>
-                            <li><a href="<%=request.getContextPath()%>/manager.jsp"><h4>修改资料</h4></a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -76,10 +95,10 @@
                     <table class="table table-striped table-bordered table-hover" id="filters-table">
                         <thead>
                         <tr>
-                            <th class="text-center">Nickname</th>
-                            <th class="text-center">Email</th>
-                            <th class="text-center">Mobile</th>
-                            <th class="text-center">Setting</th>
+                            <th class="text-center">用户名</th>
+                            <th class="text-center">邮箱</th>
+                            <th class="text-center">手机</th>
+                            <th class="text-center">设置</th>
                         </tr>
                         </thead>
                         <tbody id="filters-tbody"></tbody>

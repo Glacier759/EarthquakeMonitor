@@ -200,7 +200,7 @@
                         data-placement="top" onclick="register()" title="注册">SIGN UP
                 </button>
                 <%} else if (session.getAttribute("login") != null) {%>
-                <a id="lookup" href="<%=request.getContextPath()%>/setting.jsp" class="btn btn-custom animated fadeInUp"
+                <a id="lookup" href="<%=request.getContextPath()%>/showdata.jsp" class="btn btn-custom animated fadeInUp"
                    data-toggle="tooltip" data-placement="bottom" title="查看">LOOK UP</a>
                 <%}%>
             </div>

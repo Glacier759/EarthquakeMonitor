@@ -100,6 +100,7 @@ public class UploadServlet extends HttpServlet {
                                 try {
                                     FilterDisaster disaster = new FilterDisaster();
                                     disaster.setFilterRule(line);
+                                    disaster.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     monitor.addRuleDisaster(disaster);
                                     logger.info("[规则导入] - 导入一条新规则 " + disaster);
                                 }catch (Exception e) {
@@ -118,6 +119,7 @@ public class UploadServlet extends HttpServlet {
                                     publicSentiment.setName(option[0]);
                                     publicSentiment.setMatcher(option[1]);
                                     publicSentiment.setUnexist(option[2]);
+                                    publicSentiment.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     monitor.addRulePubSentiment(publicSentiment);
                                     logger.info("[规则导入] - 导入一条新规则 " + publicSentiment);
                                 }catch (Exception e) {
@@ -133,6 +135,7 @@ public class UploadServlet extends HttpServlet {
                                 try {
                                     FilterWhiteList whiteList = new FilterWhiteList();
                                     whiteList.setUrl(line);
+                                    whiteList.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     monitor.addRuleWhiteList(whiteList);
                                     logger.info("[规则导入] - 导入一条新规则 " + whiteList);
                                 }catch (Exception e) {

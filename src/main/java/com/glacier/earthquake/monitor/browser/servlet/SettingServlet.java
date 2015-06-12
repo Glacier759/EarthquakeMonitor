@@ -56,6 +56,12 @@ public class SettingServlet extends HttpServlet {
                             jsonObject.put("create_time", format.format(filter.getCreateDate()));
                             jsonObject.put("rule", filter.getFilterRule());
                             jsonObject.put("id", filter.getId());
+                            if ( filter.getSubmiter() == null ) {
+                                jsonObject.put("submiter", "未知");
+                            }
+                            else {
+                                jsonObject.put("submiter", filter.getSubmiter());
+                            }
                             jsonArray.put(jsonObject);
                         }
                     }
@@ -70,6 +76,12 @@ public class SettingServlet extends HttpServlet {
                             jsonObject.put("matcher", filter.getMatcher());
                             jsonObject.put("unexist", filter.getUnexist());
                             jsonObject.put("id", filter.getId());
+                            if ( filter.getSubmiter() == null ) {
+                                jsonObject.put("submiter", "未知");
+                            }
+                            else {
+                                jsonObject.put("submiter", filter.getSubmiter());
+                            }
                             jsonArray.put(jsonObject);
                         }
                     }
@@ -82,6 +94,12 @@ public class SettingServlet extends HttpServlet {
                             jsonObject.put("create_time", format.format(filter.getDate()));
                             jsonObject.put("url", filter.getUrl());
                             jsonObject.put("id", filter.getId());
+                            if ( filter.getSubmiter() == null ) {
+                                jsonObject.put("submiter", "未知");
+                            }
+                            else {
+                                jsonObject.put("submiter", filter.getSubmiter());
+                            }
                             jsonArray.put(jsonObject);
                         }
                     }
@@ -130,6 +148,7 @@ public class SettingServlet extends HttpServlet {
                                     }
                                     FilterDisaster filterDisaster = new FilterDisaster();
                                     filterDisaster.setFilterRule(f);
+                                    filterDisaster.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRuleDisaster(filterDisaster);
                                     logger.info("[插入规则] - 插入规则成功: " + f + "[FilterDisaster]");
                                 } catch (Exception e) {
@@ -143,9 +162,12 @@ public class SettingServlet extends HttpServlet {
                         String[] filter_unexists = request.getParameterValues("filter-unexist");
                         if ( filter_names != null && filter_matchers != null && filter_unexists != null ) {
                             for (int index = 0; index < filter_names.length; index++) {
-                                String filter_name = new String(filter_names[index].getBytes("iso-8859-1"),"UTF-8");
-                                String filter_matcher = new String(filter_matchers[index].getBytes("iso-8859-1"),"UTF-8");
-                                String filter_unexist = new String(filter_unexists[index].getBytes("iso-8859-1"),"UTF-8");
+//                                String filter_name = new String(filter_names[index].getBytes("iso-8859-1"),"UTF-8");
+//                                String filter_matcher = new String(filter_matchers[index].getBytes("iso-8859-1"),"UTF-8");
+//                                String filter_unexist = new String(filter_unexists[index].getBytes("iso-8859-1"),"UTF-8");
+                                String filter_name = filter_names[index];
+                                String filter_matcher = filter_matchers[index];
+                                String filter_unexist = filter_unexists[index];
                                 try {
                                     if (filter_name.length() < 1 || filter_matcher.length() < 1 || filter_unexist.length() < 1) {
                                         logger.error("[插入规则] - 插入规则失败: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
@@ -155,8 +177,9 @@ public class SettingServlet extends HttpServlet {
                                     filterPublicSentiment.setName(filter_name);
                                     filterPublicSentiment.setMatcher(filter_matcher);
                                     filterPublicSentiment.setUnexist(filter_unexist);
+                                    filterPublicSentiment.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRulePubSentiment(filterPublicSentiment);
-                                    logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
+                                    logger.info("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
                                 } catch (Exception e) {
                                     logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
                                 }
@@ -166,7 +189,7 @@ public class SettingServlet extends HttpServlet {
                         String filters_whitelists[] = request.getParameterValues("whitelist");
                         if ( filters_whitelists != null ) {
                             for (String f : filters_whitelists) {
-                                f = new String(f.getBytes("iso-8859-1"),"UTF-8");
+                                //f = new String(f.getBytes("iso-8859-1"),"UTF-8");
                                 try {
                                     if (f.length() < 1) {
                                         logger.error("[插入规则] - 插入规则失败: " + f + " [FilterWhiteList]");
@@ -174,6 +197,7 @@ public class SettingServlet extends HttpServlet {
                                     }
                                     FilterWhiteList filterWhiteList = new FilterWhiteList();
                                     filterWhiteList.setUrl(f);
+                                    filterWhiteList.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRuleWhiteList(filterWhiteList);
                                     logger.info("[插入规则] - 插入规则成功: " + f + "[FilterWhiteList]");
                                 } catch (Exception e) {
@@ -541,6 +565,55 @@ public class SettingServlet extends HttpServlet {
                         }
                         else {
                             response.getWriter().print("permission denied");
+                        }
+                    }
+                }
+            }
+            else if ( operate.equals("modify") ) {
+                if ( type != null && type.equals("public") ) {
+                    String name = request.getParameter("filter-name");
+                    String matcher = request.getParameter("filter-matcher");
+                    String unexist = request.getParameter("filter-unexist");
+                    String id = request.getParameter("filter-id");
+                    FilterRuleMonitor monitor = UserMonitor.getUserMonitor(request).getFilterRuleMonitor();
+                    if ( name != null && matcher != null && unexist != null && id != null ) {
+                        FilterPublicSentiment filter = monitor.getFilterPubSentimentByID(Integer.parseInt(id));
+                        if ( filter == null ) {
+                            response.getWriter().print("wrong");
+                        }
+                        else {
+                            filter.setName(name);
+                            filter.setUnexist(unexist);
+                            filter.setMatcher(matcher);
+                            if ( monitor.setRulePubSentiment(filter) ) {
+                                response.getWriter().print("ok");
+                            }
+                            else {
+                                response.getWriter().print("wrong");
+                            }
+                        }
+                    }
+                    else {
+                        response.getWriter().print("wrong");
+                    }
+                }
+                else if ( type != null && type.equals("disaster") ) {
+                    String name = request.getParameter("filter-name");
+                    String id = request.getParameter("filter-id");
+                    FilterRuleMonitor monitor = UserMonitor.getUserMonitor(request).getFilterRuleMonitor();
+                    if ( name != null && id != null ) {
+                        FilterDisaster filter = monitor.getFilterDisasterByID(Integer.parseInt(id));
+                        if ( filter == null ) {
+                            response.getWriter().print("wrong");
+                        }
+                        else {
+                            filter.setFilterRule(name);
+                            if ( monitor.setRuleDisaster(filter) ) {
+                                response.getWriter().print("ok");
+                            }
+                            else {
+                                response.getWriter().print("wrong");
+                            }
                         }
                     }
                 }

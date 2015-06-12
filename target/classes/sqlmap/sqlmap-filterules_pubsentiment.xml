@@ -9,6 +9,7 @@
         <result column="matcher" property="matcher"/>
         <result column="unexist" property="unexist"/>
         <result column="create_date" property="createDate"/>
+        <result column="submiter" property="submiter"/>
     </resultMap>
 
     <select id="getFilterRulesPubSentiment" resultMap="filter_pubsentiment">
@@ -24,7 +25,7 @@
     </delete>
 
     <insert id="addFilterRulesPubSentiment" parameterType="FilterPublicSentiment">
-        INSERT INTO filter_rules_pubsentiment(name, matcher, unexist) VALUES(#{name}, #{matcher}, #{unexist});
+        INSERT INTO filter_rules_pubsentiment(name, matcher, unexist, submiter) VALUES(#{name}, #{matcher}, #{unexist}, #{submiter});
     </insert>
 
     <select id="getFilterPubSentimentByID" parameterType="Integer" resultMap="filter_pubsentiment">

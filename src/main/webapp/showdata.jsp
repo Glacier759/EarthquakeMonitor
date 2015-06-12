@@ -186,7 +186,6 @@
                             row.setAttribute("status", objson[i].type);
 
                             var col0 = document.createElement("td");
-                            col0.setAttribute("valign", "middle");
                             col0.setAttribute("class", "text-center");
                             var span0 = document.createElement("span");
                             span0.setAttribute("class", "label label-default");

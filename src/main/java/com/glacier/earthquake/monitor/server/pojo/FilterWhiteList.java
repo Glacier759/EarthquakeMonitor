@@ -10,6 +10,7 @@ public class FilterWhiteList {
     private String url;
     private int id;
     private Date date;
+    private String submiter;
 
     public String getUrl() {
         return url;
@@ -35,12 +36,21 @@ public class FilterWhiteList {
         this.date = date;
     }
 
+    public String getSubmiter() {
+        return submiter;
+    }
+
+    public void setSubmiter(String submiter) {
+        this.submiter = submiter;
+    }
+
     @Override
     public String toString() {
         return "FilterWhiteList{" +
                 "url='" + url + '\'' +
                 ", id=" + id +
                 ", date=" + date +
+                ", submiter='" + submiter + '\'' +
                 '}';
     }
 }

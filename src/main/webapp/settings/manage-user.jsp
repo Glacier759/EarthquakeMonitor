@@ -95,10 +95,10 @@
                     <table class="table table-striped table-bordered table-hover" id="filters-table">
                         <thead>
                         <tr>
-                            <th class="text-center">Nickname</th>
-                            <th class="text-center">Email</th>
-                            <th class="text-center">Mobile</th>
-                            <th class="text-center">Setting</th>
+                            <th class="text-center">用户名</th>
+                            <th class="text-center">邮箱</th>
+                            <th class="text-center">手机</th>
+                            <th class="text-center">设置</th>
                         </tr>
                         </thead>
                         <tbody id="filters-tbody"></tbody>

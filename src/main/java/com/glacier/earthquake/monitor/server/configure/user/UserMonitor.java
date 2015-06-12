@@ -37,6 +37,10 @@ public class UserMonitor {
         this.user = user;
     }
 
+    public String getUsername() {
+        return user.getRealname();
+    }
+
     /**
      * 判断用户情况，参数传入email或mobile都可以，查找到则返回该用户的一个pojo
      * */
