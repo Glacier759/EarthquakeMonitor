@@ -6,6 +6,7 @@
     <resultMap id="filter_whitelist" type="FilterWhiteList">
         <id column="id" property="id"/>
         <result column="url" property="url"/>
+        <result column="submiter" property="submiter"/>
         <result column="create_date" property="date"/>
     </resultMap>
 
@@ -22,7 +23,7 @@
     </delete>
 
     <insert id="addFilterRulesWhite" parameterType="FilterWhiteList">
-        INSERT INTO filter_rules_whitelist(url) VALUES(#{url});
+        INSERT INTO filter_rules_whitelist(url, submiter) VALUES(#{url}, #{submiter});
     </insert>
 
     <select id="getFilterWhiteListByID" parameterType="Integer" resultMap="filter_whitelist">

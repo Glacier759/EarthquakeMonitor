@@ -401,10 +401,16 @@ public class SettingServlet extends HttpServlet {
                 String op = request.getParameter("type");
                 if ( id_array != null && op != null ) {
                     int flag = 1;
+                    UserMonitor monitor = UserMonitor.getUserMonitor(request);
                     for ( String id : id_array ) {
                         try {
                             if (op.equals("0")) {
-                                if (UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().deleteSpiderInfo(Integer.parseInt(id))) {
+                                SpiderInfo spiderInfo = monitor.getSpiderInfoMonitor().getSpiderInfoByID(Integer.parseInt(id));
+                                FilterWhiteList whiteList = new FilterWhiteList();
+                                whiteList.setUrl(spiderInfo.getUrl());
+                                whiteList.setSubmiter(monitor.getUsername());
+                                monitor.getFilterRuleMonitor().addRuleWhiteList(whiteList);
+                                if (monitor.getSpiderInfoMonitor().deleteSpiderInfo(Integer.parseInt(id))) {
                                     flag *= 1;
                                     logger.info("[审核淘汰] - id: " + id);
                                 } else {

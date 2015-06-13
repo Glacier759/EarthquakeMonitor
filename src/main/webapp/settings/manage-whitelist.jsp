@@ -63,6 +63,7 @@
                             <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
                             <li><a href="#"><h4>白名单管理</h4></a></li>
                         </ul>
                     </div>
@@ -149,7 +150,7 @@
                         <thead>
                         <tr>
                             <th class="text-center" width="70px">创建人</th>
-                            <th class="text-center">创建时间</th>
+                            <th class="text-center" width="200px">创建时间</th>
                             <th class="text-center">地址</th>
                             <th class="text-center" width="80px">设置</th>
                         </tr>
@@ -243,6 +244,7 @@
                             row.appendChild(col1);
                             var col2 = document.createElement("th");
                             col2.setAttribute("class", "text-center");
+                            col2.setAttribute("style", "overflow-x:hidden;");
                             col2.appendChild(document.createTextNode(objson[i].url));
                             row.appendChild(col2);
                             var col3 = document.createElement("th");

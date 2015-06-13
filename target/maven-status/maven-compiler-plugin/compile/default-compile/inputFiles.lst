@@ -28,6 +28,7 @@
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weixin_search/WeixinCrawler.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/util/BloomFilter.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/WeiboDownloader.java
+/home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/browser/util/SpiderInfoUtils.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/pojo/SpiderProxy.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/pojo/FilterWhiteList.java
 /home/glacier/Java/IDE/IDEA/IdeaProjects/EarthquakeMonitor/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/Login.java

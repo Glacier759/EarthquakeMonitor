@@ -63,6 +63,7 @@
                             <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
                             <li><a href="#"><h4>白名单管理</h4></a></li>
                         </ul>
                     </div>
@@ -145,12 +146,13 @@
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <div id="filters-div">
-                    <table class="table table-striped table-bordered table-hover" id="filters-table">
+                    <table class="table table-striped table-bordered table-hover" id="filters-table" style="table-layout: fixed;">
                         <thead>
                         <tr>
-                            <th class="text-center">创建时间</th>
+                            <th class="text-center" width="70px">创建人</th>
+                            <th class="text-center" width="200px">创建时间</th>
                             <th class="text-center">地址</th>
-                            <th class="text-center">设置</th>
+                            <th class="text-center" width="80px">设置</th>
                         </tr>
                         </thead>
                         <tbody id="filters-tbody"></tbody>
@@ -228,12 +230,21 @@
                             var row = document.createElement("tr");
                             row.setAttribute("id", objson[i].id);
                             row.setAttribute("class", "text-info");
+                            var col0 = document.createElement("td");
+                            col0.setAttribute("valign", "middle");
+                            col0.setAttribute("class", "text-center");
+                            var span0 = document.createElement("span");
+                            span0.setAttribute("class", "label label-default");
+                            span0.innerHTML = objson[i].submiter;
+                            col0.appendChild(span0);
+                            row.appendChild(col0);
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");
                             col1.appendChild(document.createTextNode(objson[i].create_time));
                             row.appendChild(col1);
                             var col2 = document.createElement("th");
                             col2.setAttribute("class", "text-center");
+                            col2.setAttribute("style", "overflow-x:hidden;");
                             col2.appendChild(document.createTextNode(objson[i].url));
                             row.appendChild(col2);
                             var col3 = document.createElement("th");

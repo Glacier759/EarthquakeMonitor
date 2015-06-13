@@ -7,6 +7,7 @@
         <id column="id" property="id"/>
         <result column="rule" property="filterRule"/>
         <result column="create_date" property="createDate"/>
+        <result column="submiter" property="submiter"/>
     </resultMap>
 
     <select id="getFilterRulesDisaster" resultMap="filter_disaster">
@@ -19,7 +20,7 @@
         DELETE FROM filter_rules_disaster WHERE id = #{id};
     </delete>
     <insert id="addFilterRulesDisaster" parameterType="FilterDisaster">
-        INSERT INTO filter_rules_disaster(rule) VALUES(#{filterRule});
+        INSERT INTO filter_rules_disaster(rule, submiter) VALUES(#{filterRule}, #{submiter});
     </insert>
 
     <select id="getFilterDisasterByID" parameterType="Integer" resultMap="filter_disaster">

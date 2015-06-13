@@ -64,6 +64,7 @@
                             <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
                             <li><a href="#"><h4>舆情监测匹配式管理</h4></a></li>
                         </ul>
                     </div>
@@ -109,31 +110,31 @@
                             <div id="filterinfo">
                                 <div class="row" name="disaster" count="1">
                                     <div class="row">
-                                        <div class="col-lg-1"></div>
-                                        <div class="col-lg-5">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-5">
                                             <div class="input-group">
                                                 <span class="input-group-addon">匹配规则</span>
                                                 <input type="text" class="form-control" placeholder="福州*发生地震" name="filter-name" value="" />
                                             </div>
                                         </div>
-                                        <div class="col-lg-5">
+                                        <div class="col-md-5">
                                             <div class="input-group">
                                                 <span class="input-group-addon">不含关键字</span>
                                                 <input type="text" class="form-control" placeholder="汶川 新西兰" name="filter-unexist" value="" />
                                             </div>
                                         </div>
-                                        <div class="col-lg-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                     <br />
                                     <div class="row">
-                                        <div class="col-lg-1"></div>
-                                        <div class="col-lg-10">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10">
                                             <div class="input-group">
                                                 <span class="input-group-addon">正则表达式</span>
                                                 <input type="text" class="form-control" placeholder="S*福建[^，。；？！]发生[^，。；？！]" name="filter-matcher" value="" />
                                             </div>
                                         </div>
-                                        <div class="col-lg-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                     <br /><br />
                                 </div>
