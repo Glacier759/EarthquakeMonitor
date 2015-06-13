@@ -8,10 +8,7 @@ import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.SpiderFilter;
 import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
-import com.glacier.earthquake.monitor.server.util.Data2Object;
-import com.glacier.earthquake.monitor.server.util.JudgeFilter;
-import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
-import com.glacier.earthquake.monitor.server.util.PublicSentimentUtils;
+import com.glacier.earthquake.monitor.server.util.*;
 import org.apache.commons.io.FileUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.log4j.Logger;
@@ -122,29 +119,15 @@ public class BaiduSearchCrawler extends Crawler {
 
                                 logger.info("[判断] - 正在对搜索结果进行正确新判断");
                                 //进行过滤条件判断
-                                boolean ans = true;
-                                String base = "(.*)";
-                                for (String keyword : keywords) {
-                                    base += keyword + "(.*)";
-                                    ans = ans && document_result.text().contains(keyword);
-                                }
-
-                                Pattern pattern = Pattern.compile(base);
-                                Matcher matcher = pattern.matcher(document_result.toString());
-                                if ( matcher.find() ) {
-                                    logger.info("[正则匹配] - 正则匹配成功 " + document_result.baseUri());
-                                } else {
-                                    logger.info("[正则匹配] - 正则匹配失败 " + document_result.baseUri());
-                                    ans = false;
-                                }
-
-                                //如果ans为true则表示当前网页符合过滤条件
-                                if (ans) {
+                                String summary = StringUtils.examinePageKeywords(document_result.text(), keywords);
+                                if ( summary != null ) {
                                     //FileUtils.writeStringToFile(new File("Data", System.currentTimeMillis() + ".xml"), document_result.toString());
                                     SpiderInfo spiderInfo = new SpiderInfo();
                                     spiderInfo.setType(type);
                                     spiderInfo.setUrl(document_result.baseUri());
                                     spiderInfo.setTitle(document_result.title());
+                                    spiderInfo.setSource(StringUtils.summaryDispose(summary, keywords));
+                                    spiderInfo.setPage_date(StringUtils.getPubTimeVarious(document_result.baseUri(), document_result.toString()));
                                     //改为iframe后不需要保存原文信息
                                     //spiderInfo.setSource(document_result.select("p").text());
                                     spiderInfo.setOrigin(SystemConfig.CONFIG_TYPE_BAIDU_SEARCH);

@@ -14,10 +14,7 @@ import com.glacier.earthquake.monitor.server.crawler.module.tieba_search.TiebaCr
 import com.glacier.earthquake.monitor.server.crawler.module.weibo_sina.WeiboCrawler;
 import com.glacier.earthquake.monitor.server.crawler.module.weixin_search.WeixinCrawler;
 import com.glacier.earthquake.monitor.server.pojo.*;
-import com.glacier.earthquake.monitor.server.util.Data2Object;
-import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
-import com.glacier.earthquake.monitor.server.util.Object2Data;
-import com.glacier.earthquake.monitor.server.util.PublicSentimentUtils;
+import com.glacier.earthquake.monitor.server.util.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -39,6 +36,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by glacier on 15-5-1.
@@ -46,11 +45,18 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+
         DefaultHttpClient httpClient = MyHttpConnectionManager.getHttpClient();
         Downloader downloader = new Downloader();
         downloader.setClient(httpClient);
-        Document document = downloader.document("http://news.ifeng.com/gundong/detail_2014_02/12/33746506_0.shtml", Downloader.HTTP_GET);
+        Document document = downloader.document("http://www.zfxww.cn/Info.aspx?ModelId=1&Id=2017", Downloader.HTTP_GET);
         System.out.println(document);
+        System.out.println(document.text());
+        String keywords = "新疆*将*发生*级*地震";
+        String summary = StringUtils.examinePageKeywords(document.text(), keywords);
+        System.out.println(summary);
+//        Crawler crawler = new BaiduSearchCrawler();
+//        crawler.start();
     }
 
 }

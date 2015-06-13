@@ -9,6 +9,7 @@ import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.JudgeFilter;
+import com.glacier.earthquake.monitor.server.util.StringUtils;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -129,31 +130,15 @@ public class WeiboCrawler extends Crawler {
 
                         Scheduler.insertRecord(Scheduler.SIGN_ID, weiboDiv.attr("id"), Scheduler.SERVICE_WEIBO_SEARCH, ruleID, SpiderInfo.FILTER_DISASTER);
 
-                        //进行过滤条件判断
-                        boolean ans = true;
-                        String base = "(.*)";
-                        for (String keyword : keywords) {
-                            base += keyword + "(.*)";
-                            ans = ans && weiboText.text().contains(keyword);
-                        }
-
-                        Pattern pattern = Pattern.compile(base);
-                        Matcher matcher = pattern.matcher(weiboText.toString());
-                        if ( matcher.find() ) {
-                            logger.info("[正则匹配] - 正则匹配成功 " + weiboDiv.attr("id"));
-                        } else {
-                            logger.info("[正则匹配] - 正则匹配失败 " + weiboDiv.attr("id"));
-                            ans = false;
-                        }
-
-                        //如果ans为true则表示当前微博符合过滤规则
-                        if ( ans ) {
+                        String summary = StringUtils.examinePageKeywords(weiboDiv.text(), keywords);
+                        if ( summary != null ) {
                             SpiderInfo spiderInfo = new SpiderInfo();
                             spiderInfo.setUrl(document.baseUri());
                             spiderInfo.setRule_id(ruleID);
                             spiderInfo.setTitle(weiboText.text());
                             spiderInfo.setType(type);
-                            spiderInfo.setSource(weiboText.text());
+                            spiderInfo.setSource(StringUtils.summaryDispose(weiboText.text(), keywords));
+                            spiderInfo.setPage_date(StringUtils.getPubTimeVarious(weiboDiv.baseUri(), weiboDiv.toString()));
                             spiderInfo.setOrigin(SystemConfig.CONFIG_TYPE_SINA_WEIBO);
                             //设置好属性后插入数据库
                             SpiderInfoManager.insertSpiderInfo(spiderInfo);

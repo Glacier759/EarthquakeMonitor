@@ -108,9 +108,9 @@
                             <thead>
                             <tr>
                                 <th class="text-center" width="60px">来源</th>
-                                <th class="text-center" width="300px">标题</th>
-                                <th class="text-center">来源地址</th>
-                                <th class="text-center" width="200px">获取时间</th>
+                                <th class="text-center" width="220px">标题</th>
+                                <th class="text-center">摘要</th>
+                                <th class="text-center" width="200px">发布时间</th>
                                 <th class="text-center" width="80px">设置</th>
                             </tr>
                             </thead>
@@ -195,12 +195,15 @@
 
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");
+                            col1.setAttribute("style", "overflow-x:hidden;");
                             col1.appendChild(document.createTextNode(objson[i].title));
                             row.appendChild(col1);
                             var col2 = document.createElement("th");
                             col2.setAttribute("class", "text-center");
-                            col2.setAttribute("style", "overflow-x:hidden;");
-                            col2.appendChild(document.createTextNode(objson[i].url));
+                            var ele = document.createElement("p");
+                            ele.innerHTML = objson[i].source;
+                            col2.appendChild(ele);
+                            //col2.appendChild(document.createTextNode("<br />新疆且末县（经度85.8°北纬36.7°）可能将发生MS≥6.6级地震 "));
                             row.appendChild(col2);
                             var col3 = document.createElement("th");
                             col3.setAttribute("class", "text-center");
@@ -224,6 +227,9 @@
             }
         </script>
         <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
             function show(value) {
                 $.ajax({
                     type: "get",
@@ -255,9 +261,6 @@
                             $("#filter-patten").attr("title", objson.matcher);
                             $("#filter-unexist").attr("title", objson.unexist);
                         }
-                        $(function () {
-                            $('[data-toggle="tooltip"]').tooltip();
-                        });
                         $("#show-div").modal("toggle");
                     }
                 });

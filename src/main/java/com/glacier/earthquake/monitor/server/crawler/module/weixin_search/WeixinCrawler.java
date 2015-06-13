@@ -11,6 +11,7 @@ import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
 import com.glacier.earthquake.monitor.server.util.Data2Object;
 import com.glacier.earthquake.monitor.server.util.JudgeFilter;
 import com.glacier.earthquake.monitor.server.util.MyHttpConnectionManager;
+import com.glacier.earthquake.monitor.server.util.StringUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
@@ -104,30 +105,15 @@ public class WeixinCrawler extends Crawler {
                             Document document_post = downloader.document(resultLink, Downloader.HTTP_GET);
                             Scheduler.insertRecord(Scheduler.SIGN_URL, resultLink, Scheduler.SERVICE_WEIXIN_SERACH, rule_id,SpiderInfo.FILTER_DISASTER);
 
-                            //进行过滤条件判断
-                            boolean ans = true;
-                            String base = "(.*)";
-                            for (String keyword : keywords) {
-                                base += keyword + "(.*)";
-                                ans = ans && document_post.text().contains(keyword);
-                            }
-
-                            Pattern pattern = Pattern.compile(base);
-                            Matcher matcher = pattern.matcher(document_post.toString());
-                            if ( matcher.find() ) {
-                                logger.info("[正则匹配] - 正则匹配成功 " + document_post.baseUri());
-                            } else {
-                                logger.info("[正则匹配] - 正则匹配失败 " + document_post.baseUri());
-                                ans = false;
-                            }
-
-                            //如果ans为true则表示当前网页符合过滤条件
-                            if (ans) {
+                            String summary = StringUtils.examinePageKeywords(document_post.text(), keywords);
+                            if ( summary != null ) {
                                 SpiderInfo spiderInfo = new SpiderInfo();
                                 spiderInfo.setRule_id(rule_id);
                                 spiderInfo.setType(type);
                                 spiderInfo.setTitle(document_post.title());
                                 spiderInfo.setUrl(document_post.baseUri());
+                                spiderInfo.setSource(StringUtils.summaryDispose(summary, keywords));
+                                spiderInfo.setPage_date(StringUtils.getPubTimeVarious(document_post.baseUri(), document_post.toString()));
                                 //改为iframe后不需要保存原文信息
                                 //spiderInfo.setSource(document_post.select("div[id=page-content]").text());
                                 spiderInfo.setOrigin(SystemConfig.CONFIG_TYPE_WEIXIN_SEARCH);

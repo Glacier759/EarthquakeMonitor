@@ -60,6 +60,8 @@ public class Scheduler {
 
     public static SpiderFilter getRecordBySignVale(String sign_value, int ruleID, int type) {
         SpiderFilter filter = Data2Object.getRecordBySignValue(sign_value, type);
+        if ( filter == null )
+            return null;
         String rule_json = filter.getRule_json();
         if ( rule_json != null) {
             JSONArray jsonArray = new JSONArray(rule_json);
