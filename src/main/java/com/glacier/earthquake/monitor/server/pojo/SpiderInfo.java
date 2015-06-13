@@ -15,7 +15,7 @@ public class SpiderInfo {
 
     private int id, rule_id, type, status;
     private String url, title, source;
-    private Date create_date;
+    private Date create_date, page_date;
     private int origin;
 
     public int getId() {
@@ -90,6 +90,14 @@ public class SpiderInfo {
         this.origin = origin;
     }
 
+    public Date getPage_date() {
+        return page_date;
+    }
+
+    public void setPage_date(Date page_date) {
+        this.page_date = page_date;
+    }
+
     @Override
     public String toString() {
         return "SpiderInfo{" +
@@ -101,6 +109,7 @@ public class SpiderInfo {
                 ", title='" + title + '\'' +
                 ", source='" + source + '\'' +
                 ", create_date=" + create_date +
+                ", page_date=" + page_date +
                 ", origin=" + origin +
                 '}';
     }

@@ -1,10 +1,18 @@
 package com.glacier.earthquake.monitor.server.util;
 
+import java.text.SimpleDateFormat;
+import java.util.regex.Pattern;
 
 /**
  * Created by glacier on 15-5-1.
  */
 public class StringUtils {
+
+    public static boolean hasDate( String text ) {
+        Pattern pattern_1 = Pattern.compile("");
+
+        return false;
+    }
 
     /**
      * 判断字符串是否为空或空字符串

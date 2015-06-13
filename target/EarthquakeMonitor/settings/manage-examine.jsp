@@ -59,6 +59,7 @@
                             <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
                             <li><a href="#"><h4>审核管理</h4></a></li>
                         </ul>
                     </div>
@@ -119,8 +120,8 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12" align="right">
-                                <input class="btn btn-danger btn-lg" onclick="submit_form(0)" type="button" value="审核淘汰" />
-                                <input class="btn btn-info btn-lg" onclick="submit_form(1)" type="button" value="审核通过" />
+                                <input class="btn btn-danger btn-lg" onclick="submit_form(0)" type="button" value="加入白名单" data-toggle="tooltip2" data-placement="top" title="审核淘汰" />
+                                <input class="btn btn-info btn-lg" onclick="submit_form(1)" type="button" value="记录提交" data-toggle="tooltip2"  data-placement="top" title="审核通过" />
                             </div>
                         </div>
                     </form>
@@ -240,6 +241,9 @@
             }
         </script>
         <script>
+            $(function () {
+                $('[data-toggle="tooltip2"]').tooltip();
+            });
             function show(value) {
                 $.ajax({
                     type: "get",

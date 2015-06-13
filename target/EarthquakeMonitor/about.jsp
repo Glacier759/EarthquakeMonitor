@@ -61,6 +61,9 @@
                             </li>
                             <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
                         </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
+                        </ul>
                     </div>
                     <!-- /.navbar-collapse -->
                 </div>

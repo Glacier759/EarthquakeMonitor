@@ -46,7 +46,11 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Data2Object.truncateDisaster();
+        DefaultHttpClient httpClient = MyHttpConnectionManager.getHttpClient();
+        Downloader downloader = new Downloader();
+        downloader.setClient(httpClient);
+        Document document = downloader.document("http://news.ifeng.com/gundong/detail_2014_02/12/33746506_0.shtml", Downloader.HTTP_GET);
+        System.out.println(document);
     }
 
 }
