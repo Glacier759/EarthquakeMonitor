@@ -97,7 +97,7 @@ public class Downloader {
             Document document = Jsoup.parse(getContent(entity, encode));
             document.setBaseUri(url);   //设置document的来源地址
 
-            if ( document.html().contains("GBK") && !encode.equals("GBK") ) {
+            if ( (document.select("meta").toString().contains("gbk") || document.select("meta").toString().contains("GBK")) && !encode.equals("GBK") ) {
                 setEncode("GBK");
                 document = document(url, HTTP_GET);
                 setEncode("utf-8");
@@ -105,7 +105,6 @@ public class Downloader {
             }
 
             document = document_method(document);
-
             return document;
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

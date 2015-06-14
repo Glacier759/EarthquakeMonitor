@@ -46,17 +46,17 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        DefaultHttpClient httpClient = MyHttpConnectionManager.getHttpClient();
-        Downloader downloader = new Downloader();
-        downloader.setClient(httpClient);
-        Document document = downloader.document("http://www.zfxww.cn/Info.aspx?ModelId=1&Id=2017", Downloader.HTTP_GET);
-        System.out.println(document);
-        System.out.println(document.text());
-        String keywords = "新疆*将*发生*级*地震";
-        String summary = StringUtils.examinePageKeywords(document.text(), keywords);
-        System.out.println(summary);
-//        Crawler crawler = new BaiduSearchCrawler();
-//        crawler.start();
+//        DefaultHttpClient httpClient = MyHttpConnectionManager.getHttpClient();
+//        Downloader downloader = new Downloader();
+//        downloader.setClient(httpClient);
+//        Document document = downloader.document("http://bbs.qianlong.com/thread-6962102-1-1.html", Downloader.HTTP_GET);
+//        System.out.println(document);
+//        System.out.println(document.text());
+//        String keywords = "新疆*将*发生*级*地震";
+//        String summary = StringUtils.examinePageKeywords(document.text(), keywords);
+//        System.out.println(summary);
+        Crawler crawler = new BingCrawler();
+        crawler.start();
     }
 
 }

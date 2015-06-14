@@ -127,7 +127,6 @@ public class BBSCrawler extends Crawler {
                             logger.error(baos.toString());
                         }
                     }
-                    return;
                 }catch (Exception e) {
                     ByteArrayOutputStream baos = new ByteArrayOutputStream();
                     e.printStackTrace(new PrintStream(baos));
@@ -143,7 +142,7 @@ public class BBSCrawler extends Crawler {
 
     private Document next(Document document) {
         try {
-            if ( document.select("a[id=sogou_next]").size() > 0 && document.select("a[id=sogou_next]").text().contains("下一页") ) {
+            if ( document.getElementById("sogou_next") != null && document.getElementById("sogou_next").text().contains("下一页") ) {
                 String nextPage = document.baseUri();
                 Integer page = Integer.parseInt(nextPage.substring(nextPage.lastIndexOf("&page=") + 6)) + 1;
                 nextPage = nextPage.substring( 0, nextPage.lastIndexOf("&page=")+6 ) + page;

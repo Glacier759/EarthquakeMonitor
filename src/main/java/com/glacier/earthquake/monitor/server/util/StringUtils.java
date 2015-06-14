@@ -251,17 +251,7 @@ public class StringUtils {
     public static final String examinePageKeywords( String page, String keywords ) {
 
         String[] keywordsArr = keywords.split("\\*");
-        String patternStr = "";
-        for ( String keyword : keywordsArr ) {
-            patternStr += keyword + "[\\u4e00-\\u9fa5\\w\\Sm][^，。]*";
-        }
-        Pattern pattern = Pattern.compile(patternStr);
-        Matcher matcher = pattern.matcher(page);
-        System.out.println(pattern.pattern());
-        if ( matcher.find() ) {
-            return matcher.group(0);
-        }
-        return null;
+        return examinePageKeywords(page, keywordsArr);
     }
 
     /**
@@ -277,9 +267,16 @@ public class StringUtils {
         }
         Pattern pattern = Pattern.compile(patternStr);
         Matcher matcher = pattern.matcher(page);
-
         if ( matcher.find() ) {
-            return matcher.group(0);
+            String summary = matcher.group();
+            pattern = Pattern.compile("[:。，]");
+            matcher = pattern.matcher(summary);
+            if ( matcher.find() ) {
+                return null;
+            }
+            else {
+                return summary;
+            }
         }
         return null;
     }

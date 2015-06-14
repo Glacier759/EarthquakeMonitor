@@ -88,6 +88,7 @@ public class TiebaCrawler extends Crawler {
                     for (Element element : elements) {
                         try {
                             String postLink = element.select("a[class=bluelink]").attr("abs:href");
+                            postLink = postLink.substring(0, postLink.indexOf("?"));
                             logger.info("[解析] - 得到一条搜索结果链接 " + postLink);
 
                             //再次依据白名单做以筛选

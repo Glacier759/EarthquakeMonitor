@@ -9,10 +9,11 @@
         <result column="origin" property="origin" />
         <result column="create_date" property="create_date" />
         <result column="rule_json" property="rule_json" />
+        <result column="type" property="type" />
     </resultMap>
 
     <insert id="insertRecord" parameterType="SpiderFilter">
-        INSERT INTO spider_filter(sign, sign_value, origin) VALUES(#{sign}, md5(#{sign_value}), #{origin}, #{rule_json});
+        INSERT INTO spider_filter(sign, sign_value, origin, rule_json, type) VALUES(#{sign}, md5(#{sign_value}), #{origin}, #{rule_json}, #{type});
     </insert>
 
     <select id="getRecordBySignValue" parameterType="String" resultMap="SpiderFilter">

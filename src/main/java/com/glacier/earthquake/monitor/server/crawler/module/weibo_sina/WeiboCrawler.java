@@ -98,11 +98,12 @@ public class WeiboCrawler extends Crawler {
                     logger.info("[解析] 当前页解析得到 " + weiboDivs.size() + " 条微博");
 
                     int times = 0;
-                    //处理访问频繁被封禁问题, 一个页面连续三次出现这种问题放弃
-                    while ( weiboDivs.size() == 0 && times < 3 ) {
+                    //处理访问频繁被封禁问题, 一个页面连续5次出现这种问题放弃
+                    while ( weiboDivs.size() == 0 && times < 5 ) {
                         logger.info("[解析] 当前页面微博数为0, 更换账号重访问中...");
                         //调用reLogin方法重登陆并获得上次访问地址的Document
                         document = downloader.reLogin();
+                        logger.info("[登陆] - 连续登陆" + times + "次");
                         times ++;
                         try {
                             weiboDivs = document.select("div[class=c]").select("div[id]");
@@ -112,14 +113,15 @@ public class WeiboCrawler extends Crawler {
                             logger.error(baos.toString());
                         }
                     }
-                    if ( times == 3 ) {
+                    if ( times == 5 ) {
+                        logger.info("[登陆] - 连续登陆5次解析页面为0 关闭当前爬虫");
                         continue;
                     }
 
                     //遍历到每一条微博
                     for (Element weiboDiv : weiboDivs) {
                         //获得微博所在的Element
-                        Element weiboText = weiboDiv.select("span[class=ctt]").first();
+                        Element weiboText = weiboDiv.select("div").first();
                         if (weiboText == null)
                             continue;
 
@@ -137,7 +139,7 @@ public class WeiboCrawler extends Crawler {
                             spiderInfo.setRule_id(ruleID);
                             spiderInfo.setTitle(weiboText.text());
                             spiderInfo.setType(type);
-                            spiderInfo.setSource(StringUtils.summaryDispose(weiboText.text(), keywords));
+                            spiderInfo.setSource(StringUtils.summaryDispose(summary, keywords));
                             spiderInfo.setPage_date(StringUtils.getPubTimeVarious(weiboDiv.baseUri(), weiboDiv.toString()));
                             spiderInfo.setOrigin(SystemConfig.CONFIG_TYPE_SINA_WEIBO);
                             //设置好属性后插入数据库
