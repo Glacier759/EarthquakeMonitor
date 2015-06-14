@@ -5,6 +5,7 @@ import com.glacier.earthquake.monitor.server.configure.user.UserMonitor;
 import com.glacier.earthquake.monitor.server.pojo.FilterDisaster;
 import com.glacier.earthquake.monitor.server.pojo.FilterPublicSentiment;
 import com.glacier.earthquake.monitor.server.pojo.FilterWhiteList;
+import com.glacier.earthquake.monitor.server.pojo.User;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -38,19 +39,20 @@ public class UploadServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         String type = request.getParameter("type");
         String op = request.getParameter("op");
+        String users = UserMonitor.getUserMonitor(request).getUsername();
 
         FilterRuleMonitor monitor = UserMonitor.getUserMonitor(request).getFilterRuleMonitor();
         if ( op != null && op.equals("1") ) {
             if ( type != null && type.equals("disaster") ) {
-                logger.info("[覆盖规则] - 清空disaster表");
+                logger.info("[覆盖规则] - " + users + " 清空disaster表");
                 monitor.truncateDisaster();
             }
             else if ( type != null && type.equals("public") ) {
-                logger.info("[覆盖规则] - 清空public sentiment表");
+                logger.info("[覆盖规则] - " + users + " 清空public sentiment表");
                 monitor.truncatePubSentiment();
             }
             else if ( type != null && type.equals("whitelist") ) {
-                logger.info("[覆盖规则] - 清空white list表");
+                logger.info("[覆盖规则] - " + users + " 清空white list表");
                 monitor.truncateWhiteList();
             }
         }
@@ -89,12 +91,12 @@ public class UploadServlet extends HttpServlet {
                         if ( !uploaderFile.exists() ) {
                             uploaderFile.createNewFile();
                         }
-                        logger.info("[文件上传] - 绝对路径: " + uploaderFile.getAbsolutePath());
+                        logger.info("[文件上传] - " + users + " 绝对路径: " + uploaderFile.getAbsolutePath());
                         item.write(uploaderFile);
-                        logger.info("[文件上传] - 文件写入完毕");
+                        logger.info("[文件上传] - " + users + " 文件写入完毕");
 
                         if ( type != null && type.equals("disaster") ) {
-                            logger.info("[文件上传] - 得到一个Disaster文件");
+                            logger.info("[文件上传] - " + users + " 得到一个Disaster文件");
                             List<String> lines = FileUtils.readLines(uploaderFile);
                             for ( String line : lines ) {
                                 try {
@@ -102,7 +104,7 @@ public class UploadServlet extends HttpServlet {
                                     disaster.setFilterRule(line);
                                     disaster.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     monitor.addRuleDisaster(disaster);
-                                    logger.info("[规则导入] - 导入一条新规则 " + disaster);
+                                    logger.info("[规则导入] - " + users + " 导入一条新规则 " + disaster);
                                 }catch (Exception e) {
                                     ByteArrayOutputStream baos = new ByteArrayOutputStream();
                                     e.printStackTrace(new PrintStream(baos));
@@ -110,7 +112,7 @@ public class UploadServlet extends HttpServlet {
                                 }
                             }
                         } else if ( type != null && type.equals("public") ) {
-                            logger.info("[文件上传] - 得到一个Public Sentiment文件");
+                            logger.info("[文件上传] - " + users + " 得到一个Public Sentiment文件");
                             List<String> lines = FileUtils.readLines(uploaderFile);
                             for ( String line : lines ) {
                                 try {
@@ -121,7 +123,7 @@ public class UploadServlet extends HttpServlet {
                                     publicSentiment.setUnexist(option[2]);
                                     publicSentiment.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     monitor.addRulePubSentiment(publicSentiment);
-                                    logger.info("[规则导入] - 导入一条新规则 " + publicSentiment);
+                                    logger.info("[规则导入] - " + users + " 导入一条新规则 " + publicSentiment);
                                 }catch (Exception e) {
                                     ByteArrayOutputStream baos = new ByteArrayOutputStream();
                                     e.printStackTrace(new PrintStream(baos));
@@ -129,7 +131,7 @@ public class UploadServlet extends HttpServlet {
                                 }
                             }
                         } else if ( type != null && type.equals("whitelist") ) {
-                            logger.info("[文件上传] - 得到一个White List文件");
+                            logger.info("[文件上传] - " + users + " 得到一个White List文件");
                             List<String> lines = FileUtils.readLines(uploaderFile);
                             for ( String line : lines ) {
                                 try {
@@ -137,7 +139,7 @@ public class UploadServlet extends HttpServlet {
                                     whiteList.setUrl(line);
                                     whiteList.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     monitor.addRuleWhiteList(whiteList);
-                                    logger.info("[规则导入] - 导入一条新规则 " + whiteList);
+                                    logger.info("[规则导入] - " + users + " 导入一条新规则 " + whiteList);
                                 }catch (Exception e) {
                                     ByteArrayOutputStream baos = new ByteArrayOutputStream();
                                     e.printStackTrace(new PrintStream(baos));

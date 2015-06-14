@@ -43,6 +43,7 @@ public class SettingServlet extends HttpServlet {
         String type = request.getParameter("type");
         response.setContentType("text/html;charset=utf-8");
         request.setCharacterEncoding("utf-8");
+        String users = UserMonitor.getUserMonitor(request).getUsername();
         if ( operate != null ) {
             if ( operate.equals("table") ) {
                 JSONArray jsonArray = new JSONArray();
@@ -110,23 +111,23 @@ public class SettingServlet extends HttpServlet {
                 String filter_id = request.getParameter("filter_id");
                 if ( type != null && type.equals("disaster") ) {
                     if (UserMonitor.getUserMonitor(request).getFilterRuleMonitor().delRuleDisaster(Integer.parseInt(filter_id))) {
-                        logger.info("[删除规则] - 删除disaster规则ID: " + filter_id);
+                        logger.info("[删除规则] - " + users + " 删除disaster规则ID: " + filter_id);
                     } else {
-                        logger.info("[删除失败] - 删除disaster规则ID: " + filter_id);
+                        logger.info("[删除失败] - " + users + " 删除disaster规则ID: " + filter_id);
                         response.getWriter().print("permission denied");
                     }
                 } else if ( type != null && type.equals("public") ) {
                     if (UserMonitor.getUserMonitor(request).getFilterRuleMonitor().delRulePubSentiment(Integer.parseInt(filter_id))) {
-                        logger.info("[删除规则] - 删除public规则ID: " + filter_id);
+                        logger.info("[删除规则] - " + users + " 删除public规则ID: " + filter_id);
                     } else {
-                        logger.info("[删除失败] - 删除public规则ID: " + filter_id);
+                        logger.info("[删除失败] - " + users + " 删除public规则ID: " + filter_id);
                         response.getWriter().print("permission denied");
                     }
                 } else if ( type != null && type.equals("whitelist") ) {
                     if (UserMonitor.getUserMonitor(request).getFilterRuleMonitor().delRuleWhiteList(Integer.parseInt(filter_id))) {
-                        logger.info("[删除规则] - 删除whitelist规则ID: " + filter_id);
+                        logger.info("[删除规则] - " + users + " 删除whitelist规则ID: " + filter_id);
                     } else {
-                        logger.info("[删除失败] - 删除whitelist规则ID: " + filter_id);
+                        logger.info("[删除失败] - " + users + " 删除whitelist规则ID: " + filter_id);
                         response.getWriter().print("permission denied");
                     }
                 }
@@ -150,9 +151,9 @@ public class SettingServlet extends HttpServlet {
                                     filterDisaster.setFilterRule(f);
                                     filterDisaster.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRuleDisaster(filterDisaster);
-                                    logger.info("[插入规则] - 插入规则成功: " + f + "[FilterDisaster]");
+                                    logger.info("[插入规则] - " + users + " 插入规则成功: " + f + "[FilterDisaster]");
                                 } catch (Exception e) {
-                                    logger.error("[插入规则] - 插入规则失败: " + f + " [FilterDisaster]");
+                                    logger.error("[插入规则] - " + users + " 插入规则失败: " + f + " [FilterDisaster]");
                                 }
                             }
                         }
@@ -170,7 +171,7 @@ public class SettingServlet extends HttpServlet {
                                 String filter_unexist = filter_unexists[index];
                                 try {
                                     if (filter_name.length() < 1 || filter_matcher.length() < 1 || filter_unexist.length() < 1) {
-                                        logger.error("[插入规则] - 插入规则失败: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
+                                        logger.error("[插入规则] - " + users + " 插入规则失败: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
                                         continue;
                                     }
                                     FilterPublicSentiment filterPublicSentiment = new FilterPublicSentiment();
@@ -179,9 +180,9 @@ public class SettingServlet extends HttpServlet {
                                     filterPublicSentiment.setUnexist(filter_unexist);
                                     filterPublicSentiment.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRulePubSentiment(filterPublicSentiment);
-                                    logger.info("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
+                                    logger.info("[插入规则] - " + users + " 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
                                 } catch (Exception e) {
-                                    logger.error("[插入规则] - 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
+                                    logger.error("[插入规则] - " + users + " 插入规则成功: " + filter_name + "\t" + filter_matcher + "\t" + filter_unexist + " [FilterPubSentiment]");
                                 }
                             }
                         }
@@ -192,16 +193,16 @@ public class SettingServlet extends HttpServlet {
                                 //f = new String(f.getBytes("iso-8859-1"),"UTF-8");
                                 try {
                                     if (f.length() < 1) {
-                                        logger.error("[插入规则] - 插入规则失败: " + f + " [FilterWhiteList]");
+                                        logger.error("[插入规则] - " + users + " 插入规则失败: " + f + " [FilterWhiteList]");
                                         continue;
                                     }
                                     FilterWhiteList filterWhiteList = new FilterWhiteList();
                                     filterWhiteList.setUrl(f);
                                     filterWhiteList.setSubmiter(UserMonitor.getUserMonitor(request).getUsername());
                                     UserMonitor.getUserMonitor(request).getFilterRuleMonitor().addRuleWhiteList(filterWhiteList);
-                                    logger.info("[插入规则] - 插入规则成功: " + f + "[FilterWhiteList]");
+                                    logger.info("[插入规则] - " + users + " 插入规则成功: " + f + "[FilterWhiteList]");
                                 } catch (Exception e) {
-                                    logger.error("[插入规则] - 插入规则失败: " + f + " [FilterWhiteList]");
+                                    logger.error("[插入规则] - " + users + " 插入规则失败: " + f + " [FilterWhiteList]");
                                 }
                             }
                         }
@@ -311,7 +312,7 @@ public class SettingServlet extends HttpServlet {
                 new_user.setPassword(user.getPassword());
                 new_user.setPrivilege(user.getPrivilege());
                 UserMonitor.getUserMonitor(user).modifyUserInfo(new_user);
-                logger.info("[修改资料] - " + new_user.toString());
+                logger.info("[修改资料] - " + users + " " + new_user.toString());
                 request.getSession().setAttribute("login_user", new_user);
                 response.getWriter().print("success");
                 if ( UserMonitor.getUserMonitor(request).hasFullInfo() ) {
@@ -412,23 +413,23 @@ public class SettingServlet extends HttpServlet {
                                 monitor.getFilterRuleMonitor().addRuleWhiteList(whiteList);
                                 if (monitor.getSpiderInfoMonitor().deleteSpiderInfo(Integer.parseInt(id))) {
                                     flag *= 1;
-                                    logger.info("[审核淘汰] - id: " + id);
+                                    logger.info("[审核淘汰] - " + users + "  id: " + id);
                                 } else {
                                     flag *= 0;
-                                    logger.error("[审核失败] - id: " + id);
+                                    logger.error("[审核失败] - " + users + "  id: " + id);
                                 }
                             } else if (op.equals("1")) {
                                 if (UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().approvedThrough(Integer.parseInt(id))) {
                                     flag *= 1;
-                                    logger.info("[审核通过] - id: " + id);
+                                    logger.info("[审核通过] - " + users + "  id: " + id);
                                 } else {
                                     flag *= 0;
-                                    logger.error("[审核失败] - id: " + id);
+                                    logger.error("[审核失败] - " + users + "  id: " + id);
                                 }
                             }
                         } catch (Exception e) {
                             flag *= 0;
-                            logger.info("[审核异常] - " + id + " 审核时出现异常");
+                            logger.info("[审核异常] - " + users + " " + id + " 审核时出现异常");
                         }
                     }
                     if ( flag == 1 ) {
@@ -447,7 +448,7 @@ public class SettingServlet extends HttpServlet {
             } else if ( operate.equals("system-stop") ) {
                 if ( UserMonitor.getUserMonitor(request).isAdministor() ) {
                     UserMonitor.setConfigStatusByType(SystemConfig.CONFIG_TYPE_SYSTEM, SystemConfig.SYSTEM_STOP);
-                    logger.info("[关闭系统]");
+                    logger.info("[关闭系统] - " + users);
                     response.getWriter().print("success");
                 } else {
                     response.getWriter().print("permission denied");
@@ -455,7 +456,7 @@ public class SettingServlet extends HttpServlet {
             } else if ( operate.equals("system-start") ) {
                 if ( UserMonitor.getUserMonitor(request).isAdministor() ) {
                     UserMonitor.setConfigStatusByType(SystemConfig.CONFIG_TYPE_SYSTEM, SystemConfig.SYSTEM_START);
-                    logger.info("[开启系统]");
+                    logger.info("[开启系统] - " + users);
                     response.getWriter().print("success");
                 } else {
                     response.getWriter().print("permission denied");
@@ -503,26 +504,26 @@ public class SettingServlet extends HttpServlet {
                         if ( UserMonitor.getConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE) == SystemConfig.EXAMINE_START ) {  //判断当前状态
                             if ( value.equals("0") ) {  //判断用户操作 0表示用户想要关闭系统
                                 UserMonitor.setConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE, SystemConfig.EXAMINE_STOP);
-                                logger.info("[审核模块] - 审核模块已被关闭");
+                                logger.info("[审核模块] - " + users + " 审核模块已被关闭");
                                 response.getWriter().print("examine stop");
                             }
                             else {
-                                logger.info("[审核模块] - 非法操作");
+                                logger.info("[审核模块] - " + users + " 非法操作");
                                 response.getWriter().print("wrong start");
                             }
                         } else if ( UserMonitor.getConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE) == SystemConfig.EXAMINE_STOP ) {
                             if ( value.equals("1") ) {
                                 UserMonitor.setConfigStatusByType(SystemConfig.CONFIG_TYPE_EXAMINE, SystemConfig.EXAMINE_START);
-                                logger.info("[审核模块] - 审核模块已被开启");
+                                logger.info("[审核模块] - " + users + " 审核模块已被开启");
                                 response.getWriter().print("examine start");
                             } else {
-                                logger.info("[审核模块] - 非法操作");
+                                logger.info("[审核模块] - " + users + " 非法操作");
                                 response.getWriter().print("wrong stop");
                             }
                         }
                     } else {
                         response.getWriter().print("permission denied");
-                        logger.info("[审核模块] - 没有权限");
+                        logger.info("[审核模块] - " + users + " 没有权限");
                     }
                 }
             } else if ( operate.equals("deluser") ) {
