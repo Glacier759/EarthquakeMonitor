@@ -216,7 +216,6 @@ public class SettingServlet extends HttpServlet {
                         User user = userList.get(index);
                         JSONObject jsonObject = new JSONObject();
                         jsonObject.put("uid", user.getUid());
-                        jsonObject.put("nickname", user.getNickname());
                         jsonObject.put("email", user.getEmail());
                         jsonObject.put("mobile", user.getMobile());
                         jsonObject.put("position", user.getPosition());
@@ -296,13 +295,12 @@ public class SettingServlet extends HttpServlet {
                         return;
                     }
                 }
-                new_user.setNickname(request.getParameter("nickname"));
                 new_user.setRealname(request.getParameter("realname"));
                 new_user.setQqnumber(request.getParameter("qqnumber"));
                 new_user.setPosition(request.getParameter("position"));
                 new_user.setWorkplace(request.getParameter("workplace"));
 
-                if ( new_user.getEmail().equals("null") || new_user.getNickname().equals("null") || new_user.getMobile().equals("null")
+                if ( new_user.getEmail().equals("null") || new_user.getMobile().equals("null")
                         || new_user.getQqnumber().equals("null") || new_user.getPosition().equals("null") || new_user.getRealname().equals("null")
                         || new_user.getWorkplace().equals("null") ) {
                     response.getWriter().print("userinfo not full");
@@ -491,7 +489,7 @@ public class SettingServlet extends HttpServlet {
                         jsonObject.put("title", spiderInfo.getTitle());
                     }
                     jsonObject.put("type", spiderInfo.getType());
-                    jsonObject.put("crawldate", format.format(spiderInfo.getPage_date()));
+                    jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
                     jsonObject.put("pagedate", format.format(spiderInfo.getPage_date()));
                     jsonObject.put("origin", SpiderInfoUtils.originToString(spiderInfo.getOrigin()));
                     jsonArray.put(jsonObject);
@@ -579,6 +577,10 @@ public class SettingServlet extends HttpServlet {
                 }
             }
             else if ( operate.equals("modify") ) {
+                if ( !UserMonitor.getUserMonitor(request).isAdministor() ) {
+                    response.getWriter().print("permission denied");
+                    return;
+                }
                 if ( type != null && type.equals("public") ) {
                     String name = request.getParameter("filter-name");
                     String matcher = request.getParameter("filter-matcher");

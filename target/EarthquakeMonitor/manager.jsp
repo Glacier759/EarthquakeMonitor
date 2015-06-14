@@ -79,10 +79,10 @@
                         <br />
                         <div class="row">
                             <div class="col-md-2"></div>
-                            <div class="col-md-8">
+                            <div class="col-md-6">
                                 <div class="input-group">
-                                    <span class="input-group-addon">昵称</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getNickname()%>" name="nickname" value="<%=user.getNickname()%>" />
+                                    <span class="input-group-addon">名称</span>
+                                    <input type="text" class="form-control" placeholder="<%=user.getRealname()%>" name="realname" value="<%=user.getRealname()%>" />
                                 </div>
                             </div>
                             <div class="col-md-2"></div>
@@ -112,13 +112,6 @@
                         <br /><br />
                         <div class="row">
                             <div class="col-md-2"></div>
-                            <div class="col-md-3">
-                                <div class="input-group">
-                                    <span class="input-group-addon">姓名</span>
-                                    <input type="text" class="form-control" placeholder="<%=user.getRealname()%>" name="realname" value="<%=user.getRealname()%>" />
-                                </div>
-                            </div>
-                            <div class="col-md-1"></div>
                             <div class="col-md-4">
                                 <div class="input-group">
                                     <span class="input-group-addon">QQ</span>

@@ -73,7 +73,7 @@
             });
         });
     });
-    <%if( session.getAttribute("userinfo") != null && session.getAttribute("userinfo").equals("n") && !request.getServletPath().equals("/manager.jsp") && !request.getServletPath().equals("/index.jsp")) {%>
+    <%if( session.getAttribute("userinfo") != null && session.getAttribute("userinfo").equals("n") && !request.getServletPath().equals("/manager.jsp") && !request.getServletPath().equals("/index.jsp") && !request.getServletPath().equals("/index_v2.jsp")) {%>
     userinfo();
     <%}%>
     function userinfo() {

@@ -159,10 +159,10 @@ public class UserMonitor {
     }
 
     public boolean hasFullInfo() {
-        if ( user.getEmail() != null && user.getMobile() != null && user.getNickname() != null
+        if ( user.getEmail() != null && user.getMobile() != null
                 && user.getRealname() !=null && user.getPosition() != null && user.getWorkplace() != null
                 && user.getQqnumber() != null ) {
-            if ( user.getEmail().length() != 0 && user.getMobile().length() != 0 && user.getNickname().length() != 0
+            if ( user.getEmail().length() != 0 && user.getMobile().length() != 0
                     && user.getRealname().length() != 0 && user.getWorkplace().length() != 0
                     && user.getPosition().length() != 0 && user.getQqnumber().length() != 0 ) {
                 return true;

@@ -70,7 +70,6 @@ public class LoginServlet extends HttpServlet {
             }
         }
         else if ( choice.equals("register") ) {
-            String nickname = request.getParameter("nickname");
             String email = request.getParameter("email");
             String mobile = request.getParameter("mobile");
             String password = request.getParameter("password");
@@ -80,12 +79,12 @@ public class LoginServlet extends HttpServlet {
             String workplace = request.getParameter("workplace");
             String position = request.getParameter("position");
 
-            if ( nickname == null || email == null || mobile == null || password == null || repassword == null
+            if ( email == null || mobile == null || password == null || repassword == null
                     || realname == null || qqnumber == null || workplace == null || position == null ) {
                 response.getWriter().print("has null");
                 return;
             }
-            if ( nickname.length() == 0 || email.length() == 0 || mobile.length() == 0 || password.length() == 0
+            if ( email.length() == 0 || mobile.length() == 0 || password.length() == 0
                     || repassword.length() == 0 || realname.length() == 0 || qqnumber.length() == 0
                     || workplace.length() == 0 || position.length() == 0 ) {
                 response.getWriter().print("has null");
@@ -94,7 +93,7 @@ public class LoginServlet extends HttpServlet {
 
             if ( !password.equals(repassword) ) {
                 response.getWriter().print("password not equal");
-                logger.info("[注册] - " + nickname + " 两次密码不一致");
+                logger.info("[注册] - " + realname + " 两次密码不一致");
                 return;
             }
             User user = null;
@@ -116,7 +115,7 @@ public class LoginServlet extends HttpServlet {
             }
             else {
                 response.getWriter().print("input mail error");
-                logger.info("[注册] - " + nickname + " 输入的邮箱格式有误");
+                logger.info("[注册] - " + realname + " 输入的邮箱格式有误");
                 return;
             }
             if ( UserUtils.isMobile(mobile) ) {
@@ -124,11 +123,10 @@ public class LoginServlet extends HttpServlet {
             }
             else {
                 response.getWriter().print("input mobile error");
-                logger.info("[注册] - " + nickname + " 输入的手机格式有误");
+                logger.info("[注册] - " + realname + " 输入的手机格式有误");
                 return;
             }
             user.setPassword(password);
-            user.setNickname(nickname);
             user.setPosition(position);
             user.setQqnumber(qqnumber);
             user.setRealname(realname);
@@ -136,7 +134,7 @@ public class LoginServlet extends HttpServlet {
 
             UserMonitor.registUser(user);
             response.getWriter().print("register success");
-            logger.info("[注册] - " + nickname + " 注册成功");
+            logger.info("[注册] - " + realname + " 注册成功");
         }
     }
 

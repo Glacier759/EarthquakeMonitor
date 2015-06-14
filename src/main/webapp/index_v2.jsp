@@ -78,10 +78,10 @@
                         <div class="modal-body">
                             <div class="row">
                                 <div class="col-md-2"></div>
-                                <div class="col-md-8">
+                                <div class="col-md-5">
                                     <div class="input-group">
-                                        <span class="input-group-addon">昵称</span>
-                                        <input type="text" class="form-control" name="nickname" value="" placeholder="昵称" />
+                                        <span class="input-group-addon">名称</span>
+                                        <input type="text" class="form-control" name="realname" value="" placeholder="真实姓名" />
                                     </div>
                                 </div>
                             </div>
@@ -131,13 +131,6 @@
                             <br /><br />
                             <div class="row">
                                 <div class="col-md-2"></div>
-                                <div class="col-md-3">
-                                    <div class="input-group">
-                                        <span class="input-group-addon">姓名</span>
-                                        <input type="text" class="form-control" name="realname" value="" placeholder="真实姓名" />
-                                    </div>
-                                </div>
-                                <div class="col-md-1"></div>
                                 <div class="col-md-4">
                                     <div class="input-group">
                                         <span class="input-group-addon">QQ</span>

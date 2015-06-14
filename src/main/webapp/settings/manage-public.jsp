@@ -322,6 +322,8 @@
                             alert("修改失败");
                         } else if ( msg == "ok" ) {
                             alert("修改成功");
+                        } else if ( msg == "permission denied" ) {
+                            alert("您没有权限进行此操作");
                         }
                         location.reload();
                     }

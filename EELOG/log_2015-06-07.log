@@ -1,0 +1,108 @@
+2015-06-07 16:44:06 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:27)}
+2015-06-07 16:44:06 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:30)}
+2015-06-07 16:49:23 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:49:23 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:49:23 [ERROR] - [正则错误] - 正则表达式语法错误 FilterPublicSentiment{name='我*测试*中', matcher='这是一个错误的正则表达式asda[ss', unexist='爬虫 地震', id=10, createDate=Sun Jun 07 16:42:45 CST 2015} {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:49)}
+2015-06-07 16:49:56 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:49:56 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:49:56 [ERROR] - [正则错误] - 正则表达式语法错误 FilterPublicSentiment{name='我*测试*中', matcher='这是一个错误的正则表达式asda[ss', unexist='爬虫 地震', id=10, createDate=Sun Jun 07 16:42:45 CST 2015} {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:50)}
+2015-06-07 16:50:15 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:50:15 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:50:15 [INFO] - [舆情监测] - 文章包含了指明不允许存在的字符集 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:54)}
+2015-06-07 16:50:38 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:50:39 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:50:39 [INFO] - [舆情监测] - 文章包含了指明不允许存在的字符集 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:53)}
+2015-06-07 16:51:35 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:51:35 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:51:35 [INFO] - [舆情监测] - 文章包含了指明不允许存在的字符集 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:53)}
+2015-06-07 16:51:42 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:51:42 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:51:42 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:44)}
+2015-06-07 16:52:03 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:52:03 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:52:03 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:45)}
+2015-06-07 16:52:28 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:52:28 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:52:28 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:45)}
+2015-06-07 16:52:40 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:52:40 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:52:40 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 16:53:11 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:53:11 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:53:11 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 16:53:34 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:53:34 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:53:34 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 16:53:55 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:53:55 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:53:55 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 16:54:24 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:54:24 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:54:24 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 16:59:31 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:59:32 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:59:32 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 16:59:50 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 16:59:50 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 16:59:50 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 17:00:09 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:00:09 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:00:09 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:49)}
+2015-06-07 17:01:05 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:01:05 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:01:05 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 17:01:18 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:01:18 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:01:18 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:47)}
+2015-06-07 17:01:39 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:01:39 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:01:39 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 17:01:51 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:01:51 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:01:51 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 17:02:02 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:02:02 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:02:02 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 17:02:20 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:02:20 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:02:20 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 17:02:33 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:02:33 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:02:33 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 17:02:41 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:02:41 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:02:41 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 17:18:56 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:18:56 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:18:56 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 17:19:21 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:19:21 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:19:21 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 17:19:32 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:19:32 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:19:32 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 17:19:49 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:19:49 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:19:49 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:48)}
+2015-06-07 17:20:00 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:20:00 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:20:00 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 17:20:37 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:20:37 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:22:27 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:22:27 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:22:27 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:45)}
+2015-06-07 17:22:48 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:22:48 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:22:48 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:44)}
+2015-06-07 17:23:09 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:23:09 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:23:09 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:46)}
+2015-06-07 17:23:28 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:23:28 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:24:00 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:24:00 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:24:00 [INFO] - [正则匹配] - 正则匹配成功 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:47)}
+2015-06-07 17:24:19 [INFO] - [舆情监测] - 正在进行舆情监测判断 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:28)}
+2015-06-07 17:24:19 [INFO] - [舆情监测] - 匹配到 ruleID = 14 对应的舆情监测规则 10 {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:31)}
+2015-06-07 17:24:19 [INFO] - [正则匹配] - 正则匹配失败 http://spider.glacierlx.com {com.glacier.earthquake.monitor.server.util.PublicSentimentUtils.publicSentimentJudge(PublicSentimentUtils.java:49)}

@@ -26,7 +26,7 @@
     <property name="os.name" value="Linux"/>
     <property name="classworlds.conf" value="/usr/maven/apache-maven-3.2.3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/lib64/mpi/gcc/openmpi/lib64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/home/glacier/Java/IDE/IDEA/idea-IU-141.713.2/bin:/usr/lib64/mpi/gcc/openmpi/lib64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
