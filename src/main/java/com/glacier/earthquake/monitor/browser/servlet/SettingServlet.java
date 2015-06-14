@@ -348,6 +348,7 @@ public class SettingServlet extends HttpServlet {
                         for (SpiderInfo spiderInfo : spiderInfos) {
                             JSONObject jsonObject = new JSONObject();
                             jsonObject.put("id", spiderInfo.getId());
+                            jsonObject.put("url", spiderInfo.getUrl());
                             jsonObject.put("source", spiderInfo.getSource());
                             if ( spiderInfo.getOrigin() == Scheduler.SERVICE_WEIBO_SEARCH ) {
                                 jsonObject.put("title", spiderInfo.getTitle().substring(1, 30));
@@ -480,7 +481,7 @@ public class SettingServlet extends HttpServlet {
                 for ( SpiderInfo spiderInfo : spiderInfos ) {
                     JSONObject jsonObject = new JSONObject();
                     jsonObject.put("id", spiderInfo.getId());
-//                    jsonObject.put("url", spiderInfo.getUrl());
+                    jsonObject.put("url", spiderInfo.getUrl());
                     jsonObject.put("source", spiderInfo.getSource());
                     if ( spiderInfo.getOrigin() == Scheduler.SERVICE_WEIBO_SEARCH ) {
                         jsonObject.put("title", spiderInfo.getTitle().substring(1, 30));

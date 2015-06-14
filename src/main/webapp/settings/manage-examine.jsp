@@ -109,9 +109,10 @@
                                 <tr>
                                     <th class="text-center" width="30px"></th>
                                     <th class="text-center" width="60px">来源</th>
-                                    <th class="text-center" width="220px">标题</th>
-                                    <th class="text-center" width="350px">摘要</th>
-                                    <th class="text-center" width="180px">获取时间 / 发布时间</th>
+                                    <th class="text-center" width="170px">标题</th>
+                                    <th class="text-center" width="380px">摘要</th>
+                                    <th class="text-center" width="100px">获取时间</th>
+                                    <th class="text-center" width="100px">发布时间</th>
                                     <th class="text-center" width="80px">设置</th>
                                 </tr>
                                 </thead>
@@ -223,19 +224,28 @@
                             row.appendChild(col2);
                             var col3 = document.createElement("th");
                             col3.setAttribute("class", "text-center");
-                            var ele2 = document.createElement("p");
-                            ele2.innerHTML = objson[i].crawldate + "<br />" + objson[i].pagedate;
-                            col3.appendChild(ele2);
+                            col3.appendChild(document.createTextNode(objson[i].crawldate));
                             row.appendChild(col3);
+                            var col3_ = document.createElement("th");
+                            col3_.setAttribute("class", "text-center");
+                            col3_.appendChild(document.createTextNode(objson[i].pagedate));
+                            row.appendChild(col3_);
 
                             var col4 = document.createElement("th");
                             col4.setAttribute("class", "text-center");
                             var button1 = document.createElement("button");
+//                            button1.setAttribute("class", "btn btn-success");
+//                            button1.setAttribute("type", "button");
+//                            button1.setAttribute("value", objson[i].id);
+//                            button1.setAttribute("onclick", "show(this.value)");
+//                            button1.innerHTML = "查看";
+//                            col4.appendChild(button1);
+                            var button1 = document.createElement("a");
                             button1.setAttribute("class", "btn btn-success");
-                            button1.setAttribute("type", "button");
-                            button1.setAttribute("value", objson[i].id);
-                            button1.setAttribute("onclick", "show(this.value)");
+                            button1.setAttribute("target", "_blank");
+                            button1.setAttribute("href", objson[i].url);
                             button1.innerHTML = "查看";
+                            col4.appendChild(button1);
                             col4.appendChild(button1);
                             row.appendChild(col4);
                             document.getElementById("filters-tbody").appendChild(row);

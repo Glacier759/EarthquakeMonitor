@@ -123,7 +123,7 @@
                             row.setAttribute("class", "text-info");
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");
-                            col1.appendChild(document.createTextNode(objson[i].nickname));
+                            col1.appendChild(document.createTextNode(objson[i].realname));
                             row.appendChild(col1);
                             var col2 = document.createElement("th");
                             col2.setAttribute("class", "text-center");
