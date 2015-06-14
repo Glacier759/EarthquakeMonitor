@@ -109,9 +109,9 @@
                                 <tr>
                                     <th class="text-center" width="30px"></th>
                                     <th class="text-center" width="60px">来源</th>
-                                    <th class="text-center" width="250px">标题</th>
-                                    <th class="text-center">来源地址</th>
-                                    <th class="text-center" width="180px">获取时间</th>
+                                    <th class="text-center" width="220px">标题</th>
+                                    <th class="text-center" width="350px">摘要</th>
+                                    <th class="text-center" width="180px">获取时间 / 发布时间</th>
                                     <th class="text-center" width="80px">设置</th>
                                 </tr>
                                 </thead>
@@ -212,16 +212,20 @@
 
                             var col1 = document.createElement("th");
                             col1.setAttribute("class", "text-center");
+                            col1.setAttribute("style", "overflow-x:hidden;");
                             col1.appendChild(document.createTextNode(objson[i].title));
                             row.appendChild(col1);
                             var col2 = document.createElement("th");
                             col2.setAttribute("class", "text-center");
-                            col2.setAttribute("style", "overflow-x:hidden;");
-                            col2.appendChild(document.createTextNode(objson[i].url));
+                            var ele = document.createElement("p");
+                            ele.innerHTML = objson[i].source;
+                            col2.appendChild(ele);
                             row.appendChild(col2);
                             var col3 = document.createElement("th");
                             col3.setAttribute("class", "text-center");
-                            col3.appendChild(document.createTextNode(objson[i].crawldate));
+                            var ele2 = document.createElement("p");
+                            ele2.innerHTML = objson[i].crawldate + "<br />" + objson[i].pagedate;
+                            col3.appendChild(ele2);
                             row.appendChild(col3);
 
                             var col4 = document.createElement("th");

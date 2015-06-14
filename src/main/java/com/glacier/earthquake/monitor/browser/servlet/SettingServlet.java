@@ -350,7 +350,7 @@ public class SettingServlet extends HttpServlet {
                         for (SpiderInfo spiderInfo : spiderInfos) {
                             JSONObject jsonObject = new JSONObject();
                             jsonObject.put("id", spiderInfo.getId());
-                            jsonObject.put("url", spiderInfo.getUrl());
+                            jsonObject.put("source", spiderInfo.getSource());
                             if ( spiderInfo.getOrigin() == Scheduler.SERVICE_WEIBO_SEARCH ) {
                                 jsonObject.put("title", spiderInfo.getTitle().substring(1, 30));
                             }
@@ -359,6 +359,7 @@ public class SettingServlet extends HttpServlet {
                             }
                             jsonObject.put("type", spiderInfo.getType());
                             jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
+                            jsonObject.put("pagedate", format.format(spiderInfo.getPage_date()));
                             jsonObject.put("origin", SpiderInfoUtils.originToString(spiderInfo.getOrigin()));
                             jsonArray.put(jsonObject);
                         }
@@ -491,6 +492,7 @@ public class SettingServlet extends HttpServlet {
                     }
                     jsonObject.put("type", spiderInfo.getType());
                     jsonObject.put("crawldate", format.format(spiderInfo.getPage_date()));
+                    jsonObject.put("pagedate", format.format(spiderInfo.getPage_date()));
                     jsonObject.put("origin", SpiderInfoUtils.originToString(spiderInfo.getOrigin()));
                     jsonArray.put(jsonObject);
                 }

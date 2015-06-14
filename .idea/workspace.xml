@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba5457ad-e6f0-40e5-889a-d8d63a805ad4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EELOG/log_" afterPath="$PROJECT_DIR$/EELOG/log_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bbs_search/BBSCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bbs_search/BBSCrawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Downloader.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Downloader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Main.java" afterPath="$PROJECT_DIR$/src/test/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/StringUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/StringUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/tieba_search/TiebaCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/tieba_search/TiebaCrawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/WeiboCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/WeiboCrawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-spider_filter.xml" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/WEB-INF/classes/sqlmap/sqlmap-spider_filter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sqlmap/sqlmap-spider_filter.xml" afterPath="$PROJECT_DIR$/target/classes/sqlmap/sqlmap-spider_filter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/settings/manage-examine.jsp" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/settings/manage-examine.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/showdata.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/showdata.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/EarthquakeMonitor/showdata.jsp" afterPath="$PROJECT_DIR$/target/EarthquakeMonitor/showdata.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EarthquakeMonitor.iws" />
@@ -35,111 +31,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaiduSearchCrawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/baidu_search/BaiduSearchCrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.645161">
-              <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BBSCrawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bbs_search/BBSCrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TiebaCrawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/tieba_search/TiebaCrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7142856">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Downloader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Downloader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SettingServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+              <caret line="361" column="97" selection-start-line="361" selection-start-column="97" selection-end-line="361" selection-end-column="97" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/util/StringUtils.java">
+      <file leaf-file-name="showdata.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/showdata.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7359#7360#0" expanded="true" />
-                <element signature="e#7411#7412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeiboCrawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/WeiboCrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="134" column="55" selection-start-line="134" selection-start-column="55" selection-end-line="134" selection-end-column="55" />
+            <state vertical-scroll-proportion="-6.6666665">
+              <caret line="111" column="68" selection-start-line="111" selection-start-column="68" selection-end-line="111" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeiboDownloader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/WeiboDownloader.java">
+      <file leaf-file-name="manage-examine.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state vertical-scroll-proportion="1.1150442">
+              <caret line="112" column="72" selection-start-line="112" selection-start-column="72" selection-end-line="112" selection-end-column="72" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-              <folding>
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -203,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/manager.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/about.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-disaster.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-public.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-user.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-warning.jsp" />
@@ -213,8 +129,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/baidu_search/BaiduSearchCrawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Scheduler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlmap/sqlmap-spider_filter.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/showdata.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bing_search/BingCrawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weixin_search/WeixinCrawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bbs_search/BBSCrawler.java" />
@@ -223,6 +137,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Downloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/WeiboCrawler.java" />
         <option value="$PROJECT_DIR$/src/test/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showdata.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp" />
       </list>
     </option>
   </component>
@@ -302,6 +219,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -854,9 +774,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -875,7 +792,7 @@
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Jetty Server.EarthQuake">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
@@ -1297,7 +1214,8 @@
       <workItem from="1433693597302" duration="58000" />
       <workItem from="1433760864053" duration="764000" />
       <workItem from="1434097976226" duration="23217000" />
-      <workItem from="1434197457752" duration="13971000" />
+      <workItem from="1434197457752" duration="14908000" />
+      <workItem from="1434265962716" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="使用idea整合git进行版本控制">
       <created>1433599735324</created>
@@ -1383,11 +1301,17 @@
       <option name="project" value="LOCAL" />
       <updated>1434205694306</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="采用两层正则解决页面摘要提取问题">
+      <created>1434264773728</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1434264773728</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358335000" />
+    <option name="totallyTimeSpent" value="359566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
@@ -1402,7 +1326,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.72039473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51480263" sideWeight="0.4848255" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49835527" sideWeight="0.4848255" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2996965" sideWeight="0.48519737" order="0" side_tool="false" content_ui="combo" />
@@ -1474,7 +1398,8 @@
     <MESSAGE value="修改导航栏增加跳转至数据记录的链接 完善审核模块使得可以直接将网页加入白名单" />
     <MESSAGE value="当前待完成的功能 - 1.网页时间 2.页面摘要 3.修改匹配正则 关键字间隔不能有标点符号 4.关键字高亮显示" />
     <MESSAGE value="1.网页时间 ok 4.关键字高亮显示ok； 亟待找到更合适的正则解决页面摘要等问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.网页时间 ok 4.关键字高亮显示ok； 亟待找到更合适的正则解决页面摘要等问题" />
+    <MESSAGE value="采用两层正则解决页面摘要提取问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="采用两层正则解决页面摘要提取问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1513,7 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1528,7 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1536,7 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.7367458">
           <caret line="1624" column="4" selection-start-line="1624" selection-start-column="4" selection-end-line="1624" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,7 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21799308">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1552,7 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8719723">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1560,7 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3114187">
           <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1568,7 +1487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6851211">
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1576,7 +1494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21799308">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1584,12 +1501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43598616">
           <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding>
-            <element signature="e#1022#1023#0" expanded="false" />
-            <element signature="e#1066#1067#0" expanded="false" />
-            <element signature="e#1170#1171#0" expanded="false" />
-            <element signature="e#1211#1212#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1597,14 +1508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5017301">
           <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-          <folding>
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1041#1042#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1129#1130#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1129#1130#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1636,14 +1539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56401384">
           <caret line="47" column="18" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="4" />
-          <folding>
-            <element signature="e#293#294#0" expanded="false" />
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#762#763#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1666,7 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1682,7 +1576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.666666">
           <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1690,14 +1583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
           <caret line="64" column="109" selection-start-line="64" selection-start-column="109" selection-end-line="64" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.074074">
-          <caret line="61" column="109" selection-start-line="61" selection-start-column="109" selection-end-line="61" selection-end-column="109" />
           <folding />
         </state>
       </provider>
@@ -1722,7 +1607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="109" selection-start-line="64" selection-start-column="109" selection-end-line="64" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1746,7 +1630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1754,16 +1637,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1434192409465" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..spider_information..." />
-            <marker date="1434192409465" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..spider_information..." />
-            <marker date="1434192409465" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..spider_information..." />
-            <marker date="1434192409465" expanded="true" signature="-1:-1" placeholder="UPDATE spide..." />
-            <marker date="1434192409465" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1434192409465" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1434192409465" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..spider_information..." />
-            <marker date="1434192409465" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..spider_information..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1771,10 +1645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-          <folding>
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1782,7 +1652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="298" column="0" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1790,7 +1659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1798,18 +1666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-          <folding>
-            <marker date="1434202036286" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1434202036286" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..spider_filter..." />
-            <marker date="1434202036286" expanded="true" signature="-1:-1" placeholder="UPDATE spide..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/showdata.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="112" column="72" selection-start-line="112" selection-start-column="72" selection-end-line="112" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1818,7 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="138" selection-start-line="112" selection-start-column="32" selection-end-line="113" selection-end-column="138" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1826,7 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1834,7 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1846,38 +1699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/baidu_search/BaiduSearchCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.645161">
-          <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bbs_search/BBSCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/tieba_search/TiebaCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/weibo_sina/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding>
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1885,7 +1710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1893,27 +1717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7359#7360#0" expanded="true" />
-            <element signature="e#7411#7412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Downloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1921,17 +1724,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="134" column="55" selection-start-line="134" selection-start-column="55" selection-end-line="134" selection-end-column="55" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/core/Downloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38581315">
+          <caret line="99" column="57" selection-start-line="99" selection-start-column="57" selection-end-line="99" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7142856">
+        <state vertical-scroll-proportion="0.6574395">
           <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/tieba_search/TiebaCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4152249">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/bbs_search/BBSCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28373703">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/server/crawler/module/baidu_search/BaiduSearchCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3199269">
+          <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glacier/earthquake/monitor/browser/servlet/SettingServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="361" column="97" selection-start-line="361" selection-start-column="97" selection-end-line="361" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showdata.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="111" column="68" selection-start-line="111" selection-start-column="68" selection-end-line="111" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/settings/manage-examine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1150442">
+          <caret line="112" column="72" selection-start-line="112" selection-start-column="72" selection-end-line="112" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
