@@ -37,5 +37,9 @@
             }
         }
     }
+    if ( !request.getServletPath().equals("/index.jsp") ) {
 %>
-
+<div id="header-pic" align="center">
+    <img src="<%=request.getContextPath()%>/resource/img/pic.jpg" style="height: 25%; width: 100%; border: 0;" />
+</div>
+<%}%>
