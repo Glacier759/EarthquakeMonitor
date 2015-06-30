@@ -9,6 +9,7 @@ com/glacier/earthquake/monitor/server/configure/crawler/TaskManager.class
 com/glacier/earthquake/monitor/server/crawler/module/baidu_search/BaiduSearchCrawler.class
 com/glacier/earthquake/monitor/server/util/MyHttpConnectionManager$1.class
 com/glacier/earthquake/monitor/server/configure/crawler/TaskTiebaSearch.class
+com/glacier/earthquake/monitor/server/util/PublicSentimentUtils.class
 com/glacier/earthquake/monitor/server/crawler/module/tieba_search/TiebaDownloader.class
 com/glacier/earthquake/monitor/server/crawler/module/weixin_search/WeixinDownloader.class
 com/glacier/earthquake/monitor/server/pojo/SystemConfig.class
@@ -32,6 +33,7 @@ com/glacier/earthquake/monitor/server/crawler/module/bing_search/BingDownloader.
 com/glacier/earthquake/monitor/server/crawler/module/weixin_search/WeixinCrawler.class
 com/glacier/earthquake/monitor/server/util/MyHttpConnectionManager.class
 com/glacier/earthquake/monitor/server/pojo/Account.class
+com/glacier/earthquake/monitor/browser/util/SpiderInfoUtils.class
 com/glacier/earthquake/monitor/browser/servlet/SettingServlet.class
 com/glacier/earthquake/monitor/server/util/MyHttpConnectionManager$2.class
 com/glacier/earthquake/monitor/browser/servlet/LoginServlet.class

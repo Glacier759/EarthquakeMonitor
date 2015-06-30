@@ -37,7 +37,7 @@
             }
         }
     }
-    if ( !request.getServletPath().equals("/index.jsp") ) {
+    if ( !request.getServletPath().contains("/index") ) {
 %>
 <div id="header-pic" align="center">
     <img src="<%=request.getContextPath()%>/resource/img/pic.jpg" style="height: 25%; width: 100%; border: 0;" />
