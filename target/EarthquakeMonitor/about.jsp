@@ -23,53 +23,7 @@
     <body>
         <%@include file="header.jsp" %>
         <%@include file="system.jsp" %>
-        <div id="header-div">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-left">
-                            <li><a href="<%=request.getContextPath()%>/index.jsp"><h4>主页</h4></a></li>
-                            <li><a href="#" onclick="system()"><h4>系统</h4></a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h4>设置<span class="caret"></span></h4></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="<%=request.getContextPath()%>/settings/manage-disaster.jsp">灾情获取匹配式管理</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="<%=request.getContextPath()%>/settings/manage-public.jsp">舆情监测匹配式管理</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="<%=request.getContextPath()%>/settings/manage-whitelist.jsp">白名单管理</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="<%=request.getContextPath()%>/settings/manage-warning.jsp">报警设置</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="<%=request.getContextPath()%>/settings/manage-examine.jsp">审核管理</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h4>用户<span class="caret"></span></h4></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="<%=request.getContextPath()%>/manager.jsp">修改资料</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="<%=request.getContextPath()%>/settings/manage-user.jsp">用户管理</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
-            </nav>
-        </div>
+        <%@include file="navbar.jsp"%>
 
         <div class="row">
             <div class="col-md-2"></div>

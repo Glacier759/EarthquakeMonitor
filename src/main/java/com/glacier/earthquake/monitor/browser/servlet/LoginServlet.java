@@ -48,6 +48,7 @@ public class LoginServlet extends HttpServlet {
                     privilege = "root";
                 }
                 request.getSession().setAttribute("login_user", user);
+                request.getSession().setAttribute("username", user.getRealname());
                 request.getSession().setAttribute("login", "true");
                 request.getSession().setAttribute("privilege", privilege);
 

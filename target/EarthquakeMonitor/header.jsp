@@ -16,8 +16,10 @@
                         session.setAttribute("login_user", UserMonitor.getUserInfoByEmail(username));
                     }
                     User this_user = (User) (session.getAttribute("login_user"));
+                    session.setAttribute("username", this_user.getRealname());
                     if ( this_user != null ) {
                         session.setAttribute("login", "true");
+                        session.setAttribute("username", this_user.getRealname());
                     } else {
                         session.setAttribute("login", "false");
                     }

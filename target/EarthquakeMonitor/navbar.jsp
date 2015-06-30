@@ -54,8 +54,29 @@
                 <ul class="nav navbar-nav navbar-right">
                     <%if ( request.getServletPath().contains("/index") && session.getAttribute("login") != null && session.getAttribute("login").equals("true") ) {%>
                     <li><a href="#" id="logout"><h4>退出</h4></a></li>
-                    <%} else if ( request.getServletPath().equals("/showdata.jsp") ) {%>
+                    <%}if ( request.getServletPath().equals("/showdata.jsp") ) {%>
                     <li><a href="<%=request.getContextPath()%>/setting.jsp"><h4>查看数据概览</h4></a></li>
+                    <%}if ( request.getServletPath().equals("/setting.jsp") ) {%>
+                    <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
+                    <%}if ( request.getServletPath().contains("/settings/") ) {%>
+                    <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
+                    <%}if ( request.getServletPath().equals("/settings/manage-disaster.jsp") ) {%>
+                    <li><a href="#"><h4>灾情获取匹配式管理</h4></a></li>
+                    <%}if ( request.getServletPath().equals("/settings/manage-public.jsp") ) {%>
+                    <li><a href="#"><h4>舆情监测匹配式管理</h4></a></li>
+                    <%}if ( request.getServletPath().equals("/settings/manage-whitelist.jsp") ) {%>
+                    <li><a href="#"><h4>白名单管理</h4></a></li>
+                    <%}if ( request.getServletPath().equals("/settings/manage-warning.jsp") ) {%>
+                    <li><a href="#"><h4>报警设置</h4></a></li>
+                    <%}if ( request.getServletPath().equals("/settings/manage-examine.jsp") ) {%>
+                    <li><a href="#"><h4>审核管理</h4></a></li>
+                    <%}if ( request.getServletPath().equals("/manager.jsp") ) {%>
+                    <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
+                    <li><a href="#"><h4>修改资料</h4></a></li>
+                    <%}if ( request.getServletPath().equals("/settings/manage-user.jsp") ) {%>
+                    <li><a href="#"><h4>用户管理</h4></a></li>
+                    <%}if ( request.getServletPath().contains("/about.jsp") ) {%>
+                    <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>
                     <%}%>
                 </ul>
             </div>

@@ -185,6 +185,18 @@
                 </form>
             </div>
         </div>
+        <%} else if (session.getAttribute("login") != null && session.getAttribute("login").equals("true")) {%>
+        <br /><br />
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2 align="center">您好, <%=session.getAttribute("username")%></h2>
+                <br />
+                <p align="center">
+                    <a class="btn btn-lg btn-info" href="<%=request.getContextPath()%>/showdata.jsp">查看详细记录</a>
+                </p>
+            </div>
+        </div>
         <%}%>
         <script>
             $(function () {
@@ -242,6 +254,6 @@
                 return false;   //阻止表单的默认提交事件
             });
         </script>
-
+        <%@include file="footer.jsp" %>
     </body>
 </html>
