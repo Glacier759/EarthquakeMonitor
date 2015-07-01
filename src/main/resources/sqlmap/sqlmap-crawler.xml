@@ -13,6 +13,8 @@
         <result column="status" property="status" />
         <result column="origin" property="origin" />
         <result column="page_date" property="page_date" />
+        <result column="examiner" property="examiner" />
+        <result column="examine_date" property="examine_date" />
     </resultMap>
 
     <select id="getSpiderInfoList" resultMap="spider_info">
@@ -32,8 +34,8 @@
     </update>
 
     <insert id="insertSpiderInfo" parameterType="SpiderInfo">
-        INSERT INTO spider_information( url, title, source, type, rule_id, status, origin, page_date )
-                                VALUES( #{url}, #{title}, #{source}, #{type}, #{rule_id}, #{status}, #{origin}, #{page_date});
+        INSERT INTO spider_information( url, title, source, type, rule_id, status, origin, page_date, examiner, examine_date )
+                                VALUES( #{url}, #{title}, #{source}, #{type}, #{rule_id}, #{status}, #{origin}, #{page_date}, #{examine_date});
     </insert>
 
     <delete id="deleteSpiderInfo" parameterType="SpiderInfo">

@@ -48,8 +48,8 @@
 
 
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
                 <div id="filters-div">
                     <div class="row">
                         <button type="button" class="btn btn-info" onclick="showAll()">全部</button>
@@ -61,11 +61,15 @@
                         <table class="table table-striped table-bordered table-hover" id="filters-table" style="table-layout: fixed;">
                             <thead>
                             <tr>
+                                <th class="text-center" width="50px">序号</th>
                                 <th class="text-center" width="60px">来源</th>
-                                <th class="text-center" width="170px">标题</th>
-                                <th class="text-center" width="390px">摘要</th>
                                 <th class="text-center" width="110px">获取时间</th>
                                 <th class="text-center" width="110px">发布时间</th>
+                                <th class="text-center" width="170px">标题</th>
+                                <th class="text-center" width="320px">摘要</th>
+                                <th class="text-center" width="80px">状态</th>
+                                <th class="text-center" width="100px">审核人</th>
+                                <th class="text-center" width="110px">审核时间</th>
                                 <th class="text-center" width="80px">设置</th>
                             </tr>
                             </thead>
@@ -74,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
         </div>
         <div class="modal fade" id="show-div" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -140,6 +144,14 @@
                             row.setAttribute("class", "text-info");
                             row.setAttribute("status", objson[i].type);
 
+                            var num = document.createElement("td");
+                            num.setAttribute("class", "text-center");
+                            var span_num = document.createElement("span");
+//                            span_num.setAttribute("class", "label label-success");
+                            span_num.innerHTML = "1";
+                            num.appendChild(span_num);
+                            row.appendChild(num);
+
                             var col0 = document.createElement("td");
                             col0.setAttribute("class", "text-center");
                             var span0 = document.createElement("span");
@@ -148,29 +160,48 @@
                             col0.appendChild(span0);
                             row.appendChild(col0);
 
-                            var col1 = document.createElement("th");
-                            col1.setAttribute("class", "text-center");
-                            col1.setAttribute("style", "overflow-x:hidden;");
-                            col1.appendChild(document.createTextNode(objson[i].title));
-                            row.appendChild(col1);
-                            var col2 = document.createElement("th");
-                            col2.setAttribute("class", "text-center");
+                            var crawldate = document.createElement("th");
+                            crawldate.setAttribute("class", "text-center");
+                            crawldate.appendChild(document.createTextNode(objson[i].crawldate));
+                            row.appendChild(crawldate);
+                            var pagedate = document.createElement("th");
+                            pagedate.setAttribute("class", "text-center");
+                            pagedate.appendChild(document.createTextNode(objson[i].pagedate));
+                            row.appendChild(pagedate);
+
+                            var title = document.createElement("th");
+                            title.setAttribute("class", "text-center");
+                            title.setAttribute("style", "overflow-x:hidden;");
+                            title.appendChild(document.createTextNode(objson[i].title));
+                            row.appendChild(title);
+                            var source = document.createElement("th");
+                            source.setAttribute("class", "text-center");
                             var ele = document.createElement("p");
                             ele.innerHTML = objson[i].source;
-                            col2.appendChild(ele);
+                            source.appendChild(ele);
                             //col2.appendChild(document.createTextNode("<br />新疆且末县（经度85.8°北纬36.7°）可能将发生MS≥6.6级地震 "));
-                            row.appendChild(col2);
-                            var col3 = document.createElement("th");
-                            col3.setAttribute("class", "text-center");
-                            col3.appendChild(document.createTextNode(objson[i].crawldate));
-                            row.appendChild(col3);
-                            var col3_ = document.createElement("th");
-                            col3_.setAttribute("class", "text-center");
-                            col3_.appendChild(document.createTextNode(objson[i].pagedate));
-                            row.appendChild(col3_);
+                            row.appendChild(source);
 
-                            var col4 = document.createElement("th");
-                            col4.setAttribute("class", "text-center");
+                            var status = document.createElement("th");
+                            status.setAttribute("class", "text-center");
+                            var span_status = document.createElement("span");
+                            span_status.setAttribute("class", "label label-info");
+                            span_status.innerHTML = "已审核";
+                            status.appendChild(span_status);
+                            row.appendChild(status);
+
+                            var examiner = document.createElement("th");
+                            examiner.setAttribute("class", "text-center");
+                            examiner.appendChild(document.createTextNode("戴着眼镜的狗"));
+                            row.appendChild(examiner);
+
+                            var examine_date = document.createElement("th");
+                            examine_date.setAttribute("class", "text-center");
+                            examine_date.appendChild(document.createTextNode(objson[i].pagedate));
+                            row.appendChild(examine_date);
+
+                            var check = document.createElement("th");
+                            check.setAttribute("class", "text-center");
 //                            var button1 = document.createElement("button");
 //                            button1.setAttribute("class", "btn btn-success");
 //                            button1.setAttribute("type", "button");
@@ -183,8 +214,8 @@
                             button1.setAttribute("target", "_blank");
                             button1.setAttribute("href", objson[i].url);
                             button1.innerHTML = "查看";
-                            col4.appendChild(button1);
-                            row.appendChild(col4);
+                            check.appendChild(button1);
+                            row.appendChild(check);
                             document.getElementById("filters-tbody").appendChild(row);
                         }
                     }
