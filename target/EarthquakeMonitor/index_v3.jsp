@@ -193,7 +193,8 @@
                 <h2 align="center">您好, <%=session.getAttribute("username")%></h2>
                 <br />
                 <p align="center">
-                    <a class="btn btn-lg btn-info" href="<%=request.getContextPath()%>/showdata.jsp">查看详细记录</a>
+                    <a class="btn btn-lg btn-info" href="<%=request.getContextPath()%>/showdata.jsp">查看记录</a>
+                    <a class="btn btn-lg btn-danger" href="#" id="logout">退出登录</a>
                 </p>
             </div>
         </div>
@@ -215,7 +216,6 @@
                     data: ajax_data,
                     success: function (msg) {    //msg是后台调用action时，你传过来的参数
                         if (msg == "login success") {
-                            alert("登录成功");
                             location.reload();
                         } else if (msg == "login failed") {
                             alert("登录失败");

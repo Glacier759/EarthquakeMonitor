@@ -31,9 +31,9 @@ public class SpiderInfoMonitor {
         return Data2Object.getSpiderInfo_Status(status);
     }
 
-    public boolean approvedThrough(Integer id) {
+    public boolean approvedThrough(SpiderInfo spiderInfo) {
         if ( user.getPrivilege() >= UserMonitor.USER_ADMINISTATOR ) {
-            Object2Data.approvedThrough(id);
+            Object2Data.approvedThrough(spiderInfo);
             return true;
         }
         return false;

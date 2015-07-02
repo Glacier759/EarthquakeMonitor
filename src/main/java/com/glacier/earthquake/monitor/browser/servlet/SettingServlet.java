@@ -21,10 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by glacier on 15-5-26.
@@ -346,21 +343,19 @@ public class SettingServlet extends HttpServlet {
                     List<SpiderInfo> spiderInfos = UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().getSpiderInfo_Status(0);
                     if (spiderInfos != null) {
                         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                        int index = 1;
                         for (SpiderInfo spiderInfo : spiderInfos) {
                             JSONObject jsonObject = new JSONObject();
+                            jsonObject.put("number", index ++);
                             jsonObject.put("id", spiderInfo.getId());
                             jsonObject.put("url", spiderInfo.getUrl());
                             jsonObject.put("source", spiderInfo.getSource());
-                            if ( spiderInfo.getOrigin() == Scheduler.SERVICE_WEIBO_SEARCH ) {
-                                jsonObject.put("title", spiderInfo.getTitle().substring(1, 30));
-                            }
-                            else {
-                                jsonObject.put("title", spiderInfo.getTitle());
-                            }
+                            jsonObject.put("title", SpiderInfoUtils.titleByOrigin(spiderInfo.getOrigin(), spiderInfo.getTitle()));
                             jsonObject.put("type", spiderInfo.getType());
                             jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
                             jsonObject.put("pagedate", format.format(spiderInfo.getPage_date()));
                             jsonObject.put("origin", SpiderInfoUtils.originToString(spiderInfo.getOrigin()));
+                            jsonObject.put("status", SpiderInfoUtils.statusToString(spiderInfo.getStatus()));
                             jsonArray.put(jsonObject);
                         }
                     }
@@ -405,8 +400,10 @@ public class SettingServlet extends HttpServlet {
                     UserMonitor monitor = UserMonitor.getUserMonitor(request);
                     for ( String id : id_array ) {
                         try {
+                            SpiderInfo spiderInfo = monitor.getSpiderInfoMonitor().getSpiderInfoByID(Integer.parseInt(id));
+                            spiderInfo.setExaminer(monitor.getUsername());
+                            spiderInfo.setExamine_date(new Date());
                             if (op.equals("0")) {
-                                SpiderInfo spiderInfo = monitor.getSpiderInfoMonitor().getSpiderInfoByID(Integer.parseInt(id));
                                 FilterWhiteList whiteList = new FilterWhiteList();
                                 whiteList.setUrl(spiderInfo.getUrl());
                                 whiteList.setSubmiter(monitor.getUsername());
@@ -419,7 +416,7 @@ public class SettingServlet extends HttpServlet {
                                     logger.error("[审核失败] - " + users + "  id: " + id);
                                 }
                             } else if (op.equals("1")) {
-                                if (UserMonitor.getUserMonitor(request).getSpiderInfoMonitor().approvedThrough(Integer.parseInt(id))) {
+                                if (monitor.getSpiderInfoMonitor().approvedThrough(spiderInfo)) {
                                     flag *= 1;
                                     logger.info("[审核通过] - " + users + "  id: " + id);
                                 } else {
@@ -478,22 +475,27 @@ public class SettingServlet extends HttpServlet {
                     spiderInfos.addAll(spiderInfos_1);
                 }
 
+                Collections.sort(spiderInfos, new Comparator<SpiderInfo>() {
+                    public int compare(SpiderInfo o1, SpiderInfo o2) {
+                        return new Long(o2.getExamine_date().getTime() - o1.getExamine_date().getTime()).intValue();
+                    }
+                });
                 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                int index = 1;
                 for ( SpiderInfo spiderInfo : spiderInfos ) {
                     JSONObject jsonObject = new JSONObject();
+                    jsonObject.put("number", index ++);
                     jsonObject.put("id", spiderInfo.getId());
                     jsonObject.put("url", spiderInfo.getUrl());
                     jsonObject.put("source", spiderInfo.getSource());
-                    if ( spiderInfo.getOrigin() == Scheduler.SERVICE_WEIBO_SEARCH ) {
-                        jsonObject.put("title", spiderInfo.getTitle().substring(1, 30));
-                    }
-                    else {
-                        jsonObject.put("title", spiderInfo.getTitle());
-                    }
+                    jsonObject.put("title", SpiderInfoUtils.titleByOrigin(spiderInfo.getOrigin(), spiderInfo.getTitle()));
                     jsonObject.put("type", spiderInfo.getType());
                     jsonObject.put("crawldate", format.format(spiderInfo.getCreate_date()));
                     jsonObject.put("pagedate", format.format(spiderInfo.getPage_date()));
                     jsonObject.put("origin", SpiderInfoUtils.originToString(spiderInfo.getOrigin()));
+                    jsonObject.put("status", SpiderInfoUtils.statusToString(spiderInfo.getStatus()));
+                    jsonObject.put("examiner", SpiderInfoUtils.examinerToString(spiderInfo.getExaminer()));
+                    jsonObject.put("examinedate", format.format(spiderInfo.getExamine_date()));
                     jsonArray.put(jsonObject);
                 }
                 response.getWriter().print(jsonArray.toString());

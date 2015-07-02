@@ -163,6 +163,9 @@
             </div>
         </div>
         <script>
+            <%if ( request.getParameter("password") != null && request.getParameter("password").equals("true") ) {%>
+            show();
+            <%}%>
             $(function () {
                 $('[data-toggle="tooltip"]').tooltip();
             });

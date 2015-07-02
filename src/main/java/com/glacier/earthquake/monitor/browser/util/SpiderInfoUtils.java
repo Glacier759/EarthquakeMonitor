@@ -1,5 +1,7 @@
 package com.glacier.earthquake.monitor.browser.util;
 
+import com.glacier.earthquake.monitor.server.crawler.core.Scheduler;
+import com.glacier.earthquake.monitor.server.pojo.SpiderInfo;
 import com.glacier.earthquake.monitor.server.pojo.SystemConfig;
 
 /**
@@ -27,6 +29,34 @@ public class SpiderInfoUtils {
             return "贴吧";
         }
         return "未知";
+    }
+
+    public static String statusToString(int status) {
+        if ( status == SpiderInfo.INFO_APPROVED ) {
+            return "已审核";
+        }
+        else if ( status == SpiderInfo.INFO_NOTAPPROVED ) {
+            return "未审核";
+        }
+        return "未知";
+    }
+
+    public static String titleByOrigin(int origin, String title) {
+        if ( origin == Scheduler.SERVICE_WEIBO_SEARCH ) {
+            return title.substring(1, 30) + "...";
+        }
+        else {
+            return title;
+        }
+    }
+
+    public static String examinerToString(String examiner) {
+        if ( examiner == null ) {
+            return "未知";
+        }
+        else {
+            return examiner;
+        }
     }
 
 }

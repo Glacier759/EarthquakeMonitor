@@ -31,12 +31,13 @@
             <div class="col-md-6">
                 <div class="alert alert-success alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4>信息审核<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h4>
+                    <h3>信息审核<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h3>
                     <br />
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-8" align="center">
-                            <p>您可以对以下信息进行审核, 普通用户可以查看审核通过的信息</p>
+                            <h3>您可以对以下信息进行审核, 普通用户可以查看审核通过的信息</h3>
+                            <p>&nbsp;</p>
                         </div>
                         <div class="col-lg-2"></div>
                     </div>
@@ -46,8 +47,8 @@
         </div>
         <br /><br />
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
                 <div id="filters-div">
                     <form id="examine-ok" method="post">
                         <div class="row">
@@ -61,11 +62,13 @@
                                 <thead>
                                 <tr>
                                     <th class="text-center" width="30px"></th>
+                                    <th class="text-center" width="50px">序号</th>
                                     <th class="text-center" width="60px">来源</th>
+                                    <th class="text-center" width="110px">获取时间</th>
+                                    <th class="text-center" width="110px">发布时间</th>
                                     <th class="text-center" width="170px">标题</th>
-                                    <th class="text-center" width="380px">摘要</th>
-                                    <th class="text-center" width="100px">获取时间</th>
-                                    <th class="text-center" width="100px">发布时间</th>
+                                    <th class="text-center" width="320px">摘要</th>
+                                    <th class="text-center" width="80px">状态</th>
                                     <th class="text-center" width="80px">设置</th>
                                 </tr>
                                 </thead>
@@ -81,7 +84,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
         </div>
         <div class="modal fade" id="show-div" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -155,52 +158,60 @@
                             col0.appendChild(select);
                             row.appendChild(col0);
 
-                            var col0_ = document.createElement("td");
-                            col0_.setAttribute("valign", "middle");
-                            col0_.setAttribute("class", "text-center");
+
+                            var num = document.createElement("td");
+                            num.setAttribute("class", "text-center");
+                            var span_num = document.createElement("span");
+                            span_num.innerHTML = objson[i].number;
+                            num.appendChild(span_num);
+                            row.appendChild(num);
+
+                            var origin = document.createElement("td");
+                            origin.setAttribute("class", "text-center");
                             var span0 = document.createElement("span");
                             span0.setAttribute("class", "label label-default");
                             span0.innerHTML = objson[i].origin;
-                            col0_.appendChild(span0);
-                            row.appendChild(col0_);
+                            origin.appendChild(span0);
+                            row.appendChild(origin);
 
-                            var col1 = document.createElement("th");
-                            col1.setAttribute("class", "text-center");
-                            col1.setAttribute("style", "overflow-x:hidden;");
-                            col1.appendChild(document.createTextNode(objson[i].title));
-                            row.appendChild(col1);
-                            var col2 = document.createElement("th");
-                            col2.setAttribute("class", "text-center");
+                            var crawldate = document.createElement("th");
+                            crawldate.setAttribute("class", "text-center");
+                            crawldate.appendChild(document.createTextNode(objson[i].crawldate));
+                            row.appendChild(crawldate);
+                            var pagedate = document.createElement("th");
+                            pagedate.setAttribute("class", "text-center");
+                            pagedate.appendChild(document.createTextNode(objson[i].pagedate));
+                            row.appendChild(pagedate);
+
+                            var title = document.createElement("th");
+                            title.setAttribute("class", "text-center");
+                            title.setAttribute("style", "overflow-x:hidden;");
+                            title.appendChild(document.createTextNode(objson[i].title));
+                            row.appendChild(title);
+                            var source = document.createElement("th");
+                            source.setAttribute("class", "text-center");
                             var ele = document.createElement("p");
                             ele.innerHTML = objson[i].source;
-                            col2.appendChild(ele);
-                            row.appendChild(col2);
-                            var col3 = document.createElement("th");
-                            col3.setAttribute("class", "text-center");
-                            col3.appendChild(document.createTextNode(objson[i].crawldate));
-                            row.appendChild(col3);
-                            var col3_ = document.createElement("th");
-                            col3_.setAttribute("class", "text-center");
-                            col3_.appendChild(document.createTextNode(objson[i].pagedate));
-                            row.appendChild(col3_);
+                            source.appendChild(ele);
+                            row.appendChild(source);
 
-                            var col4 = document.createElement("th");
-                            col4.setAttribute("class", "text-center");
-                            var button1 = document.createElement("button");
-//                            button1.setAttribute("class", "btn btn-success");
-//                            button1.setAttribute("type", "button");
-//                            button1.setAttribute("value", objson[i].id);
-//                            button1.setAttribute("onclick", "show(this.value)");
-//                            button1.innerHTML = "查看";
-//                            col4.appendChild(button1);
+                            var status = document.createElement("th");
+                            status.setAttribute("class", "text-center");
+                            var span_status = document.createElement("span");
+                            span_status.setAttribute("class", "label label-info");
+                            span_status.innerHTML = objson[i].status;
+                            status.appendChild(span_status);
+                            row.appendChild(status);
+
+                            var check = document.createElement("th");
+                            check.setAttribute("class", "text-center");
                             var button1 = document.createElement("a");
                             button1.setAttribute("class", "btn btn-success");
                             button1.setAttribute("target", "_blank");
                             button1.setAttribute("href", objson[i].url);
                             button1.innerHTML = "查看";
-                            col4.appendChild(button1);
-                            col4.appendChild(button1);
-                            row.appendChild(col4);
+                            check.appendChild(button1);
+                            row.appendChild(check);
                             document.getElementById("filters-tbody").appendChild(row);
                         }
                     }

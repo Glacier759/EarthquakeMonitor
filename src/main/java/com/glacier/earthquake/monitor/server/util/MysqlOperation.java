@@ -61,7 +61,7 @@ public interface MysqlOperation {
 
     public List<SpiderInfo> getSpiderInfo_TypeAndStatus(SpiderInfo spiderInfo);
 
-    public void approvedThrough(Integer id);
+    public void approvedThrough(SpiderInfo spiderInfo);
 
     public void insertSpiderInfo(SpiderInfo spiderInfo);
 

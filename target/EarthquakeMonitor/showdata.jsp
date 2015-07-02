@@ -55,6 +55,7 @@
                         <button type="button" class="btn btn-info" onclick="showAll()">全部</button>
                         <button type="button" class="btn btn-warning" onclick="showDis()">灾情获取</button>
                         <button type="button" class="btn btn-success" onclick="showPub()">舆情监控</button>
+                        <a type="button" class="btn btn-default" href="<%=request.getContextPath()%>/settings/manage-whitelist.jsp#tips">白名单</a>
                     </div>
                     <br />
                     <div class="row">
@@ -148,7 +149,7 @@
                             num.setAttribute("class", "text-center");
                             var span_num = document.createElement("span");
 //                            span_num.setAttribute("class", "label label-success");
-                            span_num.innerHTML = "1";
+                            span_num.innerHTML = objson[i].number;
                             num.appendChild(span_num);
                             row.appendChild(num);
 
@@ -179,25 +180,24 @@
                             var ele = document.createElement("p");
                             ele.innerHTML = objson[i].source;
                             source.appendChild(ele);
-                            //col2.appendChild(document.createTextNode("<br />新疆且末县（经度85.8°北纬36.7°）可能将发生MS≥6.6级地震 "));
                             row.appendChild(source);
 
                             var status = document.createElement("th");
                             status.setAttribute("class", "text-center");
                             var span_status = document.createElement("span");
                             span_status.setAttribute("class", "label label-info");
-                            span_status.innerHTML = "已审核";
+                            span_status.innerHTML = objson[i].status;
                             status.appendChild(span_status);
                             row.appendChild(status);
 
                             var examiner = document.createElement("th");
                             examiner.setAttribute("class", "text-center");
-                            examiner.appendChild(document.createTextNode("戴着眼镜的狗"));
+                            examiner.appendChild(document.createTextNode(objson[i].examiner));
                             row.appendChild(examiner);
 
                             var examine_date = document.createElement("th");
                             examine_date.setAttribute("class", "text-center");
-                            examine_date.appendChild(document.createTextNode(objson[i].pagedate));
+                            examine_date.appendChild(document.createTextNode(objson[i].examinedate));
                             row.appendChild(examine_date);
 
                             var check = document.createElement("th");

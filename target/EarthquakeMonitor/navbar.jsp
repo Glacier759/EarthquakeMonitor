@@ -31,13 +31,12 @@
                             <li><a href="<%=request.getContextPath()%>/settings/manage-whitelist.jsp">白名单管理</a></li>
                         </ul>
                     </li>
+                    <li><a href="<%=request.getContextPath()%>/settings/manage-examine.jsp"><h4>审核管理</h4></a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                             <h4>设置<span class="caret"></span></h4></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="<%=request.getContextPath()%>/settings/manage-warning.jsp">报警设置</a></li>
-                            <li class="divider"></li>
-                            <li><a href="<%=request.getContextPath()%>/settings/manage-examine.jsp">审核管理</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -46,15 +45,15 @@
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="<%=request.getContextPath()%>/manager.jsp">修改资料</a></li>
                             <li class="divider"></li>
+                            <li><a href="<%=request.getContextPath()%>/manager.jsp?password=true">修改密码</a></li>
+                            <li class="divider"></li>
                             <li><a href="<%=request.getContextPath()%>/settings/manage-user.jsp">用户管理</a></li>
                         </ul>
                     </li>
                     <li><a href="<%=request.getContextPath()%>/about.jsp"><h4>关于</h4></a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <%if ( request.getServletPath().contains("/index") && session.getAttribute("login") != null && session.getAttribute("login").equals("true") ) {%>
-                    <li><a href="#" id="logout"><h4>退出</h4></a></li>
-                    <%}if ( request.getServletPath().equals("/showdata.jsp") ) {%>
+                    <%if ( request.getServletPath().equals("/showdata.jsp") ) {%>
                     <li><a href="<%=request.getContextPath()%>/setting.jsp"><h4>查看数据概览</h4></a></li>
                     <%}if ( request.getServletPath().equals("/setting.jsp") ) {%>
                     <li><a href="<%=request.getContextPath()%>/showdata.jsp"><h4>查看数据记录</h4></a></li>

@@ -223,10 +223,10 @@ public class Object2Data {
         }
     }
 
-    public static void approvedThrough(Integer id) {
+    public static void approvedThrough(SpiderInfo spiderInfo) {
         init();
         try {
-            mapper.approvedThrough(id);
+            mapper.approvedThrough(spiderInfo);
             session.commit();
         }catch (Exception e) {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
