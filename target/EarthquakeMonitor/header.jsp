@@ -3,6 +3,7 @@
 <%@ page import="com.glacier.earthquake.monitor.server.pojo.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
+    int flag = 0;
     if ( session.getAttribute("login") == null || session.getAttribute("login").equals("false") || session.getAttribute("login_user") == null ) {
         Cookie[] cookies = request.getCookies();
         if (cookies != null) {
@@ -35,13 +36,19 @@
                     } else {
                         session.setAttribute("userinfo", "n");
                     }
+                    flag = 1;
                 }
             }
         }
+    }
+    else {
+        flag = 1;
     }
     if ( !request.getServletPath().contains("/index") ) {
 %>
 <div id="header-pic" align="center">
     <img src="<%=request.getContextPath()%>/resource/img/pic.jpg" style="height: 25%; width: 100%; border: 0;" />
 </div>
-<%}%>
+<%} if ( flag == 0 && !request.getServletPath().equals("/index.jsp") && !request.getServletPath().equals("/about.jsp") ) {
+    request.getRequestDispatcher("/index.jsp").forward(request, response);
+}%>

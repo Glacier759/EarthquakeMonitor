@@ -42,8 +42,7 @@
                                 <div class="col-md-8">
                                     <div class="input-group">
                                         <span class="input-group-addon">账户</span>
-                                        <input type="text" class="form-control" name="username" value=""
-                                               placeholder="手机号/邮箱"/>
+                                        <input type="text" class="form-control" name="username" value="" placeholder="手机号/邮箱" required autofocus/>
                                         <input type="hidden" name="choice" value="login"/>
                                     </div>
                                 </div>
@@ -55,8 +54,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group">
                                         <span class="input-group-addon">密码</span>
-                                        <input type="password" class="form-control" name="password" value=""
-                                               placeholder="登录密码"/>
+                                        <input type="password" class="form-control" name="password" value="" placeholder="登录密码" required/>
                                     </div>
                                 </div>
                                 <div class="col-lg-4"></div>
@@ -90,7 +88,7 @@
                                 <div class="col-md-5">
                                     <div class="input-group">
                                         <span class="input-group-addon">名称</span>
-                                        <input type="text" class="form-control" name="realname" value="" placeholder="真实姓名"/>
+                                        <input type="text" class="form-control" name="realname" value="" placeholder="真实姓名" required autofocus/>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +99,7 @@
                                 <div class="col-md-5">
                                     <div class="input-group">
                                         <span class="input-group-addon">邮箱</span>
-                                        <input type="text" class="form-control" name="email" value="" placeholder="邮箱"/>
+                                        <input type="text" class="form-control" name="email" value="" placeholder="邮箱" required/>
                                         <input type="hidden" name="choice" value="register"/>
                                     </div>
                                 </div>
@@ -113,7 +111,7 @@
                                 <div class="col-md-5">
                                     <div class="input-group">
                                         <span class="input-group-addon">手机</span>
-                                        <input type="text" class="form-control" name="mobile" value="" placeholder="手机号"/>
+                                        <input type="text" class="form-control" name="mobile" value="" placeholder="手机号" required/>
                                     </div>
                                 </div>
                             </div>
@@ -124,8 +122,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group">
                                         <span class="input-group-addon">密码</span>
-                                        <input type="password" class="form-control" name="password" value=""
-                                               placeholder="登录密码"/>
+                                        <input type="password" class="form-control" name="password" value="" placeholder="登录密码" required/>
                                     </div>
                                 </div>
                                 <div class="col-lg-4"></div>
@@ -137,8 +134,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group">
                                         <span class="input-group-addon">确认密码</span>
-                                        <input type="password" class="form-control" name="repassword" value=""
-                                               placeholder="确认密码"/>
+                                        <input type="password" class="form-control" name="repassword" value="" placeholder="确认密码" required/>
                                     </div>
                                 </div>
                                 <div class="col-lg-4"></div>
@@ -150,7 +146,7 @@
                                 <div class="col-md-4">
                                     <div class="input-group">
                                         <span class="input-group-addon">QQ</span>
-                                        <input type="text" class="form-control" name="qqnumber" value="" placeholder="QQ号"/>
+                                        <input type="text" class="form-control" name="qqnumber" value="" placeholder="QQ号" required/>
                                     </div>
                                 </div>
                             </div>
@@ -161,13 +157,13 @@
                                 <div class="col-md-5">
                                     <div class="input-group">
                                         <span class="input-group-addon">工作单位</span>
-                                        <input type="text" class="form-control" placeholder="工作单位" name="workplace" value=""/>
+                                        <input type="text" class="form-control" placeholder="工作单位" name="workplace" value="" required/>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">职位</span>
-                                        <input type="text" class="form-control" placeholder="职位" name="position" value=""/>
+                                        <input type="text" class="form-control" placeholder="职位" name="position" value="" required/>
                                     </div>
                                 </div>
                                 <div class="col-md-4"></div>
@@ -216,9 +212,9 @@
                     data: ajax_data,
                     success: function (msg) {    //msg是后台调用action时，你传过来的参数
                         if (msg == "login success") {
-                            location.reload();
+                            location.href = "<%=request.getContextPath()%>/index.jsp";
                         } else if (msg == "login failed") {
-                            alert("登录失败");
+                            alert("登录失败 - 账户密码不匹配");
                         } else if (msg == "password not equal") {
                             alert("两次密码不一致");
                         } else if (msg == "mail is existed") {

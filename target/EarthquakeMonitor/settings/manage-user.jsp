@@ -28,12 +28,13 @@
             <div class="col-md-6">
                 <div class="alert alert-warning alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4>警告<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h4>
+                    <h3>警告<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h3>
                     <br />
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-8" align="center">
-                            <p>您可以对以下用户进行删除操作</p>
+                            <h3>您可以对以下用户进行删除操作</h3>
+                            <p>&nbsp;</p>
                         </div>
                         <div class="col-lg-2"></div>
                     </div>

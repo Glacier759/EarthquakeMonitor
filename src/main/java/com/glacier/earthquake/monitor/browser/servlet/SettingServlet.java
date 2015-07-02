@@ -41,6 +41,9 @@ public class SettingServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         request.setCharacterEncoding("utf-8");
         String users = UserMonitor.getUserMonitor(request).getUsername();
+        if ( users == null ) {
+            return;
+        }
         if ( operate != null ) {
             if ( operate.equals("table") ) {
                 JSONArray jsonArray = new JSONArray();

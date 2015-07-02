@@ -24,7 +24,10 @@
         <%@include file="header.jsp"%>
         <%@include file="system.jsp"%>
         <%@include file="navbar.jsp"%>
-        <%User user = (User)session.getAttribute("login_user");%>
+        <%
+            User user = (User)session.getAttribute("login_user");
+            if ( user != null ) {
+        %>
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
@@ -229,6 +232,7 @@
             }
         </script>
         <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
+        <%}%>
         <%@include file="footer.jsp"%>
     </body>
 </html>

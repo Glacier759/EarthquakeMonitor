@@ -38,6 +38,9 @@ public class UserMonitor {
     }
 
     public String getUsername() {
+        if ( user == null ) {
+            return null;
+        }
         return user.getRealname();
     }
 

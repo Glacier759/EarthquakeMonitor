@@ -377,7 +377,7 @@
             function uploadFile(op) {
                 <%
                     User user = (User)session.getAttribute("login_user");
-                    if ( user.getPrivilege() >= 1 ) {
+                    if ( user != null && user.getPrivilege() >= 1 ) {
                 %>
                 var fileObj = document.getElementById("file").files[0]; // 获取文件对象
                 var FileController = "<%=request.getContextPath()%>/UploadServlet?type=public&op=" + op;                // 接收上传文件的后台地址
