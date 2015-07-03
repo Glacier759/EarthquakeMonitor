@@ -37,6 +37,7 @@ com/glacier/earthquake/monitor/browser/util/SpiderInfoUtils.class
 com/glacier/earthquake/monitor/browser/servlet/SettingServlet.class
 com/glacier/earthquake/monitor/server/util/MyHttpConnectionManager$2.class
 com/glacier/earthquake/monitor/browser/servlet/LoginServlet.class
+com/glacier/earthquake/monitor/browser/servlet/SettingServlet$1.class
 com/glacier/earthquake/monitor/server/crawler/module/bing_search/BingCrawler.class
 com/glacier/earthquake/monitor/server/util/Data2Object.class
 com/glacier/earthquake/monitor/server/crawler/core/PageProcessor.class

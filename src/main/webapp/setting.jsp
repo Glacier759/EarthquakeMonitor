@@ -27,6 +27,7 @@
         <%@include file="header.jsp"%>
         <%@include file="system.jsp"%>
         <%@include file="navbar.jsp"%>
+        <%Chart chart = new Chart();%>
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
@@ -47,11 +48,11 @@
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">x</span>
                         </button>
-                        <h4><%=new Chart().today()%></h4>
-                        <p>系统收录信息：<%=Chart.infoCountAll%>条</p>
-                        <p>灾情获取匹配：<%=Chart.infoCountDis%>条</p>
-                        <p>舆情监测匹配：<%=Chart.infoCountPub%>条</p>
-                        <p>今日获取数据：<%=Chart.infoCountToday%>条（灾情：<%=Chart.infoCountTodayDis%>条 / 舆情：<%=Chart.infoCountTodayPub%>条）</p>
+                        <h4><%=chart.today()%></h4>
+                        <p>系统收录信息：<%=chart.infoCountAll()%>条</p>
+                        <p>灾情获取匹配：<%=chart.infoCountDis()%>条</p>
+                        <p>舆情监测匹配：<%=chart.infoCountPub()%>条</p>
+                        <p>今日获取数据：<%=chart.infoCountToday()%>条（灾情：<%=chart.infoCountTodayDis()%>条 / 舆情：<%=chart.infoCountTodayPub()%>条）</p>
                     </div>
                 </div>
                 <div class="row">
@@ -59,8 +60,8 @@
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">x</span>
                         </button>
-                        <p>已通过审核信息：<%=Chart.infoCountPass%>条</p>
-                        <p>未通过审核信息：<%=Chart.infoCountNoPass%>条</p>
+                        <p>已通过审核信息：<%=chart.infoCountPass()%>条</p>
+                        <p>未通过审核信息：<%=chart.infoCountNoPass()%>条</p>
                     </div>
                 </div>
             </div>
@@ -84,14 +85,6 @@
             </div>
         </div>
         <br /><br /><br /><br />
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div id="tiao1" style="min-width:700px;height:400px"></div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <script src="<%=request.getContextPath()%>/resource/js/menu.js"></script>
         <script>
             $(function() {
                 $(".unlogin").click(function(){
@@ -131,9 +124,9 @@
                         name: 'Search Origin',
                         data: [
                                 <%
-                                    for ( String key : Chart.originMap.keySet() ) {
+                                    for ( String key : chart.originMap().keySet() ) {
                                 %>
-                                    ['<%=key%>', <%=Chart.originMap.get(key)%>],
+                                    ['<%=key%>', <%=chart.originMap().get(key)%>],
                                 <%
                                     }
                                 %>
@@ -276,71 +269,6 @@
                     }, {
                         name: 'London',
                         data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
-                    }]
-                });
-            });
-        </script>
-        <script>
-            $(function () {
-                $('#tiao1').highcharts({
-                    chart: {
-                        type: 'bar'
-                    },
-                    title: {
-                        text: '各条规则匹配情况'
-                    },
-                    subtitle: {
-                        text: 'Source: spider.glacierlx.com'
-                    },
-                    xAxis: {
-                        categories: ['Africa', 'America', 'Asia', 'Europe', 'Oceania'],
-                        title: {
-                            text: null
-                        }
-                    },
-                    yAxis: {
-                        min: 0,
-                        title: {
-                            text: 'Population (millions)',
-                            align: 'high'
-                        },
-                        labels: {
-                            overflow: 'justify'
-                        }
-                    },
-                    tooltip: {
-                        valueSuffix: ' millions'
-                    },
-                    plotOptions: {
-                        bar: {
-                            dataLabels: {
-                                enabled: true
-                            }
-                        }
-                    },
-                    legend: {
-                        layout: 'vertical',
-                        align: 'right',
-                        verticalAlign: 'top',
-                        x: -40,
-                        y: 100,
-                        floating: true,
-                        borderWidth: 1,
-                        backgroundColor: '#FFFFFF',
-                        shadow: true
-                    },
-                    credits: {
-                        enabled: false
-                    },
-                    series: [{
-                        name: 'Year 1800',
-                        data: [107, 31, 635, 203, 2]
-                    }, {
-                        name: 'Year 1900',
-                        data: [133, 156, 947, 408, 6]
-                    }, {
-                        name: 'Year 2008',
-                        data: [973, 914, 4054, 732, 34]
                     }]
                 });
             });

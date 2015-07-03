@@ -13,12 +13,12 @@ import java.util.List;
  */
 public class Chart {
 
-    public static int infoCountAll, infoCountDis, infoCountPub;
-    public static int infoCountToday, infoCountPass, infoCountNoPass;
-    public static int infoCountTodayDis, infoCountTodayPub;
-    public static HashMap<String,Integer> timeMap, originMap, ruleMap;
+    private int infoCountAll, infoCountDis, infoCountPub;
+    private int infoCountToday, infoCountPass, infoCountNoPass;
+    private int infoCountTodayDis, infoCountTodayPub;
+    private HashMap<String,Integer> timeMap, originMap, ruleMap;
 
-    static {
+    public Chart() {
         List<SpiderInfo> infoList = Data2Object.getSpiderInfoList();
         infoCountAll = infoList.size();
         infoCountDis = 0; infoCountPub = 0; infoCountToday = 0;
@@ -95,13 +95,48 @@ public class Chart {
         return format.format(new Date());
     }
 
-//    "SELECT count(*) FROM spider_information"; //系统收录信息
-//    "SELECT count(*) FROM spider_information WHERE type = 0"; //灾情获取匹配
-//    "SELECT count(*) FROM spider_information WHERE type = 1"; //舆情监测匹配
-//    "SELECT count(*) FROM spider_information WHERE date_format(create_date, '%Y-%m-%d') = '2015-06-01'"; //今日获取数据
-//    "SELECT count(*) FROM spider_information WHERE status = 1";     //已通过审核信息
-//    "SELECT count(*) FROM spider_information WHERE status = 0";     //未通过审核信息
-//    "SELECT count(create_date),create_date FROM spider_information GROUP BY date_format(create_date, '%Y-%m-%d');"  //近期数据采集情况
-//    "SELECT count(*),origin FROM spider_information GROUP BY origin";   //信息来源分布
-//    "SELECT count(*),rule_id FROM spider_information GROUP BY rule_id";     //过滤规则分布情况
+    public Integer infoCountAll() {
+        return infoCountAll;
+    }
+
+    public Integer infoCountDis() {
+        return infoCountDis;
+    }
+
+    public Integer infoCountPub() {
+        return infoCountPub;
+    }
+
+    public Integer infoCountToday() {
+        return infoCountToday;
+    }
+
+    public Integer infoCountTodayDis() {
+        return infoCountTodayDis;
+    }
+
+    public Integer infoCountTodayPub() {
+        return infoCountTodayPub;
+    }
+
+    public Integer infoCountPass() {
+        return infoCountPass;
+    }
+
+    public Integer infoCountNoPass() {
+        return infoCountNoPass;
+    }
+
+    public HashMap<String, Integer> timeMap() {
+        return timeMap;
+    }
+
+    public HashMap<String, Integer> originMap() {
+        return originMap;
+    }
+
+    public HashMap<String, Integer> ruleMap() {
+        return ruleMap;
+    }
+
 }

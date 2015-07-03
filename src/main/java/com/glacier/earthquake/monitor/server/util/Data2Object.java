@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.io.Reader;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -210,7 +211,7 @@ public class Data2Object {
         }finally {
             destory();
         }
-        return null;
+        return new ArrayList<SpiderInfo>();
     }
 
     public static List<SpiderInfo> getSpiderInfo_Type(int type) {
