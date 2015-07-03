@@ -22,8 +22,8 @@
         <%@include file="../system.jsp"%>
         <%@include file="../navbar.jsp"%>
         <div class="row" align="center">
-            <button id="examine-start" type="button" onclick="fun(1)" class="btn btn-info">开启审核</button>
-            <button id="examine-stop" type="button" onclick="fun(0)" class="btn btn-warning">关闭审核</button>
+            <button id="examine-start" type="button" onclick="fun(1)" class="btn btn-info btn-lg">开启审核</button>
+            <button id="examine-stop" type="button" onclick="fun(0)" class="btn btn-warning btn-lg">关闭审核</button>
         </div>
         <br />
         <div class="row">
@@ -55,6 +55,7 @@
                             <button type="button" class="btn btn-info" onclick="showAll()">全部</button>
                             <button type="button" class="btn btn-warning" onclick="showDis()">灾情获取</button>
                             <button type="button" class="btn btn-success" onclick="showPub()">舆情监控</button>
+                            <a type="button" class="btn btn-default" href="<%=request.getContextPath()%>/settings/manage-whitelist.jsp#tips">白名单</a>
                         </div>
                         <br />
                         <div class="row">
