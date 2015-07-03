@@ -194,6 +194,40 @@
                 </p>
             </div>
         </div>
+        <p style="text-indent: 2em; margin-top: 30px;" align="center">
+            系统将在 <span id="time">5</span> 秒钟后自动跳转至数据概览页面... 点击&nbsp;<button class="btn btn-sm btn-warning" onclick="cancelDelay()" id="cancelBtn">取消</button>&nbsp;跳转
+        </p>
+        <script>
+            delayURL();
+            var localtion_url = "<%=request.getContextPath()%>/showdata.jsp";
+            var flag = 0;
+            function cancelDelay() {
+                if ( flag == 0 ) {
+                    document.getElementById("time").innerHTML = "#";
+                    document.getElementById("cancelBtn").innerHTML = "恢复";
+                    flag = 1;
+                }
+                else {
+                    document.getElementById("time").innerHTML = "5";
+                    document.getElementById("cancelBtn").innerHTML = "取消";
+                    delayURL();
+                    flag = 0;
+                }
+            }
+            function delayURL() {
+                var delay = document.getElementById("time").innerHTML;
+                if (delay != "#") {
+                    var t = setTimeout("delayURL()", 1000);
+                    if (delay > 0) {
+                        delay--;
+                        document.getElementById("time").innerHTML = delay;
+                    } else {
+                        clearTimeout(t);
+                        window.location.href = localtion_url;
+                    }
+                }
+            }
+        </script>
         <%}%>
         <script>
             $(function () {
