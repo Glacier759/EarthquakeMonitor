@@ -108,9 +108,9 @@
             <div class="col-md-2"></div>
         </div>
         <br />
-        <div class="row" align="center">
-            <button type="button" class="btn btn-warning btn-lg" onclick="show()">修改密码</button>
-        </div>
+        <%--<div class="row" align="center">--%>
+            <%--<button type="button" class="btn btn-warning btn-lg" onclick="show()">修改密码</button>--%>
+        <%--</div>--%>
 
         <div class="modal fade" id="show-div" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">

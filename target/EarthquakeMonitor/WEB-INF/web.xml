@@ -66,6 +66,42 @@
         <servlet-name>AndUserListServlet</servlet-name>
         <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndUserListServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AndModifyUserInfoServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndModifyUserInfoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndModifyPasswordServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndModifyPasswordServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndExamineListServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndExamineListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndExamineFilterServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndExamineFilterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndExamineResultServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndExamineResultServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndExamineSwitchServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndExamineSwitchServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndSystemServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndSystemServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndDeleteUserServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndDeleteUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndManagerServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndManagerServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -93,7 +129,7 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AndUserinfoServlet</servlet-name>
-        <url-pattern>/android/userinfo.and</url-pattern>
+        <url-pattern>/android/user_info.and</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AndLogoutServlet</servlet-name>
@@ -123,6 +159,43 @@
         <servlet-name>AndUserListServlet</servlet-name>
         <url-pattern>/android/user_list.and</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndModifyUserInfoServlet</servlet-name>
+        <url-pattern>/android/user_modify.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndModifyPasswordServlet</servlet-name>
+        <url-pattern>/android/password_modify.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndExamineListServlet</servlet-name>
+        <url-pattern>/android/examine_list.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndExamineFilterServlet</servlet-name>
+        <url-pattern>/android/examine_filter.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndExamineResultServlet</servlet-name>
+        <url-pattern>/android/examine_result.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndExamineSwitchServlet</servlet-name>
+        <url-pattern>/android/examine_switch.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndSystemServlet</servlet-name>
+        <url-pattern>/android/system.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndDeleteUserServlet</servlet-name>
+        <url-pattern>/android/user_delete.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndManagerServlet</servlet-name>
+        <url-pattern>/android/manager.and</url-pattern>
+    </servlet-mapping>
+
 
     <welcome-file-list>
         <welcome-file>index_v3.jsp</welcome-file>

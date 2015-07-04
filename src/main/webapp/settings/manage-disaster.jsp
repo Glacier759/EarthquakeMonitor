@@ -12,9 +12,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <title>Earthquake Eye</title>
         <link href="<%=request.getContextPath()%>/resource/css/bootstrap.min.css" rel="stylesheet">
-        <link href="<%=request.getContextPath()%>/resource/css/animate.css">
         <link href="<%=request.getContextPath()%>/resource/css/style.min.css" rel="stylesheet">
-        <link href="<%=request.getContextPath()%>/resource/fonts/google_api.css?family=Montserrat|Varela+Round" rel="stylesheet">
         <script src="<%=request.getContextPath()%>/resource/js/pace.js"></script>
         <link href="<%=request.getContextPath()%>/resource/css/pace-theme-flash.min.css" rel="stylesheet">
         <script src="<%=request.getContextPath()%>/resource/js/jquery-2.1.1.min.js"></script>

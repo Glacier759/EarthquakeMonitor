@@ -1,5 +1,38 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<div class="footer" id="footer">
+    <p align="center">——————————————————————————————————————————————————————————</p>
+    <p align="center">版权所有：新疆维吾尔自治区地震局</p>
+    <p align="center">开发完成：新疆地震局 刘军</p>
+    <p align="center">地址：乌鲁木齐市新市区科学二街338号</p>
+</div>
 <script>
+    function footer_fun() {
+        var bodyHeight = $(document.body).height();
+        var windHeight = $(window).height();
+        var footer = $("#footer");
+        if (bodyHeight < windHeight) {
+            footer.css({
+                width: '100%',
+                height: '50px',
+                position: 'relative',
+                bottom: '0px',
+                left: '0px'
+            });
+        }
+        else {
+            footer.css({
+                width: '100%',
+                height: '50px',
+                position: 'relative',
+                bottom: '0px',
+                left: '0px'
+            });
+        }
+    }
+    $(document).ready(function() {
+       footer_fun();
+    });
+    footer_fun();
     $(function () {
         $(".unlogin").click(function () {
             document.getElementById("menu").click();
@@ -19,6 +52,7 @@
                     $("#system-body").html("系统处于运行状态.");
                     $("#system-start").remove();
                 }
+                footer_fun();
             }
         });
         $("#confirm").modal("toggle");
@@ -38,6 +72,7 @@
                         $("#system-body").html("系统处于运行状态.");
                         $("#system-start").remove();
                     }
+                    footer_fun();
                 }
             });
             $("#confirm").modal("toggle");
@@ -54,6 +89,7 @@
                         alert("系统已经开启");
                         location.reload();
                     }
+                    footer_fun();
                 }
             });
         });
@@ -69,6 +105,7 @@
                         alert("系统已经关闭");
                         location.reload();
                     }
+                    footer_fun();
                 }
             });
         });
