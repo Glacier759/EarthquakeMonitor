@@ -87,8 +87,20 @@
         <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndExamineResultServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>AndExamineSwitchServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndExamineSwitchServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>AndSystemServlet</servlet-name>
         <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndSystemServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndDeleteUserServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndDeleteUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndManagerServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndManagerServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -168,9 +180,22 @@
         <url-pattern>/android/examine_result.and</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+        <servlet-name>AndExamineSwitchServlet</servlet-name>
+        <url-pattern>/android/examine_switch.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>AndSystemServlet</servlet-name>
         <url-pattern>/android/system.and</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndDeleteUserServlet</servlet-name>
+        <url-pattern>/android/user_delete.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndManagerServlet</servlet-name>
+        <url-pattern>/android/manager.and</url-pattern>
+    </servlet-mapping>
+
 
     <welcome-file-list>
         <welcome-file>index_v3.jsp</welcome-file>
