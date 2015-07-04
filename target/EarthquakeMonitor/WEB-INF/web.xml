@@ -46,6 +46,14 @@
         <servlet-name>AndDataServlet</servlet-name>
         <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndDataServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AndFilterTableServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndFilterTableServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AndDeleteFilterServlet</servlet-name>
+        <servlet-class>com.glacier.earthquake.monitor.android.servlet.AndDeleteFilterServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -82,6 +90,14 @@
     <servlet-mapping>
         <servlet-name>AndDataServlet</servlet-name>
         <url-pattern>/android/data.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndFilterTableServlet</servlet-name>
+        <url-pattern>/android/filter_table.and</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AndDeleteFilterServlet</servlet-name>
+        <url-pattern>/android/filter_delete.and</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
