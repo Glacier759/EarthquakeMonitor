@@ -44,11 +44,11 @@
     else {
         flag = 1;
     }
-    if ( !request.getServletPath().contains("/index") ) {
+//    if ( !request.getServletPath().contains("/index") ) {
 %>
 <div id="header-pic" align="center">
-    <img src="<%=request.getContextPath()%>/resource/img/pic.jpg" style="height: 25%; width: 100%; border: 0;" />
+    <img src="<%=request.getContextPath()%>/resource/img/pic.jpg" style="height: 22%; width: 100%; border: 0;" />
 </div>
-<%} if ( flag == 0 && !request.getServletPath().equals("/index.jsp") && !request.getServletPath().equals("/about.jsp") ) {
+<%if ( flag == 0 && !request.getServletPath().equals("/index.jsp") && !request.getServletPath().equals("/about.jsp") ) {
     request.getRequestDispatcher("/index.jsp").forward(request, response);
 }%>

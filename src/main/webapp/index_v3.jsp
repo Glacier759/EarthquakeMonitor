@@ -23,9 +23,6 @@
     <body>
         <%@include file="header.jsp" %>
         <%@include file="system.jsp" %>
-        <div id="header-pic" align="center">
-            <img src="<%=request.getContextPath()%>/resource/img/pic.jpg" style="height: 25%; width: 100%; border: 0;"/>
-        </div>
         <%@include file="navbar.jsp" %>
         <%if (session.getAttribute("login") == null || session.getAttribute("login").equals("false")) {%>
         <div class="row">
